@@ -14,11 +14,15 @@ export type RemarkRingProps = {
    * Default to 7 rem.
    */
   size?: number
+  /** 与历史最好成绩的对比，如「破纪录」「最好 42」 */
+  hint?: string
+  /** 破纪录时高亮，落后时用中性色，避免变成负反馈 */
+  hintHighlight?: boolean
 }
 
 const rootFontSize = parseInt(window.getComputedStyle(document.documentElement).getPropertyValue('font-size'))
 
-export default function RemarkRing({ remark, caption, percentage = null, size = 7 }: RemarkRingProps) {
+export default function RemarkRing({ remark, caption, percentage = null, size = 7, hint, hintHighlight = false }: RemarkRingProps) {
   const clipPath = useMemo((): string | undefined => {
     if (percentage === null) {
       return undefined
@@ -51,6 +55,15 @@ export default function RemarkRing({ remark, caption, percentage = null, size = 
       )}
       <span className="text-xl tabular-nums text-gray-800 dark:text-gray-300">{remark}</span>
       <span className="text-sm font-medium text-gray-600 dark:text-gray-500">{caption}</span>
+      {hint && (
+        <span
+          className={`mt-0.5 text-xs tabular-nums ${
+            hintHighlight ? 'font-medium text-indigo-500 dark:text-indigo-400' : 'text-gray-400 dark:text-gray-500'
+          }`}
+        >
+          {hint}
+        </span>
+      )}
     </div>
   )
 }

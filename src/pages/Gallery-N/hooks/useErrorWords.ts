@@ -28,14 +28,13 @@ export default function useErrorWordData(dict: Dictionary, reload: boolean) {
     if (!wordList) return
 
     db.wordRecords
-      .where('wrongCount')
-      .above(0)
-      .filter((record) => record.dict === dict.id)
+      .where('dict')
+      .equals(dict.id)
       .toArray()
-      .then((records) => {
+      .then((allRecords) => {
         const groupRecords: groupRecord[] = []
 
-        records.forEach((record) => {
+        allRecords.forEach((record) => {
           let groupRecord = groupRecords.find((g) => g.word === record.word)
           if (!groupRecord) {
             groupRecord = { word: record.word, records: [] }
@@ -44,9 +43,16 @@ export default function useErrorWordData(dict: Dictionary, reload: boolean) {
           groupRecord.records.push(record as WordRecord)
         })
 
+        // 只看最近一次的表现：最近一次全对说明已经掌握，移出错题集；
+        // 统计口径仍然汇总全部历史记录，保留错误次数和易错字母的分布
+        const wrongRecords = groupRecords.filter((groupRecord) => {
+          const latest = groupRecord.records.reduce((acc, cur) => (cur.timeStamp > acc.timeStamp ? cur : acc))
+          return latest.wrongCount > 0
+        })
+
         const res: TErrorWordData[] = []
 
-        groupRecords.forEach((groupRecord) => {
+        wrongRecords.forEach((groupRecord) => {
           const errorLetters = {} as Record<string, number>
           groupRecord.records.forEach((record) => {
             for (const index in record.mistakes) {

@@ -1,6 +1,6 @@
 import type { WordUpdateAction } from '../InputHandler'
 import { TypingContext } from '@/pages/Typing/store'
-import type { FormEvent } from 'react'
+import type { FormEvent, KeyboardEvent } from 'react'
 import { useCallback, useContext, useEffect, useRef } from 'react'
 
 export default function TextAreaHandler({ updateInput }: { updateInput: (updateObj: WordUpdateAction) => void }) {
@@ -29,6 +29,17 @@ export default function TextAreaHandler({ updateInput }: { updateInput: (updateO
     }
   }
 
+  // textarea 的内容每次输入后都会被清空，退格不会触发 input 事件，只能在 keydown 里处理
+  const onKeyDown = useCallback(
+    (e: KeyboardEvent<HTMLTextAreaElement>) => {
+      if (e.key === 'Backspace' && !e.altKey && !e.ctrlKey && !e.metaKey) {
+        e.preventDefault()
+        updateInput({ type: 'delete', length: 1 })
+      }
+    },
+    [updateInput],
+  )
+
   const onBlur = useCallback(() => {
     if (!textareaRef.current) return
 
@@ -44,6 +55,7 @@ export default function TextAreaHandler({ updateInput }: { updateInput: (updateO
       autoFocus
       spellCheck="false"
       onInput={onInput}
+      onKeyDown={onKeyDown}
       onBlur={onBlur}
       onCompositionStart={() => {
         alert('您正在使用输入法，请关闭输入法。')

@@ -2,3 +2,5 @@ build
 node_modules
 public/dicts
 stats.html
+# 生成的单词详情数据，和 public/dicts 一样不参与格式化
+public/word-details

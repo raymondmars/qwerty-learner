@@ -5,12 +5,25 @@ import Progress from '../Progress'
 import Phonetic from './components/Phonetic'
 import Translation from './components/Translation'
 import WordComponent from './components/Word'
+import WordDetailCard from './components/WordDetail'
 import { usePrefetchPronunciationSound } from '@/hooks/usePronunciation'
-import { isReviewModeAtom, isShowPrevAndNextWordAtom, loopWordConfigAtom, phoneticConfigAtom, reviewModeInfoAtom } from '@/store'
+import { usePrefetchWordDetails, useWordDetail } from '@/pages/Typing/hooks/useWordDetail'
+import type { WordDetail } from '@/pages/Typing/hooks/useWordDetail'
+import {
+  isReviewModeAtom,
+  isShowPrevAndNextWordAtom,
+  isWordMistakenAtom,
+  isWordWaitingEnterAtom,
+  loopWordConfigAtom,
+  phoneticConfigAtom,
+  reviewModeInfoAtom,
+} from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useMemo, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
+
+const EMPTY_WORD_DETAIL: WordDetail = { sentences: [], phrases: [] }
 
 export default function WordPanel() {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
@@ -25,6 +38,12 @@ export default function WordPanel() {
 
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+
+  // 章节一加载就把本章单词的详情预取回来，等用户拼完单词时数据已就绪
+  usePrefetchWordDetails(state.chapterData.words)
+  const wordDetail = useWordDetail(currentWord?.name)
+  const isWordWaitingEnter = useAtomValue(isWordWaitingEnterAtom)
+  const isWordMistaken = useAtomValue(isWordMistakenAtom)
 
   const prevIndex = useMemo(() => {
     const newIndex = state.chapterData.index - 1
@@ -144,6 +163,11 @@ export default function WordPanel() {
     [],
   )
 
+  // 拼错时屏幕上留着用户敲错的字母，即使这个词没有例句词组，也要靠卡片给出正确拼写
+  const shouldShowWordDetail = isWordWaitingEnter && (wordDetail !== undefined || isWordMistaken)
+  // 没有详情数据时卡片只渲染单词、音标和释义，其余各节自动省略
+  const visibleWordDetail = shouldShowWordDetail ? wordDetail ?? EMPTY_WORD_DETAIL : undefined
+
   const shouldShowTranslation = useMemo(() => {
     return isShowTranslation || state.isTransVisible
   }, [isShowTranslation, state.isTransVisible])
@@ -173,17 +197,26 @@ export default function WordPanel() {
             <div className="relative">
               <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
-              <Translation
-                trans={currentWord.trans.join('；')}
-                showTrans={shouldShowTranslation}
-                onMouseEnter={() => handleShowTranslation(true)}
-                onMouseLeave={() => handleShowTranslation(false)}
-              />
+              {!visibleWordDetail && (
+                <Translation
+                  trans={currentWord.trans.join('；')}
+                  showTrans={shouldShowTranslation}
+                  onMouseEnter={() => handleShowTranslation(true)}
+                  onMouseLeave={() => handleShowTranslation(false)}
+                />
+              )}
+              {/* 正常文档流，卡片出现时把下方内容一起顶下去 */}
+              {visibleWordDetail && (
+                <div className="mb-16 mt-3 flex justify-center">
+                  <WordDetailCard word={currentWord} detail={visibleWordDetail} isMistaken={isWordMistaken} />
+                </div>
+              )}
             </div>
           </div>
         )}
       </div>
-      <Progress className={`mb-10 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
+      {/* 进度条贴近底部的速度统计，与上方的单词详情卡片拉开距离 */}
+      <Progress className={`mb-2 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   )
 }

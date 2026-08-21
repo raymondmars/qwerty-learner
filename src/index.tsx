@@ -5,12 +5,15 @@ import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { isOpenDarkModeAtom } from '@/store'
+// 单词展示使用的字体，只引入拉丁字符集的常规体与粗体
+import '@fontsource/jetbrains-mono/latin-400.css'
+import '@fontsource/jetbrains-mono/latin-700.css'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
 import { useAtomValue } from 'jotai'
 import mixpanel from 'mixpanel-browser'
 import process from 'process'
-import React, { Suspense, lazy, useEffect, useState } from 'react'
+import React, { Suspense, lazy, useEffect, useRef, useState } from 'react'
 import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
@@ -33,14 +36,20 @@ function Root() {
   }, [darkMode])
 
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 600)
+  const isMobileRef = useRef(isMobile)
 
   useEffect(() => {
     const handleResize = () => {
-      const isMobile = window.innerWidth <= 600
-      if (!isMobile) {
+      const nextIsMobile = window.innerWidth <= 600
+      // 只在跨越移动端/桌面端断点时才处理，否则桌面端每次拖动窗口都会触发整页刷新
+      if (nextIsMobile === isMobileRef.current) return
+
+      isMobileRef.current = nextIsMobile
+      setIsMobile(nextIsMobile)
+      // 由移动端宽度切回桌面端宽度时，路由仍停留在 /mobile，需要整页跳回首页
+      if (!nextIsMobile) {
         window.location.href = '/'
       }
-      setIsMobile(isMobile)
     }
 
     window.addEventListener('resize', handleResize)
