@@ -34,3 +34,8 @@ stats.html
 /blob-report/
 /playwright/.cache/
 playwright-report
+
+# 单词详情：只提交按单词组织的产物，词库+章节的中间产物属于生成过程，不入库
+public/word-details/*
+!public/word-details/words/
+!public/word-details/index.json

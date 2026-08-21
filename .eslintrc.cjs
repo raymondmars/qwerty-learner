@@ -16,6 +16,13 @@ module.exports = {
       parserOptions: { sourceType: 'script' },
     },
     {
+      files: ['scripts/*.mjs'],
+      env: { node: true, es2022: true },
+      extends: ['eslint:recommended'],
+      parser: 'espree',
+      parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+    },
+    {
       files: ['vite.config.ts'],
       env: { node: true },
       extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
