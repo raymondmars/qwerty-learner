@@ -101,11 +101,24 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 ### 默写模式
 
-在用户完成一个章节的练习后，会弹出选项是否默写本章，方便用户巩固本章学习的单词。
+默认开启，练习时隐藏单词的全部字母，由用户凭记忆拼写。可以在设置中改为隐藏元音、隐藏辅音或随机隐藏，也可以完全关闭。
+
+完成一个章节后，结果页同样提供「默写本章」选项，方便用户巩固本章学习的单词。
 
 <div align=center>
 <img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/dictation.png"/>
 </div>
+<br />
+<br />
+
+### 单词详情卡片
+
+拼完一个单词后，在单词下方展示该词的释义、词根助记、真实语料例句、常用词组与同义反义词，帮助在拼写的当下建立更完整的印象。
+
+拼错时卡片会标出「拼写有误」并给出正确拼写——默写模式下屏幕上留的是你敲错的字符，这时卡片是唯一能看到正确答案的地方。
+
+数据按单词而非按词库组织，任何词库练到同一个词都能命中同一份数据，详见 [单词详情数据](docs/word-details.md)。
+
 <br />
 <br />
 
@@ -306,6 +319,8 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 语音数据来源于[有道词典](https://www.youdao.com/)开放 API，感谢有道的贡献让我们这种小项目也可以用上非常专业的发音资源，感谢有道团队以及考神团队为中国教育与中外交流做出的重要贡献。
 
 JS API 来自于[react-code-game](https://github.com/webzhd/react-code-game) ，感谢项目对 JS API 的爬取与预处理。
+
+单词详情卡片中的例句来自 [Tatoeba](https://tatoeba.org/) 语料库，以 [CC-BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/) 授权，感谢 Tatoeba 社区多年积累的真实语料。例句与词组的中文翻译由本地大模型生成，可能存在偏差，欢迎指正。
 <br/><br/>
 
 ### 项目 Icon
