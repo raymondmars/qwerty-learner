@@ -7,6 +7,10 @@ module.exports = {
       colors: {
         primary: '#6366f1',
       },
+      fontFamily: {
+        // 单词、上/下一个单词、单词列表等处的展示字体
+        mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
+      },
       keyframes: {
         'accordion-down': {
           from: { height: 0 },

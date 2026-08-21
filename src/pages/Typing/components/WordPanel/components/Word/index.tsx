@@ -3,7 +3,6 @@ import InputHandler from '../InputHandler'
 import Letter from './Letter'
 import Notation from './Notation'
 import { TipAlert } from './TipAlert'
-import style from './index.module.css'
 import { initialWordState } from './type'
 import type { WordState } from './type'
 import Tooltip from '@/components/Tooltip'
@@ -15,21 +14,26 @@ import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import {
   currentChapterAtom,
   currentDictInfoAtom,
+  isEnterToNextWordAtom,
   isIgnoreCaseAtom,
   isShowAnswerOnHoverAtom,
   isTextSelectableAtom,
+  isWordMistakenAtom,
+  isWordWaitingEnterAtom,
   pronunciationIsOpenAtom,
   wordDictationConfigAtom,
 } from '@/store'
 import type { Word } from '@/typings'
 import { CTRL, getUtcStringForMixpanel } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
-import { useAtomValue } from 'jotai'
+import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
 
 const vowelLetters = ['A', 'E', 'I', 'O', 'U']
+// 拼写完成、等待按 Enter 时单词放大的像素值
+const FINISHED_FONT_SIZE_OFFSET = 4
 
 export default function WordComponent({ word, onFinish }: { word: Word; onFinish: () => void }) {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
@@ -40,6 +44,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const isTextSelectable = useAtomValue(isTextSelectableAtom)
   const isIgnoreCase = useAtomValue(isIgnoreCaseAtom)
   const isShowAnswerOnHover = useAtomValue(isShowAnswerOnHoverAtom)
+  const isEnterToNextWord = useAtomValue(isEnterToNextWordAtom)
   const saveWordRecord = useSaveWordRecord()
   // const wordLogUploader = useMixPanelWordLogUploader(state)
   const [playKeySound, playBeepSound, playHintSound] = useKeySounds()
@@ -51,6 +56,22 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
+
+  const isWaitingForEnter = isEnterToNextWord && wordState.isFinished
+  // 以最终结果判定全对：中途输错但退格改正的，同样算全对。决定字母是否变绿、单词是否放大
+  const isWordAllCorrect = wordState.isFinished && wordState.letterStates.every((letterState) => letterState === 'correct')
+  const setIsWordWaitingEnter = useSetAtom(isWordWaitingEnterAtom)
+  const setIsWordMistaken = useSetAtom(isWordMistakenAtom)
+
+  useEffect(() => {
+    setIsWordWaitingEnter(isWaitingForEnter)
+    setIsWordMistaken(isWaitingForEnter && !isWordAllCorrect)
+
+    return () => {
+      setIsWordWaitingEnter(false)
+      setIsWordMistaken(false)
+    }
+  }, [isWaitingForEnter, isWordAllCorrect, setIsWordWaitingEnter, setIsWordMistaken])
 
   useEffect(() => {
     // run only when word changes
@@ -73,10 +94,11 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   const updateInput = useCallback(
     (updateAction: WordUpdateAction) => {
+      // 单词已拼写完成时锁定输入，等待用户按 Enter 进入下一个单词
+      if (wordState.isFinished) return
+
       switch (updateAction.type) {
         case 'add':
-          if (wordState.hasWrong) return
-
           if (updateAction.value === ' ') {
             updateAction.event.preventDefault()
             setWordState((state) => {
@@ -89,11 +111,28 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           }
           break
 
+        case 'delete':
+          setWordState((state) => {
+            const deleteLength = Math.min(updateAction.length, state.inputWord.length)
+            if (deleteLength <= 0) return
+
+            for (let i = 1; i <= deleteLength; i++) {
+              const index = state.inputWord.length - i
+              // letterTimeArray 只在输入正确时 push，删除正确字母时要一并弹出，保持与已输入内容对齐
+              if (state.letterStates[index] === 'correct') {
+                state.letterTimeArray.pop()
+              }
+              state.letterStates[index] = 'normal'
+            }
+            state.inputWord = state.inputWord.slice(0, state.inputWord.length - deleteLength)
+          })
+          break
+
         default:
           console.warn('unknown update type', updateAction)
       }
     },
-    [wordState.hasWrong, setWordState],
+    [wordState.isFinished, setWordState],
   )
 
   const handleHoverWord = useCallback((checked: boolean) => {
@@ -136,7 +175,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   const getLetterVisible = useCallback(
     (index: number) => {
-      if (wordState.letterStates[index] === 'correct' || (isShowAnswerOnHover && isHoveringWord)) return true
+      // 已判定过的字母（对或错）都要显示，否则默写模式下拼错了看不到任何反馈
+      if (wordState.letterStates[index] !== 'normal' || (isShowAnswerOnHover && isHoveringWord)) return true
 
       if (wordDictationConfig.isOpen) {
         if (wordDictationConfig.type === 'hideAll') return false
@@ -167,13 +207,12 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
   useEffect(() => {
     const inputLength = wordState.inputWord.length
-    /**
-     * TODO: 当用户输入错误时，会报错
-     * Cannot update a component (`App`) while rendering a different component (`WordComponent`). To locate the bad setState() call inside `WordComponent`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render
-     * 目前不影响生产环境，猜测是因为开发环境下 react 会两次调用 useEffect 从而展示了这个 warning
-     * 但这终究是一个 bug，需要修复
-     */
-    if (wordState.hasWrong || inputLength === 0 || wordState.displayWord.length === 0) {
+    if (inputLength === 0 || wordState.displayWord.length === 0) {
+      return
+    }
+
+    // 退格会让 inputWord 缩短并再次触发本 effect，此时末位是已经判定过的字符，不能重复计数
+    if (wordState.letterStates[inputLength - 1] !== 'normal') {
       return
     }
 
@@ -184,71 +223,50 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
       isEqual = isIgnoreCase ? inputChar.toLowerCase() === correctChar.toLowerCase() : inputChar === correctChar
     }
 
-    if (isEqual) {
-      // 输入正确时
-      setWordState((state) => {
+    // 拼错不再回退，标红后继续往下拼，拼满长度即完成
+    const isLastLetter = inputLength >= wordState.displayWord.length
+    const letterMistake = isEqual
+      ? wordState.letterMistake
+      : { ...wordState.letterMistake, [inputLength - 1]: [...(wordState.letterMistake[inputLength - 1] ?? []), inputChar] }
+
+    setWordState((state) => {
+      state.letterStates[inputLength - 1] = isEqual ? 'correct' : 'wrong'
+
+      if (isEqual) {
         state.letterTimeArray.push(Date.now())
         state.correctCount += 1
-      })
-
-      if (inputLength >= wordState.displayWord.length) {
-        // 完成输入时
-        setWordState((state) => {
-          state.letterStates[inputLength - 1] = 'correct'
-          state.isFinished = true
-          state.endTime = getUtcStringForMixpanel()
-        })
-        playHintSound()
       } else {
-        setWordState((state) => {
-          state.letterStates[inputLength - 1] = 'correct'
-        })
-        playKeySound()
-      }
-
-      dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
-    } else {
-      // 出错时
-      playBeepSound()
-      setWordState((state) => {
-        state.letterStates[inputLength - 1] = 'wrong'
-        state.hasWrong = true
         state.hasMadeInputWrong = true
         state.wrongCount += 1
-        state.letterTimeArray = []
+        state.letterMistake = letterMistake
+      }
 
-        if (state.letterMistake[inputLength - 1]) {
-          state.letterMistake[inputLength - 1].push(inputChar)
-        } else {
-          state.letterMistake[inputLength - 1] = [inputChar]
-        }
+      if (isLastLetter) {
+        state.isFinished = true
+        state.endTime = getUtcStringForMixpanel()
+      }
+    })
 
-        const currentState = JSON.parse(JSON.stringify(state))
-        dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake: currentState.letterMistake } })
-      })
+    if (isEqual) {
+      dispatch({ type: TypingStateActionType.REPORT_CORRECT_WORD })
+    } else {
+      playBeepSound()
+      dispatch({ type: TypingStateActionType.REPORT_WRONG_WORD, payload: { letterMistake } })
 
+      // 第一章第一个词就反复输错，多半是浏览器插件抢按键，提示用户排查
       if (currentChapter === 0 && state.chapterData.index === 0 && wordState.wrongCount >= 3) {
         setShowTipAlert(true)
       }
     }
+
+    // 完成音是正反馈，本次拼写出现过错误时不播，避免和错误提示混淆
+    if (isLastLetter && isEqual && !wordState.hasMadeInputWrong) {
+      playHintSound()
+    } else if (isEqual) {
+      playKeySound()
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordState.inputWord])
-
-  useEffect(() => {
-    if (wordState.hasWrong) {
-      const timer = setTimeout(() => {
-        setWordState((state) => {
-          state.inputWord = ''
-          state.letterStates = new Array(state.letterStates.length).fill('normal')
-          state.hasWrong = false
-        })
-      }, 300)
-
-      return () => {
-        clearTimeout(timer)
-      }
-    }
-  }, [wordState.hasWrong, setWordState])
 
   useEffect(() => {
     if (wordState.isFinished) {
@@ -269,16 +287,27 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         letterMistake: wordState.letterMistake,
       })
 
-      onFinish()
+      // 开启 Enter 继续时，停留在当前单词，由下方的快捷键触发 onFinish
+      if (!isEnterToNextWord) {
+        onFinish()
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordState.isFinished])
 
-  useEffect(() => {
-    if (wordState.wrongCount >= 4) {
-      dispatch({ type: TypingStateActionType.SET_IS_SKIP, payload: true })
-    }
-  }, [wordState.wrongCount, dispatch])
+  useHotkeys(
+    'enter',
+    () => {
+      // 暂停时 Enter 用来恢复练习，不能穿透到这里把单词翻过去
+      if (!state.isTyping) return
+
+      if (wordState.isFinished) {
+        onFinish()
+      }
+    },
+    { enableOnFormTags: true, preventDefault: true },
+    [state.isTyping, wordState.isFinished, onFinish],
+  )
 
   return (
     <>
@@ -290,17 +319,33 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
         {['romaji', 'hapin'].includes(currentLanguage) && word.notation && <Notation notation={word.notation} />}
         <div
           className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
-            wordDictationConfig.isOpen ? 'tooltip' : ''
+            // 关闭「显示答案」时 Tab 也不再生效，此时不能再提示用户按 Tab
+            wordDictationConfig.isOpen && isShowAnswerOnHover ? 'tooltip' : ''
           }`}
           data-tip="按 Tab 快捷键显示完整单词"
         >
           <div
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
-            className={`flex items-center ${isTextSelectable && 'select-all'} justify-center ${wordState.hasWrong ? style.wrong : ''}`}
+            className={`flex items-center ${isTextSelectable && 'select-all'} justify-center`}
           >
             {wordState.displayWord.split('').map((t, index) => {
-              return <Letter key={`${index}-${t}`} letter={t} visible={getLetterVisible(index)} state={wordState.letterStates[index]} />
+              // 拼错时显示用户实际敲下的字符，显示正确答案会让默写模式泄题
+              const letterState = wordState.letterStates[index]
+              const displayLetter = letterState === 'wrong' ? wordState.inputWord[index] ?? t : t
+
+              return (
+                <Letter
+                  key={`${index}-${t}`}
+                  letter={displayLetter}
+                  visible={getLetterVisible(index)}
+                  state={letterState}
+                  // 拼写完成都加粗；放大和变绿只留给全对的情况
+                  fontSizeOffset={isWaitingForEnter && isWordAllCorrect ? FINISHED_FONT_SIZE_OFFSET : 0}
+                  bold={isWaitingForEnter}
+                  highlightCorrect={isWordAllCorrect}
+                />
+              )
             })}
           </div>
           {pronunciationIsOpen && (

@@ -1,6 +1,6 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import Tooltip from '@/components/Tooltip'
-import { randomConfigAtom } from '@/store'
+import { isWordWaitingEnterAtom, randomConfigAtom } from '@/store'
 import { autoUpdate, offset, useFloating, useHover, useInteractions } from '@floating-ui/react'
 import { useAtomValue } from 'jotai'
 import { useCallback, useContext, useState } from 'react'
@@ -10,6 +10,7 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
   const randomConfig = useAtomValue(randomConfigAtom)
+  const isWordWaitingEnter = useAtomValue(isWordWaitingEnterAtom)
 
   const onToggleIsTyping = useCallback(() => {
     !isLoading && dispatch({ type: TypingStateActionType.TOGGLE_IS_TYPING })
@@ -19,7 +20,15 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
     dispatch({ type: TypingStateActionType.REPEAT_CHAPTER, shouldShuffle: randomConfig.isOpen })
   }, [dispatch, randomConfig.isOpen])
 
-  useHotkeys('enter', onToggleIsTyping, { enableOnFormTags: true, preventDefault: true }, [onToggleIsTyping])
+  const onEnter = useCallback(() => {
+    // 单词拼写完成等待跳转时，Enter 归 Word 组件处理，此处不再切换开始/暂停；
+    // 但暂停中 Word 那边不会响应，此时 Enter 仍要用来恢复练习
+    if (state.isTyping && isWordWaitingEnter) return
+
+    onToggleIsTyping()
+  }, [state.isTyping, isWordWaitingEnter, onToggleIsTyping])
+
+  useHotkeys('enter', onEnter, { enableOnFormTags: true, preventDefault: true }, [onEnter])
 
   const [isShowReStartButton, setIsShowReStartButton] = useState(false)
   const { refs, context } = useFloating({

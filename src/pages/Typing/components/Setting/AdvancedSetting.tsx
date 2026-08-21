@@ -1,9 +1,18 @@
 import styles from './index.module.css'
-import { isIgnoreCaseAtom, isShowAnswerOnHoverAtom, isShowPrevAndNextWordAtom, isTextSelectableAtom, randomConfigAtom } from '@/store'
+import { useChapterProgress } from '@/pages/Typing/hooks/useChapterProgress'
+import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
+import {
+  isEnterToNextWordAtom,
+  isIgnoreCaseAtom,
+  isShowAnswerOnHoverAtom,
+  isShowPrevAndNextWordAtom,
+  isTextSelectableAtom,
+  randomConfigAtom,
+} from '@/store'
 import { Switch } from '@headlessui/react'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtom } from 'jotai'
-import { useCallback } from 'react'
+import { useCallback, useContext } from 'react'
 
 export default function AdvancedSetting() {
   const [randomConfig, setRandomConfig] = useAtom(randomConfigAtom)
@@ -11,6 +20,25 @@ export default function AdvancedSetting() {
   const [isIgnoreCase, setIsIgnoreCase] = useAtom(isIgnoreCaseAtom)
   const [isTextSelectable, setIsTextSelectable] = useAtom(isTextSelectableAtom)
   const [isShowAnswerOnHover, setIsShowAnswerOnHover] = useAtom(isShowAnswerOnHoverAtom)
+  const [isEnterToNextWord, setIsEnterToNextWord] = useAtom(isEnterToNextWordAtom)
+
+  const { savedProgress, clearProgress } = useChapterProgress()
+  const typingContext = useContext(TypingContext)
+
+  const onClearProgress = useCallback(() => {
+    clearProgress()
+    // 同时把当前章节退回第一个单词，避免清除后界面没有任何变化
+    if (typingContext && typingContext.state.chapterData.words.length > 0) {
+      typingContext.dispatch({ type: TypingStateActionType.SKIP_2_WORD_INDEX, newIndex: 0 })
+    }
+  }, [clearProgress, typingContext])
+
+  const onToggleEnterToNextWord = useCallback(
+    (checked: boolean) => {
+      setIsEnterToNextWord(checked)
+    },
+    [setIsEnterToNextWord],
+  )
 
   const onToggleRandom = useCallback(
     (checked: boolean) => {
@@ -54,6 +82,20 @@ export default function AdvancedSetting() {
       <ScrollArea.Viewport className="h-full w-full px-3">
         <div className={styles.tabContent}>
           <div className={styles.section}>
+            <span className={styles.sectionLabel}>拼写完成后按 Enter 继续</span>
+            <span className={styles.sectionDescription}>
+              开启后，单词拼写正确不会自动跳转，而是锁定输入并放大展示，按 Enter 键进入下一个单词
+            </span>
+            <div className={styles.switchBlock}>
+              <Switch checked={isEnterToNextWord} onChange={onToggleEnterToNextWord} className="switch-root">
+                <span aria-hidden="true" className="switch-thumb" />
+              </Switch>
+              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Enter 继续已${
+                isEnterToNextWord ? '开启' : '关闭'
+              }`}</span>
+            </div>
+          </div>
+          <div className={styles.section}>
             <span className={styles.sectionLabel}>章节乱序</span>
             <span className={styles.sectionDescription}>开启后，每次练习章节中单词会随机排序。下一章节生效</span>
             <div className={styles.switchBlock}>
@@ -63,6 +105,26 @@ export default function AdvancedSetting() {
               <span className="text-right text-xs font-normal leading-tight text-gray-600">{`随机已${
                 randomConfig.isOpen ? '开启' : '关闭'
               }`}</span>
+            </div>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>记忆练习进度</span>
+            <span className={styles.sectionDescription}>
+              自动记录每本词典最后练到的单词，刷新页面后从该单词继续。练完整章后自动清除；开启章节乱序时不记录
+            </span>
+            <div className={styles.switchBlock}>
+              <span className="text-left text-sm font-normal leading-tight text-gray-600">
+                {savedProgress ? `已记录：第 ${savedProgress.chapter + 1} 章 第 ${savedProgress.index + 1} 个单词` : '暂无记录'}
+              </span>
+              <button
+                className="my-btn-primary disabled:bg-gray-300"
+                type="button"
+                onClick={onClearProgress}
+                disabled={!savedProgress}
+                title="清除进度"
+              >
+                清除进度
+              </button>
             </div>
           </div>
           <div className={styles.section}>

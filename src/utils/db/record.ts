@@ -55,7 +55,7 @@ export interface IChapterRecord {
   time: number
   // 正确按键次数，输对一个字母即记录
   correctCount: number
-  // 错误的按键次数。 出错会清空整个输入，但只记录一次错误
+  // 错误的按键次数，每敲错一个字母记一次
   wrongCount: number
   // 用户输入的单词总数，可能会使用循环等功能使输入总数大于 20
   wordCount: number
@@ -107,7 +107,8 @@ export class ChapterRecord implements IChapterRecord {
   }
 
   get inputAccuracy() {
-    return Math.round((this.correctCount / this.correctCount + this.wrongCount) * 100)
+    const total = this.correctCount + this.wrongCount
+    return total === 0 ? 0 : Math.round((this.correctCount / total) * 100)
   }
 
   get wordAccuracy() {

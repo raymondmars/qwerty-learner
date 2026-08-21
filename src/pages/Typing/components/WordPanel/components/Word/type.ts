@@ -6,8 +6,6 @@ export type WordState = {
   inputWord: string
   letterStates: LetterState[]
   isFinished: boolean
-  // 是否出现输入错误
-  hasWrong: boolean
   // 记录是否已经出现过输入错误
   hasMadeInputWrong: boolean
   // 用户输入错误的次数
@@ -27,7 +25,6 @@ export const initialWordState: WordState = {
   inputWord: '',
   letterStates: [],
   isFinished: false,
-  hasWrong: false,
   hasMadeInputWrong: false,
   wrongCount: 0,
   startTime: '',

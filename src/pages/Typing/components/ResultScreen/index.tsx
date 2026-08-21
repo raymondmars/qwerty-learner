@@ -6,6 +6,7 @@ import RemarkRing from './RemarkRing'
 import WordChip from './WordChip'
 import styles from './index.module.css'
 import Tooltip from '@/components/Tooltip'
+import { usePersonalBest } from '@/pages/Typing/hooks/usePersonalBest'
 import {
   currentChapterAtom,
   currentDictInfoAtom,
@@ -103,14 +104,28 @@ const ResultScreen = () => {
     }
   }, [correctRate])
 
-  const timeString = useMemo(() => {
-    const seconds = state.timerData.time
+  const formatTime = useCallback((seconds: number) => {
     const minutes = Math.floor(seconds / 60)
     const minuteString = minutes < 10 ? '0' + minutes : minutes + ''
     const restSeconds = seconds % 60
     const secondString = restSeconds < 10 ? '0' + restSeconds : restSeconds + ''
     return `${minuteString}:${secondString}`
-  }, [state.timerData.time])
+  }, [])
+
+  const timeString = useMemo(() => formatTime(state.timerData.time), [formatTime, state.timerData.time])
+
+  // 只显示进步，不显示退步：破纪录时高亮鼓励，没破就安静地写出目标，避免变成负反馈
+  const personalBest = usePersonalBest()
+  const bestHints = useMemo(() => {
+    if (!personalBest) return undefined
+
+    const { wpm, accuracy, time } = state.timerData
+    return {
+      accuracy: accuracy > personalBest.accuracy ? { text: '新纪录', highlight: true } : { text: `最好 ${personalBest.accuracy}%` },
+      time: time < personalBest.time ? { text: '新纪录', highlight: true } : { text: `最快 ${formatTime(personalBest.time)}` },
+      wpm: wpm > personalBest.wpm ? { text: '新纪录', highlight: true } : { text: `最好 ${personalBest.wpm}` },
+    }
+  }, [personalBest, state.timerData, formatTime])
 
   const repeatButtonHandler = useCallback(async () => {
     if (isReviewMode) {
@@ -227,9 +242,20 @@ const ResultScreen = () => {
             </button>
             <div className="mt-10 flex flex-row gap-2 overflow-hidden">
               <div className="flex flex-shrink-0 flex-grow-0 flex-col gap-3 px-4 sm:px-1 md:px-2 lg:px-4">
-                <RemarkRing remark={`${state.timerData.accuracy}%`} caption="正确率" percentage={state.timerData.accuracy} />
-                <RemarkRing remark={timeString} caption="章节耗时" />
-                <RemarkRing remark={state.timerData.wpm + ''} caption="WPM" />
+                <RemarkRing
+                  remark={`${state.timerData.accuracy}%`}
+                  caption="正确率"
+                  percentage={state.timerData.accuracy}
+                  hint={bestHints?.accuracy.text}
+                  hintHighlight={bestHints?.accuracy.highlight}
+                />
+                <RemarkRing remark={timeString} caption="章节耗时" hint={bestHints?.time.text} hintHighlight={bestHints?.time.highlight} />
+                <RemarkRing
+                  remark={state.timerData.wpm + ''}
+                  caption="WPM"
+                  hint={bestHints?.wpm.text}
+                  hintHighlight={bestHints?.wpm.highlight}
+                />
               </div>
               <div className="z-10 ml-6 flex-1 overflow-visible rounded-xl bg-indigo-50 dark:bg-gray-700">
                 <div className="customized-scrollbar z-20 ml-8 mr-1 flex h-80 flex-row flex-wrap content-start gap-4 overflow-y-auto overflow-x-hidden pr-7 pt-9">

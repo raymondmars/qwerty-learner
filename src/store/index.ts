@@ -29,6 +29,15 @@ export const currentDictInfoAtom = atom<Dictionary>((get) => {
 
 export const currentChapterAtom = atomWithStorage('currentChapter', 0)
 
+// 普通练习模式下，最后练到的位置。chapter 与 index 均从 0 开始
+export type ChapterProgress = {
+  chapter: number
+  index: number
+}
+
+// 每本词典各记录一条，key 为 dictId，用于刷新后恢复练习进度
+export const chapterProgressAtom = atomWithStorage<Record<string, ChapterProgress>>('chapterProgress', {})
+
 export const loopWordConfigAtom = atomForConfig<{ times: LoopWordTimesOption }>('loopWordConfig', {
   times: 1,
 })
@@ -74,9 +83,12 @@ export const isShowPrevAndNextWordAtom = atomWithStorage('isShowPrevAndNextWord'
 
 export const isIgnoreCaseAtom = atomWithStorage('isIgnoreCase', true)
 
-export const isShowAnswerOnHoverAtom = atomWithStorage('isShowAnswerOnHover', true)
+export const isShowAnswerOnHoverAtom = atomWithStorage('isShowAnswerOnHover', false)
 
 export const isTextSelectableAtom = atomWithStorage('isTextSelectable', false)
+
+// 开启后单词拼写正确不会自动跳转，而是锁定输入并放大展示，等用户按 Enter 再进入下一个单词
+export const isEnterToNextWordAtom = atomWithStorage('isEnterToNextWord', true)
 
 export const reviewModeInfoAtom = reviewInfoAtom({
   isReviewMode: false,
@@ -85,13 +97,21 @@ export const reviewModeInfoAtom = reviewInfoAtom({
 export const isReviewModeAtom = atom((get) => get(reviewModeInfoAtom).isReviewMode)
 
 export const phoneticConfigAtom = atomForConfig('phoneticConfig', {
-  isOpen: true,
+  isOpen: false,
   type: 'us' as PhoneticType,
 })
 
 export const isOpenDarkModeAtom = atomWithStorage('isOpenDarkModeAtom', window.matchMedia('(prefers-color-scheme: dark)').matches)
 
 export const isShowSkipAtom = atom(false)
+
+// 当前单词已拼写完成、正在等待用户按 Enter 进入下一个单词。
+// 用于让 StartButton 上的 Enter（开始/暂停）快捷键在此期间让位
+export const isWordWaitingEnterAtom = atom(false)
+
+// 当前完成的单词里留有拼错的字母。默写模式下屏幕上显示的是用户敲错的字符，
+// 此时即使没有例句词组，也要把详情卡片显示出来，让用户看到正确拼写
+export const isWordMistakenAtom = atom(false)
 
 export const isInDevModeAtom = atom(false)
 
@@ -103,9 +123,11 @@ export const infoPanelStateAtom = atom<InfoPanelState>({
 })
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
-  isOpen: false,
+  isOpen: true,
   type: 'hideAll' as WordDictationType,
-  openBy: 'auto' as WordDictationOpenBy,
+  // 默认开启默写，openBy 必须是 user：openBy 为 auto 时，
+  // 章节结束点「下一章」「重复本章」会把默写自动关掉（见 ResultScreen）
+  openBy: 'user' as WordDictationOpenBy,
 })
 
 export const dismissStartCardDateAtom = atomWithStorage<Date | null>(DISMISS_START_CARD_DATE_KEY, null)

@@ -7,6 +7,7 @@ import StartButton from './components/StartButton'
 import Switcher from './components/Switcher'
 import WordList from './components/WordList'
 import WordPanel from './components/WordPanel'
+import { useChapterProgress } from './hooks/useChapterProgress'
 import { useConfetti } from './hooks/useConfetti'
 import { useWordList } from './hooks/useWordList'
 import { TypingContext, TypingStateActionType, initialState, typingReducer } from './store'
@@ -18,7 +19,7 @@ import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAt
 import { IsDesktop, isLegal } from '@/utils'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
-import { useAtom, useAtomValue, useSetAtom } from 'jotai'
+import { useAtom, useAtomValue } from 'jotai'
 import type React from 'react'
 import { useCallback, useEffect, useState } from 'react'
 import { useImmerReducer } from 'use-immer'
@@ -29,13 +30,15 @@ const App: React.FC = () => {
   const { words } = useWordList()
 
   const [currentDictId, setCurrentDictId] = useAtom(currentDictIdAtom)
-  const setCurrentChapter = useSetAtom(currentChapterAtom)
+  const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const randomConfig = useAtomValue(randomConfigAtom)
   const chapterLogUploader = useMixPanelChapterLogUploader(state)
   const saveChapterRecord = useSaveChapterRecord()
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+
+  const { savedProgress, saveProgress, clearProgress } = useChapterProgress()
 
   useEffect(() => {
     // 检测用户设备
@@ -93,7 +96,13 @@ const App: React.FC = () => {
 
   useEffect(() => {
     if (words !== undefined) {
-      const initialIndex = isReviewMode && reviewModeInfo.reviewRecord?.index ? reviewModeInfo.reviewRecord.index : 0
+      let initialIndex = 0
+      if (isReviewMode) {
+        initialIndex = reviewModeInfo.reviewRecord?.index ?? 0
+      } else if (!randomConfig.isOpen && savedProgress?.chapter === currentChapter) {
+        // 章节乱序下每次进入章节的词序都会重新洗牌，保存的下标失去意义，因此不恢复
+        initialIndex = savedProgress.index
+      }
 
       dispatch({
         type: TypingStateActionType.SETUP_CHAPTER,
@@ -102,6 +111,39 @@ const App: React.FC = () => {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [words])
+
+  useEffect(() => {
+    // 记录练习位置，覆盖正常完成单词、跳过单词、手动翻页三种情况
+    if (isReviewMode || randomConfig.isOpen || state.isFinished) return
+    // 切换词典/章节时 currentChapter 会先于 chapterData 更新，
+    // 用词表引用确认 state 确实是由本次 words 初始化的，避免把上一章的下标写到新章节名下
+    if (state.chapterData.words.length === 0 || state.chapterData.words !== words) return
+
+    // 停在第一个单词等同于没有进度，直接清掉记录，避免设置面板里出现「已记录：第 1 个单词」这种噪音
+    if (state.chapterData.index === 0) {
+      clearProgress()
+    } else {
+      saveProgress(currentChapter, state.chapterData.index)
+    }
+  }, [
+    state.chapterData.index,
+    state.chapterData.words,
+    state.isFinished,
+    isReviewMode,
+    randomConfig.isOpen,
+    words,
+    currentChapter,
+    saveProgress,
+    clearProgress,
+  ])
+
+  useEffect(() => {
+    // 完成整章后清除进度，下次进入该章节从头开始
+    if (state.isFinished && !isReviewMode) {
+      clearProgress()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [state.isFinished])
 
   useEffect(() => {
     // 当用户完成章节后且完成 word Record 数据保存，记录 chapter Record 数据,
