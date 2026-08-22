@@ -3,6 +3,7 @@ import AnalysisButton from '../AnalysisButton'
 import ErrorBookButton from '../ErrorBookButton'
 import HandPositionIllustration from '../HandPositionIllustration'
 import LoopWordSwitcher from '../LoopWordSwitcher'
+import RepeaterButton from '../RepeaterButton'
 import Setting from '../Setting'
 import SoundSwitcher from '../SoundSwitcher'
 import WordDictationSwitcher from '../WordDictationSwitcher'
@@ -73,6 +74,10 @@ export default function Switcher() {
 
       <Tooltip className="h-7 w-7" content="查看数据统计">
         <AnalysisButton />
+      </Tooltip>
+
+      <Tooltip className="h-7 w-7" content="复读机 · 听力精听与听写（新标签页打开）">
+        <RepeaterButton />
       </Tooltip>
 
       <Tooltip className="h-7 w-7" content="开关深色模式">
