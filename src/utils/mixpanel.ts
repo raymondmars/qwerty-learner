@@ -46,6 +46,15 @@ export function recordAnalysisAction(type: analysisType) {
   mixpanel.track('analysis', props)
 }
 
+export type repeaterType = 'open'
+export function recordRepeaterAction(type: repeaterType) {
+  const props = {
+    type,
+  }
+
+  mixpanel.track('repeater', props)
+}
+
 export type errorBookType = 'open' | 'detail'
 export function recordErrorBookAction(type: errorBookType) {
   const props = {
