@@ -70,22 +70,11 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 软件也对需要机考英语的人群有一定的帮助。
 
-**For Coder**：
-
-内置了程序员工作常用单词的词库，方便练习工作中常用的单词、提高输入速度。也内置了诸多语言的 API 的练习，帮助以程序员快速熟悉常用的 API，更多语言的 API 正在逐步添加中...
-
-<div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/coder.png"/>
-</div>
-
-<br />
-<br />
-
 ## 🛠 功能列表
 
 ### 词库
 
-内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语，也有程序员常见英语单词以及多种编程语言 API 等词库。 尽可能满足大部分用户对单词记忆的需求，也非常欢迎社区贡献更多的词库。
+内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语等词库，也支持日语、德语、哈萨克语、印尼语。尽可能满足大部分用户对单词记忆的需求，也非常欢迎社区贡献更多的词库。
 <br />
 <br />
 
@@ -254,7 +243,6 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 - 考研英语
 - 专业四级英语
 - 专业八级英语
-- Coder Dict 程序员常用词
 - 高考
 - 中考
 - 商务英语
@@ -265,19 +253,6 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 - 哈萨克语基础 3000 词(哈拼版) 来源于 [@Elgar](https://github.com/Elgar17) 由 [@Herbert He](https://github.com/HerbertHe) 通过 [哈拼](https://ha-pin.js.org) 技术支持
 
 如果您需要背诵其他词库，欢迎在 Issue 中提出
-
-<br />
-<br />
-
-## 📗 API 词库
-
-- JavaScript API. [@sdu-gyf](https://github.com/sdu-gyf)
-- Node.js API. [@chrysalis1215](https://github.com/chrysalis1215)
-- Java API. [@darkSheep](https://github.com/darkSheep404)
-- Linux Command. [@归谜](https://github.com/vhxubo)
-- C#: List API [@nidbCN](https://github.com/nidbCN)
-
-目前 API 相关词库主要依赖于社区贡献，如果您想贡献自己需要的 API 词库，建议参考 [Issue #42](https://github.com/Realkai42/qwerty-learner/issues/40) [pr #67](https://github.com/Realkai42/qwerty-learner/pull/67) 贡献词典。
 
 <br />
 <br />
@@ -303,14 +278,6 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 再次感谢您对项目的贡献！🎉
 
 <br />
-
-## ☕️ Buy us a coffe
-
-非常感谢大家使用 Qwerty Learner, 目前该网站由三个人用业余时间在维护，我们希望在未来购买独立的域名(目前使用 vercel 部署)，并购买服务器以方便国内用户访问与云同步存储数据。
-
-如果您喜欢我们软件，非常感谢您对我们未来的支持!
-
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
 
 ## 👨‍💻 Contributors
 

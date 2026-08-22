@@ -2,7 +2,6 @@ import logo from '@/assets/logo.svg'
 import directoryImg from '@/assets/mobile/carousel/directory.png'
 import hotImg from '@/assets/mobile/carousel/hot.png'
 import indexImg from '@/assets/mobile/carousel/index.png'
-import codeImg from '@/assets/mobile/detail/code.png'
 import dictationImg from '@/assets/mobile/detail/dictation.png'
 import phoneticImg from '@/assets/mobile/detail/phonetic.png'
 import speedImg from '@/assets/mobile/detail/speed.png'
@@ -24,11 +23,6 @@ const detail = [
     title: '实时反馈',
     description: '显示输入速度和正确率，量化技能提升',
     img: speedImg,
-  },
-  {
-    title: '为程序员定制',
-    description: '内置编程相关词库，提高工作效率',
-    img: codeImg,
   },
 ]
 
@@ -166,16 +160,14 @@ const MobilePage: React.FC = () => {
 
             {/* 功能标签 */}
             <div className="mb-16 flex flex-wrap justify-center gap-3" itemProp="featureList">
-              {['英语单词记忆训练', '国际音标发音练习', 'CET 四六级词库', '程序员专用词汇', '免费在线学习', '完全开源'].map(
-                (item, index) => (
-                  <span
-                    key={index}
-                    className="rounded-full border border-gray-200/50 bg-gray-50 px-6 py-3 text-sm font-medium text-gray-700 transition-all duration-200 hover:bg-white hover:shadow-sm"
-                  >
-                    {item}
-                  </span>
-                ),
-              )}
+              {['英语单词记忆训练', '国际音标发音练习', 'CET 四六级词库', '免费在线学习', '完全开源'].map((item, index) => (
+                <span
+                  key={index}
+                  className="rounded-full border border-gray-200/50 bg-gray-50 px-6 py-3 text-sm font-medium text-gray-700 transition-all duration-200 hover:bg-white hover:shadow-sm"
+                >
+                  {item}
+                </span>
+              ))}
             </div>
 
             {/* CTA按钮 */}
@@ -208,11 +200,7 @@ const MobilePage: React.FC = () => {
                   alt="Qwerty Learner 英语学习软件热门词库界面 - CET 四六级雅思托福词汇在线练习"
                   className="w-full flex-shrink-0"
                 />
-                <img
-                  src={directoryImg}
-                  alt="Qwerty Learner 免费英语学习软件词库目录 - 支持程序员技术英语学习"
-                  className="w-full flex-shrink-0"
-                />
+                <img src={directoryImg} alt="Qwerty Learner 免费英语学习软件词库目录" className="w-full flex-shrink-0" />
                 <img src={indexImg} alt="Qwerty Learner 英语打字练习软件主界面 - 在线英语单词记忆训练" className="w-full flex-shrink-0" />
                 <img
                   src={hotImg}
@@ -248,85 +236,11 @@ const MobilePage: React.FC = () => {
               <meta itemProp="url" content="/" />
             </div>
 
-            {/* Aggregate Rating */}
-            <div itemProp="aggregateRating" itemScope itemType="https://schema.org/AggregateRating">
-              <meta itemProp="ratingValue" content="4.8" />
-              <meta itemProp="bestRating" content="5" />
-              <meta itemProp="worstRating" content="1" />
-              <meta itemProp="ratingCount" content="2156" />
-              <meta itemProp="reviewCount" content="486" />
-            </div>
-
-            {/* Individual Reviews */}
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="李某某 - 前端工程师" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
-              </div>
-              <meta itemProp="datePublished" content="2024-11-15" />
-              <meta
-                itemProp="reviewBody"
-                content="作为程序员，这个工具完美解决了我的痛点。一边练习打字一边背单词，效率翻倍！特别是程序员词库，让我快速熟悉了技术文档中的常用词汇。键盘音效配合网站体验感拉满，根本停不下来。"
-              />
-            </div>
-
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="王某某 - 大学生" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
-              </div>
-              <meta itemProp="datePublished" content="2024-10-28" />
-              <meta
-                itemProp="reviewBody"
-                content="准备六级考试时发现的宝藏！CET-6词库很全面，默写模式帮我巩固了很多易错单词。最喜欢的是错词本功能，可以反复练习不熟悉的单词。一个月下来，打字速度和词汇量都有明显提升。"
-              />
-            </div>
-
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="张某某 - 后端开发" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
-              </div>
-              <meta itemProp="datePublished" content="2024-09-20" />
-              <meta
-                itemProp="reviewBody"
-                content="GitHub上看到17.5k星就来试试，果然没让我失望！VSCode插件版本太方便了，写代码累了就切换过去练几个单词。JavaScript API的练习模式对我帮助很大，现在写JS不用老是查文档了。"
-              />
-            </div>
-
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="刘某某 - 产品经理" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="4" />
-                <meta itemProp="bestRating" content="5" />
-              </div>
-              <meta itemProp="datePublished" content="2024-08-12" />
-              <meta
-                itemProp="reviewBody"
-                content="界面简洁，功能实用。音标显示和发音功能帮助很大，边打字边纠正发音。唯一的建议是希望能增加更多商务英语词汇，不过看到社区很活跃，相信会越来越完善。"
-              />
-            </div>
-
-            <div itemProp="review" itemScope itemType="https://schema.org/Review">
-              <meta itemProp="author" content="陈某某 - 全栈工程师" />
-              <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-                <meta itemProp="ratingValue" content="5" />
-                <meta itemProp="bestRating" content="5" />
-              </div>
-              <meta itemProp="datePublished" content="2024-07-05" />
-              <meta
-                itemProp="reviewBody"
-                content="开源项目的典范！代码质量很高，我还贡献了几个PR。肌肉记忆训练的理念很棒，输错必须重打避免了错误记忆。现在阅读英文文档速度快了很多，打字也更准确了。强烈推荐给所有键盘工作者！"
-              />
-            </div>
             <h2 className="mb-6 text-center text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
               核心功能，<span className="text-indigo-500">专业设计</span>
             </h2>
             <p className="mx-auto mb-16 max-w-3xl text-center text-xl font-light leading-relaxed text-gray-600">
-              每一个细节都为了更好的在线英语学习体验而精心打磨，适合程序员、学生、上班族等所有键盘工作者快速提升英语打字速度和英语单词记忆能力
+              每一个细节都为了更好的在线英语学习体验而精心打磨，适合学生、上班族等所有键盘工作者快速提升英语打字速度和英语单词记忆能力
             </p>
 
             <div className="lg:grid lg:grid-cols-2 lg:gap-12">
@@ -476,8 +390,8 @@ const MobilePage: React.FC = () => {
                 丰富词库，<span className="text-indigo-500">应有尽有</span>
               </h2>
               <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                涵盖 CET-4/6 四六级英语考试、雅思托福 GRE 考研英语、商务英语 BEC 考试以及专为程序员定制的 JavaScript/Java/Python
-                技术词库，满足不同用户的英语学习需求
+                涵盖 CET-4/6 四六级英语考试、雅思托福 GRE 考研英语、商务英语 BEC
+                考试，以及日语、德语等多语种词库，满足不同用户的英语学习需求
               </p>
             </div>
 
@@ -604,73 +518,6 @@ const MobilePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-
-              {/* 程序员专属 */}
-              <div className="col-span-full rounded-2xl border border-indigo-200 bg-gradient-to-r from-indigo-50 to-purple-50 p-6 shadow-lg sm:p-8">
-                <div className="mb-8 text-center">
-                  <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 p-4">
-                    <svg className="h-8 w-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                    </svg>
-                  </div>
-                  <h3 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">程序员专属词库与 API</h3>
-                  <p className="mx-auto max-w-3xl text-gray-600">
-                    专为程序员量身定制的技术词汇和编程 API 练习，提高代码编写效率和技术英语水平
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-                  <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">编程词汇</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
-                      Coder Dict
-                      <br />
-                      程序员常用词
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">JavaScript</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
-                      JS API
-                      <br />
-                      核心方法练习
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Node.js</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
-                      Node API
-                      <br />
-                      服务端开发
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Java</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
-                      Java API
-                      <br />
-                      企业级开发
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">Linux</div>
-                    <div className="text-xs text-gray-600 sm:text-sm">
-                      命令行指令
-                      <br />
-                      系统管理
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-8 text-center">
-                  <span className="inline-flex items-center gap-2 rounded-full bg-indigo-100 px-6 py-2 text-sm font-medium text-indigo-600">
-                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                    </svg>
-                    持续更新更多编程语言 API
-                  </span>
-                </div>
-              </div>
             </div>
 
             <div className="mt-16 text-center">
@@ -691,178 +538,6 @@ const MobilePage: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
               </a>
-            </div>
-          </div>
-        </section>
-
-        {/* 程序员专属区域 */}
-        <section
-          className="mt-24 bg-gradient-to-br from-slate-900 via-gray-900 to-black px-6 py-24 lg:mt-32 lg:px-24"
-          itemScope
-          itemType="https://schema.org/SoftwareSourceCode"
-        >
-          <div className="mx-auto max-w-7xl">
-            <div className="mb-16 text-center">
-              <div className="mb-6 inline-flex items-center gap-3 rounded-full bg-indigo-100 px-6 py-3 text-indigo-600">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
-                <span className="font-semibold">For Coder</span>
-              </div>
-              <h2 className="mb-6 text-4xl font-bold tracking-tight text-white lg:text-5xl xl:text-6xl">
-                专为<span className="text-indigo-400">程序员</span>量身定制
-              </h2>
-              <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-300">
-                内置程序员工作常用技术英语单词词库，包括算法数据结构、设计模式、云计算等技术词汇，提高英语打字速度。同时支持
-                JavaScript/Node.js/Java/Python/Linux 命令等多种编程语言 API 练习，帮助程序员快速熟悉常用编程接口
-              </p>
-            </div>
-
-            <div className="grid gap-6 lg:grid-cols-2">
-              {/* 左侧：技术词汇 */}
-              <div className="rounded-2xl border border-gray-700 bg-gray-800/50 p-6 backdrop-blur-sm sm:p-8">
-                <div className="mb-6 flex items-center gap-4">
-                  <div className="rounded-full bg-indigo-600 p-3">
-                    <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                      />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-white sm:text-2xl">编程技术词汇</h3>
-                </div>
-                <p className="mb-6 text-sm leading-relaxed text-gray-300 sm:text-base">
-                  专门收录程序员工作中最常用的英语单词，包括算法、数据结构、设计模式、软件工程等领域的核心词汇
-                </p>
-                <div className="space-y-3">
-                  <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
-                    <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">算法与数据结构词汇</span>
-                  </div>
-                  <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
-                    <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">软件架构与设计模式</span>
-                  </div>
-                  <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
-                    <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">项目管理与协作工具</span>
-                  </div>
-                  <div className="flex items-center gap-3 rounded-lg bg-gray-700/50 p-3">
-                    <span className="text-indigo-400">•</span>
-                    <span className="text-gray-200">云计算与 DevOps 术语</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* 右侧：API 练习 */}
-              <div className="rounded-2xl border border-gray-700 bg-gray-800/50 p-6 backdrop-blur-sm sm:p-8">
-                <div className="mb-6 flex items-center gap-4">
-                  <div className="rounded-full bg-green-600 p-3">
-                    <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-white sm:text-2xl">API 方法练习</h3>
-                </div>
-                <p className="mb-6 text-sm leading-relaxed text-gray-300 sm:text-base">
-                  支持多种主流编程语言的 API 练习，通过打字练习熟悉常用方法，提高编码效率和 API 记忆
-                </p>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  <div className="rounded-lg border border-yellow-500/30 bg-yellow-500/10 p-4">
-                    <div className="mb-2 font-semibold text-yellow-400">JavaScript</div>
-                    <div className="text-sm text-gray-300">Array, Object, Promise 等核心 API</div>
-                  </div>
-                  <div className="rounded-lg border border-green-500/30 bg-green-500/10 p-4">
-                    <div className="mb-2 font-semibold text-green-400">Node.js</div>
-                    <div className="text-sm text-gray-300">fs, http, express 等服务端 API</div>
-                  </div>
-                  <div className="rounded-lg border border-orange-500/30 bg-orange-500/10 p-4">
-                    <div className="mb-2 font-semibold text-orange-400">Java</div>
-                    <div className="text-sm text-gray-300">Collection, Stream 等企业级 API</div>
-                  </div>
-                  <div className="rounded-lg border border-blue-500/30 bg-blue-500/10 p-4">
-                    <div className="mb-2 font-semibold text-blue-400">Linux</div>
-                    <div className="text-sm text-gray-300">常用命令行指令和系统管理</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* 特色功能展示 */}
-            <div className="mt-16 grid gap-8 md:grid-cols-3">
-              <div className="text-center">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-indigo-600/20 p-4">
-                  <svg className="h-8 w-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">快速熟悉 API</h4>
-                <p className="text-gray-300">通过打字练习快速记忆编程 API，提高开发效率</p>
-              </div>
-              <div className="text-center">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-green-600/20 p-4">
-                  <svg className="h-8 w-8 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    />
-                  </svg>
-                </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">技术英语提升</h4>
-                <p className="text-gray-300">专业技术词汇训练，提升阅读文档和交流能力</p>
-              </div>
-              <div className="text-center">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-purple-600/20 p-4">
-                  <svg className="h-8 w-8 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
-                    />
-                  </svg>
-                </div>
-                <h4 className="mb-3 text-xl font-semibold text-white">VSCode 插件</h4>
-                <p className="text-gray-300">支持 VSCode 插件版本，随时在开发环境中练习</p>
-              </div>
-            </div>
-
-            <div className="mt-16 text-center">
-              <div className="mb-8">
-                <h4 className="mb-4 text-2xl font-bold text-white">社区驱动，持续更新</h4>
-                <p className="mx-auto max-w-2xl text-gray-300">
-                  我们的 API 词库主要依赖于社区贡献，更多编程语言的 API 正在逐步添加中，欢迎参与贡献
-                </p>
-              </div>
-              <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-                <a
-                  href="/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
-                >
-                  <span>体验程序员专属功能</span>
-                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </a>
-                <a
-                  href="https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-gray-600 bg-gray-800 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-gray-700"
-                >
-                  <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" />
-                  </svg>
-                  <span>安装 VSCode 插件</span>
-                </a>
-              </div>
             </div>
           </div>
         </section>

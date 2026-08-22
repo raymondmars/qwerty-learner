@@ -48,19 +48,13 @@ To avoid forming incorrect muscle memory, the software requires people to re-ent
 
 QWERTY Learner is very useful for people who are going to take computer-based English tests , for example, TOEFL, GRE, and so on.
 
-QWERTY Learner is also helpful for developers. It has built-in dictionaries of words and phrases which are common in code and documentations. We believe these dictionaries will improve developers’ typing speed. Besides, It also has built-in API dictionaries of many languages, which helps developers quickly familiarize with common APIs. More and more APIs are coming soon.
-
-<div align="center">
-  <img src="https://github.com/RealKai42/qwerty-learner/blob/master/docs/coder.png"/>
-</div>
-
 [mm]: https://en.wikipedia.org/wiki/Muscle_memory
 
 ## 🛠 Features
 
 ### Built-in Dictionaries
 
-QWERTY Learner has many built-in dictionaries (word banks) for different purposes (examination, learning, and grading). Besides, it also provides dictionaries for developers learning APIs and common words and phrases used by programming languages and libraries.
+QWERTY Learner has many built-in dictionaries (word banks) for different purposes (examination, learning, and grading).
 
 Our goal is to be the best solution for word memorization and typing practice. Therefore, contribution of more dictionaries is welcome.
 
@@ -113,18 +107,6 @@ There are also many other unlisted vocabularies. If you need more vocabularies, 
 
 [cet]: https://en.wikipedia.org/wiki/College_English_Test
 
-### 📗 API Thesaurus
-
-- JavaScript API. Thanks to [@sdu-gyf](https://github.com/sdu-gyf).
-- Node.js API. Thanks to [@chrysalis1215](https://github.com/chrysalis1215).
-- Java API. Thanks to [@darkSheep](https://github.com/SFAfreshman).
-- Linux Command. Thanks to [@Riddler](https://github.com/vhxubo).
-- C# List API. Thanks to [@nidbCN](https://github.com/nidbCN).
-
-If you want to contribute your own API thesaurus, please have a look at [issue #40](https://github.com/RealKai42/qwerty-learner/issues/40) and [PR #67][67] in order to learn how to contribute.
-
-[67]: https://github.com/RealKai42/qwerty-learner/pull/67
-
 ## 🎙 Suggestions
 
 The project is still in the early stages of development. We are adding new features progressively. If you have any ideas and suggestions for the software, please feel free to ask in issues. We are glad to hear.
@@ -144,14 +126,6 @@ Before contribution, we recommend you to read [issue #42][issue-42] in order to 
 If you have decided the task you are willing to accomplish. Please create a draft PR after you make any progress. By doing so, you, us, and other contributors can discuss in the draft PR.
 
 After all, thanks for your contribution! 🎉
-
-## ☕️ Buy Me A Coffee
-
-Currently, QWERTY Learner is mainly maintained by three people in their spare time. In the future, we hope to purchase a separate domain and host an backend server for data synchronization. Therefore, if you like QWERTY Learner, please consider donation. This will definitely motivate us on the way of making QWERTY Learner better!
-
-<img src="https://github.com/RealKai42/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
-
-Note: we only accept donation from Alipay at present.
 
 ## 👨‍💻 Contributors
 
