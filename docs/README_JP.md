@@ -28,17 +28,7 @@
 
 ## 📸 オンラインアクセス
 
-Vercel: <https://qwerty.kaiyi.cool/> , <https://qwerty-learner.vercel.app/>
-GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
-Gitee Pages: <https://kaiyiwing.gitee.io/qwerty-learner/>
-
-国内ユーザーは Gitee を使用することをお勧めします
-<br/>
-<br/>
-
-プロジェクトは VSCode プラグイン版をリリースしました。ワンクリックで起動し、いつでも練習を開始できます。
-[VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
-[GitHub](https://github.com/Realkai42/qwerty-learner-vscode)
+オンライン体験: <https://qwerty.raymondjiang.com>
 
 <br />
 

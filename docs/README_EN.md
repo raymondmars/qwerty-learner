@@ -27,16 +27,7 @@
 
 ## 📸 Online Access
 
-We have deployed QWERTY Learner on many platforms. You can try QWERTY Learner in following ways.
-
-- Vercel: <https://qwerty.kaiyi.cool/>, or <https://qwerty-learner.vercel.app/>.
-- GitHub Pages: <https://realkai42.github.io/qwerty-learner/>.
-- Gitee Pages (recommended for people in mainland China): <https://kaiyiwing.gitee.io/qwerty-learner/>.
-
-QWERTY Learner also has a Visual Studio Code plugin. With a single click and you will be able to practice anytime.
-
-- Plugin: [VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
-- Project: [GitHub](https://github.com/RealKai42/qwerty-learner-vscode)
+Try QWERTY Learner online: <https://qwerty.raymondjiang.com>
 
 ## ✨ Design Goals
 
