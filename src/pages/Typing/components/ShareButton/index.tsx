@@ -1,5 +1,4 @@
 import SharePicDialog from './SharePicDialog'
-import { recordShareAction } from '@/utils'
 import { useCallback, useMemo, useState } from 'react'
 import IconShare2 from '~icons/tabler/share-2'
 
@@ -15,7 +14,6 @@ export default function ShareButton() {
   )
 
   const onClickShare = useCallback(() => {
-    recordShareAction('open')
     setIsShowSharePanel(true)
   }, [])
 

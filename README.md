@@ -16,15 +16,13 @@
 </p>
 
 <p align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <a href="https://github.com/Realkai42/qwerty-learner/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Realkai42/qwerty-learner" alt="License"></a>
+  <a href="https://github.com/raymondmars/qwerty-learner/blob/master/LICENSE"><img src="https://img.shields.io/github/license/raymondmars/qwerty-learner" alt="License"></a>
   <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
   <a><img src="https://img.shields.io/badge/Powered%20by-React-blue"/></a>
-  <a><img src="https://img.shields.io/github/stars/RealKai42/qwerty-learner"/></a>
-  <a><img src="https://img.shields.io/github/forks/RealKai42/qwerty-learner"/></a>
 </p>
-<div align=center>
-<a href="https://trendshift.io/repositories/3239" target="_blank" class="trendshift-badge"><img src="https://trendshift.io/api/badge/repositories/3239" alt="RealKai42%2Fqwerty-learner | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</div>
+
+> 本项目基于开源项目 [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 二次开发，遵循 GPL-3.0 协议继续开源。
+> **本分支只专注英语**：其他语种的词库与相关实现已全部移除，后续也不再加入非英语内容。
 
 <div align=center>
 <img  src="docs/Screenshot.png"/>
@@ -32,19 +30,33 @@
 
 ## 📸 在线访问
 
-**首选部署**: <https://qwerty.kaiyi.cool/>
-GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
+在线体验: <https://qwerty.raymondjiang.com>
 
-镜像仓库:
-[GitCode: RealKai42/qwerty-learner](https://gitcode.com/RealKai42/qwerty-learner/overview)
-[Gitee: KaiyiWing/qwerty-learner](https://gitee.com/KaiyiWing/qwerty-learner)
-<br/>
-<br/>
+<br />
 
-项目已发布 VSCode 插件版，一键启动、随时开始练习
-[VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
-[GitHub](https://github.com/Realkai42/qwerty-learner-vscode)
+## 🔀 与上游项目的差异
 
+本分支面向个人自部署，与上游 [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 的主要差异如下。
+
+**定位：只做英语**
+
+- 移除日语、德语、哈萨克语、印尼语共 23 个词库，以及假名/哈拼注音、罗马字转假名、非拉丁语言输入通道、多语言发音参数等全部语言专用实现
+- 移除「代码练习」的 46 个编程 API 词库 —— 它与"学语言"这条主线不成体系
+- 语言相关类型收敛为 `'en'`，发音只保留美音与英音
+
+**新增功能**
+
+- [复读机 · 听力精听](#复读机--听力精听)：波形定位、A/B 区间循环、人声分段跳转、变速、听写暂停，配套一个自动保存的听写本
+
+**自部署相关**
+
+- 移除第三方统计上报（Google Analytics、Mixpanel、Vercel Analytics）。GA 改为构建时按 `VITE_GA_MEASUREMENT_ID` 注入，不设置则页面不加载任何统计脚本
+- 移除捐赠模块、收款二维码、社群二维码与作者个人信息
+- 移除指向上游站点的 SEO 身份信息与虚构的评分/评价结构化数据
+- 移除上游的部署流水线（GitHub Pages 发布、Gitee 镜像）与历史 CI 配置
+- nginx 配置补上 `try_files`，前端路由直接访问不再 404
+
+<br />
 <br />
 
 ## 快速部署
@@ -70,22 +82,11 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 软件也对需要机考英语的人群有一定的帮助。
 
-**For Coder**：
-
-内置了程序员工作常用单词的词库，方便练习工作中常用的单词、提高输入速度。也内置了诸多语言的 API 的练习，帮助以程序员快速熟悉常用的 API，更多语言的 API 正在逐步添加中...
-
-<div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/coder.png"/>
-</div>
-
-<br />
-<br />
-
 ## 🛠 功能列表
 
 ### 词库
 
-内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语，也有程序员常见英语单词以及多种编程语言 API 等词库。 尽可能满足大部分用户对单词记忆的需求，也非常欢迎社区贡献更多的词库。
+内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语等词库，专注英语单词记忆，也非常欢迎社区贡献更多的英语词库。
 <br />
 <br />
 
@@ -233,6 +234,27 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 
 > 此脚本依赖于 `homebrew`，请确保自己电脑上可以执行`brew`命令
 
+### 环境变量
+
+| 变量                     | 说明                                                                                                                                    |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `VITE_GA_MEASUREMENT_ID` | Google Analytics 4 的衡量 ID（形如 `G-XXXXXXXXXX`）。**只在构建时读取**，不设置则页面完全不加载统计脚本，也不会向 Google 发出任何请求。 |
+
+```bash
+VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX npm run build
+```
+
+也可以写进项目根目录的 `.env.local`（该文件已被 git 忽略）：
+
+```
+VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+Docker 构建时通过 `--build-arg` 传入即可，注意 `Dockerfile` 中需要把它转成构建阶段的环境变量。
+
+<br />
+<br />
+
 ## 🏆 荣誉
 
 - Github 全球趋势榜上榜项目
@@ -254,30 +276,14 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 - 考研英语
 - 专业四级英语
 - 专业八级英语
-- Coder Dict 程序员常用词
 - 高考
 - 中考
 - 商务英语
 - BEC
 - 人教版英语 3-9 年级
 - 王陆雅思王听力语料库 [@Saigyouji_WKKun](https://github.com/ggehuliang)
-- 日语常见词、N1 ～ N5 [@xiaojia](https://github.com/wetery)
-- 哈萨克语基础 3000 词(哈拼版) 来源于 [@Elgar](https://github.com/Elgar17) 由 [@Herbert He](https://github.com/HerbertHe) 通过 [哈拼](https://ha-pin.js.org) 技术支持
 
 如果您需要背诵其他词库，欢迎在 Issue 中提出
-
-<br />
-<br />
-
-## 📗 API 词库
-
-- JavaScript API. [@sdu-gyf](https://github.com/sdu-gyf)
-- Node.js API. [@chrysalis1215](https://github.com/chrysalis1215)
-- Java API. [@darkSheep](https://github.com/darkSheep404)
-- Linux Command. [@归谜](https://github.com/vhxubo)
-- C#: List API [@nidbCN](https://github.com/nidbCN)
-
-目前 API 相关词库主要依赖于社区贡献，如果您想贡献自己需要的 API 词库，建议参考 [Issue #42](https://github.com/Realkai42/qwerty-learner/issues/40) [pr #67](https://github.com/Realkai42/qwerty-learner/pull/67) 贡献词典。
 
 <br />
 <br />
@@ -303,14 +309,6 @@ GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
 再次感谢您对项目的贡献！🎉
 
 <br />
-
-## ☕️ Buy us a coffe
-
-非常感谢大家使用 Qwerty Learner, 目前该网站由三个人用业余时间在维护，我们希望在未来购买独立的域名(目前使用 vercel 部署)，并购买服务器以方便国内用户访问与云同步存储数据。
-
-如果您喜欢我们软件，非常感谢您对我们未来的支持!
-
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
 
 ## 👨‍💻 Contributors
 

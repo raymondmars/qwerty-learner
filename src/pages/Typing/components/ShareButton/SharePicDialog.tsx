@@ -10,7 +10,6 @@ import shareImage8 from '@/assets/sharePic/image-8.png'
 import shareImage9 from '@/assets/sharePic/image-9.png'
 import keyboardSvg from '@/assets/sharePic/keyBackground.svg'
 import { currentChapterAtom, currentDictInfoAtom } from '@/store'
-import { recordShareAction } from '@/utils'
 import { Dialog, Transition } from '@headlessui/react'
 import { useAtomValue } from 'jotai'
 import { Fragment, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
@@ -82,7 +81,6 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
 
     if (imageURL) {
       saveAs(imageURL, 'Qwerty-learner.png')
-      recordShareAction('download')
     }
   }, [imageURL])
 
@@ -178,7 +176,8 @@ export default function SharePicDialog({ showState, setShowState, randomChoose }
               <div className="ml-5 mt-2 self-start text-xs text-gray-600">{`第 ${currentChapter + 1} 章`}</div>
             </div>
             <div className="mb-3 ml-5 mt-auto">
-              <div className="text-xs">Qwerty.kaiyi.cool</div>
+              {/* 分享图上的水印取当前部署的域名，跟着站点走，不写死 */}
+              <div className="text-xs">{window.location.host}</div>
               <div className="mt-1 text-xs font-normal text-gray-400">为键盘工作者设计的单词与肌肉记忆锻炼软件</div>
             </div>
             <div className="absolute -right-9 bottom-10 ">

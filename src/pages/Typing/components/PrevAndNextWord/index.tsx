@@ -1,6 +1,6 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import Tooltip from '@/components/Tooltip'
-import { currentDictInfoAtom, wordDictationConfigAtom } from '@/store'
+import { wordDictationConfigAtom } from '@/store'
 import { CTRL } from '@/utils'
 import { useAtomValue } from 'jotai'
 import { useCallback, useContext, useMemo } from 'react'
@@ -15,7 +15,6 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
   const newIndex = useMemo(() => state.chapterData.index + (type === 'prev' ? -1 : 1), [state.chapterData.index, type])
   const word = state.chapterData.words[newIndex]
   const shortCutKey = useMemo(() => (type === 'prev' ? `${CTRL} + Shift + ArrowLeft` : `${CTRL} + Shift + ArrowRight`), [type])
-  const currentLanguage = useAtomValue(currentDictInfoAtom).language
 
   const onClickWord = useCallback(() => {
     if (!word) return
@@ -27,14 +26,14 @@ export default function PrevAndNextWord({ type }: LastAndNextWordProps) {
   const headWord = useMemo(() => {
     if (!word) return ''
 
-    const showWord = ['romaji', 'hapin'].includes(currentLanguage) ? word.notation : word.name
+    const showWord = word.name
 
     if (type === 'prev') return showWord
 
     if (type === 'next') {
       return !wordDictationConfig.isOpen ? showWord : (showWord || '').replace(/./g, '_')
     }
-  }, [word, currentLanguage, type, wordDictationConfig.isOpen])
+  }, [word, type, wordDictationConfig.isOpen])
 
   return (
     <>

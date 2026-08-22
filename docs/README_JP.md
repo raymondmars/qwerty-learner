@@ -28,17 +28,7 @@
 
 ## 📸 オンラインアクセス
 
-Vercel: <https://qwerty.kaiyi.cool/> , <https://qwerty-learner.vercel.app/>
-GitHub Pages: <https://realkai42.github.io/qwerty-learner/>
-Gitee Pages: <https://kaiyiwing.gitee.io/qwerty-learner/>
-
-国内ユーザーは Gitee を使用することをお勧めします
-<br/>
-<br/>
-
-プロジェクトは VSCode プラグイン版をリリースしました。ワンクリックで起動し、いつでも練習を開始できます。
-[VSCode Plugin Market](https://marketplace.visualstudio.com/items?itemName=Kaiyi.qwerty-learner)
-[GitHub](https://github.com/Realkai42/qwerty-learner-vscode)
+オンライン体験: <https://qwerty.raymondjiang.com>
 
 <br />
 
@@ -64,17 +54,6 @@ Gitee Pages: <https://kaiyiwing.gitee.io/qwerty-learner/>
 誤った筋肉記憶を形成しないようにするために、設計上、ユーザーが単語を間違って入力した場合、単語を再入力する必要があります。これにより、ユーザーが正しい筋肉記憶を維持することができます。
 
 このソフトウェアは、英語のコンピュータベースの試験を受ける必要がある人々にも役立ちます。
-
-**For Coder**：
-
-プログラマーが仕事でよく使う単語の辞書が内蔵されており、仕事でよく使う単語を練習し、入力速度を向上させることができます。また、多くのプログラミング言語の API の練習も内蔵されており、プログラマーが一般的な API に迅速に慣れるのに役立ちます。さらに多くの言語の API が順次追加されています...
-
-<div align=center>
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/coder.png"/>
-</div>
-
-<br />
-<br />
 
 ## 🛠 機能一覧
 
@@ -176,30 +155,15 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 - 大学院英語
 - 専門英語 4 級
 - 専門英語 8 級
-- Coder Dict プログラマーがよく使う単語
 - 高考
 - 中考
 - ビジネス英語
 - BEC
 - 人教版英語 3-9 年級
 - 王陆雅思王听力語料庫 [@Saigyouji_WKKun](https://github.com/ggehuliang)
-- 日本語常用単語、N1 ～ N5 [@xiaojia](https://github.com/wetery)
 - カザフ語基礎 3000 語（ハピン版） [@Elgar](https://github.com/Elgar17) 提供、[@Herbert He](https://github.com/HerbertHe) による [ハピン](https://ha-pin.js.org) 技術サポート
 
 他の辞書を暗記する必要がある場合は、Issue で提案してください。
-
-<br />
-<br />
-
-## 📗 API 辞書
-
-- JavaScript API. [@sdu-gyf](https://github.com/sdu-gyf)
-- Node.js API. [@chrysalis1215](https://github.com/chrysalis1215)
-- Java API. [@darkSheep](https://github.com/SFAfreshman)
-- Linux Command. [@归谜](https://github.com/vhxubo)
-- C#: List API [@nidbCN](https://github.com/nidbCN)
-
-現在、API 関連の辞書は主にコミュニティの貢献に依存しています。自分の必要な API 辞書を貢献したい場合は、[Issue #42](https://github.com/Realkai42/qwerty-learner/issues/40) [pr #67](https://github.com/Realkai42/qwerty-learner/pull/67) を参考にして辞書を貢献してください。
 
 <br />
 <br />
@@ -225,14 +189,6 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 プロジェクトへの貢献に感謝します！🎉
 
 <br />
-
-## ☕️ コーヒーを買ってください
-
-Qwerty Learner をご利用いただき、誠にありがとうございます。現在、このウェブサイトは 3 人のメンバーが余暇を利用して維持しています。将来的には、独自のドメインを購入し（現在は vercel を使用してデプロイ）、国内ユーザーのアクセスとクラウド同期データのためにサーバーを購入する予定です。
-
-このソフトウェアが気に入った場合、将来のサポートに感謝します！
-
-<img  src="https://github.com/Realkai42/qwerty-learner/blob/master/docs/alipay.png" width="200px"/>
 
 ## 👨‍💻 貢献者
 
