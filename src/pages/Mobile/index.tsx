@@ -65,7 +65,6 @@ const MobilePage: React.FC = () => {
           <img src={logo} className="mr-4 h-10 w-10 lg:h-12 lg:w-12" alt="Qwerty Learner Logo" />
           <div className="flex flex-col">
             <h1 className="text-lg font-semibold tracking-tight text-indigo-500 lg:text-xl">Qwerty Learner</h1>
-            <span className="text-xs font-normal text-gray-500">官方网站</span>
           </div>
         </div>
         <a
@@ -74,7 +73,7 @@ const MobilePage: React.FC = () => {
           rel="noopener noreferrer"
           className="hidden items-center gap-2 rounded-xl bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-gray-800 hover:shadow-lg md:flex"
         >
-          <span>访问官网</span>
+          <span>去桌面版</span>
           <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
@@ -90,7 +89,7 @@ const MobilePage: React.FC = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-1 rounded-xl bg-gray-900 px-4 py-2.5 text-sm text-white transition-all duration-200 hover:bg-gray-800 md:hidden"
         >
-          <span>官网</span>
+          <span>桌面版</span>
           <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path
               strokeLinecap="round"
@@ -119,7 +118,7 @@ const MobilePage: React.FC = () => {
             </li>
             <li itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
               <span className="font-medium text-gray-900" itemProp="name">
-                Qwerty Learner 官网
+                Qwerty Learner
               </span>
               <meta itemProp="position" content="2" />
             </li>
@@ -138,14 +137,6 @@ const MobilePage: React.FC = () => {
 
           {/* 主要内容 */}
           <div className="relative z-10 mx-auto w-full max-w-5xl px-6 py-24 text-center">
-            {/* 官网标识 */}
-            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-indigo-100 bg-indigo-50 px-5 py-2.5 text-sm font-medium text-indigo-600">
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span>官方网站</span>
-            </div>
-
             {/* 主标题 */}
             <h1 className="mb-8 text-5xl font-bold leading-[1.1] tracking-tight text-gray-900 sm:text-6xl lg:text-7xl" itemProp="name">
               为<span className="text-indigo-500">键盘工作者</span>
@@ -372,9 +363,9 @@ const MobilePage: React.FC = () => {
                       />
                     </svg>
                   </div>
-                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">多平台无缝体验</h3>
+                  <h3 className="mb-3 text-lg font-semibold text-gray-900 sm:text-xl">打开浏览器即可练习</h3>
                   <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
-                    支持网页版和 VSCode 插件版本，随时随地开始练习。还提供了便捷的快速部署方案，满足不同用户的使用需求。
+                    纯网页应用，无需安装与注册。练习记录保存在本机浏览器中，可随时导出备份。
                   </p>
                 </div>
               </div>
@@ -525,233 +516,6 @@ const MobilePage: React.FC = () => {
                 className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
               >
                 <span>立即体验丰富词库</span>
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        {/* 荣誉成就区域 */}
-        <section
-          className="mt-24 bg-gradient-to-br from-gray-50 to-white px-6 py-24 lg:mt-32 lg:px-24"
-          itemScope
-          itemType="https://schema.org/Organization"
-        >
-          <div className="mx-auto max-w-7xl">
-            <div className="mb-16 text-center">
-              <div className="mb-6 inline-flex items-center gap-3 rounded-full bg-yellow-100 px-6 py-3 text-yellow-600">
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                  />
-                </svg>
-                <span className="font-semibold">荣誉成就</span>
-              </div>
-              <h2 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl xl:text-6xl">
-                备受<span className="text-indigo-500">认可</span>的优质项目
-              </h2>
-              <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                获得 GitHub 全球趋势榜第一名、V2EX 全站热搜、Gitee GVP 最有价值开源项目、少数派首页推荐等多个权威平台认可，成为 10 万+
-                用户的首选免费英语学习软件
-              </p>
-            </div>
-
-            {/* 主要荣誉展示 */}
-            <div className="mb-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-              <div className="rounded-2xl border border-orange-200 bg-orange-50 p-6 text-center shadow-lg sm:p-8">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-orange-100 p-4">
-                  <svg className="h-8 w-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">GitHub 趋势榜</h3>
-                <p className="text-sm text-gray-600 sm:text-base">全球趋势榜第一名</p>
-              </div>
-
-              <div className="rounded-2xl border border-red-200 bg-red-50 p-8 text-center shadow-lg">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-red-100 p-4">
-                  <svg className="h-8 w-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">V2EX 热搜</h3>
-                <p className="text-sm text-gray-600 sm:text-base">V2EX 全站热搜项目</p>
-              </div>
-
-              <div className="rounded-2xl border border-green-200 bg-green-50 p-8 text-center shadow-lg">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-green-100 p-4">
-                  <svg className="h-8 w-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">Gitee GVP</h3>
-                <p className="text-sm text-gray-600 sm:text-base">最有价值开源项目</p>
-              </div>
-
-              <div className="rounded-2xl border border-blue-200 bg-blue-50 p-8 text-center shadow-lg">
-                <div className="mb-4 inline-flex items-center justify-center rounded-full bg-blue-100 p-4">
-                  <svg className="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-lg font-bold text-gray-900 sm:text-xl">少数派推荐</h3>
-                <p className="text-sm text-gray-600 sm:text-base">少数派首页推荐应用</p>
-              </div>
-            </div>
-
-            {/* 详细荣誉列表 */}
-            <div className="grid gap-6 lg:grid-cols-2">
-              <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">开源社区认可</h3>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
-                    <div className="flex-shrink-0 rounded-full bg-orange-100 p-2">
-                      <svg className="h-5 w-5 text-orange-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">GitHub 全球趋势榜第一名</div>
-                      <div className="text-sm text-gray-600">获得全球开发者最高关注和认可</div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
-                    <div className="flex-shrink-0 rounded-full bg-green-100 p-2">
-                      <svg className="h-5 w-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">Gitee 最有价值开源项目 (GVP)</div>
-                      <div className="text-sm text-gray-600">国内顶级开源项目认证</div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
-                    <div className="flex-shrink-0 rounded-full bg-purple-100 p-2">
-                      <svg className="h-5 w-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">GitCode G-Star 计划毕业项目</div>
-                      <div className="text-sm text-gray-600">开源摘星计划优秀项目</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-lg sm:p-8">
-                <h3 className="mb-6 text-xl font-bold text-gray-900 sm:text-2xl">媒体平台推荐</h3>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
-                    <div className="flex-shrink-0 rounded-full bg-red-100 p-2">
-                      <svg className="h-5 w-5 text-red-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">V2EX 全站热搜项目</div>
-                      <div className="text-sm text-gray-600">技术社区高度关注和讨论</div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
-                    <div className="flex-shrink-0 rounded-full bg-blue-100 p-2">
-                      <svg className="h-5 w-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">少数派首页推荐</div>
-                      <div className="text-sm text-gray-600">优质应用推荐平台认可</div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 p-3 sm:gap-4 sm:p-4">
-                    <div className="flex-shrink-0 rounded-full bg-gray-100 p-2">
-                      <svg className="h-5 w-5 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
-                        <path
-                          fillRule="evenodd"
-                          d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">Gitee 全站推荐项目</div>
-                      <div className="text-sm text-gray-600">国内领先代码托管平台推荐</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* 用户数据统计 */}
-            <div className="mt-16 rounded-2xl border border-indigo-200 bg-gradient-to-r from-indigo-50 to-purple-50 p-6 text-center sm:p-8">
-              <h3 className="mb-6 text-xl font-bold text-gray-900 sm:mb-8 sm:text-2xl">用户信赖，数据说话</h3>
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
-                <div>
-                  <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">20000+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">GitHub Stars</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">获得开发者广泛认可</div>
-                </div>
-                <div>
-                  <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">100000+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">月活跃用户</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">持续使用的学习者</div>
-                </div>
-                <div>
-                  <div className="mb-2 text-3xl font-bold text-indigo-600 sm:text-4xl">100+</div>
-                  <div className="text-sm text-gray-600 sm:text-base">社区贡献者</div>
-                  <div className="text-xs text-gray-500 sm:text-sm">共同完善项目</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-12 text-center sm:mt-16">
-              <div className="mb-8">
-                <h4 className="mb-4 text-xl font-bold text-gray-900 sm:text-2xl">加入我们的用户群体</h4>
-                <p className="mx-auto max-w-2xl text-sm text-gray-600 sm:text-base">
-                  成为数万名用户中的一员，体验这款备受认可的英语学习工具，提升您的打字技能和英语水平
-                </p>
-              </div>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-indigo-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-indigo-700 hover:shadow-lg"
-              >
-                <span>立即加入用户群体</span>
                 <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
