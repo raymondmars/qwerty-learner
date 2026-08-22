@@ -119,7 +119,7 @@ export default function WordDetailCard({ word, detail, isMistaken }: WordDetailP
   const hasRelated = Boolean(detail.synonyms?.length || detail.antonyms?.length || detail.cognates?.length)
 
   return (
-    <div className={`w-150 rounded-xl bg-white px-5 py-4 shadow-lg dark:bg-gray-800 ${isTextSelectable ? 'select-text' : 'select-none'}`}>
+    <div className={`w-160 rounded-xl bg-white px-5 py-4 shadow-lg dark:bg-gray-800 ${isTextSelectable ? 'select-text' : 'select-none'}`}>
       <div className="flex flex-col items-start">
         {/* 拼错时用中性的琥珀色告知，不做判罚式的红色；一次写对则明确给正反馈 */}
         <span
