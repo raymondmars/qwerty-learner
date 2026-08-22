@@ -390,8 +390,7 @@ const MobilePage: React.FC = () => {
                 丰富词库，<span className="text-indigo-500">应有尽有</span>
               </h2>
               <p className="mx-auto max-w-3xl text-xl font-light leading-relaxed text-gray-600">
-                涵盖 CET-4/6 四六级英语考试、雅思托福 GRE 考研英语、商务英语 BEC
-                考试，以及日语、德语等多语种词库，满足不同用户的英语学习需求
+                涵盖 CET-4/6 四六级英语考试、雅思托福 GRE 考研英语、商务英语 BEC 考试，覆盖从中考高考到出国留学的各阶段需求
               </p>
             </div>
 
@@ -494,7 +493,7 @@ const MobilePage: React.FC = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">商务与多语言</h3>
+                <h3 className="mb-4 text-lg font-semibold text-gray-900 sm:text-xl">商务与专项</h3>
                 <div className="space-y-2 text-xs text-gray-600 sm:text-sm">
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
@@ -507,14 +506,6 @@ const MobilePage: React.FC = () => {
                   <div className="flex items-center gap-2">
                     <span className="text-indigo-500">•</span>
                     <span>王陆雅思王听力语料库</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-indigo-500">•</span>
-                    <span>日语常见词 N1-N5</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-indigo-500">•</span>
-                    <span>哈萨克语基础3000词</span>
                   </div>
                 </div>
               </div>

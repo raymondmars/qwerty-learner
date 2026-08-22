@@ -13,22 +13,6 @@ test.describe('Dictionary manage', () => {
     await expect(await page.getByText('词典切换').isVisible()).toBeTruthy()
   })
 
-  test('Switch language', async ({ page }) => {
-    await page.getByText('CET-4').click()
-    await page.waitForURL('**/gallery')
-
-    await expect(await page.getByRole('radio', { name: /^英语$/ }).getAttribute('aria-checked')).toBeTruthy()
-
-    await page.getByRole('radio', { name: /^日语$/ }).click()
-    await expect(await page.getByRole('radio', { name: /^日语$/ }).getAttribute('aria-checked')).toBeTruthy()
-    await expect(
-      await page
-        .getByRole('button', { name: /日语常见词/g })
-        .first()
-        .isVisible(),
-    ).toBeTruthy()
-  })
-
   test('Switch category', async ({ page }) => {
     await page.getByText('CET-4').click()
     await page.waitForURL('**/gallery')

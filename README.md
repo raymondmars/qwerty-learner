@@ -63,7 +63,7 @@
 
 ### 词库
 
-内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语等词库，也支持日语、德语、哈萨克语、印尼语。尽可能满足大部分用户对单词记忆的需求，也非常欢迎社区贡献更多的词库。
+内置了常用的 CET-4 、CET-6 、GMAT 、GRE 、IELTS 、SAT 、TOEFL 、考研英语、专业四级英语、专业八级英语等词库，专注英语单词记忆，也非常欢迎社区贡献更多的英语词库。
 <br />
 <br />
 
@@ -213,8 +213,8 @@
 
 ### 环境变量
 
-| 变量 | 说明 |
-| --- | --- |
+| 变量                     | 说明                                                                                                                                    |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `VITE_GA_MEASUREMENT_ID` | Google Analytics 4 的衡量 ID（形如 `G-XXXXXXXXXX`）。**只在构建时读取**，不设置则页面完全不加载统计脚本，也不会向 Google 发出任何请求。 |
 
 ```bash
@@ -259,8 +259,6 @@ Docker 构建时通过 `--build-arg` 传入即可，注意 `Dockerfile` 中需�
 - BEC
 - 人教版英语 3-9 年级
 - 王陆雅思王听力语料库 [@Saigyouji_WKKun](https://github.com/ggehuliang)
-- 日语常见词、N1 ～ N5 [@xiaojia](https://github.com/wetery)
-- 哈萨克语基础 3000 词(哈拼版) 来源于 [@Elgar](https://github.com/Elgar17) 由 [@Herbert He](https://github.com/HerbertHe) 通过 [哈拼](https://ha-pin.js.org) 技术支持
 
 如果您需要背诵其他词库，欢迎在 Issue 中提出
 

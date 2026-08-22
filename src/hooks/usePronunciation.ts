@@ -1,7 +1,6 @@
 import { pronunciationConfigAtom } from '@/store'
 import type { PronunciationType } from '@/typings'
 import { addHowlListener } from '@/utils'
-import { romajiToHiragana } from '@/utils/kana'
 import noop from '@/utils/noop'
 import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
@@ -16,19 +15,6 @@ export function generateWordSoundSrc(word: string, pronunciation: Exclude<Pronun
       return `${pronunciationApi}${word}&type=1`
     case 'us':
       return `${pronunciationApi}${word}&type=2`
-    case 'romaji':
-      return `${pronunciationApi}${romajiToHiragana(word)}&le=jap`
-    case 'zh':
-      return `${pronunciationApi}${word}&le=zh`
-    case 'ja':
-      return `${pronunciationApi}${word}&le=jap`
-    case 'de':
-      return `${pronunciationApi}${word}&le=de`
-    case 'hapin':
-    case 'kk':
-      return `${pronunciationApi}${word}&le=ru` // 有道不支持哈萨克语, 暂时用俄语发音兜底
-    case 'id':
-      return `${pronunciationApi}${word}&le=id`
     default:
       return ''
   }

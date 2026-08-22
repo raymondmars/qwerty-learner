@@ -161,7 +161,6 @@ MacOS ユーザーの場合、[install.sh](scripts/install.sh) スクリプト�
 - BEC
 - 人教版英語 3-9 年級
 - 王陆雅思王听力語料庫 [@Saigyouji_WKKun](https://github.com/ggehuliang)
-- 日本語常用単語、N1 ～ N5 [@xiaojia](https://github.com/wetery)
 - カザフ語基礎 3000 語（ハピン版） [@Elgar](https://github.com/Elgar17) 提供、[@Herbert He](https://github.com/HerbertHe) による [ハピン](https://ha-pin.js.org) 技術サポート
 
 他の辞書を暗記する必要がある場合は、Issue で提案してください。

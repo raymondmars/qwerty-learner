@@ -1,7 +1,6 @@
 import type { WordUpdateAction } from '../InputHandler'
 import InputHandler from '../InputHandler'
 import Letter from './Letter'
-import Notation from './Notation'
 import { TipAlert } from './TipAlert'
 import { initialWordState } from './type'
 import type { WordState } from './type'
@@ -49,7 +48,6 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const [playKeySound, playBeepSound, playHintSound] = useKeySounds()
   const pronunciationIsOpen = useAtomValue(pronunciationIsOpenAtom)
   const [isHoveringWord, setIsHoveringWord] = useState(false)
-  const currentLanguage = useAtomValue(currentDictInfoAtom).language
   const currentLanguageCategory = useAtomValue(currentDictInfoAtom).languageCategory
   const currentChapter = useAtomValue(currentChapterAtom)
 
@@ -304,7 +302,6 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     <>
       <InputHandler updateInput={updateInput} />
       <div lang={currentLanguageCategory} className="flex flex-col items-center justify-center pb-1 pt-4">
-        {['romaji', 'hapin'].includes(currentLanguage) && word.notation && <Notation notation={word.notation} />}
         <div
           className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
             // 关闭「显示答案」时 Tab 也不再生效，此时不能再提示用户按 Tab
@@ -339,7 +336,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           {pronunciationIsOpen && (
             <div className="absolute -right-12 top-1/2 h-9 w-9 -translate-y-1/2 transform ">
               <Tooltip content={`快捷键${CTRL} + J`}>
-                <WordPronunciationIcon word={word} lang={currentLanguage} ref={wordPronunciationIconRef} className="h-full w-full" />
+                <WordPronunciationIcon word={word} ref={wordPronunciationIconRef} className="h-full w-full" />
               </Tooltip>
             </div>
           )}
