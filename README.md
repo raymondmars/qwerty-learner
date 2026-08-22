@@ -211,6 +211,27 @@
 
 > 此脚本依赖于 `homebrew`，请确保自己电脑上可以执行`brew`命令
 
+### 环境变量
+
+| 变量 | 说明 |
+| --- | --- |
+| `VITE_GA_MEASUREMENT_ID` | Google Analytics 4 的衡量 ID（形如 `G-XXXXXXXXXX`）。**只在构建时读取**，不设置则页面完全不加载统计脚本，也不会向 Google 发出任何请求。 |
+
+```bash
+VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX npm run build
+```
+
+也可以写进项目根目录的 `.env.local`（该文件已被 git 忽略）：
+
+```
+VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+Docker 构建时通过 `--build-arg` 传入即可，注意 `Dockerfile` 中需要把它转成构建阶段的环境变量。
+
+<br />
+<br />
+
 ## 🏆 荣誉
 
 - Github 全球趋势榜上榜项目
