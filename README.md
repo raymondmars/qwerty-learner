@@ -16,15 +16,13 @@
 </p>
 
 <p align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <a href="https://github.com/Realkai42/qwerty-learner/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Realkai42/qwerty-learner" alt="License"></a>
+  <a href="https://github.com/raymondmars/qwerty-learner/blob/master/LICENSE"><img src="https://img.shields.io/github/license/raymondmars/qwerty-learner" alt="License"></a>
   <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
   <a><img src="https://img.shields.io/badge/Powered%20by-React-blue"/></a>
-  <a><img src="https://img.shields.io/github/stars/RealKai42/qwerty-learner"/></a>
-  <a><img src="https://img.shields.io/github/forks/RealKai42/qwerty-learner"/></a>
 </p>
-<div align=center>
-<a href="https://trendshift.io/repositories/3239" target="_blank" class="trendshift-badge"><img src="https://trendshift.io/api/badge/repositories/3239" alt="RealKai42%2Fqwerty-learner | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</div>
+
+> 本项目基于开源项目 [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 二次开发，遵循 GPL-3.0 协议继续开源。
+> **本分支只专注英语**：其他语种的词库与相关实现已全部移除，后续也不再加入非英语内容。
 
 <div align=center>
 <img  src="docs/Screenshot.png"/>
@@ -34,6 +32,31 @@
 
 在线体验: <https://qwerty.raymondjiang.com>
 
+<br />
+
+## 🔀 与上游项目的差异
+
+本分支面向个人自部署，与上游 [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner) 的主要差异如下。
+
+**定位：只做英语**
+
+- 移除日语、德语、哈萨克语、印尼语共 23 个词库，以及假名/哈拼注音、罗马字转假名、非拉丁语言输入通道、多语言发音参数等全部语言专用实现
+- 移除「代码练习」的 46 个编程 API 词库 —— 它与"学语言"这条主线不成体系
+- 语言相关类型收敛为 `'en'`，发音只保留美音与英音
+
+**新增功能**
+
+- [复读机 · 听力精听](#复读机--听力精听)：波形定位、A/B 区间循环、人声分段跳转、变速、听写暂停，配套一个自动保存的听写本
+
+**自部署相关**
+
+- 移除第三方统计上报（Google Analytics、Mixpanel、Vercel Analytics）。GA 改为构建时按 `VITE_GA_MEASUREMENT_ID` 注入，不设置则页面不加载任何统计脚本
+- 移除捐赠模块、收款二维码、社群二维码与作者个人信息
+- 移除指向上游站点的 SEO 身份信息与虚构的评分/评价结构化数据
+- 移除上游的部署流水线（GitHub Pages 发布、Gitee 镜像）与历史 CI 配置
+- nginx 配置补上 `try_files`，前端路由直接访问不再 404
+
+<br />
 <br />
 
 ## 快速部署
