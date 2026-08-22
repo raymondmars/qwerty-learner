@@ -1,4 +1,3 @@
-import { recordErrorBookAction } from '@/utils'
 import { useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
 import IconBook from '~icons/bxs/book'
@@ -8,7 +7,6 @@ const ErrorBookButton = () => {
 
   const toErrorBook = useCallback(() => {
     navigate('/error-book')
-    recordErrorBookAction('open')
   }, [navigate])
 
   return (

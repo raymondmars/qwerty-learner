@@ -1,8 +1,6 @@
 import { CHAPTER_LENGTH } from '@/constants'
 import type { Howl } from 'howler'
 
-export * from './mixpanel'
-
 const bannedKeys = [
   'Enter',
   'Backspace',
@@ -80,6 +78,11 @@ export function classNames(...classNames: Array<string | void | null>) {
   }
 
   return finallyClassNames.join(' ')
+}
+
+/** 形如 `2026-08-22 09:30:00` 的 UTC 时间串 */
+export function getUtcString() {
+  return new Date().toISOString().substring(0, 19).replace('T', ' ')
 }
 
 export function getCurrentDate() {

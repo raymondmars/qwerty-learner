@@ -24,7 +24,7 @@ import {
   wordDictationConfigAtom,
 } from '@/store'
 import type { Word } from '@/typings'
-import { CTRL, getUtcStringForMixpanel } from '@/utils'
+import { CTRL, getUtcString } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useRef, useState } from 'react'
@@ -46,7 +46,6 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const isShowAnswerOnHover = useAtomValue(isShowAnswerOnHoverAtom)
   const isEnterToNextWord = useAtomValue(isEnterToNextWordAtom)
   const saveWordRecord = useSaveWordRecord()
-  // const wordLogUploader = useMixPanelWordLogUploader(state)
   const [playKeySound, playBeepSound, playHintSound] = useKeySounds()
   const pronunciationIsOpen = useAtomValue(pronunciationIsOpenAtom)
   const [isHoveringWord, setIsHoveringWord] = useState(false)
@@ -87,7 +86,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     const newWordState = structuredClone(initialWordState)
     newWordState.displayWord = headword
     newWordState.letterStates = new Array(headword.length).fill('normal')
-    newWordState.startTime = getUtcStringForMixpanel()
+    newWordState.startTime = getUtcString()
     newWordState.randomLetterVisible = headword.split('').map(() => Math.random() > 0.4)
     setWordState(newWordState)
   }, [word, setWordState])
@@ -243,7 +242,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
 
       if (isLastLetter) {
         state.isFinished = true
-        state.endTime = getUtcStringForMixpanel()
+        state.endTime = getUtcString()
       }
     })
 
@@ -272,14 +271,6 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
     if (wordState.isFinished) {
       dispatch({ type: TypingStateActionType.SET_IS_SAVING_RECORD, payload: true })
 
-      // wordLogUploader({
-      //   headword: word.name,
-      //   timeStart: wordState.startTime,
-      //   timeEnd: wordState.endTime,
-      //   countInput: wordState.correctCount + wordState.wrongCount,
-      //   countCorrect: wordState.correctCount,
-      //   countTypo: wordState.wrongCount,
-      // })
       saveWordRecord({
         word: word.name,
         wrongCount: wordState.wrongCount,

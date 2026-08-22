@@ -1,5 +1,5 @@
 import { db } from '.'
-import { getCurrentDate, recordDataAction } from '..'
+import { getCurrentDate } from '..'
 
 export type ExportProgress = {
   totalRows?: number
@@ -21,14 +21,12 @@ export async function exportDatabase(callback: (exportProgress: ExportProgress) 
       return callback({ totalRows, completedRows, done })
     },
   })
-  const [wordCount, chapterCount] = await Promise.all([db.wordRecords.count(), db.chapterRecords.count()])
 
   const json = await blob.text()
   const compressed = pako.gzip(json)
   const compressedBlob = new Blob([compressed])
   const currentDate = getCurrentDate()
   saveAs(compressedBlob, `Qwerty-Learner-User-Data-${currentDate}.gz`)
-  recordDataAction({ type: 'export', size: compressedBlob.size, wordCount, chapterCount })
 }
 
 export async function importDatabase(onStart: () => void, callback: (importProgress: ImportProgress) => boolean) {
@@ -58,9 +56,6 @@ export async function importDatabase(onStart: () => void, callback: (importProgr
         return callback({ totalRows, completedRows, done })
       },
     })
-
-    const [wordCount, chapterCount] = await Promise.all([db.wordRecords.count(), db.chapterRecords.count()])
-    recordDataAction({ type: 'import', size: file.size, wordCount, chapterCount })
   })
 
   input.click()

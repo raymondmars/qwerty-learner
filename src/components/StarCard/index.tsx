@@ -1,6 +1,6 @@
 import { DISMISS_START_CARD_DATE_KEY } from '@/constants'
 import { dismissStartCardDateAtom } from '@/store'
-import { IS_MAC_OS, recordStarAction } from '@/utils'
+import { IS_MAC_OS } from '@/utils'
 import { Transition } from '@headlessui/react'
 import { useSetAtom } from 'jotai'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useState } from 'react'
@@ -25,15 +25,11 @@ export default function StarCard() {
   const onClickCloseStar = useCallback(() => {
     setIsShow(false)
     setDismissStartCardDate(new Date())
-    if (!isCounting) {
-      recordStarAction('dismiss')
-    }
-  }, [setIsShow, setDismissStartCardDate, isCounting])
+  }, [setIsShow, setDismissStartCardDate])
 
   const onClickWantStar = useCallback(() => {
     setIsCounting(true)
     setDismissStartCardDate(new Date())
-    recordStarAction('star')
   }, [setDismissStartCardDate])
 
   useEffect(() => {

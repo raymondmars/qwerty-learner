@@ -3,15 +3,7 @@ import { reviewInfoAtom } from './reviewInfoAtom'
 import { DISMISS_START_CARD_DATE_KEY, defaultFontSizeConfig } from '@/constants'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { correctSoundResources, keySoundResources, wrongSoundResources } from '@/resources/soundResource'
-import type {
-  Dictionary,
-  InfoPanelState,
-  LoopWordTimesOption,
-  PhoneticType,
-  PronunciationType,
-  WordDictationOpenBy,
-  WordDictationType,
-} from '@/typings'
+import type { Dictionary, LoopWordTimesOption, PhoneticType, PronunciationType, WordDictationOpenBy, WordDictationType } from '@/typings'
 import type { ReviewRecord } from '@/utils/db/record'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
@@ -114,13 +106,6 @@ export const isWordWaitingEnterAtom = atom(false)
 export const isWordMistakenAtom = atom(false)
 
 export const isInDevModeAtom = atom(false)
-
-export const infoPanelStateAtom = atom<InfoPanelState>({
-  donate: false,
-  vsc: false,
-  community: false,
-  redBook: false,
-})
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
   isOpen: true,
