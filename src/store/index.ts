@@ -65,8 +65,6 @@ export const fontSizeConfigAtom = atomForConfig('fontsize', defaultFontSizeConfi
 
 export const pronunciationIsOpenAtom = atom((get) => get(pronunciationConfigAtom).isOpen)
 
-export const pronunciationIsTransReadAtom = atom((get) => get(pronunciationConfigAtom).isTransRead)
-
 export const randomConfigAtom = atomForConfig('randomConfig', {
   isOpen: false,
 })
@@ -95,8 +93,6 @@ export const phoneticConfigAtom = atomForConfig('phoneticConfig', {
 
 export const isOpenDarkModeAtom = atomWithStorage('isOpenDarkModeAtom', window.matchMedia('(prefers-color-scheme: dark)').matches)
 
-export const isShowSkipAtom = atom(false)
-
 // 当前单词已拼写完成、正在等待用户按 Enter 进入下一个单词。
 // 用于让 StartButton 上的 Enter（开始/暂停）快捷键在此期间让位
 export const isWordWaitingEnterAtom = atom(false)
@@ -104,8 +100,6 @@ export const isWordWaitingEnterAtom = atom(false)
 // 当前完成的单词里留有拼错的字母。默写模式下屏幕上显示的是用户敲错的字符，
 // 此时即使没有例句词组，也要把详情卡片显示出来，让用户看到正确拼写
 export const isWordMistakenAtom = atom(false)
-
-export const isInDevModeAtom = atom(false)
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
   isOpen: true,
@@ -116,9 +110,6 @@ export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
 })
 
 export const dismissStartCardDateAtom = atomWithStorage<Date | null>(DISMISS_START_CARD_DATE_KEY, null)
-
-// Enhanced version promotion popup state
-export const hasSeenEnhancedPromotionAtom = atomWithStorage('hasSeenEnhancedPromotion', false)
 
 // for dev test
 //   dismissStartCardDateAtom = atom<Date | null>(new Date())
