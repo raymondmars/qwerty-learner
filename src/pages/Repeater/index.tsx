@@ -1,3 +1,4 @@
+import { loadLastAudio, saveLastAudio } from './audioStore'
 import DictationDeck from './components/DictationDeck'
 import Meter from './components/Meter'
 import WaveStage from './components/WaveStage'
@@ -22,6 +23,8 @@ const LIMITS = [
   { value: 5, label: '5 次' },
 ]
 
+const COMPACT_STORAGE_KEY = 'repeater-compact'
+
 const DICTS = [
   { value: 0, label: '关闭' },
   { value: 5, label: '每 5 秒' },
@@ -39,7 +42,36 @@ const Repeater: React.FC = () => {
   // 直接输网址或从别处跳进来的则仍然走路由跳转，否则会白白多出一个重复的首页标签
   const [closable] = useState(() => window.history.length <= 1)
 
+  // 精简模式：只留计时与波形，隐藏走带与各项参数，听写时眼睛不被干扰
+  const [compact, setCompact] = useState(() => window.localStorage.getItem(COMPACT_STORAGE_KEY) === '1')
+
+  const toggleCompact = useCallback(() => {
+    setCompact((old) => {
+      window.localStorage.setItem(COMPACT_STORAGE_KEY, old ? '0' : '1')
+      return !old
+    })
+  }, [])
+
+  // 用户选择或拖入的音频存一份到 IndexedDB，刷新后自动恢复最近一次
+  const pickFile = useCallback(
+    (file: File) => {
+      engine.load(file)
+      saveLastAudio(file)
+    },
+    [engine],
+  )
+
   useRepeaterFonts()
+
+  useEffect(() => {
+    let cancelled = false
+    loadLastAudio().then((file) => {
+      if (file && !cancelled) engine.load(file)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [engine])
 
   const handleBack = useCallback(() => {
     if (!closable) {
@@ -130,6 +162,9 @@ const Repeater: React.FC = () => {
               <button className={styles.btn} onClick={toggleTheme} aria-pressed={theme === 'light'}>
                 {theme === 'light' ? '☾ 夜间' : '☀ 白昼'}
               </button>
+              <button className={styles.btn} data-on={compact ? '1' : '0'} onClick={toggleCompact}>
+                {compact ? '▾ 展开控制台' : '▴ 精简界面'}
+              </button>
               <button className={styles.btn} onClick={() => fileInputRef.current?.click()}>
                 选择音频文件
               </button>
@@ -142,7 +177,7 @@ const Repeater: React.FC = () => {
               hidden
               onChange={(e) => {
                 const file = e.target.files?.[0]
-                if (file) engine.load(file)
+                if (file) pickFile(file)
                 // 允许重复选择同一个文件
                 e.target.value = ''
               }}
@@ -151,7 +186,7 @@ const Repeater: React.FC = () => {
 
           <div className={styles.row}>
             <Meter engine={engine} snapshot={snapshot} />
-            <WaveStage engine={engine} snapshot={snapshot} theme={theme} onPickFile={(file) => engine.load(file)} />
+            <WaveStage engine={engine} snapshot={snapshot} theme={theme} onPickFile={pickFile} />
             <div className={styles.marks}>
               <span>
                 A 起点 <i>{snapshot.a != null ? formatTime(snapshot.a) : '--:--'}</i>
@@ -166,163 +201,168 @@ const Repeater: React.FC = () => {
             </div>
           </div>
 
-          <div className={`${styles.row} ${styles.transport}`}>
-            <button className={styles.tbtn} onClick={() => engine.nudge(-3)}>
-              <span className={styles.g}>↺</span>
-              <span className={styles.l}>退 3 秒</span>
-            </button>
-            <button className={`${styles.tbtn} ${styles.main}`} onClick={engine.toggle}>
-              <span className={styles.g}>{snapshot.isPlaying ? '❚❚' : '▶'}</span>
-              <span className={styles.l}>{snapshot.isPlaying ? '暂停' : '播放'}</span>
-            </button>
-            <button className={styles.tbtn} onClick={() => engine.nudge(3)}>
-              <span className={styles.g}>↻</span>
-              <span className={styles.l}>进 3 秒</span>
-            </button>
-            <button className={styles.tbtn} onClick={engine.replay}>
-              <span className={styles.g}>⟲</span>
-              <span className={styles.l}>重播本句</span>
-            </button>
-          </div>
-
-          <div className={styles.row}>
-            <div className={styles.ctl}>
-              <div className={styles.lbl}>跳到人声</div>
-              <div className={styles.seg}>
-                <button className={styles.btn} disabled={noSegment} onClick={engine.prevSeg}>
-                  ◂ 上一句
+          {/* 精简模式下从走带开始整段收起，只留计时与波形 */}
+          {!compact && (
+            <>
+              <div className={`${styles.row} ${styles.transport}`}>
+                <button className={styles.tbtn} onClick={() => engine.nudge(-3)}>
+                  <span className={styles.g}>↺</span>
+                  <span className={styles.l}>退 3 秒</span>
                 </button>
-                <button className={`${styles.btn} ${styles.wide}`} disabled={noSegment} onClick={engine.nextSeg}>
-                  下一句 ▸
+                <button className={`${styles.tbtn} ${styles.main}`} onClick={engine.toggle}>
+                  <span className={styles.g}>{snapshot.isPlaying ? '❚❚' : '▶'}</span>
+                  <span className={styles.l}>{snapshot.isPlaying ? '暂停' : '播放'}</span>
                 </button>
-                <button className={styles.btn} disabled={noSegment} onClick={engine.toBody}>
-                  跳过开头说明
+                <button className={styles.tbtn} onClick={() => engine.nudge(3)}>
+                  <span className={styles.g}>↻</span>
+                  <span className={styles.l}>进 3 秒</span>
                 </button>
-                <button className={styles.btn} data-on={snapshot.autoLoop ? '1' : '0'} onClick={engine.toggleAutoLoop}>
-                  跳句即框选
+                <button className={styles.tbtn} onClick={engine.replay}>
+                  <span className={styles.g}>⟲</span>
+                  <span className={styles.l}>重播本句</span>
                 </button>
               </div>
-              <div className={styles.count}>
-                {snapshot.segCount ? (
-                  <>
-                    识别到 <b>{snapshot.segCount}</b> 段人声
-                  </>
-                ) : snapshot.loaded ? (
-                  '未能识别人声段'
-                ) : (
-                  '尚未识别'
-                )}
-              </div>
-            </div>
 
-            <div className={styles.ctl}>
-              <div className={styles.lbl}>切句粒度</div>
-              <div className={styles.seg}>
-                {GRAINS.map((item) => (
-                  <button
-                    key={item.value}
-                    className={styles.btn}
-                    data-on={snapshot.grain === item.value ? '1' : '0'}
-                    onClick={() => engine.setGrain(item.value)}
-                  >
-                    {item.label}
+              <div className={styles.row}>
+                <div className={styles.ctl}>
+                  <div className={styles.lbl}>跳到人声</div>
+                  <div className={styles.seg}>
+                    <button className={styles.btn} disabled={noSegment} onClick={engine.prevSeg}>
+                      ◂ 上一句
+                    </button>
+                    <button className={`${styles.btn} ${styles.wide}`} disabled={noSegment} onClick={engine.nextSeg}>
+                      下一句 ▸
+                    </button>
+                    <button className={styles.btn} disabled={noSegment} onClick={engine.toBody}>
+                      跳过开头说明
+                    </button>
+                    <button className={styles.btn} data-on={snapshot.autoLoop ? '1' : '0'} onClick={engine.toggleAutoLoop}>
+                      跳句即框选
+                    </button>
+                  </div>
+                  <div className={styles.count}>
+                    {snapshot.segCount ? (
+                      <>
+                        识别到 <b>{snapshot.segCount}</b> 段人声
+                      </>
+                    ) : snapshot.loaded ? (
+                      '未能识别人声段'
+                    ) : (
+                      '尚未识别'
+                    )}
+                  </div>
+                </div>
+
+                <div className={styles.ctl}>
+                  <div className={styles.lbl}>切句粒度</div>
+                  <div className={styles.seg}>
+                    {GRAINS.map((item) => (
+                      <button
+                        key={item.value}
+                        className={styles.btn}
+                        data-on={snapshot.grain === item.value ? '1' : '0'}
+                        onClick={() => engine.setGrain(item.value)}
+                      >
+                        {item.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className={styles.row}>
+                <div className={styles.ctl}>
+                  <div className={styles.lbl}>复读区间</div>
+                  <div className={styles.seg}>
+                    <button className={styles.btn} onClick={engine.setA}>
+                      设 A
+                    </button>
+                    <button className={styles.btn} onClick={engine.setB}>
+                      设 B
+                    </button>
+                    <button className={styles.btn} onClick={engine.clearRange}>
+                      清除
+                    </button>
+                  </div>
+                  <div className={styles.lbl} style={{ minWidth: 'auto', marginLeft: 8 }}>
+                    循环上限
+                  </div>
+                  <div className={styles.seg}>
+                    {LIMITS.map((item) => (
+                      <button
+                        key={item.value}
+                        className={styles.btn}
+                        data-on={snapshot.limit === item.value ? '1' : '0'}
+                        onClick={() => engine.setLimit(item.value)}
+                      >
+                        {item.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div className={styles.ctl}>
+                  <div className={styles.lbl}>语速</div>
+                  <input
+                    type="range"
+                    min={50}
+                    max={150}
+                    step={5}
+                    value={Math.round(snapshot.rate * 100)}
+                    onChange={(e) => engine.setRate(Number(e.target.value) / 100)}
+                  />
+                  <div className={styles.spd}>{snapshot.rate.toFixed(2)}×</div>
+                  <button className={styles.btn} onClick={() => engine.setRate(1)}>
+                    复位
                   </button>
-                ))}
-              </div>
-            </div>
-          </div>
+                </div>
 
-          <div className={styles.row}>
-            <div className={styles.ctl}>
-              <div className={styles.lbl}>复读区间</div>
-              <div className={styles.seg}>
-                <button className={styles.btn} onClick={engine.setA}>
-                  设 A
-                </button>
-                <button className={styles.btn} onClick={engine.setB}>
-                  设 B
-                </button>
-                <button className={styles.btn} onClick={engine.clearRange}>
-                  清除
-                </button>
+                <div className={styles.ctl}>
+                  <div className={styles.lbl}>听写暂停</div>
+                  <div className={styles.seg}>
+                    {DICTS.map((item) => (
+                      <button
+                        key={item.value}
+                        className={styles.btn}
+                        data-on={snapshot.dictSec === item.value ? '1' : '0'}
+                        onClick={() => engine.setDictSec(item.value)}
+                      >
+                        {item.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
               </div>
-              <div className={styles.lbl} style={{ minWidth: 'auto', marginLeft: 8 }}>
-                循环上限
-              </div>
-              <div className={styles.seg}>
-                {LIMITS.map((item) => (
-                  <button
-                    key={item.value}
-                    className={styles.btn}
-                    data-on={snapshot.limit === item.value ? '1' : '0'}
-                    onClick={() => engine.setLimit(item.value)}
-                  >
-                    {item.label}
-                  </button>
-                ))}
-              </div>
-            </div>
 
-            <div className={styles.ctl}>
-              <div className={styles.lbl}>语速</div>
-              <input
-                type="range"
-                min={50}
-                max={150}
-                step={5}
-                value={Math.round(snapshot.rate * 100)}
-                onChange={(e) => engine.setRate(Number(e.target.value) / 100)}
-              />
-              <div className={styles.spd}>{snapshot.rate.toFixed(2)}×</div>
-              <button className={styles.btn} onClick={() => engine.setRate(1)}>
-                复位
-              </button>
-            </div>
-
-            <div className={styles.ctl}>
-              <div className={styles.lbl}>听写暂停</div>
-              <div className={styles.seg}>
-                {DICTS.map((item) => (
-                  <button
-                    key={item.value}
-                    className={styles.btn}
-                    data-on={snapshot.dictSec === item.value ? '1' : '0'}
-                    onClick={() => engine.setDictSec(item.value)}
-                  >
-                    {item.label}
-                  </button>
-                ))}
+              <div className={`${styles.row} ${styles.legend}`}>
+                <div>
+                  <kbd>空格</kbd>播放 / 暂停
+                </div>
+                <div>
+                  <kbd>←</kbd>
+                  <kbd>→</kbd>退 / 进 3 秒
+                </div>
+                <div>
+                  <kbd>A</kbd>
+                  <kbd>B</kbd>设起点 / 终点
+                </div>
+                <div>
+                  <kbd>[</kbd>
+                  <kbd>]</kbd>上 / 下一句人声
+                </div>
+                <div>
+                  <kbd>R</kbd>重播本句
+                </div>
+                <div>
+                  <kbd>X</kbd>清除区间
+                </div>
+                <div>
+                  <kbd>↑</kbd>
+                  <kbd>↓</kbd>加速 / 减速
+                </div>
               </div>
-            </div>
-          </div>
-
-          <div className={`${styles.row} ${styles.legend}`}>
-            <div>
-              <kbd>空格</kbd>播放 / 暂停
-            </div>
-            <div>
-              <kbd>←</kbd>
-              <kbd>→</kbd>退 / 进 3 秒
-            </div>
-            <div>
-              <kbd>A</kbd>
-              <kbd>B</kbd>设起点 / 终点
-            </div>
-            <div>
-              <kbd>[</kbd>
-              <kbd>]</kbd>上 / 下一句人声
-            </div>
-            <div>
-              <kbd>R</kbd>重播本句
-            </div>
-            <div>
-              <kbd>X</kbd>清除区间
-            </div>
-            <div>
-              <kbd>↑</kbd>
-              <kbd>↓</kbd>加速 / 减速
-            </div>
-          </div>
+            </>
+          )}
         </main>
 
         <DictationDeck engine={engine} snapshot={snapshot} />
