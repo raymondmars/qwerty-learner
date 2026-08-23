@@ -93,17 +93,6 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
     setText((old) => old.slice(0, start) + tag + old.slice(end))
   }
 
-  const handleExport = () => {
-    if (!text.trim()) return
-    const name = (snapshot.fileName || 'dictation').replace(/\.[^.]+$/, '')
-    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' })
-    const a = document.createElement('a')
-    a.href = URL.createObjectURL(blob)
-    a.download = `${name}-听写.txt`
-    a.click()
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000)
-  }
-
   const handleWipe = () => {
     if (text && !window.confirm('清空听写内容？此操作无法撤销。')) return
     setText('')
@@ -175,9 +164,6 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
               e.target.value = ''
             }}
           />
-          <button className={styles.btn} onClick={handleExport}>
-            导出 txt
-          </button>
           <button className={styles.btn} onClick={handleWipe}>
             清空
           </button>
@@ -209,7 +195,7 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
           <kbd>⌘/Ctrl</kbd>
           <kbd>↵</kbd>重播本句
         </div>
-        <div>内容自动保存在本机浏览器 · 换设备请先导出</div>
+        <div>内容自动保存在本机浏览器 · 需要留存请自行复制</div>
       </div>
     </section>
   )
