@@ -73,7 +73,9 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
     if (!text.trim()) setShowAnswer(false)
   }, [text])
 
-  const diff = useMemo(() => (transcript ? diffDictation(text, transcript) : null), [text, transcript])
+  // 只在面板展开时才比对：LCS 的表是 O(听写词数 × 原文词数)，
+  // 若跟着 text 每次击键都算，长稿子下会拖慢打字
+  const diff = useMemo(() => (showAnswer && transcript ? diffDictation(text, transcript) : null), [showAnswer, text, transcript])
 
   const handlePickTranscript = async (file: File) => {
     const content = await file.text()

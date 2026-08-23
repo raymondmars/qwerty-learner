@@ -66,7 +66,10 @@ const Repeater: React.FC = () => {
   useEffect(() => {
     let cancelled = false
     loadLastAudio().then((file) => {
-      if (file && !cancelled) engine.load(file)
+      if (!file || cancelled) return
+      // 读 IndexedDB 是异步的，期间用户可能已经自己选了文件，此时不要覆盖
+      if (engine.getSnapshot().loaded) return
+      engine.load(file)
     })
     return () => {
       cancelled = true
