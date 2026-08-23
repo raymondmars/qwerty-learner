@@ -13,6 +13,7 @@
   --dim: #7e9ea3;
   --amber: #f0a02a;
   --cyan: #62c6c0;
+  --wrong: #e0725c;
   --on-accent: #16262a;
   --raise: rgba(237, 230, 214, 0.07);
   --sink: rgba(0, 0, 0, 0.12);
@@ -73,6 +74,7 @@
   --dim: #6c8187;
   --amber: #a8690a;
   --cyan: #1c7a75;
+  --wrong: #b2402a;
   --on-accent: #fff8ea;
   --raise: rgba(255, 255, 255, 0.72);
   --sink: rgba(23, 49, 55, 0.05);
@@ -610,5 +612,85 @@
   :where(.page) * {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* ---- 对答案 ---- */
+.answerStats {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  margin-bottom: 12px;
+}
+.answerStats .acc {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--cyan);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.answerStats b {
+  color: var(--ink);
+  font-weight: 500;
+}
+.answerCols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.answerCol {
+  min-width: 0;
+}
+.answerColTitle {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dim);
+  margin-bottom: 8px;
+}
+.answerText {
+  font-family: var(--pen);
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--ink);
+  word-break: break-word;
+}
+.tokWrong {
+  color: var(--wrong);
+  text-decoration: underline wavy var(--wrong);
+  text-underline-offset: 3px;
+}
+.tokWrong .fix {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--cyan);
+  margin-left: 3px;
+}
+.tokExtra {
+  color: var(--dim);
+  text-decoration: line-through;
+}
+.tokMissing {
+  background: var(--band);
+  color: var(--amber);
+  border-radius: 2px;
+  padding: 0 2px;
+  font-weight: 500;
+}
+.answerHint {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  color: var(--dim);
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 640px) {
+  .answerCols {
+    grid-template-columns: 1fr;
   }
 }

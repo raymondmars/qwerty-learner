@@ -14,12 +14,21 @@ export type StoredAudio = {
   savedAt: number
 }
 
+/** 与某个音频配对的原文，按音频文件名索引，换回同一个音频时原文也会回来 */
+export type StoredTranscript = {
+  audioName: string
+  text: string
+  savedAt: number
+}
+
 class RepeaterDB extends Dexie {
   audio!: Table<StoredAudio, string>
+  transcripts!: Table<StoredTranscript, string>
 
   constructor() {
     super('RepeaterDB')
     this.version(1).stores({ audio: 'id' })
+    this.version(2).stores({ audio: 'id', transcripts: 'audioName' })
   }
 }
 
@@ -60,5 +69,31 @@ export async function clearLastAudio(): Promise<void> {
     await db.audio.delete(LAST_AUDIO_ID)
   } catch (err) {
     console.warn('清除音频失败', err)
+  }
+}
+
+export async function saveTranscript(audioName: string, text: string): Promise<void> {
+  try {
+    await db.transcripts.put({ audioName, text, savedAt: Date.now() })
+  } catch (err) {
+    console.warn('保存原文失败', err)
+  }
+}
+
+export async function loadTranscript(audioName: string): Promise<string | null> {
+  try {
+    const stored = await db.transcripts.get(audioName)
+    return stored ? stored.text : null
+  } catch (err) {
+    console.warn('读取原文失败', err)
+    return null
+  }
+}
+
+export async function clearTranscript(audioName: string): Promise<void> {
+  try {
+    await db.transcripts.delete(audioName)
+  } catch (err) {
+    console.warn('清除原文失败', err)
   }
 }
