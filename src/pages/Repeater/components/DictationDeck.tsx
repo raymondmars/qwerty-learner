@@ -68,6 +68,11 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
     }
   }, [snapshot.fileName])
 
+  // 听写内容被清空后对答案已无意义，此时「收起答案」按钮会被禁用，必须自动收起
+  useEffect(() => {
+    if (!text.trim()) setShowAnswer(false)
+  }, [text])
+
   const diff = useMemo(() => (transcript ? diffDictation(text, transcript) : null), [text, transcript])
 
   const handlePickTranscript = async (file: File) => {
