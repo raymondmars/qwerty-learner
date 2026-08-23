@@ -1,10 +1,9 @@
 import { loadTranscript, saveTranscript } from '../audioStore'
-import { diffDictation } from '../diff'
 import type { RepeaterEngine, RepeaterSnapshot } from '../engine'
 import { formatTime } from '../engine'
 import styles from '../index.module.css'
 import type React from 'react'
-import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 
 const STORAGE_KEY = 'repeater-dictation'
 const MIN_SHEET_HEIGHT = 272
@@ -67,15 +66,6 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
       cancelled = true
     }
   }, [snapshot.fileName])
-
-  // 听写内容被清空后对答案已无意义，此时「收起答案」按钮会被禁用，必须自动收起
-  useEffect(() => {
-    if (!text.trim()) setShowAnswer(false)
-  }, [text])
-
-  // 只在面板展开时才比对：LCS 的表是 O(听写词数 × 原文词数)，
-  // 若跟着 text 每次击键都算，长稿子下会拖慢打字
-  const diff = useMemo(() => (showAnswer && transcript ? diffDictation(text, transcript) : null), [showAnswer, text, transcript])
 
   const handlePickTranscript = async (file: File) => {
     const content = await file.text()
@@ -169,10 +159,10 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
           <button
             className={styles.btn}
             data-on={showAnswer ? '1' : '0'}
-            disabled={!transcript || !text.trim()}
+            disabled={!transcript}
             onClick={() => setShowAnswer((old) => !old)}
           >
-            {showAnswer ? '收起答案' : '对答案'}
+            {showAnswer ? '收起原文' : '对答案'}
           </button>
           <input
             ref={transcriptInputRef}
@@ -194,53 +184,10 @@ const DictationDeck: React.FC<Props> = ({ engine, snapshot }) => {
         </div>
       </div>
 
-      {showAnswer && diff && (
+      {showAnswer && transcript && (
         <div className={styles.row}>
-          <div className={styles.answerStats}>
-            <span className={styles.acc}>{diff.accuracy}%</span>
-            <span>
-              命中 <b>{diff.equalCount}</b> / {diff.refCount} 词
-            </span>
-            <span>
-              漏听 <b>{diff.missingCount}</b>
-            </span>
-            <span>
-              拼错 <b>{diff.wrongCount}</b>
-            </span>
-            <span>
-              多写 <b>{diff.extraCount}</b>
-            </span>
-          </div>
-          <div className={styles.answerCols}>
-            <div className={styles.answerCol}>
-              <div className={styles.answerColTitle}>你的听写</div>
-              <div className={styles.answerText}>
-                {diff.ops
-                  .filter((op) => op.type !== 'missing')
-                  .map((op, index) => (
-                    <span key={index} className={op.type === 'wrong' ? styles.tokWrong : op.type === 'extra' ? styles.tokExtra : undefined}>
-                      {op.user}
-                      {op.type === 'wrong' && <i className={styles.fix}>{op.ref}</i>}{' '}
-                    </span>
-                  ))}
-              </div>
-            </div>
-            <div className={styles.answerCol}>
-              <div className={styles.answerColTitle}>原文 · 高亮为漏听</div>
-              <div className={styles.answerText}>
-                {diff.ops
-                  .filter((op) => op.type !== 'extra')
-                  .map((op, index) => (
-                    <span key={index} className={op.type === 'missing' ? styles.tokMissing : undefined}>
-                      {op.ref}{' '}
-                    </span>
-                  ))}
-              </div>
-            </div>
-          </div>
-          <div className={styles.answerHint} style={{ marginTop: 12 }}>
-            比对忽略大小写、标点与多余空白；形近的词判为拼错并在后面给出正确拼写
-          </div>
+          <div className={styles.answerColTitle}>原文</div>
+          <div className={styles.answerText}>{transcript}</div>
         </div>
       )}
 
