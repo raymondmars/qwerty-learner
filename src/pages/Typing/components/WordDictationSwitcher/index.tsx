@@ -33,13 +33,7 @@ export default function WordDictationSwitcher() {
   const [currentType, setCurrentType] = useState(wordDictationTypeList[0])
 
   const onToggleWordDictation = () => {
-    setWordDictationConfig((old) => {
-      if (!old.isOpen) {
-        return { ...old, isOpen: !old.isOpen, openBy: 'user' }
-      } else {
-        return { ...old, isOpen: !old.isOpen }
-      }
-    })
+    setWordDictationConfig((old) => ({ ...old, isOpen: !old.isOpen }))
   }
 
   const onChangeWordDictationType = (value: WordDictationType) => {

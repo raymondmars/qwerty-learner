@@ -144,7 +144,8 @@ const App: React.FC = () => {
 
   useEffect(() => {
     // 当用户完成章节后且完成 word Record 数据保存，记录 chapter Record 数据,
-    if (state.isFinished && !state.isSavingRecord) {
+    // 错词复习只练本章的一小撮单词，写进 chapterRecords 会污染练习次数、正确率和个人最好成绩，故跳过
+    if (state.isFinished && !state.isSavingRecord && !state.isWrongWordReview) {
       saveChapterRecord(state)
     }
 

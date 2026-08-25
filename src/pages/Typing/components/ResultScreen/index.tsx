@@ -5,14 +5,7 @@ import RemarkRing from './RemarkRing'
 import WordChip from './WordChip'
 import Tooltip from '@/components/Tooltip'
 import { usePersonalBest } from '@/pages/Typing/hooks/usePersonalBest'
-import {
-  currentChapterAtom,
-  currentDictInfoAtom,
-  isReviewModeAtom,
-  randomConfigAtom,
-  reviewModeInfoAtom,
-  wordDictationConfigAtom,
-} from '@/store'
+import { currentChapterAtom, currentDictInfoAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
 import { Transition } from '@headlessui/react'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext, useEffect, useMemo } from 'react'
@@ -26,7 +19,6 @@ const ResultScreen = () => {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
 
-  const setWordDictationConfig = useSetAtom(wordDictationConfigAtom)
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
   const [currentChapter, setCurrentChapter] = useAtom(currentChapterAtom)
   const randomConfig = useAtomValue(randomConfigAtom)
@@ -106,7 +98,7 @@ const ResultScreen = () => {
   const timeString = useMemo(() => formatTime(state.timerData.time), [formatTime, state.timerData.time])
 
   // 只显示进步，不显示退步：破纪录时高亮鼓励，没破就安静地写出目标，避免变成负反馈
-  const personalBest = usePersonalBest()
+  const personalBest = usePersonalBest(!state.isWrongWordReview)
   const bestHints = useMemo(() => {
     if (!personalBest) return undefined
 
@@ -123,44 +115,27 @@ const ResultScreen = () => {
       return
     }
 
-    setWordDictationConfig((old) => {
-      if (old.isOpen) {
-        if (old.openBy === 'auto') {
-          return { ...old, isOpen: false }
-        }
-      }
-      return old
-    })
     dispatch({ type: TypingStateActionType.REPEAT_CHAPTER, shouldShuffle: randomConfig.isOpen })
-  }, [isReviewMode, setWordDictationConfig, dispatch, randomConfig.isOpen])
+  }, [isReviewMode, dispatch, randomConfig.isOpen])
 
-  const dictationButtonHandler = useCallback(async () => {
-    if (isReviewMode) {
+  const reviewWrongWordsHandler = useCallback(() => {
+    if (isReviewMode || wrongWords.length === 0) {
       return
     }
 
-    setWordDictationConfig((old) => ({ ...old, isOpen: true, openBy: 'auto' }))
-    dispatch({ type: TypingStateActionType.REPEAT_CHAPTER, shouldShuffle: randomConfig.isOpen })
-  }, [isReviewMode, setWordDictationConfig, dispatch, randomConfig.isOpen])
+    dispatch({ type: TypingStateActionType.REVIEW_WRONG_WORDS, payload: { words: wrongWords, shouldShuffle: randomConfig.isOpen } })
+  }, [isReviewMode, wrongWords, dispatch, randomConfig.isOpen])
 
   const nextButtonHandler = useCallback(() => {
     if (isReviewMode) {
       return
     }
 
-    setWordDictationConfig((old) => {
-      if (old.isOpen) {
-        if (old.openBy === 'auto') {
-          return { ...old, isOpen: false }
-        }
-      }
-      return old
-    })
     if (!isLastChapter) {
       setCurrentChapter((old) => old + 1)
       dispatch({ type: TypingStateActionType.NEXT_CHAPTER })
     }
-  }, [dispatch, isLastChapter, isReviewMode, setCurrentChapter, setWordDictationConfig])
+  }, [dispatch, isLastChapter, isReviewMode, setCurrentChapter])
 
   const exitButtonHandler = useCallback(() => {
     if (isReviewMode) {
@@ -196,9 +171,10 @@ const ResultScreen = () => {
   )
 
   useHotkeys(
-    'shift+enter',
-    () => {
-      dictationButtonHandler()
+    'r',
+    (e) => {
+      e.stopPropagation()
+      reviewWrongWordsHandler()
     },
     { preventDefault: true },
   )
@@ -218,7 +194,9 @@ const ResultScreen = () => {
         <div className="flex h-screen items-center justify-center">
           <div className="my-card fixed flex w-[90vw] max-w-6xl flex-col overflow-hidden rounded-3xl bg-white pb-14 pl-10 pr-5 pt-10 shadow-lg dark:bg-gray-800 md:w-4/5 lg:w-3/5">
             <div className="text-center font-sans text-xl font-normal text-gray-900 dark:text-gray-400 md:text-2xl">
-              {`${currentDictInfo.name} ${isReviewMode ? '错题复习' : '第' + (currentChapter + 1) + '章'}`}
+              {`${currentDictInfo.name} ${isReviewMode ? '错题复习' : '第' + (currentChapter + 1) + '章'}${
+                state.isWrongWordReview ? ' · 错词复习' : ''
+              }`}
             </div>
             <button className="absolute right-7 top-5" onClick={exitButtonHandler}>
               <IconX className="text-gray-400" />
@@ -251,7 +229,8 @@ const ResultScreen = () => {
                 </div>
               </div>
               <div className="ml-2 flex flex-col items-center justify-end gap-3 text-xl">
-                {!isReviewMode && (
+                {/* 错词复习只练了一小撮单词，分享与导出的口径都是整章，这里不展示 */}
+                {!isReviewMode && !state.isWrongWordReview && (
                   <>
                     <ShareButton />
                     <IexportWords fontSize={18} className="cursor-pointer text-gray-500" onClick={exportWords}></IexportWords>
@@ -265,22 +244,24 @@ const ResultScreen = () => {
             <div className="mt-10 flex w-full justify-center gap-5 px-5 text-xl">
               {!isReviewMode && (
                 <>
-                  <Tooltip content="快捷键：shift + enter">
-                    <button
-                      className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
-                      type="button"
-                      onClick={dictationButtonHandler}
-                      title="默写本章节"
-                    >
-                      默写本章节
-                    </button>
-                  </Tooltip>
+                  {wrongWords.length > 0 && (
+                    <Tooltip content="快捷键：r">
+                      <button
+                        className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
+                        type="button"
+                        onClick={reviewWrongWordsHandler}
+                        title="只练本轮拼错的单词"
+                      >
+                        {`复习错词 (${wrongWords.length})`}
+                      </button>
+                    </Tooltip>
+                  )}
                   <Tooltip content="快捷键：space">
                     <button
                       className="my-btn-primary h-12 border-2 border-solid border-gray-300 bg-white text-base text-gray-700 dark:border-gray-700 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700"
                       type="button"
                       onClick={repeatButtonHandler}
-                      title="重复本章节"
+                      title={state.isWrongWordReview ? '返回本章节，从头再练一遍' : '重复本章节'}
                     >
                       重复本章节
                     </button>

@@ -33,4 +33,3 @@ export type WordDictationType = 'hideAll' | 'hideVowel' | 'hideConsonant' | 'ran
  * 预期行为是，在进入下一章节时，如果是手动打开的默写模式，则保持设定
  * 如果是通过点击 resultScreen 中的默写本章按钮打开的，则关闭默写模式
  */
-export type WordDictationOpenBy = 'user' | 'auto'
