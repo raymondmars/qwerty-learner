@@ -153,7 +153,7 @@ export default function AdvancedSetting() {
           </div>
           <div className={styles.section}>
             <span className={styles.sectionLabel}>是否允许选择文本</span>
-            <span className={styles.sectionDescription}>开启后，可以通过鼠标选择文本 </span>
+            <span className={styles.sectionDescription}>开启后，可以通过鼠标选择文本（单词详情卡片始终可选中） </span>
             <div className={styles.switchBlock}>
               <Switch checked={isTextSelectable} onChange={onToggleTextSelectable} className="switch-root">
                 <span aria-hidden="true" className="switch-thumb" />

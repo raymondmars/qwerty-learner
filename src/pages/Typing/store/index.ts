@@ -16,6 +16,8 @@ export const initialState: TypingState = {
     wordRecordIds: [],
     userInputLogs: [],
   },
+  isWrongWordReview: false,
+  fullChapterWords: [],
   timerData: {
     time: 0,
     accuracy: 0,
@@ -50,6 +52,7 @@ export enum TypingStateActionType {
   SKIP_WORD = 'SKIP_WORD',
   SKIP_2_WORD_INDEX = 'SKIP_2_WORD_INDEX',
   REPEAT_CHAPTER = 'REPEAT_CHAPTER',
+  REVIEW_WRONG_WORDS = 'REVIEW_WRONG_WORDS',
   NEXT_CHAPTER = 'NEXT_CHAPTER',
   TOGGLE_WORD_VISIBLE = 'TOGGLE_WORD_VISIBLE',
   TOGGLE_TRANS_VISIBLE = 'TOGGLE_TRANS_VISIBLE',
@@ -79,6 +82,7 @@ export type TypingStateAction =
   | { type: TypingStateActionType.SKIP_WORD }
   | { type: TypingStateActionType.SKIP_2_WORD_INDEX; newIndex: number }
   | { type: TypingStateActionType.REPEAT_CHAPTER; shouldShuffle: boolean }
+  | { type: TypingStateActionType.REVIEW_WRONG_WORDS; payload: { words: WordWithIndex[]; shouldShuffle: boolean } }
   | { type: TypingStateActionType.NEXT_CHAPTER }
   | { type: TypingStateActionType.TOGGLE_TRANS_VISIBLE }
   | { type: TypingStateActionType.TICK_TIMER; addTime?: number }
@@ -172,10 +176,24 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
     }
     case TypingStateActionType.REPEAT_CHAPTER: {
       const newState = structuredClone(initialState)
-      newState.chapterData.userInputLogs = state.chapterData.words.map((_, index) => ({ ...structuredClone(initialUserInputLog), index }))
+      // 「重复本章节」始终指整章：错词复习轮里点它，回到进入复习前的完整词表
+      const words = state.isWrongWordReview ? state.fullChapterWords : state.chapterData.words
+      newState.chapterData.userInputLogs = words.map((_, index) => ({ ...structuredClone(initialUserInputLog), index }))
       newState.isTyping = true
-      newState.chapterData.words = action.shouldShuffle ? shuffle(state.chapterData.words) : state.chapterData.words
+      newState.chapterData.words = action.shouldShuffle ? shuffle(words) : words
       newState.isTransVisible = state.isTransVisible
+      return newState
+    }
+    case TypingStateActionType.REVIEW_WRONG_WORDS: {
+      const newState = structuredClone(initialState)
+      const words = action.payload.shouldShuffle ? shuffle(action.payload.words) : action.payload.words
+      newState.chapterData.words = words
+      newState.chapterData.userInputLogs = words.map((_, index) => ({ ...structuredClone(initialUserInputLog), index }))
+      newState.isTyping = true
+      newState.isTransVisible = state.isTransVisible
+      newState.isWrongWordReview = true
+      // 连续复习时不要把上一轮的错词子集当成整章
+      newState.fullChapterWords = state.isWrongWordReview ? state.fullChapterWords : state.chapterData.words
       return newState
     }
     case TypingStateActionType.NEXT_CHAPTER: {

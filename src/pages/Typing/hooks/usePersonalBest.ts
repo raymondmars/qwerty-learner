@@ -17,11 +17,12 @@ export type PersonalBest = {
 
 /**
  * 读取当前词典 + 章节的历史最好成绩，用来在结果页给出「比上次好没好」的反馈。
+ * enabled 传 false 时不做对比（错词复习轮只练部分单词，成绩不写库也不可比）。
  *
  * 本次成绩会在结果页出现的同时被写入 chapterRecords，为了避免把它当成历史记录，
  * 只统计挂载时刻之前的记录（timeStamp 是秒级，同一秒内不可能完成两章）。
  */
-export function usePersonalBest(): PersonalBest | undefined {
+export function usePersonalBest(enabled = true): PersonalBest | undefined {
   const dictId = useAtomValue(currentDictIdAtom)
   const currentChapter = useAtomValue(currentChapterAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
@@ -32,7 +33,7 @@ export function usePersonalBest(): PersonalBest | undefined {
 
   useEffect(() => {
     // 错题复习的章节号是 -1，各次之间不可比，不做对比
-    if (isReviewMode) return
+    if (isReviewMode || !enabled) return
 
     let cancelled = false
     db.chapterRecords
@@ -61,7 +62,7 @@ export function usePersonalBest(): PersonalBest | undefined {
     return () => {
       cancelled = true
     }
-  }, [dictId, currentChapter, isReviewMode, before])
+  }, [dictId, currentChapter, isReviewMode, enabled, before])
 
   return best
 }

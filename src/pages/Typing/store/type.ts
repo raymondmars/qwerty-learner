@@ -43,6 +43,10 @@ export type WrongWordData = {
 
 export type TypingState = {
   chapterData: ChapterData
+  // 本轮是否为「错词复习」：只练本章拼错的单词，不计入章节练习记录
+  isWrongWordReview: boolean
+  // 进入错词复习前的整章词表，用于「重复本章节」时还原完整章节
+  fullChapterWords: WordWithIndex[]
   timerData: TimerData
   isTyping: boolean
   isFinished: boolean

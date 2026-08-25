@@ -1,9 +1,11 @@
+import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import type { WordDetail, WordSense } from '@/pages/Typing/hooks/useWordDetail'
-import { isTextSelectableAtom, phoneticConfigAtom } from '@/store'
+import { phoneticConfigAtom, pronunciationIsOpenAtom } from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue } from 'jotai'
 import type { ReactNode } from 'react'
 import { useMemo } from 'react'
+import IconLightBulb from '~icons/heroicons/light-bulb-solid'
 
 export type WordDetailProps = {
   word: Word
@@ -48,7 +50,7 @@ function highlightWord(sentence: string, word: string) {
   return sentence.split(pattern).map((part, index) =>
     // split 带捕获组时，奇数下标就是匹配到的单词本身
     index % 2 === 1 ? (
-      <strong key={index} className="font-bold text-gray-900 dark:text-white">
+      <strong key={index} className="font-bold text-gray-900 decoration-indigo-300 decoration-2 underline-offset-2 dark:text-white">
         {part}
       </strong>
     ) : (
@@ -72,8 +74,8 @@ function splitPartOfSpeech(trans: string): WordSense {
   return { pos: matched[1], zh }
 }
 
-/** 同义词/反义词/同根词那一行的胶囊标签 */
-function ChipRow({ label, words }: { label: string; words?: string[] }) {
+/** 同义词/反义词/同根词那一行的胶囊标签，用色系区分语义，不和词性标签撞脸 */
+function ChipRow({ label, words, chipClassName }: { label: string; words?: string[]; chipClassName: string }) {
   if (!words?.length) return null
 
   return (
@@ -81,10 +83,7 @@ function ChipRow({ label, words }: { label: string; words?: string[] }) {
       <span className="shrink-0 text-xs text-gray-400 dark:text-gray-500">{label}</span>
       <div className="flex flex-wrap gap-1.5">
         {words.map((word) => (
-          <span
-            key={word}
-            className="rounded-md bg-indigo-50 px-1.5 py-0.5 text-sm text-indigo-500 dark:bg-indigo-400/20 dark:text-indigo-300"
-          >
+          <span key={word} className={`rounded-md px-1.5 py-0.5 text-sm ${chipClassName}`}>
             {word}
           </span>
         ))}
@@ -93,22 +92,18 @@ function ChipRow({ label, words }: { label: string; words?: string[] }) {
   )
 }
 
-/** 卡片内的分节，每节顶部带一条分割线 */
-function Section({ title, children }: { title: string; children: ReactNode }) {
-  return (
-    <div className="mt-3 border-t border-gray-200 pt-3 dark:border-gray-700">
-      <span className="text-xs font-medium text-indigo-500 dark:text-indigo-400">{title}</span>
-      {children}
-    </div>
-  )
+/** 小节标题。层级只靠字号和颜色，不再每节都拉一条分割线，否则卡片会被横线切碎 */
+function SectionLabel({ children }: { children: ReactNode }) {
+  return <span className="text-xs text-gray-400 dark:text-gray-500">{children}</span>
 }
 
 export default function WordDetailCard({ word, detail, isMistaken }: WordDetailProps) {
   const phoneticConfig = useAtomValue(phoneticConfigAtom)
-  const isTextSelectable = useAtomValue(isTextSelectableAtom)
+  const pronunciationIsOpen = useAtomValue(pronunciationIsOpenAtom)
 
   const phonetic = phoneticConfig.type === 'uk' ? word.ukphone : word.usphone
   const phoneticLabel = phoneticConfig.type === 'uk' ? 'BrE' : 'AmE'
+  const hasPhonetic = Boolean(phonetic && phonetic.length > 1)
 
   // 优先用按单词挑出的完整释义，缺失时回落到当前词库自带的 trans
   const senses = useMemo(() => (detail.senses?.length ? detail.senses : word.trans.map(splitPartOfSpeech)), [detail.senses, word.trans])
@@ -119,83 +114,120 @@ export default function WordDetailCard({ word, detail, isMistaken }: WordDetailP
   const hasRelated = Boolean(detail.synonyms?.length || detail.antonyms?.length || detail.cognates?.length)
 
   return (
-    <div className={`w-160 rounded-xl bg-white px-5 py-4 shadow-lg dark:bg-gray-800 ${isTextSelectable ? 'select-text' : 'select-none'}`}>
-      <div className="flex flex-col items-start">
-        {/* 拼错时用中性的琥珀色告知，不做判罚式的红色；一次写对则明确给正反馈 */}
-        <span
-          className={`mb-2 rounded-full px-2 py-0.5 text-xs font-medium ${
-            isMistaken
-              ? 'bg-amber-50 text-amber-600 dark:bg-amber-400/20 dark:text-amber-300'
-              : 'bg-green-50 text-green-600 dark:bg-green-400/20 dark:text-green-300'
-          }`}
-        >
-          {isMistaken ? '拼写有误' : '✓ 正确'}
-        </span>
-        <span className="font-mono text-3xl font-bold text-gray-700 dark:text-gray-100">{word.name}</span>
-        {phonetic && phonetic.length > 1 && (
-          <span className="mt-0.5 text-xs font-normal text-gray-500 dark:text-gray-400">{`${phoneticLabel}: [${phonetic}]`}</span>
+    // 卡片只在拼完单词、等待按 Enter 时出现，此刻没有拼写输入要保护，
+    // 所以不跟随「文本可选中」的全局设置，始终允许选中复制释义和例句
+    <div className="w-160 max-w-[92vw] cursor-text select-text overflow-hidden rounded-xl bg-white shadow-lg ring-1 ring-gray-900/5 animate-in fade-in slide-in-from-bottom-2 duration-200 dark:bg-gray-800 dark:shadow-none dark:ring-white/10">
+      {/* 顶部色带取代判罚式标签：拼错用中性的琥珀色，一次写对给绿色正反馈 */}
+      <div className={`h-[3px] ${isMistaken ? 'bg-amber-400' : 'bg-green-400'}`} />
+
+      <div className="px-5 py-4">
+        {/* 单词、音标、发音排成一行 baseline 对齐，状态标签退到右上角，不再占掉整行 */}
+        <div className="flex items-start justify-between gap-3">
+          <div className="flex flex-wrap items-baseline gap-x-2.5 gap-y-1">
+            <span className="font-mono text-3xl font-bold leading-none text-gray-700 dark:text-gray-100">{word.name}</span>
+            {hasPhonetic && (
+              <>
+                <span className="text-xs text-gray-400 dark:text-gray-500">{phoneticLabel}</span>
+                <span className="font-mono text-xs text-gray-500 dark:text-gray-400">{`[${phonetic}]`}</span>
+              </>
+            )}
+            {pronunciationIsOpen && (
+              <WordPronunciationIcon
+                word={word}
+                className="h-4 w-4 self-center text-gray-400 hover:text-indigo-500"
+                iconClassName="h-4 w-4"
+              />
+            )}
+          </div>
+          <span
+            className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${
+              isMistaken
+                ? 'bg-amber-50 text-amber-600 dark:bg-amber-400/20 dark:text-amber-300'
+                : 'bg-green-50 text-green-600 dark:bg-green-400/20 dark:text-green-300'
+            }`}
+          >
+            {isMistaken ? '拼写有误' : '✓ 正确'}
+          </span>
+        </div>
+
+        {/* 释义紧跟单词，不加小标题：词性列本身就说明了这是什么 */}
+        {senses.length > 0 && (
+          <ul className="mt-4 flex flex-col gap-2">
+            {senses.map((sense, index) => (
+              <li key={`${index}-${sense.pos}`} className="flex items-baseline gap-2.5 text-left">
+                {/* 固定宽度的词性列当装订线，没有词性的词典也能对齐 */}
+                <span className="w-9 shrink-0 text-right font-mono text-xs text-gray-400 dark:text-gray-500">{sense.pos}</span>
+                <span className="flex-1 text-base leading-relaxed text-gray-700 dark:text-gray-200">{sense.zh}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {/* 助记是全卡片最有记忆价值的内容，给底色让它从正文里跳出来 */}
+        {detail.mnemonic && (
+          <div className="mt-4 flex items-start gap-2 rounded-lg bg-indigo-50 px-3 py-2.5 dark:bg-indigo-400/10">
+            <IconLightBulb className="mt-0.5 shrink-0 text-indigo-400" fontSize={15} />
+            <p className="text-left text-sm leading-relaxed text-gray-600 dark:text-gray-300">{detail.mnemonic}</p>
+          </div>
+        )}
+
+        {detail.sentences.length > 0 && (
+          <div className="mt-4">
+            <SectionLabel>例句</SectionLabel>
+            {/* 左侧竖线代替序号和横向分割线，视觉更轻 */}
+            <ol className="mt-2 flex flex-col gap-2.5">
+              {detail.sentences.map((sentence) => (
+                <li key={sentence.en} className="border-l-2 border-gray-200 pl-3 text-left dark:border-gray-600">
+                  <p className="text-[15px] leading-6 text-gray-700 dark:text-gray-200">{highlightWord(sentence.en, word.name)}</p>
+                  <p className="mt-0.5 text-[13px] leading-5 text-gray-400 dark:text-gray-500">{sentence.zh}</p>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+
+        {/* 词组和相关词都是扫读内容，并排放；只有一边有数据时占满整行 */}
+        {(phrases.length > 0 || hasRelated) && (
+          <div
+            className={`mt-4 grid gap-x-5 gap-y-3 border-t border-gray-200 pt-3 dark:border-gray-700 ${
+              phrases.length > 0 && hasRelated ? 'grid-cols-2' : 'grid-cols-1'
+            }`}
+          >
+            {phrases.length > 0 && (
+              <div>
+                <SectionLabel>词组</SectionLabel>
+                <ul className="mt-1.5 flex flex-col gap-1">
+                  {phrases.map((phrase) => (
+                    <li key={phrase.en} className="text-left text-sm">
+                      <span className="text-gray-700 dark:text-gray-200">{phrase.en}</span>
+                      <span className="ml-1.5 text-xs text-gray-400 dark:text-gray-500">{phrase.zh}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {hasRelated && (
+              <div className="flex flex-col gap-2">
+                <ChipRow
+                  label="同义词"
+                  words={detail.synonyms}
+                  chipClassName="bg-indigo-50 text-indigo-500 dark:bg-indigo-400/20 dark:text-indigo-300"
+                />
+                <ChipRow
+                  label="反义词"
+                  words={detail.antonyms}
+                  chipClassName="bg-amber-50 text-amber-600 dark:bg-amber-400/20 dark:text-amber-300"
+                />
+                <ChipRow
+                  label="同根词"
+                  words={detail.cognates}
+                  chipClassName="bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-300"
+                />
+              </div>
+            )}
+          </div>
         )}
       </div>
-
-      {senses.length > 0 && (
-        <Section title="释义">
-          <ul className="mt-1.5 flex flex-col gap-1">
-            {senses.map((sense, index) => (
-              <li key={`${index}-${sense.pos}`} className="flex items-baseline gap-2 text-left">
-                {sense.pos && (
-                  <span className="shrink-0 rounded-md bg-indigo-50 px-1.5 py-0.5 text-xs font-medium text-indigo-500 dark:bg-indigo-400/20 dark:text-indigo-300">
-                    {sense.pos}
-                  </span>
-                )}
-                <span className="text-base leading-6 text-gray-700 dark:text-gray-200">{sense.zh}</span>
-              </li>
-            ))}
-          </ul>
-        </Section>
-      )}
-
-      {detail.mnemonic && (
-        <Section title="助记">
-          <p className="mt-1.5 text-left text-base leading-6 text-gray-700 dark:text-gray-200">{detail.mnemonic}</p>
-        </Section>
-      )}
-
-      {detail.sentences.length > 0 && (
-        <Section title="例句">
-          <ol className="mt-1.5 flex flex-col gap-2">
-            {detail.sentences.map((sentence, index) => (
-              <li key={sentence.en} className="flex gap-2 text-left">
-                <span className="shrink-0 text-sm leading-6 text-gray-400">{index + 1}.</span>
-                <div className="flex flex-col">
-                  <span className="text-base leading-6 text-gray-700 dark:text-gray-200">{highlightWord(sentence.en, word.name)}</span>
-                  <span className="mt-0.5 text-sm leading-5 text-gray-500 dark:text-gray-400">{sentence.zh}</span>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </Section>
-      )}
-
-      {phrases.length > 0 && (
-        <Section title="词组">
-          <ul className="mt-1.5 flex flex-col gap-1">
-            {phrases.map((phrase) => (
-              <li key={phrase.en} className="flex items-baseline gap-2 text-left">
-                <span className="text-base text-gray-700 dark:text-gray-200">{phrase.en}</span>
-                <span className="text-sm text-gray-500 dark:text-gray-400">{phrase.zh}</span>
-              </li>
-            ))}
-          </ul>
-        </Section>
-      )}
-
-      {hasRelated && (
-        <div className="mt-3 flex flex-col gap-1.5 border-t border-gray-200 pt-3 dark:border-gray-700">
-          <ChipRow label="同义词" words={detail.synonyms} />
-          <ChipRow label="反义词" words={detail.antonyms} />
-          <ChipRow label="同根词" words={detail.cognates} />
-        </div>
-      )}
     </div>
   )
 }

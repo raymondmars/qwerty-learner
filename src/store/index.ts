@@ -3,7 +3,7 @@ import { reviewInfoAtom } from './reviewInfoAtom'
 import { DISMISS_START_CARD_DATE_KEY, defaultFontSizeConfig } from '@/constants'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { correctSoundResources, keySoundResources, wrongSoundResources } from '@/resources/soundResource'
-import type { Dictionary, LoopWordTimesOption, PhoneticType, PronunciationType, WordDictationOpenBy, WordDictationType } from '@/typings'
+import type { Dictionary, LoopWordTimesOption, PhoneticType, PronunciationType, WordDictationType } from '@/typings'
 import type { ReviewRecord } from '@/utils/db/record'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
@@ -104,9 +104,6 @@ export const isWordMistakenAtom = atom(false)
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
   isOpen: true,
   type: 'hideAll' as WordDictationType,
-  // 默认开启默写，openBy 必须是 user：openBy 为 auto 时，
-  // 章节结束点「下一章」「重复本章」会把默写自动关掉（见 ResultScreen）
-  openBy: 'user' as WordDictationOpenBy,
 })
 
 export const dismissStartCardDateAtom = atomWithStorage<Date | null>(DISMISS_START_CARD_DATE_KEY, null)
