@@ -178,8 +178,8 @@ export default function WordDetailCard({ word, detail, isMistaken }: WordDetailP
             <ol className="mt-2 flex flex-col gap-2.5">
               {detail.sentences.map((sentence) => (
                 <li key={sentence.en} className="border-l-2 border-gray-200 pl-3 text-left dark:border-gray-600">
-                  <p className="text-[15px] leading-6 text-gray-700 dark:text-gray-200">{highlightWord(sentence.en, word.name)}</p>
-                  <p className="mt-0.5 text-[13px] leading-5 text-gray-400 dark:text-gray-500">{sentence.zh}</p>
+                  <p className="text-base leading-relaxed text-gray-700 dark:text-gray-200">{highlightWord(sentence.en, word.name)}</p>
+                  <p className="mt-0.5 text-sm leading-6 text-gray-400 dark:text-gray-500">{sentence.zh}</p>
                 </li>
               ))}
             </ol>
@@ -198,9 +198,9 @@ export default function WordDetailCard({ word, detail, isMistaken }: WordDetailP
                 <SectionLabel>词组</SectionLabel>
                 <ul className="mt-1.5 flex flex-col gap-1">
                   {phrases.map((phrase) => (
-                    <li key={phrase.en} className="text-left text-sm">
+                    <li key={phrase.en} className="text-left text-[15px] leading-6">
                       <span className="text-gray-700 dark:text-gray-200">{phrase.en}</span>
-                      <span className="ml-1.5 text-xs text-gray-400 dark:text-gray-500">{phrase.zh}</span>
+                      <span className="ml-1.5 text-[13px] text-gray-400 dark:text-gray-500">{phrase.zh}</span>
                     </li>
                   ))}
                 </ul>
