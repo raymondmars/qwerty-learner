@@ -156,7 +156,7 @@ const Repeater: React.FC = () => {
               <div className={styles.mark}>
                 复读机<span>·</span>REPEATER
               </div>
-              <div className={styles.sub}>ielts listening / intensive practice</div>
+              <div className={styles.sub}>english listening / intensive practice</div>
             </div>
             <div className={styles.tools}>
               <button className={styles.btn} onClick={handleBack}>
