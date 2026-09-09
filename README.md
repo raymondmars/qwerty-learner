@@ -294,6 +294,7 @@ Docker 构建时通过 `--build-arg` 传入即可，注意 `Dockerfile` 中需�
 - BEC
 - 人教版英语 3-9 年级
 - 王陆雅思王听力语料库 [@Saigyouji_WKKun](https://github.com/ggehuliang)
+- 新西兰 K12：Year 9 / Year 10 核心词（按词频分段生成，英式拼写，见 [scripts/build-nz-k12-dicts.mjs](scripts/build-nz-k12-dicts.mjs)）
 
 如果您需要背诵其他词库，欢迎在 Issue 中提出
 

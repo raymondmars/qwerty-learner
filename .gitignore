@@ -38,3 +38,5 @@ public/word-details/*
 
 # Claude Code 的本地权限配置，属于个人机器设置，不入库
 .claude/settings.local.json
+
+Makefile
