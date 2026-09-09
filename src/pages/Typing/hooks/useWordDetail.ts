@@ -1,4 +1,5 @@
 import type { Word } from '@/typings'
+import { withAssetVersion } from '@/utils'
 import { useEffect, useMemo } from 'react'
 import { preload } from 'swr'
 import useSWRImmutable from 'swr/immutable'
@@ -40,7 +41,7 @@ function wordFileName(word: string) {
   return word.toLowerCase().replace(/[^a-z0-9-]/g, (c) => `~${c.charCodeAt(0).toString(16).padStart(2, '0')}`)
 }
 
-const detailUrl = (word: string) => `/word-details/words/${wordFileName(word)}.json`
+const detailUrl = (word: string) => withAssetVersion(`/word-details/words/${wordFileName(word)}.json`)
 
 // 详情数据是静态文件，没生成过的词根本不会出现在索引里，取不到时功能静默降级
 async function indexFetcher(url: string): Promise<Set<string>> {
@@ -67,7 +68,7 @@ async function detailFetcher(url: string): Promise<WordDetail | null> {
 
 /** 已生成详情的单词清单，整站只拉一次，用来判断某个词要不要发请求 */
 function useWordDetailIndex() {
-  const { data } = useSWRImmutable('/word-details/index.json', indexFetcher)
+  const { data } = useSWRImmutable(withAssetVersion('/word-details/index.json'), indexFetcher)
   return data
 }
 

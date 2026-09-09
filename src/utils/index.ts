@@ -1,6 +1,21 @@
 import { CHAPTER_LENGTH } from '@/constants'
 import type { Howl } from 'howler'
 
+/**
+ * 给静态数据文件（词库、单词详情）的 URL 挂上构建版本号。
+ *
+ * 这些文件的 URL 不带内容哈希，改了内容 URL 也不变，CDN 会按自己的缓存策略继续
+ * 吐旧版本。线上踩过：Cloudflare 把单词详情的 index.json 按 30 天 TTL 缓存住，
+ * 新生成的一千多个词全都不在那份旧索引里，于是数据明明已经部署上去了，卡片就是
+ * 不出现，而且没有任何报错。挂上构建时的 commit hash，每次部署 URL 都会变，
+ * 缓存自然失效。
+ *
+ * dev 环境的 hash 带 ' (dev)' 后缀，有空格和括号，必须编码后才能进查询串。
+ */
+export function withAssetVersion(url: string): string {
+  return `${url}?v=${encodeURIComponent(LATEST_COMMIT_HASH)}`
+}
+
 const bannedKeys = [
   'Enter',
   'Backspace',
