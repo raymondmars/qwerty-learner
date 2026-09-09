@@ -3376,13 +3376,42 @@ const childrenEnglish: DictionaryResource[] = [
   },
 ]
 
+// 新西兰 K12
+// 新西兰没有官方的年级词汇表（NZ Curriculum 不规定词表，Year 9-10 又在 NCEA 之前
+// 没有全国统考），因此按词频分段生成，并统一为英式拼写。
+// 生成脚本：scripts/build-nz-k12-dicts.mjs
+const nzK12: DictionaryResource[] = [
+  {
+    id: 'nz-k12-year9',
+    name: 'Year 9 核心词',
+    description: '新西兰中学 Year 9 阶段的中高频词，取自 COCA 词频表第 2001-3500 名，已转为英式拼写',
+    category: '新西兰K12',
+    tags: ['Year 9'],
+    url: '/dicts/NZ_K12_Year9.json',
+    length: 1500,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
+    id: 'nz-k12-year10',
+    name: 'Year 10 核心词',
+    description: '新西兰中学 Year 10 阶段的中高频词，取自 COCA 词频表第 3501-5000 名，已转为英式拼写',
+    category: '新西兰K12',
+    tags: ['Year 10'],
+    url: '/dicts/NZ_K12_Year10.json',
+    length: 1500,
+    language: 'en',
+    languageCategory: 'en',
+  },
+]
+
 // 编程字典
 
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
  */
-export const dictionaryResources: DictionaryResource[] = [...chinaExam, ...internationalExam, ...childrenEnglish]
+export const dictionaryResources: DictionaryResource[] = [...chinaExam, ...internationalExam, ...childrenEnglish, ...nzK12]
 
 export const dictionaries: Dictionary[] = dictionaryResources.map((resource) => ({
   ...resource,
