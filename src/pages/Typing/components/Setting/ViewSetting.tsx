@@ -1,6 +1,7 @@
 import styles from './index.module.css'
 import { defaultFontSizeConfig } from '@/constants'
-import { fontSizeConfigAtom } from '@/store'
+import { fontSizeConfigAtom, isWordConfettiOpenAtom } from '@/store'
+import { Switch } from '@headlessui/react'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
 import * as Slider from '@radix-ui/react-slider'
 import { useAtom } from 'jotai'
@@ -8,6 +9,7 @@ import { useCallback } from 'react'
 
 export default function ViewSetting() {
   const [fontSizeConfig, setFontsizeConfig] = useAtom(fontSizeConfigAtom)
+  const [isWordConfettiOpen, setIsWordConfettiOpen] = useAtom(isWordConfettiOpenAtom)
 
   const onChangeForeignFontSize = useCallback(
     (value: [number]) => {
@@ -32,6 +34,13 @@ export default function ViewSetting() {
   const onResetFontSize = useCallback(() => {
     setFontsizeConfig({ ...defaultFontSizeConfig })
   }, [setFontsizeConfig])
+
+  const onToggleWordConfetti = useCallback(
+    (checked: boolean) => {
+      setIsWordConfettiOpen(checked)
+    },
+    [setIsWordConfettiOpen],
+  )
 
   return (
     <ScrollArea.Root className="flex-1 select-none overflow-y-auto ">
@@ -82,6 +91,19 @@ export default function ViewSetting() {
           <button className="my-btn-primary ml-4 disabled:bg-gray-300" type="button" onClick={onResetFontSize} title="重置字体设置">
             重置字体设置
           </button>
+
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>拼写正确时的彩带</span>
+            <span className={styles.sectionDescription}>开启后，单词一次拼写全对会喷出彩带并扩散光圈；中途拼错的单词不会触发</span>
+            <div className={styles.switchBlock}>
+              <Switch checked={isWordConfettiOpen} onChange={onToggleWordConfetti} className="switch-root">
+                <span aria-hidden="true" className="switch-thumb" />
+              </Switch>
+              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`彩带已${
+                isWordConfettiOpen ? '开启' : '关闭'
+              }`}</span>
+            </div>
+          </div>
         </div>
       </ScrollArea.Viewport>
       <ScrollArea.Scrollbar className="flex touch-none select-none bg-transparent " orientation="vertical"></ScrollArea.Scrollbar>

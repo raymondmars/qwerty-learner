@@ -8,6 +8,17 @@ module.exports = {
         primary: '#6366f1',
       },
       fontFamily: {
+        // 界面正文。Space Grotesk 只覆盖拉丁字符，中文自动落到后面的 Noto Sans SC
+        sans: [
+          'Space Grotesk Variable',
+          'Noto Sans SC Variable',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'PingFang SC',
+          'Microsoft YaHei',
+          'sans-serif',
+        ],
         // 单词、上/下一个单词、单词列表等处的展示字体
         mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
       },

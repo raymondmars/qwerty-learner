@@ -1,35 +1,19 @@
 import { TypingContext } from '../../store'
-import { useContext, useEffect, useState } from 'react'
+import { useContext } from 'react'
 
-export default function Progress({ className }: { className?: string }) {
+/** 贴在视口顶端的章节进度条 */
+export default function Progress() {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state } = useContext(TypingContext)!
-  const [progress, setProgress] = useState(0)
-  const [phase, setPhase] = useState(0)
-
-  const colorSwitcher: { [key: number]: string } = {
-    0: 'bg-indigo-200 dark:bg-indigo-300',
-    1: 'bg-indigo-300 dark:bg-indigo-400',
-    2: 'bg-indigo-400 dark:bg-indigo-500',
-  }
-
-  useEffect(() => {
-    const newProgress = Math.floor((state.chapterData.index / state.chapterData.words.length) * 100)
-    setProgress(newProgress)
-    const colorPhase = Math.floor(newProgress / 33.4)
-    setPhase(colorPhase)
-  }, [state.chapterData.index, state.chapterData.words.length])
+  const total = state.chapterData.words.length
+  const progress = total ? Math.floor((state.chapterData.index / total) * 100) : 0
 
   return (
-    <div className={`relative w-1/4 pt-1 ${className}`}>
-      <div className="mb-4 flex h-2 overflow-hidden rounded-xl bg-indigo-100 text-xs transition-all duration-300 dark:bg-indigo-200">
-        <div
-          style={{ width: `${progress}%` }}
-          className={`flex flex-col justify-center whitespace-nowrap rounded-xl text-center text-white shadow-none transition-all duration-300 ${
-            colorSwitcher[phase] ?? 'bg-indigo-200 dark:bg-indigo-300'
-          }`}
-        ></div>
-      </div>
+    <div className="fixed left-0 right-0 top-0 z-50 h-[3px] bg-gray-200 dark:bg-white/10">
+      <div
+        className="h-full transition-[width] duration-300 ease-out"
+        style={{ width: `${progress}%`, background: 'linear-gradient(90deg, oklch(0.62 0.17 288), oklch(0.68 0.14 200))' }}
+      />
     </div>
   )
 }

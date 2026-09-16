@@ -1,7 +1,6 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import type { TypingState } from '../../store/type'
 import PrevAndNextWord from '../PrevAndNextWord'
-import Progress from '../Progress'
 import Phonetic from './components/Phonetic'
 import Translation from './components/Translation'
 import WordComponent from './components/Word'
@@ -208,15 +207,13 @@ export default function WordPanel() {
               {/* 正常文档流，卡片出现时把下方内容一起顶下去 */}
               {visibleWordDetail && (
                 <div className="mb-16 mt-3 flex justify-center">
-                  <WordDetailCard word={currentWord} detail={visibleWordDetail} isMistaken={isWordMistaken} />
+                  <WordDetailCard word={currentWord} detail={visibleWordDetail} />
                 </div>
               )}
             </div>
           </div>
         )}
       </div>
-      {/* 进度条贴近底部的速度统计，与上方的单词详情卡片拉开距离 */}
-      <Progress className={`mb-2 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   )
 }

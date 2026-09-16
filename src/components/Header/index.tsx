@@ -5,16 +5,20 @@ import { NavLink } from 'react-router-dom'
 
 const Header: React.FC<PropsWithChildren> = ({ children }) => {
   return (
-    <header className="container z-20 mx-auto w-full px-10 py-6">
-      <div className="flex w-full flex-col items-center justify-between space-y-3 lg:flex-row lg:space-y-0">
-        <NavLink className="flex items-center text-2xl font-bold text-indigo-500 no-underline hover:no-underline lg:text-4xl" to="/">
-          <img src={logo} className="mr-3 h-16 w-16" alt="Qwerty Learner Logo" />
-          <h1>Qwerty Learner</h1>
-        </NavLink>
-        <nav className="my-card on element flex w-auto content-center items-center justify-end space-x-3 rounded-xl bg-white p-4 transition-colors duration-300 dark:bg-gray-800">
-          {children}
-        </nav>
-      </div>
+    <header className="z-20 flex w-full flex-wrap items-center justify-between gap-6 px-10 pt-6">
+      <NavLink className="flex items-center gap-3 no-underline hover:no-underline" to="/">
+        <img src={logo} className="h-9 w-9 drop-shadow-[0_6px_18px_oklch(0.62_0.18_288/0.35)]" alt="Qwerty Learner Logo" />
+        <h1 className="text-[19px] font-semibold tracking-[-0.02em] text-gray-800 dark:text-gray-100">
+          Qwerty<span className="opacity-45 font-medium"> Learner</span>
+        </h1>
+      </NavLink>
+      {/* 毛玻璃胶囊，和页面的柔光渐变底融合；内部控件自己负责各自的样式 */}
+      <nav
+        className="flex w-auto content-center items-center justify-end gap-2.5 rounded-full border border-gray-200/90 bg-white/70 py-2 pl-[18px] pr-2.5 backdrop-blur-[14px] dark:border-white/10 dark:bg-gray-800/70"
+        style={{ boxShadow: '0 10px 30px oklch(0.4 0.06 285 / 0.08)' }}
+      >
+        {children}
+      </nav>
     </header>
   )
 }

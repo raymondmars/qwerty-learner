@@ -42,63 +42,66 @@ export default function Switcher() {
   )
 
   return (
-    <div className="flex items-center justify-center gap-2">
-      <Tooltip content="音效设置">
-        <SoundSwitcher />
-      </Tooltip>
+    <>
+      <span className="dark:bg-white/15 h-4 w-px shrink-0 bg-gray-200" />
+      <div className="flex items-center justify-center gap-1.5">
+        <Tooltip className="toolbar-tile" content="音效设置">
+          <SoundSwitcher />
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="设置单个单词循环">
-        <LoopWordSwitcher />
-      </Tooltip>
+        <Tooltip className="toolbar-tile" content="设置单个单词循环">
+          <LoopWordSwitcher />
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content={`开关默写模式（${CTRL} + V）`}>
-        <WordDictationSwitcher />
-      </Tooltip>
-      <Tooltip className="h-7 w-7" content={`开关释义显示（${CTRL} + Shift + V）`}>
-        <button
-          className={`p-[2px] ${state?.isTransVisible ? 'text-indigo-500' : 'text-gray-500'} text-lg focus:outline-none`}
-          type="button"
-          onClick={(e) => {
-            changeTransVisibleState()
-            e.currentTarget.blur()
-          }}
-          aria-label={`开关释义显示（${CTRL} + Shift + V）`}
-        >
-          {state?.isTransVisible ? <IconLanguage /> : <IconLanguageOff />}
-        </button>
-      </Tooltip>
+        <Tooltip className="toolbar-tile" content={`开关默写模式（${CTRL} + V）`}>
+          <WordDictationSwitcher />
+        </Tooltip>
+        <Tooltip className="toolbar-tile" content={`开关释义显示（${CTRL} + Shift + V）`}>
+          <button
+            className={`${state?.isTransVisible ? 'text-indigo-500' : ''} flex text-lg focus:outline-none`}
+            type="button"
+            onClick={(e) => {
+              changeTransVisibleState()
+              e.currentTarget.blur()
+            }}
+            aria-label={`开关释义显示（${CTRL} + Shift + V）`}
+          >
+            {state?.isTransVisible ? <IconLanguage /> : <IconLanguageOff />}
+          </button>
+        </Tooltip>
 
-      <Tooltip content="错题本">
-        <ErrorBookButton />
-      </Tooltip>
+        <Tooltip className="toolbar-tile" content="错题本">
+          <ErrorBookButton />
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="查看数据统计">
-        <AnalysisButton />
-      </Tooltip>
+        <Tooltip className="toolbar-tile" content="查看数据统计">
+          <AnalysisButton />
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="复读机 · 听力精听与听写（新标签页打开）">
-        <RepeaterButton />
-      </Tooltip>
+        <Tooltip className="toolbar-tile" content="复读机 · 听力精听与听写（新标签页打开）">
+          <RepeaterButton />
+        </Tooltip>
 
-      <Tooltip className="h-7 w-7" content="开关深色模式">
-        <button
-          className={`p-[2px] text-lg text-indigo-500 focus:outline-none`}
-          type="button"
-          onClick={(e) => {
-            changeDarkModeState()
-            e.currentTarget.blur()
-          }}
-          aria-label="开关深色模式"
-        >
-          {isOpenDarkMode ? <IconMoon className="icon" /> : <IconSun className="icon" />}
-        </button>
-      </Tooltip>
-      <Tooltip className="h-7 w-7" content="指法图示">
-        <HandPositionIllustration></HandPositionIllustration>
-      </Tooltip>
-      <Tooltip content="设置">
-        <Setting />
-      </Tooltip>
-    </div>
+        <Tooltip className="toolbar-tile" content="开关深色模式">
+          <button
+            className={`flex text-lg text-indigo-500 focus:outline-none`}
+            type="button"
+            onClick={(e) => {
+              changeDarkModeState()
+              e.currentTarget.blur()
+            }}
+            aria-label="开关深色模式"
+          >
+            {isOpenDarkMode ? <IconMoon className="icon" /> : <IconSun className="icon" />}
+          </button>
+        </Tooltip>
+        <Tooltip className="toolbar-tile" content="指法图示">
+          <HandPositionIllustration></HandPositionIllustration>
+        </Tooltip>
+        <Tooltip className="toolbar-tile" content="设置">
+          <Setting />
+        </Tooltip>
+      </div>
+    </>
   )
 }

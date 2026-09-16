@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import { DictChapterButton } from './components/DictChapterButton'
+import Progress from './components/Progress'
 import PronunciationSwitcher from './components/PronunciationSwitcher'
 import ResultScreen from './components/ResultScreen'
 import Speed from './components/Speed'
@@ -168,6 +169,9 @@ const App: React.FC = () => {
   return (
     <TypingContext.Provider value={{ state: state, dispatch }}>
       {state.isFinished && <ResultScreen />}
+      {/* 首页的柔光渐变底，铺在所有内容之下 */}
+      <div className="typing-aurora pointer-events-none fixed inset-0 -z-10" />
+      <Progress />
       <Layout>
         <Header>
           <DictChapterButton />
@@ -177,8 +181,8 @@ const App: React.FC = () => {
           <Tooltip content="跳过该词">
             <button
               className={`${
-                state.isShowSkip ? 'bg-orange-400' : 'invisible w-0 bg-gray-300 px-0 opacity-0'
-              } my-btn-primary transition-all duration-300 `}
+                state.isShowSkip ? 'bg-orange-400 px-4' : 'invisible w-0 bg-gray-300 px-0 opacity-0'
+              } flex items-center justify-center rounded-full py-2 text-[13px] font-semibold text-white transition-all duration-300 hover:opacity-90 focus:outline-none`}
               onClick={skipWord}
             >
               Skip

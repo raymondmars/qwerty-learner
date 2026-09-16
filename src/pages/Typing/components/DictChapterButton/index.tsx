@@ -22,18 +22,19 @@ export const DictChapterButton = () => {
     <>
       <Tooltip content="词典切换">
         <NavLink
-          className="block rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
+          className="block rounded-lg text-[13px] font-medium text-gray-700 transition-colors duration-300 ease-in-out hover:text-indigo-500 focus:outline-none dark:text-gray-200 dark:hover:text-indigo-300"
           to="/gallery"
         >
           {currentDictInfo.name} {isReviewMode && '错题复习'}
         </NavLink>
       </Tooltip>
+      <span className="dark:bg-white/15 h-4 w-px shrink-0 bg-gray-200" />
       {!isReviewMode && (
         <Tooltip content="章节切换">
           <Listbox value={currentChapter} onChange={setCurrentChapter}>
             <Listbox.Button
               onKeyDown={handleKeyDown}
-              className="rounded-lg px-3 py-1 text-lg transition-colors duration-300 ease-in-out hover:bg-indigo-400 hover:text-white focus:outline-none dark:text-white dark:text-opacity-60 dark:hover:text-opacity-100"
+              className="opacity-55 rounded-lg text-[12.5px] text-gray-600 transition-opacity duration-300 ease-in-out hover:opacity-100 focus:outline-none dark:text-gray-200"
             >
               第 {currentChapter + 1} 章
             </Listbox.Button>
