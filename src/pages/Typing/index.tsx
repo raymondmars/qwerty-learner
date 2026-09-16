@@ -168,6 +168,8 @@ const App: React.FC = () => {
   return (
     <TypingContext.Provider value={{ state: state, dispatch }}>
       {state.isFinished && <ResultScreen />}
+      {/* 首页的柔光渐变底，铺在所有内容之下 */}
+      <div className="typing-aurora pointer-events-none fixed inset-0 -z-10" />
       <Layout>
         <Header>
           <DictChapterButton />

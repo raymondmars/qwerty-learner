@@ -146,6 +146,87 @@ body,
   }
 }
 
+/* 首页的柔光渐变底，铺在 body 底色之上、内容之下 */
+.typing-aurora {
+  background: radial-gradient(1100px 620px at 12% -10%, oklch(0.93 0.05 288) 0%, transparent 60%),
+    radial-gradient(900px 560px at 88% 4%, oklch(0.94 0.04 210) 0%, transparent 62%),
+    radial-gradient(800px 700px at 50% 120%, oklch(0.95 0.035 150) 0%, transparent 60%), oklch(0.975 0.006 285);
+}
+
+/* 暗色下不铺底色，让 body 的 gray-900 透上来，只留极淡的光晕 */
+html.dark .typing-aurora {
+  background: radial-gradient(1100px 620px at 12% -10%, oklch(0.45 0.09 288 / 0.3) 0%, transparent 60%),
+    radial-gradient(900px 560px at 88% 4%, oklch(0.45 0.07 210 / 0.26) 0%, transparent 62%),
+    radial-gradient(800px 700px at 50% 120%, oklch(0.45 0.06 150 / 0.22) 0%, transparent 60%), transparent;
+}
+
+/* 单词区的配色令牌。用 CSS 变量而非 Tailwind 类，是因为字母的颜色/阴影要按
+   「已输入 / 当前 / 未输入 / 全对 / 拼错」五种状态在内联样式里动态组合。
+   定义在 :root 上，错题本等复用 Letter 组件的页面也能取到 */
+:root {
+  --typing-accent: oklch(0.58 0.19 288);
+  --letter-untyped: oklch(0.3 0.02 285);
+  --letter-typed: oklch(0.22 0.02 285);
+  --letter-correct: oklch(0.48 0.15 152);
+  --letter-wrong: oklch(0.55 0.21 25);
+  --letter-typed-shadow: 0 10px 30px oklch(0.4 0.06 288 / 0.16);
+  --letter-correct-shadow: 0 14px 40px oklch(0.6 0.16 152 / 0.28);
+  --word-glow: oklch(0.9 0.07 288 / 0.55);
+}
+
+html.dark {
+  --typing-accent: oklch(0.72 0.17 288);
+  --letter-untyped: oklch(0.85 0.02 285);
+  --letter-typed: oklch(0.97 0.01 285);
+  --letter-correct: oklch(0.8 0.16 152);
+  --letter-wrong: oklch(0.7 0.19 25);
+  --letter-typed-shadow: 0 10px 30px oklch(0.15 0.06 288 / 0.55);
+  --letter-correct-shadow: 0 14px 40px oklch(0.6 0.16 152 / 0.3);
+  --word-glow: oklch(0.55 0.11 288 / 0.28);
+}
+
+@keyframes float-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-float-in {
+  animation: float-in 0.5s ease both;
+}
+
+/* 拼写全对时从单词中心扩散出去的光圈 */
+@keyframes ring-pulse {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.animate-ring-pulse {
+  animation: ring-pulse 0.75s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+/* 当前待输入字母下方的光标色条 */
+@keyframes cursor-bar {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
 .gradient-text {
   background-image: linear-gradient(90deg, #f66, #f90);
   background-clip: text;

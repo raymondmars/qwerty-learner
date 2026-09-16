@@ -5,9 +5,10 @@ import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { isOpenDarkModeAtom } from '@/store'
 import { initGoogleAnalytics } from '@/utils/analytics'
-// 单词展示使用的字体，只引入拉丁字符集的常规体与粗体
+// 单词展示使用的字体，只引入拉丁字符集；800 用于首页的大号单词
 import '@fontsource/jetbrains-mono/latin-400.css'
 import '@fontsource/jetbrains-mono/latin-700.css'
+import '@fontsource/jetbrains-mono/latin-800.css'
 import 'animate.css'
 import { useAtomValue } from 'jotai'
 import React, { Suspense, lazy, useEffect, useRef, useState } from 'react'

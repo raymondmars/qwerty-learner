@@ -9,10 +9,12 @@ import type { WordPronunciationIconRef } from '@/components/WordPronunciationIco
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { EXPLICIT_SPACE } from '@/constants'
 import useKeySounds from '@/hooks/useKeySounds'
+import { useWordConfetti } from '@/pages/Typing/hooks/useConfetti'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import {
   currentChapterAtom,
   currentDictInfoAtom,
+  fontSizeConfigAtom,
   isEnterToNextWordAtom,
   isIgnoreCaseAtom,
   isShowAnswerOnHoverAtom,
@@ -26,7 +28,8 @@ import type { Word } from '@/typings'
 import { CTRL, getUtcString } from '@/utils'
 import { useSaveWordRecord } from '@/utils/db'
 import { useAtomValue, useSetAtom } from 'jotai'
-import { useCallback, useContext, useEffect, useRef, useState } from 'react'
+import type { CSSProperties } from 'react'
+import { useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useImmer } from 'use-immer'
 
@@ -50,6 +53,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const [isHoveringWord, setIsHoveringWord] = useState(false)
   const currentLanguageCategory = useAtomValue(currentDictInfoAtom).languageCategory
   const currentChapter = useAtomValue(currentChapterAtom)
+  const fontSizeConfig = useAtomValue(fontSizeConfigAtom)
 
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
@@ -59,6 +63,15 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const isWordAllCorrect = wordState.isFinished && wordState.letterStates.every((letterState) => letterState === 'correct')
   const setIsWordWaitingEnter = useSetAtom(isWordWaitingEnterAtom)
   const setIsWordMistaken = useSetAtom(isWordMistakenAtom)
+
+  // 彩带跟着「拼写全对」走，不依赖 Enter 继续的设置，关掉该设置时也照样庆祝
+  useWordConfetti(wordState.isFinished && isWordAllCorrect)
+
+  // 设置里的字号作为基准，按视口放大：默认 48px 时得到设计稿的 clamp(57.6px, 11.5vw, 168px)
+  const letterFontSize = useMemo(() => {
+    const base = fontSizeConfig.foreignFont + (isWaitingForEnter && isWordAllCorrect ? FINISHED_FONT_SIZE_OFFSET : 0)
+    return `clamp(${(base * 1.2).toFixed(1)}px, 11.5vw, ${(base * 3.5).toFixed(1)}px)`
+  }, [fontSizeConfig.foreignFont, isWaitingForEnter, isWordAllCorrect])
 
   useEffect(() => {
     setIsWordWaitingEnter(isWaitingForEnter)
@@ -309,10 +322,24 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           }`}
           data-tip="按 Tab 快捷键显示完整单词"
         >
+          {/* 单词背后的柔光，让大字号不会孤零零地浮在背景上 */}
+          <span
+            className="pointer-events-none absolute left-1/2 top-1/2 h-[32.5rem] w-[32.5rem] max-w-[90vw] -translate-x-1/2 -translate-y-1/2 rounded-full"
+            style={{ background: 'radial-gradient(circle, var(--word-glow) 0%, transparent 65%)', filter: 'blur(10px)' }}
+          />
+          {/* 全对时扩散一圈光晕，只在挂载时播一次 */}
+          {isWordAllCorrect && (
+            <span
+              className="animate-ring-pulse pointer-events-none absolute left-1/2 top-1/2 h-[22.5rem] w-[22.5rem] max-w-[80vw] -translate-x-1/2 -translate-y-1/2 rounded-full border-2"
+              style={{ borderColor: 'var(--typing-accent)' }}
+            />
+          )}
           <div
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
-            className={`flex items-center ${isTextSelectable && 'select-all'} justify-center`}
+            className={`relative z-10 flex items-center ${isTextSelectable && 'select-all'} justify-center`}
+            // 光标色条挂在字母下方 0.155em 处，下内边距跟着字号一起缩放才不会压到音标行
+            style={{ '--letter-size': letterFontSize, paddingBottom: 'calc(var(--letter-size) * 0.2)' } as CSSProperties}
           >
             {wordState.displayWord.split('').map((t, index) => {
               // 拼错时显示用户实际敲下的字符，显示正确答案会让默写模式泄题
@@ -325,22 +352,33 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
                   letter={displayLetter}
                   visible={getLetterVisible(index)}
                   state={letterState}
-                  // 拼写完成都加粗；放大和变绿只留给全对的情况
-                  fontSizeOffset={isWaitingForEnter && isWordAllCorrect ? FINISHED_FONT_SIZE_OFFSET : 0}
-                  bold={isWaitingForEnter}
+                  // 变绿只留给全对的情况
                   highlightCorrect={isWordAllCorrect}
+                  isCursor={!wordState.isFinished && index === wordState.inputWord.length}
+                  inProgress
                 />
               )
             })}
           </div>
           {pronunciationIsOpen && (
-            <div className="absolute -right-12 top-1/2 h-9 w-9 -translate-y-1/2 transform ">
+            <div className="absolute -right-12 top-1/2 z-10 h-9 w-9 -translate-y-1/2 transform ">
               <Tooltip content={`快捷键${CTRL} + J`}>
                 <WordPronunciationIcon word={word} ref={wordPronunciationIconRef} className="h-full w-full" />
               </Tooltip>
             </div>
           )}
         </div>
+        {isWaitingForEnter && (
+          <div
+            className={`animate-float-in mt-9 flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-[12.5px] font-semibold ${
+              isWordAllCorrect
+                ? 'dark:bg-green-400/15 bg-green-50 text-green-700 dark:text-green-300'
+                : 'dark:bg-amber-400/15 bg-amber-50 text-amber-700 dark:text-amber-300'
+            }`}
+          >
+            {isWordAllCorrect ? '✓ 拼写正确' : '拼写有误'}
+          </div>
+        )}
       </div>
       <TipAlert className="fixed bottom-10 right-3" show={showTipAlert} setShow={setShowTipAlert} />
     </>

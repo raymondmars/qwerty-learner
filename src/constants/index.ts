@@ -12,6 +12,16 @@ export const CONFETTI_DEFAULTS = {
   ticks: 500,
 } as confetti.Options
 
+// 单词拼写全对时的彩带。canvas-confetti 只认 hex，这里是设计稿那组 oklch 的等价色
+export const WORD_CONFETTI_DEFAULTS = {
+  colors: ['#846cf0', '#00bac5', '#42c070', '#ecbe24', '#f75c66'],
+  shapes: ['square'],
+  ticks: 200,
+  scalar: 0.9,
+  gravity: 1.1,
+  decay: 0.92,
+} as confetti.Options
+
 export const defaultFontSizeConfig = {
   foreignFont: 48,
   translateFont: 18,
