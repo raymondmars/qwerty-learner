@@ -5,6 +5,10 @@ import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { isOpenDarkModeAtom } from '@/store'
 import { initGoogleAnalytics } from '@/utils/analytics'
+// 界面字体。两者都是按 unicode-range 切片的可变字体，浏览器只会下载页面实际用到的分片，
+// 其中 Noto Sans SC 没有拉丁字形、Space Grotesk 没有中文字形，靠 font-family 的顺序各司其职
+import '@fontsource-variable/noto-sans-sc'
+import '@fontsource-variable/space-grotesk'
 // 单词展示使用的字体，只引入拉丁字符集；800 用于首页的大号单词
 import '@fontsource/jetbrains-mono/latin-400.css'
 import '@fontsource/jetbrains-mono/latin-700.css'
