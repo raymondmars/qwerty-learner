@@ -45,30 +45,33 @@ export default function StartButton({ isLoading }: { isLoading: boolean }) {
       <div
         ref={refs.setReference}
         {...getReferenceProps()}
-        className={`${
-          state.isTyping
-            ? 'bg-gray-400 shadow-gray-200 dark:bg-gray-600  dark:shadow-none'
-            : 'bg-indigo-500 shadow-indigo-300 dark:shadow-indigo-500/60'
-        } ${
+        className={`${state.isTyping ? 'bg-gray-300/70 dark:bg-gray-600/70' : 'bg-indigo-200/70 dark:bg-indigo-500/30'} ${
           isShowReStartButton ? 'h-20' : 'h-auto'
-        } flex-column absolute left-0 top-0 w-20 rounded-lg shadow-lg transition-colors duration-200`}
+        } flex-column absolute left-0 top-0 w-20 rounded-2xl transition-colors duration-200`}
       >
         <button
-          className={`${
-            state.isTyping ? 'bg-gray-400  dark:bg-gray-700 dark:hover:bg-gray-500' : 'bg-indigo-500'
-          } my-btn-primary w-20 shadow`}
+          className="flex w-20 items-center justify-center rounded-full py-2 text-[13px] font-semibold text-white hover:opacity-90 focus:outline-none"
+          // 练习中是中性的灰，暂停时给主色渐变，把「点它会开始」的引导留在按钮上
+          style={
+            state.isTyping
+              ? { background: 'linear-gradient(145deg, oklch(0.68 0.02 285), oklch(0.6 0.02 285))' }
+              : {
+                  background: 'linear-gradient(145deg, oklch(0.6 0.18 288), oklch(0.5 0.2 292))',
+                  boxShadow: '0 8px 20px oklch(0.55 0.19 290 / 0.32)',
+                }
+          }
           type="button"
           onClick={onToggleIsTyping}
           aria-label={state.isTyping ? '暂停' : '开始'}
         >
-          <span className="font-medium">{state.isTyping ? 'Pause' : 'Start'}</span>
+          {state.isTyping ? 'Pause' : 'Start'}
         </button>
         {isShowReStartButton && (
           <div className="absolute bottom-0 flex w-20 justify-center" ref={refs.setFloating} {...getFloatingProps()}>
             <button
               className={`${
-                state.isTyping ? 'bg-gray-500 dark:bg-gray-700 dark:hover:bg-gray-500 ' : 'bg-indigo-400 '
-              } my-btn-primary mb-1 mt-1 w-18  transition-colors duration-200`}
+                state.isTyping ? 'bg-gray-500 dark:bg-gray-700 dark:hover:bg-gray-500' : 'bg-indigo-400'
+              } my-1 flex w-[4.5rem] items-center justify-center rounded-full py-1.5 text-xs font-semibold text-white transition-colors duration-200 hover:opacity-90 focus:outline-none`}
               type="button"
               onClick={onClickRestart}
               aria-label={'重新开始'}

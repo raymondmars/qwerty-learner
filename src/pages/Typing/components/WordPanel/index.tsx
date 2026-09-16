@@ -1,7 +1,6 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import type { TypingState } from '../../store/type'
 import PrevAndNextWord from '../PrevAndNextWord'
-import Progress from '../Progress'
 import Phonetic from './components/Phonetic'
 import Translation from './components/Translation'
 import WordComponent from './components/Word'
@@ -215,8 +214,6 @@ export default function WordPanel() {
           </div>
         )}
       </div>
-      {/* 进度条贴近底部的速度统计，与上方的单词详情卡片拉开距离 */}
-      <Progress className={`mb-2 mt-auto ${state.isTyping ? 'opacity-100' : 'opacity-0'}`} />
     </div>
   )
 }

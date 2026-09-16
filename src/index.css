@@ -79,6 +79,14 @@ body,
       shadow-md dark:bg-gray-800 dark:text-gray-300;
   }
 
+  /* 顶部工具栏的图标按钮：统一的小方块底，图标自身的状态色照常覆盖文字色 */
+  .toolbar-tile {
+    @apply grid h-7 w-7 place-items-center rounded-[9px] bg-gray-100 text-gray-600 transition-colors dark:bg-white/10 dark:text-gray-200;
+  }
+  .toolbar-tile:hover {
+    @apply bg-indigo-100 text-indigo-600 dark:bg-indigo-400/25 dark:text-indigo-200;
+  }
+
   .my-btn-primary {
     @apply flex items-center justify-center rounded-lg bg-indigo-400 px-6 py-1 text-lg text-white hover:opacity-90 focus:outline-none dark:text-opacity-80;
   }
