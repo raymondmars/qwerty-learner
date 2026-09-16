@@ -80,6 +80,9 @@ export const isTextSelectableAtom = atomWithStorage('isTextSelectable', false)
 // 开启后单词拼写正确不会自动跳转，而是锁定输入并放大展示，等用户按 Enter 再进入下一个单词
 export const isEnterToNextWordAtom = atomWithStorage('isEnterToNextWord', true)
 
+// 单词一次拼对时是否喷彩带
+export const isWordConfettiOpenAtom = atomWithStorage('isWordConfettiOpen', true)
+
 export const reviewModeInfoAtom = reviewInfoAtom({
   isReviewMode: false,
   reviewRecord: undefined as ReviewRecord | undefined,

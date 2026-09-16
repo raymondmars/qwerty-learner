@@ -19,6 +19,7 @@ import {
   isIgnoreCaseAtom,
   isShowAnswerOnHoverAtom,
   isTextSelectableAtom,
+  isWordConfettiOpenAtom,
   isWordMistakenAtom,
   isWordWaitingEnterAtom,
   pronunciationIsOpenAtom,
@@ -54,6 +55,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const currentLanguageCategory = useAtomValue(currentDictInfoAtom).languageCategory
   const currentChapter = useAtomValue(currentChapterAtom)
   const fontSizeConfig = useAtomValue(fontSizeConfigAtom)
+  const isWordConfettiOpen = useAtomValue(isWordConfettiOpenAtom)
 
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
@@ -65,7 +67,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   const setIsWordMistaken = useSetAtom(isWordMistakenAtom)
 
   // 彩带跟着「拼写全对」走，不依赖 Enter 继续的设置，关掉该设置时也照样庆祝
-  useWordConfetti(wordState.isFinished && isWordAllCorrect)
+  useWordConfetti(isWordConfettiOpen && wordState.isFinished && isWordAllCorrect)
 
   // 设置里的字号作为基准，按视口放大：默认 48px 时得到设计稿的 clamp(57.6px, 11.5vw, 168px)
   const letterFontSize = useMemo(() => {
@@ -327,8 +329,8 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
             className="pointer-events-none absolute left-1/2 top-1/2 h-[32.5rem] w-[32.5rem] max-w-[90vw] -translate-x-1/2 -translate-y-1/2 rounded-full"
             style={{ background: 'radial-gradient(circle, var(--word-glow) 0%, transparent 65%)', filter: 'blur(10px)' }}
           />
-          {/* 全对时扩散一圈光晕，只在挂载时播一次 */}
-          {isWordAllCorrect && (
+          {/* 全对时扩散一圈光晕，只在挂载时播一次；和彩带同属庆祝效果，受同一个开关控制 */}
+          {isWordConfettiOpen && isWordAllCorrect && (
             <span
               className="animate-ring-pulse pointer-events-none absolute left-1/2 top-1/2 h-[22.5rem] w-[22.5rem] max-w-[80vw] -translate-x-1/2 -translate-y-1/2 rounded-full border-2"
               style={{ borderColor: 'var(--typing-accent)' }}
