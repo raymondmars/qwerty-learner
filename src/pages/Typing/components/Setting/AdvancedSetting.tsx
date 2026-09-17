@@ -2,6 +2,7 @@ import styles from './index.module.css'
 import { useChapterProgress } from '@/pages/Typing/hooks/useChapterProgress'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import {
+  dailyReviewLimitAtom,
   isChapterRetestOpenAtom,
   isEnterToNextWordAtom,
   isIgnoreCaseAtom,
@@ -15,6 +16,13 @@ import * as ScrollArea from '@radix-ui/react-scroll-area'
 import { useAtom } from 'jotai'
 import { useCallback, useContext } from 'react'
 
+const DAILY_REVIEW_LIMIT_OPTIONS = [
+  { value: 20, label: '20 个' },
+  { value: 50, label: '50 个' },
+  { value: 100, label: '100 个' },
+  { value: 0, label: '不限' },
+]
+
 export default function AdvancedSetting() {
   const [randomConfig, setRandomConfig] = useAtom(randomConfigAtom)
   const [isShowPrevAndNextWord, setIsShowPrevAndNextWord] = useAtom(isShowPrevAndNextWordAtom)
@@ -23,6 +31,7 @@ export default function AdvancedSetting() {
   const [isShowAnswerOnHover, setIsShowAnswerOnHover] = useAtom(isShowAnswerOnHoverAtom)
   const [isEnterToNextWord, setIsEnterToNextWord] = useAtom(isEnterToNextWordAtom)
   const [isChapterRetestOpen, setIsChapterRetestOpen] = useAtom(isChapterRetestOpenAtom)
+  const [dailyReviewLimit, setDailyReviewLimit] = useAtom(dailyReviewLimitAtom)
 
   const { savedProgress, clearProgress } = useChapterProgress()
   const typingContext = useContext(TypingContext)
@@ -34,6 +43,13 @@ export default function AdvancedSetting() {
       typingContext.dispatch({ type: TypingStateActionType.SKIP_2_WORD_INDEX, newIndex: 0 })
     }
   }, [clearProgress, typingContext])
+
+  const onChangeDailyReviewLimit = useCallback(
+    (limit: number) => {
+      setDailyReviewLimit(limit)
+    },
+    [setDailyReviewLimit],
+  )
 
   const onToggleChapterRetest = useCallback(
     (checked: boolean) => {
@@ -102,6 +118,29 @@ export default function AdvancedSetting() {
               <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Enter 继续已${
                 isEnterToNextWord ? '开启' : '关闭'
               }`}</span>
+            </div>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>每日复习上限</span>
+            <span className={styles.sectionDescription}>
+              到期的单词会积压，停练几天再回来可能有上百个词同时到期。设一个每日上限，顶栏的「今日待复习」
+              只显示当天要做的量，剩下的顺延到明天
+            </span>
+            <div className="mt-3 flex gap-2">
+              {DAILY_REVIEW_LIMIT_OPTIONS.map((option) => (
+                <button
+                  key={option.value}
+                  type="button"
+                  onClick={() => onChangeDailyReviewLimit(option.value)}
+                  className={`rounded-lg px-3 py-1.5 text-sm font-medium transition-colors focus:outline-none ${
+                    dailyReviewLimit === option.value
+                      ? 'bg-indigo-500 text-white'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600'
+                  }`}
+                >
+                  {option.label}
+                </button>
+              ))}
             </div>
           </div>
           <div className={styles.section}>

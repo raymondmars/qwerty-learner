@@ -1,5 +1,4 @@
 import type { ReviewRecord } from '@/utils/db/record'
-import { putWordReviewRecord } from '@/utils/db/review-record'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 
@@ -16,13 +15,9 @@ export function reviewInfoAtom(initialValue: TReviewInfoAtomData) {
       return get(storageAtom)
     },
     (get, set, updater: TReviewInfoAtomData | ((oldValue: TReviewInfoAtomData) => TReviewInfoAtomData)) => {
-      const newValue = typeof updater === 'function' ? updater(get(storageAtom)) : updater
-
-      // update reviewRecord to indexdb
-      if (newValue.reviewRecord?.id) {
-        putWordReviewRecord(newValue.reviewRecord)
-      }
-      set(storageAtom, newValue)
+      // 复习会话只活在 localStorage 里：队列由「今日待复习」按到期状态即时生成，
+      // 不需要另外落一份 reviewRecords。中断后刷新会恢复，到期状态本身也还在
+      set(storageAtom, typeof updater === 'function' ? updater(get(storageAtom)) : updater)
     },
   )
 }

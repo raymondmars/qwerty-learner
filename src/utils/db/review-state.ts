@@ -9,9 +9,6 @@ import { dueTimestampAfter, endOfTodayTimestamp, gradeFromPerformance, initialRe
  * 这里只负责落库、查到期队列、以及给老用户补历史。
  */
 
-/** 一次复习会话最多安排多少个词。积压太多时一次全推给用户只会劝退 */
-export const MAX_REVIEW_SESSION_WORDS = 100
-
 const normalise = (word: string) => word.trim().toLowerCase()
 
 /**

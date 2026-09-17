@@ -3,10 +3,10 @@ import { ChapterRecord, ReviewRecord, WordRecord } from './record'
 import { updateReviewStateAfterAttempt } from './review-state'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
-import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, typingBaselineAtom } from '@/store'
+import { currentChapterAtom, currentDictIdAtom, dailyReviewProgressAtom, isReviewModeAtom, typingBaselineAtom } from '@/store'
 import type { Table } from 'dexie'
 import Dexie from 'dexie'
-import { useAtom, useAtomValue } from 'jotai'
+import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useContext } from 'react'
 
 class RecordDB extends Dexie {
@@ -48,6 +48,11 @@ export const db = new RecordDB()
 
 /** 打字基线的指数滑动平均系数。越大越跟手，越小越稳 */
 const BASELINE_SMOOTHING = 0.1
+
+/** 本地日期，用来判断当日复习额度是否该归零。不能用 UTC，否则跨天的时点和用户的直觉对不上 */
+export function localDateKey(date: Date = new Date()): string {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+}
 
 db.wordRecords.mapToClass(WordRecord)
 db.chapterRecords.mapToClass(ChapterRecord)
@@ -97,6 +102,7 @@ export function useSaveWordRecord() {
 
   const { dispatch } = useContext(TypingContext) ?? {}
   const [typingBaseline, setTypingBaseline] = useAtom(typingBaselineAtom)
+  const setDailyReviewProgress = useSetAtom(dailyReviewProgressAtom)
 
   const saveWordRecord = useCallback(
     async ({
@@ -131,6 +137,12 @@ export function useSaveWordRecord() {
       // 在第 3 章敲对了 analyse 就是一次成功检索，没有理由还让它当天到期
       updateReviewStateAfterAttempt({ word, wrongCount, averageKeyInterval, baselineInterval: typingBaseline })
 
+      // 复习会话里练的词才计入当日额度。正常章节练习是学新词，不该占还债的名额
+      if (isRevision) {
+        const today = localDateKey()
+        setDailyReviewProgress((prev) => (prev.date === today ? { date: today, count: prev.count + 1 } : { date: today, count: 1 }))
+      }
+
       // 个人打字基线用指数滑动平均：跟得上用户变快，又不会被某一次卡顿带偏。
       // 只取拼对的样本，拼错的词间隔里混着回退和犹豫，不能代表正常手速
       if (wrongCount === 0 && averageKeyInterval > 0) {
@@ -144,7 +156,7 @@ export function useSaveWordRecord() {
         dispatch({ type: TypingStateActionType.SET_IS_SAVING_RECORD, payload: false })
       }
     },
-    [currentChapter, dictID, dispatch, isRevision, typingBaseline, setTypingBaseline],
+    [currentChapter, dictID, dispatch, isRevision, typingBaseline, setTypingBaseline, setDailyReviewProgress],
   )
 
   return saveWordRecord

@@ -84,6 +84,21 @@ export const isEnterToNextWordAtom = atomWithStorage('isEnterToNextWord', true)
 export const isWordConfettiOpenAtom = atomWithStorage('isWordConfettiOpen', true)
 
 /**
+ * 每天最多复习多少个词。0 表示不限。
+ *
+ * 到期的词会积压 —— 停练一周再回来可能有上千个词到期，一次全推给用户只会劝退。
+ * 每天固定量比一个吓人的数字更能坚持，Anki 也是这么做的。
+ */
+export const dailyReviewLimitAtom = atomWithStorage('dailyReviewLimit', 50)
+
+/**
+ * 今天已经复习了多少个词。date 是本地日期（YYYY-MM-DD），跨天自动归零。
+ *
+ * 只统计复习会话里练的词，正常章节练习不占额度 —— 那是学新词，不是还债。
+ */
+export const dailyReviewProgressAtom = atomWithStorage('dailyReviewProgress', { date: '', count: 0 })
+
+/**
  * 用户敲对相邻字母的平均间隔（毫秒）的滑动均值，作为判断「这次敲得算快还是算慢」的
  * 个人基线。用个人基线而不是绝对毫秒，打字快的人和慢的人才能用同一套判定。
  * 0 表示还没有样本，调用方会退回到一组保守的绝对值。

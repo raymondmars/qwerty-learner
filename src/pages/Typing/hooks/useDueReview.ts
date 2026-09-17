@@ -2,13 +2,16 @@ import {
   currentChapterAtom,
   currentDictIdAtom,
   currentDictInfoAtom,
+  dailyReviewLimitAtom,
+  dailyReviewProgressAtom,
   isReviewModeAtom,
   reviewModeInfoAtom,
   typingBaselineAtom,
 } from '@/store'
 import type { Word } from '@/typings'
+import { localDateKey } from '@/utils/db'
 import { ReviewRecord } from '@/utils/db/record'
-import { MAX_REVIEW_SESSION_WORDS, backfillReviewStates, getDueStatesSorted } from '@/utils/db/review-state'
+import { backfillReviewStates, getDueStatesSorted } from '@/utils/db/review-state'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
@@ -26,6 +29,8 @@ export function useDueReview() {
   const currentDictId = useAtomValue(currentDictIdAtom)
   const typingBaseline = useAtomValue(typingBaselineAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+  const dailyReviewLimit = useAtomValue(dailyReviewLimitAtom)
+  const dailyReviewProgress = useAtomValue(dailyReviewProgressAtom)
   const setReviewModeInfo = useSetAtom(reviewModeInfoAtom)
   const setCurrentChapter = useSetAtom(currentChapterAtom)
   const setCurrentDictId = useSetAtom(currentDictIdAtom)
@@ -63,17 +68,27 @@ export function useDueReview() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordList, currentDictId, isReviewMode])
 
+  // 今天还剩多少额度。跨天时 localStorage 里的计数还留着昨天的日期，按 0 算
+  const reviewedToday = dailyReviewProgress.date === localDateKey() ? dailyReviewProgress.count : 0
+  const remainingToday = dailyReviewLimit > 0 ? Math.max(0, dailyReviewLimit - reviewedToday) : dueWords.length
+
+  // 按钮上显示的数字取「到期数」和「今日剩余额度」的较小者 —— 显示真实积压
+  // （可能上千）只会让人不想开始，而这个数字是当下真正要做的量
+  const reviewableCount = Math.min(dueWords.length, remainingToday)
+  // 有词到期、但今天的额度已经用完
+  const isDailyGoalDone = dueWords.length > 0 && remainingToday === 0
+
   const startReview = useCallback(() => {
-    if (dueWords.length === 0) return
+    if (reviewableCount === 0) return
 
     setCurrentDictId(currentDictId)
     // 复习会话不属于任何章节，成绩不该记进某一章
     setCurrentChapter(-1)
     setReviewModeInfo({
       isReviewMode: true,
-      reviewRecord: new ReviewRecord(currentDictId, dueWords.slice(0, MAX_REVIEW_SESSION_WORDS)),
+      reviewRecord: new ReviewRecord(currentDictId, dueWords.slice(0, reviewableCount)),
     })
-  }, [dueWords, currentDictId, setCurrentDictId, setCurrentChapter, setReviewModeInfo])
+  }, [dueWords, reviewableCount, currentDictId, setCurrentDictId, setCurrentChapter, setReviewModeInfo])
 
-  return { dueCount: dueWords.length, startReview }
+  return { dueCount: dueWords.length, reviewableCount, isDailyGoalDone, startReview }
 }
