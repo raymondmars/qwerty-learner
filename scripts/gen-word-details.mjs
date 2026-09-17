@@ -108,9 +108,9 @@ function spellings(w) {
   return out
 }
 
-function inflections(word) {
+function inflectSingle(word) {
   const forms = new Set()
-  for (const w of spellings(word.toLowerCase())) {
+  for (const w of spellings(word)) {
     for (const f of [w, `${w}s`, `${w}es`, `${w}d`, `${w}ed`, `${w}ing`]) forms.add(f)
     if (w.endsWith('e')) {
       forms.add(`${w.slice(0, -1)}ing`)
@@ -121,6 +121,31 @@ function inflections(word) {
       forms.add(`${w.slice(0, -1)}ied`)
     }
   }
+  return [...forms]
+}
+
+/**
+ * 词库里有 "rely on" "negative number" "point of view" 这类多词条目，整串加后缀得到的
+ * "rely ons" 不是任何真实写法，模型写出的 "relies on" 反而会被判为没用到这个词、
+ * 例句被丢掉。
+ *
+ * 多词条目的变形位置取决于它是什么短语：动词短语变第一个词（rely on → relies on），
+ * 名词短语变最后一个词（negative number → negative numbers）。这里不判断词性，
+ * 两头都展开，多出来的写法（"relies on" 之外还有 "rely ons"）不是真词，
+ * 在真实句子里匹配不到任何东西，无副作用。
+ * form2base 是按单个 token 查的，这里带空格的词形在那边同样匹配不到。
+ */
+function inflections(word) {
+  const tokens = word.toLowerCase().split(' ')
+  if (tokens.length === 1) return inflectSingle(tokens[0])
+
+  const head = tokens[0]
+  const last = tokens[tokens.length - 1]
+  const middle = tokens.slice(1, -1)
+
+  const forms = new Set()
+  for (const f of inflectSingle(head)) forms.add([f, ...middle, last].join(' '))
+  for (const f of inflectSingle(last)) forms.add([head, ...middle, f].join(' '))
   return [...forms]
 }
 

@@ -3378,17 +3378,17 @@ const childrenEnglish: DictionaryResource[] = [
 
 // 新西兰 K12
 // 新西兰没有官方的年级词汇表（NZ Curriculum 不规定词表，Year 9-10 又在 NCEA 之前
-// 没有全国统考），因此按词频分段生成，并统一为英式拼写。
-// 生成脚本：scripts/build-nz-k12-dicts.mjs
+// 没有全国统考），两个年级各自取了不同的做法，统一为英式拼写。
+// 生成脚本：Year 9 用 scripts/build-nz-year9-dict.mjs，Year 10 用 scripts/build-nz-k12-dicts.mjs
 const nzK12: DictionaryResource[] = [
   {
     id: 'nz-k12-year9',
     name: 'Year 9 核心词',
-    description: '新西兰中学 Year 9 阶段的中高频词，取自 COCA 词频表第 2001-3500 名，已转为英式拼写',
+    description: '新西兰中学 Year 9 各科课堂用词，按学术通用词、英语、科学、数学、社会研究等主题分类排列，英式拼写',
     category: '新西兰K12',
     tags: ['Year 9'],
     url: '/dicts/NZ_K12_Year9.json',
-    length: 1500,
+    length: 489,
     language: 'en',
     languageCategory: 'en',
   },
