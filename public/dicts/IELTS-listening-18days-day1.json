@@ -1,298 +1,518 @@
 [
-    {
-        "name": "beginner",
-        "trans": ["n. 初学者"]
-    },
-    {
-        "name": "account",
-        "trans": ["n. 账户"]
-    },
-    {
-        "name": "leather shoes",
-        "trans": ["n. 皮鞋"]
-    },
-    {
-        "name": "garage",
-        "trans": ["n. 车库"]
-    },
-    {
-        "name": "wheel",
-        "trans": ["n. 轮子"]
-    },
-    {
-        "name": "moderate",
-        "trans": ["adj. 温和的：适度的"]
-    },
-    {
-        "name": "waterfall",
-        "trans": ["n. 瀑布"]
-    },
-    {
-        "name": "express",
-        "trans": ["n. 快递"]
-    },
-    {
-        "name": "code",
-        "trans": ["n. 代码编码"]
-    },
-    {
-        "name": "avenue",
-        "trans": ["n. （南北向）街道"]
-    },
-    {
-        "name": "drama",
-        "trans": ["n. 戏剧"]
-    },
-    {
-        "name": "gas",
-        "trans": ["n. 气体"]
-    },
-    {
-        "name": "fluent",
-        "trans": ["adj. 流畅的"]
-    },
-    {
-        "name": "shower",
-        "trans": ["n. 淋浴"]
-    },
-    {
-        "name": "minibus",
-        "trans": ["n. 面包车"]
-    },
-    {
-        "name": "plant",
-        "trans": ["n. 工厂"]
-    },
-    {
-        "name": "transit",
-        "trans": ["n. 运送"]
-    },
-    {
-        "name": "cookery",
-        "trans": ["n. 烹饪"]
-    },
-    {
-        "name": "cinema",
-        "trans": ["n. 电影：电影院"]
-    },
-    {
-        "name": "tank",
-        "trans": ["n. 坦克；水槽；水池"]
-    },
-    {
-        "name": "enjoyable",
-        "trans": ["adj. 快乐的：有乐趣"]
-    },
-    {
-        "name": "warehouse",
-        "trans": ["n. 仓库"]
-    },
-    {
-        "name": "yoga",
-        "trans": ["n. 瑜伽"]
-    },
-    {
-        "name": "mat",
-        "trans": ["n. 垫子"]
-    },
-    {
-        "name": "Asian",
-        "trans": ["n. 亚洲人"]
-    },
-    {
-        "name": "knife",
-        "trans": ["n. 刀子"]
-    },
-    {
-        "name": "container",
-        "trans": ["n. 集装箱：容器"]
-    },
-    {
-        "name": "mirror",
-        "trans": ["n. 镜子"]
-    },
-    {
-        "name": "first aid",
-        "trans": ["n. 急救"]
-    },
-    {
-        "name": "campaign",
-        "trans": ["n. 活动"]
-    },
-    {
-        "name": "conference",
-        "trans": ["n. 会议，协商"]
-    },
-    {
-        "name": "limited",
-        "trans": ["adj. 有限的"]
-    },
-    {
-        "name": "exterior",
-        "trans": ["adj. 外部的"]
-    },
-    {
-        "name": "basis",
-        "trans": ["n. 基础"]
-    },
-    {
-        "name": "internet",
-        "trans": ["n. 因特网"]
-    },
-    {
-        "name": "resume",
-        "trans": ["n. 履历，简历"]
-    },
-    {
-        "name": "type",
-        "trans": ["n. 类型"]
-    },
-    {
-        "name": "layout",
-        "trans": ["n. 布局"]
-    },
-    {
-        "name": "correction",
-        "trans": ["n. 改正，修正"]
-    },
-    {
-        "name": "experience",
-        "trans": ["n. 经验"]
-    },
-    {
-        "name": "avoid",
-        "trans": ["v. 避免"]
-    },
-    {
-        "name": "bakery",
-        "trans": ["n. 面包店"]
-    },
-    {
-        "name": "reference",
-        "trans": ["n. 参考"]
-    },
-    {
-        "name": "agency",
-        "trans": ["n. 代理"]
-    },
-    {
-        "name": "manufacture",
-        "trans": ["v. 制造"]
-    },
-    {
-        "name": "tutor",
-        "trans": ["n. 导师"]
-    },
-    {
-        "name": "kid",
-        "trans": ["n. 小孩子"]
-    },
-    {
-        "name": "example",
-        "trans": ["n. 例子"]
-    },
-    {
-        "name": "private",
-        "trans": ["adj. 私人的"]
-    },
-    {
-        "name": "screen",
-        "trans": ["n. 屏幕"]
-    },
-    {
-        "name": "manager",
-        "trans": ["n. 经理"]
-    },
-    {
-        "name": "choice",
-        "trans": ["n. 选择"]
-    },
-    {
-        "name": "available",
-        "trans": ["adj. 可利用的"]
-    },
-    {
-        "name": "instruction",
-        "trans": ["n. 说明"]
-    },
-    {
-        "name": "freezer",
-        "trans": ["n. 冰箱"]
-    },
-    {
-        "name": "financial",
-        "trans": ["adj. 金融的"]
-    },
-    {
-        "name": "camping",
-        "trans": ["n. 露营度假"]
-    },
-    {
-        "name": "block",
-        "trans": ["n. 街区"]
-    },
-    {
-        "name": "climbing",
-        "trans": ["n. 爬山"]
-    },
-    {
-        "name": "free",
-        "trans": ["adj. 免费的"]
-    },
-    {
-        "name": "view",
-        "trans": ["n. 视野"]
-    },
-    {
-        "name": "include",
-        "trans": ["v. 包括"]
-    },
-    {
-        "name": "cancel",
-        "trans": ["v. 取消"]
-    },
-    {
-        "name": "performer",
-        "trans": ["n. 演奏者"]
-    },
-    {
-        "name": "suitable",
-        "trans": ["adj. 适当的"]
-    },
-    {
-        "name": "opera",
-        "trans": ["n. 歌剧院"]
-    },
-    {
-        "name": "theatre",
-        "trans": ["n. 戏院"]
-    },
-    {
-        "name": "library",
-        "trans": ["n. 图书馆"]
-    },
-    {
-        "name": "townhall",
-        "trans": ["n. 市政厅"]
-    },
-    {
-        "name": "studio",
-        "trans": ["n. 工作室"]
-    },
-    {
-        "name": "interview",
-        "trans": ["v. 采访"]
-    },
-    {
-        "name": "select",
-        "trans": ["v. 选择"]
-    },
-    {
-        "name": "edit",
-        "trans": ["v. 编辑"]
-    },
-    {
-        "name": "parking",
-        "trans": ["n. 停车"]
-    }
+  {
+    "name": "beginner",
+    "trans": [
+      "n. 初学者；新手；创始人"
+    ]
+  },
+  {
+    "name": "account",
+    "trans": [
+      "n. 账户；解释；账目，账单",
+      "vt. 认为；把…视为",
+      "vi. 解释；导致；报账"
+    ]
+  },
+  {
+    "name": "leather shoes",
+    "trans": [
+      "n. 皮鞋"
+    ]
+  },
+  {
+    "name": "garage",
+    "trans": [
+      "n. 车库；汽车修理站；飞机库",
+      "vt. 把…送入车库；把（汽车）开进车库"
+    ]
+  },
+  {
+    "name": "wheel",
+    "trans": [
+      "n. 轮；车轮；方向盘",
+      "vi. 旋转；转动；改变方向",
+      "vt. 给...装轮子；用车运；转动"
+    ]
+  },
+  {
+    "name": "moderate",
+    "trans": [
+      "adj. 中等的；适度的；温和的",
+      "v. （使）缓和；节制",
+      "n. 温和派人士"
+    ]
+  },
+  {
+    "name": "waterfall",
+    "trans": [
+      "n. 瀑布；瀑布似的东西；（披垂的）波型长发"
+    ]
+  },
+  {
+    "name": "express",
+    "trans": [
+      "v. 表达；表示",
+      "adj. 特快的；快速的",
+      "n. 快车；快运"
+    ]
+  },
+  {
+    "name": "code",
+    "trans": [
+      "n. 代码，密码；编码；法典",
+      "vt. 编码；制成法典",
+      "vi. 指定遗传密码"
+    ]
+  },
+  {
+    "name": "avenue",
+    "trans": [
+      "n. 大街，林荫道；途径，手段；大街（常指美国城市的）"
+    ]
+  },
+  {
+    "name": "drama",
+    "trans": [
+      "n. 戏剧；话剧；戏剧性事件"
+    ]
+  },
+  {
+    "name": "gas",
+    "trans": [
+      "n. 气体；瓦斯；汽油",
+      "vt. 加油；毒（死）",
+      "vi. 加油；放出气体；空谈"
+    ]
+  },
+  {
+    "name": "fluent",
+    "trans": [
+      "adj. 流畅的，流利的；液态的；畅流的"
+    ]
+  },
+  {
+    "name": "shower",
+    "trans": [
+      "n. 阵雨；(一)阵；淋浴",
+      "vi. 倾盆而下；淋浴",
+      "vt. 淋湿；下骤雨；使"
+    ]
+  },
+  {
+    "name": "minibus",
+    "trans": [
+      "n. 面包车（等于microbus）；小型公共汽车；中客车",
+      "vi. 乘中客车"
+    ]
+  },
+  {
+    "name": "plant",
+    "trans": [
+      "n. 工厂，车间；植物；设备",
+      "vt. 种植；培养；栽培",
+      "vi. 种植"
+    ]
+  },
+  {
+    "name": "transit",
+    "trans": [
+      "n. 通过；搬运；转变",
+      "vt. 通过；横越；运送",
+      "vi. 通过；经过"
+    ]
+  },
+  {
+    "name": "cookery",
+    "trans": [
+      "n. 烹调术；烹调业"
+    ]
+  },
+  {
+    "name": "cinema",
+    "trans": [
+      "n. 电影；电影院；电影业，电影制作术"
+    ]
+  },
+  {
+    "name": "tank",
+    "trans": [
+      "n. 坦克；水槽；池塘",
+      "vt. 把…贮放在柜内；打败",
+      "vi. 乘坦克行进"
+    ]
+  },
+  {
+    "name": "enjoyable",
+    "trans": [
+      "adj. 快乐的；有乐趣的；令人愉快的"
+    ]
+  },
+  {
+    "name": "warehouse",
+    "trans": [
+      "n. 仓库；货栈；大商店",
+      "vt. 储入仓库；以他人名义购进（股票）"
+    ]
+  },
+  {
+    "name": "yoga",
+    "trans": [
+      "n. （印度）瑜伽；瑜伽术；瑜伽派"
+    ]
+  },
+  {
+    "name": "mat",
+    "trans": [
+      "n. 垫；垫子；衬边",
+      "vt. 缠结；铺席于……上",
+      "vi. 纠缠在一起"
+    ]
+  },
+  {
+    "name": "Asian",
+    "trans": [
+      "adj. 亚洲的；亚洲人的",
+      "n. 亚洲人"
+    ]
+  },
+  {
+    "name": "knife",
+    "trans": [
+      "n. 刀；匕首",
+      "vt. 用刀切；（口）伤害",
+      "vi. 劈开；划过"
+    ]
+  },
+  {
+    "name": "container",
+    "trans": [
+      "n. 容器；集装箱；货柜"
+    ]
+  },
+  {
+    "name": "mirror",
+    "trans": [
+      "n. 镜子；真实的写照；榜样",
+      "vt. 反射；反映"
+    ]
+  },
+  {
+    "name": "first aid",
+    "trans": [
+      "n. 急救"
+    ]
+  },
+  {
+    "name": "campaign",
+    "trans": [
+      "n. 运动；活动；战役",
+      "vi. 作战；参加竞选；参加活动"
+    ]
+  },
+  {
+    "name": "conference",
+    "trans": [
+      "n. 会议；讨论；协商",
+      "vi. 举行或参加（系列）会议"
+    ]
+  },
+  {
+    "name": "limited",
+    "trans": [
+      "adj. 有限公司",
+      "n. 限制；局限；局限于"
+    ]
+  },
+  {
+    "name": "exterior",
+    "trans": [
+      "n. 外部；表面；外型",
+      "adj. 外部的；表面的；外在的"
+    ]
+  },
+  {
+    "name": "basis",
+    "trans": [
+      "n. 基础，根据；基本原则，基本方法；根据，理由"
+    ]
+  },
+  {
+    "name": "internet",
+    "trans": [
+      "n. 互联网；因特网"
+    ]
+  },
+  {
+    "name": "resume",
+    "trans": [
+      "vt.&vi. 重新开始；恢复",
+      "vt. 重新取得；再占有",
+      "n. 梗概，摘要；简历"
+    ]
+  },
+  {
+    "name": "type",
+    "trans": [
+      "n. 类型，品种；模范；样式",
+      "vt. 打字；测定（血等）类型",
+      "vi. 打字"
+    ]
+  },
+  {
+    "name": "layout",
+    "trans": [
+      "n. 布局；设计；安排"
+    ]
+  },
+  {
+    "name": "correction",
+    "trans": [
+      "n. 修改；改纠正；惩罚",
+      "adj. 改正的；纠正的"
+    ]
+  },
+  {
+    "name": "experience",
+    "trans": [
+      "n. 经验；经历；体验",
+      "vt. 经验；经历；体验"
+    ]
+  },
+  {
+    "name": "avoid",
+    "trans": [
+      "vt. 避免；避开，躲避；消除"
+    ]
+  },
+  {
+    "name": "bakery",
+    "trans": [
+      "n. 面包房；糕点店"
+    ]
+  },
+  {
+    "name": "reference",
+    "trans": [
+      "n. 参考，参照；涉及，提及；参考书目",
+      "vt. 引用",
+      "vi. 引用"
+    ]
+  },
+  {
+    "name": "agency",
+    "trans": [
+      "n. 代理处，经销处；代理权，代理行为；政府机构，机关"
+    ]
+  },
+  {
+    "name": "manufacture",
+    "trans": [
+      "n. 制造；产品；制造业",
+      "vt. 制造；加工；捏造",
+      "vi. 制造"
+    ]
+  },
+  {
+    "name": "tutor",
+    "trans": [
+      "n. 导师；家庭教师；助教",
+      "vt. 辅导；约束",
+      "vi. 当家庭教师；（美）在家庭教师指导下学习"
+    ]
+  },
+  {
+    "name": "kid",
+    "trans": [
+      "n. 小孩；小山羊",
+      "adj. 小山羊皮制的；较年幼的",
+      "vt. 欺骗；取笑；戏弄"
+    ]
+  },
+  {
+    "name": "example",
+    "trans": [
+      "n. 例子；榜样；范例",
+      "vt. 作为…的例子；为…做出榜样",
+      "vi. 举例；作为…的示范"
+    ]
+  },
+  {
+    "name": "private",
+    "trans": [
+      "n. 列兵；二等兵",
+      "adj. 私人的；私有的；私下的"
+    ]
+  },
+  {
+    "name": "screen",
+    "trans": [
+      "n. 屏，幕；屏风",
+      "vt. 筛；拍摄；放映",
+      "vi. 拍电影"
+    ]
+  },
+  {
+    "name": "manager",
+    "trans": [
+      "n. 经理；经营者；经纪人"
+    ]
+  },
+  {
+    "name": "choice",
+    "trans": [
+      "n. 选择，挑选；选择权；可供选择的东西",
+      "adj. 上等的；优质的"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的，可利用的；可用的，空闲的；有效的，起作用的"
+    ]
+  },
+  {
+    "name": "instruction",
+    "trans": [
+      "n. 教授；指导",
+      "pl. 用法说明书；操作指南"
+    ]
+  },
+  {
+    "name": "freezer",
+    "trans": [
+      "n. 冰箱；冷冻库；制冷工"
+    ]
+  },
+  {
+    "name": "financial",
+    "trans": [
+      "adj. 财政的，金融的；有钱的；（俱乐部或社团成员）已缴费的",
+      "n. （组织或个人的）财务状况；金融公司股票"
+    ]
+  },
+  {
+    "name": "camping",
+    "trans": [
+      "n. 露营；野营",
+      "v. 露营；扎营；临时安顿（camp的ing形式）"
+    ]
+  },
+  {
+    "name": "block",
+    "trans": [
+      "n. 块；街区；大厦",
+      "adj. 成批的，大块的；交通堵塞的",
+      "vt. 阻止；阻塞；限制"
+    ]
+  },
+  {
+    "name": "climbing",
+    "trans": [
+      "n. 爬山；攀登；上升",
+      "adj. 上升的；攀缘而登的",
+      "v. 爬；上升；（植物）攀缘而上"
+    ]
+  },
+  {
+    "name": "free",
+    "trans": [
+      "adj. 自由的；空闲的；大方的",
+      "vt. 释放；解放",
+      "adv. 自由地免费地"
+    ]
+  },
+  {
+    "name": "view",
+    "trans": [
+      "n. 观察；视野；意见",
+      "vt. 观察；考虑；查看"
+    ]
+  },
+  {
+    "name": "include",
+    "trans": [
+      "v. 包括；包含；计入"
+    ]
+  },
+  {
+    "name": "cancel",
+    "trans": [
+      "vi. 取消；撤销；相互抵消",
+      "vt. 取消；删去",
+      "n. 取消；撤销"
+    ]
+  },
+  {
+    "name": "performer",
+    "trans": [
+      "n. 表演者；执行者；演出者"
+    ]
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. 合适的；适宜的",
+      "adv. 合适地；恰当地"
+    ]
+  },
+  {
+    "name": "opera",
+    "trans": [
+      "n. 歌剧；歌剧院；歌剧团"
+    ]
+  },
+  {
+    "name": "theatre",
+    "trans": [
+      "n. 剧院，戏院；戏剧，戏剧艺术；手术室"
+    ]
+  },
+  {
+    "name": "library",
+    "trans": [
+      "n. 图书馆；藏书室；图书馆藏书"
+    ]
+  },
+  {
+    "name": "townhall",
+    "trans": [
+      "n. 市政厅"
+    ]
+  },
+  {
+    "name": "studio",
+    "trans": [
+      "n. 工作室，画室，摄影室；电影制片厂，电视台；录音室"
+    ]
+  },
+  {
+    "name": "interview",
+    "trans": [
+      "n. 接见；会见；面谈",
+      "vt. 接见；对...进行面谈(试)",
+      "vi. 面试采访"
+    ]
+  },
+  {
+    "name": "select",
+    "trans": [
+      "n. 被挑选者；精萃",
+      "adj. 精选的；挑选出来的；极好的",
+      "vt. 挑选；选拔"
+    ]
+  },
+  {
+    "name": "edit",
+    "trans": [
+      "v. 编辑，修改；剪辑，剪接",
+      "n. 编辑；修改"
+    ]
+  },
+  {
+    "name": "parking",
+    "trans": [
+      "n. （车辆等的）停放；停车场所；停车位",
+      "v. 停放；停车；“park”的现在分词"
+    ]
+  }
 ]

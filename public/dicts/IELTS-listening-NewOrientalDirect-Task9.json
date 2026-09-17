@@ -1,278 +1,299 @@
 [
-    {
-        "name": "personal details",
-        "trans": [
-            "pl. n. 个人信息"
-        ]
-    },
-    {
-        "name": "last name",
-        "trans": [
-            "n. 姓"
-        ]
-    },
-    {
-        "name": "family name",
-        "trans": [
-            "n. 姓"
-        ]
-    },
-    {
-        "name": "surname",
-        "trans": [
-            "n. 姓"
-        ]
-    },
-    {
-        "name": "first name",
-        "trans": [
-            "n. 名"
-        ]
-    },
-    {
-        "name": "given name",
-        "trans": [
-            "n. 名"
-        ]
-    },
-    {
-        "name": "title",
-        "trans": [
-            "n. 称谓"
-        ]
-    },
-    {
-        "name": "country of origin",
-        "trans": [
-            "n. 出生国"
-        ]
-    },
-    {
-        "name": "nationality",
-        "trans": [
-            "n. 国籍"
-        ]
-    },
-    {
-        "name": "occupation",
-        "trans": [
-            "n. 职业"
-        ]
-    },
-    {
-        "name": "dentist",
-        "trans": [
-            "n. 牙医"
-        ]
-    },
-    {
-        "name": "surgeon",
-        "trans": [
-            "n. 外科医生"
-        ]
-    },
-    {
-        "name": "interior designer",
-        "trans": [
-            "n. 室内设计师"
-        ]
-    },
-    {
-        "name": "medical condition",
-        "trans": [
-            "n. 身体情况"
-        ]
-    },
-    {
-        "name": "glasses",
-        "trans": [
-            "pl. n. 眼镜"
-        ]
-    },
-    {
-        "name": "asthma",
-        "trans": [
-            "n. 哮喘"
-        ]
-    },
-    {
-        "name": "heart disease",
-        "trans": [
-            "n. 心脏病"
-        ]
-    },
-    {
-        "name": "address",
-        "trans": [
-            "n. 地址"
-        ]
-    },
-    {
-        "name": "road",
-        "trans": [
-            "n. 路"
-        ]
-    },
-    {
-        "name": "street",
-        "trans": [
-            "n. 街"
-        ]
-    },
-    {
-        "name": "avenue",
-        "trans": [
-            "n. 大街"
-        ]
-    },
-    {
-        "name": "lane",
-        "trans": [
-            "n. 小路"
-        ]
-    },
-    {
-        "name": "postcode",
-        "trans": [
-            "n. 【英】邮政编码"
-        ]
-    },
-    {
-        "name": "zip code",
-        "trans": [
-            "n. 【美】邮政编码"
-        ]
-    },
-    {
-        "name": "emergency",
-        "trans": [
-            "n. 紧急情况"
-        ]
-    },
-    {
-        "name": "diet",
-        "trans": [
-            "n. 饮食"
-        ]
-    },
-    {
-        "name": "vegetarian",
-        "trans": [
-            "n. 素食主义者"
-        ]
-    },
-    {
-        "name": "no red meat",
-        "trans": [
-            "n. 不吃红肉"
-        ]
-    },
-    {
-        "name": "elementary",
-        "trans": [
-            "adj. 基础的，初级的"
-        ]
-    },
-    {
-        "name": "basic",
-        "trans": [
-            "adj. 基础的，初级的"
-        ]
-    },
-    {
-        "name": "intermediate",
-        "trans": [
-            "adj. 中级的"
-        ]
-    },
-    {
-        "name": "advanced",
-        "trans": [
-            "adj. 高级的"
-        ]
-    },
-    {
-        "name": "membership",
-        "trans": [
-            "n. 会员资格"
-        ]
-    },
-    {
-        "name": "apply",
-        "trans": [
-            "v. 申请"
-        ]
-    },
-    {
-        "name": "entitlement",
-        "trans": [
-            "n. 权利"
-        ]
-    },
-    {
-        "name": "facilities",
-        "trans": [
-            "pl. n. 设施"
-        ]
-    },
-    {
-        "name": "restricted",
-        "trans": [
-            "adj. 限制的"
-        ]
-    },
-    {
-        "name": "swimming pool",
-        "trans": [
-            "n. 游泳池"
-        ]
-    },
-    {
-        "name": "studio",
-        "trans": [
-            "n. 工作室"
-        ]
-    },
-    {
-        "name": "preference",
-        "trans": [
-            "n. 偏好，偏爱"
-        ]
-    },
-    {
-        "name": "priority",
-        "trans": [
-            "n. 优先权，优先做的事"
-        ]
-    },
-    {
-        "name": "session",
-        "trans": [
-            "n. 一段时间"
-        ]
-    },
-    {
-        "name": "assess",
-        "trans": [
-            "v. 评价，评估"
-        ]
-    },
-    {
-        "name": "restaurant",
-        "trans": [
-            "n. 餐厅"
-        ]
-    },
-    {
-        "name": "changing room",
-        "trans": [
-            "n. 更衣室"
-        ]
-    },
-    {
-        "name": "fee",
-        "trans": [
-            "n. 费用"
-        ]
-    }
+  {
+    "name": "personal details",
+    "trans": [
+      "n. 个人信息"
+    ]
+  },
+  {
+    "name": "last name",
+    "trans": [
+      "n. 姓"
+    ]
+  },
+  {
+    "name": "family name",
+    "trans": [
+      "n. 姓"
+    ]
+  },
+  {
+    "name": "surname",
+    "trans": [
+      "n. 姓，姓氏；绰号，别名",
+      "vt. 给…起别名；给…姓氏"
+    ]
+  },
+  {
+    "name": "first name",
+    "trans": [
+      "n. 名"
+    ]
+  },
+  {
+    "name": "given name",
+    "trans": [
+      "n. 名"
+    ]
+  },
+  {
+    "name": "title",
+    "trans": [
+      "n. 标题；题目；称号",
+      "vt. 予称号；加标题于",
+      "adj. 标题的"
+    ]
+  },
+  {
+    "name": "country of origin",
+    "trans": [
+      "n. 出生国"
+    ]
+  },
+  {
+    "name": "nationality",
+    "trans": [
+      "n. 国籍，国家；民族；部落"
+    ]
+  },
+  {
+    "name": "occupation",
+    "trans": [
+      "n. 职业，工作；占用，占领；占据，占有"
+    ]
+  },
+  {
+    "name": "dentist",
+    "trans": [
+      "n. 牙科医生；牙医诊所"
+    ]
+  },
+  {
+    "name": "surgeon",
+    "trans": [
+      "n. 外科医师；军医"
+    ]
+  },
+  {
+    "name": "interior designer",
+    "trans": [
+      "n. 室内设计师"
+    ]
+  },
+  {
+    "name": "medical condition",
+    "trans": [
+      "n. 身体情况"
+    ]
+  },
+  {
+    "name": "glasses",
+    "trans": [
+      "n. 眼镜；玻璃（glass的复数形式）；双筒望远镜",
+      "v. 把…装入玻璃容器内"
+    ]
+  },
+  {
+    "name": "asthma",
+    "trans": [
+      "n. 哮喘；气喘"
+    ]
+  },
+  {
+    "name": "heart disease",
+    "trans": [
+      "n. 心脏病"
+    ]
+  },
+  {
+    "name": "address",
+    "trans": [
+      "n. 地址；住址；演讲",
+      "v. 称呼；称谓；写姓名地址"
+    ]
+  },
+  {
+    "name": "road",
+    "trans": [
+      "n. 公路，马路；道路；手段",
+      "adj. （美）巡回的",
+      "vt. （狗）沿臭迹追逐（猎物）"
+    ]
+  },
+  {
+    "name": "street",
+    "trans": [
+      "n. 街；街道；行车道",
+      "adj. 街道的"
+    ]
+  },
+  {
+    "name": "avenue",
+    "trans": [
+      "n. 大街，林荫道；途径，手段；大街（常指美国城市的）"
+    ]
+  },
+  {
+    "name": "lane",
+    "trans": [
+      "n. 小路，小巷；车道，行车道；泳道"
+    ]
+  },
+  {
+    "name": "postcode",
+    "trans": [
+      "n. （英）邮政编码；邮区号"
+    ]
+  },
+  {
+    "name": "zip code",
+    "trans": [
+      "n. 邮政编码"
+    ]
+  },
+  {
+    "name": "emergency",
+    "trans": [
+      "n. 紧急情况；突发事件；非常时刻",
+      "adj. 紧急的；备用的"
+    ]
+  },
+  {
+    "name": "diet",
+    "trans": [
+      "adj. 低脂的；低糖的",
+      "n. 规定饮食；大量单调的活动；日常饮食",
+      "v. 节食"
+    ]
+  },
+  {
+    "name": "vegetarian",
+    "trans": [
+      "n. 吃素的人；素食者；素食主义者",
+      "adj. 素食者的；只有蔬菜的"
+    ]
+  },
+  {
+    "name": "no red meat",
+    "trans": [
+      "n. 不吃红肉"
+    ]
+  },
+  {
+    "name": "elementary",
+    "trans": [
+      "adj. 基本的；初级的；元素的"
+    ]
+  },
+  {
+    "name": "basic",
+    "trans": [
+      "n. 基本；实质性的东西；基础训练",
+      "adj. 基本的；基础的；含硅量少的"
+    ]
+  },
+  {
+    "name": "intermediate",
+    "trans": [
+      "adj. 中间的；中级的",
+      "n. 中间体；媒介物；调解人",
+      "vi. 调解；干涉"
+    ]
+  },
+  {
+    "name": "advanced",
+    "trans": [
+      "adj. 先进的；高级的；晚期的",
+      "v. 前进；增加"
+    ]
+  },
+  {
+    "name": "membership",
+    "trans": [
+      "n. 成员资格；会员身份；全体成员"
+    ]
+  },
+  {
+    "name": "apply",
+    "trans": [
+      "vi. 申请；涂，敷；适用",
+      "vt. 申请；涂，敷；应用"
+    ]
+  },
+  {
+    "name": "entitlement",
+    "trans": [
+      "n. 授权；有资格；有权得到的东西"
+    ]
+  },
+  {
+    "name": "facilities",
+    "trans": [
+      "n. 工具；设施；设备"
+    ]
+  },
+  {
+    "name": "restricted",
+    "trans": [
+      "adj. 有受限制的；（土地）对公众不完全开放的；保密的",
+      "v. 限制( restrict的过去式)"
+    ]
+  },
+  {
+    "name": "swimming pool",
+    "trans": [
+      "n. 游泳池；游泳场；游泳馆"
+    ]
+  },
+  {
+    "name": "studio",
+    "trans": [
+      "n. 工作室，画室，摄影室；电影制片厂，电视台；录音室"
+    ]
+  },
+  {
+    "name": "preference",
+    "trans": [
+      "n. 偏爱；偏好；优先"
+    ]
+  },
+  {
+    "name": "priority",
+    "trans": [
+      "adj. 优先的",
+      "n. 优先事项，最重要的事；优先，优先权，重点；优先通行权"
+    ]
+  },
+  {
+    "name": "session",
+    "trans": [
+      "n. 会议；一段时间；开庭期",
+      "adj. 短期的"
+    ]
+  },
+  {
+    "name": "assess",
+    "trans": [
+      "vt. 评定；估价；对…征税"
+    ]
+  },
+  {
+    "name": "restaurant",
+    "trans": [
+      "n. 餐馆；饭店；菜馆"
+    ]
+  },
+  {
+    "name": "changing room",
+    "trans": [
+      "n. （尤指做运动前使用的）更衣室"
+    ]
+  },
+  {
+    "name": "fee",
+    "trans": [
+      "n. 费用；酬金；小费",
+      "vt. 付费给……"
+    ]
+  }
 ]

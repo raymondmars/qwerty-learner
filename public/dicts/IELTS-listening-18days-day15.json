@@ -1,310 +1,517 @@
 [
-    {
-        "name": "intelligence",
-        "trans": ["智力"]
-    },
-    {
-        "name": "gene",
-        "trans": ["[遗]基因"]
-    },
-    {
-        "name": "seasonal",
-        "trans": ["季节的"]
-    },
-    {
-        "name": "science",
-        "trans": ["科学", "技术"]
-    },
-    {
-        "name": "crocodile",
-        "trans": ["鳄鱼"]
-    },
-    {
-        "name": "wetland",
-        "trans": ["湿地", "沼泽地"]
-    },
-    {
-        "name": "population",
-        "trans": ["人口"]
-    },
-    {
-        "name": "depth",
-        "trans": ["深度", "深奥"]
-    },
-    {
-        "name": "cultivation",
-        "trans": ["培养", "耕作"]
-    },
-    {
-        "name": "relationship",
-        "trans": ["关系", "关联"]
-    },
-    {
-        "name": "ingredients",
-        "trans": ["材料", "作料"]
-    },
-    {
-        "name": "motivation",
-        "trans": ["动机"]
-    },
-    {
-        "name": "organic",
-        "trans": ["有机的"]
-    },
-    {
-        "name": "business",
-        "trans": ["商人"]
-    },
-    {
-        "name": "preparation",
-        "trans": ["准备"]
-    },
-    {
-        "name": "senior",
-        "trans": ["资深的"]
-    },
-    {
-        "name": "outdoor",
-        "trans": ["户外的"]
-    },
-    {
-        "name": "display",
-        "trans": ["展示"]
-    },
-    {
-        "name": "merchandiser",
-        "trans": ["商人"]
-    },
-    {
-        "name": "lateral",
-        "trans": ["侧面的"]
-    },
-    {
-        "name": "rope",
-        "trans": ["绳子"]
-    },
-    {
-        "name": "lack",
-        "trans": ["缺少"]
-    },
-    {
-        "name": "danger",
-        "trans": ["危险"]
-    },
-    {
-        "name": "sensitive",
-        "trans": ["敏感的"]
-    },
-    {
-        "name": "history",
-        "trans": ["历史"]
-    },
-    {
-        "name": "lifestyle",
-        "trans": ["生活方式"]
-    },
-    {
-        "name": "create",
-        "trans": ["创造"]
-    },
-    {
-        "name": "social class",
-        "trans": ["社会地位"]
-    },
-    {
-        "name": "reason",
-        "trans": ["原因"]
-    },
-    {
-        "name": "training",
-        "trans": ["训练"]
-    },
-    {
-        "name": "fear",
-        "trans": ["害怕"]
-    },
-    {
-        "name": "instead of",
-        "trans": ["代替"]
-    },
-    {
-        "name": "competition",
-        "trans": ["竞争"]
-    },
-    {
-        "name": "conflict",
-        "trans": ["冲突"]
-    },
-    {
-        "name": "a sense of community",
-        "trans": ["集体归属感"]
-    },
-    {
-        "name": "inefficient",
-        "trans": ["无效率的"]
-    },
-    {
-        "name": "rate",
-        "trans": ["率"]
-    },
-    {
-        "name": "attitude",
-        "trans": ["态度"]
-    },
-    {
-        "name": "completion",
-        "trans": ["完成"]
-    },
-    {
-        "name": "psychology",
-        "trans": ["心理学"]
-    },
-    {
-        "name": "desert",
-        "trans": ["遗弃"]
-    },
-    {
-        "name": "olive oil",
-        "trans": ["橄榄油"]
-    },
-    {
-        "name": "vegetation",
-        "trans": ["植被", "植物"]
-    },
-    {
-        "name": "underground",
-        "trans": ["地下的", "秘密的"]
-    },
-    {
-        "name": "desert",
-        "trans": ["遗弃", "沙漠"]
-    },
-    {
-        "name": "migration",
-        "trans": ["迁移", "移民"]
-    },
-    {
-        "name": "shrimp",
-        "trans": ["虾", "小虾"]
-    },
-    {
-        "name": "worm",
-        "trans": ["虫", "蠕虫"]
-    },
-    {
-        "name": "nutrition",
-        "trans": ["营养"]
-    },
-    {
-        "name": "temperature",
-        "trans": ["温度"]
-    },
-    {
-        "name": "entertainment",
-        "trans": ["娱乐", "消遣"]
-    },
-    {
-        "name": "journalism",
-        "trans": ["新闻业"]
-    },
-    {
-        "name": "symbolism",
-        "trans": ["象征"]
-    },
-    {
-        "name": "castle",
-        "trans": ["城堡"]
-    },
-    {
-        "name": "method",
-        "trans": ["方式"]
-    },
-    {
-        "name": "portrait",
-        "trans": ["肖像"]
-    },
-    {
-        "name": "poet",
-        "trans": ["诗人"]
-    },
-    {
-        "name": "male",
-        "trans": ["男性"]
-    },
-    {
-        "name": "female",
-        "trans": ["女性"]
-    },
-    {
-        "name": "elephant",
-        "trans": ["大象"]
-    },
-    {
-        "name": "weight",
-        "trans": ["重量"]
-    },
-    {
-        "name": "wild",
-        "trans": ["荒野"]
-    },
-    {
-        "name": "ancient",
-        "trans": ["古代的"]
-    },
-    {
-        "name": "extreme sport",
-        "trans": ["极限运动"]
-    },
-    {
-        "name": "equipment",
-        "trans": ["设备"]
-    },
-    {
-        "name": "golf",
-        "trans": ["高尔夫球"]
-    },
-    {
-        "name": "regulation",
-        "trans": ["规则"]
-    },
-    {
-        "name": "restricted",
-        "trans": ["有受限制的"]
-    },
-    {
-        "name": "confront",
-        "trans": ["面对"]
-    },
-    {
-        "name": "entertainment",
-        "trans": ["娱乐节目"]
-    },
-    {
-        "name": "individual",
-        "trans": ["个人的"]
-    },
-    {
-        "name": "tend to",
-        "trans": ["倾向于"]
-    },
-    {
-        "name": "authority",
-        "trans": ["权威"]
-    },
-    {
-        "name": "lecture",
-        "trans": ["讲座"]
-    },
-    {
-        "name": "absent",
-        "trans": ["缺席的"]
-    },
-    {
-        "name": "recall",
-        "trans": ["召回", "回忆起"]
-    },
-    {
-        "name": "sentence",
-        "trans": ["句子"]
-    }
+  {
+    "name": "intelligence",
+    "trans": [
+      "n. 智力，聪明；情报，消息；智能，智慧"
+    ]
+  },
+  {
+    "name": "gene",
+    "trans": [
+      "n. 基因；遗传基因；遗传因子"
+    ]
+  },
+  {
+    "name": "seasonal",
+    "trans": [
+      "adj. 季节的；周期性的；依照季节的"
+    ]
+  },
+  {
+    "name": "science",
+    "trans": [
+      "n. 科学；自然科学；学科"
+    ]
+  },
+  {
+    "name": "crocodile",
+    "trans": [
+      "n. 鳄鱼；鳄鱼皮革；鳄类动物"
+    ]
+  },
+  {
+    "name": "wetland",
+    "trans": [
+      "n. 潮湿的土壤，沼泽地；湿地；沼泽地,〈美〉野兽保护沼地"
+    ]
+  },
+  {
+    "name": "population",
+    "trans": [
+      "n. 人口；种群， 群体；全体居民"
+    ]
+  },
+  {
+    "name": "depth",
+    "trans": [
+      "n. 深度，深浅；深奥，深刻；深厚，深切"
+    ]
+  },
+  {
+    "name": "cultivation",
+    "trans": [
+      "n. 耕种，栽培；培养，陶冶；教化，文雅"
+    ]
+  },
+  {
+    "name": "relationship",
+    "trans": [
+      "n. 关系，联系；关系，交往；亲属关系"
+    ]
+  },
+  {
+    "name": "ingredients",
+    "trans": [
+      "n. 材料；佐料"
+    ]
+  },
+  {
+    "name": "motivation",
+    "trans": [
+      "n. 动力；动机；诱因",
+      "adj. 动机的；动力的 形容词"
+    ]
+  },
+  {
+    "name": "organic",
+    "trans": [
+      "adj. 有机体的；器官的；根本的",
+      "n. 有机物质"
+    ]
+  },
+  {
+    "name": "business",
+    "trans": [
+      "n. 商业，生意；工作，职业；事务，事情"
+    ]
+  },
+  {
+    "name": "preparation",
+    "trans": [
+      "n. 准备，预备；准备工作，筹备；制剂，配制品"
+    ]
+  },
+  {
+    "name": "senior",
+    "trans": [
+      "n. 上司；较年长者；毕业班学生",
+      "adj. 高级的；年长的；地位较高的"
+    ]
+  },
+  {
+    "name": "outdoor",
+    "trans": [
+      "adj. 户外的；室外的；露天的"
+    ]
+  },
+  {
+    "name": "display",
+    "trans": [
+      "n. 显示；炫耀",
+      "vt. 显示；表现；陈列",
+      "adj. 展览的；陈列用的"
+    ]
+  },
+  {
+    "name": "merchandiser",
+    "trans": [
+      "跟单员；采购员"
+    ]
+  },
+  {
+    "name": "lateral",
+    "trans": [
+      "adj. 侧面的；横向的",
+      "n. 侧部；边音",
+      "vt. 横向传球"
+    ]
+  },
+  {
+    "name": "rope",
+    "trans": [
+      "n. 粗绳；绳索；一串",
+      "vt. （用绳子）捆；用绳子系牢；捆紧",
+      "vi. 成索状或绳状"
+    ]
+  },
+  {
+    "name": "lack",
+    "trans": [
+      "vt. 缺乏；不足；没有",
+      "vi. 缺乏；不足；没有",
+      "n. 缺乏；不足"
+    ]
+  },
+  {
+    "name": "danger",
+    "trans": [
+      "n. 危险；威胁；危险物"
+    ]
+  },
+  {
+    "name": "sensitive",
+    "trans": [
+      "adj. 敏感的；感觉的；灵敏的",
+      "n. 敏感的人；有灵异能力的人"
+    ]
+  },
+  {
+    "name": "history",
+    "trans": [
+      "n. 历史；历史学；过去的事"
+    ]
+  },
+  {
+    "name": "lifestyle",
+    "trans": [
+      "n. 生活方式；生活习惯"
+    ]
+  },
+  {
+    "name": "create",
+    "trans": [
+      "vt. 创造，创作；产生；封爵，把…封为（贵族）",
+      "vi. 英俚大发脾气；大发牢骚"
+    ]
+  },
+  {
+    "name": "social class",
+    "trans": [
+      "社会地位"
+    ]
+  },
+  {
+    "name": "reason",
+    "trans": [
+      "n. 理由；理性；动机",
+      "vt. 说服；推论；辩论",
+      "vi. 推论；劝说"
+    ]
+  },
+  {
+    "name": "training",
+    "trans": [
+      "n. 训练；培训；锻炼",
+      "v. 训练；培训；“train”的现在分词"
+    ]
+  },
+  {
+    "name": "fear",
+    "trans": [
+      "n. 害怕；恐惧；敬畏",
+      "vt. 害怕；敬畏；为…担心",
+      "vi. 害怕；敬畏；为…担心"
+    ]
+  },
+  {
+    "name": "instead of",
+    "trans": [
+      "prep. 代替；作为…的替换"
+    ]
+  },
+  {
+    "name": "competition",
+    "trans": [
+      "n. 比赛；比赛会；竞争"
+    ]
+  },
+  {
+    "name": "conflict",
+    "trans": [
+      "n. 冲突，矛盾；斗争；争执",
+      "vi. 冲突，抵触；争执；战斗"
+    ]
+  },
+  {
+    "name": "a sense of community",
+    "trans": [
+      "集体归属感"
+    ]
+  },
+  {
+    "name": "inefficient",
+    "trans": [
+      "adj. 效率低的；无效率的；浪费的"
+    ]
+  },
+  {
+    "name": "rate",
+    "trans": [
+      "n. 比率，率；速度；价格",
+      "vt. 认为；估价；责骂",
+      "vi. 责骂；被评价"
+    ]
+  },
+  {
+    "name": "attitude",
+    "trans": [
+      "n. 态度，看法；姿态，姿势；倾向，立场"
+    ]
+  },
+  {
+    "name": "completion",
+    "trans": [
+      "n. 完成；结束；完满"
+    ]
+  },
+  {
+    "name": "psychology",
+    "trans": [
+      "n. 心理学；心理；心理特征"
+    ]
+  },
+  {
+    "name": "desert",
+    "trans": [
+      "n. 沙漠；荒漠",
+      "v. 遗弃，抛弃；逃跑，开小差",
+      "adj. 沙漠的；荒芜的"
+    ]
+  },
+  {
+    "name": "olive oil",
+    "trans": [
+      "n. 橄榄油（用于烹饪和凉拌色拉）"
+    ]
+  },
+  {
+    "name": "vegetation",
+    "trans": [
+      "n. 植被；植物，草木；呆板单调的生活"
+    ]
+  },
+  {
+    "name": "underground",
+    "trans": [
+      "n. 地下；地铁；地道",
+      "adj. 地下的；秘密的；先锋派的",
+      "adv. 在地下；秘密地"
+    ]
+  },
+  {
+    "name": "desert",
+    "trans": [
+      "n. 沙漠；荒漠",
+      "v. 遗弃，抛弃；逃跑，开小差",
+      "adj. 沙漠的；荒芜的"
+    ]
+  },
+  {
+    "name": "migration",
+    "trans": [
+      "n. 迁移，移居；迁徙，洄游；（计算机数据的）迁移，转移"
+    ]
+  },
+  {
+    "name": "shrimp",
+    "trans": [
+      "n. 虾；小虾；矮小的人",
+      "adj. 有虾的；虾制的",
+      "vi. 捕虾"
+    ]
+  },
+  {
+    "name": "worm",
+    "trans": [
+      "n. 虫，蠕虫；蜗杆；螺纹",
+      "vt. 使蠕动；给除虫；使缓慢前进",
+      "vi. 慢慢前进；蠕行"
+    ]
+  },
+  {
+    "name": "nutrition",
+    "trans": [
+      "n. 营养，滋养；营养品；营养学"
+    ]
+  },
+  {
+    "name": "temperature",
+    "trans": [
+      "n. 温度，体温；气温，温度；情绪，氛围"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n. 娱乐，消遣；娱乐活动，表演；款待，招待"
+    ]
+  },
+  {
+    "name": "journalism",
+    "trans": [
+      "n. 新闻业；报刊；新闻学"
+    ]
+  },
+  {
+    "name": "symbolism",
+    "trans": [
+      "n. 象征主义，象征手法；符号使用；象征主义"
+    ]
+  },
+  {
+    "name": "castle",
+    "trans": [
+      "n. 城堡；巨大建筑物",
+      "vt. 置于城堡中；(棋)移动王车易位",
+      "vi. (棋)移动王车易位"
+    ]
+  },
+  {
+    "name": "method",
+    "trans": [
+      "n. 方法；条理；类函数",
+      "adj. 使用体验派表演方法的"
+    ]
+  },
+  {
+    "name": "portrait",
+    "trans": [
+      "n. 消像；画像",
+      "adj. (文件页面)竖的"
+    ]
+  },
+  {
+    "name": "poet",
+    "trans": [
+      "n. 诗人；空想家；古典芭蕾舞大师"
+    ]
+  },
+  {
+    "name": "male",
+    "trans": [
+      "adj. 男性的；雄性的；有力的",
+      "n. 男；雄性动物；植雄性植物"
+    ]
+  },
+  {
+    "name": "female",
+    "trans": [
+      "adj. 女性的；雌性的；能结果实的",
+      "n. 女人；雌性动物；雌性植物，雌株"
+    ]
+  },
+  {
+    "name": "elephant",
+    "trans": [
+      "n. 象；大号图画纸"
+    ]
+  },
+  {
+    "name": "weight",
+    "trans": [
+      "n. 重量；砝码；秤锤",
+      "v. 使负担；装载过重；视…为重要"
+    ]
+  },
+  {
+    "name": "wild",
+    "trans": [
+      "n. 荒野",
+      "adj. 野生的；野蛮的；狂热的",
+      "adv. 疯狂地；胡乱地"
+    ]
+  },
+  {
+    "name": "ancient",
+    "trans": [
+      "n. 古代人；老人",
+      "adj. 古代的；古老的，过时的；年老的"
+    ]
+  },
+  {
+    "name": "extreme sport",
+    "trans": [
+      "极限运动"
+    ]
+  },
+  {
+    "name": "equipment",
+    "trans": [
+      "n. 设备；装备；器材"
+    ]
+  },
+  {
+    "name": "golf",
+    "trans": [
+      "n. 高尔夫球",
+      "v. 打高尔夫球",
+      "vi. (打)高尔夫球"
+    ]
+  },
+  {
+    "name": "regulation",
+    "trans": [
+      "n. 管理；控制；规章",
+      "adj. 规定的；必须穿戴的；必须使用的"
+    ]
+  },
+  {
+    "name": "restricted",
+    "trans": [
+      "adj. 有受限制的；（土地）对公众不完全开放的；保密的",
+      "v. 限制( restrict的过去式)"
+    ]
+  },
+  {
+    "name": "confront",
+    "trans": [
+      "v. 面对，正视；遭遇，遇到（困难、危险等）；对质，质问"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n. 娱乐，消遣；娱乐活动，表演；款待，招待"
+    ]
+  },
+  {
+    "name": "individual",
+    "trans": [
+      "n. 个人；个体",
+      "adj. 个人的；个别的；独特的"
+    ]
+  },
+  {
+    "name": "tend to",
+    "trans": [
+      "往往会；倾向于"
+    ]
+  },
+  {
+    "name": "authority",
+    "trans": [
+      "n. 权力，权威；当局，官方；专家，权威人士"
+    ]
+  },
+  {
+    "name": "lecture",
+    "trans": [
+      "n. 演讲；讲稿；教训",
+      "vt. 演讲；训诫",
+      "vi. 讲课；讲演"
+    ]
+  },
+  {
+    "name": "absent",
+    "trans": [
+      "adj. 缺席的；不在场的；缺乏的",
+      "vt. 使缺席",
+      "prep. 没有"
+    ]
+  },
+  {
+    "name": "recall",
+    "trans": [
+      "vt.&vi. 回忆起；回想",
+      "vt. 召回；收回",
+      "n. 召回；唤回；记忆力"
+    ]
+  },
+  {
+    "name": "sentence",
+    "trans": [
+      "n. 判决；句子；意见",
+      "vt. 宣判；判决；使遭受"
+    ]
+  }
 ]

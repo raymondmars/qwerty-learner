@@ -1,224 +1,250 @@
 [
-    {
-        "name": "emperor",
-        "trans": [
-            "n. 皇帝"
-        ]
-    },
-    {
-        "name": "colonist",
-        "trans": [
-            "n. 殖民者"
-        ]
-    },
-    {
-        "name": "the upper class(es)",
-        "trans": [
-            "N. phrase 上流社会"
-        ]
-    },
-    {
-        "name": "royal",
-        "trans": [
-            "adj. 王室的"
-        ]
-    },
-    {
-        "name": "labor/labour",
-        "trans": [
-            "n. 劳工"
-        ]
-    },
-    {
-        "name": "peasant",
-        "trans": [
-            "n. 贫农"
-        ]
-    },
-    {
-        "name": "farmer",
-        "trans": [
-            "n. 农民，农场主"
-        ]
-    },
-    {
-        "name": "slave",
-        "trans": [
-            "n. 奴隶"
-        ]
-    },
-    {
-        "name": "plantation",
-        "trans": [
-            "n. 种植园"
-        ]
-    },
-    {
-        "name": "settlement",
-        "trans": [
-            "n. 定居处"
-        ]
-    },
-    {
-        "name": "site",
-        "trans": [
-            "n. 地址，现场"
-        ]
-    },
-    {
-        "name": "remains",
-        "trans": [
-            "n. 遗址、遗迹、遗骸"
-        ]
-    },
-    {
-        "name": "monument",
-        "trans": [
-            "n. 纪念碑、纪念馆"
-        ]
-    },
-    {
-        "name": "wreck",
-        "trans": [
-            "n. 严重损坏的交通工具(汽车或飞机等)"
-        ]
-    },
-    {
-        "name": "aboriginal",
-        "trans": [
-            "adj. 土著的、原始的"
-        ]
-    },
-    {
-        "name": "custom",
-        "trans": [
-            "n. 风俗、惯例"
-        ]
-    },
-    {
-        "name": "ritual",
-        "trans": [
-            "n. 仪式、老规矩"
-        ]
-    },
-    {
-        "name": "artefact/artifact",
-        "trans": [
-            "n. 手工艺品"
-        ]
-    },
-    {
-        "name": "rock art",
-        "trans": [
-            "N. phrase 岩石艺术"
-        ]
-    },
-    {
-        "name": "engraving",
-        "trans": [
-            "n. 雕刻"
-        ]
-    },
-    {
-        "name": "pattern",
-        "trans": [
-            "n. 图案"
-        ]
-    },
-    {
-        "name": "image",
-        "trans": [
-            "n. 图像"
-        ]
-    },
-    {
-        "name": "figure",
-        "trans": [
-            "n. 人像、数字、身材"
-        ]
-    },
-    {
-        "name": "population",
-        "trans": [
-            "n. 人口"
-        ]
-    },
-    {
-        "name": "trade",
-        "trans": [
-            "n. 贸易"
-        ]
-    },
-    {
-        "name": "goods",
-        "trans": [
-            "n. 货物"
-        ]
-    },
-    {
-        "name": "crops",
-        "trans": [
-            "n. 农作物"
-        ]
-    },
-    {
-        "name": "livestock",
-        "trans": [
-            "n. 牲口、牲畜"
-        ]
-    },
-    {
-        "name": "archaeology",
-        "trans": [
-            "n. 考古学"
-        ]
-    },
-    {
-        "name": "excavation",
-        "trans": [
-            "n. 挖掘"
-        ]
-    },
-    {
-        "name": "technology",
-        "trans": [
-            "n. 技术"
-        ]
-    },
-    {
-        "name": "compass",
-        "trans": [
-            "n. 指南针"
-        ]
-    },
-    {
-        "name": "map",
-        "trans": [
-            "n. 地图"
-        ]
-    },
-    {
-        "name": "satellite",
-        "trans": [
-            "n. 人造卫星"
-        ]
-    },
-    {
-        "name": "sensor",
-        "trans": [
-            "n. 传感器"
-        ]
-    },
-    {
-        "name": "sonar",
-        "trans": [
-            "n. 声呐"
-        ]
-    },
-    {
-        "name": "radar",
-        "trans": [
-            "n. 雷达"
-        ]
-    }
+  {
+    "name": "emperor",
+    "trans": [
+      "n. 皇帝；君主"
+    ]
+  },
+  {
+    "name": "colonist",
+    "trans": [
+      "n. 殖民者；殖民地居民；移民",
+      "adj. 殖民主义者的；奉行殖民主义的"
+    ]
+  },
+  {
+    "name": "the upper class(es)",
+    "trans": [
+      "n. phrase 上流社会"
+    ]
+  },
+  {
+    "name": "royal",
+    "trans": [
+      "n. 王室；王室成员",
+      "adj. 皇家的；盛大的；女王的"
+    ]
+  },
+  {
+    "name": "labor/labour",
+    "trans": [
+      "n. 劳工"
+    ]
+  },
+  {
+    "name": "peasant",
+    "trans": [
+      "n. (不用于英国或美国)小农；佃农；农民"
+    ]
+  },
+  {
+    "name": "farmer",
+    "trans": [
+      "n. 农民；农夫；农场主"
+    ]
+  },
+  {
+    "name": "slave",
+    "trans": [
+      "n. 奴隶；苦工；完全受控制的人",
+      "vt. 对另一种装置作出直接回应",
+      "vi. 拼命工作；贩卖奴隶"
+    ]
+  },
+  {
+    "name": "plantation",
+    "trans": [
+      "n. 栽植；殖民；大农场",
+      "adj. 适用于种植园或热带、亚热带国家的"
+    ]
+  },
+  {
+    "name": "settlement",
+    "trans": [
+      "n. 解决，和解；协议，协定；定居点，聚居地"
+    ]
+  },
+  {
+    "name": "site",
+    "trans": [
+      "n. 地点，位置，场所；计算机网站；遗址",
+      "vt. 使坐落在；安放，设置；给…造址"
+    ]
+  },
+  {
+    "name": "remains",
+    "trans": [
+      "n. 遗体，遗骸；遗迹，遗存；剩余物，残余",
+      "v. 仍然是，依然是；留下，剩下"
+    ]
+  },
+  {
+    "name": "monument",
+    "trans": [
+      "n. 纪念碑；历史遗迹；不朽的作品",
+      "vt. 为…树碑"
+    ]
+  },
+  {
+    "name": "wreck",
+    "trans": [
+      "n. 破坏；失事；残骸",
+      "vt. 破坏；使失事；拆毁",
+      "vi. 失事；营救失事船只"
+    ]
+  },
+  {
+    "name": "aboriginal",
+    "trans": [
+      "adj. 原产的，原始的；土著人的",
+      "n. 土著居民；土生生物；澳大利亚土著"
+    ]
+  },
+  {
+    "name": "custom",
+    "trans": [
+      "n. 习惯，惯例；风俗；海关，关税",
+      "adj. （衣服等）定做的；定制的"
+    ]
+  },
+  {
+    "name": "ritual",
+    "trans": [
+      "n. 仪式；惯例；礼制",
+      "adj. 仪式的；例行的；礼节性的"
+    ]
+  },
+  {
+    "name": "artefact/artifact",
+    "trans": [
+      "n. 手工艺品"
+    ]
+  },
+  {
+    "name": "rock art",
+    "trans": [
+      "n. phrase 岩石艺术"
+    ]
+  },
+  {
+    "name": "engraving",
+    "trans": [
+      "n. 版画；雕刻（作品）；雕刻艺术",
+      "v. 将某事物深深印在（记忆或头脑中）"
+    ]
+  },
+  {
+    "name": "pattern",
+    "trans": [
+      "n. 模式；图案；样品",
+      "vt. 模仿；以图案装饰",
+      "vi. 形成图案"
+    ]
+  },
+  {
+    "name": "image",
+    "trans": [
+      "n. 影像；想象；肖像",
+      "vt. 想象；反映；象征"
+    ]
+  },
+  {
+    "name": "figure",
+    "trans": [
+      "n. 数字；人物；图形",
+      "vt. 计算；认为；描绘",
+      "vi. 计算；出现；扮演角色"
+    ]
+  },
+  {
+    "name": "population",
+    "trans": [
+      "n. 人口；种群， 群体；全体居民"
+    ]
+  },
+  {
+    "name": "trade",
+    "trans": [
+      "n. 贸易，交易；行业；职业",
+      "vt. 用…进行交换",
+      "vi. 交易，买卖；以物易物"
+    ]
+  },
+  {
+    "name": "goods",
+    "trans": [
+      "n. 商品；动产；合意的人"
+    ]
+  },
+  {
+    "name": "crops",
+    "trans": [
+      "n. 农作物（crop的复数）；收成；切头",
+      "v. 种植（crop的三单形式）；收割；修剪"
+    ]
+  },
+  {
+    "name": "livestock",
+    "trans": [
+      "n. 牲畜；家畜"
+    ]
+  },
+  {
+    "name": "archaeology",
+    "trans": [
+      "n. 考古学；古物；古迹"
+    ]
+  },
+  {
+    "name": "excavation",
+    "trans": [
+      "n. 挖掘；开凿；开凿的洞穴(或山路等)"
+    ]
+  },
+  {
+    "name": "technology",
+    "trans": [
+      "n. 技术，科技；技术学，工艺学；（某种）技术"
+    ]
+  },
+  {
+    "name": "compass",
+    "trans": [
+      "n. 罗盘；指南针；圆规",
+      "vt. 图谋；包围；达成"
+    ]
+  },
+  {
+    "name": "map",
+    "trans": [
+      "n. 地图；示意图；染色体图",
+      "vt. 映射；计划；绘制地图",
+      "vi. 基因被安置"
+    ]
+  },
+  {
+    "name": "satellite",
+    "trans": [
+      "n. 卫星，人造卫星；卫星国，附属国；卫星城，卫星镇",
+      "adj. 卫星的；人造卫星的"
+    ]
+  },
+  {
+    "name": "sensor",
+    "trans": [
+      "n. 传感器；灵敏元件"
+    ]
+  },
+  {
+    "name": "sonar",
+    "trans": [
+      "n. 声呐；声波定位仪（等于asdic）"
+    ]
+  },
+  {
+    "name": "radar",
+    "trans": [
+      "n. 雷达；雷达装置；无线电探测器"
+    ]
+  }
 ]

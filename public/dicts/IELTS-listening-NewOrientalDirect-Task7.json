@@ -1,236 +1,273 @@
 [
-    {
-        "name": "job agency",
-        "trans": [
-            "n. 求职中介"
-        ]
-    },
-    {
-        "name": "agent",
-        "trans": [
-            "n. 代理人，中介人"
-        ]
-    },
-    {
-        "name": "recruit",
-        "trans": [
-            "v. 招聘，征募"
-        ]
-    },
-    {
-        "name": "available",
-        "trans": [
-            "adj. 可提供的，可获得的"
-        ]
-    },
-    {
-        "name": "vacant",
-        "trans": [
-            "adj. 空缺的"
-        ]
-    },
-    {
-        "name": "applicant",
-        "trans": [
-            "n. 申请人，求职者"
-        ]
-    },
-    {
-        "name": "personnel",
-        "trans": [
-            "n. 人事部门，人员"
-        ]
-    },
-    {
-        "name": "job description",
-        "trans": [
-            "n. 职位描述"
-        ]
-    },
-    {
-        "name": "vouch",
-        "trans": [
-            "v. 担保，证明"
-        ]
-    },
-    {
-        "name": "referee",
-        "trans": [
-            "n. 介绍人；v. 裁判"
-        ]
-    },
-    {
-        "name": "shift",
-        "trans": [
-            "n. 轮班；v. 转换"
-        ]
-    },
-    {
-        "name": "commute",
-        "trans": [
-            "n. 通勤；v. 通勤"
-        ]
-    },
-    {
-        "name": "CV",
-        "trans": [
-            "n. 简历"
-        ]
-    },
-    {
-        "name": "résumé",
-        "trans": [
-            "n. 简历"
-        ]
-    },
-    {
-        "name": "interview",
-        "trans": [
-            "n. 面试"
-        ]
-    },
-    {
-        "name": "candidate",
-        "trans": [
-            "n. 候选人"
-        ]
-    },
-    {
-        "name": "offer",
-        "trans": [
-            "n. 录用通知；v. 提供"
-        ]
-    },
-    {
-        "name": "employer",
-        "trans": [
-            "n. 雇主"
-        ]
-    },
-    {
-        "name": "employee",
-        "trans": [
-            "n. 雇员"
-        ]
-    },
-    {
-        "name": "certificate",
-        "trans": [
-            "n. 证书"
-        ]
-    },
-    {
-        "name": "licence",
-        "trans": [
-            "n. 执照"
-        ]
-    },
-    {
-        "name": "work permit",
-        "trans": [
-            "n. 工作许可证"
-        ]
-    },
-    {
-        "name": "experience",
-        "trans": [
-            "n. 经验"
-        ]
-    },
-    {
-        "name": "quality",
-        "trans": [
-            "n. 品质"
-        ]
-    },
-    {
-        "name": "personality",
-        "trans": [
-            "n. 个性，人格特质"
-        ]
-    },
-    {
-        "name": "education background",
-        "trans": [
-            "n. 教育背景"
-        ]
-    },
-    {
-        "name": "degree",
-        "trans": [
-            "n. 学位"
-        ]
-    },
-    {
-        "name": "major",
-        "trans": [
-            "n. 主修科目"
-        ]
-    },
-    {
-        "name": "bachelor",
-        "trans": [
-            "n. 学士"
-        ]
-    },
-    {
-        "name": "master",
-        "trans": [
-            "n. 硕士"
-        ]
-    },
-    {
-        "name": "suit",
-        "trans": [
-            "n. 套装"
-        ]
-    },
-    {
-        "name": "uniform",
-        "trans": [
-            "n. 制服"
-        ]
-    },
-    {
-        "name": "smart",
-        "trans": [
-            "adj. 讲究时髦的"
-        ]
-    },
-    {
-        "name": "casual",
-        "trans": [
-            "adj. 休闲的"
-        ]
-    },
-    {
-        "name": "salary",
-        "trans": [
-            "n. 薪水"
-        ]
-    },
-    {
-        "name": "tip",
-        "trans": [
-            "n. 小费；n. 建议；v. 给小费"
-        ]
-    },
-    {
-        "name": "pension",
-        "trans": [
-            "n. 退休金，津贴"
-        ]
-    },
-    {
-        "name": "welfare",
-        "trans": [
-            "n. 福利"
-        ]
-    },
-    {
-        "name": "insurance",
-        "trans": [
-            "n. 保险"
-        ]
-    }
+  {
+    "name": "job agency",
+    "trans": [
+      "n. 招聘中介"
+    ]
+  },
+  {
+    "name": "agent",
+    "trans": [
+      "n. 代理人，代理商；药剂；特工",
+      "adj. 代理的",
+      "vt. 由…作中介；由…代理"
+    ]
+  },
+  {
+    "name": "recruit",
+    "trans": [
+      "n. 招聘；新兵；新成员",
+      "vi. 复原；征募新兵；得到补充",
+      "vt. 补充；聘用；征募"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的，可利用的；可用的，空闲的；有效的，起作用的"
+    ]
+  },
+  {
+    "name": "vacant",
+    "trans": [
+      "adj. 空的，无人占用的；空虚的，茫然的；空闲的，空缺的"
+    ]
+  },
+  {
+    "name": "applicant",
+    "trans": [
+      "n. 申请人；应征者"
+    ]
+  },
+  {
+    "name": "personnel",
+    "trans": [
+      "n. 人事部门；全体人员",
+      "adj. 人员的；有关人事的"
+    ]
+  },
+  {
+    "name": "job description",
+    "trans": [
+      "n. 职位描述"
+    ]
+  },
+  {
+    "name": "vouch",
+    "trans": [
+      "vt. 担保；证明；传出庭作证",
+      "vi. 保证；证明；确定"
+    ]
+  },
+  {
+    "name": "referee",
+    "trans": [
+      "n. 裁判员；调解人；介绍人",
+      "vt. 为…当裁判；调停",
+      "vi. 仲裁；担任裁判"
+    ]
+  },
+  {
+    "name": "shift",
+    "trans": [
+      "n. 移动；变化；手段",
+      "vt. 转移；改变；替换",
+      "vi. 移动；转变；转换"
+    ]
+  },
+  {
+    "name": "commute",
+    "trans": [
+      "vt. 交换；减刑；用……交换",
+      "vi. 通勤；代偿",
+      "n. 通勤（口语）"
+    ]
+  },
+  {
+    "name": "CV",
+    "trans": [
+      "n. 简历"
+    ]
+  },
+  {
+    "name": "résumé",
+    "trans": [
+      "n. 摘要；简历"
+    ]
+  },
+  {
+    "name": "interview",
+    "trans": [
+      "n. 接见；会见；面谈",
+      "vt. 接见；对...进行面谈(试)",
+      "vi. 面试采访"
+    ]
+  },
+  {
+    "name": "candidate",
+    "trans": [
+      "n. 候选人，申请人；应试者；合适的人"
+    ]
+  },
+  {
+    "name": "offer",
+    "trans": [
+      "vt. 提供；出价；试图",
+      "n. 提议；出价；意图",
+      "vi. 提议；出现；献祭"
+    ]
+  },
+  {
+    "name": "employer",
+    "trans": [
+      "n. 雇主；老板"
+    ]
+  },
+  {
+    "name": "employee",
+    "trans": [
+      "n. 受雇者；雇员；雇工"
+    ]
+  },
+  {
+    "name": "certificate",
+    "trans": [
+      "n. 证(明)书；证件；执照",
+      "vt. 批准；认可；发证书给..."
+    ]
+  },
+  {
+    "name": "licence",
+    "trans": [
+      "n. 执照；许可证；特许。",
+      "vt. 许可；特许；认可"
+    ]
+  },
+  {
+    "name": "work permit",
+    "trans": [
+      "n. 工作许可证"
+    ]
+  },
+  {
+    "name": "experience",
+    "trans": [
+      "n. 经验；经历；体验",
+      "vt. 经验；经历；体验"
+    ]
+  },
+  {
+    "name": "quality",
+    "trans": [
+      "n. 质量， 品质；特性；才能",
+      "adj. 优质的；高品质的；棒极了"
+    ]
+  },
+  {
+    "name": "personality",
+    "trans": [
+      "n. 个性，性格；人格，个人品质；名人，知名人士"
+    ]
+  },
+  {
+    "name": "education background",
+    "trans": [
+      "n. 教育背景"
+    ]
+  },
+  {
+    "name": "degree",
+    "trans": [
+      "n. 程度，度数；学位；等级，级别"
+    ]
+  },
+  {
+    "name": "major",
+    "trans": [
+      "adj. 主要的；重要的；主修的",
+      "n. 成年人；主修科目；陆军少校",
+      "vi. 主修"
+    ]
+  },
+  {
+    "name": "bachelor",
+    "trans": [
+      "n. 学士；单身汉；（尚未交配的）小雄兽"
+    ]
+  },
+  {
+    "name": "master",
+    "trans": [
+      "vt. 控制；精通；征服",
+      "n. 硕士；主人；大师",
+      "adj. 主人的；主要的；熟练的"
+    ]
+  },
+  {
+    "name": "suit",
+    "trans": [
+      "n. 诉讼；恳求；套装，西装",
+      "vt. 适合；使适应",
+      "vi. 合适；相称"
+    ]
+  },
+  {
+    "name": "uniform",
+    "trans": [
+      "n. 制服；校服",
+      "adj. 一致的，统一的；均匀的",
+      "v. 使一致；使统一"
+    ]
+  },
+  {
+    "name": "smart",
+    "trans": [
+      "adj. 巧妙的；洒脱的；聪明的",
+      "vi. 刺痛；难过；烦恼",
+      "n. 刺痛；苦恼"
+    ]
+  },
+  {
+    "name": "casual",
+    "trans": [
+      "n. 便装；临时工人；待命士兵",
+      "adj. 随便的；非正式的；临时的"
+    ]
+  },
+  {
+    "name": "salary",
+    "trans": [
+      "n. 薪水；薪金；薪俸",
+      "vt. 给…加薪；给…薪水；发…薪水"
+    ]
+  },
+  {
+    "name": "tip",
+    "trans": [
+      "n. 梢；末端；尖",
+      "vi. 给小费；装顶端；去掉...的顶部",
+      "vt. 轻击"
+    ]
+  },
+  {
+    "name": "pension",
+    "trans": [
+      "n. 退休金，抚恤金；津贴；膳宿费",
+      "vt. 发给养老金或抚恤金"
+    ]
+  },
+  {
+    "name": "welfare",
+    "trans": [
+      "n. 福利；幸福；福利事业",
+      "adj. 福利的；接受社会救济的"
+    ]
+  },
+  {
+    "name": "insurance",
+    "trans": [
+      "n. 保险，保险业；保险费；预防措施",
+      "adj. 体巩固球队领先局面；使对手不能因增加一分而成平局的"
+    ]
+  }
 ]

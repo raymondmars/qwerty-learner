@@ -2,883 +2,1052 @@
   {
     "name": "still",
     "trans": [
-      "adv.还，ren然"
+      "adj. 静止的；不动的",
+      "adv. 仍然，依旧；更，还",
+      "conj. 然而；但是"
     ]
   },
   {
     "name": "programme",
     "trans": [
-      "adv.（电视或广播）节目"
+      "n. 计划，规划；节目；程序",
+      "vt. 规划；拟…计划",
+      "vi. 编程序；制作节目"
     ]
   },
   {
     "name": "lady",
     "trans": [
-      "adv.女士，夫人"
+      "n. 女士，夫人；贵妇人，淑女；（对妇女的尊称）女士，夫人"
     ]
   },
   {
     "name": "life",
     "trans": [
-      "adv.生活"
+      "n. 生命；一生；寿命",
+      "adj. 活的；终身的；生动的"
     ]
   },
   {
     "name": "different",
     "trans": [
-      "adv.不同的"
+      "adj. 不同的，有差异的；不同寻常的，与众不同的；各种各样的"
     ]
   },
   {
     "name": "ago",
     "trans": [
-      "adv.以前"
+      "adj. 以前的；过去的",
+      "adv. 以前；以往"
     ]
   },
   {
     "name": "interviewer",
     "trans": [
-      "adv.采访者"
+      "n. 采访者；会见者；面谈者"
     ]
   },
   {
     "name": "enough",
     "trans": [
-      "adv.足够的"
+      "adj. 足够的；充足的",
+      "pron. 足够；充足",
+      "adv. 足够地；充分地"
     ]
   },
   {
     "name": "television",
     "trans": [
-      "adv.电视机"
+      "n. 电视；电视机；电视节目"
     ]
   },
   {
     "name": "grandchildren",
     "trans": [
-      "adv.外孙子，外孙女"
+      "adv. 外孙子；外孙女"
     ]
   },
   {
     "name": "change",
     "trans": [
-      "adv.改变，变化"
+      "n. 变化；找回的零钱",
+      "vt. 改变；交换",
+      "vi. 改变；兑换"
     ]
   },
   {
     "name": "night",
     "trans": [
-      "adv.夜晚，夜间"
+      "int. 晚安（goodnight 的简称）",
+      "n. 夜间，夜晚；晚上，傍晚；黄昏",
+      "adj. 夜晚的；夜晚使用的；夜间进行的"
     ]
   },
   {
     "name": "work",
     "trans": [
-      "adv.工作，劳动，干活"
+      "n. 工作；功；产品",
+      "vt. 使工作；操作；经营",
+      "vi. 工作；运作；起作用"
     ]
   },
   {
     "name": "field",
     "trans": [
-      "adv.田地"
+      "n. 领域；牧场；旷野",
+      "adj. 扫描场；田赛的；野生的",
+      "vt. 把暴晒于场上；使上场"
     ]
   },
   {
     "name": "fire",
     "trans": [
-      "adv.火，炉火"
+      "n. 火；火灾；炮火",
+      "vt. 点燃；解雇；开除",
+      "vi. 着火；射击；开枪"
     ]
   },
   {
     "name": "or",
     "trans": [
-      "adv.（用于否定句中，也不，也没"
+      "conj. 或，或者；还是；不然，否则",
+      "prep. 在…之前；比…更早",
+      "n. 纹章黑金色、黑色"
     ]
   },
   {
     "name": "radio",
     "trans": [
-      "adv.收音机"
+      "n. 收音机；无线电广播设备",
+      "vt. 用无线电发送",
+      "vi. 用无线电进行通信"
     ]
   },
   {
     "name": "telephone",
     "trans": [
-      "adv.电话"
+      "n. （美）电话；电话机；电话耳机",
+      "vt. 打电话给…",
+      "vi. 打电话"
     ]
   },
   {
     "name": "couldn't=could not",
     "trans": [
-      "adv.不能"
+      "adv. 不能"
     ]
   },
   {
     "name": "write",
     "trans": [
-      "adv.写"
+      "vi. 写，写字；写作，作曲；写信",
+      "vt. 写，书写；写信给；著述"
     ]
   },
   {
     "name": "hope",
     "trans": [
-      "adv.希望"
+      "n. 希望；期望；信心",
+      "vi. 希望；期待；信赖",
+      "vt. 希望；期望"
     ]
   },
   {
     "name": "learnt",
     "trans": [
-      "adv.（learn的过去式）学习"
+      "v. 学习（learn的过去式和过去分词）"
     ]
   },
   {
     "name": "taught",
     "trans": [
-      "adv.（teach）的过去式教，讲授"
+      "adv. （teach）的过去式教；讲授"
     ]
   },
   {
     "name": "language",
     "trans": [
-      "adv.语言"
+      "n. 语言，语言系统；说话方式，措辞；特定的语言"
     ]
   },
   {
     "name": "wrote",
     "trans": [
-      "adv.（write的过去式）写"
+      "v. 写（write 的过去式）"
     ]
   },
   {
     "name": "dancer",
     "trans": [
-      "adv.舞蹈演员"
+      "n. 舞蹈家；舞蹈演员；舞女"
     ]
   },
   {
     "name": "foreign",
     "trans": [
-      "adv.外国的"
+      "adj. 外国的，来自国外的；外来的，异国的；陌生的，不熟悉的"
     ]
   },
   {
     "name": "studied",
     "trans": [
-      "adv.（study的过去式）学习"
+      "adj. 有计划的；故意的；深思熟虑的",
+      "v. 想出；详细地检查；背诵（台词等）"
     ]
   },
   {
     "name": "hard",
     "trans": [
-      "adv.努力的"
+      "adj. 困难的；硬的；有力的",
+      "adv. 努力地；猛力地；严重地",
+      "n. 英〉硬海滩；登陆处"
     ]
   },
   {
     "name": "hamburger",
     "trans": [
-      "adv.汉堡包"
+      "n. 汉堡包，火腿汉堡；牛肉饼，肉饼；碎牛肉"
     ]
   },
   {
     "name": "English",
     "trans": [
-      "adv.英国（式）的"
+      "n. 英语；英文；英国人",
+      "vt. 把……译成英语",
+      "adj. 英文的；英国的；英国人的"
     ]
   },
   {
     "name": "breakfast",
     "trans": [
-      "adv.早餐，早饭"
+      "n. 早餐；早饭",
+      "vt. 为…供应早餐",
+      "vi. 吃早餐"
     ]
   },
   {
     "name": "lunch",
     "trans": [
-      "adv.午餐，午饭"
+      "n. 午餐",
+      "vt. 吃午餐；供给午餐",
+      "vi. 吃午餐；供给午餐"
     ]
   },
   {
     "name": "sandwich",
     "trans": [
-      "adv.三明治"
+      "n. 三明治；夹心面包",
+      "vt. 夹入；挤进；把...做成三明治"
     ]
   },
   {
     "name": "fish and chips",
     "trans": [
-      "adv.炸鱼加炸薯条"
+      "n. 炸鱼加土豆条；炸鱼薯条"
     ]
   },
   {
     "name": "traditional",
     "trans": [
-      "adv.传统的"
+      "adj. 传统的；惯例的",
+      "adv. 传统上；传说上"
     ]
   },
   {
     "name": "dish",
     "trans": [
-      "adv.食品，菜肴"
+      "n. 碟；盘子；菜肴",
+      "vt. 装盘；提出；揭露",
+      "vi. 闲谈"
     ]
   },
   {
     "name": "very much",
     "trans": [
-      "adv.很，非常"
+      "adv. 很；非常"
     ]
   },
   {
     "name": "gave",
     "trans": [
-      "adv.（give的过去式）给"
+      "v. 给予（give的过去式）"
     ]
   },
   {
     "name": "tonight",
     "trans": [
-      "adv.今夜，今晚"
+      "adv. 在今晚；今天晚上",
+      "n. 今晚；今天晚上"
     ]
   },
   {
     "name": "library",
     "trans": [
-      "adv.图书馆"
+      "n. 图书馆；藏书室；图书馆藏书"
     ]
   },
   {
     "name": "student",
     "trans": [
-      "adv.学生"
+      "n. 学生；研究生；学者"
     ]
   },
   {
     "name": "sent",
     "trans": [
-      "adv.（send的过去式）发送，寄"
+      "v. 送；寄出（send的过去分词）"
     ]
   },
   {
     "name": "CD",
     "trans": [
-      "adv.激光唱片，光盘"
+      "adv. 激光唱片；光盘"
     ]
   },
   {
     "name": "idea",
     "trans": [
-      "adv.主意，想法"
+      "n. 想法，主意；概念，观念；计划，打算"
     ]
   },
   {
     "name": "put",
     "trans": [
-      "adv.放，安放"
+      "n. 掷；笨蛋；投击",
+      "adj. 固定不动的",
+      "vi. 出发；击；航行"
     ]
   },
   {
     "name": "shelf",
     "trans": [
-      "adv.架子"
+      "n. 架子；搁板；搁板状物"
     ]
   },
   {
     "name": "heavy",
     "trans": [
-      "adv.重的，沉的"
+      "n. 重物；严肃角色",
+      "adj. 沉重的；繁重的，巨大的；拥挤的",
+      "adv. 大量地；笨重地"
     ]
   },
   {
     "name": "dictionary",
     "trans": [
-      "adv.词典，字典"
+      "n. 词典，字典；专业术语词典；数据字典"
     ]
   },
   {
     "name": "card",
     "trans": [
-      "adv.卡片"
+      "n. 卡；卡片；名片",
+      "vt. 附上或提供卡片；印卡在卡片上列出；检查资格"
     ]
   },
   {
     "name": "library card",
     "trans": [
-      "adv.图书卡，借书证"
+      "adv. 图书卡；借书证"
     ]
   },
   {
     "name": "ask",
     "trans": [
-      "adv.邀请"
+      "vt.&vi. 问，询问；需要；要求，请求",
+      "vt. 邀请；请求允许；要价",
+      "vi. 请，邀请；询问；要求"
     ]
   },
   {
     "name": "wrong",
     "trans": [
-      "adv.错误的"
+      "n. 坏事；不公正",
+      "adj. 错误的；失常的；不适当的",
+      "vt. 委屈；无理地对待；诽谤"
     ]
   },
   {
     "name": "dear",
     "trans": [
-      "adv.哎呀"
+      "n. 亲爱的人",
+      "adj. 亲爱的；尊敬的；昂贵的",
+      "adv. 高价地；疼爱地"
     ]
   },
   {
     "name": "information",
     "trans": [
-      "adv.信息"
+      "n. 信息，资料；情报，消息；知识，学问"
     ]
   },
   {
     "name": "e-book",
     "trans": [
-      "adv.电子书"
+      "adv. 电子书"
     ]
   },
   {
     "name": "project",
     "trans": [
-      "adv.项目"
+      "n. 工程；计划；事业",
+      "vt. 设计；计划；发射",
+      "vi. 设计；计划；表达"
     ]
   },
   {
     "name": "guide",
     "trans": [
-      "adv.介绍，指南，手册"
+      "n. 指南；向导；入门书",
+      "vt. 引导；带领；操纵",
+      "vi. 担任向导"
     ]
   },
   {
     "name": "film",
     "trans": [
-      "adv.电影"
+      "n. 影片；胶卷；薄层",
+      "vt. 把...拍成电影；给...覆上一薄层",
+      "vi. 从事电影拍摄"
     ]
   },
   {
     "name": "as well",
     "trans": [
-      "adv.又，还，也"
+      "adv. 又；还；也"
     ]
   },
   {
     "name": "way",
     "trans": [
-      "adv.方法，方式"
+      "n. 方法；道路；方向",
+      "adj. 途中的",
+      "adv. 大大地；远远地"
     ]
   },
   {
     "name": "on",
     "trans": [
-      "adv.关于"
+      "prep. 在...上；在...时；关于",
+      "adv. 向前；继续；进行中",
+      "adj. 开着的；进行中的；上演的"
     ]
   },
   {
     "name": "topic",
     "trans": [
-      "adv.话题"
+      "n. 主题（等于theme）；题目；一般规则"
     ]
   },
   {
     "name": "light",
     "trans": [
-      "adv.轻的"
+      "n. 光；光线；灯",
+      "adj. 轻的；浅色的；明亮的",
+      "v. 点亮；照亮"
     ]
   },
   {
     "name": "hard",
     "trans": [
-      "adv.困难，费力的"
+      "adj. 困难的；硬的；有力的",
+      "adv. 努力地；猛力地；严重地",
+      "n. 英〉硬海滩；登陆处"
     ]
   },
   {
     "name": "broken",
     "trans": [
-      "adv.坏的，破的"
+      "v. 折断；打碎；损坏（break的过去分词）",
+      "adj. 破碎的；坏掉的"
     ]
   },
   {
     "name": "department store",
     "trans": [
-      "adv.百货商店"
+      "n. 百货公司；大百货商店"
     ]
   },
   {
     "name": "pocket",
     "trans": [
-      "adv.口袋，兜"
+      "n. 口袋；衣袋；兜",
+      "v. 把…放进衣袋",
+      "adj. 袖珍的；小型的"
     ]
   },
   {
     "name": "umbrella",
     "trans": [
-      "adv.雨伞"
+      "n. 伞；雨伞",
+      "adj. 像伞状分布的",
+      "vt. (用伞)遮住"
     ]
   },
   {
     "name": "sales assistant",
     "trans": [
-      "adv.售货员，营业员"
+      "adv. 售货员；营业员"
     ]
   },
   {
     "name": "wheel",
     "trans": [
-      "adv.轮子"
+      "n. 轮；车轮；方向盘",
+      "vi. 旋转；转动；改变方向",
+      "vt. 给...装轮子；用车运；转动"
     ]
   },
   {
     "name": "easy",
     "trans": [
-      "adv.容易的，不费力的"
+      "adj. 容易的；舒适的；宽裕的",
+      "adv. 容易地；不费力地；悠闲地",
+      "vi. 停止划桨（常用作命令）"
     ]
   },
   {
     "name": "take",
     "trans": [
-      "adv.选择要，选择购买"
+      "vi. 拿；获得",
+      "vt. 拿，取；采取；接受（礼物等）",
+      "n. 捕获量；看法；利益，盈益"
     ]
   },
   {
     "name": "too",
     "trans": [
-      "adv.太，过于"
+      "adv. 也，还；过分，过度；非常，很"
     ]
   },
   {
     "name": "try",
     "trans": [
-      "adv.试，尝试"
+      "n. 尝试；努力；试验",
+      "vt. 试图，努力；试验；审判",
+      "vi. 尝试；努力；试验"
     ]
   },
   {
     "name": "lovely",
     "trans": [
-      "adv.美丽的，可爱的，令人愉快的"
+      "adj. 可爱的；令人愉快的；爱恋的",
+      "n. 美女；可爱的东西"
     ]
   },
   {
     "name": "get",
     "trans": [
-      "adv.到达"
+      "n. 生殖；幼兽",
+      "vi. 成为；变得；到达",
+      "vt. 使得；获得；受到"
     ]
   },
   {
     "name": "west",
     "trans": [
-      "adv.西，西部，西方，向西方"
+      "n. 西方，西部；西方国家，西方文明",
+      "adj. 西方的；西部的",
+      "adv. 向西；往西"
     ]
   },
   {
     "name": "parent",
     "trans": [
-      "adv.母亲，父亲，家长"
+      "n. 父母，双亲；（动植物的）亲本",
+      "adj. 父母的；母公司的"
     ]
   },
   {
     "name": "stay",
     "trans": [
-      "adv.停留"
+      "n. 逗留；停止；支柱",
+      "vi. 停留；坚持；暂住",
+      "vt. 坚持；暂住；抑制"
     ]
   },
   {
     "name": "july",
     "trans": [
-      "adv.七月"
+      "n. 七月"
     ]
   },
   {
     "name": "south",
     "trans": [
-      "adv.南，南部，南方，向南方"
+      "n. 南方；南部",
+      "adj. 南方的；南部的",
+      "adv. 向南方；在南方"
     ]
   },
   {
     "name": "remember",
     "trans": [
-      "adv.记得"
+      "vi. 记得；记起",
+      "vt. 记得；牢记；纪念"
     ]
   },
   {
     "name": "june",
     "trans": [
-      "adv.六月"
+      "n. 六月；琼(女子名)"
     ]
   },
   {
     "name": "east",
     "trans": [
-      "adv.东，东部，东方，向东方"
+      "n. 东方；东边",
+      "adj. 东方的；东部的",
+      "adv. 向东方；在东方"
     ]
   },
   {
     "name": "best",
     "trans": [
-      "adv.最好的"
+      "adj. 最好的；最优秀的",
+      "adv. 最好地；最出色地",
+      "n. 最好的人或物；最佳状态"
     ]
   },
   {
     "name": "north",
     "trans": [
-      "adv.北，北部，北方，向北方"
+      "n. 北方；北部",
+      "adj. 北方的；北部的",
+      "adv. 向北方；朝北"
     ]
   },
   {
     "name": "rest",
     "trans": [
-      "adv.休息"
+      "n. 休息；安静；静止",
+      "adj. 其余的",
+      "vi. 搁；(在)；休息"
     ]
   },
   {
     "name": "have a rest",
     "trans": [
-      "adv.休息一下"
+      "v. 休息一下"
     ]
   },
   {
     "name": "rode",
     "trans": [
-      "adv.（ride的过去式）骑"
+      "adv. （ride的过去式）骑"
     ]
   },
   {
     "name": "evening",
     "trans": [
-      "adv.傍晚，晚上"
+      "n. 傍晚；黄昏；晚会",
+      "adj. 在晚上的；为晚上的；晚上用的",
+      "int. 晚上好"
     ]
   },
   {
     "name": "late",
     "trans": [
-      "adv.近日暮的；近深夜的；时间不早的"
+      "adj. 晚的；迟的；已故的",
+      "adv. 晚；迟；最近"
     ]
   },
   {
     "name": "worker",
     "trans": [
-      "adv.工人"
+      "n. 工人；劳动者；职蚁"
     ]
   },
   {
     "name": "factory",
     "trans": [
-      "adv.制造厂，工厂"
+      "n. 工厂；制造厂；代理店"
     ]
   },
   {
     "name": "early",
     "trans": [
-      "adv.早的"
+      "adj. 早的，提前的；早期的，初期的",
+      "adv. 早，提前；在初期",
+      "n. 早期"
     ]
   },
   {
     "name": "taxi",
     "trans": [
-      "adv.出租车，计程车"
+      "n. 出租汽车",
+      "vt. 使滑行；用出租车送",
+      "vi. 乘出租车；滑行"
     ]
   },
   {
     "name": "quarter",
     "trans": [
-      "adv.一刻钟"
+      "num. 四分之一",
+      "n. 四分之一；地区；季度",
+      "vt. 将…四等分；供某人住宿"
     ]
   },
   {
     "name": "to",
     "trans": [
-      "adv.（距整点）差"
+      "prep. 向，朝着；到；关于",
+      "adv. 朝一个方向的；到某种状态；关闭"
     ]
   },
   {
     "name": "worry",
     "trans": [
-      "adv.焦虑，担心"
+      "n. 担心；烦恼；撕咬",
+      "vi. 担心；烦恼；撕咬",
+      "vt. 担心；发愁；折磨"
     ]
   },
   {
     "name": "paper",
     "trans": [
-      "adv.纸"
+      "n. 纸；报纸；文件",
+      "adj. 纸制的",
+      "v. 用纸糊；用纸包装"
     ]
   },
   {
     "name": "Chinese",
     "trans": [
-      "adv.中国人的"
+      "n. 中国人；华人；中文",
+      "adj. 中国的；中国人的；中国话的"
     ]
   },
   {
     "name": "so",
     "trans": [
-      "adv.如此，这样"
+      "adv. 这样；这么；非常",
+      "conj. 所以；因此",
+      "adj. 真的"
     ]
   },
   {
     "name": "word",
     "trans": [
-      "adv.词，字"
+      "n. 单词；话语；诺言",
+      "vt. 措辞，用词；用言语表达",
+      "vi. 讲话"
     ]
   },
   {
     "name": "drew",
     "trans": [
-      "adv.（drew的过去式）画"
+      "adv. （drew的过去式）画"
     ]
   },
   {
     "name": "cut",
     "trans": [
-      "adv.（cut的过去式）剪，切，割"
+      "n. 伤口；切口；削减",
+      "adj. 割下的；雕过的；缩减的",
+      "vt. 切割；削减；缩短"
     ]
   },
   {
     "name": "piece",
     "trans": [
-      "adv.张，片，块"
+      "n. 块；件；篇",
+      "vt. 修补；接合；凑合"
     ]
   },
   {
     "name": "paint",
     "trans": [
-      "adv.（用颜料）绘画，着色"
+      "n. 油漆；颜料，涂料；绘画作品",
+      "vt. 油漆；绘画；装饰",
+      "vi. 油漆；描绘；绘画"
     ]
   },
   {
     "name": "put",
     "trans": [
-      "adv.（put的过去式）放，安放"
+      "n. 掷；笨蛋；投击",
+      "adj. 固定不动的",
+      "vi. 出发；击；航行"
     ]
   },
   {
     "name": "stick",
     "trans": [
-      "adv.小木棍，小木条"
+      "n. 棍；手杖；呆头呆脑的人",
+      "vi. 坚持；伸出；粘住",
+      "vt. 刺，戳；伸出；粘贴"
     ]
   },
   {
     "name": "tied",
     "trans": [
-      "adv.（tie的过去式）扎上，系上"
+      "v. 系（tie的过去式和过去分词）",
+      "adj. 系住的"
     ]
   },
   {
     "name": "string",
     "trans": [
-      "adv.线，"
+      "n. 线；细绳；一串",
+      "vt. 串起；成串；收紧",
+      "vi. 给...装弦"
     ]
   },
   {
     "name": "laugh",
     "trans": [
-      "adv.笑"
+      "vi. 笑；发笑；嘲笑",
+      "vt. 以笑表示；以笑感动影响",
+      "n. 笑；笑声；引人发笑的事或人"
     ]
   },
   {
     "name": "wore",
     "trans": [
-      "adv.（wear的过去式）穿"
+      "v. 穿（衣服等）；戴（首饰等）；装着（wear的过去式）"
     ]
   },
   {
     "name": "letter",
     "trans": [
-      "adv.信，书信"
+      "n. 信；证书，许可证；字母，文字",
+      "vt. 用字母标明；写字母于；加标题",
+      "vi. 写印刷体字母"
     ]
   },
   {
     "name": "theatre",
     "trans": [
-      "adv.剧院"
+      "n. 剧院，戏院；戏剧，戏剧艺术；手术室"
     ]
   },
   {
     "name": "women",
     "trans": [
-      "adv.（woman的复数形式）女性，妇女"
+      "adv. （woman的复数形式）女性；妇女"
     ]
   },
   {
     "name": "actor",
     "trans": [
-      "adv.演员"
+      "n. 演员；表演者；行动者"
     ]
   },
   {
     "name": "joke",
     "trans": [
-      "adv.笑话"
+      "n. 玩笑，笑话；笑柄",
+      "vt. 开…的玩笑",
+      "vi. 开玩笑"
     ]
   },
   {
     "name": "after",
     "trans": [
-      "adv.在......后"
+      "prep. 在...之后；跟随；追求",
+      "adv. 后来；以后",
+      "conj. 在...之后"
     ]
   },
   {
     "name": "show",
     "trans": [
-      "adv.（尤指剧院的）演出，表演"
+      "n. 显示；表演；炫耀",
+      "vt. 显示；说明；演出",
+      "vi. 显示；说明；指示"
     ]
   },
   {
     "name": "restaurant",
     "trans": [
-      "adv.饭店，餐馆"
+      "n. 餐馆；饭店；菜馆"
     ]
   },
   {
     "name": "ready",
     "trans": [
-      "adv.准备好的"
+      "n. 现款；预备好的状态",
+      "adj. 准备好；现成的；迅速的",
+      "vt. 使准备好"
     ]
   },
   {
     "name": "borrow",
     "trans": [
-      "adv.借入，借来"
+      "vt.&vi. 借入；借钱，借用；数由上位借",
+      "n. 借，借用；担保物，抵押；英史什一税"
     ]
   },
   {
     "name": "read",
     "trans": [
-      "adv.（read的过去式）读"
+      "vt. 阅读；看懂；理解",
+      "vi. 读；读起来；研究",
+      "adj. 博学的"
     ]
   },
   {
     "name": "at all",
     "trans": [
-      "adv.一点都"
+      "adv. 一点都"
     ]
   },
   {
     "name": "in",
     "trans": [
-      "adv.在（将来一段时间）之后"
+      "adv. 进入；在里头；到达",
+      "n. 执政者；门路",
+      "prep. 在……内；进……里；在……期间"
     ]
   },
   {
     "name": "another",
     "trans": [
-      "adv.另一个"
+      "prep. 另一个；另一个人",
+      "adj. 又一，另一；另外的；不同的",
+      "pron. 另一个；又一个"
     ]
   },
   {
     "name": "history",
     "trans": [
-      "adv.历史"
+      "n. 历史；历史学；过去的事"
     ]
   },
   {
     "name": "ask",
     "trans": [
-      "adv.文，询问"
+      "vt.&vi. 问，询问；需要；要求，请求",
+      "vt. 邀请；请求允许；要价",
+      "vi. 请，邀请；询问；要求"
     ]
   },
   {
     "name": "question",
     "trans": [
-      "adv.问题"
+      "n. 问题，疑问；询问；疑问句",
+      "vt. 询问；怀疑；审问",
+      "vi. 询问；怀疑；审问"
     ]
   },
   {
     "name": "forget",
     "trans": [
-      "adv.忘，忘记"
+      "vt. 忘记，忘却；忽略，疏忽；遗落",
+      "vi. 忘记；忽视"
     ]
   },
   {
     "name": "bring",
     "trans": [
-      "adv.带来，拿来"
+      "vt. 带来；引出；促使",
+      "vi. 产生"
     ]
   },
   {
     "name": "soon",
     "trans": [
-      "adv.不久，很快"
+      "adv. 不久；很快；一会儿"
     ]
   },
   {
     "name": "when",
     "trans": [
-      "adv.在什么时候"
+      "adv. 什么时候；当...时",
+      "conj. 当...时；然后；可是",
+      "pron. 什么时候"
     ]
   },
   {
     "name": "end",
     "trans": [
-      "adv.结束，终止"
+      "n. 末端，尽头；结束，终点",
+      "v. 结束；终止",
+      "adj. 最后的；末端的"
     ]
   },
   {
     "name": "nervous",
     "trans": [
-      "adv.紧张的，情绪不安的"
+      "adj. 神经的；紧张不安的；强健有力的"
     ]
   },
   {
     "name": "all right",
     "trans": [
-      "adv.没事，没问题"
+      "adj. 可接受（的）；满意（的）；安全健康（的）",
+      "int. 是不是；（表示同意）好；没什么"
     ]
   },
   {
     "name": "airport",
     "trans": [
-      "adv.机场"
+      "n. 航空站；航空港；机场"
     ]
   },
   {
     "name": "ticket",
     "trans": [
-      "adv.票"
+      "n. 票；入场券，标签；证明书",
+      "vt. 加标签于；指派；对…开出交通违规罚单"
     ]
   },
   {
     "name": "passport",
     "trans": [
-      "adv.护照"
+      "n. 护照；通行证；许可证"
     ]
   },
   {
     "name": "safe",
     "trans": [
-      "adv.安全，平安的"
+      "adj. 安全的；无危险的；可靠的",
+      "n. 保险箱；保险柜",
+      "adv. 安全地；平安地"
     ]
   },
   {
     "name": "pet",
     "trans": [
-      "adv.宠物"
+      "n. 宠物；心爱的人",
+      "adj. 宠爱的；特别喜爱的",
+      "v. 抚摸；轻拍"
     ]
   },
   {
     "name": "speak",
     "trans": [
-      "adv.说，讲"
+      "vi. 说话；演讲；表明",
+      "vt. 讲话；发言；讲演"
     ]
   },
   {
     "name": "building",
     "trans": [
-      "adv.建筑物"
+      "n. 建筑；建筑物",
+      "v. 建筑；建立；增加（build的ing形式）"
     ]
   },
   {
     "name": "American",
     "trans": [
-      "adv.美国的，美国人的，美国人"
+      "adj. 美洲的；美国的；美式的",
+      "n. 美国人；美式英语"
     ]
   },
   {
     "name": "find out",
     "trans": [
-      "adv.发现，弄清"
+      "n. 查出；发现；看清…的面目"
     ]
   },
   {
     "name": "more",
     "trans": [
-      "adv.更多的（量），较多的（量）"
+      "adj. 更多的；较多的",
+      "adv. 更；更加",
+      "n. 更多的量；更多的数目"
     ]
   }
 ]

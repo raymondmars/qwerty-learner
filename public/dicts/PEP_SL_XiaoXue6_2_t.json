@@ -1,342 +1,353 @@
 [
-    {
-        "name": "live",
-        "trans": [
-            "居住",
-            "生活"
-        ],
-        "usphone": "lɪv",
-        "ukphone": "lɪv"
-    },
-    {
-        "name": "quite",
-        "trans": [
-            "很",
-            "相当"
-        ],
-        "usphone": "kwaɪt",
-        "ukphone": "kwaɪt"
-    },
-    {
-        "name": "scarf",
-        "trans": [
-            "围巾"
-        ],
-        "usphone": "skɑːrf",
-        "ukphone": "skɑːrf"
-    },
-    {
-        "name": "airport",
-        "trans": [
-            "机场"
-        ],
-        "usphone": "ˈɛr.pɔːrt",
-        "ukphone": "ˈeə.pɔːt"
-    },
-    {
-        "name": "pupil",
-        "trans": [
-            "小学生"
-        ],
-        "usphone": "ˈpjʊ.əl",
-        "ukphone": "ˈpjuː.pɪl"
-    },
-    {
-        "name": "arrive",
-        "trans": [
-            "到达"
-        ],
-        "usphone": "əˈraɪv",
-        "ukphone": "əˈraɪv"
-    },
-    {
-        "name": "meet",
-        "trans": [
-            "迎接",
-            "遇见",
-            "会面"
-        ],
-        "usphone": "mit",
-        "ukphone": "miːt"
-    },
-    {
-        "name": "wardrobe",
-        "trans": [
-            "衣柜"
-        ],
-        "usphone": "ˈwɔr.droʊb",
-        "ukphone": "ˈwɔː.droʊb"
-    },
-    {
-        "name": "show ... around",
-        "trans": [
-            "带领……参观"
-        ],
-        "usphone": "ʃoʊ əˈraʊnd",
-        "ukphone": "ʃəʊ əˈraʊnd"
-    },
-    {
-        "name": "Queen's Park",
-        "trans": [
-            "女王公园"
-        ],
-        "usphone": "ˈkwinz pɑːrk",
-        "ukphone": "ˈkwiːnz pɑːk"
-    },
-    {
-        "name": "art gallery",
-        "trans": [
-            "画廊",
-            "艺术馆"
-        ],
-        "usphone": "ɑːrt ˈɡæləri",
-        "ukphone": "ɑːt ˈɡæləri"
-    },
-    {
-        "name": "public library",
-        "trans": [
-            "公共图书馆"
-        ],
-        "usphone": "ˈpʌblɪk ˈlaɪbrəri",
-        "ukphone": "ˈpʌblɪk ˈlaɪbrəri"
-    },
-    {
-        "name": "downtown",
-        "trans": [
-            "闹市区；市中心"
-        ],
-        "usphone": "ˈdaʊnˌtaʊn",
-        "ukphone": "ˈdaʊntaʊn"
-    },
-    {
-        "name": "Lake Ontario",
-        "trans": [
-            "安大略湖"
-        ],
-        "usphone": "leɪk ɒnˈtɛərioʊ",
-        "ukphone": "leɪk ɒnˈtɛərioʊ"
-    },
-    {
-        "name": "stadium",
-        "trans": [
-            "（露天）体育场"
-        ],
-        "usphone": "ˈsteɪ.di.əm",
-        "ukphone": "ˈsteɪ.di.əm"
-    },
-    {
-        "name": "volunteer",
-        "trans": [
-            "志愿者"
-        ],
-        "usphone": "ˌvɑːlənˈtɪr",
-        "ukphone": "ˌvɒlənˈtɪə"
-    },
-    {
-        "name": "sandwich",
-        "trans": [
-            "三明治"
-        ],
-        "usphone": "ˈsæn.wɪtʃ",
-        "ukphone": "ˈsæn.wɪtʃ"
-    },
-    {
-        "name": "top",
-        "trans": [
-            "上边",
-            "上面"
-        ],
-        "usphone": "tɑːp",
-        "ukphone": "tɒp"
-    },
-    {
-        "name": "habit",
-        "trans": [
-            "习惯"
-        ],
-        "usphone": "ˈhæb.ɪt",
-        "ukphone": "ˈhæb.ɪt"
-    },
-    {
-        "name": "idea",
-        "trans": [
-            "主意",
-            "想法",
-            "意见"
-        ],
-        "usphone": "aɪˈdiə",
-        "ukphone": "aɪˈdɪə"
-    },
-    {
-        "name": "less",
-        "trans": [
-            "更少"
-        ],
-        "usphone": "lɛs",
-        "ukphone": "lɛs"
-    },
-    {
-        "name": "at least",
-        "trans": [
-            "至少"
-        ],
-        "usphone": "ət list",
-        "ukphone": "ət li:st"
-    },
-    {
-        "name": "talk about",
-        "trans": [
-            "谈论"
-        ],
-        "usphone": "tɔːk əˈʊt",
-        "ukphone": "tɔːk əˈbaʊt"
-    },
-    {
-        "name": "hockey",
-        "trans": [
-            "曲棍球",
-            "冰上曲棍球"
-        ],
-        "usphone": "ˈhoʊk.i",
-        "ukphone": "ˈhəʊki"
-    },
-    {
-        "name": "together",
-        "trans": [
-            "一起"
-        ],
-        "usphone": "təˈɡeðər",
-        "ukphone": "təˈɡeðər"
-    },
-    {
-        "name": "special",
-        "trans": [
-            "特殊",
-            "特别"
-        ],
-        "usphone": "ˈspɛʃ.əl",
-        "ukphone": "ˈspɛʃ.əl"
-    },
-    {
-        "name": "beaver",
-        "trans": [
-            "海（河）狸"
-        ],
-        "usphone": "ˈbiːvər",
-        "ukphone": "ˈbiːvə"
-    },
-    {
-        "name": "raccoon",
-        "trans": [
-            "浣熊"
-        ],
-        "usphone": "ˈræk.əʊn",
-        "ukphone": "ˈræk.əʊn"
-    },
-    {
-        "name": "moose",
-        "trans": [
-            "北美麋；驼鹿"
-        ],
-        "usphone": "muːs",
-        "ukphone": "muːs"
-    },
-    {
-        "name": "countryside",
-        "trans": [
-            "农村",
-            "乡下"
-        ],
-        "usphone": "ˈkʌn.tri.saɪd",
-        "ukphone": "ˈkʌn.tri.saɪd"
-    },
-    {
-        "name": "Thanksgiving",
-        "trans": [
-            "感恩节"
-        ],
-        "usphone": "ˌθæŋksˈɡɪv.ɪŋ",
-        "ukphone": "θæŋksˈɡɪv.ɪŋ"
-    },
-    {
-        "name": "roast turkey",
-        "trans": [
-            "烤火鸡"
-        ],
-        "usphone": "roʊst ˈtɝː.ki",
-        "ukphone": "rəʊst ˈtɜː.ki"
-    },
-    {
-        "name": "squirrel",
-        "trans": [
-            "松鼠"
-        ],
-        "usphone": "ˈskwɜːr.əl",
-        "ukphone": "ˈskwɪr.əl"
-    },
-    {
-        "name": "swan",
-        "trans": [
-            "天鹅"
-        ],
-        "usphone": "swɑːn",
-        "ukphone": "swɒn"
-    },
-    {
-        "name": "wild goose",
-        "trans": [
-            "大雁"
-        ],
-        "usphone": "waɪld ɡus",
-        "ukphone": "waɪld ɡuːs"
-    },
-    {
-        "name": "frog",
-        "trans": [
-            "青蛙"
-        ],
-        "usphone": "frɔːɡ",
-        "ukphone": "frɒɡ"
-    },
-    {
-        "name": "English-Chinese dictionary",
-        "trans": [
-            "英汉词典"
-        ],
-        "usphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌner.i",
-        "ukphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌnər.i"
-    },
-    {
-        "name": "shopping centre",
-        "trans": [
-            "购物中心"
-        ],
-        "usphone": "ˈʃɑː.pɪŋ ˌsɛn.tər",
-        "ukphone": "ˈʃɒp.ɪŋ ˌsɛn.tə"
-    },
-    {
-        "name": "shopping mall",
-        "trans": [
-            "大型综合商业中心"
-        ],
-        "usphone": "ˈʃɑː.pɪŋ mɔːl",
-        "ukphone": "ˈʃɒp.ɪŋ mɔːl"
-    },
-    {
-        "name": "amazing",
-        "trans": [
-            "惊人的",
-            "神奇的"
-        ],
-        "usphone": "əˈmeɪ.zɪŋ",
-        "ukphone": "əˈmeɪ.zɪŋ"
-    },
-    {
-        "name": "hot pot",
-        "trans": [
-            "火锅"
-        ],
-        "usphone": "hɑːt pɑːt",
-        "ukphone": "hɒt pɒt"
-    }
+  {
+    "name": "live",
+    "trans": [
+      "adj. 活的；生动的；实况转播的",
+      "vt. 经历；度过",
+      "vi. 活；居住；生存"
+    ],
+    "usphone": "lɪv",
+    "ukphone": "lɪv"
+  },
+  {
+    "name": "quite",
+    "trans": [
+      "adv. 相当地，颇；完全地，十分；确实，的确"
+    ],
+    "usphone": "kwaɪt",
+    "ukphone": "kwaɪt"
+  },
+  {
+    "name": "scarf",
+    "trans": [
+      "n. 围巾，领巾；嵌接；桌巾，台巾",
+      "v. 围（围巾）；打（领带）；披（披巾）"
+    ],
+    "usphone": "skɑːrf",
+    "ukphone": "skɑːrf"
+  },
+  {
+    "name": "airport",
+    "trans": [
+      "n. 航空站；航空港；机场"
+    ],
+    "usphone": "ˈɛr.pɔːrt",
+    "ukphone": "ˈeə.pɔːt"
+  },
+  {
+    "name": "pupil",
+    "trans": [
+      "n. 学生；瞳孔；未成年人"
+    ],
+    "usphone": "ˈpjʊ.əl",
+    "ukphone": "ˈpjuː.pɪl"
+  },
+  {
+    "name": "arrive",
+    "trans": [
+      "vi. 到达；成功；达成"
+    ],
+    "usphone": "əˈraɪv",
+    "ukphone": "əˈraɪv"
+  },
+  {
+    "name": "meet",
+    "trans": [
+      "n. 集会",
+      "vt. 满足；遇见；对付",
+      "adj. 合适的；适宜的"
+    ],
+    "usphone": "mit",
+    "ukphone": "miːt"
+  },
+  {
+    "name": "wardrobe",
+    "trans": [
+      "n. 衣柜；行头；全部戏装"
+    ],
+    "usphone": "ˈwɔr.droʊb",
+    "ukphone": "ˈwɔː.droʊb"
+  },
+  {
+    "name": "show ... around",
+    "trans": [
+      "v. 带…参观"
+    ],
+    "usphone": "ʃoʊ əˈraʊnd",
+    "ukphone": "ʃəʊ əˈraʊnd"
+  },
+  {
+    "name": "Queen's Park",
+    "trans": [
+      "女王公园"
+    ],
+    "usphone": "ˈkwinz pɑːrk",
+    "ukphone": "ˈkwiːnz pɑːk"
+  },
+  {
+    "name": "art gallery",
+    "trans": [
+      "n. 美术馆；艺术展览馆"
+    ],
+    "usphone": "ɑːrt ˈɡæləri",
+    "ukphone": "ɑːt ˈɡæləri"
+  },
+  {
+    "name": "public library",
+    "trans": [
+      "公共图书馆"
+    ],
+    "usphone": "ˈpʌblɪk ˈlaɪbrəri",
+    "ukphone": "ˈpʌblɪk ˈlaɪbrəri"
+  },
+  {
+    "name": "downtown",
+    "trans": [
+      "n. 市中心；商业区",
+      "adj. 市中心的；商业区的",
+      "adv. 在市中心；往市中心"
+    ],
+    "usphone": "ˈdaʊnˌtaʊn",
+    "ukphone": "ˈdaʊntaʊn"
+  },
+  {
+    "name": "Lake Ontario",
+    "trans": [
+      "安大略湖"
+    ],
+    "usphone": "leɪk ɒnˈtɛərioʊ",
+    "ukphone": "leɪk ɒnˈtɛərioʊ"
+  },
+  {
+    "name": "stadium",
+    "trans": [
+      "n. 运动场；体育场；医（疾病的第…）期"
+    ],
+    "usphone": "ˈsteɪ.di.əm",
+    "ukphone": "ˈsteɪ.di.əm"
+  },
+  {
+    "name": "volunteer",
+    "trans": [
+      "n. 志愿者；义工",
+      "v. 自愿做；主动提出",
+      "adj. 志愿的；义务的"
+    ],
+    "usphone": "ˌvɑːlənˈtɪr",
+    "ukphone": "ˌvɒlənˈtɪə"
+  },
+  {
+    "name": "sandwich",
+    "trans": [
+      "n. 三明治；夹心面包",
+      "vt. 夹入；挤进；把...做成三明治"
+    ],
+    "usphone": "ˈsæn.wɪtʃ",
+    "ukphone": "ˈsæn.wɪtʃ"
+  },
+  {
+    "name": "top",
+    "trans": [
+      "n. 顶；顶部；顶端",
+      "v. 胜过；超过；居…之首",
+      "adj. 最高的；极棒的"
+    ],
+    "usphone": "tɑːp",
+    "ukphone": "tɒp"
+  },
+  {
+    "name": "habit",
+    "trans": [
+      "n. 习惯，习性；气质；宗教服装",
+      "vt. 给…穿衣服；打扮"
+    ],
+    "usphone": "ˈhæb.ɪt",
+    "ukphone": "ˈhæb.ɪt"
+  },
+  {
+    "name": "idea",
+    "trans": [
+      "n. 想法，主意；概念，观念；计划，打算"
+    ],
+    "usphone": "aɪˈdiə",
+    "ukphone": "aɪˈdɪə"
+  },
+  {
+    "name": "less",
+    "trans": [
+      "adj. 更少的；较少的",
+      "adv. 较少地；更少地",
+      "prep. 减去；除去"
+    ],
+    "usphone": "lɛs",
+    "ukphone": "lɛs"
+  },
+  {
+    "name": "at least",
+    "trans": [
+      "n. 至少"
+    ],
+    "usphone": "ət list",
+    "ukphone": "ət li:st"
+  },
+  {
+    "name": "talk about",
+    "trans": [
+      "n. 讲(某事)"
+    ],
+    "usphone": "tɔːk əˈʊt",
+    "ukphone": "tɔːk əˈbaʊt"
+  },
+  {
+    "name": "hockey",
+    "trans": [
+      "n. 曲棍球运动；＜北美＞冰球"
+    ],
+    "usphone": "ˈhoʊk.i",
+    "ukphone": "ˈhəʊki"
+  },
+  {
+    "name": "together",
+    "trans": [
+      "adv. 在一起，共同；同时，一起；相互，彼此",
+      "adj. 镇定的；条理清楚的"
+    ],
+    "usphone": "təˈɡeðər",
+    "ukphone": "təˈɡeðər"
+  },
+  {
+    "name": "special",
+    "trans": [
+      "adj. 特殊的；特别的；专门的",
+      "n. 特别的东西；特价；特刊"
+    ],
+    "usphone": "ˈspɛʃ.əl",
+    "ukphone": "ˈspɛʃ.əl"
+  },
+  {
+    "name": "beaver",
+    "trans": [
+      "n. 海狸；海狸皮毛；水獭呢",
+      "vi. (海狸似地)拼命工作；忙于(某事)；勤奋工作"
+    ],
+    "usphone": "ˈbiːvər",
+    "ukphone": "ˈbiːvə"
+  },
+  {
+    "name": "raccoon",
+    "trans": [
+      "n. 浣熊；浣熊毛皮"
+    ],
+    "usphone": "ˈræk.əʊn",
+    "ukphone": "ˈræk.əʊn"
+  },
+  {
+    "name": "moose",
+    "trans": [
+      "n. 动大角麋；驼鹿"
+    ],
+    "usphone": "muːs",
+    "ukphone": "muːs"
+  },
+  {
+    "name": "countryside",
+    "trans": [
+      "n. 农村；乡下；郊外"
+    ],
+    "usphone": "ˈkʌn.tri.saɪd",
+    "ukphone": "ˈkʌn.tri.saɪd"
+  },
+  {
+    "name": "Thanksgiving",
+    "trans": [
+      "n. （常小写）（对神的）感谢，感恩祈祷；感恩节"
+    ],
+    "usphone": "ˌθæŋksˈɡɪv.ɪŋ",
+    "ukphone": "θæŋksˈɡɪv.ɪŋ"
+  },
+  {
+    "name": "roast turkey",
+    "trans": [
+      "烤火鸡"
+    ],
+    "usphone": "roʊst ˈtɝː.ki",
+    "ukphone": "rəʊst ˈtɜː.ki"
+  },
+  {
+    "name": "squirrel",
+    "trans": [
+      "n. 松鼠，松鼠科动物；松鼠毛皮",
+      "vt. 储藏；贮存"
+    ],
+    "usphone": "ˈskwɜːr.əl",
+    "ukphone": "ˈskwɪr.əl"
+  },
+  {
+    "name": "swan",
+    "trans": [
+      "n. 天鹅；诗人，歌手",
+      "vi. 游荡；闲逛；随意旅行"
+    ],
+    "usphone": "swɑːn",
+    "ukphone": "swɒn"
+  },
+  {
+    "name": "wild goose",
+    "trans": [
+      "大雁"
+    ],
+    "usphone": "waɪld ɡus",
+    "ukphone": "waɪld ɡuːs"
+  },
+  {
+    "name": "frog",
+    "trans": [
+      "n. 青蛙；辙叉；饰扣",
+      "vi. 捕蛙"
+    ],
+    "usphone": "frɔːɡ",
+    "ukphone": "frɒɡ"
+  },
+  {
+    "name": "English-Chinese dictionary",
+    "trans": [
+      "英汉词典"
+    ],
+    "usphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌner.i",
+    "ukphone": "ˈɪŋ.ɡlɪʃ-ˌtʃaɪˈniːz ˈdɪk.ʃəˌnər.i"
+  },
+  {
+    "name": "shopping centre",
+    "trans": [
+      "n. 购物中心"
+    ],
+    "usphone": "ˈʃɑː.pɪŋ ˌsɛn.tər",
+    "ukphone": "ˈʃɒp.ɪŋ ˌsɛn.tə"
+  },
+  {
+    "name": "shopping mall",
+    "trans": [
+      "n. 商业区林荫路"
+    ],
+    "usphone": "ˈʃɑː.pɪŋ mɔːl",
+    "ukphone": "ˈʃɒp.ɪŋ mɔːl"
+  },
+  {
+    "name": "amazing",
+    "trans": [
+      "adj. 令人惊异的",
+      "vt. 使惊异：感到非常好奇",
+      "n. 吃惊；好奇"
+    ],
+    "usphone": "əˈmeɪ.zɪŋ",
+    "ukphone": "əˈmeɪ.zɪŋ"
+  },
+  {
+    "name": "hot pot",
+    "trans": [
+      "火锅"
+    ],
+    "usphone": "hɑːt pɑːt",
+    "ukphone": "hɒt pɒt"
+  }
 ]

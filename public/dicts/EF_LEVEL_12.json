@@ -1,1352 +1,1495 @@
 [
-    {
-        "name": "platitude",
-        "usphone": "ˈplætɪtuːd",
-        "ukphone": "ˈplætɪtjuːd",
-        "trans": [
-            "陈词滥调,老调重弹"
-        ]
-    },
-    {
-        "name": "sympathy",
-        "usphone": "ˈsɪmpəθi",
-        "ukphone": "ˈsɪmpəθi",
-        "trans": [
-            "同情, 同情心"
-        ]
-    },
-    {
-        "name": "funeral",
-        "usphone": "ˈfjuːnərəl",
-        "ukphone": "ˈfjuːnərəl",
-        "trans": [
-            "葬礼"
-        ]
-    },
-    {
-        "name": "condolence",
-        "usphone": "kənˈdoʊləns",
-        "ukphone": "kənˈdəʊləns",
-        "trans": [
-            "吊唁;慰唁"
-        ]
-    },
-    {
-        "name": "favor",
-        "trans": [
-            "帮助, 帮忙"
-        ],
-        "usphone": "'fevɚ",
-        "ukphone": "'feɪvər"
-    },
-    {
-        "name": "inappropriate",
-        "usphone": "ˌɪnəˈproʊpriət",
-        "ukphone": "ˌɪnəˈprəʊpriət",
-        "trans": [
-            "(对某人[某事物])不恰当的, 不适合的"
-        ]
-    },
-    {
-        "name": "acceptable",
-        "usphone": "əkˈseptəbl",
-        "ukphone": "əkˈseptəbl",
-        "trans": [
-            "可接受的"
-        ]
-    },
-    {
-        "name": "criticism",
-        "usphone": "ˈkrɪtɪsɪzəm",
-        "ukphone": "ˈkrɪtɪsɪzəm",
-        "trans": [
-            "批评, 指责"
-        ]
-    },
-    {
-        "name": "direct",
-        "usphone": "dəˈrekt",
-        "ukphone": "dəˈrekt",
-        "trans": [
-            "直截了当的"
-        ]
-    },
-    {
-        "name": "respect",
-        "usphone": "rɪˈspekt",
-        "ukphone": "rɪˈspekt",
-        "trans": [
-            "敬重, 尊敬, 尊重, 重视, 注重, 敬意"
-        ]
-    },
-    {
-        "name": "joke",
-        "usphone": "dʒoʊk",
-        "ukphone": "dʒəʊk",
-        "trans": [
-            "开玩笑, 戏弄"
-        ]
-    },
-    {
-        "name": "physical",
-        "usphone": "ˈfɪzɪkl",
-        "ukphone": "ˈfɪzɪkl",
-        "trans": [
-            "身体的"
-        ]
-    },
-    {
-        "name": "contact",
-        "usphone": "ˈkɑːntækt",
-        "ukphone": "ˈkɒntækt",
-        "trans": [
-            "接触"
-        ]
-    },
-    {
-        "name": "hug",
-        "usphone": "hʌɡ",
-        "ukphone": "hʌɡ",
-        "trans": [
-            "拥抱"
-        ]
-    },
-    {
-        "name": "slap",
-        "usphone": "slæp",
-        "ukphone": "slæp",
-        "trans": [
-            "拍击,掌击,掴"
-        ]
-    },
-    {
-        "name": "back",
-        "usphone": "bæk",
-        "ukphone": "bæk",
-        "trans": [
-            "背部, 后背"
-        ]
-    },
-    {
-        "name": "handshake",
-        "usphone": "ˈhændʃeɪk",
-        "ukphone": "ˈhændʃeɪk",
-        "trans": [
-            "握手"
-        ]
-    },
-    {
-        "name": "consider",
-        "usphone": "kənˈsɪdər",
-        "ukphone": "kənˈsɪdə(r)",
-        "trans": [
-            "考虑"
-        ]
-    },
-    {
-        "name": "common",
-        "usphone": "ˈkɑːmən",
-        "ukphone": "ˈkɒmən",
-        "trans": [
-            "普通的, 一般的"
-        ]
-    },
-    {
-        "name": "pleasure",
-        "usphone": "ˈpleʒər",
-        "ukphone": "ˈpleʒə(r)",
-        "trans": [
-            "愉快, 高兴, 乐事, 满足, 乐趣"
-        ]
-    },
-    {
-        "name": "lack",
-        "usphone": "læk",
-        "ukphone": "læk",
-        "trans": [
-            "欠缺, 没有, 不足"
-        ]
-    },
-    {
-        "name": "cleanliness",
-        "usphone": "ˈklenlinəs",
-        "ukphone": "ˈklenlinəs",
-        "trans": [
-            "清洁"
-        ]
-    },
-    {
-        "name": "disruptive",
-        "usphone": "dɪsˈrʌptɪv",
-        "ukphone": "dɪsˈrʌptɪv",
-        "trans": [
-            "破坏性"
-        ]
-    },
-    {
-        "name": "noise",
-        "usphone": "nɔɪz",
-        "ukphone": "nɔɪz",
-        "trans": [
-            "噪音, 喧闹声"
-        ]
-    },
-    {
-        "name": "courtesy",
-        "usphone": "ˈkɜːrtəsi",
-        "ukphone": "ˈkɜːtəsi",
-        "trans": [
-            "礼貌; 客气"
-        ]
-    },
-    {
-        "name": "express",
-        "usphone": "ɪkˈspres",
-        "ukphone": "ɪkˈspres",
-        "trans": [
-            "表达, 传达"
-        ]
-    },
-    {
-        "name": "fond",
-        "usphone": "fɑːnd",
-        "ukphone": "fɒnd",
-        "trans": [
-            "溺爱的, 喜欢的"
-        ]
-    },
-    {
-        "name": "incorporate",
-        "usphone": "ɪnˈkɔːrpəreɪt",
-        "ukphone": "ɪnˈkɔːpəreɪt",
-        "trans": [
-            "把…合并,使并入"
-        ]
-    },
-    {
-        "name": "promote",
-        "usphone": "prəˈmoʊt",
-        "ukphone": "prəˈməʊt",
-        "trans": [
-            "促进, 提升"
-        ]
-    },
-    {
-        "name": "teamwork",
-        "usphone": "ˈtiːmwɜːrk",
-        "ukphone": "ˈtiːmwɜːk",
-        "trans": [
-            "合作,协同工作"
-        ]
-    },
-    {
-        "name": "principle",
-        "usphone": "ˈprɪnsəpl",
-        "ukphone": "ˈprɪnsəpl",
-        "trans": [
-            "原则, 主义, 原理, 信条"
-        ]
-    },
-    {
-        "name": "core",
-        "usphone": "kɔːr",
-        "ukphone": "kɔː(r)",
-        "trans": [
-            "重点的，重要的"
-        ]
-    },
-    {
-        "name": "value",
-        "usphone": "ˈvæljuː",
-        "ukphone": "ˈvæljuː",
-        "trans": [
-            "价值观"
-        ]
-    },
-    {
-        "name": "adventurous",
-        "usphone": "ədˈventʃərəs",
-        "ukphone": "ədˈventʃərəs",
-        "trans": [
-            "爱冒险的,胆子大的"
-        ]
-    },
-    {
-        "name": "ethic",
-        "usphone": "ˈeθɪk",
-        "ukphone": "ˈeθɪk",
-        "trans": [
-            "伦理"
-        ]
-    },
-    {
-        "name": "passionate",
-        "usphone": "ˈpæʃənət",
-        "ukphone": "ˈpæʃənət",
-        "trans": [
-            "热情的, 激情的, 易怒的"
-        ]
-    },
-    {
-        "name": "honesty",
-        "usphone": "ˈɑːnəsti",
-        "ukphone": "ˈɒnəsti",
-        "trans": [
-            "诚实"
-        ]
-    },
-    {
-        "name": "quality",
-        "usphone": "ˈkwɑːləti",
-        "ukphone": "ˈkwɒləti",
-        "trans": [
-            "质量, 品质"
-        ]
-    },
-    {
-        "name": "humility",
-        "usphone": "hjuːˈmɪləti",
-        "ukphone": "hjuːˈmɪləti",
-        "trans": [
-            "谦逊"
-        ]
-    },
-    {
-        "name": "corporate",
-        "usphone": "ˈkɔːrpərət",
-        "ukphone": "ˈkɔːpərət",
-        "trans": [
-            "公司的,社团的"
-        ]
-    },
-    {
-        "name": "headquarters",
-        "usphone": "ˈhedkwɔːrtərz",
-        "ukphone": "ˌhedˈkwɔːtəz",
-        "trans": [
-            "司令部"
-        ]
-    },
-    {
-        "name": "branch",
-        "usphone": "bræntʃ",
-        "ukphone": "brɑːntʃ",
-        "trans": [
-            "(机构, 企业)分部, 部门"
-        ]
-    },
-    {
-        "name": "vertical",
-        "usphone": "ˈvɜːrtɪkl",
-        "ukphone": "ˈvɜːtɪkl",
-        "trans": [
-            "垂直的, 直立的, 纵向的"
-        ]
-    },
-    {
-        "name": "rigid",
-        "usphone": "ˈrɪdʒɪd",
-        "ukphone": "ˈrɪdʒɪd",
-        "trans": [
-            "严格的; 坚强的; 不变的"
-        ]
-    },
-    {
-        "name": "restructure",
-        "usphone": "ˌriːˈstrʌktʃər",
-        "ukphone": "ˌriːˈstrʌktʃə(r)",
-        "trans": [
-            "重组, 改组"
-        ]
-    },
-    {
-        "name": "top-heavy",
-        "trans": [
-            "头重脚轻的"
-        ]
-    },
-    {
-        "name": "flatten",
-        "usphone": "ˈflætn",
-        "ukphone": "ˈflætn",
-        "trans": [
-            "弄平，使变平"
-        ]
-    },
-    {
-        "name": "hierarchy",
-        "usphone": "ˈhaɪərɑːrki",
-        "ukphone": "ˈhaɪərɑːki",
-        "trans": [
-            "阶层"
-        ]
-    },
-    {
-        "name": "mission",
-        "usphone": "ˈmɪʃn",
-        "ukphone": "ˈmɪʃn",
-        "trans": [
-            "责任,使命"
-        ]
-    },
-    {
-        "name": "statement",
-        "usphone": "ˈsteɪtmənt",
-        "ukphone": "ˈsteɪtmənt",
-        "trans": [
-            "陈述, 声明, 说法"
-        ]
-    },
-    {
-        "name": "task",
-        "usphone": "tæsk",
-        "ukphone": "tɑːsk",
-        "trans": [
-            "任务"
-        ]
-    },
-    {
-        "name": "politics",
-        "usphone": "ˈpɑːlətɪks",
-        "ukphone": "ˈpɒlətɪks",
-        "trans": [
-            "政治"
-        ]
-    },
-    {
-        "name": "higher-up",
-        "trans": [
-            "高增长"
-        ]
-    },
-    {
-        "name": "repercussion",
-        "usphone": "ˌriːpərˈkʌʃn",
-        "ukphone": "ˌriːpəˈkʌʃn",
-        "trans": [
-            "后果,间接后果"
-        ]
-    },
-    {
-        "name": "participate",
-        "usphone": "pɑːrˈtɪsɪpeɪt",
-        "ukphone": "pɑːˈtɪsɪpeɪt",
-        "trans": [
-            "参加, 参与"
-        ]
-    },
-    {
-        "name": "horizontal",
-        "usphone": "ˌhɔːrəˈzɑːntl",
-        "ukphone": "ˌhɒrɪˈzɒntl",
-        "trans": [
-            "水平的"
-        ]
-    },
-    {
-        "name": "throwback",
-        "usphone": "ˈθroʊbæk",
-        "ukphone": "ˈθrəʊbæk",
-        "trans": [
-            "像过去存在过的人或事"
-        ]
-    },
-    {
-        "name": "underestimate",
-        "usphone": "ˌʌndərˈestɪmeɪt",
-        "ukphone": "ˌʌndərˈestɪmeɪt",
-        "trans": [
-            "低估"
-        ]
-    },
-    {
-        "name": "anachronism",
-        "usphone": "əˈnækrənɪzəm",
-        "ukphone": "əˈnækrənɪzəm",
-        "trans": [
-            "过时的人(或风俗,思想)"
-        ]
-    },
-    {
-        "name": "autocrat",
-        "usphone": "ˈɔːtəkræt",
-        "ukphone": "ˈɔːtəkræt",
-        "trans": [
-            "独裁者"
-        ]
-    },
-    {
-        "name": "drive",
-        "usphone": "draɪv",
-        "ukphone": "draɪv",
-        "trans": [
-            "动力, 推动力"
-        ]
-    },
-    {
-        "name": "earn",
-        "usphone": "ɜːrn",
-        "ukphone": "ɜːn",
-        "trans": [
-            "赚, 挣钱"
-        ]
-    },
-    {
-        "name": "empathy",
-        "usphone": "ˈempəθi",
-        "ukphone": "ˈempəθi",
-        "trans": [
-            "换位思考"
-        ]
-    },
-    {
-        "name": "hardship",
-        "usphone": "ˈhɑːrdʃɪp",
-        "ukphone": "ˈhɑːdʃɪp",
-        "trans": [
-            "困苦"
-        ]
-    },
-    {
-        "name": "hierarchy",
-        "usphone": "ˈhaɪərɑːrki",
-        "ukphone": "ˈhaɪərɑːki",
-        "trans": [
-            "阶层"
-        ]
-    },
-    {
-        "name": "monetary",
-        "usphone": "ˈmʌnɪteri",
-        "ukphone": "ˈmʌnɪtri",
-        "trans": [
-            "钱的; 货币的"
-        ]
-    },
-    {
-        "name": "potential",
-        "usphone": "pəˈtenʃl",
-        "ukphone": "pəˈtenʃl",
-        "trans": [
-            "可能性"
-        ]
-    },
-    {
-        "name": "mentor",
-        "usphone": "ˈmentɔːr",
-        "ukphone": "ˈmentɔː(r)",
-        "trans": [
-            "有经验可信赖的顾问"
-        ]
-    },
-    {
-        "name": "development",
-        "usphone": "dɪˈveləpmənt",
-        "ukphone": "dɪˈveləpmənt",
-        "trans": [
-            "生长"
-        ]
-    },
-    {
-        "name": "path",
-        "usphone": "pæθ",
-        "ukphone": "pɑːθ",
-        "trans": [
-            "道路, 路"
-        ]
-    },
-    {
-        "name": "advance",
-        "usphone": "ədˈvæns",
-        "ukphone": "ədˈvɑːns",
-        "trans": [
-            "促进, 改善, 加速"
-        ]
-    },
-    {
-        "name": "tailor",
-        "usphone": "ˈteɪlər",
-        "ukphone": "ˈteɪlə(r)",
-        "trans": [
-            "裁制; 使合适; 修改; 做裁缝"
-        ]
-    },
-    {
-        "name": "charisma",
-        "usphone": "kəˈrɪzmə",
-        "ukphone": "kəˈrɪzmə",
-        "trans": [
-            "个人魅力"
-        ]
-    },
-    {
-        "name": "deception",
-        "usphone": "dɪˈsepʃn",
-        "ukphone": "dɪˈsepʃn",
-        "trans": [
-            "欺骗"
-        ]
-    },
-    {
-        "name": "just",
-        "usphone": "dʒʌst",
-        "ukphone": "dʒʌst",
-        "trans": [
-            "公道的, 公正的, 公平的"
-        ]
-    },
-    {
-        "name": "keen",
-        "usphone": "kiːn",
-        "ukphone": "kiːn",
-        "trans": [
-            "良好的, 敏锐的, 灵敏的, 敏捷的"
-        ]
-    },
-    {
-        "name": "fairness",
-        "usphone": "ˈfernəs",
-        "ukphone": "ˈfeənəs",
-        "trans": [
-            "公平"
-        ]
-    },
-    {
-        "name": "approachable",
-        "usphone": "əˈproʊtʃəbl",
-        "ukphone": "əˈprəʊtʃəbl",
-        "trans": [
-            "随和的,可接近的"
-        ]
-    },
-    {
-        "name": "visionary",
-        "usphone": "ˈvɪʒəneri",
-        "ukphone": "ˈvɪʒənri",
-        "trans": [
-            "空想家, 好幻想的人, 梦想者"
-        ]
-    },
-    {
-        "name": "fearless",
-        "usphone": "ˈfɪrləs",
-        "ukphone": "ˈfɪələs",
-        "trans": [
-            "不怕"
-        ]
-    },
-    {
-        "name": "inspiring",
-        "usphone": "ɪnˈspaɪərɪŋ",
-        "ukphone": "ɪnˈspaɪərɪŋ",
-        "trans": [
-            "令人振奋的, 激励人的, 鼓舞人心的"
-        ]
-    },
-    {
-        "name": "moral",
-        "usphone": "ˈmɔːrəl",
-        "ukphone": "ˈmɒrəl",
-        "trans": [
-            "道德(上)的"
-        ]
-    },
-    {
-        "name": "circumstance",
-        "usphone": "ˈsɜːrkəmstæns",
-        "ukphone": "ˈsɜːkəmstəns",
-        "trans": [
-            "环境, 情况, 形式"
-        ]
-    },
-    {
-        "name": "persuade",
-        "usphone": "pərˈsweɪd",
-        "ukphone": "pəˈsweɪd",
-        "trans": [
-            "劝说, 说服"
-        ]
-    },
-    {
-        "name": "connection",
-        "usphone": "kəˈnekʃn",
-        "ukphone": "kəˈnekʃn",
-        "trans": [
-            "连接点, 接点"
-        ]
-    },
-    {
-        "name": "mute",
-        "usphone": "mjuːt",
-        "ukphone": "mjuːt",
-        "trans": [
-            "使声音(尤指乐器声)减弱, 柔和"
-        ]
-    },
-    {
-        "name": "echo",
-        "usphone": "ˈekoʊ",
-        "ukphone": "ˈekəʊ",
-        "trans": [
-            "呼应"
-        ]
-    },
-    {
-        "name": "type",
-        "usphone": "taɪp",
-        "ukphone": "taɪp",
-        "trans": [
-            "打字"
-        ]
-    },
-    {
-        "name": "headset",
-        "usphone": "ˈhedset",
-        "ukphone": "ˈhedset",
-        "trans": [
-            "耳机"
-        ]
-    },
-    {
-        "name": "attachment",
-        "usphone": "əˈtætʃmənt",
-        "ukphone": "əˈtætʃmənt",
-        "trans": [
-            "爱慕"
-        ]
-    },
-    {
-        "name": "subject",
-        "usphone": "ˈsʌbdʒɪkt",
-        "ukphone": "ˈsʌbdʒɪkt",
-        "trans": [
-            "主题"
-        ]
-    },
-    {
-        "name": "cc",
-        "usphone": "ˌsiːˈsiː",
-        "ukphone": "ˌsiːˈsiː",
-        "trans": [
-            "副本"
-        ]
-    },
-    {
-        "name": "reply",
-        "usphone": "rɪˈplaɪ",
-        "ukphone": "rɪˈplaɪ",
-        "trans": [
-            "回复"
-        ]
-    },
-    {
-        "name": "emoticon",
-        "usphone": "ɪˈmoʊtɪkɑːn",
-        "ukphone": "ɪˈməʊtɪkɒn",
-        "trans": [
-            "表情"
-        ]
-    },
-    {
-        "name": "model",
-        "usphone": "ˈmɑːdl",
-        "ukphone": "ˈmɒdl",
-        "trans": [
-            "型号, 样式"
-        ]
-    },
-    {
-        "name": "retail",
-        "usphone": "ˈriːteɪl",
-        "ukphone": "ˈriːteɪl",
-        "trans": [
-            "零售; 零卖"
-        ]
-    },
-    {
-        "name": "bulk",
-        "usphone": "bʌlk",
-        "ukphone": "bʌlk",
-        "trans": [
-            "大块,主体"
-        ]
-    },
-    {
-        "name": "discount",
-        "usphone": "ˈdɪskaʊnt",
-        "ukphone": "ˈdɪskaʊnt",
-        "trans": [
-            "折扣"
-        ]
-    },
-    {
-        "name": "unit",
-        "usphone": "ˈjuːnɪt",
-        "ukphone": "ˈjuːnɪt",
-        "trans": [
-            "单位"
-        ]
-    },
-    {
-        "name": "vendor",
-        "usphone": "ˈvendər",
-        "ukphone": "ˈvendə(r)",
-        "trans": [
-            "小贩; 推销员"
-        ]
-    },
-    {
-        "name": "margin",
-        "usphone": "ˈmɑːrdʒən",
-        "ukphone": "ˈmɑːdʒɪn",
-        "trans": [
-            "页边空白处"
-        ]
-    },
-    {
-        "name": "gesture",
-        "usphone": "ˈdʒestʃər",
-        "ukphone": "ˈdʒestʃə(r)",
-        "trans": [
-            "手势"
-        ]
-    },
-    {
-        "name": "cultural",
-        "usphone": "ˈkʌltʃərəl",
-        "ukphone": "ˈkʌltʃərəl",
-        "trans": [
-            "文化的"
-        ]
-    },
-    {
-        "name": "sensitivity",
-        "usphone": "ˌsensəˈtɪvəti",
-        "ukphone": "ˌsensəˈtɪvəti",
-        "trans": [
-            "(话题等)棘手、敏感、容易引起纷争"
-        ]
-    },
-    {
-        "name": "point",
-        "usphone": "pɔɪnt",
-        "ukphone": "pɔɪnt",
-        "trans": [
-            "指向, 指"
-        ]
-    },
-    {
-        "name": "comfortable",
-        "usphone": "ˈkʌmftəbl",
-        "ukphone": "ˈkʌmftəbl",
-        "trans": [
-            "自在的, 无忧无虑的"
-        ]
-    },
-    {
-        "name": "silence",
-        "usphone": "ˈsaɪləns",
-        "ukphone": "ˈsaɪləns",
-        "trans": [
-            "寂静"
-        ]
-    },
-    {
-        "name": "indirect",
-        "usphone": "ˌɪndəˈrekt",
-        "ukphone": "ˌɪndəˈrekt",
-        "trans": [
-            "间接的"
-        ]
-    },
-    {
-        "name": "communication",
-        "usphone": "kəˌmjuːnɪˈkeɪʃn",
-        "ukphone": "kəˌmjuːnɪˈkeɪʃn",
-        "trans": [
-            "交流, 交际"
-        ]
-    },
-    {
-        "name": "forward",
-        "usphone": "ˈfɔːrwərd",
-        "ukphone": "ˈfɔːwəd",
-        "trans": [
-            "运送"
-        ]
-    },
-    {
-        "name": "hesitate",
-        "usphone": "ˈhezɪteɪt",
-        "ukphone": "ˈhezɪteɪt",
-        "trans": [
-            "踌躇"
-        ]
-    },
-    {
-        "name": "concern",
-        "usphone": "kənˈsɜːrn",
-        "ukphone": "kənˈsɜːn",
-        "trans": [
-            "关注的事"
-        ]
-    },
-    {
-        "name": "consider",
-        "usphone": "kənˈsɪdər",
-        "ukphone": "kənˈsɪdə(r)",
-        "trans": [
-            "考虑"
-        ]
-    },
-    {
-        "name": "reassure",
-        "usphone": "ˌriːəˈʃʊr",
-        "ukphone": "ˌriːəˈʃʊə(r)",
-        "trans": [
-            "消除某人的恐惧或疑虑; 恢复某人的信心; 使某人放心"
-        ]
-    },
-    {
-        "name": "blunder",
-        "usphone": "ˈblʌndər",
-        "ukphone": "ˈblʌndə(r)",
-        "trans": [
-            "愚蠢的错误,笨拙的错误"
-        ]
-    },
-    {
-        "name": "ashamed",
-        "usphone": "əˈʃeɪmd",
-        "ukphone": "əˈʃeɪmd",
-        "trans": [
-            "惭愧的, 羞耻的, 不要意思的"
-        ]
-    },
-    {
-        "name": "idiot",
-        "usphone": "ˈɪdiət",
-        "ukphone": "ˈɪdiət",
-        "trans": [
-            "白痴"
-        ]
-    },
-    {
-        "name": "awkward",
-        "usphone": "ˈɔːkwərd",
-        "ukphone": "ˈɔːkwəd",
-        "trans": [
-            "尴尬的, 不合适的, 棘手的"
-        ]
-    },
-    {
-        "name": "ordinarily",
-        "usphone": "ˌɔːrdnˈerəli",
-        "ukphone": "ˈɔːdnrəli",
-        "trans": [
-            "通常, 大概, 普通"
-        ]
-    },
-    {
-        "name": "aspiration",
-        "usphone": "ˌæspəˈreɪʃn",
-        "ukphone": "ˌæspəˈreɪʃn",
-        "trans": [
-            "抱负,野心"
-        ]
-    },
-    {
-        "name": "offensive",
-        "usphone": "əˈfensɪv",
-        "ukphone": "əˈfensɪv",
-        "trans": [
-            "冒犯的, 得罪人的, 唐突的, 无礼的"
-        ]
-    },
-    {
-        "name": "embarrassed",
-        "usphone": "ɪmˈbærəst",
-        "ukphone": "ɪmˈbærəst",
-        "trans": [
-            "感到尴尬的"
-        ]
-    },
-    {
-        "name": "support",
-        "usphone": "səˈpɔːrt",
-        "ukphone": "səˈpɔːt",
-        "trans": [
-            "支持"
-        ]
-    },
-    {
-        "name": "careless",
-        "usphone": "ˈkerləs",
-        "ukphone": "ˈkeələs",
-        "trans": [
-            "粗心的, 大意的"
-        ]
-    },
-    {
-        "name": "rude",
-        "usphone": "ruːd",
-        "ukphone": "ruːd",
-        "trans": [
-            "粗鲁的"
-        ]
-    },
-    {
-        "name": "inappropriate",
-        "usphone": "ˌɪnəˈproʊpriət",
-        "ukphone": "ˌɪnəˈprəʊpriət",
-        "trans": [
-            "(对某人[某事物])不恰当的, 不适合的"
-        ]
-    },
-    {
-        "name": "criticize",
-        "usphone": "ˈkrɪtɪsaɪz",
-        "ukphone": "ˈkrɪtɪsaɪz",
-        "trans": [
-            "批评, 抨击"
-        ]
-    },
-    {
-        "name": "hard",
-        "usphone": "hɑːrd",
-        "ukphone": "hɑːd",
-        "trans": [
-            "寒冷的, 恶劣的"
-        ]
-    },
-    {
-        "name": "right",
-        "usphone": "raɪt",
-        "ukphone": "raɪt",
-        "trans": [
-            "权利"
-        ]
-    },
-    {
-        "name": "apologize",
-        "usphone": "əˈpɑːlədʒaɪz",
-        "ukphone": "əˈpɒlədʒaɪz",
-        "trans": [
-            "道歉"
-        ]
-    },
-    {
-        "name": "sincere",
-        "usphone": "sɪnˈsɪr",
-        "ukphone": "sɪnˈsɪə(r)",
-        "trans": [
-            "真诚的, 诚挚的, 真实的"
-        ]
-    },
-    {
-        "name": "forgive",
-        "usphone": "fərˈɡɪv",
-        "ukphone": "fəˈɡɪv",
-        "trans": [
-            "原谅, 饶恕"
-        ]
-    },
-    {
-        "name": "unacceptable",
-        "usphone": "ˌʌnəkˈseptəbl",
-        "ukphone": "ˌʌnəkˈseptəbl",
-        "trans": [
-            "难以接受的, 不受欢迎的"
-        ]
-    },
-    {
-        "name": "stupid",
-        "usphone": "ˈstuːpɪd",
-        "ukphone": "ˈstjuːpɪd",
-        "trans": [
-            "愚蠢的, 笨的, 迟钝的, 麻木的, 无知觉的"
-        ]
-    },
-    {
-        "name": "appropriate",
-        "usphone": "əˈproʊpriət",
-        "ukphone": "əˈprəʊpriət",
-        "trans": [
-            "合适的, 适当的"
-        ]
-    },
-    {
-        "name": "excuse",
-        "usphone": "ɪkˈskjuːs",
-        "ukphone": "ɪkˈskjuːs",
-        "trans": [
-            "借口"
-        ]
-    },
-    {
-        "name": "beyond",
-        "usphone": "bɪˈjɑːnd",
-        "ukphone": "bɪˈjɒnd",
-        "trans": [
-            "在 较远的一边, 超越"
-        ]
-    },
-    {
-        "name": "tough",
-        "usphone": "tʌf",
-        "ukphone": "tʌf",
-        "trans": [
-            "困难的, 棘手的"
-        ]
-    },
-    {
-        "name": "regret",
-        "usphone": "rɪˈɡret",
-        "ukphone": "rɪˈɡret",
-        "trans": [
-            "遗憾"
-        ]
-    },
-    {
-        "name": "blood",
-        "usphone": "blʌd",
-        "ukphone": "blʌd",
-        "trans": [
-            "血"
-        ]
-    },
-    {
-        "name": "nope",
-        "usphone": "noʊp",
-        "ukphone": "nəʊp",
-        "trans": [
-            "不,不是,没有"
-        ]
-    },
-    {
-        "name": "double",
-        "usphone": "ˈdʌbl",
-        "ukphone": "ˈdʌbl",
-        "trans": [
-            "两人的"
-        ]
-    },
-    {
-        "name": "suite",
-        "usphone": "swiːt",
-        "ukphone": "swiːt",
-        "trans": [
-            "套房"
-        ]
-    },
-    {
-        "name": "king-size",
-        "trans": [
-            "特长且大的, 加长型的"
-        ]
-    },
-    {
-        "name": "queen-size",
-        "trans": [
-            "大号的"
-        ]
-    },
-    {
-        "name": "executive",
-        "usphone": "ɪɡˈzekjətɪv",
-        "ukphone": "ɪɡˈzekjətɪv",
-        "trans": [
-            "管理的, 行政的"
-        ]
-    },
-    {
-        "name": "complimentary",
-        "usphone": "ˌkɑːmplɪˈmentri",
-        "ukphone": "ˌkɒmplɪˈmentri",
-        "trans": [
-            "赞赏的,恭维的,表示敬意的"
-        ]
-    },
-    {
-        "name": "classic",
-        "usphone": "ˈklæsɪk",
-        "ukphone": "ˈklæsɪk",
-        "trans": [
-            "古典的"
-        ]
-    },
-    {
-        "name": "deposit",
-        "usphone": "dɪˈpɑːzɪt",
-        "ukphone": "dɪˈpɒzɪt",
-        "trans": [
-            "保证金"
-        ]
-    },
-    {
-        "name": "minibar",
-        "usphone": "ˈmɪnibɑːr",
-        "ukphone": "ˈmɪnibɑː(r)",
-        "trans": [
-            "迷你冰箱"
-        ]
-    },
-    {
-        "name": "long-distance",
-        "trans": [
-            "长途的"
-        ]
-    },
-    {
-        "name": "incidental",
-        "usphone": "ˌɪnsɪˈdentl",
-        "ukphone": "ˌɪnsɪˈdentl",
-        "trans": [
-            "偶然的;附带的"
-        ]
-    },
-    {
-        "name": "charge",
-        "usphone": "tʃɑːrdʒ",
-        "ukphone": "tʃɑːdʒ",
-        "trans": [
-            "费用"
-        ]
-    },
-    {
-        "name": "broken",
-        "usphone": "ˈbroʊkən",
-        "ukphone": "ˈbrəʊkən",
-        "trans": [
-            "被破坏的, 受伤的, 断裂的"
-        ]
-    },
-    {
-        "name": "thermostat",
-        "usphone": "ˈθɜːrməstæt",
-        "ukphone": "ˈθɜːməstæt",
-        "trans": [
-            "恒温器,定温器"
-        ]
-    },
-    {
-        "name": "detector",
-        "usphone": "dɪˈtektər",
-        "ukphone": "dɪˈtektə(r)",
-        "trans": [
-            "探测器"
-        ]
-    },
-    {
-        "name": "sheet",
-        "usphone": "ʃiːt",
-        "ukphone": "ʃiːt",
-        "trans": [
-            "床单"
-        ]
-    },
-    {
-        "name": "dirty",
-        "usphone": "ˈdɜːrti",
-        "ukphone": "ˈdɜːti",
-        "trans": [
-            "脏的"
-        ]
-    },
-    {
-        "name": "stain",
-        "usphone": "steɪn",
-        "ukphone": "steɪn",
-        "trans": [
-            "斑点,污点"
-        ]
-    },
-    {
-        "name": "carpet",
-        "usphone": "ˈkɑːrpɪt",
-        "ukphone": "ˈkɑːpɪt",
-        "trans": [
-            "地毯"
-        ]
-    },
-    {
-        "name": "option",
-        "usphone": "ˈɑːpʃn",
-        "ukphone": "ˈɒpʃn",
-        "trans": [
-            "选择, 选择权, 选择自由"
-        ]
-    },
-    {
-        "name": "concierge",
-        "usphone": "kɔːnˈsjerʒ",
-        "ukphone": "ˈkɒnsieəʒ",
-        "trans": [
-            "(欧洲的)旅馆服务台职员"
-        ]
-    },
-    {
-        "name": "upscale",
-        "usphone": "ˌʌpˈskeɪl",
-        "ukphone": "ˌʌpˈskeɪl",
-        "trans": [
-            "高消费的, 高端的"
-        ]
-    },
-    {
-        "name": "amenity",
-        "usphone": "əˈmenəti",
-        "ukphone": "əˈmiːnəti",
-        "trans": [
-            "生活便利设施"
-        ]
-    },
-    {
-        "name": "attentive",
-        "usphone": "əˈtentɪv",
-        "ukphone": "əˈtentɪv",
-        "trans": [
-            "专注的"
-        ]
-    },
-    {
-        "name": "spacious",
-        "usphone": "ˈspeɪʃəs",
-        "ukphone": "ˈspeɪʃəs",
-        "trans": [
-            "宽敞的"
-        ]
-    },
-    {
-        "name": "luxurious",
-        "usphone": "lʌɡˈʒʊriəs",
-        "ukphone": "lʌɡˈʒʊəriəs",
-        "trans": [
-            "奢侈的,极舒适的"
-        ]
-    },
-    {
-        "name": "incompetent",
-        "usphone": "ɪnˈkɑːmpɪtənt",
-        "ukphone": "ɪnˈkɒmpɪtənt",
-        "trans": [
-            "无能力的, 不称职的"
-        ]
-    },
-    {
-        "name": "cleanliness",
-        "usphone": "ˈklenlinəs",
-        "ukphone": "ˈklenlinəs",
-        "trans": [
-            "清洁"
-        ]
-    },
-    {
-        "name": "quitter",
-        "usphone": "ˈkwɪtər",
-        "ukphone": "ˈkwɪtə(r)",
-        "trans": [
-            "轻言放弃的人,无志气的人,懦夫"
-        ]
-    }
+  {
+    "name": "platitude",
+    "usphone": "ˈplætɪtuːd",
+    "ukphone": "ˈplætɪtjuːd",
+    "trans": [
+      "n. 陈词滥调；平凡；陈腐"
+    ]
+  },
+  {
+    "name": "sympathy",
+    "usphone": "ˈsɪmpəθi",
+    "ukphone": "ˈsɪmpəθi",
+    "trans": [
+      "n. 同情，怜悯；同情心，同情的表示；赞同，支持"
+    ]
+  },
+  {
+    "name": "funeral",
+    "usphone": "ˈfjuːnərəl",
+    "ukphone": "ˈfjuːnərəl",
+    "trans": [
+      "n. 葬礼；丧礼；〈比喻〉不愉快的事",
+      "adj. 葬礼的；出殡用的，出殡时的"
+    ]
+  },
+  {
+    "name": "condolence",
+    "usphone": "kənˈdoʊləns",
+    "ukphone": "kənˈdəʊləns",
+    "trans": [
+      "n. 同情，吊唁；哀悼；慰问"
+    ]
+  },
+  {
+    "name": "favor",
+    "trans": [
+      "n. 喜爱；欢心；好感",
+      "vt. 赞成；喜欢；像"
+    ],
+    "usphone": "'fevɚ",
+    "ukphone": "'feɪvər"
+  },
+  {
+    "name": "inappropriate",
+    "usphone": "ˌɪnəˈproʊpriət",
+    "ukphone": "ˌɪnəˈprəʊpriət",
+    "trans": [
+      "adj. 不恰当的，不适宜的；不合适；不宜"
+    ]
+  },
+  {
+    "name": "acceptable",
+    "usphone": "əkˈseptəbl",
+    "ukphone": "əkˈseptəbl",
+    "trans": [
+      "adj. 可接受的；合意的；可忍受的"
+    ]
+  },
+  {
+    "name": "criticism",
+    "usphone": "ˈkrɪtɪsɪzəm",
+    "ukphone": "ˈkrɪtɪsɪzəm",
+    "trans": [
+      "n. 批评，指责；批评，评论；评论文章"
+    ]
+  },
+  {
+    "name": "direct",
+    "usphone": "dəˈrekt",
+    "ukphone": "dəˈrekt",
+    "trans": [
+      "adj. 直接的；直率的；笔直的",
+      "vt. 指挥；命令；负责",
+      "vi. 指导；指出"
+    ]
+  },
+  {
+    "name": "respect",
+    "usphone": "rɪˈspekt",
+    "ukphone": "rɪˈspekt",
+    "trans": [
+      "n. 尊敬；敬重；关系",
+      "vt. 尊敬；尊重；关于"
+    ]
+  },
+  {
+    "name": "joke",
+    "usphone": "dʒoʊk",
+    "ukphone": "dʒəʊk",
+    "trans": [
+      "n. 玩笑，笑话；笑柄",
+      "vt. 开…的玩笑",
+      "vi. 开玩笑"
+    ]
+  },
+  {
+    "name": "physical",
+    "usphone": "ˈfɪzɪkl",
+    "ukphone": "ˈfɪzɪkl",
+    "trans": [
+      "adj. 自然（界）的；身体的；物质的",
+      "n. 身体检查；体格检查"
+    ]
+  },
+  {
+    "name": "contact",
+    "usphone": "ˈkɑːntækt",
+    "ukphone": "ˈkɒntækt",
+    "trans": [
+      "n. 接触，联系；联系人",
+      "v. 联系；接触",
+      "adj. 接触的；联系的"
+    ]
+  },
+  {
+    "name": "hug",
+    "usphone": "hʌɡ",
+    "ukphone": "hʌɡ",
+    "trans": [
+      "vt.&vi. 热烈地拥抱；抱住；紧抱",
+      "vt. 紧靠…走；抱有，持有",
+      "n. 紧抱；热烈拥抱"
+    ]
+  },
+  {
+    "name": "slap",
+    "usphone": "slæp",
+    "ukphone": "slæp",
+    "trans": [
+      "n. 掴；侮辱；掌击",
+      "vt. 拍击；侮辱；掌击",
+      "vi. 掴；拍击"
+    ]
+  },
+  {
+    "name": "back",
+    "usphone": "bæk",
+    "ukphone": "bæk",
+    "trans": [
+      "n. 背部；后面",
+      "adj. 后面的；背后的",
+      "adv. 向后地；回来"
+    ]
+  },
+  {
+    "name": "handshake",
+    "usphone": "ˈhændʃeɪk",
+    "ukphone": "ˈhændʃeɪk",
+    "trans": [
+      "n. 握手"
+    ]
+  },
+  {
+    "name": "consider",
+    "usphone": "kənˈsɪdər",
+    "ukphone": "kənˈsɪdə(r)",
+    "trans": [
+      "vt.&vi. 考虑；考虑，细想",
+      "vt. 考虑；认为；看重",
+      "vi. 仔细考虑；深思"
+    ]
+  },
+  {
+    "name": "common",
+    "usphone": "ˈkɑːmən",
+    "ukphone": "ˈkɒmən",
+    "trans": [
+      "n. 普通；平民；公有地",
+      "adj. 共同的；普通的；一般的"
+    ]
+  },
+  {
+    "name": "pleasure",
+    "usphone": "ˈpleʒər",
+    "ukphone": "ˈpleʒə(r)",
+    "trans": [
+      "n. 快乐；希望；娱乐",
+      "vt. 使高兴；使满意",
+      "vi. 高兴；寻欢作乐"
+    ]
+  },
+  {
+    "name": "lack",
+    "usphone": "læk",
+    "ukphone": "læk",
+    "trans": [
+      "vt. 缺乏；不足；没有",
+      "vi. 缺乏；不足；没有",
+      "n. 缺乏；不足"
+    ]
+  },
+  {
+    "name": "cleanliness",
+    "usphone": "ˈklenlinəs",
+    "ukphone": "ˈklenlinəs",
+    "trans": [
+      "n. 清洁；干净"
+    ]
+  },
+  {
+    "name": "disruptive",
+    "usphone": "dɪsˈrʌptɪv",
+    "ukphone": "dɪsˈrʌptɪv",
+    "trans": [
+      "adj. 破坏性的，扰乱性的；引起混乱的；颠覆性的，创新性的"
+    ]
+  },
+  {
+    "name": "noise",
+    "usphone": "nɔɪz",
+    "ukphone": "nɔɪz",
+    "trans": [
+      "n. 噪音；响声；杂音",
+      "vt. 谣传",
+      "vi. 发出声音；大声议论"
+    ]
+  },
+  {
+    "name": "courtesy",
+    "usphone": "ˈkɜːrtəsi",
+    "ukphone": "ˈkɜːtəsi",
+    "trans": [
+      "n. 礼貌；好意；恩惠",
+      "adj. 殷勤的；被承认的；出于礼节的"
+    ]
+  },
+  {
+    "name": "express",
+    "usphone": "ɪkˈspres",
+    "ukphone": "ɪkˈspres",
+    "trans": [
+      "v. 表达；表示",
+      "adj. 特快的；快速的",
+      "n. 快车；快运"
+    ]
+  },
+  {
+    "name": "fond",
+    "usphone": "fɑːnd",
+    "ukphone": "fɒnd",
+    "trans": [
+      "adj. 喜爱的；溺爱的；愚蠢的",
+      "n. 基础"
+    ]
+  },
+  {
+    "name": "incorporate",
+    "usphone": "ɪnˈkɔːrpəreɪt",
+    "ukphone": "ɪnˈkɔːpəreɪt",
+    "trans": [
+      "vt. 组成公司；包含；使混合",
+      "vi. 包含；吸收；合并"
+    ]
+  },
+  {
+    "name": "promote",
+    "usphone": "prəˈmoʊt",
+    "ukphone": "prəˈməʊt",
+    "trans": [
+      "vi. 成为王后或其他大于卒的子",
+      "vt. 促进；提升；推销"
+    ]
+  },
+  {
+    "name": "teamwork",
+    "usphone": "ˈtiːmwɜːrk",
+    "ukphone": "ˈtiːmwɜːk",
+    "trans": [
+      "n. 团队合作；团队合作精神；协力"
+    ]
+  },
+  {
+    "name": "principle",
+    "usphone": "ˈprɪnsəpl",
+    "ukphone": "ˈprɪnsəpl",
+    "trans": [
+      "n. 原则，原理；道德准则，行为规范；基本法则，基本信念"
+    ]
+  },
+  {
+    "name": "core",
+    "usphone": "kɔːr",
+    "ukphone": "kɔː(r)",
+    "trans": [
+      "n. 果核；中心部分；核心，要点",
+      "v. 给……去核",
+      "adj. 核心的，最重要的；基础的，必修的"
+    ]
+  },
+  {
+    "name": "value",
+    "usphone": "ˈvæljuː",
+    "ukphone": "ˈvæljuː",
+    "trans": [
+      "n. 值；价值；价格",
+      "vt. 评价；重视；估价"
+    ]
+  },
+  {
+    "name": "adventurous",
+    "usphone": "ədˈventʃərəs",
+    "ukphone": "ədˈventʃərəs",
+    "trans": [
+      "adj. 爱冒险的；大胆的；充满危险的"
+    ]
+  },
+  {
+    "name": "ethic",
+    "usphone": "ˈeθɪk",
+    "ukphone": "ˈeθɪk",
+    "trans": [
+      "n. 伦理；道德规范",
+      "adj. 伦理的；道德的（等于ethical）"
+    ]
+  },
+  {
+    "name": "passionate",
+    "usphone": "ˈpæʃənət",
+    "ukphone": "ˈpæʃənət",
+    "trans": [
+      "adj. 热情的；热烈的，激昂的；易怒的"
+    ]
+  },
+  {
+    "name": "honesty",
+    "usphone": "ˈɑːnəsti",
+    "ukphone": "ˈɒnəsti",
+    "trans": [
+      "n. 诚实，真诚；正直,〈古〉贞洁；植一年生缎花"
+    ]
+  },
+  {
+    "name": "quality",
+    "usphone": "ˈkwɑːləti",
+    "ukphone": "ˈkwɒləti",
+    "trans": [
+      "n. 质量， 品质；特性；才能",
+      "adj. 优质的；高品质的；棒极了"
+    ]
+  },
+  {
+    "name": "humility",
+    "usphone": "hjuːˈmɪləti",
+    "ukphone": "hjuːˈmɪləti",
+    "trans": [
+      "n. 谦逊，谦恭；谦让的行为；谦虚谨慎"
+    ]
+  },
+  {
+    "name": "corporate",
+    "usphone": "ˈkɔːrpərət",
+    "ukphone": "ˈkɔːpərət",
+    "trans": [
+      "adj. 公司的，企业的；法人的，社团的；共同的，全体的"
+    ]
+  },
+  {
+    "name": "headquarters",
+    "usphone": "ˈhedkwɔːrtərz",
+    "ukphone": "ˌhedˈkwɔːtəz",
+    "trans": [
+      "n. 总部；指挥部；司令部"
+    ]
+  },
+  {
+    "name": "branch",
+    "usphone": "bræntʃ",
+    "ukphone": "brɑːntʃ",
+    "trans": [
+      "n. 树枝，分枝；分部；支流",
+      "vt. 分支；出现分歧",
+      "vi. 分支；出现分歧"
+    ]
+  },
+  {
+    "name": "vertical",
+    "usphone": "ˈvɜːrtɪkl",
+    "ukphone": "ˈvɜːtɪkl",
+    "trans": [
+      "adj. 垂直的，竖立的；解头顶的；顶点的",
+      "n. 垂直线，垂直面；建竖杆；垂直位置"
+    ]
+  },
+  {
+    "name": "rigid",
+    "usphone": "ˈrɪdʒɪd",
+    "ukphone": "ˈrɪdʒɪd",
+    "trans": [
+      "adj. 僵硬的，固定的；严格的，严厉的；刚性的，不易弯曲的"
+    ]
+  },
+  {
+    "name": "restructure",
+    "usphone": "ˌriːˈstrʌktʃər",
+    "ukphone": "ˌriːˈstrʌktʃə(r)",
+    "trans": [
+      "vt. 调整；重建；更改结构"
+    ]
+  },
+  {
+    "name": "top-heavy",
+    "trans": [
+      "头重脚轻的"
+    ]
+  },
+  {
+    "name": "flatten",
+    "usphone": "ˈflætn",
+    "ukphone": "ˈflætn",
+    "trans": [
+      "vt. 使……平坦；击败，摧毁",
+      "vi. 变平；变单调"
+    ]
+  },
+  {
+    "name": "hierarchy",
+    "usphone": "ˈhaɪərɑːrki",
+    "ukphone": "ˈhaɪərɑːki",
+    "trans": [
+      "n. 计分层，层次；等级制度；统治集团"
+    ]
+  },
+  {
+    "name": "mission",
+    "usphone": "ˈmɪʃn",
+    "ukphone": "ˈmɪʃn",
+    "trans": [
+      "n. 代表团；使命；官方使命",
+      "v. 给…交代任务；派遣；把任务交给"
+    ]
+  },
+  {
+    "name": "statement",
+    "usphone": "ˈsteɪtmənt",
+    "ukphone": "ˈsteɪtmənt",
+    "trans": [
+      "n. 陈述，声明；报表，清单；表态，立场"
+    ]
+  },
+  {
+    "name": "task",
+    "usphone": "tæsk",
+    "ukphone": "tɑːsk",
+    "trans": [
+      "n. 工作，任务；作业；苦差事",
+      "vt. 交给某人（任务）；使过于劳累"
+    ]
+  },
+  {
+    "name": "politics",
+    "usphone": "ˈpɑːlətɪks",
+    "ukphone": "ˈpɒlətɪks",
+    "trans": [
+      "n. 政治，政治学；政治活动，政治生涯；政见，政纲"
+    ]
+  },
+  {
+    "name": "higher-up",
+    "trans": [
+      "高增长"
+    ]
+  },
+  {
+    "name": "repercussion",
+    "usphone": "ˌriːpərˈkʌʃn",
+    "ukphone": "ˌriːpəˈkʌʃn",
+    "trans": [
+      "n. （尤指坏的）影响，反响；恶果；浮动诊胎法"
+    ]
+  },
+  {
+    "name": "participate",
+    "usphone": "pɑːrˈtɪsɪpeɪt",
+    "ukphone": "pɑːˈtɪsɪpeɪt",
+    "trans": [
+      "vi. 参与，参加；分享",
+      "vt. 分享；分担"
+    ]
+  },
+  {
+    "name": "horizontal",
+    "usphone": "ˌhɔːrəˈzɑːntl",
+    "ukphone": "ˌhɒrɪˈzɒntl",
+    "trans": [
+      "adj. 水平的，卧式的；地平线的；植（枝条）平层的",
+      "n. 水平线；水平面；水平位置"
+    ]
+  },
+  {
+    "name": "throwback",
+    "usphone": "ˈθroʊbæk",
+    "ukphone": "ˈθrəʊbæk",
+    "trans": [
+      "n. 掷回；挫折；阻止"
+    ]
+  },
+  {
+    "name": "underestimate",
+    "usphone": "ˌʌndərˈestɪmeɪt",
+    "ukphone": "ˌʌndərˈestɪmeɪt",
+    "trans": [
+      "vt. 低估；对…估计不足；看轻",
+      "n. 低估；估计不足；过低评价，过低估价"
+    ]
+  },
+  {
+    "name": "anachronism",
+    "usphone": "əˈnækrənɪzəm",
+    "ukphone": "əˈnækrənɪzəm",
+    "trans": [
+      "n. 时代错误；不合时代的事；过时的事或人"
+    ]
+  },
+  {
+    "name": "autocrat",
+    "usphone": "ˈɔːtəkræt",
+    "ukphone": "ˈɔːtəkræt",
+    "trans": [
+      "n. 独裁者，专制君主；独断独行的人"
+    ]
+  },
+  {
+    "name": "drive",
+    "usphone": "draɪv",
+    "ukphone": "draɪv",
+    "trans": [
+      "vt. 驱赶驱使；促使敲；击",
+      "vt.&vi. 驾驶",
+      "n. 乘车旅行私人车道传动；驱动干劲；积极性"
+    ]
+  },
+  {
+    "name": "earn",
+    "usphone": "ɜːrn",
+    "ukphone": "ɜːn",
+    "trans": [
+      "vt.&vi. 赚得；获得；赢得",
+      "vt. 赚，赚得；获得；挣得"
+    ]
+  },
+  {
+    "name": "empathy",
+    "usphone": "ˈempəθi",
+    "ukphone": "ˈempəθi",
+    "trans": [
+      "n. 神入；移情作用；执着"
+    ]
+  },
+  {
+    "name": "hardship",
+    "usphone": "ˈhɑːrdʃɪp",
+    "ukphone": "ˈhɑːdʃɪp",
+    "trans": [
+      "n. 困难；苦难；艰难"
+    ]
+  },
+  {
+    "name": "hierarchy",
+    "usphone": "ˈhaɪərɑːrki",
+    "ukphone": "ˈhaɪərɑːki",
+    "trans": [
+      "n. 计分层，层次；等级制度；统治集团"
+    ]
+  },
+  {
+    "name": "monetary",
+    "usphone": "ˈmʌnɪteri",
+    "ukphone": "ˈmʌnɪtri",
+    "trans": [
+      "adj. 货币的，金钱的；钱的（尤指一国的金融）；金融的"
+    ]
+  },
+  {
+    "name": "potential",
+    "usphone": "pəˈtenʃl",
+    "ukphone": "pəˈtenʃl",
+    "trans": [
+      "n. 潜能；可能性；电势",
+      "adj. 潜在的；可能的；势的"
+    ]
+  },
+  {
+    "name": "mentor",
+    "usphone": "ˈmentɔːr",
+    "ukphone": "ˈmentɔː(r)",
+    "trans": [
+      "n. 导师；良师益友",
+      "v. 指导；辅导"
+    ]
+  },
+  {
+    "name": "development",
+    "usphone": "dɪˈveləpmənt",
+    "ukphone": "dɪˈveləpmənt",
+    "trans": [
+      "n. 发展，进步；开发，研制；发育，生长"
+    ]
+  },
+  {
+    "name": "path",
+    "usphone": "pæθ",
+    "ukphone": "pɑːθ",
+    "trans": [
+      "n. 小路，小径；道路，路径；途径，方法"
+    ]
+  },
+  {
+    "name": "advance",
+    "usphone": "ədˈvæns",
+    "ukphone": "ədˈvɑːns",
+    "trans": [
+      "n. 发展；前进；增长",
+      "adj. 预先的；先行的",
+      "vt. 提出；预付；使……前进"
+    ]
+  },
+  {
+    "name": "tailor",
+    "usphone": "ˈteɪlər",
+    "ukphone": "ˈteɪlə(r)",
+    "trans": [
+      "n. 裁缝；成衣工",
+      "vi. 做裁缝",
+      "vt. 调整使适应；为…裁制衣服；为…做衣服"
+    ]
+  },
+  {
+    "name": "charisma",
+    "usphone": "kəˈrɪzmə",
+    "ukphone": "kəˈrɪzmə",
+    "trans": [
+      "n. 神授的能力；非凡的领导力；魅力"
+    ]
+  },
+  {
+    "name": "deception",
+    "usphone": "dɪˈsepʃn",
+    "ukphone": "dɪˈsepʃn",
+    "trans": [
+      "n. 欺骗；骗术；诡计"
+    ]
+  },
+  {
+    "name": "just",
+    "usphone": "dʒʌst",
+    "ukphone": "dʒʌst",
+    "trans": [
+      "adv. 刚才；只是；正好",
+      "adj. 公正的；公平的；恰当的"
+    ]
+  },
+  {
+    "name": "keen",
+    "usphone": "kiːn",
+    "ukphone": "kiːn",
+    "trans": [
+      "adj. 厉害的，强烈的；敏锐的，敏捷的；锐利的",
+      "vi. （为死者）恸哭；哀号",
+      "n. 〈英〉号哭；恸哭"
+    ]
+  },
+  {
+    "name": "fairness",
+    "usphone": "ˈfernəs",
+    "ukphone": "ˈfeənəs",
+    "trans": [
+      "n. 公平，公正；公平性，公正性；公平对待"
+    ]
+  },
+  {
+    "name": "approachable",
+    "usphone": "əˈproʊtʃəbl",
+    "ukphone": "əˈprəʊtʃəbl",
+    "trans": [
+      "adj. 亲切友善的；易理解的；可接近的"
+    ]
+  },
+  {
+    "name": "visionary",
+    "usphone": "ˈvɪʒəneri",
+    "ukphone": "ˈvɪʒənri",
+    "trans": [
+      "adj. 有远见的；宗教幻觉的；空想的",
+      "n. 有眼光的人；出现宗教幻觉的人；梦想家"
+    ]
+  },
+  {
+    "name": "fearless",
+    "usphone": "ˈfɪrləs",
+    "ukphone": "ˈfɪələs",
+    "trans": [
+      "adj. 无畏的；大胆的；不怕的"
+    ]
+  },
+  {
+    "name": "inspiring",
+    "usphone": "ɪnˈspaɪərɪŋ",
+    "ukphone": "ɪnˈspaɪərɪŋ",
+    "trans": [
+      "adj. 鼓舞的；激励的",
+      "v. 鼓舞；激励；“inspire”的现在分词"
+    ]
+  },
+  {
+    "name": "moral",
+    "usphone": "ˈmɔːrəl",
+    "ukphone": "ˈmɒrəl",
+    "trans": [
+      "adj. 道德的；精神上的；品性端正的",
+      "n. 道德；寓意"
+    ]
+  },
+  {
+    "name": "circumstance",
+    "usphone": "ˈsɜːrkəmstæns",
+    "ukphone": "ˈsɜːkəmstəns",
+    "trans": [
+      "n. 条件；环境；状况",
+      "v. 使处于某种特定的情况之下"
+    ]
+  },
+  {
+    "name": "persuade",
+    "usphone": "pərˈsweɪd",
+    "ukphone": "pəˈsweɪd",
+    "trans": [
+      "vt. 说服，劝说；使某人相信；劝某人做（不做）某事",
+      "adj. 空闲的；有闲的",
+      "vi. 说服；被说服"
+    ]
+  },
+  {
+    "name": "connection",
+    "usphone": "kəˈnekʃn",
+    "ukphone": "kəˈnekʃn",
+    "trans": [
+      "n. 联系，关系；连接，接通；人际关系，人脉"
+    ]
+  },
+  {
+    "name": "mute",
+    "usphone": "mjuːt",
+    "ukphone": "mjuːt",
+    "trans": [
+      "adj. 缄默的；哑的；无声的",
+      "n. 哑巴；默音字母；弱音器",
+      "vt. 减音减弱"
+    ]
+  },
+  {
+    "name": "echo",
+    "usphone": "ˈekoʊ",
+    "ukphone": "ˈekəʊ",
+    "trans": [
+      "n. 回音；效仿",
+      "vt. 反射；重复",
+      "vi. 随声附和；发出回声"
+    ]
+  },
+  {
+    "name": "type",
+    "usphone": "taɪp",
+    "ukphone": "taɪp",
+    "trans": [
+      "n. 类型，品种；模范；样式",
+      "vt. 打字；测定（血等）类型",
+      "vi. 打字"
+    ]
+  },
+  {
+    "name": "headset",
+    "usphone": "ˈhedset",
+    "ukphone": "ˈhedset",
+    "trans": [
+      "n. 耳机；头戴式受话器"
+    ]
+  },
+  {
+    "name": "attachment",
+    "usphone": "əˈtætʃmənt",
+    "ukphone": "əˈtætʃmənt",
+    "trans": [
+      "n. 附件；依恋；连接物"
+    ]
+  },
+  {
+    "name": "subject",
+    "usphone": "ˈsʌbdʒɪkt",
+    "ukphone": "ˈsʌbdʒɪkt",
+    "trans": [
+      "n. 题目；学科；主语",
+      "adj. 服从的；易患的",
+      "vt. 使隶属；使服从；使遭遇"
+    ]
+  },
+  {
+    "name": "cc",
+    "usphone": "ˌsiːˈsiː",
+    "ukphone": "ˌsiːˈsiː",
+    "trans": [
+      "副本"
+    ]
+  },
+  {
+    "name": "reply",
+    "usphone": "rɪˈplaɪ",
+    "ukphone": "rɪˈplaɪ",
+    "trans": [
+      "n. 回答；答辩",
+      "vt. 回答；答复",
+      "vi. 回答；答辩；回击"
+    ]
+  },
+  {
+    "name": "emoticon",
+    "usphone": "ɪˈmoʊtɪkɑːn",
+    "ukphone": "ɪˈməʊtɪkɒn",
+    "trans": [
+      "表情"
+    ]
+  },
+  {
+    "name": "model",
+    "usphone": "ˈmɑːdl",
+    "ukphone": "ˈmɒdl",
+    "trans": [
+      "n. 模型；典型；模范",
+      "vt. 模拟；塑造；模仿",
+      "vi. 做模型；做模特儿"
+    ]
+  },
+  {
+    "name": "retail",
+    "usphone": "ˈriːteɪl",
+    "ukphone": "ˈriːteɪl",
+    "trans": [
+      "n. 零售",
+      "vt. 零售；零卖；转述",
+      "adj. 零售的"
+    ]
+  },
+  {
+    "name": "bulk",
+    "usphone": "bʌlk",
+    "ukphone": "bʌlk",
+    "trans": [
+      "n. 物体；容积；大批",
+      "vi. 变大；增加",
+      "vt. 膨胀；出现"
+    ]
+  },
+  {
+    "name": "discount",
+    "usphone": "ˈdɪskaʊnt",
+    "ukphone": "ˈdɪskaʊnt",
+    "trans": [
+      "n. 折扣；贴现率",
+      "vt. 打折扣；将…贴现；贬损",
+      "vi. 贴现；打折扣出售商品"
+    ]
+  },
+  {
+    "name": "unit",
+    "usphone": "ˈjuːnɪt",
+    "ukphone": "ˈjuːnɪt",
+    "trans": [
+      "n. 单位；单元；部件"
+    ]
+  },
+  {
+    "name": "vendor",
+    "usphone": "ˈvendər",
+    "ukphone": "ˈvendə(r)",
+    "trans": [
+      "n. 摊贩，小贩；卖主；贸易自动售货机"
+    ]
+  },
+  {
+    "name": "margin",
+    "usphone": "ˈmɑːrdʒən",
+    "ukphone": "ˈmɑːdʒɪn",
+    "trans": [
+      "n. 边缘，范围；极限；利润，盈余",
+      "vt. 留边；成为…的边；加边于，围绕"
+    ]
+  },
+  {
+    "name": "gesture",
+    "usphone": "ˈdʒestʃər",
+    "ukphone": "ˈdʒestʃə(r)",
+    "trans": [
+      "n. 手势，姿势；举止，动作；仪态",
+      "vt. 做手势",
+      "vi. 用手势表现；表达或指导"
+    ]
+  },
+  {
+    "name": "cultural",
+    "usphone": "ˈkʌltʃərəl",
+    "ukphone": "ˈkʌltʃərəl",
+    "trans": [
+      "adj. 文化的；栽培的；培养的"
+    ]
+  },
+  {
+    "name": "sensitivity",
+    "usphone": "ˌsensəˈtɪvəti",
+    "ukphone": "ˌsensəˈtɪvəti",
+    "trans": [
+      "n. 敏感；敏感性；过敏"
+    ]
+  },
+  {
+    "name": "point",
+    "usphone": "pɔɪnt",
+    "ukphone": "pɔɪnt",
+    "trans": [
+      "n. 要点；得分；标点",
+      "vt. 指向；弄尖；加标点于",
+      "vi. 表明；指向"
+    ]
+  },
+  {
+    "name": "comfortable",
+    "usphone": "ˈkʌmftəbl",
+    "ukphone": "ˈkʌmftəbl",
+    "trans": [
+      "n. 盖被",
+      "adj. 舒适的；舒服的"
+    ]
+  },
+  {
+    "name": "silence",
+    "usphone": "ˈsaɪləns",
+    "ukphone": "ˈsaɪləns",
+    "trans": [
+      "n. 沉默；寂静；缄默",
+      "vt. 使沉默；使安静；压制",
+      "int. 安静！；别作声！"
+    ]
+  },
+  {
+    "name": "indirect",
+    "usphone": "ˌɪndəˈrekt",
+    "ukphone": "ˌɪndəˈrekt",
+    "trans": [
+      "adj. 间接的，非直接的；迂回的，拐弯抹角的；间接造成的"
+    ]
+  },
+  {
+    "name": "communication",
+    "usphone": "kəˌmjuːnɪˈkeɪʃn",
+    "ukphone": "kəˌmjuːnɪˈkeɪʃn",
+    "trans": [
+      "n. 交流，沟通；通讯，通信；传达，传播"
+    ]
+  },
+  {
+    "name": "forward",
+    "usphone": "ˈfɔːrwərd",
+    "ukphone": "ˈfɔːwəd",
+    "trans": [
+      "adv. 向前；往前；朝前",
+      "adj. 向前的；前进的；前面的",
+      "v. 转交；发送；转发"
+    ]
+  },
+  {
+    "name": "hesitate",
+    "usphone": "ˈhezɪteɪt",
+    "ukphone": "ˈhezɪteɪt",
+    "trans": [
+      "vi. 犹豫，踌躇；不愿；支吾",
+      "vt. 对…犹豫；不情愿"
+    ]
+  },
+  {
+    "name": "concern",
+    "usphone": "kənˈsɜːrn",
+    "ukphone": "kənˈsɜːn",
+    "trans": [
+      "vt. 影响；涉及；忙于",
+      "n. 所关切的事；企业；关心"
+    ]
+  },
+  {
+    "name": "consider",
+    "usphone": "kənˈsɪdər",
+    "ukphone": "kənˈsɪdə(r)",
+    "trans": [
+      "vt.&vi. 考虑；考虑，细想",
+      "vt. 考虑；认为；看重",
+      "vi. 仔细考虑；深思"
+    ]
+  },
+  {
+    "name": "reassure",
+    "usphone": "ˌriːəˈʃʊr",
+    "ukphone": "ˌriːəˈʃʊə(r)",
+    "trans": [
+      "vt. 使安心，使消除疑虑；再对…进行保险；再保证"
+    ]
+  },
+  {
+    "name": "blunder",
+    "usphone": "ˈblʌndər",
+    "ukphone": "ˈblʌndə(r)",
+    "trans": [
+      "n. 大错",
+      "vt. 做错",
+      "vi. 跌跌撞撞地走；犯大错"
+    ]
+  },
+  {
+    "name": "ashamed",
+    "usphone": "əˈʃeɪmd",
+    "ukphone": "əˈʃeɪmd",
+    "trans": [
+      "adj. 惭愧(的)；羞耻(的)；感到惭愧"
+    ]
+  },
+  {
+    "name": "idiot",
+    "usphone": "ˈɪdiət",
+    "ukphone": "ˈɪdiət",
+    "trans": [
+      "n. 白痴；笨蛋；傻瓜"
+    ]
+  },
+  {
+    "name": "awkward",
+    "usphone": "ˈɔːkwərd",
+    "ukphone": "ˈɔːkwəd",
+    "trans": [
+      "adj. 尴尬的；笨拙的；棘手的"
+    ]
+  },
+  {
+    "name": "ordinarily",
+    "usphone": "ˌɔːrdnˈerəli",
+    "ukphone": "ˈɔːdnrəli",
+    "trans": [
+      "adv. 平常地；通常地；一般地"
+    ]
+  },
+  {
+    "name": "aspiration",
+    "usphone": "ˌæspəˈreɪʃn",
+    "ukphone": "ˌæspəˈreɪʃn",
+    "trans": [
+      "n. 强烈的愿望，抱负；志向，抱负；渴望得到或达到的东西"
+    ]
+  },
+  {
+    "name": "offensive",
+    "usphone": "əˈfensɪv",
+    "ukphone": "əˈfensɪv",
+    "trans": [
+      "adj. 攻击的；冒犯的；无礼的",
+      "n. 攻势；攻击"
+    ]
+  },
+  {
+    "name": "embarrassed",
+    "usphone": "ɪmˈbærəst",
+    "ukphone": "ɪmˈbærəst",
+    "trans": [
+      "adj. 局促不安的；为难的；尴尬的",
+      "v. （使）窘迫"
+    ]
+  },
+  {
+    "name": "support",
+    "usphone": "səˈpɔːrt",
+    "ukphone": "səˈpɔːt",
+    "trans": [
+      "vt. 支撑；支持；供养",
+      "n. 支持；援助；供养"
+    ]
+  },
+  {
+    "name": "careless",
+    "usphone": "ˈkerləs",
+    "ukphone": "ˈkeələs",
+    "trans": [
+      "adj. 粗心的；漫不经心的；疏忽的",
+      "n. 不关心的；粗心的"
+    ]
+  },
+  {
+    "name": "rude",
+    "usphone": "ruːd",
+    "ukphone": "ruːd",
+    "trans": [
+      "adj. 无礼的，粗鲁的；粗野的，不文雅的；突然的，意外的"
+    ]
+  },
+  {
+    "name": "inappropriate",
+    "usphone": "ˌɪnəˈproʊpriət",
+    "ukphone": "ˌɪnəˈprəʊpriət",
+    "trans": [
+      "adj. 不恰当的，不适宜的；不合适；不宜"
+    ]
+  },
+  {
+    "name": "criticize",
+    "usphone": "ˈkrɪtɪsaɪz",
+    "ukphone": "ˈkrɪtɪsaɪz",
+    "trans": [
+      "vi. 批评；评论；苛求",
+      "vt. 批评；评论；非难"
+    ]
+  },
+  {
+    "name": "hard",
+    "usphone": "hɑːrd",
+    "ukphone": "hɑːd",
+    "trans": [
+      "adj. 困难的；硬的；有力的",
+      "adv. 努力地；猛力地；严重地",
+      "n. 英〉硬海滩；登陆处"
+    ]
+  },
+  {
+    "name": "right",
+    "usphone": "raɪt",
+    "ukphone": "raɪt",
+    "trans": [
+      "n. 正确；右边；正义",
+      "adj. 正确的；直接的；右方的",
+      "vt. 纠正"
+    ]
+  },
+  {
+    "name": "apologize",
+    "usphone": "əˈpɑːlədʒaɪz",
+    "ukphone": "əˈpɒlədʒaɪz",
+    "trans": [
+      "vi. 道歉；辩解；赔不是",
+      "vt. 道歉；谢罪；辩白"
+    ]
+  },
+  {
+    "name": "sincere",
+    "usphone": "sɪnˈsɪr",
+    "ukphone": "sɪnˈsɪə(r)",
+    "trans": [
+      "adj. 真诚的；诚挚的；真实的"
+    ]
+  },
+  {
+    "name": "forgive",
+    "usphone": "fərˈɡɪv",
+    "ukphone": "fəˈɡɪv",
+    "trans": [
+      "vt.&vi. 原谅；饶恕；对不起",
+      "vt. 免除"
+    ]
+  },
+  {
+    "name": "unacceptable",
+    "usphone": "ˌʌnəkˈseptəbl",
+    "ukphone": "ˌʌnəkˈseptəbl",
+    "trans": [
+      "adj. 不可接受的；令人不能接受的；不能容忍的"
+    ]
+  },
+  {
+    "name": "stupid",
+    "usphone": "ˈstuːpɪd",
+    "ukphone": "ˈstjuːpɪd",
+    "trans": [
+      "n. 傻瓜；笨蛋",
+      "adj. 愚蠢的；麻木的；乏味的"
+    ]
+  },
+  {
+    "name": "appropriate",
+    "usphone": "əˈproʊpriət",
+    "ukphone": "əˈprəʊpriət",
+    "trans": [
+      "adj. 适当的；恰当的；合适的",
+      "v. 盗用；侵吞；拨（专款等）"
+    ]
+  },
+  {
+    "name": "excuse",
+    "usphone": "ɪkˈskjuːs",
+    "ukphone": "ɪkˈskjuːs",
+    "trans": [
+      "n. 借口；理由",
+      "vt. 原谅；为…申辩；给…免去",
+      "vi. 作为借口；请求宽恕；表示宽恕"
+    ]
+  },
+  {
+    "name": "beyond",
+    "usphone": "bɪˈjɑːnd",
+    "ukphone": "bɪˈjɒnd",
+    "trans": [
+      "prep. 在...的那边；超出；超过",
+      "adv. 在更远处；更往前",
+      "n. 远处；来世"
+    ]
+  },
+  {
+    "name": "tough",
+    "usphone": "tʌf",
+    "ukphone": "tʌf",
+    "trans": [
+      "adj. 坚韧的；健壮的；强硬的",
+      "adv. 以强硬的态度",
+      "n. 暴徒；恶棍"
+    ]
+  },
+  {
+    "name": "regret",
+    "usphone": "rɪˈɡret",
+    "ukphone": "rɪˈɡret",
+    "trans": [
+      "n. 遗憾；抱歉；悲叹",
+      "vi. 感到后悔；感到抱歉",
+      "vt. 后悔；惋惜；哀悼"
+    ]
+  },
+  {
+    "name": "blood",
+    "usphone": "blʌd",
+    "ukphone": "blʌd",
+    "trans": [
+      "n. 血，血液；血统，家族；性情，气质",
+      "v. 使流血；让...出血"
+    ]
+  },
+  {
+    "name": "nope",
+    "usphone": "noʊp",
+    "ukphone": "nəʊp",
+    "trans": [
+      "adv. 不；不是"
+    ]
+  },
+  {
+    "name": "double",
+    "usphone": "ˈdʌbl",
+    "ukphone": "ˈdʌbl",
+    "trans": [
+      "adj. 两倍的，双重的；双人的，双份的",
+      "n. 两倍；双份",
+      "v. 使加倍；使翻番"
+    ]
+  },
+  {
+    "name": "suite",
+    "usphone": "swiːt",
+    "ukphone": "swiːt",
+    "trans": [
+      "n. （一套）房间；套房；（家具等的）套件，系列"
+    ]
+  },
+  {
+    "name": "king-size",
+    "trans": [
+      "特长且大的；加长型的"
+    ]
+  },
+  {
+    "name": "queen-size",
+    "trans": [
+      "大号的"
+    ]
+  },
+  {
+    "name": "executive",
+    "usphone": "ɪɡˈzekjətɪv",
+    "ukphone": "ɪɡˈzekjətɪv",
+    "trans": [
+      "adj. 执行的；行政的；决策的",
+      "n. 执行者；主管；行政部门"
+    ]
+  },
+  {
+    "name": "complimentary",
+    "usphone": "ˌkɑːmplɪˈmentri",
+    "ukphone": "ˌkɒmplɪˈmentri",
+    "trans": [
+      "adj. 表示敬意的；赞美的；恭维的赠送的",
+      "v. 崇敬地；赞美地；赞许地"
+    ]
+  },
+  {
+    "name": "classic",
+    "usphone": "ˈklæsɪk",
+    "ukphone": "ˈklæsɪk",
+    "trans": [
+      "n. 名著；经典著作；大艺术家",
+      "adj. 经典的；古典的，传统的；最优秀的"
+    ]
+  },
+  {
+    "name": "deposit",
+    "usphone": "dɪˈpɑːzɪt",
+    "ukphone": "dɪˈpɒzɪt",
+    "trans": [
+      "n. 存款；押金；订金",
+      "vt. 使沉积；存放",
+      "vi. 沉淀"
+    ]
+  },
+  {
+    "name": "minibar",
+    "usphone": "ˈmɪnibɑːr",
+    "ukphone": "ˈmɪnibɑː(r)",
+    "trans": [
+      "迷你冰箱"
+    ]
+  },
+  {
+    "name": "long-distance",
+    "trans": [
+      "adj. 长途的；长距离的",
+      "vt. 打长途电话给",
+      "adv. 通过长途电话"
+    ]
+  },
+  {
+    "name": "incidental",
+    "usphone": "ˌɪnsɪˈdentl",
+    "ukphone": "ˌɪnsɪˈdentl",
+    "trans": [
+      "n. 附带事件；偶然事件；杂项",
+      "adj. 附带的；偶然的；容易发生的"
+    ]
+  },
+  {
+    "name": "charge",
+    "usphone": "tʃɑːrdʒ",
+    "ukphone": "tʃɑːdʒ",
+    "trans": [
+      "n. 费用；电荷；掌管",
+      "vt. 使充电；使承担；指责",
+      "vi. 充电；控告；索价"
+    ]
+  },
+  {
+    "name": "broken",
+    "usphone": "ˈbroʊkən",
+    "ukphone": "ˈbrəʊkən",
+    "trans": [
+      "v. 折断；打碎；损坏（break的过去分词）",
+      "adj. 破碎的；坏掉的"
+    ]
+  },
+  {
+    "name": "thermostat",
+    "usphone": "ˈθɜːrməstæt",
+    "ukphone": "ˈθɜːməstæt",
+    "trans": [
+      "n. 恒温器；自动调温器"
+    ]
+  },
+  {
+    "name": "detector",
+    "usphone": "dɪˈtektər",
+    "ukphone": "dɪˈtektə(r)",
+    "trans": [
+      "n. 探测器；检测器；发现者"
+    ]
+  },
+  {
+    "name": "sheet",
+    "usphone": "ʃiːt",
+    "ukphone": "ʃiːt",
+    "trans": [
+      "n. 薄片，纸张；薄板；床单",
+      "adj. 片状的",
+      "vt. 覆盖；盖上被单；使成大片"
+    ]
+  },
+  {
+    "name": "dirty",
+    "usphone": "ˈdɜːrti",
+    "ukphone": "ˈdɜːti",
+    "trans": [
+      "adj. 恶劣的；肮脏的；卑劣的",
+      "vt. 弄脏，污染；使名声受玷污",
+      "vi. 变脏；污染"
+    ]
+  },
+  {
+    "name": "stain",
+    "usphone": "steɪn",
+    "ukphone": "steɪn",
+    "trans": [
+      "n. 污点；瑕疵；着色剂",
+      "vt. 沾污；败坏；给…着色",
+      "vi. 污染；被沾污；被染污"
+    ]
+  },
+  {
+    "name": "carpet",
+    "usphone": "ˈkɑːrpɪt",
+    "ukphone": "ˈkɑːpɪt",
+    "trans": [
+      "n. 地毯；覆盖地面的一层厚东西",
+      "vt. 给......铺地毯",
+      "v. 训斥；责骂"
+    ]
+  },
+  {
+    "name": "option",
+    "usphone": "ˈɑːpʃn",
+    "ukphone": "ˈɒpʃn",
+    "trans": [
+      "n. 选择（的自由）；选项；选择权",
+      "vt. 得到或获准进行选择；调动球员"
+    ]
+  },
+  {
+    "name": "concierge",
+    "usphone": "kɔːnˈsjerʒ",
+    "ukphone": "ˈkɒnsieəʒ",
+    "trans": [
+      "n. 看门人；门房"
+    ]
+  },
+  {
+    "name": "upscale",
+    "usphone": "ˌʌpˈskeɪl",
+    "ukphone": "ˌʌpˈskeɪl",
+    "trans": [
+      "adj. 高档的；高级的；上流的",
+      "v. 提升规格；提高品质"
+    ]
+  },
+  {
+    "name": "amenity",
+    "usphone": "əˈmenəti",
+    "ukphone": "əˈmiːnəti",
+    "trans": [
+      "n. 舒适；礼仪；愉快"
+    ]
+  },
+  {
+    "name": "attentive",
+    "usphone": "əˈtentɪv",
+    "ukphone": "əˈtentɪv",
+    "trans": [
+      "adj. 注意的；专心的；留心的"
+    ]
+  },
+  {
+    "name": "spacious",
+    "usphone": "ˈspeɪʃəs",
+    "ukphone": "ˈspeɪʃəs",
+    "trans": [
+      "adj. 宽广的；广阔的；宽敞的"
+    ]
+  },
+  {
+    "name": "luxurious",
+    "usphone": "lʌɡˈʒʊriəs",
+    "ukphone": "lʌɡˈʒʊəriəs",
+    "trans": [
+      "adj. 奢侈的；丰富的；放纵的"
+    ]
+  },
+  {
+    "name": "incompetent",
+    "usphone": "ɪnˈkɑːmpɪtənt",
+    "ukphone": "ɪnˈkɒmpɪtənt",
+    "trans": [
+      "adj. 无能力的；不胜任的；不适当的",
+      "n. 无能者；不胜任者"
+    ]
+  },
+  {
+    "name": "cleanliness",
+    "usphone": "ˈklenlinəs",
+    "ukphone": "ˈklenlinəs",
+    "trans": [
+      "n. 清洁；干净"
+    ]
+  },
+  {
+    "name": "quitter",
+    "usphone": "ˈkwɪtər",
+    "ukphone": "ˈkwɪtə(r)",
+    "trans": [
+      "轻言放弃的人；无志气的人；懦夫"
+    ]
+  }
 ]

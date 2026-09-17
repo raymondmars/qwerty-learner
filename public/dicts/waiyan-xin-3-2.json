@@ -2,937 +2,1108 @@
   {
     "name": "song",
     "trans": [
-      "adv.歌曲"
+      "n. 歌曲，歌词；鸟鸣声；诗歌，韵文"
     ]
   },
   {
     "name": "TV",
     "trans": [
-      "adv.电视台"
+      "n. 电视；电视机；电视节目"
     ]
   },
   {
     "name": "favourite",
     "trans": [
-      "adv.最喜欢的"
+      "adj. 最喜爱的；中意的",
+      "n. 特别喜爱的人或物"
     ]
   },
   {
     "name": "colour",
     "trans": [
-      "adv.颜色"
+      "n. 颜色；风格；气色，面色",
+      "vt. 把…涂颜色，粉饰；歪曲；使脸红",
+      "vi. 变色"
     ]
   },
   {
     "name": "here you are",
     "trans": [
-      "adv.给你"
+      "adv. 给你"
     ]
   },
   {
     "name": "they",
     "trans": [
-      "adv.他(她/它）们"
+      "pron. 他们；它们；她们"
     ]
   },
   {
     "name": "they're=they are",
     "trans": [
-      "adv.他(她/它）们是"
+      "adv. 他(她/它）们是"
     ]
   },
   {
     "name": "monkey",
     "trans": [
-      "adv.猴子"
+      "n. 猴；猿；淘气鬼",
+      "vi. 胡闹；捣蛋",
+      "vt. 嘲弄"
     ]
   },
   {
     "name": "baby",
     "trans": [
-      "adv.幼兽"
+      "n. 婴儿；婴孩；幼崽",
+      "vt. 把…当作婴孩看待，娇养；纵容",
+      "adj. 小孩似的；孩子的；小型的"
     ]
   },
   {
     "name": "all",
     "trans": [
-      "adv.每个，全体"
+      "adj. 全部的；所有的",
+      "pron. 全部；所有",
+      "adv. 全部地；完全地"
     ]
   },
   {
     "name": "zoo",
     "trans": [
-      "adv.动物园"
+      "n. 动物园；（铁路货车的最后一节）守车；核粒子园"
     ]
   },
   {
     "name": "tiger",
     "trans": [
-      "adv.老虎"
+      "n. 老虎；各种猫科动物；凶恶的人，虎狼之徒"
     ]
   },
   {
     "name": "lion",
     "trans": [
-      "adv.狮子"
+      "n. 狮子；名人；勇猛的人"
     ]
   },
   {
     "name": "elephant",
     "trans": [
-      "adv.大象"
+      "n. 象；大号图画纸"
     ]
   },
   {
     "name": "fat",
     "trans": [
-      "adv.胖的"
+      "n. 脂肪；肥肉",
+      "adj. 肥的，胖的；油腻的；丰满的",
+      "vt. 养肥；在…中加入脂肪"
     ]
   },
   {
     "name": "man",
     "trans": [
-      "adv.人，男人"
+      "n. 人；男人；人类",
+      "vt. 操纵；给…配置人员；使增强勇气"
     ]
   },
   {
     "name": "short",
     "trans": [
-      "adv.矮的"
+      "n. 短；缺乏；短路",
+      "adj. 短的；不足的；矮的，低的",
+      "adv. 不足；突然；唐突地"
     ]
   },
   {
     "name": "tall",
     "trans": [
-      "adv.高的"
+      "adj. 高的；长的；过分的",
+      "adv. 夸大地"
     ]
   },
   {
     "name": "small",
     "trans": [
-      "adv.小的"
+      "n. 小件物品；矮小的人",
+      "adj. 少的，小的；微弱的；几乎没有的",
+      "adv. 小小地；卑鄙地"
     ]
   },
   {
     "name": "thin",
     "trans": [
-      "adv.瘦的"
+      "n. 细小部分",
+      "adj. 薄的；瘦的；稀薄的",
+      "vt. 使瘦；使淡；使稀疏"
     ]
   },
   {
     "name": "big",
     "trans": [
-      "adv.大的"
+      "adj. 大的；巨大的；重要的",
+      "adv. 以郑重的方式；大数量",
+      "n. 杰出的组织和个人"
     ]
   },
   {
     "name": "like",
     "trans": [
-      "adv.喜欢"
+      "v. 喜欢，爱好；想要，希望",
+      "prep. 像；如同",
+      "conj. 像；如同"
     ]
   },
   {
     "name": "tootball",
     "trans": [
-      "adv.足球"
+      "adv. 足球"
     ]
   },
   {
     "name": "them",
     "trans": [
-      "adv.他(她/它）们"
+      "pron. 他们；她们；它们",
+      "n. （Them）（老）探（人名）"
     ]
   },
   {
     "name": "ouch",
     "trans": [
-      "adv.哎哟"
+      "n. 扣环",
+      "int. 哎哟（突然疼痛时发出的声音）"
     ]
   },
   {
     "name": "basketball",
     "trans": [
-      "adv.篮球"
+      "n. 篮球（运动）；篮球（球）"
     ]
   },
   {
     "name": "table tennis",
     "trans": [
-      "adv.乒乓球"
+      "n. 乒乓球"
     ]
   },
   {
     "name": "morning exercises",
     "trans": [
-      "adv.早操"
+      "adv. 早操"
     ]
   },
   {
     "name": "ride",
     "trans": [
-      "adv.骑"
+      "n. 骑；乘坐；交通工具",
+      "vi. 骑马；乘车；依靠",
+      "vt. 骑；乘；控制"
     ]
   },
   {
     "name": "bike",
     "trans": [
-      "adv.自行车"
+      "n. 自行车；摩托车；电动自行车",
+      "vi. 骑自行车"
     ]
   },
   {
     "name": "swim",
     "trans": [
-      "adv.游泳"
+      "n. 游泳；漂浮；眩晕",
+      "adj. 游泳时穿戴的",
+      "vi. 游泳；漂浮；浸"
     ]
   },
   {
     "name": "skip",
     "trans": [
-      "adv.跳绳"
+      "n. 跳跃；跳读",
+      "vt. 跳过；遗漏",
+      "vi. 跳跃；跳绳；遗漏"
     ]
   },
   {
     "name": "meat",
     "trans": [
-      "adv.肉"
+      "n. 肉；食物；实质",
+      "adj. 重要的；基本的"
     ]
   },
   {
     "name": "pass",
     "trans": [
-      "adv.传递"
+      "n. 及格；经过；护照",
+      "vt. 通过；经过；传递",
+      "vi. 经过；传递；变化"
     ]
   },
   {
     "name": "rice",
     "trans": [
-      "adv.米饭；米"
+      "n. 稻米，大米；米饭",
+      "v. 用压粒机把（食物）压成米粒状"
     ]
   },
   {
     "name": "mum",
     "trans": [
-      "adv.妈妈"
+      "n. 妈妈；沉默；菊花",
+      "adj. 沉默的；无言的",
+      "vi. 演哑剧"
     ]
   },
   {
     "name": "noodles",
     "trans": [
-      "adv.常复（面条）"
+      "n. 面条；挂面（noodle的复数形式)"
     ]
   },
   {
     "name": "fish",
     "trans": [
-      "adv.鱼肉；鱼"
+      "n. 鱼；鱼类",
+      "vt. 钓鱼，捕鱼；搜寻",
+      "vi. 捕鱼，钓鱼；用钩捞取"
     ]
   },
   {
     "name": "but",
     "trans": [
-      "adv.但是"
+      "conj. 但是；可是；然而",
+      "prep. 除了；除...以外",
+      "adv. 只有；仅仅"
     ]
   },
   {
     "name": "milk",
     "trans": [
-      "adv.牛奶"
+      "n. 牛奶；乳状物",
+      "vt. 榨取；挤…的奶",
+      "vi. 挤奶"
     ]
   },
   {
     "name": "does ",
     "trans": [
-      "adv.do的第三人称单数形式"
+      "adv. do的第三人称单数形式"
     ]
   },
   {
     "name": "orange",
     "trans": [
-      "adv.橙；柑；橘"
+      "n. 桔子，橙子；植桔树；橙色",
+      "adj. 橙色的；橘色的；桔红色的"
     ]
   },
   {
     "name": "apple",
     "trans": [
-      "adv.苹果"
+      "n. 苹果；苹果树；苹果公司"
     ]
   },
   {
     "name": "banana",
     "trans": [
-      "adv.香蕉"
+      "n. 香蕉；喜剧演员；大鹰钩鼻"
     ]
   },
   {
     "name": "pear",
     "trans": [
-      "adv.梨"
+      "n. 梨；梨树"
     ]
   },
   {
     "name": "doesn't=does not",
     "trans": [
-      "adv.不"
+      "adv. 不"
     ]
   },
   {
     "name": "goes",
     "trans": [
-      "adv.go的第三人称单数形式 去，到"
+      "vi. 前进；行走go的第三人称单数形式"
     ]
   },
   {
     "name": "on",
     "trans": [
-      "adv.在......的时候；"
+      "prep. 在...上；在...时；关于",
+      "adv. 向前；继续；进行中",
+      "adj. 开着的；进行中的；上演的"
     ]
   },
   {
     "name": "Monday",
     "trans": [
-      "adv.星期一"
+      "n. 星期一"
     ]
   },
   {
     "name": "play",
     "trans": [
-      "adv.参加（体育活动、比赛等）"
+      "n. 游戏；比赛；剧本",
+      "vt. 游戏；扮演；演奏",
+      "vi. 演奏；玩耍；上演"
     ]
   },
   {
     "name": "phone",
     "trans": [
-      "adv.电话；电话机"
+      "n. 电话；耳机，听筒",
+      "vt. 打电话",
+      "vi. 打电话"
     ]
   },
   {
     "name": "on the phone",
     "trans": [
-      "adv.通电话"
+      "n. 正在打电话"
     ]
   },
   {
     "name": "with",
     "trans": [
-      "adv.与......在一起，同，跟，和"
+      "prep. 和...一起；用；具有"
     ]
   },
   {
     "name": "friend",
     "trans": [
-      "adv.朋友"
+      "n. 朋友；友人；赞助者",
+      "vt. 做朋友；对人友好"
     ]
   },
   {
     "name": "at",
     "trans": [
-      "adv.在......"
+      "prep. 在（某时间、地点）；以（某种速度、价格等）；从事于",
+      "adv. 在；正在进行"
     ]
   },
   {
     "name": "home",
     "trans": [
-      "adv.家"
+      "n. 家，住宅；产地；家乡",
+      "adj. 国内的，家庭的；有效的",
+      "vt. 归巢；回家"
     ]
   },
   {
     "name": "at home",
     "trans": [
-      "adv.在家"
+      "adv. 在家"
     ]
   },
   {
     "name": "who",
     "trans": [
-      "adv.谁"
+      "pron. 谁，什么人；…的人；他，她，他们"
     ]
   },
   {
     "name": "only",
     "trans": [
-      "adv.只，仅仅"
+      "adj. 唯一的，仅有的；最好的，极好的",
+      "adv. 仅仅；只",
+      "conj. 可是；不过"
     ]
   },
   {
     "name": "year",
     "trans": [
-      "adv.年龄，岁数"
+      "n. 年；年度；学年",
+      "adv. 每年；一年一次"
     ]
   },
   {
     "name": "work",
     "trans": [
-      "adv.工作地点"
+      "n. 工作；功；产品",
+      "vt. 使工作；操作；经营",
+      "vi. 工作；运作；起作用"
     ]
   },
   {
     "name": "go to work",
     "trans": [
-      "adv.上班"
+      "v. 着手工作"
     ]
   },
   {
     "name": "saturday",
     "trans": [
-      "adv.星期六"
+      "n. 星期六"
     ]
   },
   {
     "name": "shopping",
     "trans": [
-      "adv.购物"
+      "n. 购物；买东西",
+      "v. 购物（shop的ing形式）"
     ]
   },
   {
     "name": "go shopping",
     "trans": [
-      "adv.去购物"
+      "n. 去买东西"
     ]
   },
   {
     "name": "dad",
     "trans": [
-      "adv.爸爸"
+      "n. 爸爸；爹爹"
     ]
   },
   {
     "name": "do",
     "trans": [
-      "adv.做，干"
+      "vi. 行，足够；生长",
+      "n. 要求；规定；C大调音阶中的第一音",
+      "v. 做；干；学习"
     ]
   },
   {
     "name": "sunday",
     "trans": [
-      "adv.星期日"
+      "n. 星期日；礼拜日",
+      "adj. 星期日的"
     ]
   },
   {
     "name": "swimming",
     "trans": [
-      "adv.游泳(运动）"
+      "n. 游泳；目眩",
+      "adj. 游泳的；游泳用的；善于游泳的",
+      "v. 游泳；漂浮；旋转（swim的ing形式）"
     ]
   },
   {
     "name": "go swimming",
     "trans": [
-      "adv.去游泳"
+      "n. 去游泳"
     ]
   },
   {
     "name": "eat",
     "trans": [
-      "adv.吃"
+      "vt. 吃；喝；消耗",
+      "vi. 吃饭；侵蚀",
+      "n. 食物"
     ]
   },
   {
     "name": "in",
     "trans": [
-      "adv.在......期间，在......时候"
+      "adv. 进入；在里头；到达",
+      "n. 执政者；门路",
+      "prep. 在……内；进……里；在……期间"
     ]
   },
   {
     "name": "sleep",
     "trans": [
-      "adv.睡觉"
+      "v. 睡；睡觉",
+      "vi. 睡，睡觉；睡眠状态",
+      "vt. 为…提供床位；提供住宿；以睡觉打发日子"
     ]
   },
   {
     "name": "watch",
     "trans": [
-      "adv.观看"
+      "n. 手表；监视；守护",
+      "vt. 观察；注视；看守",
+      "vi. 观看，注视；守侯，看守"
     ]
   },
   {
     "name": "watch TV",
     "trans": [
-      "adv.看电视"
+      "v. 看电视"
     ]
   },
   {
     "name": "have",
     "trans": [
-      "adv.做，进行，从事"
+      "aux. 已经；曾经",
+      "vt. 有；吃；从事"
     ]
   },
   {
     "name": "class",
     "trans": [
-      "adv.课；班级"
+      "n. 班级；课程；等级",
+      "adj. 一流的；优秀的",
+      "v. 分类；归类"
     ]
   },
   {
     "name": "today",
     "trans": [
-      "adv.今天"
+      "adv. 在今天；现在；当今",
+      "n. 今天；当今",
+      "adj. 现在的"
     ]
   },
   {
     "name": "music",
     "trans": [
-      "adv.音乐"
+      "n. 音乐；乐曲；乐谱"
     ]
   },
   {
     "name": "has",
     "trans": [
-      "adv.have的第三人称单数形式 进行，从事"
+      "v. （亲属关系中）接受；拿；买到"
     ]
   },
   {
     "name": "Chinese",
     "trans": [
-      "adv.语文，汉语"
+      "n. 中国人；华人；中文",
+      "adj. 中国的；中国人的；中国话的"
     ]
   },
   {
     "name": "maths",
     "trans": [
-      "adv.数学"
+      "n. (英)数学；mathematics(英)"
     ]
   },
   {
     "name": "art",
     "trans": [
-      "adv.美术"
+      "n. 艺术；美术；艺术品",
+      "v. 是（be的变体）",
+      "adj. 艺术的；艺术品的"
     ]
   },
   {
     "name": "PE=physical education",
     "trans": [
-      "adv.体育"
+      "adv. 体育"
     ]
   },
   {
     "name": "science",
     "trans": [
-      "adv.科学"
+      "n. 科学；自然科学；学科"
     ]
   },
   {
     "name": "we",
     "trans": [
-      "adv.我们"
+      "pron. 我们；咱们；我们大家"
     ]
   },
   {
     "name": "fly",
     "trans": [
-      "adv.放（风筝）"
+      "n. 飞行；苍蝇；两翼昆虫",
+      "adj. 敏捷的",
+      "vi. 飞；驾驶飞机；飘扬"
     ]
   },
   {
     "name": "spring",
     "trans": [
-      "adv.春天"
+      "n. 春天；泉水；弹簧",
+      "v. 跳跃；突然出现；使弹起",
+      "adj. 春天的；弹簧的"
     ]
   },
   {
     "name": "summer",
     "trans": [
-      "adv.夏天"
+      "n. 夏季；全盛时期",
+      "adj. 夏季的",
+      "vi. 避暑；过夏天"
     ]
   },
   {
     "name": "season",
     "trans": [
-      "adv.季节"
+      "n. 时期；季节；赛季",
+      "vt. 给…调味；使适应",
+      "vi. 变得成熟；变干燥"
     ]
   },
   {
     "name": "nice",
     "trans": [
-      "adv.迷人的，令人愉快的"
+      "adj. 令人愉快的，宜人的；友好的，亲切的；好的，出色的",
+      "adv. 好地；令人愉快地"
     ]
   },
   {
     "name": "warm",
     "trans": [
-      "adv.暖和的"
+      "n. 取暖；加热",
+      "adj. 温暖的；热情的",
+      "vt. 使…兴奋；使…温暖；使…感兴趣"
     ]
   },
   {
     "name": "hot",
     "trans": [
-      "adv.热的"
+      "adj. 热的；辣的；热情的",
+      "vt. 增加；给…加温",
+      "adv. 热；紧迫地"
     ]
   },
   {
     "name": "autumn",
     "trans": [
-      "adv.秋天"
+      "n. 秋天；成熟期；渐衰期，凋落期",
+      "adj. 秋天的；秋季的"
     ]
   },
   {
     "name": "cool",
     "trans": [
-      "adv.凉爽的"
+      "n. 凉爽；凉爽的空气",
+      "adj. 凉爽的；冷静的；出色的",
+      "vt. 使…冷却；使…平静下来"
     ]
   },
   {
     "name": "winter",
     "trans": [
-      "adv.冬天"
+      "n. 冬季；年岁；萧条期",
+      "adj. 冬天的；越冬的",
+      "vi. 过冬"
     ]
   },
   {
     "name": "cold",
     "trans": [
-      "adv.寒冷的"
+      "n. 寒冷；感冒",
+      "adj. 寒冷的；冷淡的，不热情的；失去知觉的",
+      "adv. 完全地"
     ]
   },
   {
     "name": "skating",
     "trans": [
-      "adv.滑冰"
+      "n. 溜冰；如履薄冰；身处险境",
+      "v. 溜冰；滑冰( skate的现在分词 )"
     ]
   },
   {
     "name": "go skating",
     "trans": [
-      "adv.去滑冰"
+      "adv. 去滑冰"
     ]
   },
   {
     "name": "play",
     "trans": [
-      "adv.玩，玩耍"
+      "n. 游戏；比赛；剧本",
+      "vt. 游戏；扮演；演奏",
+      "vi. 演奏；玩耍；上演"
     ]
   },
   {
     "name": "snow",
     "trans": [
-      "adv.学；下雪"
+      "n. 雪；下雪；似雪花的东西",
+      "vi. 下雪",
+      "vt. 雪一般落下；使雪白；欺骗"
     ]
   },
   {
     "name": "rain",
     "trans": [
-      "adv.雨；下雨"
+      "n. 雨；下雨；雨天",
+      "vt. 大量地给；使大量落下",
+      "vi. 下雨；降雨"
     ]
   },
   {
     "name": "sunny",
     "trans": [
-      "adv.晴朗的，阳光充足的"
+      "adj. 阳光充足的，和煦的；快活的；性情开朗的"
     ]
   },
   {
     "name": "windy",
     "trans": [
-      "adv.有风的，刮风的"
+      "adj. 多风的，有风的；腹胀的；吹牛的"
     ]
   },
   {
     "name": "very",
     "trans": [
-      "adv.很，非常"
+      "adv. 很；完全；真正地",
+      "adj. 真的；真正的；同一的"
     ]
   },
   {
     "name": "toy",
     "trans": [
-      "adv.玩具"
+      "n. 玩具；玩物；小玩意",
+      "adj. 玩具的；作为玩具的；微小的",
+      "v. 玩弄；摆弄；戏弄"
     ]
   },
   {
     "name": "under",
     "trans": [
-      "adv.在......下面"
+      "prep. 在...之下；低于；少于",
+      "adv. 在下面；向下",
+      "adj. 较低的；下级的"
     ]
   },
   {
     "name": "for",
     "trans": [
-      "adv.为，给，对"
+      "prep. 表示目的；表示对象；表示时间",
+      "conj. 因为；由于"
     ]
   },
   {
     "name": "box",
     "trans": [
-      "adv.盒子"
+      "n. 箱，盒子；包厢；一拳",
+      "vt. 拳击；装…入盒中；打耳光",
+      "vi. 拳击"
     ]
   },
   {
     "name": "behind",
     "trans": [
-      "adv.在......后面"
+      "prep. 在...后面；在...背后；落后于",
+      "adv. 在后面；落后",
+      "n. 屁股；臀部"
     ]
   },
   {
     "name": "bedroom",
     "trans": [
-      "adv.卧室"
+      "n. 卧室；寝室",
+      "adj. 城郊住宅区的；两性关系的；男女性爱的"
     ]
   },
   {
     "name": "flies",
     "trans": [
-      "adv.fly的第三人称单数形式"
+      "n. 苍蝇（fly的复数）；舞台上空，吊景区；裤子前面的开口",
+      "v. 飞行；时间飞逝；乘飞机"
     ]
   },
   {
     "name": "park",
     "trans": [
-      "adv.公园"
+      "n. 公园；停车场",
+      "vt. 停放；放置；寄存",
+      "vi. 停放车辆"
     ]
   },
   {
     "name": "lake",
     "trans": [
-      "adv.湖"
+      "n. 湖；深红色颜料；胭脂红",
+      "vt. （使）血球溶解",
+      "vi. （使）血球溶解"
     ]
   },
   {
     "name": "tree",
     "trans": [
-      "adv.树"
+      "n. 树；木料；树状物",
+      "vt. 把...赶上树",
+      "vi. 爬上树；逃上树"
     ]
   },
   {
     "name": "fishing",
     "trans": [
-      "adv.捕鱼，钓鱼"
+      "n. 渔业；捕鱼（术）；试探",
+      "adj. 钓鱼的；钓鱼用的",
+      "v. 捕鱼（fish的ing形式）"
     ]
   },
   {
     "name": "go fishing",
     "trans": [
-      "adv.去钓鱼"
+      "adv. 去钓鱼"
     ]
   },
   {
     "name": "walk",
     "trans": [
-      "adv.行走，步行"
+      "n. 步行，走；散步",
+      "vi. 走，步行；散步",
+      "vt. 散步；走过"
     ]
   },
   {
     "name": "have got",
     "trans": [
-      "adv.有"
+      "adv. 有"
     ]
   },
   {
     "name": "sweater",
     "trans": [
-      "adv.毛绒衫"
+      "n. 毛衣，运动衫；出汗（过多）的人，发汗剂；榨取别人血汗的人（或工厂、公司等）",
+      "adj. 运动衫的；运动衫式的"
     ]
   },
   {
     "name": "bed",
     "trans": [
-      "adv.床"
+      "n. 床；基础；河底， 海底",
+      "vt. 使睡觉；安置，嵌入；栽种",
+      "vi. 上床；分层"
     ]
   },
   {
     "name": "line",
     "trans": [
-      "adv.线，金属丝"
+      "n. 路线，航线；排；绳",
+      "vt. 排成一行；划线于；以线条标示",
+      "vi. 排队；站成一排"
     ]
   },
   {
     "name": "about",
     "trans": [
-      "adv.关于"
+      "prep. 关于；大约",
+      "n. 大致；粗枝大叶；不拘小节的人",
+      "adj. 在附近的；四处走动的；在起作用的"
     ]
   },
   {
     "name": "animal",
     "trans": [
-      "adv.动物"
+      "n. 动物；兽；兽性",
+      "adj. 动物的；野兽的；动物性的"
     ]
   },
   {
     "name": "sport",
     "trans": [
-      "adv.运动"
+      "n. 运动；游戏；娱乐",
+      "adj. 运动的",
+      "vt. 游戏；参加体育运动；夸耀"
     ]
   },
   {
     "name": "haven't(got)=have not)got)",
     "trans": [
-      "adv.没有"
+      "adv. 没有"
     ]
   },
   {
     "name": "dress",
     "trans": [
-      "adv.连衣裙"
+      "n. 女服；童装；服装",
+      "vi. 穿著",
+      "adj. 正式的(衣服)"
     ]
   },
   {
     "name": "coat",
     "trans": [
-      "adv.外套"
+      "n. 外套；涂层；表皮",
+      "vt. 给……穿外套；涂上"
     ]
   },
   {
     "name": "T-shirt",
     "trans": [
-      "adv.T恤衫"
+      "n. T恤，短袖汗衫；样式类似T恤的外衣"
     ]
   },
   {
     "name": "has got",
     "trans": [
-      "adv.have got的第三人称单数形式 有"
+      "有；拥有；过去完成时"
     ]
   },
   {
     "name": "hasn't(got)=has not(got)",
     "trans": [
-      "adv.没有"
+      "adv. 没有"
     ]
   },
   {
     "name": "by",
     "trans": [
-      "adv.乘（交通工具）"
+      "prep. 在...旁；被；由",
+      "adv. 靠近；经过；放在一旁地",
+      "adj. 在旁边的；附带的"
     ]
   },
   {
     "name": "bus",
     "trans": [
-      "adv.公共汽车"
+      "n. 公共汽车，巴士，客机；（口）汽车，机器脚踏车，飞机；计（电脑的）总线",
+      "vt. 用公共汽车运送",
+      "vi. 乘公共汽车；打杂工"
     ]
   },
   {
     "name": "car",
     "trans": [
-      "adv.汽车，轿车"
+      "n. 汽车；小汽车；轿车"
     ]
   },
   {
     "name": "hat",
     "trans": [
-      "adv.帽子"
+      "n. 帽子；（帽子所表示的）职位，职务",
+      "vt. 给…戴上帽子；为…提供帽子",
+      "vi. 供应帽子；制造帽子"
     ]
   },
   {
     "name": "come",
     "trans": [
-      "adv.来，来到"
+      "vi. 来；开始；出现",
+      "vt. 做；假装；将满（…岁）",
+      "int. 嗨！"
     ]
   },
   {
     "name": "back",
     "trans": [
-      "adv.回到，返回"
+      "n. 背部；后面",
+      "adj. 后面的；背后的",
+      "adv. 向后地；回来"
     ]
   },
   {
     "name": "come back",
     "trans": [
-      "adv.回来"
+      "n. 回来；想起来；复原"
     ]
   },
   {
     "name": "clothes",
     "trans": [
-      "adv.(常复）衣服"
+      "n. 衣服，衣物；寝具",
+      "v. 给…提供衣服；（用语言）表达；覆盖"
     ]
   },
   {
     "name": "open",
     "trans": [
-      "adv.打开"
+      "adj. 公开的；敞开的；空旷的",
+      "vi. 开始；展现",
+      "vt. 公开；打开"
     ]
   },
   {
     "name": "let's=let us",
     "trans": [
-      "adv.让我们"
+      "adv. 让我们"
     ]
   },
   {
     "name": "put on",
     "trans": [
-      "adv.穿上，戴上"
+      "adv. 穿上；戴上"
     ]
   },
   {
     "name": "punny",
     "trans": [
-      "adv.滑稽的"
+      "adv. 滑稽的"
     ]
   },
   {
     "name": "party",
     "trans": [
-      "adv.聚会"
+      "n. 聚会，派对；政党；当事人，参与者",
+      "v. 参加社交聚会"
     ]
   },
   {
     "name": "OK",
     "trans": [
-      "adv.好的"
+      "adj. 好的；可以的；不错的",
+      "adv. 好；行",
+      "n. 同意；批准"
     ]
   },
   {
     "name": "brown",
     "trans": [
-      "adv.褐色的，棕色的"
+      "adj. 棕色的；褐色的；被晒黑的",
+      "n. 褐色；棕色",
+      "v. 变成棕色；成褐色；晒黑"
     ]
   },
   {
     "name": "trousers",
     "trans": [
-      "adv.(常复）裤子"
+      "n. 长裤；裤子"
     ]
   },
   {
     "name": "orange",
     "trans": [
-      "adv.橙色的，橘黄色的"
+      "n. 桔子，橙子；植桔树；橙色",
+      "adj. 橙色的；橘色的；桔红色的"
     ]
   },
   {
     "name": "shirt",
     "trans": [
-      "adv.寸衫"
+      "n. 衬衫；衬衣"
     ]
   },
   {
     "name": "look at",
     "trans": [
-      "adv.看，朝......看"
+      "n. 看；考虑"
     ]
   },
   {
     "name": "shoe",
     "trans": [
-      "adv.鞋子"
+      "n. 鞋；蹄铁；（汽车轮的）制动器，煞车",
+      "vt. 为…钉蹄铁；给…穿上鞋；装防护物"
     ]
   },
   {
     "name": "can't=can not",
     "trans": [
-      "adv.不能"
+      "adv. 不能"
     ]
   },
   {
     "name": "turn",
     "trans": [
-      "adv.（多人依次轮流时）轮到的机会"
+      "n. 转弯；变化",
+      "vi. 转向；转变；转动",
+      "vt. 转动，使旋转；转弯；翻过来"
     ]
   },
   {
     "name": "white",
     "trans": [
-      "adv.白色的"
+      "adj. 白色的；苍白的；白人的",
+      "n. 白色；白颜色；白人",
+      "v. 使变白；漂白"
     ]
   },
   {
     "name": "photo",
     "trans": [
-      "adv.照片"
+      "n. 照片；相片",
+      "vt.&vi. （给…）拍照"
     ]
   },
   {
     "name": "skirt",
     "trans": [
-      "adv.女裙，裙子"
+      "n. 女裙；边缘；郊区",
+      "vt. 位于...边缘；装边于；回避",
+      "vi. 形成边缘；绕...走；避开"
     ]
   }
 ]

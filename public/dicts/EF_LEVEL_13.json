@@ -1,1376 +1,1521 @@
 [
-    {
-        "name": "benchmark",
-        "usphone": "ˈbentʃmɑːrk",
-        "ukphone": "ˈbentʃmɑːk",
-        "trans": [
-            "标准检查程序, 基准点, 参照点"
-        ]
-    },
-    {
-        "name": "assess",
-        "usphone": "əˈses",
-        "ukphone": "əˈses",
-        "trans": [
-            "评估,估价,评定"
-        ]
-    },
-    {
-        "name": "surpass",
-        "usphone": "sərˈpæs",
-        "ukphone": "səˈpɑːs",
-        "trans": [
-            "超越, 胜过"
-        ]
-    },
-    {
-        "name": "target",
-        "usphone": "ˈtɑːrɡɪt",
-        "ukphone": "ˈtɑːɡɪt",
-        "trans": [
-            "目标"
-        ]
-    },
-    {
-        "name": "incentivize",
-        "usphone": "ɪnˈsentɪvaɪz",
-        "ukphone": "ɪnˈsentɪvaɪz",
-        "trans": [
-            "刺激, 激励"
-        ]
-    },
-    {
-        "name": "pinpoint",
-        "usphone": "ˈpɪnpɔɪnt",
-        "ukphone": "ˈpɪnpɔɪnt",
-        "trans": [
-            "精确地找到, 瞄准, 使突出"
-        ]
-    },
-    {
-        "name": "define",
-        "usphone": "dɪˈfaɪn",
-        "ukphone": "dɪˈfaɪn",
-        "trans": [
-            "下定义, 解释"
-        ]
-    },
-    {
-        "name": "trait",
-        "usphone": "treɪt",
-        "ukphone": "treɪt",
-        "trans": [
-            "个性,特征,特点"
-        ]
-    },
-    {
-        "name": "proactive",
-        "usphone": "ˌproʊˈæktɪv",
-        "ukphone": "ˌprəʊˈæktɪv",
-        "trans": [
-            "积极主动的, 主动出击的, 先发制人的"
-        ]
-    },
-    {
-        "name": "adversity",
-        "usphone": "ədˈvɜːrsəti",
-        "ukphone": "ədˈvɜːsəti",
-        "trans": [
-            "逆境,窘境,泥潭"
-        ]
-    },
-    {
-        "name": "persistent",
-        "usphone": "pərˈsɪstənt",
-        "ukphone": "pəˈsɪstənt",
-        "trans": [
-            "固执的, 持续的, 坚持的"
-        ]
-    },
-    {
-        "name": "voucher",
-        "usphone": "ˈvaʊtʃər",
-        "ukphone": "ˈvaʊtʃə(r)",
-        "trans": [
-            "(代替现金的)凭单, 凭证, 代金券"
-        ]
-    },
-    {
-        "name": "entrepreneur",
-        "usphone": "ˌɑːntrəprəˈnɜːr",
-        "ukphone": "ˌɒntrəprəˈnɜː(r)",
-        "trans": [
-            "企业家"
-        ]
-    },
-    {
-        "name": "failure",
-        "usphone": "ˈfeɪljər",
-        "ukphone": "ˈfeɪljə(r)",
-        "trans": [
-            "失败"
-        ]
-    },
-    {
-        "name": "success",
-        "usphone": "səkˈses",
-        "ukphone": "səkˈses",
-        "trans": [
-            "成功"
-        ]
-    },
-    {
-        "name": "high-tech",
-        "trans": [
-            "高科技的"
-        ],
-        "usphone": ",haɪ'tɛk",
-        "ukphone": "'haɪ'tek"
-    },
-    {
-        "name": "start-up",
-        "trans": [
-            "开办阶段的企业"
-        ]
-    },
-    {
-        "name": "widespread",
-        "usphone": "ˈwaɪdspred",
-        "ukphone": "ˈwaɪdspred",
-        "trans": [
-            "分布广泛的, 普遍的"
-        ]
-    },
-    {
-        "name": "dot-com",
-        "usphone": "ˌdɑːtˈkɑːm",
-        "ukphone": "ˌdɒtˈkɒm",
-        "trans": [
-            "网络公司"
-        ]
-    },
-    {
-        "name": "reward",
-        "usphone": "rɪˈwɔːrd",
-        "ukphone": "rɪˈwɔːd",
-        "trans": [
-            "奖励"
-        ]
-    },
-    {
-        "name": "reach",
-        "usphone": "riːtʃ",
-        "ukphone": "riːtʃ",
-        "trans": [
-            "增加"
-        ]
-    },
-    {
-        "name": "substantial",
-        "usphone": "səbˈstænʃl",
-        "ukphone": "səbˈstænʃl",
-        "trans": [
-            "大量的, 可观的"
-        ]
-    },
-    {
-        "name": "quality",
-        "usphone": "ˈkwɑːləti",
-        "ukphone": "ˈkwɒləti",
-        "trans": [
-            "质量, 品质"
-        ]
-    },
-    {
-        "name": "manner",
-        "usphone": "ˈmænər",
-        "ukphone": "ˈmænə(r)",
-        "trans": [
-            "方式, 方法"
-        ]
-    },
-    {
-        "name": "resilient",
-        "usphone": "rɪˈzɪliənt",
-        "ukphone": "rɪˈzɪliənt",
-        "trans": [
-            "达观的, 适应性强的"
-        ]
-    },
-    {
-        "name": "pragmatic",
-        "usphone": "præɡˈmætɪk",
-        "ukphone": "præɡˈmætɪk",
-        "trans": [
-            "务实的,实事求是的,注重实效的"
-        ]
-    },
-    {
-        "name": "sculpture",
-        "usphone": "ˈskʌlptʃər",
-        "ukphone": "ˈskʌlptʃə(r)",
-        "trans": [
-            "雕塑; 雕刻"
-        ]
-    },
-    {
-        "name": "architecture",
-        "usphone": "ˈɑːrkɪtektʃər",
-        "ukphone": "ˈɑːkɪtektʃə(r)",
-        "trans": [
-            "建筑学,建筑美学"
-        ]
-    },
-    {
-        "name": "perspective",
-        "usphone": "pərˈspektɪv",
-        "ukphone": "pəˈspektɪv",
-        "trans": [
-            "观点,态度,看法"
-        ]
-    },
-    {
-        "name": "evoke",
-        "usphone": "ɪˈvoʊk",
-        "ukphone": "ɪˈvəʊk",
-        "trans": [
-            "唤起"
-        ]
-    },
-    {
-        "name": "craft",
-        "usphone": "kræft",
-        "ukphone": "krɑːft",
-        "trans": [
-            "手工艺"
-        ]
-    },
-    {
-        "name": "graphic",
-        "usphone": "ˈɡræfɪk",
-        "ukphone": "ˈɡræfɪk",
-        "trans": [
-            "图形"
-        ]
-    },
-    {
-        "name": "design",
-        "usphone": "dɪˈzaɪn",
-        "ukphone": "dɪˈzaɪn",
-        "trans": [
-            "设计"
-        ]
-    },
-    {
-        "name": "ceramic",
-        "usphone": "səˈræmɪk",
-        "ukphone": "səˈræmɪk",
-        "trans": [
-            "制陶工艺,陶器制法"
-        ]
-    },
-    {
-        "name": "architecture",
-        "usphone": "ˈɑːrkɪtektʃər",
-        "ukphone": "ˈɑːkɪtektʃə(r)",
-        "trans": [
-            "建筑学,建筑美学"
-        ]
-    },
-    {
-        "name": "photograph",
-        "usphone": "ˈfoʊtəɡræf",
-        "ukphone": "ˈfəʊtəɡrɑːf",
-        "trans": [
-            "相片, 照片"
-        ]
-    },
-    {
-        "name": "industrial",
-        "usphone": "ɪnˈdʌstriəl",
-        "ukphone": "ɪnˈdʌstriəl",
-        "trans": [
-            "工业的, 与工业有关的"
-        ]
-    },
-    {
-        "name": "painting",
-        "usphone": "ˈpeɪntɪŋ",
-        "ukphone": "ˈpeɪntɪŋ",
-        "trans": [
-            "油画"
-        ]
-    },
-    {
-        "name": "drawing",
-        "usphone": "ˈdrɔːɪŋ",
-        "ukphone": "ˈdrɔːɪŋ",
-        "trans": [
-            "图画"
-        ]
-    },
-    {
-        "name": "pottery",
-        "usphone": "ˈpɑːtəri",
-        "ukphone": "ˈpɒtəri",
-        "trans": [
-            "陶器"
-        ]
-    },
-    {
-        "name": "contrast",
-        "usphone": "ˈkɑːntræst",
-        "ukphone": "ˈkɒntrɑːst",
-        "trans": [
-            "对比, 对照"
-        ]
-    },
-    {
-        "name": "convey",
-        "usphone": "kənˈveɪ",
-        "ukphone": "kənˈveɪ",
-        "trans": [
-            "传递,表达(思想、感情等)"
-        ]
-    },
-    {
-        "name": "theme",
-        "usphone": "θiːm",
-        "ukphone": "θiːm",
-        "trans": [
-            "主题, 话题, 题目"
-        ]
-    },
-    {
-        "name": "inference",
-        "usphone": "ˈɪnfərəns",
-        "ukphone": "ˈɪnfərəns",
-        "trans": [
-            "推断结果,结论;推论,推理,推断"
-        ]
-    },
-    {
-        "name": "fascinate",
-        "usphone": "ˈfæsɪneɪt",
-        "ukphone": "ˈfæsɪneɪt",
-        "trans": [
-            "吸引"
-        ]
-    },
-    {
-        "name": "character",
-        "usphone": "ˈkærəktər",
-        "ukphone": "ˈkærəktə(r)",
-        "trans": [
-            "主要人物"
-        ]
-    },
-    {
-        "name": "thin",
-        "usphone": "θɪn",
-        "ukphone": "θɪn",
-        "trans": [
-            "瘦的, 肉少的"
-        ]
-    },
-    {
-        "name": "wiry",
-        "usphone": "ˈwaɪəri",
-        "ukphone": "ˈwaɪəri",
-        "trans": [
-            "肌肉强韧的,坚硬的,瘦长而结实的"
-        ]
-    },
-    {
-        "name": "dark",
-        "usphone": "dɑːrk",
-        "ukphone": "dɑːk",
-        "trans": [
-            "黑暗的, 暗的, 阴暗的"
-        ]
-    },
-    {
-        "name": "foggy",
-        "usphone": "ˈfɔːɡi",
-        "ukphone": "ˈfɒɡi",
-        "trans": [
-            "模糊的，有雾的"
-        ]
-    },
-    {
-        "name": "dim",
-        "usphone": "dɪm",
-        "ukphone": "dɪm",
-        "trans": [
-            "暗淡的"
-        ]
-    },
-    {
-        "name": "glow",
-        "usphone": "ɡloʊ",
-        "ukphone": "ɡləʊ",
-        "trans": [
-            "辉光"
-        ]
-    },
-    {
-        "name": "stimulate",
-        "usphone": "ˈstɪmjuleɪt",
-        "ukphone": "ˈstɪmjuleɪt",
-        "trans": [
-            "刺激"
-        ]
-    },
-    {
-        "name": "innovation",
-        "usphone": "ˌɪnəˈveɪʃn",
-        "ukphone": "ˌɪnəˈveɪʃn",
-        "trans": [
-            "新方法,新事物;革新,创新"
-        ]
-    },
-    {
-        "name": "curiosity",
-        "usphone": "ˌkjʊriˈɑːsəti",
-        "ukphone": "ˌkjʊəriˈɒsəti",
-        "trans": [
-            "好奇心"
-        ]
-    },
-    {
-        "name": "visualize",
-        "usphone": "ˈvɪʒuəlaɪz",
-        "ukphone": "ˈvɪʒuəlaɪz",
-        "trans": [
-            "形象, 想象, 形象化; 想象, 显现"
-        ]
-    },
-    {
-        "name": "moral",
-        "usphone": "ˈmɔːrəl",
-        "ukphone": "ˈmɒrəl",
-        "trans": [
-            "道德(上)的"
-        ]
-    },
-    {
-        "name": "gang",
-        "usphone": "ɡæŋ",
-        "ukphone": "ɡæŋ",
-        "trans": [
-            "团伙，匪帮"
-        ]
-    },
-    {
-        "name": "dilapidated",
-        "usphone": "dɪˈlæpɪdeɪtɪd",
-        "ukphone": "dɪˈlæpɪdeɪtɪd",
-        "trans": [
-            "残破的"
-        ]
-    },
-    {
-        "name": "combat",
-        "usphone": "ˈkɑːmbæt",
-        "ukphone": "ˈkɒmbæt",
-        "trans": [
-            "阻止,防止"
-        ]
-    },
-    {
-        "name": "revitalize",
-        "usphone": "ˌriːˈvaɪtəlaɪz",
-        "ukphone": "ˌriːˈvaɪtəlaɪz",
-        "trans": [
-            "使(某事物)恢复生机; 使新生; 使再兴"
-        ]
-    },
-    {
-        "name": "graffiti",
-        "usphone": "ɡrəˈfiːti",
-        "ukphone": "ɡrəˈfiːti",
-        "trans": [
-            "涂鸦"
-        ]
-    },
-    {
-        "name": "sponsor",
-        "usphone": "ˈspɑːnsər",
-        "ukphone": "ˈspɒnsə(r)",
-        "trans": [
-            "赞助商"
-        ]
-    },
-    {
-        "name": "vandalism",
-        "usphone": "ˈvændəlɪzəm",
-        "ukphone": "ˈvændəlɪzəm",
-        "trans": [
-            "人为破坏"
-        ]
-    },
-    {
-        "name": "attack",
-        "usphone": "əˈtæk",
-        "ukphone": "əˈtæk",
-        "trans": [
-            "攻击, 袭击"
-        ]
-    },
-    {
-        "name": "violent",
-        "usphone": "ˈvaɪələnt",
-        "ukphone": "ˈvaɪələnt",
-        "trans": [
-            "猛烈的, 强烈的, 暴力的, 极端的"
-        ]
-    },
-    {
-        "name": "neglected",
-        "usphone": "nɪˈɡlektɪd",
-        "ukphone": "nɪˈɡlektɪd",
-        "trans": [
-            "忽视的; 弃置的; 疏忽的, 玩忽的"
-        ]
-    },
-    {
-        "name": "disadvantaged",
-        "usphone": "ˌdɪsədˈvæntɪdʒd",
-        "ukphone": "ˌdɪsədˈvɑːntɪdʒd",
-        "trans": [
-            "贫困的"
-        ]
-    },
-    {
-        "name": "insufficient",
-        "usphone": "ˌɪnsəˈfɪʃnt",
-        "ukphone": "ˌɪnsəˈfɪʃnt",
-        "trans": [
-            "不足的"
-        ]
-    },
-    {
-        "name": "illiterate",
-        "usphone": "ɪˈlɪtərət",
-        "ukphone": "ɪˈlɪtərət",
-        "trans": [
-            "不识字的; 没受教育的"
-        ]
-    },
-    {
-        "name": "improbable",
-        "usphone": "ɪmˈprɑːbəbl",
-        "ukphone": "ɪmˈprɒbəbl",
-        "trans": [
-            "未必会发生的; 不大可能的"
-        ]
-    },
-    {
-        "name": "irregular",
-        "usphone": "ɪˈreɡjələr",
-        "ukphone": "ɪˈreɡjələ(r)",
-        "trans": [
-            "(形状)不规则的; (安排)无规律的; 不平坦的"
-        ]
-    },
-    {
-        "name": "undernourished",
-        "usphone": "ˌʌndərˈnɜːrɪʃt",
-        "ukphone": "ˌʌndəˈnʌrɪʃt",
-        "trans": [
-            "营养不良的"
-        ]
-    },
-    {
-        "name": "overpopulated",
-        "usphone": "ˌoʊvərˈpɑːpjuleɪtɪd",
-        "ukphone": "ˌəʊvəˈpɒpjuleɪtɪd",
-        "trans": [
-            "人口过多的"
-        ]
-    },
-    {
-        "name": "philanthropy",
-        "usphone": "fɪˈlænθrəpi",
-        "ukphone": "fɪˈlænθrəpi",
-        "trans": [
-            "博爱, 慈善, 仁慈"
-        ]
-    },
-    {
-        "name": "donor",
-        "usphone": "ˈdoʊnər",
-        "ukphone": "ˈdəʊnə(r)",
-        "trans": [
-            "捐赠者"
-        ]
-    },
-    {
-        "name": "expertise",
-        "usphone": "ˌekspɜːrˈtiːz",
-        "ukphone": "ˌekspɜːˈtiːz",
-        "trans": [
-            "专门知识"
-        ]
-    },
-    {
-        "name": "pledge",
-        "usphone": "pledʒ",
-        "ukphone": "pledʒ",
-        "trans": [
-            "发誓,起誓,保证"
-        ]
-    },
-    {
-        "name": "conform",
-        "usphone": "kənˈfɔːrm",
-        "ukphone": "kənˈfɔːm",
-        "trans": [
-            "顺应,顺从(大多数人或社会)"
-        ]
-    },
-    {
-        "name": "manipulate",
-        "usphone": "məˈnɪpjuleɪt",
-        "ukphone": "məˈnɪpjuleɪt",
-        "trans": [
-            "控制, 操纵, 影响"
-        ]
-    },
-    {
-        "name": "turnover",
-        "usphone": "ˈtɜːrnoʊvər",
-        "ukphone": "ˈtɜːnəʊvə(r)",
-        "trans": [
-            "营业额,周转额"
-        ]
-    },
-    {
-        "name": "perception",
-        "usphone": "pərˈsepʃn",
-        "ukphone": "pəˈsepʃn",
-        "trans": [
-            "知觉, 领悟力, 感觉"
-        ]
-    },
-    {
-        "name": "publicity",
-        "usphone": "pʌbˈlɪsəti",
-        "ukphone": "pʌbˈlɪsəti",
-        "trans": [
-            "宣传, 宣扬, 广告"
-        ]
-    },
-    {
-        "name": "conflict",
-        "usphone": "ˈkɑːnflɪkt",
-        "ukphone": "ˈkɒnflɪkt",
-        "trans": [
-            "冲突, 矛盾"
-        ]
-    },
-    {
-        "name": "climate",
-        "usphone": "ˈklaɪmət",
-        "ukphone": "ˈklaɪmət",
-        "trans": [
-            "气候"
-        ]
-    },
-    {
-        "name": "population",
-        "usphone": "ˌpɑːpjuˈleɪʃn",
-        "ukphone": "ˌpɒpjuˈleɪʃn",
-        "trans": [
-            "人口"
-        ]
-    },
-    {
-        "name": "natural",
-        "usphone": "ˈnætʃrəl",
-        "ukphone": "ˈnætʃrəl",
-        "trans": [
-            "自然的, 天然的"
-        ]
-    },
-    {
-        "name": "explosion",
-        "usphone": "ɪkˈsploʊʒn",
-        "ukphone": "ɪkˈspləʊʒn",
-        "trans": [
-            "爆炸"
-        ]
-    },
-    {
-        "name": "wildlife",
-        "usphone": "ˈwaɪldlaɪf",
-        "ukphone": "ˈwaɪldlaɪf",
-        "trans": [
-            "野生动植物"
-        ]
-    },
-    {
-        "name": "propose",
-        "usphone": "prəˈpoʊz",
-        "ukphone": "prəˈpəʊz",
-        "trans": [
-            "提议, 提案"
-        ]
-    },
-    {
-        "name": "conservation",
-        "usphone": "ˌkɑːnsərˈveɪʃn",
-        "ukphone": "ˌkɒnsəˈveɪʃn",
-        "trans": [
-            "(对自然环境的)保护"
-        ]
-    },
-    {
-        "name": "species",
-        "usphone": "ˈspiːʃiːz",
-        "ukphone": "ˈspiːʃiːz",
-        "trans": [
-            "种类,物种"
-        ]
-    },
-    {
-        "name": "extinct",
-        "usphone": "ɪkˈstɪŋkt",
-        "ukphone": "ɪkˈstɪŋkt",
-        "trans": [
-            "灭绝的"
-        ]
-    },
-    {
-        "name": "biodiversity",
-        "usphone": "ˌbaɪoʊdaɪˈvɜːrsəti",
-        "ukphone": "ˌbaɪəʊdaɪˈvɜːsəti",
-        "trans": [
-            "生物多样性(维持着生态环境平衡的大量各种生物的共存)"
-        ]
-    },
-    {
-        "name": "conflict",
-        "usphone": "ˈkɑːnflɪkt",
-        "ukphone": "ˈkɒnflɪkt",
-        "trans": [
-            "冲突, 矛盾"
-        ]
-    },
-    {
-        "name": "habitat",
-        "usphone": "ˈhæbɪtæt",
-        "ukphone": "ˈhæbɪtæt",
-        "trans": [
-            "栖息地"
-        ]
-    },
-    {
-        "name": "viable",
-        "usphone": "ˈvaɪəbl",
-        "ukphone": "ˈvaɪəbl",
-        "trans": [
-            "切实可行的; 可实施的"
-        ]
-    },
-    {
-        "name": "urge",
-        "usphone": "ɜːrdʒ",
-        "ukphone": "ɜːdʒ",
-        "trans": [
-            "力劝"
-        ]
-    },
-    {
-        "name": "petroleum",
-        "usphone": "pəˈtroʊliəm",
-        "ukphone": "pəˈtrəʊliəm",
-        "trans": [
-            "石油"
-        ]
-    },
-    {
-        "name": "biodegradable",
-        "usphone": "ˌbaɪoʊdɪˈɡreɪdəbl",
-        "ukphone": "ˌbaɪəʊdɪˈɡreɪdəbl",
-        "trans": [
-            "生物降解的"
-        ]
-    },
-    {
-        "name": "soil",
-        "usphone": "sɔɪl",
-        "ukphone": "sɔɪl",
-        "trans": [
-            "土壤, 土地"
-        ]
-    },
-    {
-        "name": "green",
-        "usphone": "ɡriːn",
-        "ukphone": "ɡriːn",
-        "trans": [
-            "保护环境的"
-        ]
-    },
-    {
-        "name": "recycle",
-        "usphone": "ˌriːˈsaɪkl",
-        "ukphone": "ˌriːˈsaɪkl",
-        "trans": [
-            "回收"
-        ]
-    },
-    {
-        "name": "reuse",
-        "usphone": "ˌriːˈjuːz",
-        "ukphone": "ˌriːˈjuːz",
-        "trans": [
-            "再用, 重新使用"
-        ]
-    },
-    {
-        "name": "resource",
-        "usphone": "ˈriːsɔːrs",
-        "ukphone": "rɪˈsɔːs",
-        "trans": [
-            "资源"
-        ]
-    },
-    {
-        "name": "packaging",
-        "usphone": "ˈpækɪdʒɪŋ",
-        "ukphone": "ˈpækɪdʒɪŋ",
-        "trans": [
-            "包装"
-        ]
-    },
-    {
-        "name": "sustainable",
-        "usphone": "səˈsteɪnəbl",
-        "ukphone": "səˈsteɪnəbl",
-        "trans": [
-            "可持续的, 合理利用的"
-        ]
-    },
-    {
-        "name": "coal",
-        "usphone": "koʊl",
-        "ukphone": "kəʊl",
-        "trans": [
-            "煤"
-        ]
-    },
-    {
-        "name": "solar",
-        "usphone": "ˈsoʊlər",
-        "ukphone": "ˈsəʊlə(r)",
-        "trans": [
-            "太阳的,根据太阳运行测量的;太阳的,日光的"
-        ]
-    },
-    {
-        "name": "waste",
-        "usphone": "weɪst",
-        "ukphone": "weɪst",
-        "trans": [
-            "废弃品, 废料, 废物, 垃圾"
-        ]
-    },
-    {
-        "name": "hydropower",
-        "trans": [
-            "水力发出的电力, 水电"
-        ],
-        "usphone": "'haɪdro,paʊɚ",
-        "ukphone": "'haɪdrə(ʊ)paʊə"
-    },
-    {
-        "name": "wind",
-        "usphone": "wɪnd",
-        "ukphone": "wɪnd",
-        "trans": [
-            "风, 气流"
-        ]
-    },
-    {
-        "name": "gas",
-        "usphone": "ɡæs",
-        "ukphone": "ɡæs",
-        "trans": [
-            "汽油"
-        ]
-    },
-    {
-        "name": "endangered",
-        "usphone": "ɪnˈdeɪndʒərd",
-        "ukphone": "ɪnˈdeɪndʒəd",
-        "trans": [
-            "濒危灭绝的"
-        ]
-    },
-    {
-        "name": "surprised",
-        "usphone": "sərˈpraɪzd",
-        "ukphone": "səˈpraɪzd",
-        "trans": [
-            "感到惊讶的"
-        ]
-    },
-    {
-        "name": "expect",
-        "usphone": "ɪkˈspekt",
-        "ukphone": "ɪkˈspekt",
-        "trans": [
-            "期待"
-        ]
-    },
-    {
-        "name": "income",
-        "usphone": "ˈɪnkʌm",
-        "ukphone": "ˈɪnkʌm",
-        "trans": [
-            "进款, 收入"
-        ]
-    },
-    {
-        "name": "wage",
-        "usphone": "weɪdʒ",
-        "ukphone": "weɪdʒ",
-        "trans": [
-            "薪水, 工资, 报偿"
-        ]
-    },
-    {
-        "name": "tax",
-        "usphone": "tæks",
-        "ukphone": "tæks",
-        "trans": [
-            "税金, 税"
-        ]
-    },
-    {
-        "name": "rate",
-        "usphone": "reɪt",
-        "ukphone": "reɪt",
-        "trans": [
-            "速率, 速度"
-        ]
-    },
-    {
-        "name": "interest",
-        "usphone": "ˈɪntrəst",
-        "ukphone": "ˈɪntrəst",
-        "trans": [
-            "利息"
-        ]
-    },
-    {
-        "name": "cut",
-        "usphone": "kʌt",
-        "ukphone": "kʌt",
-        "trans": [
-            "减少"
-        ]
-    },
-    {
-        "name": "profit",
-        "usphone": "ˈprɑːfɪt",
-        "ukphone": "ˈprɒfɪt",
-        "trans": [
-            "利润, 利益, 赢利"
-        ]
-    },
-    {
-        "name": "forecast",
-        "usphone": "ˈfɔːrkæst",
-        "ukphone": "ˈfɔːkɑːst",
-        "trans": [
-            "预测"
-        ]
-    },
-    {
-        "name": "round",
-        "usphone": "raʊnd",
-        "ukphone": "raʊnd",
-        "trans": [
-            "一轮"
-        ]
-    },
-    {
-        "name": "headcount",
-        "usphone": "ˈhedkaʊnt",
-        "ukphone": "ˈhedkaʊnt",
-        "trans": [
-            "员工总数"
-        ]
-    },
-    {
-        "name": "cap",
-        "usphone": "kæp",
-        "ukphone": "kæp",
-        "trans": [
-            "最高限度, 封顶"
-        ]
-    },
-    {
-        "name": "freeze",
-        "usphone": "friːz",
-        "ukphone": "friːz",
-        "trans": [
-            "冻结"
-        ]
-    },
-    {
-        "name": "pension",
-        "usphone": "ˈpenʃn",
-        "ukphone": "ˈpenʃn",
-        "trans": [
-            "抚恤金, 养老金"
-        ]
-    },
-    {
-        "name": "fund",
-        "usphone": "fʌnd",
-        "ukphone": "fʌnd",
-        "trans": [
-            "资金, 基金"
-        ]
-    },
-    {
-        "name": "investment",
-        "usphone": "ɪnˈvestmənt",
-        "ukphone": "ɪnˈvestmənt",
-        "trans": [
-            "投资"
-        ]
-    },
-    {
-        "name": "conservative",
-        "usphone": "kənˈsɜːrvətɪv",
-        "ukphone": "kənˈsɜːvətɪv",
-        "trans": [
-            "保守的"
-        ]
-    },
-    {
-        "name": "retirement",
-        "usphone": "rɪˈtaɪərmənt",
-        "ukphone": "rɪˈtaɪəmənt",
-        "trans": [
-            "退休"
-        ]
-    },
-    {
-        "name": "stable",
-        "usphone": "ˈsteɪbl",
-        "ukphone": "ˈsteɪbl",
-        "trans": [
-            "固定的, 稳定的"
-        ]
-    },
-    {
-        "name": "market",
-        "usphone": "ˈmɑːrkɪt",
-        "ukphone": "ˈmɑːkɪt",
-        "trans": [
-            "市场, 集市"
-        ]
-    },
-    {
-        "name": "guarantee",
-        "usphone": "ˌɡærənˈtiː",
-        "ukphone": "ˌɡærənˈtiː",
-        "trans": [
-            "保证, 许诺"
-        ]
-    },
-    {
-        "name": "return",
-        "usphone": "rɪˈtɜːrn",
-        "ukphone": "rɪˈtɜːn",
-        "trans": [
-            "收益, 回报"
-        ]
-    },
-    {
-        "name": "reflect",
-        "usphone": "rɪˈflekt",
-        "ukphone": "rɪˈflekt",
-        "trans": [
-            "反映, 表现, 反射"
-        ]
-    },
-    {
-        "name": "threaten",
-        "usphone": "ˈθretn",
-        "ukphone": "ˈθretn",
-        "trans": [
-            "威胁, 恐吓"
-        ]
-    },
-    {
-        "name": "risky",
-        "usphone": "ˈrɪski",
-        "ukphone": "ˈrɪski",
-        "trans": [
-            "危险的;冒险的,孤注一掷的"
-        ]
-    },
-    {
-        "name": "volatile",
-        "usphone": "ˈvɑːlətl",
-        "ukphone": "ˈvɒlətaɪl",
-        "trans": [
-            "(指人)情绪或兴趣多变的, 无常性的"
-        ]
-    },
-    {
-        "name": "adjust",
-        "usphone": "əˈdʒʌst",
-        "ukphone": "əˈdʒʌst",
-        "trans": [
-            "调整, 调节"
-        ]
-    },
-    {
-        "name": "bubble",
-        "usphone": "ˈbʌbl",
-        "ukphone": "ˈbʌbl",
-        "trans": [
-            "气泡, 泡沫"
-        ]
-    },
-    {
-        "name": "tariff",
-        "usphone": "ˈtærɪf",
-        "ukphone": "ˈtærɪf",
-        "trans": [
-            "关税"
-        ]
-    },
-    {
-        "name": "trade",
-        "usphone": "treɪd",
-        "ukphone": "treɪd",
-        "trans": [
-            "贸易, 交易"
-        ]
-    },
-    {
-        "name": "capital",
-        "usphone": "ˈkæpɪtl",
-        "ukphone": "ˈkæpɪtl",
-        "trans": [
-            "资金, 资本"
-        ]
-    },
-    {
-        "name": "cashless",
-        "usphone": "ˈkæʃləs",
-        "ukphone": "ˈkæʃləs",
-        "trans": [
-            "没钱的,无现金的"
-        ]
-    },
-    {
-        "name": "privacy",
-        "usphone": "ˈpraɪvəsi",
-        "ukphone": "ˈprɪvəsi",
-        "trans": [
-            "独处或不受干扰的状况,隐私,隐居"
-        ]
-    },
-    {
-        "name": "revenue",
-        "usphone": "ˈrevənuː",
-        "ukphone": "ˈrevənjuː",
-        "trans": [
-            "收入; (尤指)岁入,各项收入; 总收入"
-        ]
-    },
-    {
-        "name": "advocate",
-        "usphone": "ˈædvəkeɪt",
-        "ukphone": "ˈædvəkeɪt",
-        "trans": [
-            "提倡者,支持者,拥护者"
-        ]
-    },
-    {
-        "name": "monitor",
-        "usphone": "ˈmɑːnɪtər",
-        "ukphone": "ˈmɒnɪtə(r)",
-        "trans": [
-            "监控, 监听, 监测, 监视"
-        ]
-    },
-    {
-        "name": "cite",
-        "usphone": "saɪt",
-        "ukphone": "saɪt",
-        "trans": [
-            "引用,提出,举出;援引,引证"
-        ]
-    },
-    {
-        "name": "injection",
-        "usphone": "ɪnˈdʒekʃn",
-        "ukphone": "ɪnˈdʒekʃn",
-        "trans": [
-            "注射, 注射剂, (毛细血管等的)充血,"
-        ]
-    },
-    {
-        "name": "recession",
-        "usphone": "rɪˈseʃn",
-        "ukphone": "rɪˈseʃn",
-        "trans": [
-            "(经济)衰退; 不景气"
-        ]
-    },
-    {
-        "name": "boost",
-        "usphone": "buːst",
-        "ukphone": "buːst",
-        "trans": [
-            "提高,增长"
-        ]
-    },
-    {
-        "name": "debt",
-        "usphone": "det",
-        "ukphone": "det",
-        "trans": [
-            "债务"
-        ]
-    },
-    {
-        "name": "resource",
-        "usphone": "ˈriːsɔːrs",
-        "ukphone": "rɪˈsɔːs",
-        "trans": [
-            "资源"
-        ]
-    },
-    {
-        "name": "import",
-        "usphone": "ˈɪmpɔːrt",
-        "ukphone": "ˈɪmpɔːt",
-        "trans": [
-            "进口"
-        ]
-    },
-    {
-        "name": "export",
-        "usphone": "ɪkˈspɔːrt",
-        "ukphone": "ɪkˈspɔːt",
-        "trans": [
-            "出口"
-        ]
-    },
-    {
-        "name": "protectionism",
-        "usphone": "prəˈtekʃənɪzəm",
-        "ukphone": "prəˈtekʃənɪzəm",
-        "trans": [
-            "保护主义,贸易保护主义"
-        ]
-    },
-    {
-        "name": "domestic",
-        "usphone": "dəˈmestɪk",
-        "ukphone": "dəˈmestɪk",
-        "trans": [
-            "国家的, 国内的"
-        ]
-    },
-    {
-        "name": "global",
-        "usphone": "ˈɡloʊbl",
-        "ukphone": "ˈɡləʊbl",
-        "trans": [
-            "全球的, 全球性的"
-        ]
-    },
-    {
-        "name": "economy",
-        "usphone": "ɪˈkɑːnəmi",
-        "ukphone": "ɪˈkɒnəmi",
-        "trans": [
-            "经济"
-        ]
-    },
-    {
-        "name": "customs",
-        "usphone": "ˈkʌstəmz",
-        "ukphone": "ˈkʌstəmz",
-        "trans": [
-            "海关"
-        ]
-    },
-    {
-        "name": "duty",
-        "usphone": "ˈduːti",
-        "ukphone": "ˈdjuːti",
-        "trans": [
-            "职责, 值班"
-        ]
-    },
-    {
-        "name": "regional",
-        "usphone": "ˈriːdʒənl",
-        "ukphone": "ˈriːdʒənl",
-        "trans": [
-            "地区的, 区域性的"
-        ]
-    },
-    {
-        "name": "common",
-        "usphone": "ˈkɑːmən",
-        "ukphone": "ˈkɒmən",
-        "trans": [
-            "普通的, 一般的"
-        ]
-    },
-    {
-        "name": "currency",
-        "usphone": "ˈkɜːrənsi",
-        "ukphone": "ˈkʌrənsi",
-        "trans": [
-            "货币"
-        ]
-    },
-    {
-        "name": "freedom",
-        "usphone": "ˈfriːdəm",
-        "ukphone": "ˈfriːdəm",
-        "trans": [
-            "自由"
-        ]
-    },
-    {
-        "name": "movement",
-        "usphone": "ˈmuːvmənt",
-        "ukphone": "ˈmuːvmənt",
-        "trans": [
-            "(政治, 社会, 思想)运动团体"
-        ]
-    },
-    {
-        "name": "state",
-        "usphone": "steɪt",
-        "ukphone": "steɪt",
-        "trans": [
-            "州"
-        ]
-    },
-    {
-        "name": "growth",
-        "usphone": "ɡroʊθ",
-        "ukphone": "ɡrəʊθ",
-        "trans": [
-            "生长"
-        ]
-    }
+  {
+    "name": "benchmark",
+    "usphone": "ˈbentʃmɑːrk",
+    "ukphone": "ˈbentʃmɑːk",
+    "trans": [
+      "n. 基准，参照；标准检查程序；水准标",
+      "vt. 检测（用基准问题测试）"
+    ]
+  },
+  {
+    "name": "assess",
+    "usphone": "əˈses",
+    "ukphone": "əˈses",
+    "trans": [
+      "vt. 评定；估价；对…征税"
+    ]
+  },
+  {
+    "name": "surpass",
+    "usphone": "sərˈpæs",
+    "ukphone": "səˈpɑːs",
+    "trans": [
+      "v. 超过；胜过；优于"
+    ]
+  },
+  {
+    "name": "target",
+    "usphone": "ˈtɑːrɡɪt",
+    "ukphone": "ˈtɑːɡɪt",
+    "trans": [
+      "n. 目标；靶子",
+      "vt. 把……作为目标；规定……的指标；瞄准某物"
+    ]
+  },
+  {
+    "name": "incentivize",
+    "usphone": "ɪnˈsentɪvaɪz",
+    "ukphone": "ɪnˈsentɪvaɪz",
+    "trans": [
+      "vt. 以物质刺激鼓励"
+    ]
+  },
+  {
+    "name": "pinpoint",
+    "usphone": "ˈpɪnpɔɪnt",
+    "ukphone": "ˈpɪnpɔɪnt",
+    "trans": [
+      "n. 针尖；精确位置；极小之物",
+      "vt. 查明；精确地找到；准确描述",
+      "adj. 精确的；详尽的"
+    ]
+  },
+  {
+    "name": "define",
+    "usphone": "dɪˈfaɪn",
+    "ukphone": "dɪˈfaɪn",
+    "trans": [
+      "vt. 规定；使明确；精确地解释",
+      "vi. （给词、短语等）下定义；构成释义"
+    ]
+  },
+  {
+    "name": "trait",
+    "usphone": "treɪt",
+    "ukphone": "treɪt",
+    "trans": [
+      "n. 特征；特点；特质"
+    ]
+  },
+  {
+    "name": "proactive",
+    "usphone": "ˌproʊˈæktɪv",
+    "ukphone": "ˌprəʊˈæktɪv",
+    "trans": [
+      "adj. 前摄的；积极主动的；主动出击的"
+    ]
+  },
+  {
+    "name": "adversity",
+    "usphone": "ədˈvɜːrsəti",
+    "ukphone": "ədˈvɜːsəti",
+    "trans": [
+      "n. 逆境；不幸；灾难"
+    ]
+  },
+  {
+    "name": "persistent",
+    "usphone": "pərˈsɪstənt",
+    "ukphone": "pəˈsɪstənt",
+    "trans": [
+      "adj. 持续的，连续的；坚持的，执着的；顽固的，固执的"
+    ]
+  },
+  {
+    "name": "voucher",
+    "usphone": "ˈvaʊtʃər",
+    "ukphone": "ˈvaʊtʃə(r)",
+    "trans": [
+      "n. 收据；证人；保证人",
+      "vt. 证实...的可靠性"
+    ]
+  },
+  {
+    "name": "entrepreneur",
+    "usphone": "ˌɑːntrəprəˈnɜːr",
+    "ukphone": "ˌɒntrəprəˈnɜː(r)",
+    "trans": [
+      "n. 企业家；承包人；主办者"
+    ]
+  },
+  {
+    "name": "failure",
+    "usphone": "ˈfeɪljər",
+    "ukphone": "ˈfeɪljə(r)",
+    "trans": [
+      "n. 失败，失误；失败的人或事物；故障，失灵"
+    ]
+  },
+  {
+    "name": "success",
+    "usphone": "səkˈses",
+    "ukphone": "səkˈses",
+    "trans": [
+      "adj. 成功的",
+      "adv. 顺利地；成功地"
+    ]
+  },
+  {
+    "name": "high-tech",
+    "trans": [
+      "n. 高科技"
+    ],
+    "usphone": ",haɪ'tɛk",
+    "ukphone": "'haɪ'tek"
+  },
+  {
+    "name": "start-up",
+    "trans": [
+      "n. 启动",
+      "adj. 起动阶段的；开始阶段的（异体字startup）"
+    ]
+  },
+  {
+    "name": "widespread",
+    "usphone": "ˈwaɪdspred",
+    "ukphone": "ˈwaɪdspred",
+    "trans": [
+      "adj. 分布广的；普遍的；广泛应用"
+    ]
+  },
+  {
+    "name": "dot-com",
+    "usphone": "ˌdɑːtˈkɑːm",
+    "ukphone": "ˌdɒtˈkɒm",
+    "trans": [
+      "n. 网络公司"
+    ]
+  },
+  {
+    "name": "reward",
+    "usphone": "rɪˈwɔːrd",
+    "ukphone": "rɪˈwɔːd",
+    "trans": [
+      "n. 报答；报酬；赏金",
+      "vt. 报答；给...报酬；奖赏"
+    ]
+  },
+  {
+    "name": "reach",
+    "usphone": "riːtʃ",
+    "ukphone": "riːtʃ",
+    "trans": [
+      "n. 范围；延伸；河段",
+      "vi. 达到；延伸；伸出手",
+      "vt. 达到；影响；抵达"
+    ]
+  },
+  {
+    "name": "substantial",
+    "usphone": "səbˈstænʃl",
+    "ukphone": "səbˈstænʃl",
+    "trans": [
+      "n. 本质；重要材料",
+      "adj. 大量的；实质的；内容充实的"
+    ]
+  },
+  {
+    "name": "quality",
+    "usphone": "ˈkwɑːləti",
+    "ukphone": "ˈkwɒləti",
+    "trans": [
+      "n. 质量， 品质；特性；才能",
+      "adj. 优质的；高品质的；棒极了"
+    ]
+  },
+  {
+    "name": "manner",
+    "usphone": "ˈmænər",
+    "ukphone": "ˈmænə(r)",
+    "trans": [
+      "n. 方式；举止",
+      "pl. 风度，礼貌；规矩；风俗"
+    ]
+  },
+  {
+    "name": "resilient",
+    "usphone": "rɪˈzɪliənt",
+    "ukphone": "rɪˈzɪliənt",
+    "trans": [
+      "adj. 弹回的；有弹力的；能复原的"
+    ]
+  },
+  {
+    "name": "pragmatic",
+    "usphone": "præɡˈmætɪk",
+    "ukphone": "præɡˈmætɪk",
+    "trans": [
+      "adj. 实际的；实用主义的；好管闲事的",
+      "n. 爱管闲事的人；专断的人；国事诏书"
+    ]
+  },
+  {
+    "name": "sculpture",
+    "usphone": "ˈskʌlptʃər",
+    "ukphone": "ˈskʌlptʃə(r)",
+    "trans": [
+      "n. 雕塑；雕刻；刻蚀",
+      "vt. 雕塑；雕刻；刻蚀",
+      "vi. 从事雕刻"
+    ]
+  },
+  {
+    "name": "architecture",
+    "usphone": "ˈɑːrkɪtektʃər",
+    "ukphone": "ˈɑːkɪtektʃə(r)",
+    "trans": [
+      "n. 建筑学；建筑风格；建筑设计"
+    ]
+  },
+  {
+    "name": "perspective",
+    "usphone": "pərˈspektɪv",
+    "ukphone": "pəˈspektɪv",
+    "trans": [
+      "n. 透镜，望远镜；观点，看法；远景，景色",
+      "adj. （按照）透视画法的；透视的"
+    ]
+  },
+  {
+    "name": "evoke",
+    "usphone": "ɪˈvoʊk",
+    "ukphone": "ɪˈvəʊk",
+    "trans": [
+      "vt. 唤起；引起；博得。"
+    ]
+  },
+  {
+    "name": "craft",
+    "usphone": "kræft",
+    "ukphone": "krɑːft",
+    "trans": [
+      "n. 手艺，工艺；船，飞行器；诡计，手腕",
+      "v. 精心制作；手工制作"
+    ]
+  },
+  {
+    "name": "graphic",
+    "usphone": "ˈɡræfɪk",
+    "ukphone": "ˈɡræfɪk",
+    "trans": [
+      "adj. 图像的，图表的；生动的，形象的；详细的，清晰的",
+      "n. 图表；图像"
+    ]
+  },
+  {
+    "name": "design",
+    "usphone": "dɪˈzaɪn",
+    "ukphone": "dɪˈzaɪn",
+    "trans": [
+      "n. 设计；图案",
+      "vt. 设计；计划；构思",
+      "vi. 设计"
+    ]
+  },
+  {
+    "name": "ceramic",
+    "usphone": "səˈræmɪk",
+    "ukphone": "səˈræmɪk",
+    "trans": [
+      "n. 陶瓷；陶瓷制品",
+      "adj. 陶瓷的；陶器的；制陶艺术的"
+    ]
+  },
+  {
+    "name": "architecture",
+    "usphone": "ˈɑːrkɪtektʃər",
+    "ukphone": "ˈɑːkɪtektʃə(r)",
+    "trans": [
+      "n. 建筑学；建筑风格；建筑设计"
+    ]
+  },
+  {
+    "name": "photograph",
+    "usphone": "ˈfoʊtəɡræf",
+    "ukphone": "ˈfəʊtəɡrɑːf",
+    "trans": [
+      "n. 照片；相片",
+      "vt. 为…拍照；使深深印入",
+      "vi. 拍照；在照片上显得"
+    ]
+  },
+  {
+    "name": "industrial",
+    "usphone": "ɪnˈdʌstriəl",
+    "ukphone": "ɪnˈdʌstriəl",
+    "trans": [
+      "n. 工业股票；工业工人",
+      "adj. 工业的，产业的；从事工业的；供工业用的"
+    ]
+  },
+  {
+    "name": "painting",
+    "usphone": "ˈpeɪntɪŋ",
+    "ukphone": "ˈpeɪntɪŋ",
+    "trans": [
+      "n. 绘画；画；油画",
+      "v. 绘画；涂漆；粉刷"
+    ]
+  },
+  {
+    "name": "drawing",
+    "usphone": "ˈdrɔːɪŋ",
+    "ukphone": "ˈdrɔːɪŋ",
+    "trans": [
+      "n. 绘画；图画；素描",
+      "v. 绘画；画图；描绘"
+    ]
+  },
+  {
+    "name": "pottery",
+    "usphone": "ˈpɑːtəri",
+    "ukphone": "ˈpɒtəri",
+    "trans": [
+      "n. 陶器；陶器厂；陶器制造术"
+    ]
+  },
+  {
+    "name": "contrast",
+    "usphone": "ˈkɑːntræst",
+    "ukphone": "ˈkɒntrɑːst",
+    "trans": [
+      "n. 对比；差别；对照物",
+      "vt. 使对比；使与…对照",
+      "vi. 对比；形成对照"
+    ]
+  },
+  {
+    "name": "convey",
+    "usphone": "kənˈveɪ",
+    "ukphone": "kənˈveɪ",
+    "trans": [
+      "vt. 传达；运输；让与"
+    ]
+  },
+  {
+    "name": "theme",
+    "usphone": "θiːm",
+    "ukphone": "θiːm",
+    "trans": [
+      "n. 主题；主旋律；题目",
+      "adj. 以奇想主题布置的"
+    ]
+  },
+  {
+    "name": "inference",
+    "usphone": "ˈɪnfərəns",
+    "ukphone": "ˈɪnfərəns",
+    "trans": [
+      "n. 推理，推断；推论；推理过程"
+    ]
+  },
+  {
+    "name": "fascinate",
+    "usphone": "ˈfæsɪneɪt",
+    "ukphone": "ˈfæsɪneɪt",
+    "trans": [
+      "vt. 使着迷；使神魂颠倒；蛊惑",
+      "vi. 入迷"
+    ]
+  },
+  {
+    "name": "character",
+    "usphone": "ˈkærəktər",
+    "ukphone": "ˈkærəktə(r)",
+    "trans": [
+      "n. 性格，品质；特色，特征；人物，角色",
+      "v. 刻，写；描述；使具有特征"
+    ]
+  },
+  {
+    "name": "thin",
+    "usphone": "θɪn",
+    "ukphone": "θɪn",
+    "trans": [
+      "n. 细小部分",
+      "adj. 薄的；瘦的；稀薄的",
+      "vt. 使瘦；使淡；使稀疏"
+    ]
+  },
+  {
+    "name": "wiry",
+    "usphone": "ˈwaɪəri",
+    "ukphone": "ˈwaɪəri",
+    "trans": [
+      "adj. 金属丝的；金属线制的；铁丝似的"
+    ]
+  },
+  {
+    "name": "dark",
+    "usphone": "dɑːrk",
+    "ukphone": "dɑːk",
+    "trans": [
+      "n. 黑暗；夜；黄昏",
+      "adj. 黑暗的，深色的；模糊的；无知的"
+    ]
+  },
+  {
+    "name": "foggy",
+    "usphone": "ˈfɔːɡi",
+    "ukphone": "ˈfɒɡi",
+    "trans": [
+      "adj. 雾的；有雾的；多雾的"
+    ]
+  },
+  {
+    "name": "dim",
+    "usphone": "dɪm",
+    "ukphone": "dɪm",
+    "trans": [
+      "adj. 昏暗的；暗淡的；朦胧的",
+      "vt. 使暗淡；使失去光泽",
+      "vi. 变暗"
+    ]
+  },
+  {
+    "name": "glow",
+    "usphone": "ɡloʊ",
+    "ukphone": "ɡləʊ",
+    "trans": [
+      "n. 灼热；色彩鲜艳；兴高采烈",
+      "vi. 发热；洋溢；绚丽夺目"
+    ]
+  },
+  {
+    "name": "stimulate",
+    "usphone": "ˈstɪmjuleɪt",
+    "ukphone": "ˈstɪmjuleɪt",
+    "trans": [
+      "vt. 刺激；激励，鼓舞；使兴奋",
+      "vi. 起兴奋作用；起促进作用；起刺激作用"
+    ]
+  },
+  {
+    "name": "innovation",
+    "usphone": "ˌɪnəˈveɪʃn",
+    "ukphone": "ˌɪnəˈveɪʃn",
+    "trans": [
+      "n. 创新；革新；新思想"
+    ]
+  },
+  {
+    "name": "curiosity",
+    "usphone": "ˌkjʊriˈɑːsəti",
+    "ukphone": "ˌkjʊəriˈɒsəti",
+    "trans": [
+      "n. 好奇心，爱打听的癖性；奇人；奇物，古玩"
+    ]
+  },
+  {
+    "name": "visualize",
+    "usphone": "ˈvɪʒuəlaɪz",
+    "ukphone": "ˈvɪʒuəlaɪz",
+    "trans": [
+      "vt. 形象；形象化；想象。",
+      "vi. 显现"
+    ]
+  },
+  {
+    "name": "moral",
+    "usphone": "ˈmɔːrəl",
+    "ukphone": "ˈmɒrəl",
+    "trans": [
+      "adj. 道德的；精神上的；品性端正的",
+      "n. 道德；寓意"
+    ]
+  },
+  {
+    "name": "gang",
+    "usphone": "ɡæŋ",
+    "ukphone": "ɡæŋ",
+    "trans": [
+      "n. 群；一伙；一组",
+      "vt. 使成群结队；结伙伤害或恐吓某人",
+      "vi. 成群结队"
+    ]
+  },
+  {
+    "name": "dilapidated",
+    "usphone": "dɪˈlæpɪdeɪtɪd",
+    "ukphone": "dɪˈlæpɪdeɪtɪd",
+    "trans": [
+      "adj. 毁坏的；要塌似的；荒废的。"
+    ]
+  },
+  {
+    "name": "combat",
+    "usphone": "ˈkɑːmbæt",
+    "ukphone": "ˈkɒmbæt",
+    "trans": [
+      "n. 战斗；格斗",
+      "v. 与…战斗；与…斗争",
+      "adj. 战斗的；战斗用的"
+    ]
+  },
+  {
+    "name": "revitalize",
+    "usphone": "ˌriːˈvaɪtəlaɪz",
+    "ukphone": "ˌriːˈvaɪtəlaɪz",
+    "trans": [
+      "v. 使恢复活力；使复兴；使振兴"
+    ]
+  },
+  {
+    "name": "graffiti",
+    "usphone": "ɡrəˈfiːti",
+    "ukphone": "ɡrəˈfiːti",
+    "trans": [
+      "涂鸦"
+    ]
+  },
+  {
+    "name": "sponsor",
+    "usphone": "ˈspɑːnsər",
+    "ukphone": "ˈspɒnsə(r)",
+    "trans": [
+      "n. 发起者；保证人；赞助者",
+      "vt. 发起；赞助；倡议"
+    ]
+  },
+  {
+    "name": "vandalism",
+    "usphone": "ˈvændəlɪzəm",
+    "ukphone": "ˈvændəlɪzəm",
+    "trans": [
+      "n. 汪达尔人作风；故意毁坏文物的行为；破坏他人财产的行为"
+    ]
+  },
+  {
+    "name": "attack",
+    "usphone": "əˈtæk",
+    "ukphone": "əˈtæk",
+    "trans": [
+      "n. 攻击；抨击；疾病发作",
+      "vt. 攻击；抨击；动手干",
+      "vi. 攻击；腐蚀"
+    ]
+  },
+  {
+    "name": "violent",
+    "usphone": "ˈvaɪələnt",
+    "ukphone": "ˈvaɪələnt",
+    "trans": [
+      "adj. 暴力的，凶暴的；猛烈的，强烈的；激烈的，剧烈的"
+    ]
+  },
+  {
+    "name": "neglected",
+    "usphone": "nɪˈɡlektɪd",
+    "ukphone": "nɪˈɡlektɪd",
+    "trans": [
+      "adj. 被忽视的",
+      "v. 忽略；遗漏；疏于照顾"
+    ]
+  },
+  {
+    "name": "disadvantaged",
+    "usphone": "ˌdɪsədˈvæntɪdʒd",
+    "ukphone": "ˌdɪsədˈvɑːntɪdʒd",
+    "trans": [
+      "n. 弱势团体；不利条件",
+      "adj. 贫困的；处于不利地位的；社会地位低下的"
+    ]
+  },
+  {
+    "name": "insufficient",
+    "usphone": "ˌɪnsəˈfɪʃnt",
+    "ukphone": "ˌɪnsəˈfɪʃnt",
+    "trans": [
+      "adj. 不足的，不充足的；不胜任的；缺乏能力的",
+      "n. 不足；缺乏"
+    ]
+  },
+  {
+    "name": "illiterate",
+    "usphone": "ɪˈlɪtərət",
+    "ukphone": "ɪˈlɪtərət",
+    "trans": [
+      "adj. 目不识丁的；文盲的",
+      "n. 目不识丁者；文盲；无知"
+    ]
+  },
+  {
+    "name": "improbable",
+    "usphone": "ɪmˈprɑːbəbl",
+    "ukphone": "ɪmˈprɒbəbl",
+    "trans": [
+      "adj. 不大可能的，未必确实的；不可信的；未必会发生的"
+    ]
+  },
+  {
+    "name": "irregular",
+    "usphone": "ɪˈreɡjələr",
+    "ukphone": "ɪˈreɡjələ(r)",
+    "trans": [
+      "adj. 不整齐的；不规则的；不正常的",
+      "n. 不规则物；不合规格的产品；非正规军人员"
+    ]
+  },
+  {
+    "name": "undernourished",
+    "usphone": "ˌʌndərˈnɜːrɪʃt",
+    "ukphone": "ˌʌndəˈnʌrɪʃt",
+    "trans": [
+      "营养不良的"
+    ]
+  },
+  {
+    "name": "overpopulated",
+    "usphone": "ˌoʊvərˈpɑːpjuleɪtɪd",
+    "ukphone": "ˌəʊvəˈpɒpjuleɪtɪd",
+    "trans": [
+      "adj. 使人口过密"
+    ]
+  },
+  {
+    "name": "philanthropy",
+    "usphone": "fɪˈlænθrəpi",
+    "ukphone": "fɪˈlænθrəpi",
+    "trans": [
+      "n. 博爱主义；善心；慈善事业"
+    ]
+  },
+  {
+    "name": "donor",
+    "usphone": "ˈdoʊnər",
+    "ukphone": "ˈdəʊnə(r)",
+    "trans": [
+      "n. 捐赠者；供者；赠送人",
+      "adj. 捐献的；经人工授精出生的"
+    ]
+  },
+  {
+    "name": "expertise",
+    "usphone": "ˌekspɜːrˈtiːz",
+    "ukphone": "ˌekspɜːˈtiːz",
+    "trans": [
+      "n. 专门知识；专长；专业技能"
+    ]
+  },
+  {
+    "name": "pledge",
+    "usphone": "pledʒ",
+    "ukphone": "pledʒ",
+    "trans": [
+      "vt. 发誓；保证；以 ... 抵押",
+      "n. 保证；抵押；誓言"
+    ]
+  },
+  {
+    "name": "conform",
+    "usphone": "kənˈfɔːrm",
+    "ukphone": "kənˈfɔːm",
+    "trans": [
+      "adj. 一致的；顺从的",
+      "vi. 符合；遵照；适应环境",
+      "vt. 使遵守；使一致；使顺从"
+    ]
+  },
+  {
+    "name": "manipulate",
+    "usphone": "məˈnɪpjuleɪt",
+    "ukphone": "məˈnɪpjuleɪt",
+    "trans": [
+      "v. 操纵，控制；巧妙地处理；篡改，伪造"
+    ]
+  },
+  {
+    "name": "turnover",
+    "usphone": "ˈtɜːrnoʊvər",
+    "ukphone": "ˈtɜːnəʊvə(r)",
+    "trans": [
+      "n. 营业额，成交量；人员更替，流动率；翻转",
+      "adj. 翻转的；翻过来的"
+    ]
+  },
+  {
+    "name": "perception",
+    "usphone": "pərˈsepʃn",
+    "ukphone": "pəˈsepʃn",
+    "trans": [
+      "n. 感知，知觉；看法，认识；洞察力"
+    ]
+  },
+  {
+    "name": "publicity",
+    "usphone": "pʌbˈlɪsəti",
+    "ukphone": "pʌbˈlɪsəti",
+    "trans": [
+      "n. 宣传；公开；公众注意"
+    ]
+  },
+  {
+    "name": "conflict",
+    "usphone": "ˈkɑːnflɪkt",
+    "ukphone": "ˈkɒnflɪkt",
+    "trans": [
+      "n. 冲突，矛盾；斗争；争执",
+      "vi. 冲突，抵触；争执；战斗"
+    ]
+  },
+  {
+    "name": "climate",
+    "usphone": "ˈklaɪmət",
+    "ukphone": "ˈklaɪmət",
+    "trans": [
+      "n. 气候；风气；思潮"
+    ]
+  },
+  {
+    "name": "population",
+    "usphone": "ˌpɑːpjuˈleɪʃn",
+    "ukphone": "ˌpɒpjuˈleɪʃn",
+    "trans": [
+      "n. 人口；种群， 群体；全体居民"
+    ]
+  },
+  {
+    "name": "natural",
+    "usphone": "ˈnætʃrəl",
+    "ukphone": "ˈnætʃrəl",
+    "trans": [
+      "adj. 自然的；物质的；天生的",
+      "n. 自然的事情；白痴；本位音"
+    ]
+  },
+  {
+    "name": "explosion",
+    "usphone": "ɪkˈsploʊʒn",
+    "ukphone": "ɪkˈspləʊʒn",
+    "trans": [
+      "n. 爆炸，爆发；激增，突然增加；突然爆发（情感等）"
+    ]
+  },
+  {
+    "name": "wildlife",
+    "usphone": "ˈwaɪldlaɪf",
+    "ukphone": "ˈwaɪldlaɪf",
+    "trans": [
+      "n. 野生动植物",
+      "adj. 野生动植物的"
+    ]
+  },
+  {
+    "name": "propose",
+    "usphone": "prəˈpoʊz",
+    "ukphone": "prəˈpəʊz",
+    "trans": [
+      "vi. 建议；求婚；打算",
+      "vt. 建议；打算，计划；求婚"
+    ]
+  },
+  {
+    "name": "conservation",
+    "usphone": "ˌkɑːnsərˈveɪʃn",
+    "ukphone": "ˌkɒnsəˈveɪʃn",
+    "trans": [
+      "n. 保护；保存；节约（自然资源）"
+    ]
+  },
+  {
+    "name": "species",
+    "usphone": "ˈspiːʃiːz",
+    "ukphone": "ˈspiːʃiːz",
+    "trans": [
+      "n. （动植物的）种，物种；种类；（具有相同特征的）一类人",
+      "adj. 原种的"
+    ]
+  },
+  {
+    "name": "extinct",
+    "usphone": "ɪkˈstɪŋkt",
+    "ukphone": "ɪkˈstɪŋkt",
+    "trans": [
+      "adj. 灭绝的，绝种的；熄灭的",
+      "vt. 使熄灭"
+    ]
+  },
+  {
+    "name": "biodiversity",
+    "usphone": "ˌbaɪoʊdaɪˈvɜːrsəti",
+    "ukphone": "ˌbaɪəʊdaɪˈvɜːsəti",
+    "trans": [
+      "n. 生物多类状态；生物多样性"
+    ]
+  },
+  {
+    "name": "conflict",
+    "usphone": "ˈkɑːnflɪkt",
+    "ukphone": "ˈkɒnflɪkt",
+    "trans": [
+      "n. 冲突，矛盾；斗争；争执",
+      "vi. 冲突，抵触；争执；战斗"
+    ]
+  },
+  {
+    "name": "habitat",
+    "usphone": "ˈhæbɪtæt",
+    "ukphone": "ˈhæbɪtæt",
+    "trans": [
+      "n. 栖息地；生境；生活环境"
+    ]
+  },
+  {
+    "name": "viable",
+    "usphone": "ˈvaɪəbl",
+    "ukphone": "ˈvaɪəbl",
+    "trans": [
+      "adj. 可行的；能养活的；能生育的"
+    ]
+  },
+  {
+    "name": "urge",
+    "usphone": "ɜːrdʒ",
+    "ukphone": "ɜːdʒ",
+    "trans": [
+      "vt. 推进；促；驱策",
+      "vi. 极力主张",
+      "n. 冲动"
+    ]
+  },
+  {
+    "name": "petroleum",
+    "usphone": "pəˈtroʊliəm",
+    "ukphone": "pəˈtrəʊliəm",
+    "trans": [
+      "n. 石油；原油"
+    ]
+  },
+  {
+    "name": "biodegradable",
+    "usphone": "ˌbaɪoʊdɪˈɡreɪdəbl",
+    "ukphone": "ˌbaɪəʊdɪˈɡreɪdəbl",
+    "trans": [
+      "adj. 能进行生物降解的；能起生物递解分解作用的"
+    ]
+  },
+  {
+    "name": "soil",
+    "usphone": "sɔɪl",
+    "ukphone": "sɔɪl",
+    "trans": [
+      "n. 土地；土壤；国家",
+      "vt. 弄脏；污辱",
+      "vi. 变脏"
+    ]
+  },
+  {
+    "name": "green",
+    "usphone": "ɡriːn",
+    "ukphone": "ɡriːn",
+    "trans": [
+      "n. 绿色；青春",
+      "adj. 绿色的；青春的",
+      "vt. 使…变绿色"
+    ]
+  },
+  {
+    "name": "recycle",
+    "usphone": "ˌriːˈsaɪkl",
+    "ukphone": "ˌriːˈsaɪkl",
+    "trans": [
+      "n. 再生；再循环；重复利用",
+      "vt. 使再循环；使…重新利用",
+      "vi. 重复利用"
+    ]
+  },
+  {
+    "name": "reuse",
+    "usphone": "ˌriːˈjuːz",
+    "ukphone": "ˌriːˈjuːz",
+    "trans": [
+      "vt. 再用；重新使用",
+      "n. 再用；重新使用"
+    ]
+  },
+  {
+    "name": "resource",
+    "usphone": "ˈriːsɔːrs",
+    "ukphone": "rɪˈsɔːs",
+    "trans": [
+      "n. 资源，财力；办法；智谋",
+      "vi. 向...提供资金"
+    ]
+  },
+  {
+    "name": "packaging",
+    "usphone": "ˈpækɪdʒɪŋ",
+    "ukphone": "ˈpækɪdʒɪŋ",
+    "trans": [
+      "n. 包装；包装材料；包装风格",
+      "v. 包装(package的ing形式)"
+    ]
+  },
+  {
+    "name": "sustainable",
+    "usphone": "səˈsteɪnəbl",
+    "ukphone": "səˈsteɪnəbl",
+    "trans": [
+      "adj. 可以忍受的；足可支撑的；养得起的"
+    ]
+  },
+  {
+    "name": "coal",
+    "usphone": "koʊl",
+    "ukphone": "kəʊl",
+    "trans": [
+      "n. 煤；煤块；木炭",
+      "vt. 给…加煤；把…烧成炭",
+      "vi. 上煤；加煤"
+    ]
+  },
+  {
+    "name": "solar",
+    "usphone": "ˈsoʊlər",
+    "ukphone": "ˈsəʊlə(r)",
+    "trans": [
+      "n. 日光浴室",
+      "adj. 太阳的；日光的；利用太阳光的"
+    ]
+  },
+  {
+    "name": "waste",
+    "usphone": "weɪst",
+    "ukphone": "weɪst",
+    "trans": [
+      "n. 浪费；废物；垃圾",
+      "v. 浪费；白费",
+      "adj. 废弃的；荒芜的"
+    ]
+  },
+  {
+    "name": "hydropower",
+    "trans": [
+      "n. 水力发出的电力"
+    ],
+    "usphone": "'haɪdro,paʊɚ",
+    "ukphone": "'haɪdrə(ʊ)paʊə"
+  },
+  {
+    "name": "wind",
+    "usphone": "wɪnd",
+    "ukphone": "wɪnd",
+    "trans": [
+      "vi. 缠绕；上发条；吹响号角",
+      "n. 风；呼吸；气味",
+      "vt. 缠绕；上发条；使弯曲"
+    ]
+  },
+  {
+    "name": "gas",
+    "usphone": "ɡæs",
+    "ukphone": "ɡæs",
+    "trans": [
+      "n. 气体；瓦斯；汽油",
+      "vt. 加油；毒（死）",
+      "vi. 加油；放出气体；空谈"
+    ]
+  },
+  {
+    "name": "endangered",
+    "usphone": "ɪnˈdeɪndʒərd",
+    "ukphone": "ɪnˈdeɪndʒəd",
+    "trans": [
+      "adj. 快要绝种的",
+      "v. 危及"
+    ]
+  },
+  {
+    "name": "surprised",
+    "usphone": "sərˈpraɪzd",
+    "ukphone": "səˈpraɪzd",
+    "trans": [
+      "adj. 感到惊讶；惊奇；感到意外"
+    ]
+  },
+  {
+    "name": "expect",
+    "usphone": "ɪkˈspekt",
+    "ukphone": "ɪkˈspekt",
+    "trans": [
+      "vt. 期望；预料；要求",
+      "vi. 预期；期待；怀胎"
+    ]
+  },
+  {
+    "name": "income",
+    "usphone": "ˈɪnkʌm",
+    "ukphone": "ˈɪnkʌm",
+    "trans": [
+      "n. 收入；收益；所得"
+    ]
+  },
+  {
+    "name": "wage",
+    "usphone": "weɪdʒ",
+    "ukphone": "weɪdʒ",
+    "trans": [
+      "n. 工资；代价；报偿",
+      "vt. 进行；开展",
+      "vi. 进行；发动；从事"
+    ]
+  },
+  {
+    "name": "tax",
+    "usphone": "tæks",
+    "ukphone": "tæks",
+    "trans": [
+      "n. 税；税款；负担",
+      "vt. 课税；使...负重荷；斥责"
+    ]
+  },
+  {
+    "name": "rate",
+    "usphone": "reɪt",
+    "ukphone": "reɪt",
+    "trans": [
+      "n. 比率，率；速度；价格",
+      "vt. 认为；估价；责骂",
+      "vi. 责骂；被评价"
+    ]
+  },
+  {
+    "name": "interest",
+    "usphone": "ˈɪntrəst",
+    "ukphone": "ˈɪntrəst",
+    "trans": [
+      "n. 兴趣，爱好；利息；趣味",
+      "vt. 使……感兴趣；引起……的关心；使……参与"
+    ]
+  },
+  {
+    "name": "cut",
+    "usphone": "kʌt",
+    "ukphone": "kʌt",
+    "trans": [
+      "n. 伤口；切口；削减",
+      "adj. 割下的；雕过的；缩减的",
+      "vt. 切割；削减；缩短"
+    ]
+  },
+  {
+    "name": "profit",
+    "usphone": "ˈprɑːfɪt",
+    "ukphone": "ˈprɒfɪt",
+    "trans": [
+      "n. 益处；利润；盈利比率",
+      "vi. 得益；利用；获利",
+      "vt. 有益于"
+    ]
+  },
+  {
+    "name": "forecast",
+    "usphone": "ˈfɔːrkæst",
+    "ukphone": "ˈfɔːkɑːst",
+    "trans": [
+      "n. 预测，预报；预想",
+      "vt. 预报，预测；预示",
+      "vi. 进行预报；作预测"
+    ]
+  },
+  {
+    "name": "round",
+    "usphone": "raʊnd",
+    "ukphone": "raʊnd",
+    "trans": [
+      "n. 圆；循环；一回合",
+      "prep. 附近；绕过；大约",
+      "adj. 圆的；完全的；大概的"
+    ]
+  },
+  {
+    "name": "headcount",
+    "usphone": "ˈhedkaʊnt",
+    "ukphone": "ˈhedkaʊnt",
+    "trans": [
+      "员工总数"
+    ]
+  },
+  {
+    "name": "cap",
+    "usphone": "kæp",
+    "ukphone": "kæp",
+    "trans": [
+      "n. 盖；帽子",
+      "vt. 覆盖；胜过；给…戴帽",
+      "vi. 脱帽致意"
+    ]
+  },
+  {
+    "name": "freeze",
+    "usphone": "friːz",
+    "ukphone": "friːz",
+    "trans": [
+      "n. 冻结；凝固",
+      "vt. 使…冻住；使…结冰",
+      "vi. 冻结；冷冻；僵硬"
+    ]
+  },
+  {
+    "name": "pension",
+    "usphone": "ˈpenʃn",
+    "ukphone": "ˈpenʃn",
+    "trans": [
+      "n. 退休金，抚恤金；津贴；膳宿费",
+      "vt. 发给养老金或抚恤金"
+    ]
+  },
+  {
+    "name": "fund",
+    "usphone": "fʌnd",
+    "ukphone": "fʌnd",
+    "trans": [
+      "n. 基金；储备；现款",
+      "vt. 积存；为…提供资金；提供资金偿付（债款等）的本息"
+    ]
+  },
+  {
+    "name": "investment",
+    "usphone": "ɪnˈvestmənt",
+    "ukphone": "ɪnˈvestmənt",
+    "trans": [
+      "n. 投资，投资额；投资物，投资的东西；投入，付出"
+    ]
+  },
+  {
+    "name": "conservative",
+    "usphone": "kənˈsɜːrvətɪv",
+    "ukphone": "kənˈsɜːvətɪv",
+    "trans": [
+      "adj. 保守的，守旧的；保守主义的；谨慎的",
+      "n. 保守的人；保守主义"
+    ]
+  },
+  {
+    "name": "retirement",
+    "usphone": "rɪˈtaɪərmənt",
+    "ukphone": "rɪˈtaɪəmənt",
+    "trans": [
+      "n. 退休；退役；退职"
+    ]
+  },
+  {
+    "name": "stable",
+    "usphone": "ˈsteɪbl",
+    "ukphone": "ˈsteɪbl",
+    "trans": [
+      "n. 马厩；牛棚",
+      "adj. 稳定的；牢固的；坚定的",
+      "vt. 赶入马房"
+    ]
+  },
+  {
+    "name": "market",
+    "usphone": "ˈmɑːrkɪt",
+    "ukphone": "ˈmɑːkɪt",
+    "trans": [
+      "n. 市场；集市；销路",
+      "vt. 在市场上交易；使...上市",
+      "vi. 在市场上买卖"
+    ]
+  },
+  {
+    "name": "guarantee",
+    "usphone": "ˌɡærənˈtiː",
+    "ukphone": "ˌɡærənˈtiː",
+    "trans": [
+      "vt. 保证；担保；使(事情)可能发生",
+      "n. 保证，保障；保证书；保用期"
+    ]
+  },
+  {
+    "name": "return",
+    "usphone": "rɪˈtɜːrn",
+    "ukphone": "rɪˈtɜːn",
+    "trans": [
+      "vi. 返回；报答",
+      "adj. 报答的；回程的；返回的",
+      "vt. 返回；报答"
+    ]
+  },
+  {
+    "name": "reflect",
+    "usphone": "rɪˈflekt",
+    "ukphone": "rɪˈflekt",
+    "trans": [
+      "vt.&vi. 反射（光、热、声或影像）；考虑",
+      "vt. 反射，反照；表达；显示",
+      "vi. 映出；反射；深思熟虑"
+    ]
+  },
+  {
+    "name": "threaten",
+    "usphone": "ˈθretn",
+    "ukphone": "ˈθretn",
+    "trans": [
+      "vt. 威胁；恐吓；预示",
+      "vi. 威胁；可能来临"
+    ]
+  },
+  {
+    "name": "risky",
+    "usphone": "ˈrɪski",
+    "ukphone": "ˈrɪski",
+    "trans": [
+      "adj. 危险的；冒险的；（作品等）有伤风化的"
+    ]
+  },
+  {
+    "name": "volatile",
+    "usphone": "ˈvɑːlətl",
+    "ukphone": "ˈvɒlətaɪl",
+    "trans": [
+      "n. 挥发物；有翅的动物",
+      "adj. 挥发性的；不稳定的；爆炸性的"
+    ]
+  },
+  {
+    "name": "adjust",
+    "usphone": "əˈdʒʌst",
+    "ukphone": "əˈdʒʌst",
+    "trans": [
+      "vt. 调整，使…适合；校准",
+      "vi. 调整，校准；适应"
+    ]
+  },
+  {
+    "name": "bubble",
+    "usphone": "ˈbʌbl",
+    "ukphone": "ˈbʌbl",
+    "trans": [
+      "n. 泡；泡沫；气泡",
+      "vi. 冒泡；沸腾；起泡",
+      "vt. 使冒泡"
+    ]
+  },
+  {
+    "name": "tariff",
+    "usphone": "ˈtærɪf",
+    "ukphone": "ˈtærɪf",
+    "trans": [
+      "n. 关税表；关税；价格表",
+      "vt. 征收关税；定税率；定收费标准"
+    ]
+  },
+  {
+    "name": "trade",
+    "usphone": "treɪd",
+    "ukphone": "treɪd",
+    "trans": [
+      "n. 贸易，交易；行业；职业",
+      "vt. 用…进行交换",
+      "vi. 交易，买卖；以物易物"
+    ]
+  },
+  {
+    "name": "capital",
+    "usphone": "ˈkæpɪtl",
+    "ukphone": "ˈkæpɪtl",
+    "trans": [
+      "n. 首都；省会；资本",
+      "adj. 首要的；主要的；重要的"
+    ]
+  },
+  {
+    "name": "cashless",
+    "usphone": "ˈkæʃləs",
+    "ukphone": "ˈkæʃləs",
+    "trans": [
+      "adj. 无现款的；无钱的；不通过现金的"
+    ]
+  },
+  {
+    "name": "privacy",
+    "usphone": "ˈpraɪvəsi",
+    "ukphone": "ˈprɪvəsi",
+    "trans": [
+      "n. 隐私；秘密；隐居"
+    ]
+  },
+  {
+    "name": "revenue",
+    "usphone": "ˈrevənuː",
+    "ukphone": "ˈrevənjuː",
+    "trans": [
+      "n. (国家的) 税收；收入，收益；总收入"
+    ]
+  },
+  {
+    "name": "advocate",
+    "usphone": "ˈædvəkeɪt",
+    "ukphone": "ˈædvəkeɪt",
+    "trans": [
+      "vt. 提倡；主张；拥护",
+      "n. 提倡者；支持者；律师"
+    ]
+  },
+  {
+    "name": "monitor",
+    "usphone": "ˈmɑːnɪtər",
+    "ukphone": "ˈmɒnɪtə(r)",
+    "trans": [
+      "n. 显示屏，屏幕；计显示器；监测仪",
+      "vt. 监控，监听；搜集，记录；测定",
+      "vi. 监视"
+    ]
+  },
+  {
+    "name": "cite",
+    "usphone": "saɪt",
+    "ukphone": "saɪt",
+    "trans": [
+      "v. 引用，援引；引证，引以为例；传唤，传讯",
+      "n. 引用；引文"
+    ]
+  },
+  {
+    "name": "injection",
+    "usphone": "ɪnˈdʒekʃn",
+    "ukphone": "ɪnˈdʒekʃn",
+    "trans": [
+      "n. 注射；注射剂；充血"
+    ]
+  },
+  {
+    "name": "recession",
+    "usphone": "rɪˈseʃn",
+    "ukphone": "rɪˈseʃn",
+    "trans": [
+      "n. 经济衰退，萧条；后退，撤退；凹处，凹陷"
+    ]
+  },
+  {
+    "name": "boost",
+    "usphone": "buːst",
+    "ukphone": "buːst",
+    "trans": [
+      "n. 推动；帮助；宣扬",
+      "vi. 宣扬；偷窃",
+      "vt. 促进；增加；支援"
+    ]
+  },
+  {
+    "name": "debt",
+    "usphone": "det",
+    "ukphone": "det",
+    "trans": [
+      "n. 债务，欠款；负债，欠债；人情债，道义上的亏欠"
+    ]
+  },
+  {
+    "name": "resource",
+    "usphone": "ˈriːsɔːrs",
+    "ukphone": "rɪˈsɔːs",
+    "trans": [
+      "n. 资源，财力；办法；智谋",
+      "vi. 向...提供资金"
+    ]
+  },
+  {
+    "name": "import",
+    "usphone": "ˈɪmpɔːrt",
+    "ukphone": "ˈɪmpɔːt",
+    "trans": [
+      "n. 进口，进口货；输入；意思，含义",
+      "vt. 输入，进口；含…的意思",
+      "vi. 输入；进口"
+    ]
+  },
+  {
+    "name": "export",
+    "usphone": "ɪkˈspɔːrt",
+    "ukphone": "ɪkˈspɔːt",
+    "trans": [
+      "vt. 输出；出口；运走",
+      "n. 出口；输出品",
+      "vi. 传播；输出"
+    ]
+  },
+  {
+    "name": "protectionism",
+    "usphone": "prəˈtekʃənɪzəm",
+    "ukphone": "prəˈtekʃənɪzəm",
+    "trans": [
+      "n. 保护主义；贸易保护制度"
+    ]
+  },
+  {
+    "name": "domestic",
+    "usphone": "dəˈmestɪk",
+    "ukphone": "dəˈmestɪk",
+    "trans": [
+      "n. 国货；佣人",
+      "adj. 国内的；家庭的；驯养的"
+    ]
+  },
+  {
+    "name": "global",
+    "usphone": "ˈɡloʊbl",
+    "ukphone": "ˈɡləʊbl",
+    "trans": [
+      "adj. 全球的，全世界的；全面的，总体的；整体的，全局的"
+    ]
+  },
+  {
+    "name": "economy",
+    "usphone": "ɪˈkɑːnəmi",
+    "ukphone": "ɪˈkɒnəmi",
+    "trans": [
+      "n. 经济；节约；节省",
+      "adj. 经济型的"
+    ]
+  },
+  {
+    "name": "customs",
+    "usphone": "ˈkʌstəmz",
+    "ukphone": "ˈkʌstəmz",
+    "trans": [
+      "n. 海关；风俗（custom的复数）；习惯"
+    ]
+  },
+  {
+    "name": "duty",
+    "usphone": "ˈduːti",
+    "ukphone": "ˈdjuːti",
+    "trans": [
+      "n. 职责；责任；义务",
+      "adj. 值班的；作为一种义务的"
+    ]
+  },
+  {
+    "name": "regional",
+    "usphone": "ˈriːdʒənl",
+    "ukphone": "ˈriːdʒənl",
+    "trans": [
+      "adj. 地区的；局部的；整个地区的"
+    ]
+  },
+  {
+    "name": "common",
+    "usphone": "ˈkɑːmən",
+    "ukphone": "ˈkɒmən",
+    "trans": [
+      "n. 普通；平民；公有地",
+      "adj. 共同的；普通的；一般的"
+    ]
+  },
+  {
+    "name": "currency",
+    "usphone": "ˈkɜːrənsi",
+    "ukphone": "ˈkʌrənsi",
+    "trans": [
+      "n. 通货，货币；通用，流行；现时性"
+    ]
+  },
+  {
+    "name": "freedom",
+    "usphone": "ˈfriːdəm",
+    "ukphone": "ˈfriːdəm",
+    "trans": [
+      "n. 自由，自主；自由权，特权；无拘束，随心所欲"
+    ]
+  },
+  {
+    "name": "movement",
+    "usphone": "ˈmuːvmənt",
+    "ukphone": "ˈmuːvmənt",
+    "trans": [
+      "n. 运动；活动；运转"
+    ]
+  },
+  {
+    "name": "state",
+    "usphone": "steɪt",
+    "ukphone": "steɪt",
+    "trans": [
+      "n. 状态，情况；州，邦；国家，政府",
+      "adj. 国家的；政府的",
+      "v. 陈述；说明"
+    ]
+  },
+  {
+    "name": "growth",
+    "usphone": "ɡroʊθ",
+    "ukphone": "ɡrəʊθ",
+    "trans": [
+      "n. 成长，生长；增长，发展；肿瘤，赘生物",
+      "adj. 发展的；增长的"
+    ]
+  }
 ]

@@ -1,362 +1,415 @@
 [
-{
+  {
     "name": "chair",
     "trans": [
-        "椅子"
+      "n. 椅子；讲座；（会议的）主席位",
+      "vt. 担任（会议的）主席；使…入座；使就任要职"
     ],
     "usphone": "tʃɛr",
     "ukphone": "tʃɛə"
-},
-{
+  },
+  {
     "name": "desk",
     "trans": [
-        "书桌，写字台"
+      "n. 办公桌；服务台；编辑部",
+      "adj. 书桌的；桌上用的；伏案做的"
     ],
     "usphone": "dɛsk",
     "ukphone": "dɛsk"
-},
-{
+  },
+  {
     "name": "blackboard",
     "trans": [
-        "黑板"
+      "n. 黑板"
     ],
     "usphone": "ˈblækˌbɔrd",
     "ukphone": "ˈblakˌbɔːd"
-},
-{
+  },
+  {
     "name": "on",
     "trans": [
-        "在⋯⋯上"
+      "prep. 在...上；在...时；关于",
+      "adv. 向前；继续；进行中",
+      "adj. 开着的；进行中的；上演的"
     ],
     "usphone": "ɑn",
     "ukphone": "ɒn"
-},
-{
+  },
+  {
     "name": "under",
     "trans": [
-        "在⋯⋯下面 ；在⋯⋯下方"
+      "prep. 在...之下；低于；少于",
+      "adv. 在下面；向下",
+      "adj. 较低的；下级的"
     ],
     "usphone": "ˈʌndər",
     "ukphone": "ˈʌndə"
-},
-{
+  },
+  {
     "name": "in",
     "trans": [
-        "在⋯⋯里面"
+      "adv. 进入；在里头；到达",
+      "n. 执政者；门路",
+      "prep. 在……内；进……里；在……期间"
     ],
     "usphone": "ɪn",
     "ukphone": "ɪn"
-},
-{
+  },
+  {
     "name": "where",
     "trans": [
-        "在哪里"
+      "adv. 哪里，在哪里；到哪里；某种情势或位置",
+      "conj. 在…的地方",
+      "n. 地方；场所"
     ],
     "usphone": "wɛr",
     "ukphone": "wɛə"
-},
-{
+  },
+  {
     "name": "the",
     "trans": [
-        "放在名词前，特指人、事或物"
+      "art. 这；那",
+      "adv. 更加用于比较级；最高级前"
     ],
     "usphone": "ðə",
     "ukphone": "ðiː"
-},
-{
+  },
+  {
     "name": "light",
     "trans": [
-        "灯"
+      "n. 光；光线；灯",
+      "adj. 轻的；浅色的；明亮的",
+      "v. 点亮；照亮"
     ],
     "usphone": "laɪt",
     "ukphone": "laɪt"
-},
-{
+  },
+  {
     "name": "bed",
     "trans": [
-        "床"
+      "n. 床；基础；河底， 海底",
+      "vt. 使睡觉；安置，嵌入；栽种",
+      "vi. 上床；分层"
     ],
     "usphone": "bɛd",
     "ukphone": "bɛd"
-},
-{
+  },
+  {
     "name": "door",
     "trans": [
-        "门 ；出入口"
+      "n. 门；门口；家"
     ],
     "usphone": "dɔr",
     "ukphone": "dɔː"
-},
-{
+  },
+  {
     "name": "box",
     "trans": [
-        "箱子 ；盒子"
+      "n. 箱，盒子；包厢；一拳",
+      "vt. 拳击；装…入盒中；打耳光",
+      "vi. 拳击"
     ],
     "usphone": "bɑks",
     "ukphone": "bɒks"
-},
-{
+  },
+  {
     "name": "near",
     "trans": [
-        "靠近，接近"
+      "adj. 接近的，靠近的；近似的，差不多的",
+      "adv. 在附近；接近",
+      "prep. 靠近；接近"
     ],
     "usphone": "nɪr",
     "ukphone": "nɪə"
-},
-{
+  },
+  {
     "name": "behind",
     "trans": [
-        "在⋯⋯背后"
+      "prep. 在...后面；在...背后；落后于",
+      "adv. 在后面；落后",
+      "n. 屁股；臀部"
     ],
     "usphone": "bɪˈhaɪnd",
     "ukphone": "bɪˈhaɪnd"
-},
-{
+  },
+  {
     "name": "plane",
     "trans": [
-        "飞机"
+      "n. 飞机；平面；刨子（木工工具）",
+      "adj. 平的；平面的",
+      "v. 刨平；使平滑"
     ],
     "usphone": "pleɪn",
     "ukphone": "pleɪn"
-},
-{
+  },
+  {
     "name": "ball",
     "trans": [
-        "球"
+      "n. 球；球状物；舞会",
+      "v. 使成球状；使聚集成球状"
     ],
     "usphone": "bɔl",
     "ukphone": "bɔːl"
-},
-{
+  },
+  {
     "name": "doll",
     "trans": [
-        "玩偶，玩具娃娃"
+      "n. 玩偶；洋娃娃",
+      "v. 打扮；装饰"
     ],
     "usphone": "dɑl",
     "ukphone": "dɒl"
-},
-{
+  },
+  {
     "name": "train",
     "trans": [
-        "列车，火车"
+      "n. 火车；列车；一系列",
+      "v. 训练；培训；锻炼"
     ],
     "usphone": "treɪn",
     "ukphone": "treɪn"
-},
-{
+  },
+  {
     "name": "car",
     "trans": [
-        "小汽车，轿车"
+      "n. 汽车；小汽车；轿车"
     ],
     "usphone": "kɑr",
     "ukphone": "kɑːr"
-},
-{
+  },
+  {
     "name": "bear",
     "trans": [
-        "玩具熊 ；熊"
+      "vi. 结果实；承受",
+      "vt. 忍受；具有；支撑",
+      "n. 熊"
     ],
     "usphone": "bɛr",
     "ukphone": "bɛə"
-},
-{
+  },
+  {
     "name": "can",
     "trans": [
-        "可以 ；能够"
+      "aux. 能；会；可以",
+      "n. 罐头；金属容器",
+      "v. 把…装罐；保存"
     ],
     "usphone": "kæn",
     "ukphone": "kæn"
-},
-{
+  },
+  {
     "name": "sure",
     "trans": [
-        "当然"
+      "adj. 确信的；确实的；肯定的",
+      "adv. 当然；确实地；无疑地"
     ],
     "usphone": "ʃʊr",
     "ukphone": "ʃɔːr"
-},
-{
+  },
+  {
     "name": "sorry",
     "trans": [
-        "对不起，抱歉"
+      "adj. 感到遗憾的，歉疚的；糟糕的，可怜的",
+      "int. 对不起；抱歉"
     ],
     "usphone": "ˈsɔri",
     "ukphone": "ˈsɒri"
-},
-{
+  },
+  {
     "name": "rice",
     "trans": [
-        "米饭 ；米"
+      "n. 稻米，大米；米饭",
+      "v. 用压粒机把（食物）压成米粒状"
     ],
     "usphone": "raɪs",
     "ukphone": "raɪs"
-},
-{
+  },
+  {
     "name": "noodles",
     "trans": [
-        "面条"
+      "n. 面条；挂面（noodle的复数形式)"
     ],
     "usphone": "ˈnudəlz",
     "ukphone": "ˈnuːdlz"
-},
-{
+  },
+  {
     "name": "vegetable",
     "trans": [
-        "蔬菜"
+      "n. 蔬菜；植物",
+      "adj. 植物的；蔬菜的；呆滞的，无生气的"
     ],
     "usphone": "ˈvɛdʒtəbəl",
     "ukphone": "ˈvɛdʒtəbl"
-},
-{
+  },
+  {
     "name": "fish",
     "trans": [
-        "鱼肉 ；鱼"
+      "n. 鱼；鱼类",
+      "vt. 钓鱼，捕鱼；搜寻",
+      "vi. 捕鱼，钓鱼；用钩捞取"
     ],
     "usphone": "fɪʃ",
     "ukphone": "fɪʃ"
-},
-{
+  },
+  {
     "name": "chicken",
     "trans": [
-        "鸡肉 ；鸡"
+      "n. 鸡肉；小鸡；胆小鬼，懦夫",
+      "adj. 鸡肉的；胆怯的；幼小的"
     ],
     "usphone": "ˈtʃɪkən",
     "ukphone": "ˈtʃɪkɪn"
-},
-{
+  },
+  {
     "name": "egg",
     "trans": [
-        "鸡蛋"
+      "n. 鸡蛋，蛋；卵；家伙",
+      "vt. 煽动，怂恿；用蛋烹调；向人扔鸡蛋"
     ],
     "usphone": "ɛɡ",
     "ukphone": "ɛɡ"
-},
-{
+  },
+  {
     "name": "hungry",
     "trans": [
-        "饥饿的"
+      "adj. 饥饿的；渴望的；荒年的"
     ],
     "usphone": "ˈhʌŋɡri",
     "ukphone": "ˈhʌŋɡri"
-},
-{
+  },
+  {
     "name": "want",
     "trans": [
-        "要 ；想要"
+      "n. 需要；缺乏；贫困",
+      "vt. 需要；希望；应该",
+      "vi. 需要；缺少"
     ],
     "usphone": "wɑnt",
     "ukphone": "wɒnt"
-},
-{
+  },
+  {
     "name": "and",
     "trans": [
-        "和"
+      "conj. 和，与；而且，并且；那么，就"
     ],
     "usphone": "ænd",
     "ukphone": "ənd"
-},
-{
+  },
+  {
     "name": "juice",
     "trans": [
-        "果汁 ；蔬菜汁"
+      "n. (水果等)汁；液；果汁",
+      "vt. 加液体；榨出...的汁液"
     ],
     "usphone": "dʒus",
     "ukphone": "dʒuːs"
-},
-{
+  },
+  {
     "name": "tea",
     "trans": [
-        "茶 ；茶叶"
+      "n. 茶叶；茶树；茶点",
+      "vt. 给…沏茶",
+      "vi. 喝茶；进茶点"
     ],
     "usphone": "ti",
     "ukphone": "tiː"
-},
-{
+  },
+  {
     "name": "milk",
     "trans": [
-        "奶 ；牛奶"
+      "n. 牛奶；乳状物",
+      "vt. 榨取；挤…的奶",
+      "vi. 挤奶"
     ],
     "usphone": "mɪlk",
     "ukphone": "mɪlk"
-},
-{
+  },
+  {
     "name": "water",
     "trans": [
-        "水"
+      "n. 水；水域；水面",
+      "v. 给...浇水；加水",
+      "adj. 水的；水产的；水上的"
     ],
     "usphone": "ˈwɔtər",
     "ukphone": "ˈwɔːtə"
-},
-{
+  },
+  {
     "name": "thirsty",
     "trans": [
-        "口渴的"
+      "adj. 口渴的；渴望（求）…的；干旱的，缺水的"
     ],
     "usphone": "ˈθɜrsti",
     "ukphone": "ˈθɜːsti"
-},
-{
+  },
+  {
     "name": "thanks",
     "trans": [
-        "感谢"
+      "n. 感谢；谢谢",
+      "int. 感激（的）；致谢（的）",
+      "v. 责怪"
     ],
     "usphone": "θæŋks",
     "ukphone": "θæŋks"
-},
-{
+  },
+  {
     "name": "shirt",
     "trans": [
-        "衬衫"
+      "n. 衬衫；衬衣"
     ],
     "usphone": "ʃɜrt",
     "ukphone": "ʃɜːt"
-},
-{
+  },
+  {
     "name": "T-shirt",
     "trans": [
-        "T 恤衫；短袖圆领汗衫"
+      "n. T恤，短袖汗衫；样式类似T恤的外衣"
     ],
     "usphone": "ˈtiˌʃɜrt",
     "ukphone": "ˈtiːˌʃɜːt"
-},
-{
+  },
+  {
     "name": "skirt",
     "trans": [
-        "裙子"
+      "n. 女裙；边缘；郊区",
+      "vt. 位于...边缘；装边于；回避",
+      "vi. 形成边缘；绕...走；避开"
     ],
     "usphone": "skɜrt",
     "ukphone": "skɜːt"
-},
-{
+  },
+  {
     "name": "dress",
     "trans": [
-        "连衣裙 ；套裙"
+      "n. 女服；童装；服装",
+      "vi. 穿著",
+      "adj. 正式的(衣服)"
     ],
     "usphone": "drɛs",
     "ukphone": "drɛs"
-},
-{
+  },
+  {
     "name": "socks",
     "trans": [
-        "短袜"
+      "n. 袜子（sock的复数）"
     ],
     "usphone": "sɑks",
     "ukphone": "sɒks"
-},
-{
+  },
+  {
     "name": "shorts",
     "trans": [
-        "短裤"
+      "n. （从事运动或天气炎热时穿的）短裤；男人的短内裤；电影短片"
     ],
     "usphone": "ʃɔrts",
     "ukphone": "ʃɔːts"
-},
-{
+  },
+  {
     "name": "your",
     "trans": [
-        "你的 ；你们的"
+      "pron. 你的；你们的；你们的(东西)"
     ],
     "usphone": "jʊr",
     "ukphone": "jɔːr"
-}
+  }
 ]

@@ -1,514 +1,607 @@
 [
-    {
-        "name": "ruler",
-        "trans": [
-            "尺子"
-        ],
-        "usphone": "'rulɚ",
-        "ukphone": "'ruːlə"
-    },
-    {
-        "name": "pencil",
-        "trans": [
-            "铅笔"
-        ],
-        "usphone": "'pɛnsl",
-        "ukphone": "'pens(ə)l; -sɪl"
-    },
-    {
-        "name": "eraser",
-        "trans": [
-            "橡皮"
-        ],
-        "usphone": "ɪ'resɚ",
-        "ukphone": "ɪ'reɪzə"
-    },
-    {
-        "name": "crayon",
-        "trans": [
-            "蜡笔"
-        ],
-        "usphone": "kreən",
-        "ukphone": "ˈkreɪən"
-    },
-    {
-        "name": "bag",
-        "trans": [
-            "包"
-        ],
-        "usphone": "bæɡ",
-        "ukphone": "bæg"
-    },
-    {
-        "name": "pen",
-        "trans": [
-            "钢笔"
-        ],
-        "usphone": "pɛn",
-        "ukphone": "pen"
-    },
-    {
-        "name": "pencil box",
-        "trans": [
-            "铅笔盒"
-        ],
-        "usphone": "'pɛnsl bɑks",
-        "ukphone": ""
-    },
-    {
-        "name": "book",
-        "trans": [
-            "书"
-        ],
-        "usphone": "bʊk",
-        "ukphone": "bʊk"
-    },
-    {
-        "name": "no",
-        "trans": [
-            "不"
-        ],
-        "usphone": "no",
-        "ukphone": "nəʊ"
-    },
-    {
-        "name": "your",
-        "trans": [
-            "你（们）的"
-        ],
-        "usphone": "jʊər; jʊr",
-        "ukphone": "jɔ:(r)"
-    },
-    {
-        "name": "red",
-        "trans": [
-            "红色；红色的"
-        ],
-        "usphone": "rɛd",
-        "ukphone": "red"
-    },
-    {
-        "name": "green",
-        "trans": [
-            "绿色；绿色的"
-        ],
-        "usphone": "ɡrin",
-        "ukphone": "griːn"
-    },
-    {
-        "name": "yellow",
-        "trans": [
-            "黄色；黄色的"
-        ],
-        "usphone": "ˈjɛlo",
-        "ukphone": "'jeləʊ"
-    },
-    {
-        "name": "blue",
-        "trans": [
-            "蓝色；蓝色的"
-        ],
-        "usphone": "blu",
-        "ukphone": "bluː"
-    },
-    {
-        "name": "black",
-        "trans": [
-            "黑色；黑色的"
-        ],
-        "usphone": "blæk",
-        "ukphone": "blæk"
-    },
-    {
-        "name": "brown",
-        "trans": [
-            "棕色；棕色的"
-        ],
-        "usphone": "braʊn",
-        "ukphone": "braʊn"
-    },
-    {
-        "name": "white",
-        "trans": [
-            "白色；白色的"
-        ],
-        "usphone": "hwaɪt",
-        "ukphone": "waɪt"
-    },
-    {
-        "name": "orange",
-        "trans": [
-            "橙色；橙色的"
-        ],
-        "usphone": "'ɔrɪndʒ",
-        "ukphone": "'ɒrɪn(d)ʒ"
-    },
-    {
-        "name": "OK",
-        "trans": [
-            "好；行"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "mum",
-        "trans": [
-            "妈妈"
-        ],
-        "usphone": "mʌm",
-        "ukphone": "mʌm"
-    },
-    {
-        "name": "face",
-        "trans": [
-            "脸"
-        ],
-        "usphone": "fes",
-        "ukphone": "feɪs"
-    },
-    {
-        "name": "ear",
-        "trans": [
-            "耳朵"
-        ],
-        "usphone": "ɪr",
-        "ukphone": "ɪə"
-    },
-    {
-        "name": "eye",
-        "trans": [
-            "眼睛"
-        ],
-        "usphone": "aɪ",
-        "ukphone": "aɪ"
-    },
-    {
-        "name": "nose",
-        "trans": [
-            "鼻子"
-        ],
-        "usphone": "noz",
-        "ukphone": "nəʊz"
-    },
-    {
-        "name": "mouth",
-        "trans": [
-            "嘴"
-        ],
-        "usphone": "maʊθ",
-        "ukphone": "maʊθ"
-    },
-    {
-        "name": "arm",
-        "trans": [
-            "胳膊"
-        ],
-        "usphone": "ɑrm",
-        "ukphone": "ɑːm"
-    },
-    {
-        "name": "hand",
-        "trans": [
-            "手"
-        ],
-        "usphone": "hænd",
-        "ukphone": "hænd"
-    },
-    {
-        "name": "head",
-        "trans": [
-            "头"
-        ],
-        "usphone": "hɛd",
-        "ukphone": "hed"
-    },
-    {
-        "name": "body",
-        "trans": [
-            "身体"
-        ],
-        "usphone": "'bɑdi",
-        "ukphone": "'bɒdɪ"
-    },
-    {
-        "name": "leg",
-        "trans": [
-            "腿"
-        ],
-        "usphone": "lɛɡ",
-        "ukphone": "leg"
-    },
-    {
-        "name": "foot",
-        "trans": [
-            "脚"
-        ],
-        "usphone": "fʊt",
-        "ukphone": "fʊt"
-    },
-    {
-        "name": "school",
-        "trans": [
-            "学校"
-        ],
-        "usphone": "skul",
-        "ukphone": "skuːl"
-    },
-    {
-        "name": "duck",
-        "trans": [
-            "鸭子"
-        ],
-        "usphone": "dʌk",
-        "ukphone": "dʌk"
-    },
-    {
-        "name": "pig",
-        "trans": [
-            "猪"
-        ],
-        "usphone": "pɪɡ",
-        "ukphone": "pɪg"
-    },
-    {
-        "name": "cat",
-        "trans": [
-            "猫"
-        ],
-        "usphone": "kæt",
-        "ukphone": "kæt"
-    },
-    {
-        "name": "bear",
-        "trans": [
-            "熊"
-        ],
-        "usphone": "bɛr",
-        "ukphone": "beə"
-    },
-    {
-        "name": "dog",
-        "trans": [
-            "狗"
-        ],
-        "usphone": "dɔɡ",
-        "ukphone": "dɒg"
-    },
-    {
-        "name": "elephant",
-        "trans": [
-            "大象"
-        ],
-        "usphone": "ˈɛləfənt",
-        "ukphone": "'elɪf(ə)nt"
-    },
-    {
-        "name": "monkey",
-        "trans": [
-            "猴子"
-        ],
-        "usphone": "'mʌŋki",
-        "ukphone": "'mʌŋkɪ"
-    },
-    {
-        "name": "bird",
-        "trans": [
-            "鸟"
-        ],
-        "usphone": "bɝd",
-        "ukphone": "bɜːd"
-    },
-    {
-        "name": "tiger",
-        "trans": [
-            "老虎"
-        ],
-        "usphone": "'taɪɡɚ",
-        "ukphone": "'taɪgə"
-    },
-    {
-        "name": "panda",
-        "trans": [
-            "大熊猫"
-        ],
-        "usphone": "'pændə",
-        "ukphone": "'pændə"
-    },
-    {
-        "name": "zoo",
-        "trans": [
-            "动物园"
-        ],
-        "usphone": "zu",
-        "ukphone": "zuː"
-    },
-    {
-        "name": "funny",
-        "trans": [
-            "滑稽的；好笑的"
-        ],
-        "usphone": "'fʌni",
-        "ukphone": "'fʌnɪ"
-    },
-    {
-        "name": "bread",
-        "trans": [
-            "面包"
-        ],
-        "usphone": "brɛd",
-        "ukphone": "bred"
-    },
-    {
-        "name": "juice",
-        "trans": [
-            "果汁"
-        ],
-        "usphone": "dʒus",
-        "ukphone": "dʒuːs"
-    },
-    {
-        "name": "egg",
-        "trans": [
-            "蛋"
-        ],
-        "usphone": "ɛɡ",
-        "ukphone": "eg"
-    },
-    {
-        "name": "milk",
-        "trans": [
-            "牛奶"
-        ],
-        "usphone": "mɪlk",
-        "ukphone": "mɪlk"
-    },
-    {
-        "name": "water",
-        "trans": [
-            "水"
-        ],
-        "usphone": "ˈwɔtɚ",
-        "ukphone": "'wɔːtə"
-    },
-    {
-        "name": "cake",
-        "trans": [
-            "蛋糕"
-        ],
-        "usphone": "kek",
-        "ukphone": "keɪk"
-    },
-    {
-        "name": "fish",
-        "trans": [
-            "鱼"
-        ],
-        "usphone": "fɪʃ",
-        "ukphone": "fɪʃ"
-    },
-    {
-        "name": "rice",
-        "trans": [
-            "米饭"
-        ],
-        "usphone": "raɪs",
-        "ukphone": "raɪs"
-    },
-    {
-        "name": "one",
-        "trans": [
-            "一"
-        ],
-        "usphone": "wʌn",
-        "ukphone": "wʌn"
-    },
-    {
-        "name": "two",
-        "trans": [
-            "二"
-        ],
-        "usphone": "tu",
-        "ukphone": "tuː"
-    },
-    {
-        "name": "three",
-        "trans": [
-            "三"
-        ],
-        "usphone": "θri",
-        "ukphone": "θriː"
-    },
-    {
-        "name": "four",
-        "trans": [
-            "四"
-        ],
-        "usphone": "fɔr",
-        "ukphone": "fɔː"
-    },
-    {
-        "name": "five",
-        "trans": [
-            "五"
-        ],
-        "usphone": "faɪv",
-        "ukphone": "faɪv"
-    },
-    {
-        "name": "six",
-        "trans": [
-            "六"
-        ],
-        "usphone": "sɪks",
-        "ukphone": "sɪks"
-    },
-    {
-        "name": "seven",
-        "trans": [
-            "七"
-        ],
-        "usphone": "'sɛvn",
-        "ukphone": "'sev(ə)n"
-    },
-    {
-        "name": "eight",
-        "trans": [
-            "八"
-        ],
-        "usphone": "et",
-        "ukphone": "eɪt"
-    },
-    {
-        "name": "nine",
-        "trans": [
-            "九"
-        ],
-        "usphone": "naɪn",
-        "ukphone": "naɪn"
-    },
-    {
-        "name": "ten",
-        "trans": [
-            "十"
-        ],
-        "usphone": "tɛn",
-        "ukphone": "ten"
-    },
-    {
-        "name": "brother",
-        "trans": [
-            "兄；弟"
-        ],
-        "usphone": "'brʌðɚ",
-        "ukphone": "'brʌðə"
-    },
-    {
-        "name": "plate",
-        "trans": [
-            "盘子"
-        ],
-        "usphone": "pleɪt",
-        "ukphone": "pleɪt"
-    }
+  {
+    "name": "ruler",
+    "trans": [
+      "n. 统治者，君主；尺子，直尺；统治阶级"
+    ],
+    "usphone": "'rulɚ",
+    "ukphone": "'ruːlə"
+  },
+  {
+    "name": "pencil",
+    "trans": [
+      "n. 铅笔；笔状物",
+      "vt. 用铅笔写；用眉笔涂",
+      "vi. 成铅笔状"
+    ],
+    "usphone": "'pɛnsl",
+    "ukphone": "'pens(ə)l; -sɪl"
+  },
+  {
+    "name": "eraser",
+    "trans": [
+      "n. 橡皮；擦除器；清除器"
+    ],
+    "usphone": "ɪ'resɚ",
+    "ukphone": "ɪ'reɪzə"
+  },
+  {
+    "name": "crayon",
+    "trans": [
+      "n. 蜡笔；有色粉笔",
+      "vt. 以蜡笔作画；用颜色粉笔画"
+    ],
+    "usphone": "kreən",
+    "ukphone": "ˈkreɪən"
+  },
+  {
+    "name": "bag",
+    "trans": [
+      "n. 包；袋；猎获物",
+      "vt. 猎获；把…装入袋中；放弃",
+      "vi. 松垂；变形"
+    ],
+    "usphone": "bæɡ",
+    "ukphone": "bæg"
+  },
+  {
+    "name": "pen",
+    "trans": [
+      "n. 笔，笔尖；笔法，文笔；作家",
+      "vt. 写；把…关入栏中；关押，囚禁"
+    ],
+    "usphone": "pɛn",
+    "ukphone": "pen"
+  },
+  {
+    "name": "pencil box",
+    "trans": [
+      "铅笔盒；文具盒；你的铅笔盒"
+    ],
+    "usphone": "'pɛnsl bɑks",
+    "ukphone": ""
+  },
+  {
+    "name": "book",
+    "trans": [
+      "n. 书；书籍账簿卷；篇",
+      "vt.&vi. 预订",
+      "vt. 登记；记账订立演出契约"
+    ],
+    "usphone": "bʊk",
+    "ukphone": "bʊk"
+  },
+  {
+    "name": "no",
+    "trans": [
+      "adv. 不是；不",
+      "adj. 没有的；不允许",
+      "n. 不；拒绝"
+    ],
+    "usphone": "no",
+    "ukphone": "nəʊ"
+  },
+  {
+    "name": "your",
+    "trans": [
+      "pron. 你的；你们的；你们的(东西)"
+    ],
+    "usphone": "jʊər; jʊr",
+    "ukphone": "jɔ:(r)"
+  },
+  {
+    "name": "red",
+    "trans": [
+      "adj. 红色的；（脸）涨红的；烧红的",
+      "n. 红色；红衣服；红颜料"
+    ],
+    "usphone": "rɛd",
+    "ukphone": "red"
+  },
+  {
+    "name": "green",
+    "trans": [
+      "n. 绿色；青春",
+      "adj. 绿色的；青春的",
+      "vt. 使…变绿色"
+    ],
+    "usphone": "ɡrin",
+    "ukphone": "griːn"
+  },
+  {
+    "name": "yellow",
+    "trans": [
+      "adj. 黄色的；发黄的；胆小的，懦弱的",
+      "n. 黄色",
+      "v. 变黄；使变黄"
+    ],
+    "usphone": "ˈjɛlo",
+    "ukphone": "'jeləʊ"
+  },
+  {
+    "name": "blue",
+    "trans": [
+      "adj. 蓝色的；忧郁的，沮丧的；下流的，色情的",
+      "n. 蓝色",
+      "v. 使变蓝；使...感到沮丧"
+    ],
+    "usphone": "blu",
+    "ukphone": "bluː"
+  },
+  {
+    "name": "black",
+    "trans": [
+      "adj. 黑的；暗的；穿黑衣服的",
+      "n. 黑色东西；黑色；黑人",
+      "v. (使)变黑；抹黑"
+    ],
+    "usphone": "blæk",
+    "ukphone": "blæk"
+  },
+  {
+    "name": "brown",
+    "trans": [
+      "adj. 棕色的；褐色的；被晒黑的",
+      "n. 褐色；棕色",
+      "v. 变成棕色；成褐色；晒黑"
+    ],
+    "usphone": "braʊn",
+    "ukphone": "braʊn"
+  },
+  {
+    "name": "white",
+    "trans": [
+      "adj. 白色的；苍白的；白人的",
+      "n. 白色；白颜色；白人",
+      "v. 使变白；漂白"
+    ],
+    "usphone": "hwaɪt",
+    "ukphone": "waɪt"
+  },
+  {
+    "name": "orange",
+    "trans": [
+      "n. 桔子，橙子；植桔树；橙色",
+      "adj. 橙色的；橘色的；桔红色的"
+    ],
+    "usphone": "'ɔrɪndʒ",
+    "ukphone": "'ɒrɪn(d)ʒ"
+  },
+  {
+    "name": "OK",
+    "trans": [
+      "adj. 好的；可以的；不错的",
+      "adv. 好；行",
+      "n. 同意；批准"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "mum",
+    "trans": [
+      "n. 妈妈；沉默；菊花",
+      "adj. 沉默的；无言的",
+      "vi. 演哑剧"
+    ],
+    "usphone": "mʌm",
+    "ukphone": "mʌm"
+  },
+  {
+    "name": "face",
+    "trans": [
+      "n. 脸；表面；面子",
+      "vi. 向；朝",
+      "vt. 面对；面向；承认"
+    ],
+    "usphone": "fes",
+    "ukphone": "feɪs"
+  },
+  {
+    "name": "ear",
+    "trans": [
+      "n. 耳朵；穗；听觉",
+      "vi. （美俚）听见；抽穗"
+    ],
+    "usphone": "ɪr",
+    "ukphone": "ɪə"
+  },
+  {
+    "name": "eye",
+    "trans": [
+      "n. 眼睛；视力；眼状物",
+      "vt. 定睛地看；注视；审视"
+    ],
+    "usphone": "aɪ",
+    "ukphone": "aɪ"
+  },
+  {
+    "name": "nose",
+    "trans": [
+      "n. 鼻子；嗅觉；突出的部分",
+      "vt. 嗅；用鼻子触",
+      "vi. 小心探索着前进；探问"
+    ],
+    "usphone": "noz",
+    "ukphone": "nəʊz"
+  },
+  {
+    "name": "mouth",
+    "trans": [
+      "n. 嘴；口；口腔",
+      "vt. 装腔作势说话；送进嘴里；喃喃自语",
+      "vi. 傲慢地说；嘟嘴扮鬼脸"
+    ],
+    "usphone": "maʊθ",
+    "ukphone": "maʊθ"
+  },
+  {
+    "name": "arm",
+    "trans": [
+      "n. 手臂；武器；袖子",
+      "vt. 武装；备战",
+      "vi. 武装起来"
+    ],
+    "usphone": "ɑrm",
+    "ukphone": "ɑːm"
+  },
+  {
+    "name": "hand",
+    "trans": [
+      "n. 手；指针；帮助",
+      "v. 递给；交给；搀扶",
+      "adj. 手工的；手动的"
+    ],
+    "usphone": "hænd",
+    "ukphone": "hænd"
+  },
+  {
+    "name": "head",
+    "trans": [
+      "n. 头；头部；领导",
+      "v. 朝...方向走；领导；主管",
+      "adj. 主要的；首要的"
+    ],
+    "usphone": "hɛd",
+    "ukphone": "hed"
+  },
+  {
+    "name": "body",
+    "trans": [
+      "n. 身体；人；主体",
+      "vt. 赋予形体；体现"
+    ],
+    "usphone": "'bɑdi",
+    "ukphone": "'bɒdɪ"
+  },
+  {
+    "name": "leg",
+    "trans": [
+      "n. 腿，腿部；支柱，支撑物；裤腿",
+      "v. 用腿推动；走"
+    ],
+    "usphone": "lɛɡ",
+    "ukphone": "leg"
+  },
+  {
+    "name": "foot",
+    "trans": [
+      "n. 脚；英尺；步调",
+      "vt. 支付；给……换底",
+      "vi. 步行；跳舞；总计"
+    ],
+    "usphone": "fʊt",
+    "ukphone": "fʊt"
+  },
+  {
+    "name": "school",
+    "trans": [
+      "n. 学校；学院；学派",
+      "vt. 教育；训练；磨炼",
+      "vi. 喂食鱼群；游来游去"
+    ],
+    "usphone": "skul",
+    "ukphone": "skuːl"
+  },
+  {
+    "name": "duck",
+    "trans": [
+      "n. 鸭子；鸭肉；（英）宝贝儿",
+      "vt. 躲避；猛按…入水",
+      "vi. 闪避；没入水中"
+    ],
+    "usphone": "dʌk",
+    "ukphone": "dʌk"
+  },
+  {
+    "name": "pig",
+    "trans": [
+      "n. 猪；猪肉；警察俚语",
+      "vi. 生小猪；像猪一样过活"
+    ],
+    "usphone": "pɪɡ",
+    "ukphone": "pɪg"
+  },
+  {
+    "name": "cat",
+    "trans": [
+      "n. 猫；猫科；猫皮",
+      "vt. 吊锚",
+      "vi. 寻找性交伴侣；(CAT)电子计算机横断层扫描"
+    ],
+    "usphone": "kæt",
+    "ukphone": "kæt"
+  },
+  {
+    "name": "bear",
+    "trans": [
+      "vi. 结果实；承受",
+      "vt. 忍受；具有；支撑",
+      "n. 熊"
+    ],
+    "usphone": "bɛr",
+    "ukphone": "beə"
+  },
+  {
+    "name": "dog",
+    "trans": [
+      "n. 狗；丑女人；卑鄙的人",
+      "vt. 跟踪；尾随"
+    ],
+    "usphone": "dɔɡ",
+    "ukphone": "dɒg"
+  },
+  {
+    "name": "elephant",
+    "trans": [
+      "n. 象；大号图画纸"
+    ],
+    "usphone": "ˈɛləfənt",
+    "ukphone": "'elɪf(ə)nt"
+  },
+  {
+    "name": "monkey",
+    "trans": [
+      "n. 猴；猿；淘气鬼",
+      "vi. 胡闹；捣蛋",
+      "vt. 嘲弄"
+    ],
+    "usphone": "'mʌŋki",
+    "ukphone": "'mʌŋkɪ"
+  },
+  {
+    "name": "bird",
+    "trans": [
+      "n. 鸟；家伙；羽毛球",
+      "vt. 向…喝倒彩；起哄",
+      "vi. 猎鸟；观察研究野鸟"
+    ],
+    "usphone": "bɝd",
+    "ukphone": "bɜːd"
+  },
+  {
+    "name": "tiger",
+    "trans": [
+      "n. 老虎；各种猫科动物；凶恶的人，虎狼之徒"
+    ],
+    "usphone": "'taɪɡɚ",
+    "ukphone": "'taɪgə"
+  },
+  {
+    "name": "panda",
+    "trans": [
+      "n. 熊猫；猫熊"
+    ],
+    "usphone": "'pændə",
+    "ukphone": "'pændə"
+  },
+  {
+    "name": "zoo",
+    "trans": [
+      "n. 动物园；（铁路货车的最后一节）守车；核粒子园"
+    ],
+    "usphone": "zu",
+    "ukphone": "zuː"
+  },
+  {
+    "name": "funny",
+    "trans": [
+      "adj. 古怪的；滑稽的；有趣的",
+      "n. 笑话；funny滑稽戏"
+    ],
+    "usphone": "'fʌni",
+    "ukphone": "'fʌnɪ"
+  },
+  {
+    "name": "bread",
+    "trans": [
+      "n. 面包；食物；粮食",
+      "vt. 撒面包屑"
+    ],
+    "usphone": "brɛd",
+    "ukphone": "bred"
+  },
+  {
+    "name": "juice",
+    "trans": [
+      "n. (水果等)汁；液；果汁",
+      "vt. 加液体；榨出...的汁液"
+    ],
+    "usphone": "dʒus",
+    "ukphone": "dʒuːs"
+  },
+  {
+    "name": "egg",
+    "trans": [
+      "n. 鸡蛋，蛋；卵；家伙",
+      "vt. 煽动，怂恿；用蛋烹调；向人扔鸡蛋"
+    ],
+    "usphone": "ɛɡ",
+    "ukphone": "eg"
+  },
+  {
+    "name": "milk",
+    "trans": [
+      "n. 牛奶；乳状物",
+      "vt. 榨取；挤…的奶",
+      "vi. 挤奶"
+    ],
+    "usphone": "mɪlk",
+    "ukphone": "mɪlk"
+  },
+  {
+    "name": "water",
+    "trans": [
+      "n. 水；水域；水面",
+      "v. 给...浇水；加水",
+      "adj. 水的；水产的；水上的"
+    ],
+    "usphone": "ˈwɔtɚ",
+    "ukphone": "'wɔːtə"
+  },
+  {
+    "name": "cake",
+    "trans": [
+      "n. 饼；糕；蛋糕",
+      "vt. 涂厚厚的一层；覆盖；填满",
+      "vi. 结成块"
+    ],
+    "usphone": "kek",
+    "ukphone": "keɪk"
+  },
+  {
+    "name": "fish",
+    "trans": [
+      "n. 鱼；鱼类",
+      "vt. 钓鱼，捕鱼；搜寻",
+      "vi. 捕鱼，钓鱼；用钩捞取"
+    ],
+    "usphone": "fɪʃ",
+    "ukphone": "fɪʃ"
+  },
+  {
+    "name": "rice",
+    "trans": [
+      "n. 稻米，大米；米饭",
+      "v. 用压粒机把（食物）压成米粒状"
+    ],
+    "usphone": "raɪs",
+    "ukphone": "raɪs"
+  },
+  {
+    "name": "one",
+    "trans": [
+      "num. 一；一个",
+      "pron. 一个人；一个（事物）",
+      "n. 一；一个；一元（钱）"
+    ],
+    "usphone": "wʌn",
+    "ukphone": "wʌn"
+  },
+  {
+    "name": "two",
+    "trans": [
+      "n. 两个；两个东西；两点钟",
+      "adj. 两个的；我同",
+      "num. 两个；第二；二"
+    ],
+    "usphone": "tu",
+    "ukphone": "tuː"
+  },
+  {
+    "name": "three",
+    "trans": [
+      "num. 三；三个；第三（章，页等）",
+      "n. 三岁；三个人东西；三，三个",
+      "adj. 三的；三个的"
+    ],
+    "usphone": "θri",
+    "ukphone": "θriː"
+  },
+  {
+    "name": "four",
+    "trans": [
+      "num. 四；四个",
+      "n. 四个人（或事）的一组；（板球）四分的一击；（衣服等）四号",
+      "adj. 四的；四个的"
+    ],
+    "usphone": "fɔr",
+    "ukphone": "fɔː"
+  },
+  {
+    "name": "five",
+    "trans": [
+      "n. 五，五个；五美元钞票",
+      "num. 五；五个",
+      "adj. 五的；五个的"
+    ],
+    "usphone": "faɪv",
+    "ukphone": "faɪv"
+  },
+  {
+    "name": "six",
+    "trans": [
+      "n. 六；六个；六岁",
+      "num. 六；六个"
+    ],
+    "usphone": "sɪks",
+    "ukphone": "sɪks"
+  },
+  {
+    "name": "seven",
+    "trans": [
+      "num. 七个；七",
+      "n. 七个；七",
+      "adj. 七的；七个的"
+    ],
+    "usphone": "'sɛvn",
+    "ukphone": "'sev(ə)n"
+  },
+  {
+    "name": "eight",
+    "trans": [
+      "num. 八；八个；第八",
+      "n. 八；八人（或物）一组；八人划船队",
+      "adj. 八个的"
+    ],
+    "usphone": "et",
+    "ukphone": "eɪt"
+  },
+  {
+    "name": "nine",
+    "trans": [
+      "n. 九；九个",
+      "num. 九；九个",
+      "adj. 九的；九个的"
+    ],
+    "usphone": "naɪn",
+    "ukphone": "naɪn"
+  },
+  {
+    "name": "ten",
+    "trans": [
+      "num. 十，十个；第十",
+      "n. 十个人；十点钟；十岁"
+    ],
+    "usphone": "tɛn",
+    "ukphone": "ten"
+  },
+  {
+    "name": "brother",
+    "trans": [
+      "n. 兄弟；同事；战友",
+      "int. 我的老兄！"
+    ],
+    "usphone": "'brʌðɚ",
+    "ukphone": "'brʌðə"
+  },
+  {
+    "name": "plate",
+    "trans": [
+      "n. 板；片；盘",
+      "vt. 镀金；电镀；为...制印版给...装钢板"
+    ],
+    "usphone": "pleɪt",
+    "ukphone": "pleɪt"
+  }
 ]

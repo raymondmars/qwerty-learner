@@ -1,310 +1,525 @@
 [
-    {
-        "name": "real",
-        "trans": ["真实的"]
-    },
-    {
-        "name": "activity",
-        "trans": ["活动"]
-    },
-    {
-        "name": "impact",
-        "trans": ["影响"]
-    },
-    {
-        "name": "sociable",
-        "trans": ["社交的"]
-    },
-    {
-        "name": "focus on",
-        "trans": ["聚焦于"]
-    },
-    {
-        "name": "realistic",
-        "trans": ["现实的"]
-    },
-    {
-        "name": "bungalow",
-        "trans": ["平房"]
-    },
-    {
-        "name": "pest",
-        "trans": ["害虫"]
-    },
-    {
-        "name": "polish",
-        "trans": ["打磨"]
-    },
-    {
-        "name": "paddle",
-        "trans": ["划桨"]
-    },
-    {
-        "name": "speed",
-        "trans": ["速度"]
-    },
-    {
-        "name": "resistant",
-        "trans": ["反抗的"]
-    },
-    {
-        "name": "contest",
-        "trans": ["争辩"]
-    },
-    {
-        "name": "survive",
-        "trans": ["幸存"]
-    },
-    {
-        "name": "sailor",
-        "trans": ["水手"]
-    },
-    {
-        "name": "rival",
-        "trans": ["对手"]
-    },
-    {
-        "name": "humidity",
-        "trans": ["湿度"]
-    },
-    {
-        "name": "acid rainfall",
-        "trans": ["酸雨"]
-    },
-    {
-        "name": "movement",
-        "trans": ["活动"]
-    },
-    {
-        "name": "appearance",
-        "trans": ["外观"]
-    },
-    {
-        "name": "herbivorous",
-        "trans": ["食草的"]
-    },
-    {
-        "name": "organ",
-        "trans": ["器官"]
-    },
-    {
-        "name": "tongue",
-        "trans": ["舌头"]
-    },
-    {
-        "name": "self defence",
-        "trans": ["自我防御"]
-    },
-    {
-        "name": "varied",
-        "trans": ["多变的"]
-    },
-    {
-        "name": "physical",
-        "trans": ["身体的"]
-    },
-    {
-        "name": "destruction",
-        "trans": ["破坏"]
-    },
-    {
-        "name": "subsidy",
-        "trans": ["津贴"]
-    },
-    {
-        "name": "income",
-        "trans": ["收入"]
-    },
-    {
-        "name": "charge",
-        "trans": ["要价"]
-    },
-    {
-        "name": "calculator",
-        "trans": ["计算器"]
-    },
-    {
-        "name": "caterpillar",
-        "trans": ["毛虫"]
-    },
-    {
-        "name": "antifreeze",
-        "trans": ["防冻剂"]
-    },
-    {
-        "name": "concentration",
-        "trans": ["专心"]
-    },
-    {
-        "name": "pepper",
-        "trans": ["胡椒"]
-    },
-    {
-        "name": "mood",
-        "trans": ["心情"]
-    },
-    {
-        "name": "domestic",
-        "trans": ["国内的"]
-    },
-    {
-        "name": "nursery",
-        "trans": ["幼儿园"]
-    },
-    {
-        "name": "melt",
-        "trans": ["熔化"]
-    },
-    {
-        "name": "quantity",
-        "trans": ["数量"]
-    },
-    {
-        "name": "pause",
-        "trans": ["暂停"]
-    },
-    {
-        "name": "happiness",
-        "trans": ["幸福"]
-    },
-    {
-        "name": "negative",
-        "trans": ["消极的"]
-    },
-    {
-        "name": "human",
-        "trans": ["人类"]
-    },
-    {
-        "name": "goal",
-        "trans": ["目标"]
-    },
-    {
-        "name": "suppressing",
-        "trans": ["压制的"]
-    },
-    {
-        "name": "wax",
-        "trans": ["蜡"]
-    },
-    {
-        "name": "dragonfly",
-        "trans": ["蜻蜓"]
-    },
-    {
-        "name": "malaria",
-        "trans": ["疟疾"]
-    },
-    {
-        "name": "weakness",
-        "trans": ["弱点"]
-    },
-    {
-        "name": "contaminate",
-        "trans": ["污染"]
-    },
-    {
-        "name": "reinforce",
-        "trans": ["加强"]
-    },
-    {
-        "name": "distance",
-        "trans": ["距离"]
-    },
-    {
-        "name": "pump",
-        "trans": ["抽水"]
-    },
-    {
-        "name": "competitor",
-        "trans": ["竞争者"]
-    },
-    {
-        "name": "skyscraper",
-        "trans": ["摩天大楼"]
-    },
-    {
-        "name": "construction",
-        "trans": ["建设"]
-    },
-    {
-        "name": "guideline",
-        "trans": ["指导方针"]
-    },
-    {
-        "name": "carnivorous",
-        "trans": ["食肉的"]
-    },
-    {
-        "name": "prey",
-        "trans": ["捕食者"]
-    },
-    {
-        "name": "evolve",
-        "trans": ["进化"]
-    },
-    {
-        "name": "sting",
-        "trans": ["刺"]
-    },
-    {
-        "name": "scent",
-        "trans": ["气味"]
-    },
-    {
-        "name": "cure",
-        "trans": ["治愈"]
-    },
-    {
-        "name": "particular",
-        "trans": ["特别的"]
-    },
-    {
-        "name": "planet",
-        "trans": ["行星"]
-    },
-    {
-        "name": "supplement",
-        "trans": ["补充"]
-    },
-    {
-        "name": "dentist",
-        "trans": ["牙医"]
-    },
-    {
-        "name": "personality",
-        "trans": ["品格"]
-    },
-    {
-        "name": "hibernate",
-        "trans": ["冬眠"]
-    },
-    {
-        "name": "substance",
-        "trans": ["物质"]
-    },
-    {
-        "name": "bark",
-        "trans": ["树皮"]
-    },
-    {
-        "name": "surface",
-        "trans": ["表面"]
-    },
-    {
-        "name": "wealth",
-        "trans": ["财富"]
-    },
-    {
-        "name": "exploration",
-        "trans": ["探测"]
-    },
-    {
-        "name": "boost",
-        "trans": ["促进"]
-    },
-    {
-        "name": "immigration",
-        "trans": ["移居"]
-    }
+  {
+    "name": "real",
+    "trans": [
+      "n. 现实；实数",
+      "adj. 实际的；真实的；实在的",
+      "adv. 真正地；确实地"
+    ]
+  },
+  {
+    "name": "activity",
+    "trans": [
+      "n. 活动；活跃；活力",
+      "vt. 表演",
+      "adj. 厉害"
+    ]
+  },
+  {
+    "name": "impact",
+    "trans": [
+      "vt. 撞击；冲突；影响",
+      "vi. 冲击；产生影响",
+      "n. 效果；影响；碰撞"
+    ]
+  },
+  {
+    "name": "sociable",
+    "trans": [
+      "n. 联谊会",
+      "adj. 社交的；好交际的；友善的"
+    ]
+  },
+  {
+    "name": "focus on",
+    "trans": [
+      "致力于；使聚焦于；对（某事或做某事）予以注意"
+    ]
+  },
+  {
+    "name": "realistic",
+    "trans": [
+      "adj. 现实的；现实主义的；逼真的"
+    ]
+  },
+  {
+    "name": "bungalow",
+    "trans": [
+      "n. 平房；小屋"
+    ]
+  },
+  {
+    "name": "pest",
+    "trans": [
+      "n. 害虫；有害之物；讨厌的人"
+    ]
+  },
+  {
+    "name": "polish",
+    "trans": [
+      "vt. 磨光；擦亮；使优美",
+      "vi. 变光亮",
+      "n. 光泽；上光剂优雅；精良"
+    ]
+  },
+  {
+    "name": "paddle",
+    "trans": [
+      "n. 短桨；划桨；明轮翼。",
+      "vi. 划桨；戏水；涉水。",
+      "vt. 用桨划；搅；拌。"
+    ]
+  },
+  {
+    "name": "speed",
+    "trans": [
+      "n. 速度；快速；昌盛",
+      "vt.&vi. 急行；加速",
+      "vi. 超速；加速；迅速前行"
+    ]
+  },
+  {
+    "name": "resistant",
+    "trans": [
+      "adj. 有抵抗力的，抵抗的；顽固的",
+      "n. 抵抗者；有抵抗力的东西；防染剂，防腐剂"
+    ]
+  },
+  {
+    "name": "contest",
+    "trans": [
+      "n. 竞赛；争夺；争论",
+      "vt. 争辩；质疑",
+      "vi. 竞争；争辩"
+    ]
+  },
+  {
+    "name": "survive",
+    "trans": [
+      "vt. 幸免于；比...活得长；艰难度过",
+      "vi. 活下来；活着；继续存在"
+    ]
+  },
+  {
+    "name": "sailor",
+    "trans": [
+      "n. 水手；海员；水兵"
+    ]
+  },
+  {
+    "name": "rival",
+    "trans": [
+      "n. 对手；竞争者",
+      "v. 与...竞争；比得上",
+      "adj. 竞争的；对抗的"
+    ]
+  },
+  {
+    "name": "humidity",
+    "trans": [
+      "n. 湿度；潮湿；湿气"
+    ]
+  },
+  {
+    "name": "acid rainfall",
+    "trans": [
+      "酸雨"
+    ]
+  },
+  {
+    "name": "movement",
+    "trans": [
+      "n. 运动；活动；运转"
+    ]
+  },
+  {
+    "name": "appearance",
+    "trans": [
+      "n. 外表，外貌；出现，到来；外观，样子"
+    ]
+  },
+  {
+    "name": "herbivorous",
+    "trans": [
+      "adj. 食草的"
+    ]
+  },
+  {
+    "name": "organ",
+    "trans": [
+      "n. 器官；（管风）琴，风琴；机关，机构"
+    ]
+  },
+  {
+    "name": "tongue",
+    "trans": [
+      "n. 舌头；语言",
+      "vt. 舔；斥责；用舌吹",
+      "vi. 说话；吹管乐器"
+    ]
+  },
+  {
+    "name": "self defence",
+    "trans": [
+      "自我防御"
+    ]
+  },
+  {
+    "name": "varied",
+    "trans": [
+      "v. 改变",
+      "adj. 多变的；各式各样的；杂色的"
+    ]
+  },
+  {
+    "name": "physical",
+    "trans": [
+      "adj. 自然（界）的；身体的；物质的",
+      "n. 身体检查；体格检查"
+    ]
+  },
+  {
+    "name": "destruction",
+    "trans": [
+      "n. 毁坏，破坏；毁灭，消灭；摧毁，破坏（抽象概念）"
+    ]
+  },
+  {
+    "name": "subsidy",
+    "trans": [
+      "n. 补贴；津贴；补助金"
+    ]
+  },
+  {
+    "name": "income",
+    "trans": [
+      "n. 收入；收益；所得"
+    ]
+  },
+  {
+    "name": "charge",
+    "trans": [
+      "n. 费用；电荷；掌管",
+      "vt. 使充电；使承担；指责",
+      "vi. 充电；控告；索价"
+    ]
+  },
+  {
+    "name": "calculator",
+    "trans": [
+      "n. 计算器；计算者；计算图表"
+    ]
+  },
+  {
+    "name": "caterpillar",
+    "trans": [
+      "n. 毛虫；履带车",
+      "adj. 有履带装置的"
+    ]
+  },
+  {
+    "name": "antifreeze",
+    "trans": [
+      "n. 防冻剂"
+    ]
+  },
+  {
+    "name": "concentration",
+    "trans": [
+      "n. 浓度；集中；浓缩"
+    ]
+  },
+  {
+    "name": "pepper",
+    "trans": [
+      "n. 胡椒；辣椒；胡椒粉",
+      "vt. 加胡椒粉于；使布满"
+    ]
+  },
+  {
+    "name": "mood",
+    "trans": [
+      "n. 心情，情绪；氛围，气氛；语气（语法术语）"
+    ]
+  },
+  {
+    "name": "domestic",
+    "trans": [
+      "n. 国货；佣人",
+      "adj. 国内的；家庭的；驯养的"
+    ]
+  },
+  {
+    "name": "nursery",
+    "trans": [
+      "n. 托儿所，幼儿园；苗圃，育种场；育婴室，保育室"
+    ]
+  },
+  {
+    "name": "melt",
+    "trans": [
+      "vi. 熔化，溶解；渐混",
+      "vt. 使融化；使熔化；使软化",
+      "n. 熔化；熔化物"
+    ]
+  },
+  {
+    "name": "quantity",
+    "trans": [
+      "n. 量，数量；大量；总量"
+    ]
+  },
+  {
+    "name": "pause",
+    "trans": [
+      "n. 暂时的停顿；犹豫；（诗中）节奏的停顿",
+      "vi. 暂停，中止；逗留，停滞；（按暂停键）暂停放音"
+    ]
+  },
+  {
+    "name": "happiness",
+    "trans": [
+      "n. 幸福；幸运；快乐"
+    ]
+  },
+  {
+    "name": "negative",
+    "trans": [
+      "adj. 负的；消极的；否定的",
+      "n. 否定；负数；底片",
+      "vt. 否定；拒绝"
+    ]
+  },
+  {
+    "name": "human",
+    "trans": [
+      "n. 人；人类",
+      "adj. 人的；有人性的；显示人类特有弱点的"
+    ]
+  },
+  {
+    "name": "goal",
+    "trans": [
+      "n. 目标；球门，得分数；终点",
+      "vi. 攻门；射门得分"
+    ]
+  },
+  {
+    "name": "suppressing",
+    "trans": [
+      "压制的"
+    ]
+  },
+  {
+    "name": "wax",
+    "trans": [
+      "n. 蜡；蜂蜡；(一阵)情绪",
+      "vt. (用蜡)涂；得到...(更好的)",
+      "vi. 变大；增大"
+    ]
+  },
+  {
+    "name": "dragonfly",
+    "trans": [
+      "n. 蜻蜓"
+    ]
+  },
+  {
+    "name": "malaria",
+    "trans": [
+      "n. 疟疾；瘴气；瘴疠"
+    ]
+  },
+  {
+    "name": "weakness",
+    "trans": [
+      "n. 弱点，缺点；软弱，虚弱；嗜好，癖好"
+    ]
+  },
+  {
+    "name": "contaminate",
+    "trans": [
+      "vt. 弄脏，污染；损害，毒害",
+      "vi. 玷污；毒害；腐蚀（人的思想或品德）",
+      "adj. 〈古〉污染的"
+    ]
+  },
+  {
+    "name": "reinforce",
+    "trans": [
+      "vt. 加固；强化；增援",
+      "vi. 求援；得到增援；给予更多的支持",
+      "n. 加强；加固物；加固材料"
+    ]
+  },
+  {
+    "name": "distance",
+    "trans": [
+      "n. 距离；间距；远处",
+      "vt. 使疏远；把；(对手)",
+      "adj. 通过电子手段；远程；教育"
+    ]
+  },
+  {
+    "name": "pump",
+    "trans": [
+      "n. 泵；抽水机；打气筒",
+      "vt. 用抽机抽；抽水；打气",
+      "vi. 用泵抽水；快速上下(或内外)运动"
+    ]
+  },
+  {
+    "name": "competitor",
+    "trans": [
+      "n. 竞争者；对手；敌手"
+    ]
+  },
+  {
+    "name": "skyscraper",
+    "trans": [
+      "n. 摩天楼，超高层大楼；特别高的东西"
+    ]
+  },
+  {
+    "name": "construction",
+    "trans": [
+      "n. 建设；建筑物；解释"
+    ]
+  },
+  {
+    "name": "guideline",
+    "trans": [
+      "n. 指导方针；准则；指南"
+    ]
+  },
+  {
+    "name": "carnivorous",
+    "trans": [
+      "adj. 食肉的；肉食性的"
+    ]
+  },
+  {
+    "name": "prey",
+    "trans": [
+      "n. 捕食；牺牲者；被捕食的动物",
+      "vi. 捕食；掠夺；折磨"
+    ]
+  },
+  {
+    "name": "evolve",
+    "trans": [
+      "vi. 发展，进展；进化；逐步形成",
+      "vt. 发展，进化；进化；使逐步形成"
+    ]
+  },
+  {
+    "name": "sting",
+    "trans": [
+      "vt. 刺；刺痛；使苦恼",
+      "vi. 刺；叮；刺痛",
+      "n. 刺痛刺；讽刺"
+    ]
+  },
+  {
+    "name": "scent",
+    "trans": [
+      "n. 气味；香味；痕迹",
+      "vt. 闻出；发觉；使充满味道",
+      "vi. 嗅闻；循着遗臭追踪；散发气味"
+    ]
+  },
+  {
+    "name": "cure",
+    "trans": [
+      "n. 治疗；治愈；疗法",
+      "vt. 治疗；治愈；使硫化",
+      "vi. 治病；痊愈；受治疗"
+    ]
+  },
+  {
+    "name": "particular",
+    "trans": [
+      "adj. 特殊的；苛求的；个别的",
+      "n. 详情；细节；特色"
+    ]
+  },
+  {
+    "name": "planet",
+    "trans": [
+      "n. 行星；地球（the planet）；命运星辰"
+    ]
+  },
+  {
+    "name": "supplement",
+    "trans": [
+      "n. 补充物，增补物；补充剂，营养剂；附录，增刊",
+      "v. 补充；增补"
+    ]
+  },
+  {
+    "name": "dentist",
+    "trans": [
+      "n. 牙科医生；牙医诊所"
+    ]
+  },
+  {
+    "name": "personality",
+    "trans": [
+      "n. 个性，性格；人格，个人品质；名人，知名人士"
+    ]
+  },
+  {
+    "name": "hibernate",
+    "trans": [
+      "vi. 过冬；（动物）冬眠；（人等）避寒"
+    ]
+  },
+  {
+    "name": "substance",
+    "trans": [
+      "n. 物质，材料；实质，本质；重要性，价值"
+    ]
+  },
+  {
+    "name": "bark",
+    "trans": [
+      "vi. 吠叫；厉声说话",
+      "vt. 大声喊出；厉声说出",
+      "n. 犬吠声；似吠声；树皮"
+    ]
+  },
+  {
+    "name": "surface",
+    "trans": [
+      "n. 表面，表层；外表，外观；水面",
+      "v. 浮出水面；显露",
+      "adj. 表面的；肤浅的"
+    ]
+  },
+  {
+    "name": "wealth",
+    "trans": [
+      "n. 财富；大量；富有"
+    ]
+  },
+  {
+    "name": "exploration",
+    "trans": [
+      "n. 探测；探究；踏勘"
+    ]
+  },
+  {
+    "name": "boost",
+    "trans": [
+      "n. 推动；帮助；宣扬",
+      "vi. 宣扬；偷窃",
+      "vt. 促进；增加；支援"
+    ]
+  },
+  {
+    "name": "immigration",
+    "trans": [
+      "n. 移民；移居；入境"
+    ]
+  }
 ]

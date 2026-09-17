@@ -1,294 +1,513 @@
 [
-    {
-        "name": "trousers",
-        "trans": ["n. 裤子"]
-    },
-    {
-        "name": "service",
-        "trans": ["n. 服务"]
-    },
-    {
-        "name": "viewpoint",
-        "trans": ["n. 观点"]
-    },
-    {
-        "name": "freezer",
-        "trans": ["n. 制冷"]
-    },
-    {
-        "name": "zoom",
-        "trans": ["n. 急速上升"]
-    },
-    {
-        "name": "financial",
-        "trans": ["adj. 金融的"]
-    },
-    {
-        "name": "buffet",
-        "trans": ["n. 自助餐"]
-    },
-    {
-        "name": "manager",
-        "trans": ["n. 经理"]
-    },
-    {
-        "name": "expense",
-        "trans": ["n. 开支"]
-    },
-    {
-        "name": "college",
-        "trans": ["n. 大学"]
-    },
-    {
-        "name": "opposite",
-        "trans": ["adj. 相反的"]
-    },
-    {
-        "name": "cheque",
-        "trans": ["n. 支票"]
-    },
-    {
-        "name": "supervisor",
-        "trans": ["n. 监督人"]
-    },
-    {
-        "name": "refrigerator",
-        "trans": ["n. 冰箱"]
-    },
-    {
-        "name": "science",
-        "trans": ["n. 科学"]
-    },
-    {
-        "name": "collection",
-        "trans": ["n. 采集"]
-    },
-    {
-        "name": "collect",
-        "trans": ["v. 收集"]
-    },
-    {
-        "name": "literature",
-        "trans": ["n. 文学"]
-    },
-    {
-        "name": "bank",
-        "trans": ["n. 银行"]
-    },
-    {
-        "name": "state",
-        "trans": ["n. 情形"]
-    },
-    {
-        "name": "item",
-        "trans": ["n. 项目"]
-    },
-    {
-        "name": "snake",
-        "trans": ["n. 蛇"]
-    },
-    {
-        "name": "phone bill",
-        "trans": ["n. 电话账单"]
-    },
-    {
-        "name": "wildlife",
-        "trans": ["n. 野生动植物"]
-    },
-    {
-        "name": "photocopy",
-        "trans": ["n. 复印件"]
-    },
-    {
-        "name": "camera",
-        "trans": ["n. 照相机"]
-    },
-    {
-        "name": "reservation",
-        "trans": ["n. 预约"]
-    },
-    {
-        "name": "hold",
-        "trans": ["v. 持有"]
-    },
-    {
-        "name": "catalogue",
-        "trans": ["n. 目录"]
-    },
-    {
-        "name": "book",
-        "trans": ["v. 预订"]
-    },
-    {
-        "name": "noisy",
-        "trans": ["adj. 吵闹的"]
-    },
-    {
-        "name": "deposit",
-        "trans": ["n. 押金"]
-    },
-    {
-        "name": "transfer",
-        "trans": ["v. 转让"]
-    },
-    {
-        "name": "uniform",
-        "trans": ["n. 制服"]
-    },
-    {
-        "name": "tropical",
-        "trans": ["adj. 热带的"]
-    },
-    {
-        "name": "preferred",
-        "trans": ["adj. 优先的"]
-    },
-    {
-        "name": "firework",
-        "trans": ["n. 烟花"]
-    },
-    {
-        "name": "loan",
-        "trans": ["n. 贷款"]
-    },
-    {
-        "name": "coach",
-        "trans": ["n. 教练"]
-    },
-    {
-        "name": "identification",
-        "trans": ["n. 身份证明"]
-    },
-    {
-        "name": "beach",
-        "trans": ["n. 海滩"]
-    },
-    {
-        "name": "statement",
-        "trans": ["n. 清单"]
-    },
-    {
-        "name": "expire",
-        "trans": ["v. 期满"]
-    },
-    {
-        "name": "librarian",
-        "trans": ["n. 图书管理员"]
-    },
-    {
-        "name": "nationality",
-        "trans": ["n. 国籍"]
-    },
-    {
-        "name": "guidance",
-        "trans": ["n. 指导"]
-    },
-    {
-        "name": "gift",
-        "trans": ["n. 礼物"]
-    },
-    {
-        "name": "rule",
-        "trans": ["n. 规则"]
-    },
-    {
-        "name": "side door",
-        "trans": ["n. 侧门"]
-    },
-    {
-        "name": "fix",
-        "trans": ["v. 修理"]
-    },
-    {
-        "name": "theme",
-        "trans": ["n. 主题"]
-    },
-    {
-        "name": "normal",
-        "trans": ["adj. 正常的"]
-    },
-    {
-        "name": "benefit",
-        "trans": ["n. 好处"]
-    },
-    {
-        "name": "tennis",
-        "trans": ["n. 网球"]
-    },
-    {
-        "name": "interest rate",
-        "trans": ["n. 利率"]
-    },
-    {
-        "name": "cable car",
-        "trans": ["n. 缆车"]
-    },
-    {
-        "name": "online",
-        "trans": ["adj. 在线的"]
-    },
-    {
-        "name": "source",
-        "trans": ["n. 来源"]
-    },
-    {
-        "name": "branch",
-        "trans": ["n. 分支"]
-    },
-    {
-        "name": "Canadian",
-        "trans": ["n. 加拿大人"]
-    },
-    {
-        "name": "reference number",
-        "trans": ["n. 参考号"]
-    },
-    {
-        "name": "amount",
-        "trans": ["n. 数量"]
-    },
-    {
-        "name": "automatically",
-        "trans": ["adv. 自动地"]
-    },
-    {
-        "name": "basement",
-        "trans": ["n. 地下室"]
-    },
-    {
-        "name": "wet",
-        "trans": ["adj. 潮湿的"]
-    },
-    {
-        "name": "action movie",
-        "trans": ["n. 动作片"]
-    },
-    {
-        "name": "engineer",
-        "trans": ["n. 工程师"]
-    },
-    {
-        "name": "signature",
-        "trans": ["n. 署名"]
-    },
-    {
-        "name": "payment",
-        "trans": ["n. 支付"]
-    },
-    {
-        "name": "minimum",
-        "trans": ["n. 最小值"]
-    },
-    {
-        "name": "relaxation",
-        "trans": ["n. 放松"]
-    },
-    {
-        "name": "scheme",
-        "trans": ["n. 计划：体系"]
-    },
-    {
-        "name": "racket",
-        "trans": ["n. 球拍"]
-    }
+  {
+    "name": "trousers",
+    "trans": [
+      "n. 长裤；裤子"
+    ]
+  },
+  {
+    "name": "service",
+    "trans": [
+      "n. 服务，服侍；服役；仪式",
+      "adj. 服务性的；耐用的；服现役的",
+      "vt. 维修，检修；保养"
+    ]
+  },
+  {
+    "name": "viewpoint",
+    "trans": [
+      "n. 观察位置；观察点；观点"
+    ]
+  },
+  {
+    "name": "freezer",
+    "trans": [
+      "n. 冰箱；冷冻库；制冷工"
+    ]
+  },
+  {
+    "name": "zoom",
+    "trans": [
+      "vi. 嗡嗡作响；急速上升",
+      "n. 嗡嗡声；隆隆声；（车辆等）疾驰的声音",
+      "vt. 使急速上升；使猛增"
+    ]
+  },
+  {
+    "name": "financial",
+    "trans": [
+      "adj. 财政的，金融的；有钱的；（俱乐部或社团成员）已缴费的",
+      "n. （组织或个人的）财务状况；金融公司股票"
+    ]
+  },
+  {
+    "name": "buffet",
+    "trans": [
+      "n. 自助餐；小卖部；打击",
+      "adj. 自助的；自助餐的",
+      "vi. 斗争；奋勇前进"
+    ]
+  },
+  {
+    "name": "manager",
+    "trans": [
+      "n. 经理；经营者；经纪人"
+    ]
+  },
+  {
+    "name": "expense",
+    "trans": [
+      "n. 损失，代价；消费；开支",
+      "vt. 向…收取费用",
+      "vi. 被花掉"
+    ]
+  },
+  {
+    "name": "college",
+    "trans": [
+      "n. 大学；学院；学会"
+    ]
+  },
+  {
+    "name": "opposite",
+    "trans": [
+      "adj. 相反的；对面的；对立的",
+      "n. 对立面；反义词",
+      "prep. 在…的对面"
+    ]
+  },
+  {
+    "name": "cheque",
+    "trans": [
+      "n. 支票"
+    ]
+  },
+  {
+    "name": "supervisor",
+    "trans": [
+      "n. 监督者；管理者；指导者"
+    ]
+  },
+  {
+    "name": "refrigerator",
+    "trans": [
+      "n. 冰箱；冷藏库；制冰机，冷冻机"
+    ]
+  },
+  {
+    "name": "science",
+    "trans": [
+      "n. 科学；自然科学；学科"
+    ]
+  },
+  {
+    "name": "collection",
+    "trans": [
+      "n. 收藏品，收藏物；收集，采集；收藏，收集品"
+    ]
+  },
+  {
+    "name": "collect",
+    "trans": [
+      "vt. 收集；募捐",
+      "adj. 由收件人付款的",
+      "vi. 收集；聚集；募捐"
+    ]
+  },
+  {
+    "name": "literature",
+    "trans": [
+      "n. 文学；文学作品；资料"
+    ]
+  },
+  {
+    "name": "bank",
+    "trans": [
+      "n. 银行；岸；浅滩",
+      "vt. 将…存入银行；倾斜转弯",
+      "vi. 堆积；倾斜转弯"
+    ]
+  },
+  {
+    "name": "state",
+    "trans": [
+      "n. 状态，情况；州，邦；国家，政府",
+      "adj. 国家的；政府的",
+      "v. 陈述；说明"
+    ]
+  },
+  {
+    "name": "item",
+    "trans": [
+      "n. 条款，项目；一则；一件商品（或物品）",
+      "adj. 又；同上",
+      "v. 记下；逐条列出"
+    ]
+  },
+  {
+    "name": "snake",
+    "trans": [
+      "n. 蛇；阴险的人",
+      "vt. 拉（木材等）；迂回前进",
+      "vi. 迂回前进"
+    ]
+  },
+  {
+    "name": "phone bill",
+    "trans": [
+      "n. 电话账单"
+    ]
+  },
+  {
+    "name": "wildlife",
+    "trans": [
+      "n. 野生动植物",
+      "adj. 野生动植物的"
+    ]
+  },
+  {
+    "name": "photocopy",
+    "trans": [
+      "n. 复印件；影印",
+      "vt. 影印",
+      "vi. 影印；复印"
+    ]
+  },
+  {
+    "name": "camera",
+    "trans": [
+      "n. 照相机；摄影机；罗马教廷的财政部"
+    ]
+  },
+  {
+    "name": "reservation",
+    "trans": [
+      "n. 预订，预约；保留，保留意见；（美国的）保留地，保护区"
+    ]
+  },
+  {
+    "name": "hold",
+    "trans": [
+      "n. 控制；保留",
+      "vi. 支持；有效；持续",
+      "vt. 持有；拥有；保存"
+    ]
+  },
+  {
+    "name": "catalogue",
+    "trans": [
+      "n. 目录；一览表；系列",
+      "vt. 为…编目录；登记分类"
+    ]
+  },
+  {
+    "name": "book",
+    "trans": [
+      "n. 书；书籍账簿卷；篇",
+      "vt.&vi. 预订",
+      "vt. 登记；记账订立演出契约"
+    ]
+  },
+  {
+    "name": "noisy",
+    "trans": [
+      "adj. 嘈杂的；喧闹的；充满噪音的",
+      "n. 响声；嘈杂声"
+    ]
+  },
+  {
+    "name": "deposit",
+    "trans": [
+      "n. 存款；押金；订金",
+      "vt. 使沉积；存放",
+      "vi. 沉淀"
+    ]
+  },
+  {
+    "name": "transfer",
+    "trans": [
+      "n. 转让；转移；传递",
+      "vt. 使转移；调任",
+      "vi. 转让；转学；换车"
+    ]
+  },
+  {
+    "name": "uniform",
+    "trans": [
+      "n. 制服；校服",
+      "adj. 一致的，统一的；均匀的",
+      "v. 使一致；使统一"
+    ]
+  },
+  {
+    "name": "tropical",
+    "trans": [
+      "adj. 热带的；热情的；酷热的"
+    ]
+  },
+  {
+    "name": "preferred",
+    "trans": [
+      "adj. 首选的",
+      "v. 提升；建议；选择某事物（而不选择他事物）"
+    ]
+  },
+  {
+    "name": "firework",
+    "trans": [
+      "n. 爆竹；花炮；烟火"
+    ]
+  },
+  {
+    "name": "loan",
+    "trans": [
+      "n. 贷款；借款；借用",
+      "vt. 借；借给",
+      "vi. 借出"
+    ]
+  },
+  {
+    "name": "coach",
+    "trans": [
+      "n. 教练；（铁路）旅客车厢；长途客运汽车",
+      "vt.&vi. 训练；辅导",
+      "vt. 训练；指导"
+    ]
+  },
+  {
+    "name": "identification",
+    "trans": [
+      "n. 识别，鉴定；身份证明；认同，共鸣"
+    ]
+  },
+  {
+    "name": "beach",
+    "trans": [
+      "n. 海滩；湖滨",
+      "vt. 将…拖上岸",
+      "vi. 搁浅；定居"
+    ]
+  },
+  {
+    "name": "statement",
+    "trans": [
+      "n. 陈述，声明；报表，清单；表态，立场"
+    ]
+  },
+  {
+    "name": "expire",
+    "trans": [
+      "vi. 期满；终止；死亡",
+      "vt. 呼出（空气）"
+    ]
+  },
+  {
+    "name": "librarian",
+    "trans": [
+      "n. 图书管理员；图书馆员"
+    ]
+  },
+  {
+    "name": "nationality",
+    "trans": [
+      "n. 国籍，国家；民族；部落"
+    ]
+  },
+  {
+    "name": "guidance",
+    "trans": [
+      "n. 指导，引导；指导意见，建议；指引，方向"
+    ]
+  },
+  {
+    "name": "gift",
+    "trans": [
+      "n. 赠品，礼物；天赋；赠送",
+      "vt. 赋予；向…赠送；天赋权力（或才能等）"
+    ]
+  },
+  {
+    "name": "rule",
+    "trans": [
+      "n. 统治；规则",
+      "vt. 统治；规定；管理",
+      "vi. 统治；管辖；裁定"
+    ]
+  },
+  {
+    "name": "side door",
+    "trans": [
+      "n. 侧门"
+    ]
+  },
+  {
+    "name": "fix",
+    "trans": [
+      "n. 困境；方位；贿赂",
+      "vt. 使固定；修理；安装",
+      "vi. 固定；注视"
+    ]
+  },
+  {
+    "name": "theme",
+    "trans": [
+      "n. 主题；主旋律；题目",
+      "adj. 以奇想主题布置的"
+    ]
+  },
+  {
+    "name": "normal",
+    "trans": [
+      "adj. 正常的；正规的；标准的",
+      "n. 正常；标准；常态"
+    ]
+  },
+  {
+    "name": "benefit",
+    "trans": [
+      "n. 利益，好处；救济金",
+      "vt. 有益于；对…有益",
+      "vi. 受益；得益"
+    ]
+  },
+  {
+    "name": "tennis",
+    "trans": [
+      "n. 网球（运动）",
+      "adj. 网球的；用于网球运动的",
+      "vi. 打网球"
+    ]
+  },
+  {
+    "name": "interest rate",
+    "trans": [
+      "n. 利率"
+    ]
+  },
+  {
+    "name": "cable car",
+    "trans": [
+      "n. 索车；有轨缆车"
+    ]
+  },
+  {
+    "name": "online",
+    "trans": [
+      "adj. 在线的，联机的；网上的，互联网的",
+      "adv. 在线地；联机地",
+      "n. 在线状态"
+    ]
+  },
+  {
+    "name": "source",
+    "trans": [
+      "n. 根源，本源；源头，水源；原因",
+      "vt. （从…）获得；发起；向…提供消息",
+      "vi. 原料来源；起源；寻求来源"
+    ]
+  },
+  {
+    "name": "branch",
+    "trans": [
+      "n. 树枝，分枝；分部；支流",
+      "vt. 分支；出现分歧",
+      "vi. 分支；出现分歧"
+    ]
+  },
+  {
+    "name": "Canadian",
+    "trans": [
+      "adj. 加拿大人的；加拿大的；加拿大语言的",
+      "n. 加拿大人"
+    ]
+  },
+  {
+    "name": "reference number",
+    "trans": [
+      "n. 参考号数；参考数；基准数"
+    ]
+  },
+  {
+    "name": "amount",
+    "trans": [
+      "n. 数量；总数；总额",
+      "v. 总计；合计；达到"
+    ]
+  },
+  {
+    "name": "automatically",
+    "trans": [
+      "adj. 不经思索的",
+      "adv. 自动地；机械地；无意识地"
+    ]
+  },
+  {
+    "name": "basement",
+    "trans": [
+      "n. 地下室；地窖"
+    ]
+  },
+  {
+    "name": "wet",
+    "trans": [
+      "adj. 潮湿的，湿的；下雨的",
+      "v. 使湿；弄湿",
+      "n. 湿气；潮湿"
+    ]
+  },
+  {
+    "name": "action movie",
+    "trans": [
+      "n. 动作片"
+    ]
+  },
+  {
+    "name": "engineer",
+    "trans": [
+      "n. 工程师；工兵；火车司机",
+      "vt. 设计；策划；精明地处理",
+      "vi. 设计；建造"
+    ]
+  },
+  {
+    "name": "signature",
+    "trans": [
+      "n. 签名，签字；特征，标志；（音乐）调号"
+    ]
+  },
+  {
+    "name": "payment",
+    "trans": [
+      "n. 支付，付款；支付的金额，付款额；报酬，酬劳"
+    ]
+  },
+  {
+    "name": "minimum",
+    "trans": [
+      "n. 最低限度；最小量；最低消费",
+      "adj. 最低的；最小的；最少的"
+    ]
+  },
+  {
+    "name": "relaxation",
+    "trans": [
+      "n. 放松；缓和；消遣"
+    ]
+  },
+  {
+    "name": "scheme",
+    "trans": [
+      "n. 计划；组合；体制",
+      "vt. 计划；策划",
+      "vi. 搞阴谋；拟订计划"
+    ]
+  },
+  {
+    "name": "racket",
+    "trans": [
+      "n. 球拍；吵闹，喧闹",
+      "vt. 过着花天酒地的生活",
+      "vi. 过着花天酒地的生活"
+    ]
+  }
 ]

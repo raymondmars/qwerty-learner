@@ -1,2286 +1,2513 @@
 [
-	{
-		"name": "harm",
-		"trans": [
-			"n. & vt. 伤害，损害"
-		],
-		"usphone": "hɑːm",
-		"ukphone": "hɑːm"
-	},
-	{
-		"name": "soil",
-		"trans": [
-			"n. 土壤；国土，领土，土地"
-		],
-		"usphone": "sɔɪl",
-		"ukphone": "sɔɪl"
-	},
-	{
-		"name": "ecosystem",
-		"trans": [
-			"n. 生态系统"
-		],
-		"usphone": "ˈiːkəʊsɪstəm",
-		"ukphone": "ˈiːkəʊsɪstəm"
-	},
-	{
-		"name": "overseas",
-		"trans": [
-			"adj. 海外的，国外的 adv.向（在）海外，向（在）国外"
-		],
-		"usphone": "ˌəʊvəˈsiːz",
-		"ukphone": "ˌəʊvəˈsiːz"
-	},
-	{
-		"name": "region",
-		"trans": [
-			"n. 地区，区域；行政区"
-		],
-		"usphone": "ˈriːdʒən",
-		"ukphone": "ˈriːdʒən"
-	},
-	{
-		"name": "continent",
-		"trans": [
-			"n. 大陆，陆地；洲"
-		],
-		"usphone": "ˈkɒntɪnənt",
-		"ukphone": "ˈkɒntɪnənt"
-	},
-	{
-		"name": "million",
-		"trans": [
-			"n. 一百万；许多，大量"
-		],
-		"usphone": "ˈmɪljən",
-		"ukphone": "ˈmɪljən"
-	},
-	{
-		"name": "length",
-		"trans": [
-			"n. 长，长度；时间的长短；篇幅，（电影）片长"
-		],
-		"usphone": "leŋθ",
-		"ukphone": "leŋθ"
-	},
-	{
-		"name": "biodiversity",
-		"trans": [
-			"n. 生物多样性"
-		],
-		"usphone": "ˌbaɪəʊdaɪˈvɜːsəti",
-		"ukphone": "ˌbaɪəʊdaɪˈvɜːsəti"
-	},
-	{
-		"name": "species",
-		"trans": [
-			"n. (pl species) 种，物种"
-		],
-		"usphone": "ˈspiːʃiːz",
-		"ukphone": "ˈspiːʃiːz"
-	},
-	{
-		"name": "nut",
-		"trans": [
-			"n. 坚果"
-		],
-		"usphone": "nʌt",
-		"ukphone": "nʌt"
-	},
-	{
-		"name": "brazil nut",
-		"trans": [
-			"巴西坚果"
-		]
-	},
-	{
-		"name": "lily",
-		"trans": [
-			"n. 百合（花）"
-		],
-		"usphone": "ˈlɪli",
-		"ukphone": "ˈlɪli"
-	},
-	{
-		"name": "water lily",
-		"trans": [
-			"睡莲"
-		]
-	},
-	{
-		"name": "variety",
-		"trans": [
-			"n. 不同种类；变化，多样性；变种，变体"
-		],
-		"usphone": "vəˈraɪəti",
-		"ukphone": "vəˈraɪəti"
-	},
-	{
-		"name": "wildlife",
-		"trans": [
-			"n. 野生动植物，野生生物"
-		],
-		"usphone": "ˈwaɪldlaɪf",
-		"ukphone": "ˈwaɪldlaɪf"
-	},
-	{
-		"name": "beneath",
-		"trans": [
-			"prep. 在…下面，在…下方；配不上"
-		],
-		"usphone": "bɪˈniːθ",
-		"ukphone": "bɪˈniːθ"
-	},
-	{
-		"name": "mass",
-		"trans": [
-			"n. 大量；团，块，堆；一大群 adj.大批的，广泛的"
-		],
-		"usphone": "mæs",
-		"ukphone": "mæs"
-	},
-	{
-		"name": "towering",
-		"trans": [
-			"adj. 高大的，高耸的；出色的"
-		],
-		"usphone": "ˈtaʊərɪŋ",
-		"ukphone": "ˈtaʊərɪŋ"
-	},
-	{
-		"name": "hardwood",
-		"trans": [
-			"n. 阔叶树；硬材（阔叶树的木材）"
-		],
-		"usphone": "ˈhɑːdwʊd",
-		"ukphone": "ˈhɑːdwʊd"
-	},
-	{
-		"name": "living",
-		"trans": [
-			"adj. 活着的，活的；在使用的 n.生计，谋生；生活方式"
-		],
-		"usphone": "ˈlɪvɪŋ",
-		"ukphone": "ˈlɪvɪŋ"
-	},
-	{
-		"name": "mammal",
-		"trans": [
-			"n. 哺乳动物"
-		],
-		"usphone": "ˈmæml",
-		"ukphone": "ˈmæml"
-	},
-	{
-		"name": "jaguar",
-		"trans": [
-			"n. 美洲豹，美洲虎"
-		],
-		"usphone": "ˈdʒæɡjuə(r)",
-		"ukphone": "ˈdʒæɡjuə(r)"
-	},
-	{
-		"name": "survive",
-		"trans": [
-			"vi. 生存，存活 vt.幸存，幸免于难"
-		],
-		"usphone": "səˈvaɪv",
-		"ukphone": "səˈvaɪv"
-	},
-	{
-		"name": "frog",
-		"trans": [
-			"n. 蛙，青蛙"
-		],
-		"usphone": "frɒɡ",
-		"ukphone": "frɒɡ"
-	},
-	{
-		"name": "in turn",
-		"trans": [
-			"相应地，转而"
-		]
-	},
-	{
-		"name": "insect",
-		"trans": [
-			"n. 昆虫"
-		],
-		"usphone": "ˈɪnsekt",
-		"ukphone": "ˈɪnsekt"
-	},
-	{
-		"name": "microorganism",
-		"trans": [
-			"n. 微生物"
-		],
-		"usphone": "ˌmaɪkrəʊˈɔːgənɪzəm",
-		"ukphone": "ˌmaɪkrəʊˈɔːgənɪzəm"
-	},
-	{
-		"name": "break down",
-		"trans": [
-			"使分解（为），使变化（成）"
-		]
-	},
-	{
-		"name": "nutrient",
-		"trans": [
-			"n. 营养素，营养物"
-		],
-		"usphone": "ˈnjuːtriənt",
-		"ukphone": "ˈnjuːtriənt"
-	},
-	{
-		"name": "breathe life into",
-		"trans": [
-			"给…带来起色，注入活力"
-		]
-	},
-	{
-		"name": "carbon",
-		"trans": [
-			"n. 碳"
-		],
-		"usphone": "ˈkɑːbən",
-		"ukphone": "ˈkɑːbən"
-	},
-	{
-		"name": "oxygen",
-		"trans": [
-			"n. 氧，氧气"
-		],
-		"usphone": "ˈɒksɪdʒən",
-		"ukphone": "ˈɒksɪdʒən"
-	},
-	{
-		"name": "thus",
-		"trans": [
-			"adv. 因此，从而；这样"
-		],
-		"usphone": "ðʌs",
-		"ukphone": "ðʌs"
-	},
-	{
-		"name": "disappear",
-		"trans": [
-			"vi. 不复存在，灭绝，消亡；消失；失踪"
-		],
-		"usphone": "ˌdɪsəˈpɪə(r)",
-		"ukphone": "ˌdɪsəˈpɪə(r)"
-	},
-	{
-		"name": "due",
-		"trans": [
-			"to 由于，因为"
-		],
-		"usphone": "djuː",
-		"ukphone": "djuː"
-	},
-	{
-		"name": "agriculture",
-		"trans": [
-			"n. 农业，农学"
-		],
-		"usphone": "ˈæɡrɪkʌltʃə(r)",
-		"ukphone": "ˈæɡrɪkʌltʃə(r)"
-	},
-	{
-		"name": "cattle",
-		"trans": [
-			"n. 牛"
-		],
-		"usphone": "ˈkætl",
-		"ukphone": "ˈkætl"
-	},
-	{
-		"name": "impact",
-		"trans": [
-			"vi. & vt. 有影响；冲击"
-		],
-		"usphone": "ˈɪmpækt/ n. 影响，作用；撞击，冲撞 /ɪmˈpækt",
-		"ukphone": "ˈɪmpækt/ n. 影响，作用；撞击，冲撞 /ɪmˈpækt"
-	},
-	{
-		"name": "extinction",
-		"trans": [
-			"n. 灭绝，绝种"
-		],
-		"usphone": "ɪkˈstɪŋkʃn",
-		"ukphone": "ɪkˈstɪŋkʃn"
-	},
-	{
-		"name": "damage",
-		"trans": [
-			"vt. & n. 损害，伤害，损坏，破坏"
-		],
-		"usphone": "ˈdæmɪdʒ",
-		"ukphone": "ˈdæmɪdʒ"
-	},
-	{
-		"name": "climate",
-		"trans": [
-			"n. 气候；倾向，风气"
-		],
-		"usphone": "ˈklaɪmət",
-		"ukphone": "ˈklaɪmət"
-	},
-	{
-		"name": "build up",
-		"trans": [
-			"逐渐增加，扩大"
-		]
-	},
-	{
-		"name": "global",
-		"trans": [
-			"adj. 全球的；全面的"
-		],
-		"usphone": "ˈɡləʊbl",
-		"ukphone": "ˈɡləʊbl"
-	},
-	{
-		"name": "greenhouse",
-		"trans": [
-			"n. 温室，暖房"
-		],
-		"usphone": "ˈɡriːnhaʊs",
-		"ukphone": "ˈɡriːnhaʊs"
-	},
-	{
-		"name": "gas",
-		"trans": [
-			"n. 气体；煤气；汽油"
-		],
-		"usphone": "ɡæs",
-		"ukphone": "ɡæs"
-	},
-	{
-		"name": "drought",
-		"trans": [
-			"n. 旱灾，久旱"
-		],
-		"usphone": "draʊt",
-		"ukphone": "draʊt"
-	},
-	{
-		"name": "come up with",
-		"trans": [
-			"想出，想到"
-		]
-	},
-	{
-		"name": "call for",
-		"trans": [
-			"（公开）要求；需要"
-		]
-	},
-	{
-		"name": "application",
-		"trans": [
-			"n. 应用，运用；申请"
-		],
-		"usphone": "ˌæplɪˈkeɪʃn",
-		"ukphone": "ˌæplɪˈkeɪʃn"
-	},
-	{
-		"name": "brochure",
-		"trans": [
-			"n. 小册子"
-		],
-		"usphone": "ˈbrəʊʃə(r)",
-		"ukphone": "ˈbrəʊʃə(r)"
-	},
-	{
-		"name": "organization",
-		"trans": [
-			"n. 组织，团体；组织工作；安排；条理"
-		],
-		"usphone": "ˌɔːɡənaɪˈzeɪʃn",
-		"ukphone": "ˌɔːɡənaɪˈzeɪʃn"
-	},
-	{
-		"name": "absolutely",
-		"trans": [
-			"adv. 绝对地，完全地；极其"
-		],
-		"usphone": "ˈæbsəluːtli",
-		"ukphone": "ˈæbsəluːtli"
-	},
-	{
-		"name": "belt",
-		"trans": [
-			"n. 地带，地区；腰带；传送带"
-		],
-		"usphone": "belt",
-		"ukphone": "belt"
-	},
-	{
-		"name": "medal",
-		"trans": [
-			"n. 奖章，勋章"
-		],
-		"usphone": "ˈmedl",
-		"ukphone": "ˈmedl"
-	},
-	{
-		"name": "image",
-		"trans": [
-			"n. 形象；图像；意象"
-		],
-		"usphone": "ˈɪmɪdʒ",
-		"ukphone": "ˈɪmɪdʒ"
-	},
-	{
-		"name": "shark",
-		"trans": [
-			"n. 鲨鱼"
-		],
-		"usphone": "ʃɑːk",
-		"ukphone": "ʃɑːk"
-	},
-	{
-		"name": "spring to mind",
-		"trans": [
-			"突然记起（或想到）"
-		]
-	},
-	{
-		"name": "whale",
-		"trans": [
-			"n. 鲸"
-		],
-		"usphone": "weɪl",
-		"ukphone": "weɪl"
-	},
-	{
-		"name": "deer",
-		"trans": [
-			"n. (pl deer) 鹿"
-		],
-		"usphone": "dɪə(r)",
-		"ukphone": "dɪə(r)"
-	},
-	{
-		"name": "track",
-		"trans": [
-			"vt. &vi. 跟踪，追踪 n.足迹，踪迹；小道；轨道；跑道；路线"
-		],
-		"usphone": "træk",
-		"ukphone": "træk"
-	},
-	{
-		"name": "habitat",
-		"trans": [
-			"n. 生活环境，栖息地"
-		],
-		"usphone": "ˈhæbɪtæt",
-		"ukphone": "ˈhæbɪtæt"
-	},
-	{
-		"name": "nowhere",
-		"trans": [
-			"adv. 无处，哪里都不"
-		],
-		"usphone": "ˈnəʊweə(r)",
-		"ukphone": "ˈnəʊweə(r)"
-	},
-	{
-		"name": "dolphin",
-		"trans": [
-			"n. 海豚"
-		],
-		"usphone": "ˈdɒlfɪn",
-		"ukphone": "ˈdɒlfɪn"
-	},
-	{
-		"name": "resident",
-		"trans": [
-			"n. 居民，住户"
-		],
-		"usphone": "ˈrezɪdənt",
-		"ukphone": "ˈrezɪdənt"
-	},
-	{
-		"name": "chief",
-		"trans": [
-			"n. 首领，最高领导人 adj.主要的；首席的"
-		],
-		"usphone": "tʃiːf",
-		"ukphone": "tʃiːf"
-	},
-	{
-		"name": "committee",
-		"trans": [
-			"n. 委员会"
-		],
-		"usphone": "kəˈmɪti",
-		"ukphone": "kəˈmɪti"
-	},
-	{
-		"name": "entirely",
-		"trans": [
-			"adv. 完全地，全部地，完整地"
-		],
-		"usphone": "ɪnˈtaɪəli",
-		"ukphone": "ɪnˈtaɪəli"
-	},
-	{
-		"name": "smog",
-		"trans": [
-			"n. 雾霾，烟雾"
-		],
-		"usphone": "smɒɡ",
-		"ukphone": "smɒɡ"
-	},
-	{
-		"name": "get rid",
-		"trans": [
-			"of 摆脱，丢弃，扔掉"
-		],
-		"usphone": "rɪd",
-		"ukphone": "rɪd"
-	},
-	{
-		"name": "protest",
-		"trans": [
-			"n. 抗议，反对"
-		],
-		"usphone": "prəˈtest/ vi. 反对，抗议 vt.坚持声称，申辩 /ˈprəʊtest",
-		"ukphone": "prəˈtest/ vi. 反对，抗议 vt.坚持声称，申辩 /ˈprəʊtest"
-	},
-	{
-		"name": "profit",
-		"trans": [
-			"n. 利润，收益；好处 vi. & vt. 获益，得到好处"
-		],
-		"usphone": "ˈprɒfɪt",
-		"ukphone": "ˈprɒfɪt"
-	},
-	{
-		"name": "defence",
-		"trans": [
-			"(AmE defense) n. 辩护；防御，保护；防御物；国防；防守"
-		],
-		"usphone": "dɪˈfens",
-		"ukphone": "dɪˈfens"
-	},
-	{
-		"name": "various",
-		"trans": [
-			"adj. 各种不同的，各种各样的"
-		],
-		"usphone": "ˈveəriəs",
-		"ukphone": "ˈveəriəs"
-	},
-	{
-		"name": "process",
-		"trans": [
-			"n. 过程，进程；步骤，流程 vt.加工，处理"
-		],
-		"usphone": "ˈprəʊses",
-		"ukphone": "ˈprəʊses"
-	},
-	{
-		"name": "economic",
-		"trans": [
-			"adj. 经济的，经济上的；可赚钱的"
-		],
-		"usphone": "ˌiːkəˈnɒmɪk",
-		"ukphone": "ˌiːkəˈnɒmɪk"
-	},
-	{
-		"name": "policy",
-		"trans": [
-			"n. 政策，方针；原则"
-		],
-		"usphone": "ˈpɒləsi",
-		"ukphone": "ˈpɒləsi"
-	},
-	{
-		"name": "branch",
-		"trans": [
-			"n.（政府或机构）部门；分部；树枝；支流；分支"
-		],
-		"usphone": "brɑːntʃ",
-		"ukphone": "brɑːntʃ"
-	},
-	{
-		"name": "strategy",
-		"trans": [
-			"n. 策略，行动计划；策划，部署"
-		],
-		"usphone": "ˈstrætədʒi",
-		"ukphone": "ˈstrætədʒi"
-	},
-	{
-		"name": "recycle",
-		"trans": [
-			"vt. 回收利用，再利用"
-		],
-		"usphone": "ˌriːˈsaɪkl",
-		"ukphone": "ˌriːˈsaɪkl"
-	},
-	{
-		"name": "subway",
-		"trans": [
-			"n. 地铁；地下人行道"
-		],
-		"usphone": "ˈsʌbweɪ",
-		"ukphone": "ˈsʌbweɪ"
-	},
-	{
-		"name": "former",
-		"trans": [
-			"adj. 昔日的，前任的；以前的，从前的"
-		],
-		"usphone": "ˈfɔːmə(r)",
-		"ukphone": "ˈfɔːmə(r)"
-	},
-	{
-		"name": "official",
-		"trans": [
-			"n. 官员，要员 adj.公务的；正式的，官方的"
-		],
-		"usphone": "əˈfɪʃl",
-		"ukphone": "əˈfɪʃl"
-	},
-	{
-		"name": "poverty",
-		"trans": [
-			"n. 贫穷，贫困；贫乏"
-		],
-		"usphone": "ˈpɒvəti",
-		"ukphone": "ˈpɒvəti"
-	},
-	{
-		"name": "poison",
-		"trans": [
-			"vt. 污染；毒死，毒害 n.毒物，毒药"
-		],
-		"usphone": "ˈpɔɪzn",
-		"ukphone": "ˈpɔɪzn"
-	},
-	{
-		"name": "chemical",
-		"trans": [
-			"n. 化学制品 adj.化学的；化学作用的"
-		],
-		"usphone": "ˈkemɪkl",
-		"ukphone": "ˈkemɪkl"
-	},
-	{
-		"name": "consequence",
-		"trans": [
-			"n. 结果，后果；重要性"
-		],
-		"usphone": "ˈkɒnsɪkwəns",
-		"ukphone": "ˈkɒnsɪkwəns"
-	},
-	{
-		"name": "give rise to",
-		"trans": [
-			"使发生（或存在）"
-		]
-	},
-	{
-		"name": "further",
-		"trans": [
-			"adj. 更多的，更进一步的 adv.较远，更远；进一步"
-		],
-		"usphone": "ˈfɜːðə(r)",
-		"ukphone": "ˈfɜːðə(r)"
-	},
-	{
-		"name": "county",
-		"trans": [
-			"n. 郡，县"
-		],
-		"usphone": "ˈkaʊnti",
-		"ukphone": "ˈkaʊnti"
-	},
-	{
-		"name": "injure",
-		"trans": [
-			"vt. 伤害，使受伤；损害"
-		],
-		"usphone": "ˈɪndʒə(r)",
-		"ukphone": "ˈɪndʒə(r)"
-	},
-	{
-		"name": "disaster",
-		"trans": [
-			"n. 灾难，灾害；彻底失败"
-		],
-		"usphone": "dɪˈzɑːstə(r)",
-		"ukphone": "dɪˈzɑːstə(r)"
-	},
-	{
-		"name": "at large",
-		"trans": [
-			"整个，全部"
-		]
-	},
-	{
-		"name": "reaction",
-		"trans": [
-			"n. 反应，回应；抗拒；化学反应"
-		],
-		"usphone": "riˈækʃn",
-		"ukphone": "riˈækʃn"
-	},
-	{
-		"name": "crash",
-		"trans": [
-			"n. 碰撞声，破裂声；碰撞；崩溃 vi. & vt. 碰撞，撞击；崩溃"
-		],
-		"usphone": "kræʃ",
-		"ukphone": "kræʃ"
-	},
-	{
-		"name": "signal",
-		"trans": [
-			"vi. & vt. 发信号，示意；标志 n.信号，暗号；标志；信号灯"
-		],
-		"usphone": "ˈsɪɡnəl",
-		"ukphone": "ˈsɪɡnəl"
-	},
-	{
-		"name": "exit",
-		"trans": [
-			"vt. &vi. 出去，离去，退场；退出 n.出口，通道；离开"
-		],
-		"usphone": "ˈeksɪt；ˈegzɪt",
-		"ukphone": "ˈeksɪt；ˈegzɪt"
-	},
-	{
-		"name": "orderly",
-		"trans": [
-			"adj. 有秩序的，有条理的，整齐的"
-		],
-		"usphone": "ˈɔːdəli",
-		"ukphone": "ˈɔːdəli"
-	},
-	{
-		"name": "stair",
-		"trans": [
-			"n. 楼梯；梯级"
-		],
-		"usphone": "steə(r)",
-		"ukphone": "steə(r)"
-	},
-	{
-		"name": "roll",
-		"trans": [
-			"n. 名单；卷；一管；翻滚 vi. & vt. 翻滚，滚动；翻身；卷起"
-		],
-		"usphone": "rəʊl",
-		"ukphone": "rəʊl"
-	},
-	{
-		"name": "roll call",
-		"trans": [
-			"点名"
-		]
-	},
-	{
-		"name": "confirm",
-		"trans": [
-			"vt. 证实，确认；使确信；批准"
-		],
-		"usphone": "kənˈfɜːm",
-		"ukphone": "kənˈfɜːm"
-	},
-	{
-		"name": "safe and sound",
-		"trans": [
-			"安然无恙的"
-		]
-	},
-	{
-		"name": "hug",
-		"trans": [
-			"vt. 拥抱，搂抱；抱紧"
-		],
-		"usphone": "hʌɡ",
-		"ukphone": "hʌɡ"
-	},
-	{
-		"name": "procedure",
-		"trans": [
-			"n. 程序，步骤，手续"
-		],
-		"usphone": "prəˈsiːdʒə(r)",
-		"ukphone": "prəˈsiːdʒə(r)"
-	},
-	{
-		"name": "tsunami",
-		"trans": [
-			"n. 海啸"
-		],
-		"usphone": "tsuːˈnɑːmi",
-		"ukphone": "tsuːˈnɑːmi"
-	},
-	{
-		"name": "odd",
-		"trans": [
-			"adj. 奇怪的，怪异的；偶尔的；不成对的"
-		],
-		"usphone": "ɒd",
-		"ukphone": "ɒd"
-	},
-	{
-		"name": "bubble",
-		"trans": [
-			"n. 泡沫，泡，气泡"
-		],
-		"usphone": "ˈbʌbl",
-		"ukphone": "ˈbʌbl"
-	},
-	{
-		"name": "occur",
-		"trans": [
-			"vi. 发生，出现；存在于"
-		],
-		"usphone": "əˈkɜː(r)",
-		"ukphone": "əˈkɜː(r)"
-	},
-	{
-		"name": "occur to",
-		"trans": [
-			"被想到，浮现在脑中"
-		]
-	},
-	{
-		"name": "keep on",
-		"trans": [
-			"’s head （在困境中）保持冷静"
-		]
-	},
-	{
-		"name": "relief",
-		"trans": [
-			"n. 宽慰，轻松；减轻，消除；救济"
-		],
-		"usphone": "rɪˈliːf",
-		"ukphone": "rɪˈliːf"
-	},
-	{
-		"name": "typhoon",
-		"trans": [
-			"n. 台风"
-		],
-		"usphone": "taɪˈfuːn",
-		"ukphone": "taɪˈfuːn"
-	},
-	{
-		"name": "destructive",
-		"trans": [
-			"adj. 引起破坏（或毁灭）的，破坏（或毁灭性）的"
-		],
-		"usphone": "dɪˈstrʌktɪv",
-		"ukphone": "dɪˈstrʌktɪv"
-	},
-	{
-		"name": "pole",
-		"trans": [
-			"n. 柱，杆；极"
-		],
-		"usphone": "pəʊl",
-		"ukphone": "pəʊl"
-	},
-	{
-		"name": "inform",
-		"trans": [
-			"vt. 了解，熟悉；通知"
-		],
-		"usphone": "ɪnˈfɔːm",
-		"ukphone": "ɪnˈfɔːm"
-	},
-	{
-		"name": "hurricane",
-		"trans": [
-			"n. 飓风"
-		],
-		"usphone": "ˈhʌrɪkən",
-		"ukphone": "ˈhʌrɪkən"
-	},
-	{
-		"name": "conference",
-		"trans": [
-			"n. 会议，研讨会；讨论，商谈"
-		],
-		"usphone": "ˈkɒnfərəns",
-		"ukphone": "ˈkɒnfərəns"
-	},
-	{
-		"name": "shock",
-		"trans": [
-			"n. 震惊，惊愕；剧烈震动 vt.使震惊"
-		],
-		"usphone": "ʃɒk",
-		"ukphone": "ʃɒk"
-	},
-	{
-		"name": "scare",
-		"trans": [
-			"vt. & vi. 惊吓，害怕 n.恐慌；惊吓"
-		],
-		"usphone": "skeə(r)",
-		"ukphone": "skeə(r)"
-	},
-	{
-		"name": "power",
-		"trans": [
-			"n. 电，电力；权力；政权；控制力；能力；能量；力量"
-		],
-		"usphone": "ˈpaʊə(r)",
-		"ukphone": "ˈpaʊə(r)"
-	},
-	{
-		"name": "run out of",
-		"trans": [
-			"用完，耗尽"
-		]
-	},
-	{
-		"name": "supply",
-		"trans": [
-			"n. 补给，补给品；供应；供应量，储备 vt.供应，供给，提供"
-		],
-		"usphone": "səˈplaɪ",
-		"ukphone": "səˈplaɪ"
-	},
-	{
-		"name": "donate",
-		"trans": [
-			"vt. 捐赠，赠送；献（血）"
-		],
-		"usphone": "dəʊˈneɪt",
-		"ukphone": "dəʊˈneɪt"
-	},
-	{
-		"name": "charity",
-		"trans": [
-			"n. 慈善机构（组织）；慈善，施舍；仁爱，宽容"
-		],
-		"usphone": "ˈtʃærəti",
-		"ukphone": "ˈtʃærəti"
-	},
-	{
-		"name": "staff",
-		"trans": [
-			"n. 全体职工；管理人员 vt.在…工作，任职于"
-		],
-		"usphone": "stɑːf",
-		"ukphone": "stɑːf"
-	},
-	{
-		"name": "slide",
-		"trans": [
-			"n. 投影片；降低；滑行；山崩 vi. & vt. 滑行；逐渐陷入"
-		],
-		"usphone": "slaɪd",
-		"ukphone": "slaɪd"
-	},
-	{
-		"name": "fund",
-		"trans": [
-			"n. 资金；基金"
-		],
-		"usphone": "fʌnd",
-		"ukphone": "fʌnd"
-	},
-	{
-		"name": "flood",
-		"trans": [
-			"n. 洪水，水灾；大量 vt. & vi. 淹没，泛滥；大量涌入；充满"
-		],
-		"usphone": "flʌd",
-		"ukphone": "flʌd"
-	},
-	{
-		"name": "downstairs",
-		"trans": [
-			"adv. 在楼下，往楼下 n.楼下"
-		],
-		"usphone": "ˌdaʊnˈsteəz",
-		"ukphone": "ˌdaʊnˈsteəz"
-	},
-	{
-		"name": "document",
-		"trans": [
-			"n. 文件，公文；（计算机中的）文档"
-		],
-		"usphone": "ˈdɒkjumənt",
-		"ukphone": "ˈdɒkjumənt"
-	},
-	{
-		"name": "honey",
-		"trans": [
-			"n. （爱称）亲爱的；蜂蜜"
-		],
-		"usphone": "ˈhʌni",
-		"ukphone": "ˈhʌni"
-	},
-	{
-		"name": "otherwise",
-		"trans": [
-			"adv. 否则，不然；除此以外"
-		],
-		"usphone": "ˈʌðəwaɪz",
-		"ukphone": "ˈʌðəwaɪz"
-	},
-	{
-		"name": "curious",
-		"trans": [
-			"adj. 好奇的；奇特的"
-		],
-		"usphone": "ˈkjʊəriəs",
-		"ukphone": "ˈkjʊəriəs"
-	},
-	{
-		"name": "Roman",
-		"trans": [
-			"adj. 古罗马的；罗马的 n.古罗马人；罗马人"
-		],
-		"usphone": "ˈrəʊmən",
-		"ukphone": "ˈrəʊmən"
-	},
-	{
-		"name": "erupt",
-		"trans": [
-			"vi. & vt.（火山）爆发；突然发生"
-		],
-		"usphone": "ɪˈrʌpt",
-		"ukphone": "ɪˈrʌpt"
-	},
-	{
-		"name": "unearth",
-		"trans": [
-			"vt. 使出土，挖掘，发掘；发现，找到"
-		],
-		"usphone": "ʌnˈɜːθ",
-		"ukphone": "ʌnˈɜːθ"
-	},
-	{
-		"name": "destination",
-		"trans": [
-			"n. 目的地，终点"
-		],
-		"usphone": "ˌdestɪˈneɪʃn",
-		"ukphone": "ˌdestɪˈneɪʃn"
-	},
-	{
-		"name": "bar",
-		"trans": [
-			"n. 酒吧；小馆子；吧台；条，块；栏杆；障碍 vt.封；阻挡；阻止"
-		],
-		"usphone": "bɑː(r)",
-		"ukphone": "bɑː(r)"
-	},
-	{
-		"name": "import",
-		"trans": [
-			"vt. 进口，引进"
-		],
-		"usphone": "ˈɪmpɔːt/ n. 进口产品，输入的产品；输入 /ɪmˈpɔːt",
-		"ukphone": "ˈɪmpɔːt/ n. 进口产品，输入的产品；输入 /ɪmˈpɔːt"
-	},
-	{
-		"name": "export",
-		"trans": [
-			"vt. 出口，输出"
-		],
-		"usphone": "ˈekspɔːt/ n. 出口产品，输出的产品；出口，输出 /ɪkˈspɔːt",
-		"ukphone": "ˈekspɔːt/ n. 出口产品，输出的产品；出口，输出 /ɪkˈspɔːt"
-	},
-	{
-		"name": "port",
-		"trans": [
-			"n. 港口，避风港；港口城市"
-		],
-		"usphone": "pɔːt",
-		"ukphone": "pɔːt"
-	},
-	{
-		"name": "cloud-capped",
-		"trans": [
-			"adj. 高耸入云的，耸入云霄的"
-		],
-		"usphone": "ˌklaʊd ˈkæpt",
-		"ukphone": "ˌklaʊd ˈkæpt"
-	},
-	{
-		"name": "ashy",
-		"trans": [
-			"adj. 覆盖着灰的；灰色的"
-		],
-		"usphone": "ˈæʃi",
-		"ukphone": "ˈæʃi"
-	},
-	{
-		"name": "dawn",
-		"trans": [
-			"n. 黎明，破晓；开端，萌芽 vi.开始；开始清楚"
-		],
-		"usphone": "dɔːn",
-		"ukphone": "dɔːn"
-	},
-	{
-		"name": "volcano",
-		"trans": [
-			"n. 火山"
-		],
-		"usphone": "vɒlˈkeɪnəʊ",
-		"ukphone": "vɒlˈkeɪnəʊ"
-	},
-	{
-		"name": "take the form of",
-		"trans": [
-			"呈现…的形状；采取…的形式"
-		]
-	},
-	{
-		"name": "trunk",
-		"trans": [
-			"n. 树干"
-		],
-		"usphone": "trʌŋk",
-		"ukphone": "trʌŋk"
-	},
-	{
-		"name": "unbearable",
-		"trans": [
-			"adj. 难耐的，无法忍受的"
-		],
-		"usphone": "ʌnˈbeərəbl",
-		"ukphone": "ʌnˈbeərəbl"
-	},
-	{
-		"name": "break out",
-		"trans": [
-			"突然开始，爆发"
-		]
-	},
-	{
-		"name": "beyond",
-		"trans": [
-			"adv. 在（或向）较远处；在另一边 prep.在（或向）更远处；超出；晚于；无法；超出…之外"
-		],
-		"usphone": "bɪˈjɒnd",
-		"ukphone": "bɪˈjɒnd"
-	},
-	{
-		"name": "distance",
-		"trans": [
-			"n. 遥远，久远；距离；差异；疏远"
-		],
-		"usphone": "ˈdɪstəns",
-		"ukphone": "ˈdɪstəns"
-	},
-	{
-		"name": "far and wide",
-		"trans": [
-			"到处，各处"
-		]
-	},
-	{
-		"name": "pattern",
-		"trans": [
-			"n. 图案，花样；模式；范例；模型"
-		],
-		"usphone": "ˈpætn",
-		"ukphone": "ˈpætn"
-	},
-	{
-		"name": "column",
-		"trans": [
-			"n. 柱，圆柱；柱状物；栏；专栏；队，列"
-		],
-		"usphone": "ˈkɒləm",
-		"ukphone": "ˈkɒləm"
-	},
-	{
-		"name": "rescue",
-		"trans": [
-			"n. & vt. 救援，营救，抢救"
-		],
-		"usphone": "ˈreskjuː",
-		"ukphone": "ˈreskjuː"
-	},
-	{
-		"name": "sharp",
-		"trans": [
-			"adj. 灵敏的；锋利的；急剧的；明显的；尖锐的；强烈的"
-		],
-		"usphone": "ʃɑːp",
-		"ukphone": "ʃɑːp"
-	},
-	{
-		"name": "locate",
-		"trans": [
-			"vt. 找出…的准确位置；把…安置在（或建造于）"
-		],
-		"usphone": "ləʊˈkeɪt",
-		"ukphone": "ləʊˈkeɪt"
-	},
-	{
-		"name": "retire",
-		"trans": [
-			"vi. & vt. 退休，退役"
-		],
-		"usphone": "rɪˈtaɪə(r)",
-		"ukphone": "rɪˈtaɪə(r)"
-	},
-	{
-		"name": "wetca",
-		"trans": [
-			"n. 网络摄像头"
-		],
-		"usphone": "ˈwebkæm",
-		"ukphone": "ˈwebkæm"
-	},
-	{
-		"name": "po",
-		"trans": [
-			"n. 壶，瓶，罐；锅"
-		],
-		"usphone": "pɒt",
-		"ukphone": "pɒt"
-	},
-	{
-		"name": "emoji",
-		"trans": [
-			"n. 表情符号"
-		],
-		"usphone": "ɪˈməʊdʒi",
-		"ukphone": "ɪˈməʊdʒi"
-	},
-	{
-		"name": "comic",
-		"trans": [
-			"n. 连环漫画；喜剧演员 adj.滑稽的；喜剧的"
-		],
-		"usphone": "ˈkɒmɪk",
-		"ukphone": "ˈkɒmɪk"
-	},
-	{
-		"name": "take off",
-		"trans": [
-			"突然大受欢迎，迅速流行"
-		]
-	},
-	{
-		"name": "frontier",
-		"trans": [
-			"n. 国界，边界；尖端，边缘"
-		],
-		"usphone": "ˈfrʌntɪə(r)",
-		"ukphone": "ˈfrʌntɪə(r)"
-	},
-	{
-		"name": "billion",
-		"trans": [
-			"n. 十亿"
-		],
-		"usphone": "ˈbɪljən",
-		"ukphone": "ˈbɪljən"
-	},
-	{
-		"name": "obviously",
-		"trans": [
-			"adv. 显然，明显地"
-		],
-		"usphone": "ˈɒbviəsli",
-		"ukphone": "ˈɒbviəsli"
-	},
-	{
-		"name": "access",
-		"trans": [
-			"n. 机会，权利；路径，通道 vt.到达，进入，使用"
-		],
-		"usphone": "ˈækses",
-		"ukphone": "ˈækses"
-	},
-	{
-		"name": "extent",
-		"trans": [
-			"n. 程度，限度；范围"
-		],
-		"usphone": "ɪkˈstent",
-		"ukphone": "ɪkˈstent"
-	},
-	{
-		"name": "to a certain extent",
-		"trans": [
-			"在一定程度上"
-		]
-	},
-	{
-		"name": "at on",
-		"trans": [
-			"’s fingertips 掌握（信息），熟悉、精通（知识等），了如指掌"
-		]
-	},
-	{
-		"name": "click",
-		"trans": [
-			"n. 点击，单击；咔哒声 vi. & vt. 使发出咔哒声；点击，单击"
-		],
-		"usphone": "klɪk",
-		"ukphone": "klɪk"
-	},
-	{
-		"name": "button",
-		"trans": [
-			"n. 按钮；纽扣"
-		],
-		"usphone": "ˈbʌtn",
-		"ukphone": "ˈbʌtn"
-	},
-	{
-		"name": "recipe",
-		"trans": [
-			"n. 食谱；方法，秘诀"
-		],
-		"usphone": "ˈresəpi",
-		"ukphone": "ˈresəpi"
-	},
-	{
-		"name": "military",
-		"trans": [
-			"adj. 军事的，军队的"
-		],
-		"usphone": "ˈmɪlətri",
-		"ukphone": "ˈmɪlətri"
-	},
-	{
-		"name": "affair",
-		"trans": [
-			"n.公共事务，政治事务；事件，事情"
-		],
-		"usphone": "əˈfeə(r)",
-		"ukphone": "əˈfeə(r)"
-	},
-	{
-		"name": "bring up",
-		"trans": [
-			"使显示在计算机屏幕上，调出；提出"
-		]
-	},
-	{
-		"name": "majority",
-		"trans": [
-			"n. 大部分，大多数；多数票"
-		],
-		"usphone": "məˈdʒɒrəti",
-		"ukphone": "məˈdʒɒrəti"
-	},
-	{
-		"name": "goods",
-		"trans": [
-			"n. 商品，货品；私人财产"
-		],
-		"usphone": "ɡʊdz",
-		"ukphone": "ɡʊdz"
-	},
-	{
-		"name": "commerce",
-		"trans": [
-			"n. 商务；商业；贸易"
-		],
-		"usphone": "ˈkɒmɜːs",
-		"ukphone": "ˈkɒmɜːs"
-	},
-	{
-		"name": "deliver",
-		"trans": [
-			"vt.递送，传送；发表，宣布；交出"
-		],
-		"usphone": "dɪˈlɪvə(r)",
-		"ukphone": "dɪˈlɪvə(r)"
-	},
-	{
-		"name": "site",
-		"trans": [
-			"n. 网站，站点；地点；现场"
-		],
-		"usphone": "saɪt",
-		"ukphone": "saɪt"
-	},
-	{
-		"name": "boot",
-		"trans": [
-			"n. 靴子"
-		],
-		"usphone": "buːt",
-		"ukphone": "buːt"
-	},
-	{
-		"name": "arrangement",
-		"trans": [
-			"n. 安排；布置；约定；排列"
-		],
-		"usphone": "əˈreɪndʒmənt",
-		"ukphone": "əˈreɪndʒmənt"
-	},
-	{
-		"name": "cash",
-		"trans": [
-			"n. 现金；金钱，资金"
-		],
-		"usphone": "kæʃ",
-		"ukphone": "kæʃ"
-	},
-	{
-		"name": "above all else",
-		"trans": [
-			"最重要的是，尤其是"
-		]
-	},
-	{
-		"name": "establish",
-		"trans": [
-			"vt. 建立（关系或联系）；设立；确立；使得到认可；查实，确定"
-		],
-		"usphone": "ɪˈstæblɪʃ",
-		"ukphone": "ɪˈstæblɪʃ"
-	},
-	{
-		"name": "software",
-		"trans": [
-			"n. 软件"
-		],
-		"usphone": "ˈsɒftweə(r)",
-		"ukphone": "ˈsɒftweə(r)"
-	},
-	{
-		"name": "instant",
-		"trans": [
-			"adj. 立即的，立刻的；方便的 n.瞬间，片刻；某一时刻"
-		],
-		"usphone": "ˈɪnstənt",
-		"ukphone": "ˈɪnstənt"
-	},
-	{
-		"name": "comment",
-		"trans": [
-			"n. 议论，评论；批评，指责 vi. & vt. 表达意见"
-		],
-		"usphone": "ˈkɒment",
-		"ukphone": "ˈkɒment"
-	},
-	{
-		"name": "aware",
-		"trans": [
-			"adj. 知道，意识到；察觉到，发觉；有…意识的"
-		],
-		"usphone": "əˈweə(r)",
-		"ukphone": "əˈweə(r)"
-	},
-	{
-		"name": "surf",
-		"trans": [
-			"vt. & vi.（互联网上）冲浪，浏览；进行冲浪运动"
-		],
-		"usphone": "sɜːf",
-		"ukphone": "sɜːf"
-	},
-	{
-		"name": "guideline",
-		"trans": [
-			"n. 准则，指导方针；参考"
-		],
-		"usphone": "ˈɡaɪdlaɪn",
-		"ukphone": "ˈɡaɪdlaɪn"
-	},
-	{
-		"name": "remove",
-		"trans": [
-			"vt. 删除；移走；开除"
-		],
-		"usphone": "rɪˈmuːv",
-		"ukphone": "rɪˈmuːv"
-	},
-	{
-		"name": "file",
-		"trans": [
-			"n. 文件；文件夹；档案"
-		],
-		"usphone": "faɪl",
-		"ukphone": "faɪl"
-	},
-	{
-		"name": "belong",
-		"trans": [
-			"to 属于，归…所有"
-		],
-		"usphone": "bɪˈlɒŋ",
-		"ukphone": "bɪˈlɒŋ"
-	},
-	{
-		"name": "ballet",
-		"trans": [
-			"n. 芭蕾舞；芭蕾舞剧；芭蕾舞团"
-		],
-		"usphone": "ˈbæleɪ",
-		"ukphone": "ˈbæleɪ"
-	},
-	{
-		"name": "set up",
-		"trans": [
-			"创建，建立"
-		]
-	},
-	{
-		"name": "request",
-		"trans": [
-			"vt. 要求，请求 n.要求，请求；要求的事"
-		],
-		"usphone": "rɪˈkwest",
-		"ukphone": "rɪˈkwest"
-	},
-	{
-		"name": "technical",
-		"trans": [
-			"adj. 技术的，技能的；专门技术的；专业的"
-		],
-		"usphone": "ˈteknɪkl",
-		"ukphone": "ˈteknɪkl"
-	},
-	{
-		"name": "upload",
-		"trans": [
-			"vt. 上载，上传"
-		],
-		"usphone": "ˌʌpˈləʊd",
-		"ukphone": "ˌʌpˈləʊd"
-	},
-	{
-		"name": "download",
-		"trans": [
-			"vt. 下载"
-		],
-		"usphone": "ˌdaʊnˈləʊd",
-		"ukphone": "ˌdaʊnˈləʊd"
-	},
-	{
-		"name": "percentage",
-		"trans": [
-			"n. 百分率，百分比；提成"
-		],
-		"usphone": "pəˈsentɪdʒ",
-		"ukphone": "pəˈsentɪdʒ"
-	},
-	{
-		"name": "entertainment",
-		"trans": [
-			"n.娱乐活动；招待，娱乐"
-		],
-		"usphone": "ˌentəˈteɪnmənt",
-		"ukphone": "ˌentəˈteɪnmənt"
-	},
-	{
-		"name": "mobile",
-		"trans": [
-			"adj. 可移动的，非固定的；行动方便的；流动的 n.手机"
-		],
-		"usphone": "ˈməʊbaɪl",
-		"ukphone": "ˈməʊbaɪl"
-	},
-	{
-		"name": "device",
-		"trans": [
-			"n. 设备，仪器；手段，技巧"
-		],
-		"usphone": "dɪˈvaɪs",
-		"ukphone": "dɪˈvaɪs"
-	},
-	{
-		"name": "addict",
-		"trans": [
-			"n. 对…入迷的人；瘾君子"
-		],
-		"usphone": "ˈædɪkt",
-		"ukphone": "ˈædɪkt"
-	},
-	{
-		"name": "be glued to sth",
-		"trans": [
-			"全神贯注看着某物，离某物很近"
-		]
-	},
-	{
-		"name": "Wi-Fi",
-		"trans": [
-			"n. 无线网络"
-		],
-		"usphone": "ˈwaɪ faɪ",
-		"ukphone": "ˈwaɪ faɪ"
-	},
-	{
-		"name": "battery",
-		"trans": [
-			"n. 电池"
-		],
-		"usphone": "ˈbætri; ˈbætəri",
-		"ukphone": "ˈbætri; ˈbætəri"
-	},
-	{
-		"name": "quit",
-		"trans": [
-			"vt. & vi. (quit，quit；quitted，quitted) 停止，戒掉；离开"
-		],
-		"usphone": "kwɪt",
-		"ukphone": "kwɪt"
-	},
-	{
-		"name": "shoot past",
-		"trans": [
-			"飞驰而过"
-		]
-	},
-	{
-		"name": "knock sb off on",
-		"trans": [
-			"’s feet 撞倒某人，使某人双脚离地"
-		]
-	},
-	{
-		"name": "scary",
-		"trans": [
-			"adj. 恐怖的，吓人的"
-		],
-		"usphone": "ˈskeəri",
-		"ukphone": "ˈskeəri"
-	},
-	{
-		"name": "somehow",
-		"trans": [
-			"adv. 不知怎么地；以某种方式（或方法）"
-		],
-		"usphone": "ˈsʌmhaʊ",
-		"ukphone": "ˈsʌmhaʊ"
-	},
-	{
-		"name": "be lost in",
-		"trans": [
-			"全神贯注，沉浸于"
-		]
-	},
-	{
-		"name": "journal",
-		"trans": [
-			"n. 日记；报纸，杂志"
-		],
-		"usphone": "ˈdʒɜːnl",
-		"ukphone": "ˈdʒɜːnl"
-	},
-	{
-		"name": "reveal",
-		"trans": [
-			"vt. 展示，显出；揭示，透露"
-		],
-		"usphone": "rɪˈviːl",
-		"ukphone": "rɪˈviːl"
-	},
-	{
-		"name": "appreciate",
-		"trans": [
-			"vt. 欣赏，赏识；感谢"
-		],
-		"usphone": "əˈpriːʃieɪt",
-		"ukphone": "əˈpriːʃieɪt"
-	},
-	{
-		"name": "wide-ranging",
-		"trans": [
-			"adj. 覆盖面广的，内容广泛的"
-		],
-		"usphone": "ˌwaɪd ˈreɪndʒɪŋ",
-		"ukphone": "ˌwaɪd ˈreɪndʒɪŋ"
-	},
-	{
-		"name": "opera",
-		"trans": [
-			"n. 歌剧；歌剧院"
-		],
-		"usphone": "ˈɒprə",
-		"ukphone": "ˈɒprə"
-	},
-	{
-		"name": "badminton",
-		"trans": [
-			"n. 羽毛球运动"
-		],
-		"usphone": "ˈbædmɪntən",
-		"ukphone": "ˈbædmɪntən"
-	},
-	{
-		"name": "cut back o",
-		"trans": [
-			"减少"
-		]
-	},
-	{
-		"name": "republic",
-		"trans": [
-			"n. 共和国，共和政体"
-		],
-		"usphone": "rɪˈpʌblɪk",
-		"ukphone": "rɪˈpʌblɪk"
-	},
-	{
-		"name": "malaria",
-		"trans": [
-			"n. 疟疾"
-		],
-		"usphone": "məˈleəriə",
-		"ukphone": "məˈleəriə"
-	},
-	{
-		"name": "deadly",
-		"trans": [
-			"adj.致命的；十足的，彻底的"
-		],
-		"usphone": "ˈdedli",
-		"ukphone": "ˈdedli"
-	},
-	{
-		"name": "survival",
-		"trans": [
-			"n. 生存，存活；残存物，幸存事物"
-		],
-		"usphone": "səˈvaɪvl",
-		"ukphone": "səˈvaɪvl"
-	},
-	{
-		"name": "province",
-		"trans": [
-			"n. 省，省份"
-		],
-		"usphone": "ˈprɒvɪns",
-		"ukphone": "ˈprɒvɪns"
-	},
-	{
-		"name": "broad",
-		"trans": [
-			"adj. 广泛的；宽阔的，广阔的；概括的；开阔的"
-		],
-		"usphone": "brɔːd",
-		"ukphone": "brɔːd"
-	},
-	{
-		"name": "intend",
-		"trans": [
-			"vi. & vt. 想要，计划；意指"
-		],
-		"usphone": "ɪnˈtend",
-		"ukphone": "ɪnˈtend"
-	},
-	{
-		"name": "extract",
-		"trans": [
-			"vt. 提取；选录；取出；设法得到"
-		],
-		"usphone": "ˈekstrækt/ n. 提取物；选录 /ɪkˈstrækt",
-		"ukphone": "ˈekstrækt/ n. 提取物；选录 /ɪkˈstrækt"
-	},
-	{
-		"name": "herb",
-		"trans": [
-			"n. 药草，香草；草本"
-		],
-		"usphone": "hɜːb",
-		"ukphone": "hɜːb"
-	},
-	{
-		"name": "refer",
-		"trans": [
-			"to 查阅，参考；提到，谈及"
-		],
-		"usphone": "rɪˈfɜː(r)",
-		"ukphone": "rɪˈfɜː(r)"
-	},
-	{
-		"name": "experiment",
-		"trans": [
-			"n. 实验，试验；尝试，实践 vi.做试验，进行实验；尝试"
-		],
-		"usphone": "ɪkˈsperɪmənt",
-		"ukphone": "ɪkˈsperɪmənt"
-	},
-	{
-		"name": "trial",
-		"trans": [
-			"n. 试用，试验；审讯，审判；考验 vi. & vt. 测试，试验"
-		],
-		"usphone": "ˈtraɪəl",
-		"ukphone": "ˈtraɪəl"
-	},
-	{
-		"name": "limited",
-		"trans": [
-			"adj. 有限的"
-		],
-		"usphone": "ˈlɪmɪtɪd",
-		"ukphone": "ˈlɪmɪtɪd"
-	},
-	{
-		"name": "household",
-		"trans": [
-			"adj. 家庭的，家用的，家务的 n.一家人，家庭"
-		],
-		"usphone": "ˈhaʊshəʊld",
-		"ukphone": "ˈhaʊshəʊld"
-	},
-	{
-		"name": "container",
-		"trans": [
-			"n. 容器；集装箱，货柜"
-		],
-		"usphone": "kənˈteɪnə(r)",
-		"ukphone": "kənˈteɪnə(r)"
-	},
-	{
-		"name": "postpone",
-		"trans": [
-			"vt. 延迟，延期"
-		],
-		"usphone": "pəˈspəʊn",
-		"ukphone": "pəˈspəʊn"
-	},
-	{
-		"name": "sufficient",
-		"trans": [
-			"adj. 足够的，充足的"
-		],
-		"usphone": "səˈfɪʃnt",
-		"ukphone": "səˈfɪʃnt"
-	},
-	{
-		"name": "data",
-		"trans": [
-			"n. 数据，资料，材料"
-		],
-		"usphone": "ˈdeɪtə",
-		"ukphone": "ˈdeɪtə"
-	},
-	{
-		"name": "speed up",
-		"trans": [
-			"（使）加速"
-		]
-	},
-	{
-		"name": "pay off",
-		"trans": [
-			"成功，奏效，达到目的"
-		]
-	},
-	{
-		"name": "error",
-		"trans": [
-			"n. 错误，差错"
-		],
-		"usphone": "ˈerə(r)",
-		"ukphone": "ˈerə(r)"
-	},
-	{
-		"name": "through trial and error",
-		"trans": [
-			"反复试验"
-		]
-	},
-	{
-		"name": "wisdom",
-		"trans": [
-			"n. 智慧，知识，学问；才智；明智"
-		],
-		"usphone": "ˈwɪzdəm",
-		"ukphone": "ˈwɪzdəm"
-	},
-	{
-		"name": "beneficial",
-		"trans": [
-			"adj. 有益的，有用的"
-		],
-		"usphone": "ˌbenɪˈfɪʃl",
-		"ukphone": "ˌbenɪˈfɪʃl"
-	},
-	{
-		"name": "conduct",
-		"trans": [
-			"vt. & vi. 组织，实施；指挥；引导；举止"
-		],
-		"usphone": "kənˈdʌkt",
-		"ukphone": "kənˈdʌkt"
-	},
-	{
-		"name": "illustrate",
-		"trans": [
-			"vt. 说明，解释；加插图于"
-		],
-		"usphone": "ˈɪləstreɪt",
-		"ukphone": "ˈɪləstreɪt"
-	},
-	{
-		"name": "penicillin",
-		"trans": [
-			"n. 青霉素，盘尼西林"
-		],
-		"usphone": "ˌpenɪˈsɪlɪn",
-		"ukphone": "ˌpenɪˈsɪlɪn"
-	},
-	{
-		"name": "mould",
-		"trans": [
-			"(AmE. mold) n. 霉菌；模具；类型 vt.浇铸；塑造"
-		],
-		"usphone": "məʊld",
-		"ukphone": "məʊld"
-	},
-	{
-		"name": "bacteria",
-		"trans": [
-			"n. (sing bacterium) 细菌"
-		],
-		"usphone": "bækˈtɪəriə",
-		"ukphone": "bækˈtɪəriə"
-	},
-	{
-		"name": "surround",
-		"trans": [
-			"vt. 围绕，环绕；包围；与…紧密相关"
-		],
-		"usphone": "səˈraʊnd",
-		"ukphone": "səˈraʊnd"
-	},
-	{
-		"name": "indicate",
-		"trans": [
-			"vt. 表明；暗示；提及；指出"
-		],
-		"usphone": "ˈɪndɪkeɪt",
-		"ukphone": "ˈɪndɪkeɪt"
-	},
-	{
-		"name": "accident",
-		"trans": [
-			"n. 意外，偶然的事；事故，意外遭遇"
-		],
-		"usphone": "ˈæksɪdənt",
-		"ukphone": "ˈæksɪdənt"
-	},
-	{
-		"name": "by accident",
-		"trans": [
-			"偶然，意外地"
-		]
-	},
-	{
-		"name": "intelligent",
-		"trans": [
-			"adj. 有才智的，聪明的；有智力的"
-		],
-		"usphone": "ɪnˈtelɪdʒənt",
-		"ukphone": "ɪnˈtelɪdʒənt"
-	},
-	{
-		"name": "favour",
-		"trans": [
-			"(AmE favor) vt. 较喜欢；偏袒；有助于 n.帮助，好事；赞同；偏袒"
-		],
-		"usphone": "ˈfeɪvə(r)",
-		"ukphone": "ˈfeɪvə(r)"
-	},
-	{
-		"name": "politician",
-		"trans": [
-			"n. 政治家，从政者；投机钻营者"
-		],
-		"usphone": "ˌpɒləˈtɪʃn",
-		"ukphone": "ˌpɒləˈtɪʃn"
-	},
-	{
-		"name": "lightning",
-		"trans": [
-			"n. 闪电"
-		],
-		"usphone": "ˈlaɪtnɪŋ",
-		"ukphone": "ˈlaɪtnɪŋ"
-	},
-	{
-		"name": "electricity",
-		"trans": [
-			"n. 电，电能"
-		],
-		"usphone": "ɪˌlekˈtrɪsəti",
-		"ukphone": "ɪˌlekˈtrɪsəti"
-	},
-	{
-		"name": "theory",
-		"trans": [
-			"n.学说，论；原理；看法，意见"
-		],
-		"usphone": "ˈθɪəri",
-		"ukphone": "ˈθɪəri"
-	},
-	{
-		"name": "thunderstorm",
-		"trans": [
-			"n. 雷雨，雷暴"
-		],
-		"usphone": "ˈθʌndəstɔːm",
-		"ukphone": "ˈθʌndəstɔːm"
-	},
-	{
-		"name": "ribbon",
-		"trans": [
-			"n. 带子，丝带；带状物"
-		],
-		"usphone": "ˈrɪbən",
-		"ukphone": "ˈrɪbən"
-	},
-	{
-		"name": "metal",
-		"trans": [
-			"n. 金属"
-		],
-		"usphone": "ˈmetl",
-		"ukphone": "ˈmetl"
-	},
-	{
-		"name": "charge",
-		"trans": [
-			"vt. & vi. 充电；收费；控告；谴责；使…承担责任；使充满 n.收费；控告；谴责；掌管"
-		],
-		"usphone": "tʃɑːdʒ",
-		"ukphone": "tʃɑːdʒ"
-	},
-	{
-		"name": "electric",
-		"trans": [
-			"adj. 电的，发电的，电动的"
-		],
-		"usphone": "ɪˈlektrɪk",
-		"ukphone": "ɪˈlektrɪk"
-	},
-	{
-		"name": "bang",
-		"trans": [
-			"n. 突然的巨响；猛敲，猛击 vi. & vt. 砸；砰地关上；猛摔；碰撞"
-		],
-		"usphone": "bæŋ",
-		"ukphone": "bæŋ"
-	},
-	{
-		"name": "with a bang",
-		"trans": [
-			"很成功；引人注目，有强烈影响"
-		]
-	},
-	{
-		"name": "standout",
-		"trans": [
-			"adj. 突出的 n.突出的人（或物）"
-		],
-		"usphone": "ˈstændaʊt",
-		"ukphone": "ˈstændaʊt"
-	},
-	{
-		"name": "atomic",
-		"trans": [
-			"adj. 原子的；原子能的"
-		],
-		"usphone": "əˈtɒmɪk",
-		"ukphone": "əˈtɒmɪk"
-	},
-	{
-		"name": "bomb",
-		"trans": [
-			"n. 炸弹；核武器 vt.轰炸"
-		],
-		"usphone": "bɒm",
-		"ukphone": "bɒm"
-	},
-	{
-		"name": "evil",
-		"trans": [
-			"n. 罪恶，罪行；害处，坏处 adj.恶毒的；有害的；恶魔的"
-		],
-		"usphone": "ˈiːvl",
-		"ukphone": "ˈiːvl"
-	},
-	{
-		"name": "involve",
-		"trans": [
-			"vt. 牵涉，影响；包含；（使）参加"
-		],
-		"usphone": "ɪnˈvɒlv",
-		"ukphone": "ɪnˈvɒlv"
-	},
-	{
-		"name": "scientific",
-		"trans": [
-			"adj. 科学的，关于科学的；细致严谨的"
-		],
-		"usphone": "ˌsaɪənˈtɪfɪk",
-		"ukphone": "ˌsaɪənˈtɪfɪk"
-	},
-	{
-		"name": "credit",
-		"trans": [
-			"n. 赞扬，认可；信用 vt.存入金额；把…归于"
-		],
-		"usphone": "ˈkredɪt",
-		"ukphone": "ˈkredɪt"
-	},
-	{
-		"name": "moral",
-		"trans": [
-			"adj. 道德的；道义上的；品行端正的 n.品行，道德；寓意"
-		],
-		"usphone": "ˈmɒrəl",
-		"ukphone": "ˈmɒrəl"
-	},
-	{
-		"name": "apply",
-		"trans": [
-			"vt. & vi. 应用；申请；涂；有关"
-		],
-		"usphone": "əˈplaɪ",
-		"ukphone": "əˈplaɪ"
-	},
-	{
-		"name": "negate",
-		"trans": [
-			"vt. 取消，使无效；否认，否定"
-		],
-		"usphone": "nɪˈɡeɪt",
-		"ukphone": "nɪˈɡeɪt"
-	},
-	{
-		"name": "intellectual",
-		"trans": [
-			"adj. 脑力的；有才智的，智力发达的 n.知识分子，脑力劳动者"
-		],
-		"usphone": "ˌɪntəˈlektʃuəl",
-		"ukphone": "ˌɪntəˈlektʃuəl"
-	},
-	{
-		"name": "mystery",
-		"trans": [
-			"n. 神秘；神秘的人（或事物）；悬疑作品"
-		],
-		"usphone": "ˈmɪstri",
-		"ukphone": "ˈmɪstri"
-	},
-	{
-		"name": "let sb down",
-		"trans": [
-			"使某人失望"
-		]
-	},
-	{
-		"name": "ignorance",
-		"trans": [
-			"n. 无知"
-		],
-		"usphone": "ˈɪɡnərəns",
-		"ukphone": "ˈɪɡnərəns"
-	},
-	{
-		"name": "as to",
-		"trans": [
-			"关于，至于"
-		]
-	},
-	{
-		"name": "take it for granted",
-		"trans": [
-			"想当然地认为，认为…是理所当然"
-		],
-		"usphone": "ˈɡrɑːntɪd",
-		"ukphone": "ˈɡrɑːntɪd"
-	},
-	{
-		"name": "freedom",
-		"trans": [
-			"n. 自由"
-		],
-		"usphone": "ˈfriːdəm",
-		"ukphone": "ˈfriːdəm"
-	},
-	{
-		"name": "authority",
-		"trans": [
-			"n. 权威；权力；官方"
-		],
-		"usphone": "ɔːˈθɒrəti",
-		"ukphone": "ɔːˈθɒrəti"
-	},
-	{
-		"name": "permit",
-		"trans": [
-			"n. 许可证"
-		],
-		"usphone": "pəˈmɪt/ vt. & vi. 允许，准许，许可；使有可能 /ˈpɜːmɪt",
-		"ukphone": "pəˈmɪt/ vt. & vi. 允许，准许，许可；使有可能 /ˈpɜːmɪt"
-	},
-	{
-		"name": "responsibility",
-		"trans": [
-			"n. 责任，负责；职责，义务"
-		],
-		"usphone": "rɪˌspɒnsəˈbɪləti",
-		"ukphone": "rɪˌspɒnsəˈbɪləti"
-	},
-	{
-		"name": "declare",
-		"trans": [
-			"vt. 表明，宣称；公布，宣布；申报"
-		],
-		"usphone": "dɪˈkleə(r)",
-		"ukphone": "dɪˈkleə(r)"
-	},
-	{
-		"name": "nationality",
-		"trans": [
-			"n. 国籍；民族"
-		],
-		"usphone": "ˌnæʃəˈnæləti",
-		"ukphone": "ˌnæʃəˈnæləti"
-	},
-	{
-		"name": "put forward",
-		"trans": [
-			"提出，提议，建议"
-		]
-	},
-	{
-		"name": "evolution",
-		"trans": [
-			"n. 进化；演变，发展"
-		],
-		"usphone": "ˌiːvəˈluːʃn",
-		"ukphone": "ˌiːvəˈluːʃn"
-	},
-	{
-		"name": "publish",
-		"trans": [
-			"vt. 出版，发行；发表；公布"
-		],
-		"usphone": "ˈpʌblɪʃ",
-		"ukphone": "ˈpʌblɪʃ"
-	},
-	{
-		"name": "marriage",
-		"trans": [
-			"n. 结婚，婚姻；已婚状态"
-		],
-		"usphone": "ˈmærɪdʒ",
-		"ukphone": "ˈmærɪdʒ"
-	}
+  {
+    "name": "harm",
+    "trans": [
+      "n. 损害；伤害；危害",
+      "vt. 伤害；损害；危害"
+    ],
+    "usphone": "hɑːm",
+    "ukphone": "hɑːm"
+  },
+  {
+    "name": "soil",
+    "trans": [
+      "n. 土地；土壤；国家",
+      "vt. 弄脏；污辱",
+      "vi. 变脏"
+    ],
+    "usphone": "sɔɪl",
+    "ukphone": "sɔɪl"
+  },
+  {
+    "name": "ecosystem",
+    "trans": [
+      "n. 生态系统"
+    ],
+    "usphone": "ˈiːkəʊsɪstəm",
+    "ukphone": "ˈiːkəʊsɪstəm"
+  },
+  {
+    "name": "overseas",
+    "trans": [
+      "adv. 在国外；在海外",
+      "adj. 海外的；国外的",
+      "n. 海外；国外（尤指欧洲以外的国家）"
+    ],
+    "usphone": "ˌəʊvəˈsiːz",
+    "ukphone": "ˌəʊvəˈsiːz"
+  },
+  {
+    "name": "region",
+    "trans": [
+      "n. 地区；范围；部位"
+    ],
+    "usphone": "ˈriːdʒən",
+    "ukphone": "ˈriːdʒən"
+  },
+  {
+    "name": "continent",
+    "trans": [
+      "n. 大陆，陆地；欧洲大陆；北美洲大陆",
+      "adj. 自制的，克制的；节欲的；贞洁的"
+    ],
+    "usphone": "ˈkɒntɪnənt",
+    "ukphone": "ˈkɒntɪnənt"
+  },
+  {
+    "name": "million",
+    "trans": [
+      "num. 百万",
+      "n. 许多；百万；millions群众",
+      "adj. 百万的；无数的"
+    ],
+    "usphone": "ˈmɪljən",
+    "ukphone": "ˈmɪljən"
+  },
+  {
+    "name": "length",
+    "trans": [
+      "n. 长度，长；时间的长短；（语）音长"
+    ],
+    "usphone": "leŋθ",
+    "ukphone": "leŋθ"
+  },
+  {
+    "name": "biodiversity",
+    "trans": [
+      "n. 生物多类状态；生物多样性"
+    ],
+    "usphone": "ˌbaɪəʊdaɪˈvɜːsəti",
+    "ukphone": "ˌbaɪəʊdaɪˈvɜːsəti"
+  },
+  {
+    "name": "species",
+    "trans": [
+      "n. （动植物的）种，物种；种类；（具有相同特征的）一类人",
+      "adj. 原种的"
+    ],
+    "usphone": "ˈspiːʃiːz",
+    "ukphone": "ˈspiːʃiːz"
+  },
+  {
+    "name": "nut",
+    "trans": [
+      "n. 螺母，螺帽；坚果，坚果果仁；难对付的人",
+      "v. 采坚果；拾坚果"
+    ],
+    "usphone": "nʌt",
+    "ukphone": "nʌt"
+  },
+  {
+    "name": "brazil nut",
+    "trans": [
+      "巴西坚果"
+    ]
+  },
+  {
+    "name": "lily",
+    "trans": [
+      "n. 百合花，百合；类似百合花的植物；洁白之物",
+      "adj. 洁白的；纯洁的"
+    ],
+    "usphone": "ˈlɪli",
+    "ukphone": "ˈlɪli"
+  },
+  {
+    "name": "water lily",
+    "trans": [
+      "睡莲；荷花"
+    ]
+  },
+  {
+    "name": "variety",
+    "trans": [
+      "n. 多样性，变化；种类，品种；变种，变体"
+    ],
+    "usphone": "vəˈraɪəti",
+    "ukphone": "vəˈraɪəti"
+  },
+  {
+    "name": "wildlife",
+    "trans": [
+      "n. 野生动植物",
+      "adj. 野生动植物的"
+    ],
+    "usphone": "ˈwaɪldlaɪf",
+    "ukphone": "ˈwaɪldlaɪf"
+  },
+  {
+    "name": "beneath",
+    "trans": [
+      "prep. 在...下面；在...底下；低于，次于",
+      "adv. 在下方；在底下"
+    ],
+    "usphone": "bɪˈniːθ",
+    "ukphone": "bɪˈniːθ"
+  },
+  {
+    "name": "mass",
+    "trans": [
+      "n. 大量，众多；团，块；群众，民众",
+      "adj. 大规模的；群众的",
+      "v. 聚集；集中"
+    ],
+    "usphone": "mæs",
+    "ukphone": "mæs"
+  },
+  {
+    "name": "towering",
+    "trans": [
+      "adj. 耸立的；高大的，杰出的；强烈的"
+    ],
+    "usphone": "ˈtaʊərɪŋ",
+    "ukphone": "ˈtaʊərɪŋ"
+  },
+  {
+    "name": "hardwood",
+    "trans": [
+      "n. 硬（木）材，硬木树；双子叶植物的木材；双子叶树"
+    ],
+    "usphone": "ˈhɑːdwʊd",
+    "ukphone": "ˈhɑːdwʊd"
+  },
+  {
+    "name": "living",
+    "trans": [
+      "adj. 活的；现存的；活跃的",
+      "n. 生活；生存；生计",
+      "v. 生活；居住（live的ing形式）；度过"
+    ],
+    "usphone": "ˈlɪvɪŋ",
+    "ukphone": "ˈlɪvɪŋ"
+  },
+  {
+    "name": "mammal",
+    "trans": [
+      "n. 哺乳动物"
+    ],
+    "usphone": "ˈmæml",
+    "ukphone": "ˈmæml"
+  },
+  {
+    "name": "jaguar",
+    "trans": [
+      "n. 美洲豹；美洲虎"
+    ],
+    "usphone": "ˈdʒæɡjuə(r)",
+    "ukphone": "ˈdʒæɡjuə(r)"
+  },
+  {
+    "name": "survive",
+    "trans": [
+      "vt. 幸免于；比...活得长；艰难度过",
+      "vi. 活下来；活着；继续存在"
+    ],
+    "usphone": "səˈvaɪv",
+    "ukphone": "səˈvaɪv"
+  },
+  {
+    "name": "frog",
+    "trans": [
+      "n. 青蛙；辙叉；饰扣",
+      "vi. 捕蛙"
+    ],
+    "usphone": "frɒɡ",
+    "ukphone": "frɒɡ"
+  },
+  {
+    "name": "in turn",
+    "trans": [
+      "依次，轮流；反过来"
+    ]
+  },
+  {
+    "name": "insect",
+    "trans": [
+      "n. 虫，昆虫；卑鄙的人；微贱的人，小人",
+      "adj. 昆虫的；卑劣的"
+    ],
+    "usphone": "ˈɪnsekt",
+    "ukphone": "ˈɪnsekt"
+  },
+  {
+    "name": "microorganism",
+    "trans": [
+      "n. 微生物；细菌"
+    ],
+    "usphone": "ˌmaɪkrəʊˈɔːgənɪzəm",
+    "ukphone": "ˌmaɪkrəʊˈɔːgənɪzəm"
+  },
+  {
+    "name": "break down",
+    "trans": [
+      "v. 分解；抛锚；分析"
+    ]
+  },
+  {
+    "name": "nutrient",
+    "trans": [
+      "n. 营养物；滋养物",
+      "adj. 营养的；滋养的"
+    ],
+    "usphone": "ˈnjuːtriənt",
+    "ukphone": "ˈnjuːtriənt"
+  },
+  {
+    "name": "breathe life into",
+    "trans": [
+      "给…带来起色；注入活力"
+    ]
+  },
+  {
+    "name": "carbon",
+    "trans": [
+      "n. 碳；碳棒；复写纸",
+      "adj. 碳的；碳处理的"
+    ],
+    "usphone": "ˈkɑːbən",
+    "ukphone": "ˈkɑːbən"
+  },
+  {
+    "name": "oxygen",
+    "trans": [
+      "n. 氧气；氧"
+    ],
+    "usphone": "ˈɒksɪdʒən",
+    "ukphone": "ˈɒksɪdʒən"
+  },
+  {
+    "name": "thus",
+    "trans": [
+      "conj. 因此",
+      "n. 乳香",
+      "adv. 因此；从而；这样"
+    ],
+    "usphone": "ðʌs",
+    "ukphone": "ðʌs"
+  },
+  {
+    "name": "disappear",
+    "trans": [
+      "vi. 消失；失踪；不复存在",
+      "vt. 使…不存在；使…消失"
+    ],
+    "usphone": "ˌdɪsəˈpɪə(r)",
+    "ukphone": "ˌdɪsəˈpɪə(r)"
+  },
+  {
+    "name": "due",
+    "trans": [
+      "adj. 到期的；应得的；应付的",
+      "n. 应付款；应得之物",
+      "adv. 正"
+    ],
+    "usphone": "djuː",
+    "ukphone": "djuː"
+  },
+  {
+    "name": "agriculture",
+    "trans": [
+      "n. 农业；农耕；农业生产"
+    ],
+    "usphone": "ˈæɡrɪkʌltʃə(r)",
+    "ukphone": "ˈæɡrɪkʌltʃə(r)"
+  },
+  {
+    "name": "cattle",
+    "trans": [
+      "n. 牛；牲畜（骂人的话）；家畜"
+    ],
+    "usphone": "ˈkætl",
+    "ukphone": "ˈkætl"
+  },
+  {
+    "name": "impact",
+    "trans": [
+      "vt. 撞击；冲突；影响",
+      "vi. 冲击；产生影响",
+      "n. 效果；影响；碰撞"
+    ],
+    "usphone": "ˈɪmpækt/ n. 影响，作用；撞击，冲撞 /ɪmˈpækt",
+    "ukphone": "ˈɪmpækt/ n. 影响，作用；撞击，冲撞 /ɪmˈpækt"
+  },
+  {
+    "name": "extinction",
+    "trans": [
+      "n. 灭绝；消失；消灭"
+    ],
+    "usphone": "ɪkˈstɪŋkʃn",
+    "ukphone": "ɪkˈstɪŋkʃn"
+  },
+  {
+    "name": "damage",
+    "trans": [
+      "vi. 损害；损毁",
+      "vt. 损害；毁坏",
+      "n. 损害；损毁；赔偿金"
+    ],
+    "usphone": "ˈdæmɪdʒ",
+    "ukphone": "ˈdæmɪdʒ"
+  },
+  {
+    "name": "climate",
+    "trans": [
+      "n. 气候；风气；思潮"
+    ],
+    "usphone": "ˈklaɪmət",
+    "ukphone": "ˈklaɪmət"
+  },
+  {
+    "name": "build up",
+    "trans": [
+      "n. 同“build”；建立；复兴"
+    ]
+  },
+  {
+    "name": "global",
+    "trans": [
+      "adj. 全球的，全世界的；全面的，总体的；整体的，全局的"
+    ],
+    "usphone": "ˈɡləʊbl",
+    "ukphone": "ˈɡləʊbl"
+  },
+  {
+    "name": "greenhouse",
+    "trans": [
+      "n. 温室；暖房",
+      "adj. 温室的；温室效应的"
+    ],
+    "usphone": "ˈɡriːnhaʊs",
+    "ukphone": "ˈɡriːnhaʊs"
+  },
+  {
+    "name": "gas",
+    "trans": [
+      "n. 气体；瓦斯；汽油",
+      "vt. 加油；毒（死）",
+      "vi. 加油；放出气体；空谈"
+    ],
+    "usphone": "ɡæs",
+    "ukphone": "ɡæs"
+  },
+  {
+    "name": "drought",
+    "trans": [
+      "n. 干旱（时期），旱季；旱灾；（长期的）缺乏"
+    ],
+    "usphone": "draʊt",
+    "ukphone": "draʊt"
+  },
+  {
+    "name": "come up with",
+    "trans": [
+      "n. 想出(一个主意或计划)；提出；提供"
+    ]
+  },
+  {
+    "name": "call for",
+    "trans": [
+      "需要；要求"
+    ]
+  },
+  {
+    "name": "application",
+    "trans": [
+      "n. 申请；申请书；应用"
+    ],
+    "usphone": "ˌæplɪˈkeɪʃn",
+    "ukphone": "ˌæplɪˈkeɪʃn"
+  },
+  {
+    "name": "brochure",
+    "trans": [
+      "n. 小册子；手册；指南"
+    ],
+    "usphone": "ˈbrəʊʃə(r)",
+    "ukphone": "ˈbrəʊʃə(r)"
+  },
+  {
+    "name": "organization",
+    "trans": [
+      "n. 组织；团体；机构",
+      "adj. 有组织的"
+    ],
+    "usphone": "ˌɔːɡənaɪˈzeɪʃn",
+    "ukphone": "ˌɔːɡənaɪˈzeɪʃn"
+  },
+  {
+    "name": "absolutely",
+    "trans": [
+      "adv. 完全地；绝对地；确实地",
+      "int. [用以强调；表示毫无保留、无条件赞同完全正确；一点不错"
+    ],
+    "usphone": "ˈæbsəluːtli",
+    "ukphone": "ˈæbsəluːtli"
+  },
+  {
+    "name": "belt",
+    "trans": [
+      "n. 带；腰带；地带",
+      "vt. 用带子系住；用皮带抽打",
+      "vi. 猛击"
+    ],
+    "usphone": "belt",
+    "ukphone": "belt"
+  },
+  {
+    "name": "medal",
+    "trans": [
+      "n. 奖章，奖牌；勋章；纪念章",
+      "vi. 获奖：赢得一枚奖章",
+      "vt. 授予…奖章"
+    ],
+    "usphone": "ˈmedl",
+    "ukphone": "ˈmedl"
+  },
+  {
+    "name": "image",
+    "trans": [
+      "n. 影像；想象；肖像",
+      "vt. 想象；反映；象征"
+    ],
+    "usphone": "ˈɪmɪdʒ",
+    "ukphone": "ˈɪmɪdʒ"
+  },
+  {
+    "name": "shark",
+    "trans": [
+      "n. 鲨鱼；坑蒙拐骗的人，诈骗者；俚老手",
+      "v. 骗取；榨取；用不正当手段攫取",
+      "vi. 诈骗"
+    ],
+    "usphone": "ʃɑːk",
+    "ukphone": "ʃɑːk"
+  },
+  {
+    "name": "spring to mind",
+    "trans": [
+      "phrase. 想到"
+    ]
+  },
+  {
+    "name": "whale",
+    "trans": [
+      "n. 鲸；巨大的东西",
+      "vt. 猛揍；使惨败",
+      "vi. 捕鲸"
+    ],
+    "usphone": "weɪl",
+    "ukphone": "weɪl"
+  },
+  {
+    "name": "deer",
+    "trans": [
+      "n. 鹿"
+    ],
+    "usphone": "dɪə(r)",
+    "ukphone": "dɪə(r)"
+  },
+  {
+    "name": "track",
+    "trans": [
+      "n. 轨道；足迹，踪迹；小道",
+      "vt. 追踪；通过；循路而行",
+      "vi. 追踪；走；留下足迹"
+    ],
+    "usphone": "træk",
+    "ukphone": "træk"
+  },
+  {
+    "name": "habitat",
+    "trans": [
+      "n. 栖息地；生境；生活环境"
+    ],
+    "usphone": "ˈhæbɪtæt",
+    "ukphone": "ˈhæbɪtæt"
+  },
+  {
+    "name": "nowhere",
+    "trans": [
+      "adv. 无处；任何地方都不；毫无结果",
+      "n. 无处；任何地方；无名之地"
+    ],
+    "usphone": "ˈnəʊweə(r)",
+    "ukphone": "ˈnəʊweə(r)"
+  },
+  {
+    "name": "dolphin",
+    "trans": [
+      "n. 海豚；（码头的）系船柱"
+    ],
+    "usphone": "ˈdɒlfɪn",
+    "ukphone": "ˈdɒlfɪn"
+  },
+  {
+    "name": "resident",
+    "trans": [
+      "n. 居民，住户；住院医生",
+      "adj. 居住的；常驻的"
+    ],
+    "usphone": "ˈrezɪdənt",
+    "ukphone": "ˈrezɪdənt"
+  },
+  {
+    "name": "chief",
+    "trans": [
+      "n. 首领；酋长；主要部分",
+      "adj. 首席的；主要的；主任的",
+      "adv. 主要地；首要地"
+    ],
+    "usphone": "tʃiːf",
+    "ukphone": "tʃiːf"
+  },
+  {
+    "name": "committee",
+    "trans": [
+      "n. 委员会；受托人，监护人；精神病者监护人"
+    ],
+    "usphone": "kəˈmɪti",
+    "ukphone": "kəˈmɪti"
+  },
+  {
+    "name": "entirely",
+    "trans": [
+      "adv. 全部地；完整地；完全地"
+    ],
+    "usphone": "ɪnˈtaɪəli",
+    "ukphone": "ɪnˈtaɪəli"
+  },
+  {
+    "name": "smog",
+    "trans": [
+      "n. 烟雾；烟尘；烟雾污染"
+    ],
+    "usphone": "smɒɡ",
+    "ukphone": "smɒɡ"
+  },
+  {
+    "name": "get rid",
+    "trans": [
+      "摆脱；排除；处理掉"
+    ],
+    "usphone": "rɪd",
+    "ukphone": "rɪd"
+  },
+  {
+    "name": "protest",
+    "trans": [
+      "n. 抗议；反对；抗议书",
+      "vi. 反对；抗议；断言",
+      "vt. 坚持地表示对...提出异议"
+    ],
+    "usphone": "prəˈtest/ vi. 反对，抗议 vt.坚持声称，申辩 /ˈprəʊtest",
+    "ukphone": "prəˈtest/ vi. 反对，抗议 vt.坚持声称，申辩 /ˈprəʊtest"
+  },
+  {
+    "name": "profit",
+    "trans": [
+      "n. 益处；利润；盈利比率",
+      "vi. 得益；利用；获利",
+      "vt. 有益于"
+    ],
+    "usphone": "ˈprɒfɪt",
+    "ukphone": "ˈprɒfɪt"
+  },
+  {
+    "name": "defence",
+    "trans": [
+      "n. 防御，保护；辩护，答辩；防御方法，防御手段"
+    ],
+    "usphone": "dɪˈfens",
+    "ukphone": "dɪˈfens"
+  },
+  {
+    "name": "various",
+    "trans": [
+      "pron. 不止一个的；各别的",
+      "adj. 各种各样的；迥异的，千差万别的"
+    ],
+    "usphone": "ˈveəriəs",
+    "ukphone": "ˈveəriəs"
+  },
+  {
+    "name": "process",
+    "trans": [
+      "n. 过程；工序",
+      "vt. 加工；处理；起诉",
+      "vi. 列队前进"
+    ],
+    "usphone": "ˈprəʊses",
+    "ukphone": "ˈprəʊses"
+  },
+  {
+    "name": "economic",
+    "trans": [
+      "adj. 经济的；经济学的；有利可图的",
+      "n. 经济学(状况等)"
+    ],
+    "usphone": "ˌiːkəˈnɒmɪk",
+    "ukphone": "ˌiːkəˈnɒmɪk"
+  },
+  {
+    "name": "policy",
+    "trans": [
+      "n. 政策；方针；原则"
+    ],
+    "usphone": "ˈpɒləsi",
+    "ukphone": "ˈpɒləsi"
+  },
+  {
+    "name": "branch",
+    "trans": [
+      "n. 树枝，分枝；分部；支流",
+      "vt. 分支；出现分歧",
+      "vi. 分支；出现分歧"
+    ],
+    "usphone": "brɑːntʃ",
+    "ukphone": "brɑːntʃ"
+  },
+  {
+    "name": "strategy",
+    "trans": [
+      "n. 策略；战略；战术"
+    ],
+    "usphone": "ˈstrætədʒi",
+    "ukphone": "ˈstrætədʒi"
+  },
+  {
+    "name": "recycle",
+    "trans": [
+      "n. 再生；再循环；重复利用",
+      "vt. 使再循环；使…重新利用",
+      "vi. 重复利用"
+    ],
+    "usphone": "ˌriːˈsaɪkl",
+    "ukphone": "ˌriːˈsaɪkl"
+  },
+  {
+    "name": "subway",
+    "trans": [
+      "n. 地铁；地道",
+      "vi. 乘地铁"
+    ],
+    "usphone": "ˈsʌbweɪ",
+    "ukphone": "ˈsʌbweɪ"
+  },
+  {
+    "name": "former",
+    "trans": [
+      "adj. 在前的；以前的；前任的",
+      "n. 前者；形成的原因"
+    ],
+    "usphone": "ˈfɔːmə(r)",
+    "ukphone": "ˈfɔːmə(r)"
+  },
+  {
+    "name": "official",
+    "trans": [
+      "adj. 官方的；正式的；公务的",
+      "n. 官员；公务员；高级职员"
+    ],
+    "usphone": "əˈfɪʃl",
+    "ukphone": "əˈfɪʃl"
+  },
+  {
+    "name": "poverty",
+    "trans": [
+      "n. 贫困；困难；缺少"
+    ],
+    "usphone": "ˈpɒvəti",
+    "ukphone": "ˈpɒvəti"
+  },
+  {
+    "name": "poison",
+    "trans": [
+      "n. 毒药；酒；极糟的食物",
+      "vt. 毒死；污染；放毒于",
+      "adj. 有毒的"
+    ],
+    "usphone": "ˈpɔɪzn",
+    "ukphone": "ˈpɔɪzn"
+  },
+  {
+    "name": "chemical",
+    "trans": [
+      "n. 化学品；化学制品",
+      "adj. 化学的；化学制品的"
+    ],
+    "usphone": "ˈkemɪkl",
+    "ukphone": "ˈkemɪkl"
+  },
+  {
+    "name": "consequence",
+    "trans": [
+      "n. 结果，后果；重要性，重大；推论，结论"
+    ],
+    "usphone": "ˈkɒnsɪkwəns",
+    "ukphone": "ˈkɒnsɪkwəns"
+  },
+  {
+    "name": "give rise to",
+    "trans": [
+      "使发生（或存在）"
+    ]
+  },
+  {
+    "name": "further",
+    "trans": [
+      "adv. 更远地，进一步地；另外，此外",
+      "adj. 更多的；进一步的",
+      "v. 促进；推进"
+    ],
+    "usphone": "ˈfɜːðə(r)",
+    "ukphone": "ˈfɜːðə(r)"
+  },
+  {
+    "name": "county",
+    "trans": [
+      "n. 县；郡"
+    ],
+    "usphone": "ˈkaʊnti",
+    "ukphone": "ˈkaʊnti"
+  },
+  {
+    "name": "injure",
+    "trans": [
+      "vt. 伤害；损害；损伤"
+    ],
+    "usphone": "ˈɪndʒə(r)",
+    "ukphone": "ˈɪndʒə(r)"
+  },
+  {
+    "name": "disaster",
+    "trans": [
+      "n. 灾难；灾祸；天灾"
+    ],
+    "usphone": "dɪˈzɑːstə(r)",
+    "ukphone": "dɪˈzɑːstə(r)"
+  },
+  {
+    "name": "at large",
+    "trans": [
+      "普遍地，一般地；自由地，逍遥自在地"
+    ]
+  },
+  {
+    "name": "reaction",
+    "trans": [
+      "n. 反应，感应；反动，复古；反作用"
+    ],
+    "usphone": "riˈækʃn",
+    "ukphone": "riˈækʃn"
+  },
+  {
+    "name": "crash",
+    "trans": [
+      "n. 突然坠落；事故；倒闭",
+      "adv. 砰地一声",
+      "v. 坠毁；碰撞；冲过"
+    ],
+    "usphone": "kræʃ",
+    "ukphone": "kræʃ"
+  },
+  {
+    "name": "signal",
+    "trans": [
+      "n. 信号；暗号；标志",
+      "v. 发信号；示意；表示",
+      "adj. 显著的；重大的"
+    ],
+    "usphone": "ˈsɪɡnəl",
+    "ukphone": "ˈsɪɡnəl"
+  },
+  {
+    "name": "exit",
+    "trans": [
+      "n. 出口；退场；离去",
+      "vi. 退出；死亡",
+      "vt. 离开"
+    ],
+    "usphone": "ˈeksɪt；ˈegzɪt",
+    "ukphone": "ˈeksɪt；ˈegzɪt"
+  },
+  {
+    "name": "orderly",
+    "trans": [
+      "adj. 有秩序的；整齐的；值班的",
+      "n. 勤务兵；传令兵；护理员",
+      "adv. 顺序地；依次地"
+    ],
+    "usphone": "ˈɔːdəli",
+    "ukphone": "ˈɔːdəli"
+  },
+  {
+    "name": "stair",
+    "trans": [
+      "n. 楼梯；台阶"
+    ],
+    "usphone": "steə(r)",
+    "ukphone": "steə(r)"
+  },
+  {
+    "name": "roll",
+    "trans": [
+      "n. 卷，卷形物；名单；摇晃",
+      "vt. 卷；滚动，转动；辗",
+      "vi. 卷；滚动；转动"
+    ],
+    "usphone": "rəʊl",
+    "ukphone": "rəʊl"
+  },
+  {
+    "name": "roll call",
+    "trans": [
+      "点名"
+    ]
+  },
+  {
+    "name": "confirm",
+    "trans": [
+      "v. 证实，确认；批准，确认；使巩固，使确立"
+    ],
+    "usphone": "kənˈfɜːm",
+    "ukphone": "kənˈfɜːm"
+  },
+  {
+    "name": "safe and sound",
+    "trans": [
+      "安然无恙的"
+    ]
+  },
+  {
+    "name": "hug",
+    "trans": [
+      "vt.&vi. 热烈地拥抱；抱住；紧抱",
+      "vt. 紧靠…走；抱有，持有",
+      "n. 紧抱；热烈拥抱"
+    ],
+    "usphone": "hʌɡ",
+    "ukphone": "hʌɡ"
+  },
+  {
+    "name": "procedure",
+    "trans": [
+      "n. 程序，步骤；手续，流程；手术，医疗程序"
+    ],
+    "usphone": "prəˈsiːdʒə(r)",
+    "ukphone": "prəˈsiːdʒə(r)"
+  },
+  {
+    "name": "tsunami",
+    "trans": [
+      "n. 海啸"
+    ],
+    "usphone": "tsuːˈnɑːmi",
+    "ukphone": "tsuːˈnɑːmi"
+  },
+  {
+    "name": "odd",
+    "trans": [
+      "adj. 奇数的；古怪的；剩余的",
+      "n. 奇数；怪人；奇特的事物"
+    ],
+    "usphone": "ɒd",
+    "ukphone": "ɒd"
+  },
+  {
+    "name": "bubble",
+    "trans": [
+      "n. 泡；泡沫；气泡",
+      "vi. 冒泡；沸腾；起泡",
+      "vt. 使冒泡"
+    ],
+    "usphone": "ˈbʌbl",
+    "ukphone": "ˈbʌbl"
+  },
+  {
+    "name": "occur",
+    "trans": [
+      "vi. 发生；出现；存在"
+    ],
+    "usphone": "əˈkɜː(r)",
+    "ukphone": "əˈkɜː(r)"
+  },
+  {
+    "name": "occur to",
+    "trans": [
+      "被想到；浮现在脑中"
+    ]
+  },
+  {
+    "name": "keep on",
+    "trans": [
+      "n. 继续；穿着不脱"
+    ]
+  },
+  {
+    "name": "relief",
+    "trans": [
+      "n. 减轻；救济(品)；援救",
+      "adj. 提供救济的文本的"
+    ],
+    "usphone": "rɪˈliːf",
+    "ukphone": "rɪˈliːf"
+  },
+  {
+    "name": "typhoon",
+    "trans": [
+      "n. 台风；强烈热带气旋"
+    ],
+    "usphone": "taɪˈfuːn",
+    "ukphone": "taɪˈfuːn"
+  },
+  {
+    "name": "destructive",
+    "trans": [
+      "adj. 破坏的；毁灭性的；有害的，消极的"
+    ],
+    "usphone": "dɪˈstrʌktɪv",
+    "ukphone": "dɪˈstrʌktɪv"
+  },
+  {
+    "name": "pole",
+    "trans": [
+      "n. 杆；柱；极(点)",
+      "vt. 跳；支撑",
+      "vi. 用篙撑船"
+    ],
+    "usphone": "pəʊl",
+    "ukphone": "pəʊl"
+  },
+  {
+    "name": "inform",
+    "trans": [
+      "vi. 告发；告密",
+      "vt. 通知；告诉；报告"
+    ],
+    "usphone": "ɪnˈfɔːm",
+    "ukphone": "ɪnˈfɔːm"
+  },
+  {
+    "name": "hurricane",
+    "trans": [
+      "n. 飓风，十二级风；飓风般猛烈的东西；（感情等的）爆发"
+    ],
+    "usphone": "ˈhʌrɪkən",
+    "ukphone": "ˈhʌrɪkən"
+  },
+  {
+    "name": "conference",
+    "trans": [
+      "n. 会议；讨论；协商",
+      "vi. 举行或参加（系列）会议"
+    ],
+    "usphone": "ˈkɒnfərəns",
+    "ukphone": "ˈkɒnfərəns"
+  },
+  {
+    "name": "shock",
+    "trans": [
+      "n. 休克；震惊；震动",
+      "adj. 浓密的；蓬乱的",
+      "vt. 使休克；使震惊；使震动"
+    ],
+    "usphone": "ʃɒk",
+    "ukphone": "ʃɒk"
+  },
+  {
+    "name": "scare",
+    "trans": [
+      "n. 恐慌；惊吓；惊恐",
+      "vt. 惊吓；把…吓跑",
+      "adj. （美）骇人的"
+    ],
+    "usphone": "skeə(r)",
+    "ukphone": "skeə(r)"
+  },
+  {
+    "name": "power",
+    "trans": [
+      "n. 能力；力量；功率",
+      "vt. 激励；供以动力；使…有力量",
+      "vi. 快速前进"
+    ],
+    "usphone": "ˈpaʊə(r)",
+    "ukphone": "ˈpaʊə(r)"
+  },
+  {
+    "name": "run out of",
+    "trans": [
+      "用完；耗尽"
+    ]
+  },
+  {
+    "name": "supply",
+    "trans": [
+      "n. 供给，补给；供应品",
+      "vt. 供给，提供；补充",
+      "vi. 供给；替代"
+    ],
+    "usphone": "səˈplaɪ",
+    "ukphone": "səˈplaɪ"
+  },
+  {
+    "name": "donate",
+    "trans": [
+      "n. 捐赠；捐献",
+      "vt. 捐赠；捐献",
+      "vi. 捐赠；捐献"
+    ],
+    "usphone": "dəʊˈneɪt",
+    "ukphone": "dəʊˈneɪt"
+  },
+  {
+    "name": "charity",
+    "trans": [
+      "n. 慈善，慈善事业；慈善机构；宽容，仁慈"
+    ],
+    "usphone": "ˈtʃærəti",
+    "ukphone": "ˈtʃærəti"
+  },
+  {
+    "name": "staff",
+    "trans": [
+      "n. 职员；参谋；棒",
+      "adj. 职员的；行政工作的",
+      "vt. 供给人员；给…配备职员"
+    ],
+    "usphone": "stɑːf",
+    "ukphone": "stɑːf"
+  },
+  {
+    "name": "slide",
+    "trans": [
+      "vi. 滑；跌落",
+      "vt. 使滑动",
+      "n. 滑；幻灯片；雪崩"
+    ],
+    "usphone": "slaɪd",
+    "ukphone": "slaɪd"
+  },
+  {
+    "name": "fund",
+    "trans": [
+      "n. 基金；储备；现款",
+      "vt. 积存；为…提供资金；提供资金偿付（债款等）的本息"
+    ],
+    "usphone": "fʌnd",
+    "ukphone": "fʌnd"
+  },
+  {
+    "name": "flood",
+    "trans": [
+      "n. 洪水；泛滥；一大批",
+      "vt. 淹没；充满；溢出",
+      "vi. 涌出；涌进；为水淹没"
+    ],
+    "usphone": "flʌd",
+    "ukphone": "flʌd"
+  },
+  {
+    "name": "downstairs",
+    "trans": [
+      "adv. 在楼下；往楼下",
+      "adj. 楼下的",
+      "n. 楼下；下面的部分"
+    ],
+    "usphone": "ˌdaʊnˈsteəz",
+    "ukphone": "ˌdaʊnˈsteəz"
+  },
+  {
+    "name": "document",
+    "trans": [
+      "n. 文件；公文；文献",
+      "v. 记录；为…提供证明"
+    ],
+    "usphone": "ˈdɒkjumənt",
+    "ukphone": "ˈdɒkjumənt"
+  },
+  {
+    "name": "honey",
+    "trans": [
+      "n. 蜂蜜；宝贝；甜蜜",
+      "adj. 甘美的；蜂蜜似的",
+      "vt. 对…说甜言蜜语；加蜜使甜"
+    ],
+    "usphone": "ˈhʌni",
+    "ukphone": "ˈhʌni"
+  },
+  {
+    "name": "otherwise",
+    "trans": [
+      "adv. 否则；另外；别的方式",
+      "adj. 别的，另外的；不同的",
+      "conj. 否则；不然"
+    ],
+    "usphone": "ˈʌðəwaɪz",
+    "ukphone": "ˈʌðəwaɪz"
+  },
+  {
+    "name": "curious",
+    "trans": [
+      "adj. 好奇的，求知欲强的；奇怪的，异常的；稀奇的，珍奇的"
+    ],
+    "usphone": "ˈkjʊəriəs",
+    "ukphone": "ˈkjʊəriəs"
+  },
+  {
+    "name": "Roman",
+    "trans": [
+      "n. 古罗马人；罗马天主教会；罗马文字",
+      "adj. 罗马的；罗马帝国的"
+    ],
+    "usphone": "ˈrəʊmən",
+    "ukphone": "ˈrəʊmən"
+  },
+  {
+    "name": "erupt",
+    "trans": [
+      "vi. 爆发；喷出；发疹",
+      "vt. 爆发；喷出"
+    ],
+    "usphone": "ɪˈrʌpt",
+    "ukphone": "ɪˈrʌpt"
+  },
+  {
+    "name": "unearth",
+    "trans": [
+      "vt. 发掘；揭露；从洞中赶出"
+    ],
+    "usphone": "ʌnˈɜːθ",
+    "ukphone": "ʌnˈɜːθ"
+  },
+  {
+    "name": "destination",
+    "trans": [
+      "n. 目的地；终点；目标",
+      "adj. 作为目的地的"
+    ],
+    "usphone": "ˌdestɪˈneɪʃn",
+    "ukphone": "ˌdestɪˈneɪʃn"
+  },
+  {
+    "name": "bar",
+    "trans": [
+      "n. 条，棒；酒吧；障碍",
+      "prep. 除……外",
+      "vt. 禁止；阻拦"
+    ],
+    "usphone": "bɑː(r)",
+    "ukphone": "bɑː(r)"
+  },
+  {
+    "name": "import",
+    "trans": [
+      "n. 进口，进口货；输入；意思，含义",
+      "vt. 输入，进口；含…的意思",
+      "vi. 输入；进口"
+    ],
+    "usphone": "ˈɪmpɔːt/ n. 进口产品，输入的产品；输入 /ɪmˈpɔːt",
+    "ukphone": "ˈɪmpɔːt/ n. 进口产品，输入的产品；输入 /ɪmˈpɔːt"
+  },
+  {
+    "name": "export",
+    "trans": [
+      "vt. 输出；出口；运走",
+      "n. 出口；输出品",
+      "vi. 传播；输出"
+    ],
+    "usphone": "ˈekspɔːt/ n. 出口产品，输出的产品；出口，输出 /ɪkˈspɔːt",
+    "ukphone": "ˈekspɔːt/ n. 出口产品，输出的产品；出口，输出 /ɪkˈspɔːt"
+  },
+  {
+    "name": "port",
+    "trans": [
+      "n. 港口，口岸；左舷；舱门",
+      "vi. 转向左舷",
+      "vt. 左转舵；持（枪）"
+    ],
+    "usphone": "pɔːt",
+    "ukphone": "pɔːt"
+  },
+  {
+    "name": "cloud-capped",
+    "trans": [
+      "adj. 高耸入云的；耸入云霄的"
+    ],
+    "usphone": "ˌklaʊd ˈkæpt",
+    "ukphone": "ˌklaʊd ˈkæpt"
+  },
+  {
+    "name": "ashy",
+    "trans": [
+      "adj. 覆盖着灰的；灰色的"
+    ],
+    "usphone": "ˈæʃi",
+    "ukphone": "ˈæʃi"
+  },
+  {
+    "name": "dawn",
+    "trans": [
+      "n. 拂晓，破晓，黎明；开端；曙光",
+      "vi. 破晓；开始；见分晓，水落石出"
+    ],
+    "usphone": "dɔːn",
+    "ukphone": "dɔːn"
+  },
+  {
+    "name": "volcano",
+    "trans": [
+      "n. 火山"
+    ],
+    "usphone": "vɒlˈkeɪnəʊ",
+    "ukphone": "vɒlˈkeɪnəʊ"
+  },
+  {
+    "name": "take the form of",
+    "trans": [
+      "呈现…的形状；采取…的形式"
+    ]
+  },
+  {
+    "name": "trunk",
+    "trans": [
+      "n. 树干；躯干；象鼻",
+      "adj. 干线的；躯干的；箱子的",
+      "vt. 把…放入旅行箱内"
+    ],
+    "usphone": "trʌŋk",
+    "ukphone": "trʌŋk"
+  },
+  {
+    "name": "unbearable",
+    "trans": [
+      "adj. 难以忍受的；不能忍受的；经受不住的"
+    ],
+    "usphone": "ʌnˈbeərəbl",
+    "ukphone": "ʌnˈbeərəbl"
+  },
+  {
+    "name": "break out",
+    "trans": [
+      "(坏事)突然发生；爆发"
+    ]
+  },
+  {
+    "name": "beyond",
+    "trans": [
+      "prep. 在...的那边；超出；超过",
+      "adv. 在更远处；更往前",
+      "n. 远处；来世"
+    ],
+    "usphone": "bɪˈjɒnd",
+    "ukphone": "bɪˈjɒnd"
+  },
+  {
+    "name": "distance",
+    "trans": [
+      "n. 距离；间距；远处",
+      "vt. 使疏远；把；(对手)",
+      "adj. 通过电子手段；远程；教育"
+    ],
+    "usphone": "ˈdɪstəns",
+    "ukphone": "ˈdɪstəns"
+  },
+  {
+    "name": "far and wide",
+    "trans": [
+      "到处；各处"
+    ]
+  },
+  {
+    "name": "pattern",
+    "trans": [
+      "n. 模式；图案；样品",
+      "vt. 模仿；以图案装饰",
+      "vi. 形成图案"
+    ],
+    "usphone": "ˈpætn",
+    "ukphone": "ˈpætn"
+  },
+  {
+    "name": "column",
+    "trans": [
+      "n. 柱，圆柱；列，纵行；专栏，专栏文章"
+    ],
+    "usphone": "ˈkɒləm",
+    "ukphone": "ˈkɒləm"
+  },
+  {
+    "name": "rescue",
+    "trans": [
+      "n. 援救；解救；营救队",
+      "vt. 援救；救出；营救"
+    ],
+    "usphone": "ˈreskjuː",
+    "ukphone": "ˈreskjuː"
+  },
+  {
+    "name": "sharp",
+    "trans": [
+      "n. 尖头；骗子；内行",
+      "adj. 急剧的；锋利的；强烈的",
+      "vt. 磨快；把音调升高"
+    ],
+    "usphone": "ʃɑːp",
+    "ukphone": "ʃɑːp"
+  },
+  {
+    "name": "locate",
+    "trans": [
+      "vt. 探明；找出；查出",
+      "vi. 建立；住下来"
+    ],
+    "usphone": "ləʊˈkeɪt",
+    "ukphone": "ləʊˈkeɪt"
+  },
+  {
+    "name": "retire",
+    "trans": [
+      "n. 退休；退隐；退兵信号",
+      "vi. 退休；撤退；退却",
+      "vt. 退休；离开；收回"
+    ],
+    "usphone": "rɪˈtaɪə(r)",
+    "ukphone": "rɪˈtaɪə(r)"
+  },
+  {
+    "name": "wetca",
+    "trans": [
+      "n. 网络摄像头"
+    ],
+    "usphone": "ˈwebkæm",
+    "ukphone": "ˈwebkæm"
+  },
+  {
+    "name": "po",
+    "trans": [
+      "n. 壶，瓶，罐；锅"
+    ],
+    "usphone": "pɒt",
+    "ukphone": "pɒt"
+  },
+  {
+    "name": "emoji",
+    "trans": [
+      "n. 表情符号"
+    ],
+    "usphone": "ɪˈməʊdʒi",
+    "ukphone": "ɪˈməʊdʒi"
+  },
+  {
+    "name": "comic",
+    "trans": [
+      "n. 连环漫画；喜剧演员；滑稽人物",
+      "adj. 喜剧的；滑稽的；有趣的"
+    ],
+    "usphone": "ˈkɒmɪk",
+    "ukphone": "ˈkɒmɪk"
+  },
+  {
+    "name": "take off",
+    "trans": [
+      "v. (飞机)起飞；出去；拿掉"
+    ]
+  },
+  {
+    "name": "frontier",
+    "trans": [
+      "n. 前沿；边界；国境",
+      "adj. 边界的；开拓的"
+    ],
+    "usphone": "ˈfrʌntɪə(r)",
+    "ukphone": "ˈfrʌntɪə(r)"
+  },
+  {
+    "name": "billion",
+    "trans": [
+      "n. 十亿；数以十亿计；大量",
+      "adj. （法美）十亿的；（英德）万亿的；无数的"
+    ],
+    "usphone": "ˈbɪljən",
+    "ukphone": "ˈbɪljən"
+  },
+  {
+    "name": "obviously",
+    "trans": [
+      "adv. 显然地，明显地；显而易见地，不言而喻地"
+    ],
+    "usphone": "ˈɒbviəsli",
+    "ukphone": "ˈɒbviəsli"
+  },
+  {
+    "name": "access",
+    "trans": [
+      "n. 通道，入口；使用权，接近的机会；接近",
+      "v. 接近；进入；使用"
+    ],
+    "usphone": "ˈækses",
+    "ukphone": "ˈækses"
+  },
+  {
+    "name": "extent",
+    "trans": [
+      "n. 程度；范围；长度"
+    ],
+    "usphone": "ɪkˈstent",
+    "ukphone": "ɪkˈstent"
+  },
+  {
+    "name": "to a certain extent",
+    "trans": [
+      "在某种程度上"
+    ]
+  },
+  {
+    "name": "at on",
+    "trans": [
+      "熟悉、精通（知识等）；了如指掌"
+    ]
+  },
+  {
+    "name": "click",
+    "trans": [
+      "n. 单击；滴答声",
+      "vi. 作咔哒声",
+      "vt. 点击；使发咔哒声"
+    ],
+    "usphone": "klɪk",
+    "ukphone": "klɪk"
+  },
+  {
+    "name": "button",
+    "trans": [
+      "n. 按钮；纽扣",
+      "vt. 扣住；扣紧；在…上装纽扣",
+      "vi. 扣住；装有纽扣；扣上纽扣"
+    ],
+    "usphone": "ˈbʌtn",
+    "ukphone": "ˈbʌtn"
+  },
+  {
+    "name": "recipe",
+    "trans": [
+      "n. 食谱，烹饪法；配方，处方；诀窍，方法"
+    ],
+    "usphone": "ˈresəpi",
+    "ukphone": "ˈresəpi"
+  },
+  {
+    "name": "military",
+    "trans": [
+      "adj. 军事的；军用的；讨厌的",
+      "n. 军人；军队；武装力量"
+    ],
+    "usphone": "ˈmɪlətri",
+    "ukphone": "ˈmɪlətri"
+  },
+  {
+    "name": "affair",
+    "trans": [
+      "n. 事情，事务；事件，事变；私通关系，婚外情"
+    ],
+    "usphone": "əˈfeə(r)",
+    "ukphone": "əˈfeə(r)"
+  },
+  {
+    "name": "bring up",
+    "trans": [
+      "抚养；培养；教育"
+    ]
+  },
+  {
+    "name": "majority",
+    "trans": [
+      "n. 大多数；多数票；成年的法定年龄",
+      "adj. 多数人的"
+    ],
+    "usphone": "məˈdʒɒrəti",
+    "ukphone": "məˈdʒɒrəti"
+  },
+  {
+    "name": "goods",
+    "trans": [
+      "n. 商品；动产；合意的人"
+    ],
+    "usphone": "ɡʊdz",
+    "ukphone": "ɡʊdz"
+  },
+  {
+    "name": "commerce",
+    "trans": [
+      "n. 贸易；商业；商务"
+    ],
+    "usphone": "ˈkɒmɜːs",
+    "ukphone": "ˈkɒmɜːs"
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "n. 投球",
+      "vt. 交付；发表；递送",
+      "vi. 实现；传送；履行"
+    ],
+    "usphone": "dɪˈlɪvə(r)",
+    "ukphone": "dɪˈlɪvə(r)"
+  },
+  {
+    "name": "site",
+    "trans": [
+      "n. 地点，位置，场所；计算机网站；遗址",
+      "vt. 使坐落在；安放，设置；给…造址"
+    ],
+    "usphone": "saɪt",
+    "ukphone": "saɪt"
+  },
+  {
+    "name": "boot",
+    "trans": [
+      "n. 靴子；长统靴；(英)汽车行李箱",
+      "vt. 踢；穿靴子锁车",
+      "vi. (计算机)；启动；利用"
+    ],
+    "usphone": "buːt",
+    "ukphone": "buːt"
+  },
+  {
+    "name": "arrangement",
+    "trans": [
+      "n. 安排，准备；布置，排列；安排，约定"
+    ],
+    "usphone": "əˈreɪndʒmənt",
+    "ukphone": "əˈreɪndʒmənt"
+  },
+  {
+    "name": "cash",
+    "trans": [
+      "n. 现金；现款",
+      "vt. 兑现；付现款",
+      "adj. 现金的"
+    ],
+    "usphone": "kæʃ",
+    "ukphone": "kæʃ"
+  },
+  {
+    "name": "above all else",
+    "trans": [
+      "最重要的是；尤其是"
+    ]
+  },
+  {
+    "name": "establish",
+    "trans": [
+      "vt. 创立；建立（联系或关系）；确立",
+      "v. 查实；证明"
+    ],
+    "usphone": "ɪˈstæblɪʃ",
+    "ukphone": "ɪˈstæblɪʃ"
+  },
+  {
+    "name": "software",
+    "trans": [
+      "n. 软件；软体；软设备"
+    ],
+    "usphone": "ˈsɒftweə(r)",
+    "ukphone": "ˈsɒftweə(r)"
+  },
+  {
+    "name": "instant",
+    "trans": [
+      "n. 瞬间；立即；片刻",
+      "adj. 立即的；紧急的；紧迫的"
+    ],
+    "usphone": "ˈɪnstənt",
+    "ukphone": "ˈɪnstənt"
+  },
+  {
+    "name": "comment",
+    "trans": [
+      "n. 评论；意见；批评",
+      "vi. 发表评论；发表意见",
+      "vt. 为…作评语"
+    ],
+    "usphone": "ˈkɒment",
+    "ukphone": "ˈkɒment"
+  },
+  {
+    "name": "aware",
+    "trans": [
+      "adj. 意识到的；知道的；有…方面知识的"
+    ],
+    "usphone": "əˈweə(r)",
+    "ukphone": "əˈweə(r)"
+  },
+  {
+    "name": "surf",
+    "trans": [
+      "vi. 作冲浪运动",
+      "vt. 在…冲浪",
+      "n. 海浪；拍岸浪"
+    ],
+    "usphone": "sɜːf",
+    "ukphone": "sɜːf"
+  },
+  {
+    "name": "guideline",
+    "trans": [
+      "n. 指导方针；准则；指南"
+    ],
+    "usphone": "ˈɡaɪdlaɪn",
+    "ukphone": "ˈɡaɪdlaɪn"
+  },
+  {
+    "name": "remove",
+    "trans": [
+      "n. 移动；距离；搬家",
+      "vt. 移动，迁移；开除；调动",
+      "vi. 移动，迁移；搬家"
+    ],
+    "usphone": "rɪˈmuːv",
+    "ukphone": "rɪˈmuːv"
+  },
+  {
+    "name": "file",
+    "trans": [
+      "n. 文件；档案；文件夹",
+      "vt. 提出；锉；琢磨",
+      "vi. 列队行进；用锉刀锉"
+    ],
+    "usphone": "faɪl",
+    "ukphone": "faɪl"
+  },
+  {
+    "name": "belong",
+    "trans": [
+      "v. 属于；应归入；适合"
+    ],
+    "usphone": "bɪˈlɒŋ",
+    "ukphone": "bɪˈlɒŋ"
+  },
+  {
+    "name": "ballet",
+    "trans": [
+      "n. 芭蕾舞；芭蕾舞剧；芭蕾舞团"
+    ],
+    "usphone": "ˈbæleɪ",
+    "ukphone": "ˈbæleɪ"
+  },
+  {
+    "name": "set up",
+    "trans": [
+      "n. 建立；创立；发起"
+    ]
+  },
+  {
+    "name": "request",
+    "trans": [
+      "n. 要求；需要；所请求的事物",
+      "vt. （下级对上级的）请求；请求得到；索取"
+    ],
+    "usphone": "rɪˈkwest",
+    "ukphone": "rɪˈkwest"
+  },
+  {
+    "name": "technical",
+    "trans": [
+      "adj. 技术的；专业的；工艺的"
+    ],
+    "usphone": "ˈteknɪkl",
+    "ukphone": "ˈteknɪkl"
+  },
+  {
+    "name": "upload",
+    "trans": [
+      "n. 向上（作用的）负载；上传（或上载）的数据",
+      "vt. 上传；上载"
+    ],
+    "usphone": "ˌʌpˈləʊd",
+    "ukphone": "ˌʌpˈləʊd"
+  },
+  {
+    "name": "download",
+    "trans": [
+      "v. 下载（数据或程序）",
+      "n. 下载；下载的数据或程序"
+    ],
+    "usphone": "ˌdaʊnˈləʊd",
+    "ukphone": "ˌdaʊnˈləʊd"
+  },
+  {
+    "name": "percentage",
+    "trans": [
+      "n. 百分数；百分率；百分比"
+    ],
+    "usphone": "pəˈsentɪdʒ",
+    "ukphone": "pəˈsentɪdʒ"
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n. 娱乐，消遣；娱乐活动，表演；款待，招待"
+    ],
+    "usphone": "ˌentəˈteɪnmənt",
+    "ukphone": "ˌentəˈteɪnmənt"
+  },
+  {
+    "name": "mobile",
+    "trans": [
+      "adj. 可移动的；行动自如的；易变的",
+      "n. 风铃；手机"
+    ],
+    "usphone": "ˈməʊbaɪl",
+    "ukphone": "ˈməʊbaɪl"
+  },
+  {
+    "name": "device",
+    "trans": [
+      "n. 装置；策略；图案"
+    ],
+    "usphone": "dɪˈvaɪs",
+    "ukphone": "dɪˈvaɪs"
+  },
+  {
+    "name": "addict",
+    "trans": [
+      "n. 有瘾的人；入迷的人；（吸毒）成瘾者",
+      "vt. 使沉溺；使上瘾；使自己沾染（某些恶习）"
+    ],
+    "usphone": "ˈædɪkt",
+    "ukphone": "ˈædɪkt"
+  },
+  {
+    "name": "be glued to sth",
+    "trans": [
+      "全神贯注看着某物；离某物很近"
+    ]
+  },
+  {
+    "name": "Wi-Fi",
+    "trans": [
+      "n. 无线网络；无线上网"
+    ],
+    "usphone": "ˈwaɪ faɪ",
+    "ukphone": "ˈwaɪ faɪ"
+  },
+  {
+    "name": "battery",
+    "trans": [
+      "n. 电池，蓄电池；一组，一系列；炮组，排炮",
+      "adj. 笼养的；层架式养殖的"
+    ],
+    "usphone": "ˈbætri; ˈbætəri",
+    "ukphone": "ˈbætri; ˈbætəri"
+  },
+  {
+    "name": "quit",
+    "trans": [
+      "n. 离开；退出",
+      "vt. 离开；放弃；停止",
+      "adj. 摆脱了…的；已经了结的"
+    ],
+    "usphone": "kwɪt",
+    "ukphone": "kwɪt"
+  },
+  {
+    "name": "shoot past",
+    "trans": [
+      "飞驰而过"
+    ]
+  },
+  {
+    "name": "knock sb off on",
+    "trans": [
+      "’s feet 撞倒某人；使某人双脚离地"
+    ]
+  },
+  {
+    "name": "scary",
+    "trans": [
+      "adj. （事物）可怕的；恐怖的；吓人的"
+    ],
+    "usphone": "ˈskeəri",
+    "ukphone": "ˈskeəri"
+  },
+  {
+    "name": "somehow",
+    "trans": [
+      "adv. 以某种方式；不知怎么地；莫名其妙地"
+    ],
+    "usphone": "ˈsʌmhaʊ",
+    "ukphone": "ˈsʌmhaʊ"
+  },
+  {
+    "name": "be lost in",
+    "trans": [
+      "全神贯注；沉浸于"
+    ]
+  },
+  {
+    "name": "journal",
+    "trans": [
+      "n. 日记，日志；期刊，杂志；分类账",
+      "v. 记日记；写日志"
+    ],
+    "usphone": "ˈdʒɜːnl",
+    "ukphone": "ˈdʒɜːnl"
+  },
+  {
+    "name": "reveal",
+    "trans": [
+      "n. 揭露；暴露；门侧，窗侧",
+      "vt. 显示；透露；揭露"
+    ],
+    "usphone": "rɪˈviːl",
+    "ukphone": "rɪˈviːl"
+  },
+  {
+    "name": "appreciate",
+    "trans": [
+      "vi. 增值；涨价",
+      "vt. 欣赏；感激；领会"
+    ],
+    "usphone": "əˈpriːʃieɪt",
+    "ukphone": "əˈpriːʃieɪt"
+  },
+  {
+    "name": "wide-ranging",
+    "trans": [
+      "adj. 覆盖面广的；内容广泛的"
+    ],
+    "usphone": "ˌwaɪd ˈreɪndʒɪŋ",
+    "ukphone": "ˌwaɪd ˈreɪndʒɪŋ"
+  },
+  {
+    "name": "opera",
+    "trans": [
+      "n. 歌剧；歌剧院；歌剧团"
+    ],
+    "usphone": "ˈɒprə",
+    "ukphone": "ˈɒprə"
+  },
+  {
+    "name": "badminton",
+    "trans": [
+      "n. 羽毛球运动；羽毛球"
+    ],
+    "usphone": "ˈbædmɪntən",
+    "ukphone": "ˈbædmɪntən"
+  },
+  {
+    "name": "cut back o",
+    "trans": [
+      "减少"
+    ]
+  },
+  {
+    "name": "republic",
+    "trans": [
+      "n. 共和国；共和政体；（成员具有平等权利的）团体"
+    ],
+    "usphone": "rɪˈpʌblɪk",
+    "ukphone": "rɪˈpʌblɪk"
+  },
+  {
+    "name": "malaria",
+    "trans": [
+      "n. 疟疾；瘴气；瘴疠"
+    ],
+    "usphone": "məˈleəriə",
+    "ukphone": "məˈleəriə"
+  },
+  {
+    "name": "deadly",
+    "trans": [
+      "adj. 致命的；非常的；死一般的",
+      "adv. 非常；如死一般地"
+    ],
+    "usphone": "ˈdedli",
+    "ukphone": "ˈdedli"
+  },
+  {
+    "name": "survival",
+    "trans": [
+      "n. 生存；存活；幸存"
+    ],
+    "usphone": "səˈvaɪvl",
+    "ukphone": "səˈvaɪvl"
+  },
+  {
+    "name": "province",
+    "trans": [
+      "n. 省；行政区；范围"
+    ],
+    "usphone": "ˈprɒvɪns",
+    "ukphone": "ˈprɒvɪns"
+  },
+  {
+    "name": "broad",
+    "trans": [
+      "adj. 宽广的，宽阔的；……宽；咧开嘴的",
+      "n. 女人，娘儿们；宽阔部分",
+      "adv. 宽阔地"
+    ],
+    "usphone": "brɔːd",
+    "ukphone": "brɔːd"
+  },
+  {
+    "name": "intend",
+    "trans": [
+      "vi. 有打算",
+      "vt. 打算；想要；意指"
+    ],
+    "usphone": "ɪnˈtend",
+    "ukphone": "ɪnˈtend"
+  },
+  {
+    "name": "extract",
+    "trans": [
+      "n. 汁；摘录；榨出物",
+      "vt. 提取；取出；摘录"
+    ],
+    "usphone": "ˈekstrækt/ n. 提取物；选录 /ɪkˈstrækt",
+    "ukphone": "ˈekstrækt/ n. 提取物；选录 /ɪkˈstrækt"
+  },
+  {
+    "name": "herb",
+    "trans": [
+      "n. 草本；草药；中草药"
+    ],
+    "usphone": "hɜːb",
+    "ukphone": "hɜːb"
+  },
+  {
+    "name": "refer",
+    "trans": [
+      "vi. 提到；针对；关系到",
+      "vt. 送交；提交；归于",
+      "vt.&vi. 参考；查阅"
+    ],
+    "usphone": "rɪˈfɜː(r)",
+    "ukphone": "rɪˈfɜː(r)"
+  },
+  {
+    "name": "experiment",
+    "trans": [
+      "n. 实验；试验；尝试",
+      "vi. 做实验；尝试"
+    ],
+    "usphone": "ɪkˈsperɪmənt",
+    "ukphone": "ɪkˈsperɪmənt"
+  },
+  {
+    "name": "trial",
+    "trans": [
+      "n. 试验，试用；审判，审理；考验，磨难",
+      "adj. 试验性的；试用的"
+    ],
+    "usphone": "ˈtraɪəl",
+    "ukphone": "ˈtraɪəl"
+  },
+  {
+    "name": "limited",
+    "trans": [
+      "adj. 有限公司",
+      "n. 限制；局限；局限于"
+    ],
+    "usphone": "ˈlɪmɪtɪd",
+    "ukphone": "ˈlɪmɪtɪd"
+  },
+  {
+    "name": "household",
+    "trans": [
+      "n. 家庭；户；家务",
+      "adj. 家庭的；家喻户晓的"
+    ],
+    "usphone": "ˈhaʊshəʊld",
+    "ukphone": "ˈhaʊshəʊld"
+  },
+  {
+    "name": "container",
+    "trans": [
+      "n. 容器；集装箱；货柜"
+    ],
+    "usphone": "kənˈteɪnə(r)",
+    "ukphone": "kənˈteɪnə(r)"
+  },
+  {
+    "name": "postpone",
+    "trans": [
+      "vt. 使延期，延缓；把…放在次要地位；把…放在后面",
+      "vi. 延缓；延缓发作"
+    ],
+    "usphone": "pəˈspəʊn",
+    "ukphone": "pəˈspəʊn"
+  },
+  {
+    "name": "sufficient",
+    "trans": [
+      "adj. 足够的；充足的；充分的"
+    ],
+    "usphone": "səˈfɪʃnt",
+    "ukphone": "səˈfɪʃnt"
+  },
+  {
+    "name": "data",
+    "trans": [
+      "n. 数据；资料；材料"
+    ],
+    "usphone": "ˈdeɪtə",
+    "ukphone": "ˈdeɪtə"
+  },
+  {
+    "name": "speed up",
+    "trans": [
+      "phrase. 加速"
+    ]
+  },
+  {
+    "name": "pay off",
+    "trans": [
+      "偿清；得到好结果；取得成功"
+    ]
+  },
+  {
+    "name": "error",
+    "trans": [
+      "n. 误差；错误；过失"
+    ],
+    "usphone": "ˈerə(r)",
+    "ukphone": "ˈerə(r)"
+  },
+  {
+    "name": "through trial and error",
+    "trans": [
+      "反复试验"
+    ]
+  },
+  {
+    "name": "wisdom",
+    "trans": [
+      "n. 智慧，才智；明智，聪明；箴言，格言"
+    ],
+    "usphone": "ˈwɪzdəm",
+    "ukphone": "ˈwɪzdəm"
+  },
+  {
+    "name": "beneficial",
+    "trans": [
+      "adj. 有利的；有帮助的；有用的"
+    ],
+    "usphone": "ˌbenɪˈfɪʃl",
+    "ukphone": "ˌbenɪˈfɪʃl"
+  },
+  {
+    "name": "conduct",
+    "trans": [
+      "n. 进行；行为；实施",
+      "vi. 导电；带领",
+      "vt. 管理；引导；表现"
+    ],
+    "usphone": "kənˈdʌkt",
+    "ukphone": "kənˈdʌkt"
+  },
+  {
+    "name": "illustrate",
+    "trans": [
+      "vt. (用图等)说明；举例说明；作图解",
+      "vi. 举例"
+    ],
+    "usphone": "ˈɪləstreɪt",
+    "ukphone": "ˈɪləstreɪt"
+  },
+  {
+    "name": "penicillin",
+    "trans": [
+      "n. 青霉素；盘尼西林"
+    ],
+    "usphone": "ˌpenɪˈsɪlɪn",
+    "ukphone": "ˌpenɪˈsɪlɪn"
+  },
+  {
+    "name": "mould",
+    "trans": [
+      "n. 模子样板；形状；霉菌",
+      "vt. 浇铸；模压铸造发霉；形成",
+      "vi. 发霉"
+    ],
+    "usphone": "məʊld",
+    "ukphone": "məʊld"
+  },
+  {
+    "name": "bacteria",
+    "trans": [
+      "n. 细菌（复数）；细菌（单复数同形）"
+    ],
+    "usphone": "bækˈtɪəriə",
+    "ukphone": "bækˈtɪəriə"
+  },
+  {
+    "name": "surround",
+    "trans": [
+      "n. 围绕物",
+      "vt. 围绕；包围",
+      "adj. 环绕立体声的"
+    ],
+    "usphone": "səˈraʊnd",
+    "ukphone": "səˈraʊnd"
+  },
+  {
+    "name": "indicate",
+    "trans": [
+      "vt. 标示；表示；指明",
+      "v. 显示；象征；指示"
+    ],
+    "usphone": "ˈɪndɪkeɪt",
+    "ukphone": "ˈɪndɪkeɪt"
+  },
+  {
+    "name": "accident",
+    "trans": [
+      "n. 事故；意外；意外事件"
+    ],
+    "usphone": "ˈæksɪdənt",
+    "ukphone": "ˈæksɪdənt"
+  },
+  {
+    "name": "by accident",
+    "trans": [
+      "偶然；无意中；不小心"
+    ]
+  },
+  {
+    "name": "intelligent",
+    "trans": [
+      "adj. 智能的；聪明的；理解力强的"
+    ],
+    "usphone": "ɪnˈtelɪdʒənt",
+    "ukphone": "ɪnˈtelɪdʒənt"
+  },
+  {
+    "name": "favour",
+    "trans": [
+      "n. 偏爱；赞同；善行",
+      "vt. 赞成；喜爱；有助于"
+    ],
+    "usphone": "ˈfeɪvə(r)",
+    "ukphone": "ˈfeɪvə(r)"
+  },
+  {
+    "name": "politician",
+    "trans": [
+      "n. 政治家；政客；玩弄权术者"
+    ],
+    "usphone": "ˌpɒləˈtɪʃn",
+    "ukphone": "ˌpɒləˈtɪʃn"
+  },
+  {
+    "name": "lightning",
+    "trans": [
+      "n. 闪电；突然；（非正式）突如其来的好运",
+      "adj. 闪电般快的，飞快的；突然的",
+      "v. 闪电"
+    ],
+    "usphone": "ˈlaɪtnɪŋ",
+    "ukphone": "ˈlaɪtnɪŋ"
+  },
+  {
+    "name": "electricity",
+    "trans": [
+      "n. 电，电能；电学，电力学；刺激，激情"
+    ],
+    "usphone": "ɪˌlekˈtrɪsəti",
+    "ukphone": "ɪˌlekˈtrɪsəti"
+  },
+  {
+    "name": "theory",
+    "trans": [
+      "n. 理论，学说；推测，猜想；原理，原则"
+    ],
+    "usphone": "ˈθɪəri",
+    "ukphone": "ˈθɪəri"
+  },
+  {
+    "name": "thunderstorm",
+    "trans": [
+      "n. 雷暴；雷暴雨；大雷雨"
+    ],
+    "usphone": "ˈθʌndəstɔːm",
+    "ukphone": "ˈθʌndəstɔːm"
+  },
+  {
+    "name": "ribbon",
+    "trans": [
+      "n. 缎带；带状物；带",
+      "vi. 形成带状",
+      "vt. 把…撕成条带；用缎带装饰"
+    ],
+    "usphone": "ˈrɪbən",
+    "ukphone": "ˈrɪbən"
+  },
+  {
+    "name": "metal",
+    "trans": [
+      "n. 金属；合金",
+      "vt. 以金属覆盖",
+      "adj. 金属制的"
+    ],
+    "usphone": "ˈmetl",
+    "ukphone": "ˈmetl"
+  },
+  {
+    "name": "charge",
+    "trans": [
+      "n. 费用；电荷；掌管",
+      "vt. 使充电；使承担；指责",
+      "vi. 充电；控告；索价"
+    ],
+    "usphone": "tʃɑːdʒ",
+    "ukphone": "tʃɑːdʒ"
+  },
+  {
+    "name": "electric",
+    "trans": [
+      "n. 电；电气车辆；带电体",
+      "adj. 电的；电动的；发电的"
+    ],
+    "usphone": "ɪˈlektrɪk",
+    "ukphone": "ɪˈlektrɪk"
+  },
+  {
+    "name": "bang",
+    "trans": [
+      "n. 刘海；重击；突然巨响",
+      "vt. 重击；发巨响",
+      "adv. 直接地；砰然地；突然巨响地"
+    ],
+    "usphone": "bæŋ",
+    "ukphone": "bæŋ"
+  },
+  {
+    "name": "with a bang",
+    "trans": [
+      "很成功；引人注目，有强烈影响"
+    ]
+  },
+  {
+    "name": "standout",
+    "trans": [
+      "n. 杰出的人",
+      "adj. 出色的；杰出的"
+    ],
+    "usphone": "ˈstændaʊt",
+    "ukphone": "ˈstændaʊt"
+  },
+  {
+    "name": "atomic",
+    "trans": [
+      "adj. 原子的；原子能的，原子武器的；极微的"
+    ],
+    "usphone": "əˈtɒmɪk",
+    "ukphone": "əˈtɒmɪk"
+  },
+  {
+    "name": "bomb",
+    "trans": [
+      "n. 炸弹；高压罐；火山口喷出的熔岩",
+      "vt. 轰炸；大败；长传",
+      "vi. 失败"
+    ],
+    "usphone": "bɒm",
+    "ukphone": "bɒm"
+  },
+  {
+    "name": "evil",
+    "trans": [
+      "n. 罪恶，邪恶；不幸",
+      "adj. 邪恶的；不幸的；有害的"
+    ],
+    "usphone": "ˈiːvl",
+    "ukphone": "ˈiːvl"
+  },
+  {
+    "name": "involve",
+    "trans": [
+      "v. 包含，需要；使参与，牵涉；使陷入，使卷入"
+    ],
+    "usphone": "ɪnˈvɒlv",
+    "ukphone": "ɪnˈvɒlv"
+  },
+  {
+    "name": "scientific",
+    "trans": [
+      "adj. 科学的；有系统的；应用科学的"
+    ],
+    "usphone": "ˌsaɪənˈtɪfɪk",
+    "ukphone": "ˌsaɪənˈtɪfɪk"
+  },
+  {
+    "name": "credit",
+    "trans": [
+      "n. 信用，信誉；赊账；学分",
+      "v. 相信，信任；把...归功于；贷记",
+      "adj. 信用的"
+    ],
+    "usphone": "ˈkredɪt",
+    "ukphone": "ˈkredɪt"
+  },
+  {
+    "name": "moral",
+    "trans": [
+      "adj. 道德的；精神上的；品性端正的",
+      "n. 道德；寓意"
+    ],
+    "usphone": "ˈmɒrəl",
+    "ukphone": "ˈmɒrəl"
+  },
+  {
+    "name": "apply",
+    "trans": [
+      "vi. 申请；涂，敷；适用",
+      "vt. 申请；涂，敷；应用"
+    ],
+    "usphone": "əˈplaɪ",
+    "ukphone": "əˈplaɪ"
+  },
+  {
+    "name": "negate",
+    "trans": [
+      "vt. 否定；取消；使无效",
+      "vi. 否定；否认；无效",
+      "n. 对立面；反面"
+    ],
+    "usphone": "nɪˈɡeɪt",
+    "ukphone": "nɪˈɡeɪt"
+  },
+  {
+    "name": "intellectual",
+    "trans": [
+      "adj. 智力的；有才智的；需用智力的",
+      "n. 知识分子；脑力劳动者；有极高智力的人"
+    ],
+    "usphone": "ˌɪntəˈlektʃuəl",
+    "ukphone": "ˌɪntəˈlektʃuəl"
+  },
+  {
+    "name": "mystery",
+    "trans": [
+      "n. 难以理解（或解释）的事物，奥秘；神秘的人（或事物）；不可思议",
+      "adj. 神秘的；身份不明的"
+    ],
+    "usphone": "ˈmɪstri",
+    "ukphone": "ˈmɪstri"
+  },
+  {
+    "name": "let sb down",
+    "trans": [
+      "使某人失望"
+    ]
+  },
+  {
+    "name": "ignorance",
+    "trans": [
+      "n. 无知，愚昧；不知，不懂"
+    ],
+    "usphone": "ˈɪɡnərəns",
+    "ukphone": "ˈɪɡnərəns"
+  },
+  {
+    "name": "as to",
+    "trans": [
+      "至于；关于"
+    ]
+  },
+  {
+    "name": "take it for granted",
+    "trans": [
+      "想当然地认为；认为…是理所当然"
+    ],
+    "usphone": "ˈɡrɑːntɪd",
+    "ukphone": "ˈɡrɑːntɪd"
+  },
+  {
+    "name": "freedom",
+    "trans": [
+      "n. 自由，自主；自由权，特权；无拘束，随心所欲"
+    ],
+    "usphone": "ˈfriːdəm",
+    "ukphone": "ˈfriːdəm"
+  },
+  {
+    "name": "authority",
+    "trans": [
+      "n. 权力，权威；当局，官方；专家，权威人士"
+    ],
+    "usphone": "ɔːˈθɒrəti",
+    "ukphone": "ɔːˈθɒrəti"
+  },
+  {
+    "name": "permit",
+    "trans": [
+      "n. 许可证；执照",
+      "vt. 许可；允许",
+      "vi. 许可；允许"
+    ],
+    "usphone": "pəˈmɪt/ vt. & vi. 允许，准许，许可；使有可能 /ˈpɜːmɪt",
+    "ukphone": "pəˈmɪt/ vt. & vi. 允许，准许，许可；使有可能 /ˈpɜːmɪt"
+  },
+  {
+    "name": "responsibility",
+    "trans": [
+      "n. 责任，义务；职责，工作；责任心"
+    ],
+    "usphone": "rɪˌspɒnsəˈbɪləti",
+    "ukphone": "rɪˌspɒnsəˈbɪləti"
+  },
+  {
+    "name": "declare",
+    "trans": [
+      "vt. 宣布；声明，声称；申报",
+      "vi. 声明，发表宣言；宣称"
+    ],
+    "usphone": "dɪˈkleə(r)",
+    "ukphone": "dɪˈkleə(r)"
+  },
+  {
+    "name": "nationality",
+    "trans": [
+      "n. 国籍，国家；民族；部落"
+    ],
+    "usphone": "ˌnæʃəˈnæləti",
+    "ukphone": "ˌnæʃəˈnæləti"
+  },
+  {
+    "name": "put forward",
+    "trans": [
+      "提出；提议；建议"
+    ]
+  },
+  {
+    "name": "evolution",
+    "trans": [
+      "n. 进化，演变；发展，演化；进程，过程"
+    ],
+    "usphone": "ˌiːvəˈluːʃn",
+    "ukphone": "ˌiːvəˈluːʃn"
+  },
+  {
+    "name": "publish",
+    "trans": [
+      "vi. 出版；发行；刊印",
+      "vt. 出版；发表；公布"
+    ],
+    "usphone": "ˈpʌblɪʃ",
+    "ukphone": "ˈpʌblɪʃ"
+  },
+  {
+    "name": "marriage",
+    "trans": [
+      "n. 婚姻；结婚；婚礼"
+    ],
+    "usphone": "ˈmærɪdʒ",
+    "ukphone": "ˈmærɪdʒ"
+  }
 ]

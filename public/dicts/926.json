@@ -1,928 +1,6309 @@
 [
-  { "name": "abdicate", "trans": ["v. 退位，放弃"] },
-  { "name": "abide", "trans": ["v. 遵守，忍受"] },
-  { "name": "abolish", "trans": ["v. 废除，取消"] },
-  { "name": "abound", "trans": ["v. 充满，到处都是"] },
-  { "name": "absolute", "trans": ["adj. 绝对的，专制的"] },
-  { "name": "absorb", "trans": ["v. 吸收，承受"] },
-  { "name": "abstract", "trans": ["adj. 抽象的"] },
-  { "name": "abundantly", "trans": ["adv. 大量地，非常地"] },
-  { "name": "abuse", "trans": ["v/n. 虐待，滥用"] },
-  { "name": "academic", "trans": ["adj. 学术的"] },
-  { "name": "accelerate", "trans": ["v. 加速，促进"] },
-  { "name": "access", "trans": ["v/n. 进入，使用"] },
-  { "name": "acclaim", "trans": ["v/n. 称赞，喝彩"] },
-  { "name": "accommodate", "trans": ["v. 容纳，（使）适应"] },
-  { "name": "accompany", "trans": ["v. 陪伴，伴随"] },
-  { "name": "account", "trans": ["v. 占比，解释", "n. 账户，资料"] },
-  { "name": "accuracy", "trans": ["n. 精确（性），准确（性）"] },
-  { "name": "achieve", "trans": ["v. 获得，实现"] },
-  { "name": "acknowledge", "trans": ["v. 承认，认可"] },
-  { "name": "acquire", "trans": ["v. 获得，习得"] },
-  { "name": "activate", "trans": ["v. 刺激，激发"] },
-  { "name": "acute", "trans": ["adj. 严重的，急性的"] },
-  { "name": "adaptable", "trans": ["adj. 适合的，能适应的"] },
-  { "name": "adequate", "trans": ["adj. 充足的，充分的"] },
-  { "name": "adhere", "trans": ["v. 坚持，遵守"] },
-  { "name": "adjoining", "trans": ["adj. 邻接的，相邻的"] },
-  { "name": "adjust", "trans": ["v. 调整，适应"] },
-  { "name": "administration", "trans": ["n. 管理，（美国）政府"] },
-  { "name": "admire", "trans": ["v. 钦佩，欣赏"] },
-  { "name": "admit", "trans": ["v. 承认"] },
-  { "name": "adopt", "trans": ["v. 收养、采纳"] },
-  { "name": "adornment", "trans": ["n. 装饰（品）"] },
-  { "name": "advocate", "trans": ["v. 提倡、拥护", "n. 支持者、拥护者"] },
-  { "name": "affect", "trans": ["v. 影响、感动", "n. 情感"] },
-  { "name": "affiliation", "trans": ["n. 联系、有关联的事物"] },
-  { "name": "affirm", "trans": ["v. 肯定、证实"] },
-  { "name": "agency", "trans": ["n. 代理、机构"] },
-  { "name": "aggravate", "trans": ["v. 加重、恶化"] },
-  { "name": "aggregation", "trans": ["n. 聚合、形成"] },
-  { "name": "aggressive", "trans": ["adj. 激进的、过激的、有进取心的"] },
-  { "name": "agitated", "trans": ["adj. 激动的、焦虑的"] },
-  { "name": "agony", "trans": ["n. 痛苦"] },
-  { "name": "alien", "trans": ["adj. 外国的", "n. 外国人"] },
-  { "name": "allay", "trans": ["v. 减轻、使缓和"] },
-  { "name": "allegation", "trans": ["n. 指控、陈述"] },
-  { "name": "alleviate", "trans": ["v. 减轻、（使）缓和"] },
-  { "name": "alliance", "trans": ["n. 联合、联盟"] },
-  { "name": "allocation", "trans": ["n. 分配、配置"] },
-  { "name": "alter", "trans": ["v. 改变、更改"] },
-  { "name": "amateur", "trans": ["adj. 业余的", "n. 业余爱好者"] },
-  { "name": "amazing", "trans": ["adj. 令人惊讶的"] },
-  { "name": "ambiguous", "trans": ["adj. 模糊不清的，模棱两可的"] },
-  { "name": "ambition", "trans": ["n. 雄心、志向"] },
-  { "name": "amplify", "trans": ["v. 扩大、加强"] },
-  { "name": "analogy", "trans": ["n. 类比"] },
-  { "name": "ancestor", "trans": ["n. 先驱者，祖先"] },
-  { "name": "announce", "trans": ["v. 宣布、声明"] },
-  { "name": "annoy", "trans": ["v/n. 困扰、烦扰"] },
-  { "name": "annual", "trans": ["adj. 年度的、每年的、四季常青的"] },
-  { "name": "anonymity", "trans": ["n. 匿名"] },
-  { "name": "anticipate", "trans": ["v. 预测、预料"] },
-  { "name": "apparent", "trans": ["adj. 明显的"] },
-  { "name": "appeal", "trans": ["v/n. 吸引、请求、上诉"] },
-  { "name": "appease", "trans": ["v. 安抚、抚慰"] },
-  { "name": "apply", "trans": ["v. 运用、适用、申请"] },
-  { "name": "appoint", "trans": ["v. 指定、任命"] },
-  { "name": "appreciate", "trans": ["v. 感激、欣赏、理解"] },
-  { "name": "apprehensive", "trans": ["adj. 忧虑的、不安的"] },
-  { "name": "approach", "trans": ["v. 接近、处理", "n. 接近、方法"] },
-  { "name": "appropriate", "trans": ["adj. 适当的、合适的"] },
-  { "name": "arbiter", "trans": ["n. 仲裁者、主宰者"] },
-  { "name": "arouse", "trans": ["v. 引起、激发"] },
-  { "name": "array", "trans": ["v/n. 排列"] },
-  { "name": "artificial", "trans": ["adj. 人造的、人工的"] },
-  { "name": "aspect", "trans": ["n. 方面"] },
-  { "name": "aspire", "trans": ["v. 渴望、追求"] },
-  { "name": "assembly", "trans": ["n. 集合、组装"] },
-  { "name": "assert", "trans": ["v. 宣称、断言"] },
-  { "name": "assess", "trans": ["v. 评估、估算"] },
-  { "name": "asset", "trans": ["n. 资产"] },
-  { "name": "assign", "trans": ["v. 分配、布置"] },
-  { "name": "assimilation", "trans": ["n. 同化"] },
-  { "name": "assist", "trans": ["v. 帮助、协助"] },
-  { "name": "associate", "trans": ["v. 联合、使有联系"] },
-  { "name": "assume", "trans": ["v. 假设"] },
-  { "name": "astrological", "trans": ["adj. 占星的"] },
-  { "name": "astronomy", "trans": ["n. 天文学"] },
-  { "name": "atmosphere", "trans": ["n. 大气（层）、空气、气氛"] },
-  { "name": "attract", "trans": ["v. 吸引"] },
-  { "name": "auction", "trans": ["v/n. 拍卖"] },
-  { "name": "authority", "trans": ["n. 权力、权威、官方"] },
-  { "name": "automated", "trans": ["adj. 自动（化）的"] },
-  { "name": "available", "trans": ["adj. 可得到的、存在的"] },
-  { "name": "awkward", "trans": ["adj. 尴尬的"] },
-  { "name": "bankruptcy", "trans": ["n. 破产"] },
-  { "name": "barely", "trans": ["adv. 仅仅、几乎没有"] },
-  { "name": "barrier", "trans": ["n. 障碍"] },
-  { "name": "behavior", "trans": ["n. 行为、举止"] },
-  { "name": "bellyful", "trans": ["n. 满腹"] },
-  { "name": "benefactor", "trans": ["n. 捐助者"] },
-  { "name": "benign", "trans": ["adj. 良性的、无害的"] },
-  { "name": "betray", "trans": ["v. 背叛、揭露"] },
-  { "name": "bias", "trans": ["n. 偏见"] },
-  { "name": "bid", "trans": ["v/n. 投标、出价"] },
-  { "name": "bilingual", "trans": ["adj. 双语的"] },
-  { "name": "binary", "trans": ["adj. 非黑即白的、二元的"] },
-  { "name": "binding", "trans": ["adj. 有约束力的"] },
-  { "name": "biographical", "trans": ["adj. 传记的"] },
-  { "name": "board", "trans": ["n. 委员会、董事会"] },
-  { "name": "boom", "trans": ["v. 迅速发展", "n. 繁荣"] },
-  { "name": "bother", "trans": ["v/n. 操心、麻烦"] },
-  { "name": "boundary", "trans": ["n. 界限、范围"] },
-  { "name": "bribery", "trans": ["n. 行贿、受贿"] },
-  { "name": "brief", "trans": ["adj. 简短的、简洁的", "n. 摘要、简报"] },
-  { "name": "broaden", "trans": ["v. 扩大、加宽"] },
-  { "name": "broker", "trans": ["n. 经纪人"] },
-  { "name": "bubble", "trans": ["v. 冒泡", "n. 气泡、泡沫"] },
-  { "name": "budget", "trans": ["v/n. 预算"] },
-  { "name": "bureaucratic", "trans": ["adj. 官僚主义的"] },
-  { "name": "burst", "trans": ["v/n. 爆炸、爆发"] },
-  { "name": "campaign", "trans": ["n. 战役、运动、活动"] },
-  { "name": "candidate", "trans": ["n. 候选人"] },
-  { "name": "capable", "trans": ["adj. 有能力的"] },
-  { "name": "capture", "trans": ["v. 捕捉、吸引", "n. 俘虏、战利品"] },
-  { "name": "carve", "trans": ["v. 分割、雕刻"] },
-  { "name": "category", "trans": ["n. 种类、范畴"] },
-  { "name": "cater", "trans": ["v. 迎合、为……服务"] },
-  { "name": "caution", "trans": ["v. 警告", "n. 小心、谨慎、警告"] },
-  { "name": "cavity", "trans": ["n. 腔、(牙齿的) 龋洞"] },
-  { "name": "celebrate", "trans": ["v. 庆祝"] },
-  { "name": "challenge", "trans": ["v/n. 挑战、质疑"] },
-  { "name": "character", "trans": ["n. 特征、性质、性格、字符"] },
-  { "name": "charge", "trans": ["v. 收费、指控", "n. 费用、控告"] },
-  { "name": "charity", "trans": ["n. 慈善（机构）"] },
-  { "name": "chronic", "trans": ["adj. 长期的、慢性的"] },
-  { "name": "circuit", "trans": ["v. 环行", "n. 环行、电路"] },
-  { "name": "civil", "trans": ["adj. 公民的、文明的"] },
-  { "name": "claim", "trans": ["v/n. 声称、要求、索赔"] },
-  { "name": "clarity", "trans": ["n. 清晰"] },
-  { "name": "client", "trans": ["n. 客户、顾客"] },
-  { "name": "cloak", "trans": ["v. 遮盖、掩饰", "n. 斗篷"] },
-  { "name": "clue", "trans": ["n. 提示、线索"] },
-  { "name": "clumsy", "trans": ["adj. 笨拙的、不灵活的"] },
-  { "name": "coalition", "trans": ["n. 联合、联盟"] },
-  { "name": "cognitive", "trans": ["adj. 认知的"] },
-  { "name": "coherent", "trans": ["adj. 连贯的、一致的、粘在一起的"] },
-  { "name": "coincidence", "trans": ["n. 巧合"] },
-  { "name": "collaborative", "trans": ["adj. 合作的、协作的"] },
-  { "name": "collapse", "trans": ["v/n. 倒塌、瓦解"] },
-  { "name": "collect", "trans": ["v. 收集、采集"] },
-  { "name": "combat", "trans": ["adj. 战斗的、斗争的", "v/n. 战斗、斗争"] },
-  { "name": "command", "trans": ["v/n. 命令、控制、掌握"] },
-  { "name": "commemorate", "trans": ["v. 纪念"] },
-  { "name": "commercial", "trans": ["adj. 商业的、商务的"] },
-  { "name": "commit", "trans": ["v. 进行、实施"] },
-  { "name": "commodity", "trans": ["n. 商品"] },
-  { "name": "community", "trans": ["n. 社群、（学术）界"] },
-  { "name": "compact", "trans": ["n. 合同、契约"] },
-  { "name": "compare", "trans": ["v. 比较、相比"] },
-  { "name": "compelling", "trans": ["adj. 强制的、令人信服的"] },
-  { "name": "compensate", "trans": ["v. 补偿、赔偿、弥补、抵消"] },
-  { "name": "competent", "trans": ["adj. 有能力的、能胜任的"] },
-  { "name": "competitive", "trans": ["adj. 竞争的"] },
-  { "name": "compile", "trans": ["v. 汇编；收集"] },
-  { "name": "complex", "trans": ["adj. 复杂的"] },
-  { "name": "complicated", "trans": ["adj. 复杂的"] },
-  { "name": "comply", "trans": ["v. 遵守、遵从"] },
-  { "name": "component", "trans": ["n. 组成部分"] },
-  { "name": "composition", "trans": ["n. （文学、音乐、美术等）作品"] },
-  { "name": "compound", "trans": ["v. 加剧、混合", "n. 化合物"] },
-  { "name": "comprehensive", "trans": ["adj. 综合的、全面的"] },
-  { "name": "compromise", "trans": ["v/n. 妥协、破坏"] },
-  { "name": "conceive", "trans": ["v. 怀孕、构想、认为"] },
-  { "name": "concentrate", "trans": ["v. 集中、浓缩、专心"] },
-  { "name": "concept", "trans": ["n. 概念、观念"] },
-  { "name": "concession", "trans": ["n. 妥协、让步"] },
-  { "name": "conclude", "trans": ["v. 结束、推断、做出结论"] },
-  { "name": "concrete", "trans": ["n. 混凝土", "adj. 具体的、明确的"] },
-  { "name": "condemn", "trans": ["v. 谴责、责备"] },
-  { "name": "conduct", "trans": ["v. 实施、管理、指挥、引导", "n. 行为"] },
-  { "name": "confer", "trans": ["v. 赋予、协商"] },
-  { "name": "confident", "trans": ["adj. 自信的、有信心的"] },
-  { "name": "confine", "trans": ["v. 限制、约束", "n. 限制、界限"] },
-  { "name": "confirm", "trans": ["v. 确认、确定"] },
-  { "name": "conflict", "trans": ["v. 与……相冲突", "n. 冲突、矛盾"] },
-  { "name": "confront", "trans": ["v. 遭遇、面对"] },
-  { "name": "confuse", "trans": ["v. 迷惑、使困惑"] },
-  { "name": "conjunction", "trans": ["n. 结合、同时发生"] },
-  { "name": "conquer", "trans": ["v. 征服、克服"] },
-  { "name": "conscience", "trans": ["n. 良心"] },
-  { "name": "conscious", "trans": ["adj. 有意识的"] },
-  { "name": "consent", "trans": ["v/n. 赞同、同意"] },
-  { "name": "consequence", "trans": ["n. 后果"] },
-  { "name": "conservative", "trans": ["adj. 保守的", "n. 保守派、保守党"] },
-  { "name": "consistent", "trans": ["adj. 一致的、相符的"] },
-  { "name": "consolidation", "trans": ["n. 合并"] },
-  { "name": "constant", "trans": ["adj. 不变的、经常的", "n. 常数、不变的事物"] },
-  { "name": "constitute", "trans": ["v. 组成、构成"] },
-  { "name": "constrain", "trans": ["v. 限制、约束"] },
-  { "name": "construction", "trans": ["n. 建立、建造、建筑（物）"] },
-  { "name": "consume", "trans": ["v. 消费、消耗"] },
-  { "name": "contempt", "trans": ["n. 轻蔑、蔑视"] },
-  { "name": "content", "trans": ["adj. 满意的", "n. 满意、内容"] },
-  { "name": "contest", "trans": ["v/n. 竞争、争论"] },
-  { "name": "contract", "trans": ["n. 合约、合同"] },
-  { "name": "contradictory", "trans": ["adj. 矛盾的"] },
-  { "name": "contrary", "trans": ["adj/adv. 相反的/地", "n. 相反"] },
-  { "name": "contrast", "trans": ["v/n. 对比、对照"] },
-  { "name": "contribute", "trans": ["v. 贡献、导致"] },
-  { "name": "controversial", "trans": ["adj. 有争议的"] },
-  { "name": "conventional", "trans": ["adj. 传统的、常规的"] },
-  { "name": "converge", "trans": ["v. 集中、达成一致"] },
-  { "name": "convert", "trans": ["v. 转变、转化"] },
-  { "name": "convey", "trans": ["v. 运输、表达"] },
-  { "name": "conviction", "trans": ["n. 判决、定罪"] },
-  { "name": "convincing", "trans": ["adj. 有说服力的、令人信服的"] },
-  { "name": "cooperate", "trans": ["v. 配合、合作"] },
-  { "name": "coordination", "trans": ["n. 协调、协作"] },
-  { "name": "core", "trans": ["n. 核心、要点"] },
-  { "name": "corporate", "trans": ["adj. 公司的、企业的"] },
-  { "name": "correct", "trans": ["adj. 正确的"] },
-  { "name": "correlate", "trans": ["v. 使相互关联、和……相关"] },
-  { "name": "correspond", "trans": ["v. 符合、与……一致、与……通信"] },
-  { "name": "corruption", "trans": ["n. 贪污、腐败"] },
-  { "name": "counterbalance", "trans": ["v. 抵消、使平衡", "n. 平衡力"] },
-  { "name": "counterpart", "trans": ["n. 极其相似的人或物、对比物"] },
-  { "name": "courageous", "trans": ["adj. 勇敢的、大胆的"] },
-  { "name": "craft", "trans": ["v. 精心制作", "n. 手艺、工艺"] },
-  { "name": "crash", "trans": ["v/n. 撞击、坠落、崩溃"] },
-  { "name": "credit", "trans": ["v. 信任、认可", "n. 信用、认可、学分"] },
-  { "name": "creep", "trans": ["v. 爬行、悄然而至"] },
-  { "name": "crisis", "trans": ["n. 危机、关键时刻"] },
-  { "name": "critical", "trans": ["adj. 批判（性）的、关键的、临界的"] },
-  { "name": "crucial", "trans": ["adj. 至关重要的"] },
-  { "name": "cue", "trans": ["n. 线索、提示"] },
-  { "name": "cultivate", "trans": ["v. 种植、培养"] },
-  { "name": "cunning", "trans": ["adj. 巧妙的、可爱的、狡猾的"] },
-  { "name": "curb", "trans": ["v/n. 控制、限制"] },
-  { "name": "cure", "trans": ["v. 治疗、治愈", "n. 治疗、疗法"] },
-  { "name": "curiosity", "trans": ["n. 好奇心"] },
-  { "name": "current", "trans": ["adj. 当前的、流行的"] },
-  { "name": "curriculum", "trans": ["n. （学校等的）全部课程"] },
-  { "name": "cursory", "trans": ["adj. 粗略的、草率的、匆忙的"] },
-  { "name": "dampen", "trans": ["v. 使沮丧"] },
-  { "name": "dawn", "trans": ["v. 破晓、出现", "n. 黎明、开端"] },
-  { "name": "dearth", "trans": ["n. 缺乏、不足"] },
-  { "name": "debate", "trans": ["v/n. 争论、辩论"] },
-  { "name": "deceptive", "trans": ["adj.骗人的、虚伪的"] },
-  { "name": "declaration", "trans": ["n. 申明、宣称"] },
-  { "name": "decline", "trans": ["v/n. 下降、衰退"] },
-  { "name": "decoration", "trans": ["n. 装饰（品）"] },
-  { "name": "dedicate", "trans": ["v. 献身、致力于"] },
-  { "name": "deduce", "trans": ["v. 推理、推断"] },
-  { "name": "deem", "trans": ["v. 认为、视作"] },
-  { "name": "defend", "trans": ["v. 保护、为……辩护"] },
-  { "name": "defer", "trans": ["v. 延期、延迟"] },
-  { "name": "deficiency", "trans": ["n. 缺点、缺乏"] },
-  { "name": "define", "trans": ["v. 定义、（使）明确"] },
-  { "name": "deliberate", "trans": ["v. 仔细考虑", "adj. 刻意的、故意的"] },
-  { "name": "delicate", "trans": ["adj. 精致的、微妙的"] },
-  { "name": "deliver", "trans": ["v. 发表（演讲/讲话）、递送"] },
-  { "name": "delusion", "trans": ["n. 错觉、妄想"] },
-  { "name": "democratic", "trans": ["adj. 民主的"] },
-  { "name": "demographic", "trans": ["adj. 人口学的", "n. 人口统计数据"] },
-  { "name": "dense", "trans": ["adj. 浓密的、稠密的"] },
-  { "name": "deny", "trans": ["v. 拒绝、否认"] },
-  { "name": "depart", "trans": ["v. 离开、出发"] },
-  { "name": "depict", "trans": ["v. 描述、描绘"] },
-  { "name": "depression", "trans": ["n. 沮丧、抑郁、（经济）萧条"] },
-  { "name": "deprive", "trans": ["v. 剥夺、使丧失"] },
-  { "name": "derive", "trans": ["v. 来自、源于"] },
-  { "name": "descend", "trans": ["v. 下降、遗传"] },
-  { "name": "describe", "trans": ["v. 描述、形容"] },
-  { "name": "deserve", "trans": ["v. 值得、应得"] },
-  { "name": "designate", "trans": ["v. 把……命名为；把……定义为"] },
-  { "name": "desire", "trans": ["v. 渴望、想要", "n. 欲望、心愿"] },
-  { "name": "desperate", "trans": ["adj. 令人绝望的、不顾一切的"] },
-  { "name": "deteriorate", "trans": ["v. 恶化"] },
-  { "name": "determine", "trans": ["v. 决定、下定决心"] },
-  { "name": "detrimental", "trans": ["adj. 有害的、不利的"] },
-  { "name": "devastating", "trans": ["adj. 毁灭性的、破坏性极强的"] },
-  { "name": "devise", "trans": ["v. 设计、发明"] },
-  { "name": "devoted", "trans": ["adj. 忠实的、忠诚的、热衷于……的"] },
-  { "name": "differentiate", "trans": ["v. 区分、区别"] },
-  { "name": "diffuse", "trans": ["v. 传播、缓解"] },
-  { "name": "disaster", "trans": ["n. 灾难"] },
-  { "name": "discipline", "trans": ["n. 纪律、原则"] },
-  { "name": "disclose", "trans": ["v. 揭露、公开"] },
-  { "name": "disconcerting", "trans": ["adj. 焦虑的、不安的"] },
-  { "name": "discover", "trans": ["v. 发现、发觉"] },
-  { "name": "discrimination", "trans": ["n. 歧视、区别对待"] },
-  { "name": "disgrace", "trans": ["v. 使丢脸、使蒙羞", "n. 耻辱、不光彩的事"] },
-  { "name": "disguise", "trans": ["v/n. 掩饰、伪装"] },
-  { "name": "disintegrate", "trans": ["v. 分解、衰退"] },
-  { "name": "dismiss", "trans": ["v. 解散、解雇、排除"] },
-  { "name": "disorder", "trans": ["v. 扰乱、使失调", "n. 混乱、病症（心理学）"] },
-  { "name": "display", "trans": ["v/n. 展示、显示、表现"] },
-  { "name": "disposable", "trans": ["adj. 一次性的、可任意处理的"] },
-  { "name": "disproportionately", "trans": ["adv. 不成比例地"] },
-  { "name": "dispute", "trans": ["v/n. 反对、争论"] },
-  { "name": "disruptive", "trans": ["adj. 破坏（性）的、颠覆（性）的"] },
-  { "name": "distort", "trans": ["v. 歪曲、扭曲"] },
-  { "name": "distraction", "trans": ["n. 分心、分神"] },
-  { "name": "distressed", "trans": ["adj. 烦恼的、难过的"] },
-  { "name": "distribute", "trans": ["v. 分发、分配"] },
-  { "name": "district", "trans": ["n. 区域、地区"] },
-  { "name": "disturb", "trans": ["v. 打搅、使混乱"] },
-  { "name": "diverse", "trans": ["adj. 不同的、多样的"] },
-  { "name": "divisive", "trans": ["adj. 分裂的、有分歧的"] },
-  { "name": "domestic", "trans": ["adj. 家庭的、国内的"] },
-  { "name": "dominate", "trans": ["v. 统治、主导"] },
-  { "name": "donate", "trans": ["v. 捐献、捐赠"] },
-  { "name": "doom", "trans": ["n. 厄运、灾难"] },
-  { "name": "dormant", "trans": ["adj. 休眠的、静止的"] },
-  { "name": "dramatic", "trans": ["adj. 戏剧（性）的、剧烈的"] },
-  { "name": "drastic", "trans": ["adj. 激烈的、剧烈的"] },
-  { "name": "dreadful", "trans": ["adj. 可怕的、糟糕的"] },
-  { "name": "drought", "trans": ["n. 干旱、旱灾"] },
-  { "name": "duplication", "trans": ["n. 重复、复制、副本"] },
-  { "name": "durable", "trans": ["adj. 持续的、持久的、耐用的"] },
-  { "name": "dynamic", "trans": ["adj. 动力（学）的、动态的", "n. 动力、动态"] },
-  { "name": "economic", "trans": ["adj. 经济（学）的"] },
-  { "name": "effective", "trans": ["adj. 有效的"] },
-  { "name": "efficient", "trans": ["adj. 有效率的"] },
-  { "name": "effort", "trans": ["n. 努力、尝试"] },
-  { "name": "elaborate", "trans": ["v. 精心准备、详细阐述", "adj. 精心的、详尽的"] },
-  { "name": "elect", "trans": ["v. 推选、选举"] },
-  { "name": "elegant", "trans": ["adj. 优美的、优雅的"] },
-  { "name": "element", "trans": ["n. 元素、要素、成分"] },
-  { "name": "elevate", "trans": ["v. 提高、提升"] },
-  { "name": "eligible", "trans": ["adj. 合格的、有资格的"] },
-  { "name": "eliminate", "trans": ["v. 消除、排除"] },
-  { "name": "elite", "trans": ["n. 精英"] },
-  { "name": "embarrassing", "trans": ["adj. 令人尴尬的"] },
-  { "name": "embrace", "trans": ["v/n. 拥抱、接受"] },
-  { "name": "emerge", "trans": ["v. 出现、显现"] },
-  { "name": "emigrate", "trans": ["v. 移民（出），离开"] },
-  { "name": "emission", "trans": ["n. 排放（量）"] },
-  { "name": "emotional", "trans": ["adj. 情绪的、情感的"] },
-  { "name": "emphasize", "trans": ["v. 强调、重视"] },
-  { "name": "empower", "trans": ["v. 授权、允许"] },
-  { "name": "encode", "trans": ["v. 编码"] },
-  { "name": "encounter", "trans": ["v/n. 遭遇、对抗"] },
-  { "name": "endeavor", "trans": ["v/n. 努力、尝试"] },
-  { "name": "endure", "trans": ["v. 忍受、延续"] },
-  { "name": "engage", "trans": ["v. 从事、参与"] },
-  { "name": "enhance", "trans": ["v. 提高、增加、加强"] },
-  { "name": "enlarge", "trans": ["v. 扩大、放大"] },
-  { "name": "enormous", "trans": ["adj. 巨大的"] },
-  { "name": "enrage", "trans": ["v. 激怒"] },
-  { "name": "ensure", "trans": ["v. 确保、保证"] },
-  { "name": "entail", "trans": ["v. 需要"] },
-  { "name": "entertainment", "trans": ["n. 娱乐，消遣"] },
-  { "name": "enthusiasm", "trans": ["n. 热情"] },
-  { "name": "entirely", "trans": ["adv. 完全地、彻底地"] },
-  { "name": "entitle", "trans": ["v. 给……命名、授予……称号、使有权利/资格"] },
-  { "name": "envision", "trans": ["v. 想象、构想"] },
-  { "name": "epidemic", "trans": ["adj. 传染性的、流行的", "n. 传染病、流行病、流行、风行"] },
-  { "name": "equality", "trans": ["n. 公平、平等"] },
-  { "name": "equivalent", "trans": ["adj. 等价的、相当于", "n. 等价物"] },
-  { "name": "essential", "trans": ["adj. 本质的、必要的", "n. 要素、必需品"] },
-  { "name": "establish", "trans": ["v. 创立、建立"] },
-  { "name": "esteem", "trans": ["v/n. 尊敬、尊重"] },
-  { "name": "estimate", "trans": ["v/n. 评估、估价"] },
-  { "name": "ethical", "trans": ["adj. 伦理的、道德的"] },
-  { "name": "evade", "trans": ["v. 使感到困难、逃避"] },
-  { "name": "evaluate", "trans": ["v. 评价、评估"] },
-  { "name": "evaporate", "trans": ["v. 蒸发、消失"] },
-  { "name": "eventually", "trans": ["adv. 最终、终于"] },
-  { "name": "evidence", "trans": ["n. 证据、证明"] },
-  { "name": "evolve", "trans": ["v. 发展、进化"] },
-  { "name": "exaggerate", "trans": ["v. 夸大、夸张"] },
-  { "name": "excellent", "trans": ["adj. 优秀的、很好的"] },
-  { "name": "exception", "trans": ["n. 例外"] },
-  { "name": "excessive", "trans": ["adj. 过度的、过量的"] },
-  { "name": "exclusive", "trans": ["adj. 排他的、专有的"] },
-  { "name": "executive", "trans": ["adj. 执行的、行政的", "n. 执行者、经理"] },
-  { "name": "exert", "trans": ["v. 施加、发挥"] },
-  { "name": "exhaust", "trans": ["v. 排出、耗尽、使精疲力尽"] },
-  { "name": "exhibit", "trans": ["v. 显示、表现出、展览"] },
-  { "name": "expand", "trans": ["v. 扩大、扩展"] },
-  { "name": "expensive", "trans": ["adj. 昂贵的、奢侈的"] },
-  { "name": "expire", "trans": ["v. 到期、终止"] },
-  { "name": "explicit", "trans": ["adj. 清楚的、明确的"] },
-  { "name": "exploit", "trans": ["v. 开发、利用"] },
-  { "name": "explore", "trans": ["v. 探索、探测、探险"] },
-  { "name": "explosion", "trans": ["n. 爆炸、爆发、激增"] },
-  { "name": "export", "trans": ["v/n. 输出、出口"] },
-  { "name": "expose", "trans": ["v. 面临、遭受、（使）暴露、（使）曝光"] },
-  { "name": "express", "trans": ["v. 表露、表达"] },
-  { "name": "extend", "trans": ["v. 延长、延期"] },
-  { "name": "external", "trans": ["adj. 外部的、表面的"] },
-  { "name": "extinguish", "trans": ["v. 使熄灭、使破灭"] },
-  { "name": "extract", "trans": ["v. 提炼、提取、取出、拔出"] },
-  { "name": "extraordinarily", "trans": ["adv. 极度地"] },
-  { "name": "fabric", "trans": ["n. 织物、结构"] },
-  { "name": "facilitate", "trans": ["v. 促进、有助于"] },
-  { "name": "fade", "trans": ["v. 褪色、变弱、逐渐消失"] },
-  { "name": "faint", "trans": ["adj. 模糊的、微弱的、勉强的"] },
-  { "name": "fake", "trans": ["adj. 假的、伪造的", "n. 假货、赝品"] },
-  { "name": "familiar", "trans": ["adj. 熟悉的、常见的"] },
-  { "name": "fantastic", "trans": ["adj. 异想天开的、不切实际的、极好的"] },
-  { "name": "fascinate", "trans": ["v. 入迷、使着迷"] },
-  { "name": "fatal", "trans": ["adj. 致命的、重大的"] },
-  { "name": "favor", "trans": ["v/n. 喜爱、帮助"] },
-  { "name": "feverish", "trans": ["adj. 发烧的、发热的、狂热的"] },
-  { "name": "fiction", "trans": ["n. 小说"] },
-  { "name": "fierce", "trans": ["adj. 凶猛的、激烈的"] },
-  { "name": "figure", "trans": ["v. 计算", "n. 数字、图表、人物"] },
-  { "name": "financial", "trans": ["adj. 金融的、财务的"] },
-  { "name": "finite", "trans": ["adj. 有限的"] },
-  { "name": "flaw", "trans": ["n. 缺陷、瑕疵、裂缝"] },
-  { "name": "flexibility", "trans": ["n. 弹性、灵活性"] },
-  { "name": "flourish", "trans": ["v/n. 繁荣、兴旺"] },
-  { "name": "folk", "trans": ["adj. 民间的", "n. 人们（多用复数）"] },
-  { "name": "foresee", "trans": ["v. 预见、预知"] },
-  { "name": "foreshadow", "trans": ["v. 预示、是…的预兆"] },
-  { "name": "formal", "trans": ["adj. 正式的、正规的"] },
-  { "name": "foster", "trans": ["v. 促进、助长"] },
-  { "name": "foundation", "trans": ["n. 创立、根据、基础、基金（会）"] },
-  { "name": "fraction", "trans": ["n. （小）部分、少量"] },
-  { "name": "fragile", "trans": ["adj. 脆弱的、易碎的"] },
-  { "name": "frame", "trans": ["n. 框架、体系、（人或动物的）躯体"] },
-  { "name": "freeze", "trans": ["v. 冻结"] },
-  { "name": "frugal", "trans": ["adj. 朴素的、节俭的"] },
-  { "name": "frustrate", "trans": ["v. 挫败、（使）受挫"] },
-  { "name": "fulfill", "trans": ["v. 完成、实现"] },
-  { "name": "function", "trans": ["v. 运行、起作用", "n. 功能"] },
-  { "name": "fund", "trans": ["v. 投资、资助", "n. 资金、基金"] },
-  { "name": "fuse", "trans": ["v. 融入、融合"] },
-  { "name": "garment", "trans": ["n. 衣服、服装"] },
-  { "name": "generate", "trans": ["v. 产生、引起"] },
-  { "name": "generous", "trans": ["adj. 慷慨的、大方的、大量的"] },
-  { "name": "genetic", "trans": ["adj. 基因的、遗传的"] },
-  { "name": "genius", "trans": ["n. 天才、天赋"] },
-  { "name": "genuinely", "trans": ["adv. 真诚地、诚实地"] },
-  { "name": "giant", "trans": ["adj. 巨大的"] },
-  { "name": "glamorous", "trans": ["adj. 迷人的、富有魅力的"] },
-  { "name": "gloom", "trans": ["n. 阴暗、忧郁"] },
-  { "name": "glory", "trans": ["n. 荣耀、辉煌"] },
-  { "name": "grant", "trans": ["v. 授予、允许"] },
-  { "name": "grasp", "trans": ["v/n. 抓住、理解"] },
-  { "name": "gratification", "trans": ["n. 喜悦、满足（感）"] },
-  { "name": "gratitude", "trans": ["n. 感激、感谢"] },
-  { "name": "greed", "trans": ["n. 贪婪"] },
-  { "name": "grievance", "trans": ["n. 委屈、不满"] },
-  { "name": "grip", "trans": ["v/n. 抓住、握紧、控制"] },
-  { "name": "guarantee", "trans": ["v/n. 保证、确保"] },
-  { "name": "habitat", "trans": ["n. 栖息地、生长环境"] },
-  { "name": "hasten", "trans": ["v. 加速"] },
-  { "name": "hemisphere", "trans": ["n. 半球"] },
-  { "name": "heritage", "trans": ["n. 遗产、传统"] },
-  { "name": "hierarchical", "trans": ["adj. 分层的、分级的、等级森严的"] },
-  { "name": "hijack", "trans": ["v/n. 劫持、强行控制"] },
-  { "name": "hinder", "trans": ["v. 阻碍、妨碍"] },
-  { "name": "horizon", "trans": ["n. 地平线"] },
-  { "name": "hostile", "trans": ["adj. 敌对的"] },
-  { "name": "humane", "trans": ["adj. 人道的、仁慈的"] },
-  { "name": "humble", "trans": ["adj. 谦逊的、普通的"] },
-  { "name": "hybrid", "trans": ["adj. 混合的", "n. 混合物、结合物"] },
-  { "name": "identify", "trans": ["v. 确定、辨认"] },
-  { "name": "ignore", "trans": ["v. 忽视、对……置之不理"] },
-  { "name": "illuminate", "trans": ["v. 阐明、说明"] },
-  { "name": "illusory", "trans": ["adj. 虚假的、虚幻的"] },
-  { "name": "illustrate", "trans": ["v. 阐明、说明"] },
-  { "name": "imitate", "trans": ["v. 模仿"] },
-  { "name": "immediate", "trans": ["adj. 直接的、立即的"] },
-  { "name": "immense", "trans": ["adj. 巨大的、大量的"] },
-  { "name": "immigrate", "trans": ["v. 移民（入）、迁徙"] },
-  { "name": "immune", "trans": ["adj. 免疫的、免除的、不受影响的"] },
-  { "name": "impact", "trans": ["v/n. 影响"] },
-  { "name": "impel", "trans": ["v. 推动、促使"] },
-  { "name": "implement", "trans": ["v. 实施、执行"] },
-  { "name": "implication", "trans": ["n. 含义、暗示"] },
-  { "name": "impose", "trans": ["v. 把……强加于、使承受"] },
-  { "name": "impoverished", "trans": ["adj. 贫困的"] },
-  { "name": "impressive", "trans": ["adj. 令人印象深刻的、很好的"] },
-  { "name": "impulse", "trans": ["n. 冲动、心血来潮"] },
-  { "name": "inability", "trans": ["n. 无能为力"] },
-  { "name": "incentive", "trans": ["adj. 激励的、刺激的", "n. 激励、刺激"] },
-  { "name": "incite", "trans": ["v. 鼓动、煽动"] },
-  { "name": "incline", "trans": ["v. 倾斜、倾向于"] },
-  { "name": "include", "trans": ["v. 包含、包括"] },
-  { "name": "incomplete", "trans": ["adj. 不完整的、不充分的"] },
-  { "name": "independent", "trans": ["adj. 独立的、自主的"] },
-  { "name": "indicate", "trans": ["v. 指出、表明、预示"] },
-  { "name": "indifferent", "trans": ["adj. 中立的、冷漠的、漠不关心的"] },
-  { "name": "indispensable", "trans": ["adj. 必不可少的、不可或缺的"] },
-  { "name": "induce", "trans": ["v. 引诱、引起"] },
-  { "name": "indulge", "trans": ["v. 放任、纵容"] },
-  { "name": "inedible", "trans": ["adj. 不能吃的、难吃的"] },
-  { "name": "inevitable", "trans": ["adj. 不可避免的、必然的"] },
-  { "name": "infection", "trans": ["n. 感染（病）、传染（病）"] },
-  { "name": "infer", "trans": ["v. 推测、推断"] },
-  { "name": "inferior", "trans": ["adj. 较差的、逊色的"] },
-  { "name": "infirm", "trans": ["adj. （年老）体弱的、意志薄弱的、不坚固的"] },
-  { "name": "inflation", "trans": ["n. 通货膨胀"] },
-  { "name": "influential", "trans": ["adj. 有影响力的", "n. 有影响力的人"] },
-  { "name": "infrastructure", "trans": ["n. 基础设施"] },
-  { "name": "infuriating", "trans": ["adj. 令人愤怒的"] },
-  { "name": "infuse", "trans": ["v. 注入、灌输"] },
-  { "name": "ingenuity", "trans": ["n. 创造力、智慧"] },
-  { "name": "inherent", "trans": ["adj. 内在的、与生俱来的"] },
-  { "name": "initial", "trans": ["adj. 最初的、初始的"] },
-  { "name": "inject", "trans": ["v. 注射、注入"] },
-  { "name": "innate", "trans": ["adj. 天生的、与生俱来的"] },
-  { "name": "innocent", "trans": ["adj. 无辜的、无罪的"] },
-  { "name": "innovation", "trans": ["n. 创新、革新"] },
-  { "name": "inquire", "trans": ["v. 调查、询问"] },
-  { "name": "insidious", "trans": ["adj. 潜伏的、不易察觉的"] },
-  { "name": "insightful", "trans": ["adj. 有深刻见解的、富有洞察力的"] },
-  { "name": "insist", "trans": ["v. 坚称、坚决要求"] },
-  { "name": "inspire", "trans": ["v. 激发、使产生灵感"] },
-  { "name": "instinct", "trans": ["n. 本能、直觉"] },
-  { "name": "institution", "trans": ["n. 机构、制度"] },
-  { "name": "instruct", "trans": ["v. 指导、命令"] },
-  { "name": "insure", "trans": ["v. 确保、保障"] },
-  { "name": "intangible", "trans": ["adj. 无形的、触摸不到的"] },
-  { "name": "integrity", "trans": ["n. 完整、诚信、正直"] },
-  { "name": "intellectual", "trans": ["adj. 学术的、知识的", "n. 知识分子"] },
-  { "name": "intelligence", "trans": ["n. 智力、智能"] },
-  { "name": "intend", "trans": ["v. 打算、想要"] },
-  { "name": "intense", "trans": ["adj. 紧张的、强烈的"] },
-  { "name": "interact", "trans": ["v. 相互影响、互动"] },
-  { "name": "interpersonal", "trans": ["adj. 人际的、人与人之间的"] },
-  { "name": "interpretation", "trans": ["n. 翻译、解释"] },
-  { "name": "interrupt", "trans": ["v. 中断、打扰"] },
-  { "name": "intervention", "trans": ["n. 干预、介入"] },
-  { "name": "intimate", "trans": ["adj. 亲密的、私密的"] },
-  { "name": "intricate", "trans": ["adj. 错综复杂的"] },
-  { "name": "intrude", "trans": ["v. 侵扰、侵犯"] },
-  { "name": "intuitive", "trans": ["adj. 本能的、直觉的"] },
-  { "name": "invert", "trans": ["v. 使颠覆、使反转"] },
-  { "name": "invest", "trans": ["v. 投资"] },
-  { "name": "investigation", "trans": ["n. 调查、研究"] },
-  { "name": "involve", "trans": ["v. 包括、参与"] },
-  { "name": "ironic", "trans": ["adj. 讽刺的"] },
-  { "name": "isolate", "trans": ["v. （使）孤立、（使）免于"] },
-  { "name": "issue", "trans": ["v. 发布、发行", "n. 问题、发行物"] },
-  { "name": "joint", "trans": ["adj. 联合的、共同的"] },
-  { "name": "journal", "trans": ["n. 日报、杂志、期刊"] },
-  { "name": "jury", "trans": ["n. 陪审团、评委会"] },
-  { "name": "justice", "trans": ["n. 法官、公正"] },
-  { "name": "lag", "trans": ["v/n. 落后、滞后"] },
-  { "name": "lame", "trans": ["adj. 瘸的、蹩脚的"] },
-  { "name": "launch", "trans": ["v. 发起、推出（新产品）"] },
-  { "name": "leakage", "trans": ["n. 漏水、泄漏"] },
-  { "name": "lean", "trans": ["v. 倾斜、倚靠", "adj. 瘦的、贫乏的"] },
-  { "name": "legacy", "trans": ["n. 遗产、传统"] },
-  { "name": "legal", "trans": ["adj. 法律的、合法的"] },
-  { "name": "legitimate", "trans": ["adj. 合法的、合理的"] },
-  { "name": "leisure", "trans": ["adj. 空闲的、休闲的", "n. 空闲、休闲"] },
-  { "name": "liberal", "trans": ["adj. 自由（主义）的、开明的", "n. 自由主义者、自由党"] },
-  { "name": "lineage", "trans": ["n. 血统、谱系"] },
-  { "name": "literate", "trans": ["adj. 有读写能力的、精通的"] },
-  { "name": "lobby", "trans": ["v. 游说", "n. 游说团体、大厅"] },
-  { "name": "locate", "trans": ["v. 定位、位于"] },
-  { "name": "lure", "trans": ["v/n. 引诱、诱惑"] },
-  { "name": "luxury", "trans": ["adj. 奢侈的", "n. 奢侈（品）"] },
-  { "name": "magnify", "trans": ["v. 放大、扩大"] },
-  { "name": "maintain", "trans": ["v. 保持、坚持认为"] },
-  { "name": "majestic", "trans": ["adj. 宏伟的、壮观的、华丽的"] },
-  { "name": "major", "trans": ["adj. 主要的、重要的"] },
-  { "name": "mandatory", "trans": ["adj. 强制性的、必修的"] },
-  { "name": "manipulate", "trans": ["v. 操作、处理、控制"] },
-  { "name": "manufacture", "trans": ["v. 加工、制造", "n. 制造业"] },
-  { "name": "manuscript", "trans": ["adj. 手写的", "n. 手稿、原稿"] },
-  { "name": "margin", "trans": ["n. 边缘"] },
-  { "name": "marine", "trans": ["adj. 海洋的"] },
-  { "name": "marvel", "trans": ["v. 对......感到惊讶", "n. 令人惊奇的事物"] },
-  { "name": "massive", "trans": ["adj. 大量的、巨大的"] },
-  { "name": "mastery", "trans": ["n. 掌握、精通、优势、统治权"] },
-  { "name": "materialistic", "trans": ["adj. 唯物主义的、物质至上的"] },
-  { "name": "mature", "trans": ["adj. 成熟的"] },
-  { "name": "measure", "trans": ["v. 测量、估量、权衡", "n. 措施"] },
-  { "name": "mechanical", "trans": ["adj. 机械的、呆板的"] },
-  { "name": "memorize", "trans": ["v. 记住、记忆"] },
-  { "name": "mental", "trans": ["adj. 精神的、心理的"] },
-  { "name": "merger", "trans": ["n. 合并、兼并"] },
-  { "name": "merit", "trans": ["n. 价值、优点"] },
-  { "name": "minimal", "trans": ["adj. 最小的、最低的"] },
-  { "name": "minister", "trans": ["n. 牧师、大臣、部长"] },
-  { "name": "minority", "trans": ["n. 少数（派）"] },
-  { "name": "misery", "trans": ["n. 不幸、苦难、悲惨的境遇"] },
-  { "name": "mislead", "trans": ["v. 误导"] },
-  { "name": "mobilize", "trans": ["v. 调动、动员"] },
-  { "name": "modest", "trans": ["adj. 谦虚的、适度的"] },
-  { "name": "monarch", "trans": ["n. 君主、最高统治者"] },
-  { "name": "monitor", "trans": ["v. 监控、监测", "n. 监视器、显示屏"] },
-  { "name": "monopoly", "trans": ["n. 垄断"] },
-  { "name": "motivate", "trans": ["v. 激发、驱使"] },
-  { "name": "multiply", "trans": ["v. 乘、大大增加"] },
-  { "name": "mutually", "trans": ["adv. 相互地、共同地"] },
-  { "name": "nasty", "trans": ["adj. 肮脏的、令人厌恶的、严重的"] },
-  { "name": "native", "trans": ["adj. 天生的、天然的、本国的、本地的"] },
-  { "name": "negative", "trans": ["adj. 负面的、否定的"] },
-  { "name": "neglect", "trans": ["v. 疏忽、忽视"] },
-  { "name": "negotiate", "trans": ["v. 协商、谈判"] },
-  { "name": "nightmare", "trans": ["n. 恶梦、噩梦"] },
-  { "name": "nonsense", "trans": ["adj. 荒谬的", "n. 胡说"] },
-  { "name": "normal", "trans": ["adj. 正常的、标准的"] },
-  { "name": "notably", "trans": ["adv. 明显地、尤其地"] },
-  { "name": "noteworthy", "trans": ["adj. 值得注意的、显著的"] },
-  { "name": "novel", "trans": ["adj. 新的、新颖的", "n. 小说"] },
-  { "name": "nurture", "trans": ["v/n. 培养、培育、养育"] },
-  { "name": "object", "trans": ["v. 反对、拒绝", "n. 物体、对象、目标"] },
-  { "name": "oblige", "trans": ["v. 强制、强迫"] },
-  { "name": "obscure", "trans": ["adj. 模糊的、不清楚的"] },
-  { "name": "obsess", "trans": ["v. 使着迷"] },
-  { "name": "obstruct", "trans": ["v. 阻碍、妨碍"] },
-  { "name": "occupy", "trans": ["v. 占用、占有、占领"] },
-  { "name": "occur", "trans": ["v. 出现、发生"] },
-  { "name": "odds", "trans": ["n. 几率、胜算"] },
-  { "name": "official", "trans": ["adj. 官方的、正式的", "n. 官员"] },
-  { "name": "omission", "trans": ["n. 遗漏"] },
-  { "name": "opponent", "trans": ["adj. 敌对的、对立的", "n. 对手、反对者"] },
-  { "name": "oppose", "trans": ["v. 反对"] },
-  { "name": "oppressive", "trans": ["adj. 压迫的、压抑的"] },
-  { "name": "optimistic", "trans": ["adj. 乐观的"] },
-  { "name": "option", "trans": ["n. 选项、期权"] },
-  { "name": "organism", "trans": ["n. 生物体、有机体"] },
-  { "name": "organization", "trans": ["n. 组织、机构"] },
-  { "name": "original", "trans": ["adj. 起初的、原始的"] },
-  { "name": "ornament", "trans": ["n. 装饰（物）"] },
-  { "name": "outlive", "trans": ["v. 比......活得长"] },
-  { "name": "outraged", "trans": ["adj. 愤怒的"] },
-  { "name": "overlook", "trans": ["v/n. 忽略、忽视"] },
-  { "name": "overshadow", "trans": ["v. 给……蒙上阴影、遮盖"] },
-  { "name": "overturn", "trans": ["v/n. 推翻、打翻、翻倒"] },
-  { "name": "overwhelming", "trans": ["adj. 压倒性的、绝大部分的"] },
-  { "name": "panel", "trans": ["n. 专家组、仪表盘"] },
-  { "name": "panic", "trans": ["adj. 恐慌的", "n. 恐慌"] },
-  { "name": "paradox", "trans": ["n. 悖论、矛盾"] },
-  { "name": "parallel", "trans": ["adj. 平行的、类似的", "n. 平行线、类似的事情"] },
-  { "name": "paralysis", "trans": ["n. 麻痹、瘫痪"] },
-  { "name": "partial", "trans": ["adj. 局部的、偏袒的"] },
-  { "name": "participate", "trans": ["v. 参加、参与"] },
-  { "name": "passionate", "trans": ["adj. 热情的、易怒的"] },
-  { "name": "patent", "trans": ["v. 授予/取得专利", "n. 专利"] },
-  { "name": "peak", "trans": ["n. 顶峰"] },
-  { "name": "peer", "trans": ["v. 凝视、盯着", "n. 同辈、同行"] },
-  { "name": "penalty", "trans": ["n. 处罚、惩罚"] },
-  { "name": "pension", "trans": ["n. 津贴、退休金"] },
-  { "name": "perceive", "trans": ["v. 感知、察觉"] },
-  { "name": "perish", "trans": ["v. 死亡、消亡"] },
-  { "name": "permanent", "trans": ["adj.永久的、永恒的"] },
-  { "name": "permissible", "trans": ["adj. 允许的"] },
-  { "name": "perpetuate", "trans": ["v. 持续、使长期存在"] },
-  { "name": "perplexed", "trans": ["adj. 困惑的"] },
-  { "name": "persistent", "trans": ["adj. 坚持的、持续的"] },
-  { "name": "perspective", "trans": ["n. 视角、观点"] },
-  { "name": "pervasive", "trans": ["adj. 普遍的、流行的"] },
-  { "name": "pessimistic", "trans": ["adj. 悲观的"] },
-  { "name": "philosophy", "trans": ["n. 哲学"] },
-  { "name": "phony", "trans": ["adj. 假的、虚伪的"] },
-  { "name": "physical", "trans": ["adj. 身体的、生理的、实体的"] },
-  { "name": "plead", "trans": ["v. 请求、恳求"] },
-  { "name": "polarize", "trans": ["v. （使）两极分化"] },
-  { "name": "ponder", "trans": ["v. 仔细考虑、深思"] },
-  { "name": "popularity", "trans": ["n. 普及、流行"] },
-  { "name": "portray", "trans": ["v. 描述、描绘"] },
-  { "name": "possession", "trans": ["n. 财产、所有物"] },
-  { "name": "potential", "trans": ["adj. 潜在的、可能的", "n. 潜能、可能"] },
-  { "name": "precede", "trans": ["v. 在……之前、高于"] },
-  { "name": "precious", "trans": ["adj. 珍贵的、宝贵的"] },
-  { "name": "precisely", "trans": ["adv. 准确地、恰恰是"] },
-  { "name": "predecessor", "trans": ["n. 前任、前辈"] },
-  { "name": "predict", "trans": ["v. 预言、预知"] },
-  { "name": "preference", "trans": ["n. 喜好、偏好"] },
-  { "name": "prejudice", "trans": ["n. 偏见"] },
-  { "name": "preliminary", "trans": ["adj. 初步的、预备的"] },
-  { "name": "premise", "trans": ["n. 前提"] },
-  { "name": "prescribe", "trans": ["v. 开药、开处方"] },
-  { "name": "preserve", "trans": ["v. 保存、保持"] },
-  { "name": "pressure", "trans": ["n. 压力"] },
-  { "name": "prestige", "trans": ["n. 声望、声誉"] },
-  { "name": "presumptively", "trans": ["adv. 假定地、推测地"] },
-  { "name": "prevailing", "trans": ["adj. 流行的、现行的"] },
-  { "name": "prevent", "trans": ["v. 阻止、防止"] },
-  { "name": "previous", "trans": ["adj. 之前的"] },
-  { "name": "primary", "trans": ["adj. 主要的、基本的、初级的"] },
-  { "name": "principle", "trans": ["n. 原理、原则"] },
-  { "name": "prior", "trans": ["adj. 在……之前的、优先的"] },
-  { "name": "private", "trans": ["adj. 私人的、私密的"] },
-  { "name": "privilege", "trans": ["n. 特权"] },
-  { "name": "procedure", "trans": ["n. 程序、步骤"] },
-  { "name": "proceed", "trans": ["v. 接着、继续", "n. 收入"] },
-  { "name": "proclaim", "trans": ["v. 宣布、宣告"] },
-  { "name": "productive", "trans": ["adj. 生产的、多产的、有效的"] },
-  { "name": "professional", "trans": ["adj. 专业的、职业的"] },
-  { "name": "proficient", "trans": ["adj. 熟练的、精通的"] },
-  { "name": "profit", "trans": ["v. 获利、受益", "n. 利益、利润"] },
-  { "name": "profound", "trans": ["adj. 深刻的、深远的"] },
-  { "name": "progress", "trans": ["v/n. 进步、发展"] },
-  { "name": "prohibition", "trans": ["n. 禁止、禁令"] },
-  { "name": "prominent", "trans": ["adj. 显著的、杰出的"] },
-  { "name": "promising", "trans": ["adj. 有希望的、好的"] },
-  { "name": "promote", "trans": ["v. 促进、推广"] },
-  { "name": "prompt", "trans": ["adj. 迅速的、立即的", "v. 促使、引起"] },
-  { "name": "prone", "trans": ["adj. 易于……的、倾向于……的"] },
-  { "name": "pronounced", "trans": ["adj. 明显的、显著的"] },
-  { "name": "proper", "trans": ["adj. 合适的、恰当的"] },
-  { "name": "property", "trans": ["n. 资产、财产"] },
-  { "name": "propose", "trans": ["v. 计划、建议"] },
-  { "name": "prospect", "trans": ["n. 前途、前景"] },
-  { "name": "prosperity", "trans": ["n. 繁荣"] },
-  { "name": "protest", "trans": ["v/n. 抗议"] },
-  { "name": "provide", "trans": ["v. 提供、供应"] },
-  { "name": "provoke", "trans": ["v. 激起、引起"] },
-  { "name": "prudent", "trans": ["adj. 谨慎的"] },
-  { "name": "psychology", "trans": ["n. 心理（学）"] },
-  { "name": "publication", "trans": ["n. 出版（物）"] },
-  { "name": "purchase", "trans": ["v/n. 购买"] },
-  { "name": "pursuit", "trans": ["n. 追求、职业"] },
-  { "name": "radical", "trans": ["adj. 根本的、激进的"] },
-  { "name": "random", "trans": ["adj. 随机的、随便的"] },
-  { "name": "rarely", "trans": ["adv. 很少地、罕有地"] },
-  { "name": "readily", "trans": ["adv. 乐意地"] },
-  { "name": "realm", "trans": ["n. 领域、范围"] },
-  { "name": "reap", "trans": ["v. 收获、收割"] },
-  { "name": "reasonable", "trans": ["adj. 合理的"] },
-  { "name": "recessing", "trans": ["n. 衰退（期）、萧条（期）"] },
-  { "name": "recipient", "trans": ["n. 接受者、获得者"] },
-  { "name": "recitation", "trans": ["n. 背诵、朗诵"] },
-  { "name": "recklessly", "trans": ["adv. 鲁莽地、不计后果地"] },
-  { "name": "recognize", "trans": ["v. 认出、识别"] },
-  { "name": "recommend", "trans": ["v. 推荐、建议"] },
-  { "name": "recovery", "trans": ["n. 恢复、复苏"] },
-  { "name": "recruit", "trans": ["v. 招聘、招募", "n. 招聘、新兵、新成员"] },
-  { "name": "rectify", "trans": ["v. 改正、矫正"] },
-  { "name": "reduce", "trans": ["v. 降低、减少"] },
-  { "name": "refer", "trans": ["v. 涉及、提到"] },
-  { "name": "reflect", "trans": ["v. 反射、反映"] },
-  { "name": "reform", "trans": ["v/n. 改革"] },
-  { "name": "refutation", "trans": ["n. 反驳、驳斥"] },
-  { "name": "regime", "trans": ["n. 政权、政治制度"] },
-  { "name": "region", "trans": ["n. 地区、范围"] },
-  { "name": "register", "trans": ["v/n. 登记、注册"] },
-  { "name": "regrettable", "trans": ["adj. 可惜的、令人遗憾的"] },
-  { "name": "regulation", "trans": ["n. 管理、法规"] },
-  { "name": "reign", "trans": ["v/n. 统治、支配"] },
-  { "name": "reinforce", "trans": ["v. 强化、加强"] },
-  { "name": "reject", "trans": ["v. 拒绝、排斥"] },
-  { "name": "release", "trans": ["v. 发布、释放"] },
-  { "name": "reliance", "trans": ["n. 信赖、依赖"] },
-  { "name": "relieve", "trans": ["v. 缓解、减轻"] },
-  { "name": "religious", "trans": ["adj. 宗教的、虔诚的"] },
-  { "name": "reluctant", "trans": ["adj. 勉强的、不情愿的"] },
-  { "name": "remark", "trans": ["v. 评论、注意到", "n. 言论、评论"] },
-  { "name": "reminder", "trans": ["n. 提醒、暗示"] },
-  { "name": "remote", "trans": ["adj. 遥远的、偏僻的"] },
-  { "name": "renovation", "trans": ["n. 整修、翻新"] },
-  { "name": "represent", "trans": ["v. 代表、表现"] },
-  { "name": "reproducibility", "trans": ["n. 重现性、再生性"] },
-  { "name": "reputation", "trans": ["n. 名声、名誉"] },
-  { "name": "require", "trans": ["v. 需要、要求"] },
-  { "name": "resent", "trans": ["v. 厌恶、对……感到不满"] },
-  { "name": "resident", "trans": ["n. 居民"] },
-  { "name": "resistant", "trans": ["adj. 抵制的、抗拒的"] },
-  { "name": "respect", "trans": ["v. 尊敬、尊重", "n. 尊敬、方面"] },
-  { "name": "responsible", "trans": ["adj. 负责的、有责任的"] },
-  { "name": "restore", "trans": ["v. 修复、恢复、（使）复原"] },
-  { "name": "resume", "trans": ["v. 恢复、重新开始", "n. 简历"] },
-  { "name": "retail", "trans": ["adj. 零售的", "v/n. 零售"] },
-  { "name": "retain", "trans": ["v. 保持、保留"] },
-  { "name": "retreat", "trans": ["v. 后退、衰退", "n. 后退、衰退"] },
-  { "name": "retrospection", "trans": ["n. 回忆、反思"] },
-  { "name": "reveal", "trans": ["v. 揭露、表明"] },
-  { "name": "revenue", "trans": ["n. 收入、收益"] },
-  { "name": "reverse", "trans": ["v. 颠倒、扭转、（使）转变"] },
-  { "name": "review", "trans": ["v/n. 回顾、审核"] },
-  { "name": "revival", "trans": ["n. 复活、复兴、苏醒"] },
-  { "name": "revolutionary", "trans": ["adj. 革命的、革命性的"] },
-  { "name": "righteous", "trans": ["adj. 公正的、正义的"] },
-  { "name": "rigid", "trans": [] },
-  { "name": "rigorous", "trans": ["adj. 严格的、枯燥的"] },
-  { "name": "ritual", "trans": ["n. 仪式、习惯"] },
-  { "name": "rival", "trans": ["n. 竞争者、对手"] },
-  { "name": "robust", "trans": ["adj. 健壮的、强有力的"] },
-  { "name": "rough", "trans": ["adj. 粗糙的、大致的"] },
-  { "name": "routine", "trans": ["adj. 日常的、常规的", "n. 常规、惯例"] },
-  { "name": "satisfy", "trans": ["v. 满足、使满意"] },
-  { "name": "saturate", "trans": ["v. 浸透、使饱和"] },
-  { "name": "scapegoat", "trans": ["n. 替罪羊"] },
-  { "name": "scary", "trans": ["adj. 可怕的"] },
-  { "name": "scorn", "trans": ["v/n. 轻蔑、鄙视"] },
-  { "name": "screen", "trans": ["v. 检查、审查", "n. 屏幕"] },
-  { "name": "scrutinize", "trans": ["v. 仔细察看、详细检查"] },
-  { "name": "section", "trans": ["n. 部分、阶层"] },
-  { "name": "secure", "trans": ["adj. 安全的；无忧的", "v. 保护、得到"] },
-  { "name": "segment", "trans": ["v. 切分、分割", "n. 部分"] },
-  { "name": "selective", "trans": ["adj. 选择的、挑剔的"] },
-  { "name": "senior", "trans": ["adj. 年长的、高级的"] },
-  { "name": "sensitive", "trans": ["adj. 敏感的"] },
-  { "name": "sentiment", "trans": ["n. 感情、情绪"] },
-  { "name": "separate", "trans": ["adj. 单独的、分开的", "v. 分开、使分离"] },
-  { "name": "series", "trans": ["n. 系列（节目）、丛书"] },
-  { "name": "severe", "trans": ["adj. 严重的、严峻的、严厉的"] },
-  { "name": "shed", "trans": ["v. 脱落、流出"] },
-  { "name": "shield", "trans": ["v. 遮挡、保护", "n. 盾牌"] },
-  { "name": "shift", "trans": ["v/n. 转移、转变"] },
-  { "name": "shrinking", "trans": ["adj. 收缩的、萎缩的", "n. 收缩、萎缩"] },
-  { "name": "signature", "trans": ["n. 签名"] },
-  { "name": "significant", "trans": ["adj. 重要的"] },
-  { "name": "skeptical", "trans": ["adj. 怀疑的"] },
-  { "name": "skip", "trans": ["v/n. 跳跃、跳过、跳读"] },
-  { "name": "slacking", "trans": ["adj. 懒惰的"] },
-  { "name": "slim", "trans": ["adj. 苗条的、薄的"] },
-  { "name": "sole", "trans": ["adj. 单独的、唯一的"] },
-  { "name": "sophisticated", "trans": ["adj. 复杂的、精致的"] },
-  { "name": "species", "trans": ["n. 种类、物种"] },
-  { "name": "split", "trans": ["v. 分解、分开、使分离"] },
-  { "name": "sponsor", "trans": ["v. 赞助、发起", "n. 赞助商、发起者"] },
-  { "name": "spontaneity", "trans": ["n. 自然流露、即兴发挥"] },
-  { "name": "spread", "trans": ["v/n. 传播、分布"] },
-  { "name": "squeeze", "trans": ["v. 挤压、榨取"] },
-  { "name": "stable", "trans": ["adj. 稳定的、稳固的"] },
-  { "name": "stagnation", "trans": ["n. 停滞"] },
-  { "name": "statement", "trans": ["n. 陈述、报表"] },
-  { "name": "statistical", "trans": ["adj. 统计（学）的"] },
-  { "name": "status", "trans": ["n. 身份、地位、状况"] },
-  { "name": "steep", "trans": ["adj. 陡峭的、（上升/下降）急剧的"] },
-  { "name": "steer", "trans": ["v. 驾驶、引导"] },
-  { "name": "stem", "trans": ["v. 起源", "n. 茎、干"] },
-  { "name": "stick", "trans": ["v. 刺、粘住", "n. 棍子、棒子"] },
-  { "name": "straight", "trans": ["adj/adv. 笔直的/地、直接的/地"] },
-  { "name": "strain", "trans": ["v. 拉紧", "n. 张力、压力"] },
-  { "name": "strategy", "trans": ["n. 战略、策略"] },
-  { "name": "stress", "trans": ["v. 强调", "n. 压力、重点"] },
-  { "name": "strict", "trans": ["adj. 严格的、严谨的"] },
-  { "name": "striking", "trans": ["adj. 惊人的、显著的、突出的"] },
-  { "name": "strive", "trans": ["v. 努力、争取"] },
-  { "name": "subject", "trans": ["v. （使）遭受", "n. 主题、被试（研究对象）"] },
-  { "name": "submit", "trans": ["v. 提交、（使）服从"] },
-  { "name": "subscribe", "trans": ["v. 签署、赞同、订阅"] },
-  { "name": "subsequent", "trans": ["adj. 随后的、后来的"] },
-  { "name": "subsidize", "trans": ["v. 资助、补贴"] },
-  { "name": "substantial", "trans": ["adj. 大量的、实质的"] },
-  { "name": "substitute", "trans": ["v. 替代", "n. 替代（品）"] },
-  { "name": "subtle", "trans": ["adj. 不明显的、不易察觉的"] },
-  { "name": "succeed", "trans": ["v. 成功、继承"] },
-  { "name": "suffer", "trans": ["v. 遭受、经受"] },
-  { "name": "suicide", "trans": ["v. 自杀", "n. 自杀（者）"] },
-  { "name": "suitable", "trans": ["adj. 合适的、适当的、恰当的"] },
-  { "name": "summit", "trans": ["n. 顶点、顶峰"] },
-  { "name": "superb", "trans": ["adj. 极好的"] },
-  { "name": "superior", "trans": ["adj. 比……好的、出众的"] },
-  { "name": "supervision", "trans": ["n. 监督、管理"] },
-  { "name": "supplement", "trans": ["v. 补充", "n. 补充、增刊"] },
-  { "name": "suppose", "trans": ["v. 假设、猜想"] },
-  { "name": "suppress", "trans": ["v. 镇压、压制、抑制"] },
-  { "name": "surface", "trans": ["v. （使）出现、浮出水面", "n. 表面"] },
-  { "name": "surgery", "trans": ["n. 外科、手术"] },
-  { "name": "survive", "trans": ["v. 幸存、存留"] },
-  { "name": "suspect", "trans": ["v. 怀疑、猜想", "n. 嫌疑犯"] },
-  { "name": "suspend", "trans": ["v. 悬挂、暂停"] },
-  { "name": "sustain", "trans": ["v. 保持、维持、支撑"] },
-  { "name": "swamp", "trans": ["v. 淹没、（使）陷入困境", "n. 沼泽"] },
-  { "name": "swing", "trans": ["v/n. 摇摆、波动"] },
-  { "name": "switch", "trans": ["v. 转移、转换", "n. 开关"] },
-  { "name": "symbolic", "trans": ["adj. 象征的、符号的"] },
-  { "name": "sympathy", "trans": ["n. 同情"] },
-  { "name": "temper", "trans": ["v. 调和、控制", "n. 脾气、性情"] },
-  { "name": "temporary", "trans": ["adj. 暂时的、临时的"] },
-  { "name": "tempt", "trans": ["v. 引诱、诱使、吸引"] },
-  { "name": "tendency", "trans": ["n. 趋势、倾向"] },
-  { "name": "terminal", "trans": ["adj. 终点的、（疾病）晚期的", "n. 终点、终端（机）"] },
-  { "name": "terrify", "trans": ["v. 恐吓、使害怕"] },
-  { "name": "testify", "trans": ["v. 证实、作证"] },
-  { "name": "thorny", "trans": ["adj. 棘手的、麻烦的"] },
-  { "name": "threaten", "trans": ["v. 威胁"] },
-  { "name": "thrive", "trans": ["v. 繁荣、盛行"] },
-  { "name": "tissue", "trans": ["n. （动植物的）组织"] },
-  { "name": "tolerate", "trans": ["v. 容忍、忍受"] },
-  { "name": "tough", "trans": ["adj. 强硬的、严苛的"] },
-  { "name": "toxic", "trans": ["adj. 有毒的、不良的"] },
-  { "name": "transaction", "trans": ["n. 交易"] },
-  { "name": "transcendence", "trans": ["n. 超越"] },
-  { "name": "transfer", "trans": ["v/n. 传递、转移"] },
-  { "name": "transform", "trans": ["v. 改变、转变"] },
-  { "name": "transition", "trans": ["n. 转型、过渡"] },
-  { "name": "transparency", "trans": ["n. 透明（度）"] },
-  { "name": "transplant", "trans": ["v/n. 移植"] },
-  { "name": "transportation", "trans": ["n. 运输、交通工具"] },
-  { "name": "tremendous", "trans": ["adj. 巨大的"] },
-  { "name": "triumph", "trans": ["v/n. 成功，胜利"] },
-  { "name": "turbulent", "trans": ["adj. 混乱的、湍急的"] },
-  { "name": "ultimate", "trans": ["adj. 最终的、根本的、极限的"] },
-  { "name": "unanimous", "trans": ["adj. 全体同意的、一致通过的"] },
-  { "name": "undermine", "trans": ["v. 破坏"] },
-  { "name": "uniform", "trans": ["adj. 统一的、相同的", "n. 制服"] },
-  { "name": "unique", "trans": ["adj. 独特的、唯一的"] },
-  { "name": "unite", "trans": ["v. 联合、团结、统一"] },
-  { "name": "universal", "trans": ["adj. 普遍的、通用的"] },
-  { "name": "unsurpassed", "trans": ["adj. 难以超越的、无与伦比的"] },
-  { "name": "upset", "trans": ["v. 打乱、使心烦（生气）"] },
-  { "name": "urban", "trans": ["adj. 城市的"] },
-  { "name": "urge", "trans": ["v. 推动、驱使", "n. 欲望、要求"] },
-  { "name": "utility", "trans": ["n. 功用、效用"] },
-  { "name": "vacuum", "trans": ["v. （用真空吸尘器）清扫、吸入", "n. 真空"] },
-  { "name": "vague", "trans": ["adj. 模糊的、含糊的"] },
-  { "name": "vain", "trans": ["adj. 自负的"] },
-  { "name": "valid", "trans": ["adj. 有效的、正当的"] },
-  { "name": "vanish", "trans": ["v. 消失"] },
-  { "name": "vanity", "trans": ["n. 虚荣"] },
-  { "name": "various", "trans": ["adj. 各种各样的"] },
-  { "name": "verbal", "trans": ["adj. 口头的、语言的、文字的"] },
-  { "name": "verdict", "trans": ["n. 结论、判决"] },
-  { "name": "verify", "trans": ["v. 证实、核实"] },
-  { "name": "viable", "trans": ["adj. 可行的"] },
-  { "name": "vibrant", "trans": ["adj. 充满活力的"] },
-  { "name": "victory", "trans": ["n. 胜利"] },
-  { "name": "vigorously", "trans": ["adv. 精力充沛地、强烈地"] },
-  { "name": "violate", "trans": ["v. 违反、侵犯"] },
-  { "name": "virtually", "trans": ["adv. 几乎、事实上"] },
-  { "name": "visible", "trans": ["adj. 看得见的、明显的"] },
-  { "name": "vision", "trans": ["n. 视力、憧憬"] },
-  { "name": "visualize", "trans": ["v. 想像、（使）形象化"] },
-  { "name": "vital", "trans": ["adj. 至关重要的、生死攸关的"] },
-  { "name": "vivid", "trans": ["adj. 生动的、逼真的"] },
-  { "name": "vocation", "trans": ["n. 职业"] },
-  { "name": "withdraw", "trans": ["v. 撤销、收回"] },
-  { "name": "withstand", "trans": ["v. 承受"] },
-  { "name": "worship", "trans": ["v/n. 敬奉、崇拜"] },
-  { "name": "yield", "trans": ["v. 生产、产生", "n. 产量、收益"] },
-  { "name": "zone", "trans": ["n. 地区"] }
+  {
+    "name": "abdicate",
+    "trans": [
+      "vt. 放弃（职责、权力等）",
+      "vi. 退位；逊位",
+      "adj. 可以放弃的；放弃权力的，退位的"
+    ]
+  },
+  {
+    "name": "abide",
+    "trans": [
+      "vi. 持续；忍受；停留",
+      "vt. 忍受，容忍；停留；遵守"
+    ]
+  },
+  {
+    "name": "abolish",
+    "trans": [
+      "v. 废除；废止；取消"
+    ]
+  },
+  {
+    "name": "abound",
+    "trans": [
+      "vi. 大量存在；富于；充满"
+    ]
+  },
+  {
+    "name": "absolute",
+    "trans": [
+      "n. 绝对；绝对事物",
+      "adj. 绝对的；完全的；专制的"
+    ]
+  },
+  {
+    "name": "absorb",
+    "trans": [
+      "vt. 吸收；吸引；承受"
+    ]
+  },
+  {
+    "name": "abstract",
+    "trans": [
+      "adj. 抽象的；理论的",
+      "n. 摘要；抽象的东西",
+      "vt. 移除；摘要；偷"
+    ]
+  },
+  {
+    "name": "abundantly",
+    "trans": [
+      "adv. 丰富地；大量地；十分清楚"
+    ]
+  },
+  {
+    "name": "abuse",
+    "trans": [
+      "n. 滥用；虐待；辱骂",
+      "vt. 滥用；虐待；辱骂"
+    ]
+  },
+  {
+    "name": "academic",
+    "trans": [
+      "n. 大学生，大学教师；学者",
+      "adj. 学术的；理论的；学院的"
+    ]
+  },
+  {
+    "name": "accelerate",
+    "trans": [
+      "vt. 使……加快；使……增速",
+      "vi. 加速；促进；增加"
+    ]
+  },
+  {
+    "name": "access",
+    "trans": [
+      "n. 通道，入口；使用权，接近的机会；接近",
+      "v. 接近；进入；使用"
+    ]
+  },
+  {
+    "name": "acclaim",
+    "trans": [
+      "n. 欢呼，喝彩；称赞",
+      "vt. 称赞；为…喝彩，向…欢呼",
+      "vi. 欢呼；喝彩"
+    ]
+  },
+  {
+    "name": "accommodate",
+    "trans": [
+      "vi. 适应；调解",
+      "vt. 容纳；使适应；供应"
+    ]
+  },
+  {
+    "name": "accompany",
+    "trans": [
+      "vt. 陪伴，伴随；伴奏",
+      "vi. 伴奏；伴唱"
+    ]
+  },
+  {
+    "name": "account",
+    "trans": [
+      "n. 账户；解释；账目，账单",
+      "vt. 认为；把…视为",
+      "vi. 解释；导致；报账"
+    ]
+  },
+  {
+    "name": "accuracy",
+    "trans": [
+      "n. 准确(性)；精确；准确度"
+    ]
+  },
+  {
+    "name": "achieve",
+    "trans": [
+      "vt. 取得；获得；实现",
+      "vi. 达到预期的目的；实现预期的结果；如愿以偿"
+    ]
+  },
+  {
+    "name": "acknowledge",
+    "trans": [
+      "v. 承认，认可；确认收到，告知收悉；表示感谢，答谢"
+    ]
+  },
+  {
+    "name": "acquire",
+    "trans": [
+      "vt. 获得；取得；学到"
+    ]
+  },
+  {
+    "name": "activate",
+    "trans": [
+      "vt. 刺激；使活动；使活泼",
+      "vi. 激活；有活力"
+    ]
+  },
+  {
+    "name": "acute",
+    "trans": [
+      "adj. 尖锐的，锐角的；敏锐的，灵敏的；严重的，剧烈的"
+    ]
+  },
+  {
+    "name": "adaptable",
+    "trans": [
+      "adj. 适合的；能适应的；可修改的"
+    ]
+  },
+  {
+    "name": "adequate",
+    "trans": [
+      "adj. 足够的，充足的；适当的，恰当的；合格的，差强人意的"
+    ]
+  },
+  {
+    "name": "adhere",
+    "trans": [
+      "vi. 黏附；附着；坚持",
+      "vt. 使粘附；遵循，坚持；追随，依附"
+    ]
+  },
+  {
+    "name": "adjoining",
+    "trans": [
+      "adj. 毗连的；邻近的",
+      "v. 邻近；毗连( adjoin的现在分词 )"
+    ]
+  },
+  {
+    "name": "adjust",
+    "trans": [
+      "vt. 调整，使…适合；校准",
+      "vi. 调整，校准；适应"
+    ]
+  },
+  {
+    "name": "administration",
+    "trans": [
+      "n. 管理，行政；政府，行政机构；实施，执行"
+    ]
+  },
+  {
+    "name": "admire",
+    "trans": [
+      "vt. 钦佩；赞美",
+      "vi. 钦佩；称赞"
+    ]
+  },
+  {
+    "name": "admit",
+    "trans": [
+      "vt.&vi. 许可进入；承认，供认",
+      "vt. 允许；确认",
+      "vi. 承认；允许"
+    ]
+  },
+  {
+    "name": "adopt",
+    "trans": [
+      "vi. 采取；过继",
+      "vt. 采取；接受；收养"
+    ]
+  },
+  {
+    "name": "adornment",
+    "trans": [
+      "n. 装饰品，装饰物；装饰，修饰"
+    ]
+  },
+  {
+    "name": "advocate",
+    "trans": [
+      "vt. 提倡；主张；拥护",
+      "n. 提倡者；支持者；律师"
+    ]
+  },
+  {
+    "name": "affect",
+    "trans": [
+      "n. 情感；引起感情的因素",
+      "vt. 影响；感染；感动",
+      "vi. 倾向；喜欢"
+    ]
+  },
+  {
+    "name": "affiliation",
+    "trans": [
+      "n. 友好关系；加入；联盟"
+    ]
+  },
+  {
+    "name": "affirm",
+    "trans": [
+      "vt. 肯定；断言",
+      "vi. 确认；断言"
+    ]
+  },
+  {
+    "name": "agency",
+    "trans": [
+      "n. 代理处，经销处；代理权，代理行为；政府机构，机关"
+    ]
+  },
+  {
+    "name": "aggravate",
+    "trans": [
+      "vt. 加重；使恶化；激怒"
+    ]
+  },
+  {
+    "name": "aggregation",
+    "trans": [
+      "n. 聚集；集成；集结 聚集体"
+    ]
+  },
+  {
+    "name": "aggressive",
+    "trans": [
+      "adj. 好斗的，挑衅的；气势汹汹的；积极进取的，有进取心的"
+    ]
+  },
+  {
+    "name": "agitated",
+    "trans": [
+      "adj. 不安的；激动的；颤抖的",
+      "v. 激怒；使焦虑不安"
+    ]
+  },
+  {
+    "name": "agony",
+    "trans": [
+      "n. 苦恼；极大的痛苦；临死的挣扎"
+    ]
+  },
+  {
+    "name": "alien",
+    "trans": [
+      "adj. 外国的；相异的；异已的",
+      "n. 外国人；外侨；局外人",
+      "vt. 让渡，转让；疏远；离间"
+    ]
+  },
+  {
+    "name": "allay",
+    "trans": [
+      "vt. 减轻，缓和；使冷静，使平静；止渴"
+    ]
+  },
+  {
+    "name": "allegation",
+    "trans": [
+      "n. 指控；陈述，主张；宣称"
+    ]
+  },
+  {
+    "name": "alleviate",
+    "trans": [
+      "vt. 减轻；缓和；缓解"
+    ]
+  },
+  {
+    "name": "alliance",
+    "trans": [
+      "n. 结盟，联盟；同盟国；结盟的社会"
+    ]
+  },
+  {
+    "name": "allocation",
+    "trans": [
+      "n. 配给；分配；拨出 分配额(或量)"
+    ]
+  },
+  {
+    "name": "alter",
+    "trans": [
+      "vt. 改变；更改；改建（房屋）",
+      "vi. 改变；修改"
+    ]
+  },
+  {
+    "name": "amateur",
+    "trans": [
+      "adj. 业余的；非职业的；外行的",
+      "n. 业余爱好者；外行；生手"
+    ]
+  },
+  {
+    "name": "amazing",
+    "trans": [
+      "adj. 令人惊异的",
+      "vt. 使惊异：感到非常好奇",
+      "n. 吃惊；好奇"
+    ]
+  },
+  {
+    "name": "ambiguous",
+    "trans": [
+      "adj. 引起歧义的；模棱两可的；含糊不清的"
+    ]
+  },
+  {
+    "name": "ambition",
+    "trans": [
+      "n. 抱负；渴望得到的东西；追求的目标",
+      "vt. 追求；有…野心"
+    ]
+  },
+  {
+    "name": "amplify",
+    "trans": [
+      "vt. 放大，扩大；增强；详述",
+      "vi. 详述；引申；发挥"
+    ]
+  },
+  {
+    "name": "analogy",
+    "trans": [
+      "n. 类比；比喻；相似(性)"
+    ]
+  },
+  {
+    "name": "ancestor",
+    "trans": [
+      "n. 祖先，祖宗；被继承人；原型"
+    ]
+  },
+  {
+    "name": "announce",
+    "trans": [
+      "vt. 宣布；述说；预示",
+      "vi. 宣布参加竞选；当播音员"
+    ]
+  },
+  {
+    "name": "annoy",
+    "trans": [
+      "n. 烦恼（等于annoyance）",
+      "vt. 骚扰；惹恼；打搅",
+      "vi. 惹恼；令人讨厌；打搅"
+    ]
+  },
+  {
+    "name": "annual",
+    "trans": [
+      "adj. 每年的；年度的；一年生的",
+      "n. 年报；年刊；年鉴"
+    ]
+  },
+  {
+    "name": "anonymity",
+    "trans": [
+      "n. 匿名；匿名者；无名之辈"
+    ]
+  },
+  {
+    "name": "anticipate",
+    "trans": [
+      "vt. 预感；预见；预料",
+      "vi. 过早地提出；过早地考虑（或说、做）一件事；（在口头或用文字）预言"
+    ]
+  },
+  {
+    "name": "apparent",
+    "trans": [
+      "adj. 易看见的，可看见的；显然的，明明白白的；貌似的，表面的"
+    ]
+  },
+  {
+    "name": "appeal",
+    "trans": [
+      "n. 恳求；呼吁；上诉",
+      "v. 呼吁；吸引；诉请"
+    ]
+  },
+  {
+    "name": "appease",
+    "trans": [
+      "vt. 使平息；使满足；使和缓"
+    ]
+  },
+  {
+    "name": "apply",
+    "trans": [
+      "vi. 申请；涂，敷；适用",
+      "vt. 申请；涂，敷；应用"
+    ]
+  },
+  {
+    "name": "appoint",
+    "trans": [
+      "vt. 任命；指定；约定",
+      "vi. 任命；委派"
+    ]
+  },
+  {
+    "name": "appreciate",
+    "trans": [
+      "vi. 增值；涨价",
+      "vt. 欣赏；感激；领会"
+    ]
+  },
+  {
+    "name": "apprehensive",
+    "trans": [
+      "adj. 忧虑的；不安的；敏悟的"
+    ]
+  },
+  {
+    "name": "approach",
+    "trans": [
+      "n. 方法；途径；接近",
+      "vt. 接近；着手处理",
+      "vi. 靠近"
+    ]
+  },
+  {
+    "name": "appropriate",
+    "trans": [
+      "adj. 适当的；恰当的；合适的",
+      "v. 盗用；侵吞；拨（专款等）"
+    ]
+  },
+  {
+    "name": "arbiter",
+    "trans": [
+      "n. 法仲裁人，裁决者；权威人士，主宰者"
+    ]
+  },
+  {
+    "name": "arouse",
+    "trans": [
+      "vt. 引起；唤醒；鼓励",
+      "vi. 激发；醒来；发奋"
+    ]
+  },
+  {
+    "name": "array",
+    "trans": [
+      "n. 一系列；大批；数组",
+      "vt. 排列；部署；打扮"
+    ]
+  },
+  {
+    "name": "artificial",
+    "trans": [
+      "adj. 人造的；人工的；虚假的，非原产地的",
+      "n. 人造肥料；假花"
+    ]
+  },
+  {
+    "name": "aspect",
+    "trans": [
+      "n. 方面，特色；朝向，方位；外表，外观",
+      "v. （行星与另一天体）形成角度关系"
+    ]
+  },
+  {
+    "name": "aspire",
+    "trans": [
+      "vi. 渴望；立志；追求"
+    ]
+  },
+  {
+    "name": "assembly",
+    "trans": [
+      "n. 集会，集合；装配，组装；议会，立法机构"
+    ]
+  },
+  {
+    "name": "assert",
+    "trans": [
+      "v. 断言，声称；坚持，维护（权利等）；表现出，显示"
+    ]
+  },
+  {
+    "name": "assess",
+    "trans": [
+      "vt. 评定；估价；对…征税"
+    ]
+  },
+  {
+    "name": "asset",
+    "trans": [
+      "n. 资产，财产；有价值的人或物；有用的品质或技能"
+    ]
+  },
+  {
+    "name": "assign",
+    "trans": [
+      "vt. 分配；指派；赋值",
+      "vi. 将财产过户（尤指过户给债权人）"
+    ]
+  },
+  {
+    "name": "assimilation",
+    "trans": [
+      "n. 同化，吸收；同化作用，消化吸收；同化，融入"
+    ]
+  },
+  {
+    "name": "assist",
+    "trans": [
+      "n. 帮助；助攻",
+      "vi. 参加；出席",
+      "vt. 帮助；促进"
+    ]
+  },
+  {
+    "name": "associate",
+    "trans": [
+      "vt. 联合；联想",
+      "vi. 交往；加入；陪同",
+      "n. 伙伴；同事；合伙人"
+    ]
+  },
+  {
+    "name": "assume",
+    "trans": [
+      "vt. 僭取；篡夺；夺取",
+      "vi. 假定；设想；承担"
+    ]
+  },
+  {
+    "name": "astrological",
+    "trans": [
+      "adj. 占星的"
+    ]
+  },
+  {
+    "name": "astronomy",
+    "trans": [
+      "n. 天文学"
+    ]
+  },
+  {
+    "name": "atmosphere",
+    "trans": [
+      "n. 大气，空气；气氛，环境；大气层"
+    ]
+  },
+  {
+    "name": "attract",
+    "trans": [
+      "vt. 吸引；诱惑；引起…的好感（或兴趣）",
+      "vi. 具有吸引力；引人注意"
+    ]
+  },
+  {
+    "name": "auction",
+    "trans": [
+      "n. 拍卖；竞卖；标售",
+      "vt. 拍卖；竞卖"
+    ]
+  },
+  {
+    "name": "authority",
+    "trans": [
+      "n. 权力，权威；当局，官方；专家，权威人士"
+    ]
+  },
+  {
+    "name": "automated",
+    "trans": [
+      "adj. 自动化的；机械化的",
+      "v. 自动操作；自动化"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的，可利用的；可用的，空闲的；有效的，起作用的"
+    ]
+  },
+  {
+    "name": "awkward",
+    "trans": [
+      "adj. 尴尬的；笨拙的；棘手的"
+    ]
+  },
+  {
+    "name": "bankruptcy",
+    "trans": [
+      "n. 破产，倒闭；彻底失败；（勇气）完全丧失"
+    ]
+  },
+  {
+    "name": "barely",
+    "trans": [
+      "adv. 仅仅，勉强；几乎不；公开地"
+    ]
+  },
+  {
+    "name": "barrier",
+    "trans": [
+      "n. 障碍；屏障；栅栏",
+      "vt. 把…关入栅栏；用栅栏围住"
+    ]
+  },
+  {
+    "name": "behavior",
+    "trans": [
+      "n. 行为，举止；表现，举止；(动物的)习性"
+    ]
+  },
+  {
+    "name": "bellyful",
+    "trans": [
+      "n. 满腹"
+    ]
+  },
+  {
+    "name": "benefactor",
+    "trans": [
+      "n. 捐助者；赞助人；恩人"
+    ]
+  },
+  {
+    "name": "benign",
+    "trans": [
+      "adj. 良性的，无害的；和蔼的，温和的；有利的，有益的"
+    ]
+  },
+  {
+    "name": "betray",
+    "trans": [
+      "vt. 误导；出卖；背叛",
+      "vi. 证明...错误"
+    ]
+  },
+  {
+    "name": "bias",
+    "trans": [
+      "n. 偏见，成见；偏差，偏向；倾向性",
+      "v. 使有偏见；影响；使倾向于"
+    ]
+  },
+  {
+    "name": "bid",
+    "trans": [
+      "n. 出价；叫牌；努力争取",
+      "vi. 投标；吩咐",
+      "vt. 投标；出价；表示"
+    ]
+  },
+  {
+    "name": "bilingual",
+    "trans": [
+      "adj. 双语的；两种语言的；能说两种语言的",
+      "n. 能说两种语言的人"
+    ]
+  },
+  {
+    "name": "binary",
+    "trans": [
+      "adj. 双重的，由两个东西组成的；二态的；二元的",
+      "n. 一双；双体；二进制数"
+    ]
+  },
+  {
+    "name": "binding",
+    "trans": [
+      "n. 装订；捆绑；粘合物",
+      "v. 捆绑（bind的ing形式）",
+      "adj. 有约束力的；捆绑的"
+    ]
+  },
+  {
+    "name": "biographical",
+    "trans": [
+      "adj. 传记的；传记体的"
+    ]
+  },
+  {
+    "name": "board",
+    "trans": [
+      "n. 板；木板；甲板",
+      "vt. 上；(飞机、船、车等)；有偿提供食宿",
+      "vi. 搭伙"
+    ]
+  },
+  {
+    "name": "boom",
+    "trans": [
+      "n. 繁荣；吊杆；隆隆声",
+      "vt. 使兴旺；发隆隆声",
+      "vi. 急速发展；发隆隆声"
+    ]
+  },
+  {
+    "name": "bother",
+    "trans": [
+      "vt. 打扰；麻烦",
+      "vi. 担心；烦恼",
+      "n. 烦恼；焦急"
+    ]
+  },
+  {
+    "name": "boundary",
+    "trans": [
+      "n. 边界，界限；分界线，分界点；限制，约束"
+    ]
+  },
+  {
+    "name": "bribery",
+    "trans": [
+      "n. 贿赂；受贿；行贿"
+    ]
+  },
+  {
+    "name": "brief",
+    "trans": [
+      "n. 摘要；简报",
+      "adj. 简短的；简洁的；短暂的",
+      "vt. 作简报；简单讨论"
+    ]
+  },
+  {
+    "name": "broaden",
+    "trans": [
+      "vt. 使扩大；使变宽",
+      "vi. 扩大，变阔；变宽，加宽"
+    ]
+  },
+  {
+    "name": "broker",
+    "trans": [
+      "n. 经纪人；中间人，代理商；中人",
+      "vi. 做掮客；作为权力经纪人进行谈判",
+      "vt. 以中间人等身份安排..."
+    ]
+  },
+  {
+    "name": "bubble",
+    "trans": [
+      "n. 泡；泡沫；气泡",
+      "vi. 冒泡；沸腾；起泡",
+      "vt. 使冒泡"
+    ]
+  },
+  {
+    "name": "budget",
+    "trans": [
+      "n. 预算；预算费",
+      "vt. 安排，预定；把…编入预算",
+      "vi. 编预算；做预算"
+    ]
+  },
+  {
+    "name": "bureaucratic",
+    "trans": [
+      "adj. 官僚的；官僚主义的；官僚作风的"
+    ]
+  },
+  {
+    "name": "burst",
+    "trans": [
+      "n. 爆发，突发；爆炸",
+      "vt. 爆发，突发；爆炸",
+      "vi. 爆发，突发；爆炸"
+    ]
+  },
+  {
+    "name": "campaign",
+    "trans": [
+      "n. 运动；活动；战役",
+      "vi. 作战；参加竞选；参加活动"
+    ]
+  },
+  {
+    "name": "candidate",
+    "trans": [
+      "n. 候选人，申请人；应试者；合适的人"
+    ]
+  },
+  {
+    "name": "capable",
+    "trans": [
+      "adj. 能干的；有才能的；有才华的",
+      "n. 有才能的；能干的"
+    ]
+  },
+  {
+    "name": "capture",
+    "trans": [
+      "vt. 俘虏；引起；刻画",
+      "n. （被）捕获",
+      "v. 表达；描绘"
+    ]
+  },
+  {
+    "name": "carve",
+    "trans": [
+      "vt. 雕刻；切开；开创",
+      "vi. 切开；做雕刻工作"
+    ]
+  },
+  {
+    "name": "category",
+    "trans": [
+      "n. 门类，种类；范畴；部门"
+    ]
+  },
+  {
+    "name": "cater",
+    "trans": [
+      "vt.&vi. 提供饮食及服务",
+      "vt. 满足需要，适合；投合，迎合",
+      "n. 骰子；纸牌的四点"
+    ]
+  },
+  {
+    "name": "caution",
+    "trans": [
+      "n. 谨慎，小心；警告，告诫",
+      "v. 警告；告诫"
+    ]
+  },
+  {
+    "name": "cavity",
+    "trans": [
+      "n. 洞，穴；凹处"
+    ]
+  },
+  {
+    "name": "celebrate",
+    "trans": [
+      "vt. 庆祝；举行；赞美",
+      "vi. 庆祝；过节；举行宗教仪式"
+    ]
+  },
+  {
+    "name": "challenge",
+    "trans": [
+      "n. 挑战；盘问；质疑",
+      "vt. 质疑；向…挑战",
+      "vi. 提出挑战，要求竞赛（或竞争）；驳斥"
+    ]
+  },
+  {
+    "name": "character",
+    "trans": [
+      "n. 性格，品质；特色，特征；人物，角色",
+      "v. 刻，写；描述；使具有特征"
+    ]
+  },
+  {
+    "name": "charge",
+    "trans": [
+      "n. 费用；电荷；掌管",
+      "vt. 使充电；使承担；指责",
+      "vi. 充电；控告；索价"
+    ]
+  },
+  {
+    "name": "charity",
+    "trans": [
+      "n. 慈善，慈善事业；慈善机构；宽容，仁慈"
+    ]
+  },
+  {
+    "name": "chronic",
+    "trans": [
+      "adj. 慢性的；长期的；习惯性的"
+    ]
+  },
+  {
+    "name": "circuit",
+    "trans": [
+      "n. 电路，回路；巡回；一圈",
+      "vt. 绕回…环行",
+      "vi. 环行"
+    ]
+  },
+  {
+    "name": "civil",
+    "trans": [
+      "adj. 公民的，平民的；文明的，有礼貌的；民事的，民用的"
+    ]
+  },
+  {
+    "name": "claim",
+    "trans": [
+      "n. 要求；声称；索赔",
+      "vt. 要求；声称；需要",
+      "vi. 提出要求"
+    ]
+  },
+  {
+    "name": "clarity",
+    "trans": [
+      "n. 清晰度，明晰；清楚，明确；透明度"
+    ]
+  },
+  {
+    "name": "client",
+    "trans": [
+      "n. 顾客，客户；委托人，当事人；客户端（计算机）"
+    ]
+  },
+  {
+    "name": "cloak",
+    "trans": [
+      "n. 斗蓬；宽大外衣；托词",
+      "vt. 遮掩；隐匿"
+    ]
+  },
+  {
+    "name": "clue",
+    "trans": [
+      "n. 线索；提示",
+      "v. 给...线索；为...提供情报"
+    ]
+  },
+  {
+    "name": "clumsy",
+    "trans": [
+      "adj. 笨拙的，不灵巧的；粗笨的，笨重的；不得体的，不适当的"
+    ]
+  },
+  {
+    "name": "coalition",
+    "trans": [
+      "n. 合并；接合；联合。"
+    ]
+  },
+  {
+    "name": "cognitive",
+    "trans": [
+      "adj. 认知的；认识的；认知能力的"
+    ]
+  },
+  {
+    "name": "coherent",
+    "trans": [
+      "adj. 连贯的，有条理的；一致的，协调的；有逻辑的，清晰的"
+    ]
+  },
+  {
+    "name": "coincidence",
+    "trans": [
+      "n. 巧合；一致；同时发生"
+    ]
+  },
+  {
+    "name": "collaborative",
+    "trans": [
+      "adj. 合作的；协作的；协力完成的"
+    ]
+  },
+  {
+    "name": "collapse",
+    "trans": [
+      "n. 倒塌；失败；衰竭",
+      "vt. 使倒塌，使崩溃；使萎陷；折叠",
+      "vi. 倒塌；瓦解；暴跌"
+    ]
+  },
+  {
+    "name": "collect",
+    "trans": [
+      "vt. 收集；募捐",
+      "adj. 由收件人付款的",
+      "vi. 收集；聚集；募捐"
+    ]
+  },
+  {
+    "name": "combat",
+    "trans": [
+      "n. 战斗；格斗",
+      "v. 与…战斗；与…斗争",
+      "adj. 战斗的；战斗用的"
+    ]
+  },
+  {
+    "name": "command",
+    "trans": [
+      "n. 指挥，控制；命令；司令部",
+      "vt. 命令，指挥；控制；远望",
+      "vi. 命令，指挥；控制"
+    ]
+  },
+  {
+    "name": "commemorate",
+    "trans": [
+      "v. 纪念；庆祝"
+    ]
+  },
+  {
+    "name": "commercial",
+    "trans": [
+      "n. 商业广告",
+      "adj. 商业的；营利的；靠广告收入的"
+    ]
+  },
+  {
+    "name": "commit",
+    "trans": [
+      "vt. 犯罪，做错事；把...交托给；指派…作战"
+    ]
+  },
+  {
+    "name": "commodity",
+    "trans": [
+      "n. 商品，货物；日用品，必需品；有价值或有用的东西"
+    ]
+  },
+  {
+    "name": "community",
+    "trans": [
+      "n. 社区，社会；团体，界；共同体，共同性"
+    ]
+  },
+  {
+    "name": "compact",
+    "trans": [
+      "n. 合同，契约；小粉盒",
+      "adj. 紧凑的，紧密的；简洁的",
+      "vt. 使简洁；使紧密结合"
+    ]
+  },
+  {
+    "name": "compare",
+    "trans": [
+      "vt. 比较；对照；比喻为",
+      "vi. 相比；比较",
+      "n. 比较"
+    ]
+  },
+  {
+    "name": "compelling",
+    "trans": [
+      "adj. 引人入胜的；扣人心弦的；非常强烈的",
+      "v. 强迫；使不得不( compel的现在分词)"
+    ]
+  },
+  {
+    "name": "compensate",
+    "trans": [
+      "vt. 补偿，赔偿；报酬；抵消",
+      "vi. 补偿；弥补"
+    ]
+  },
+  {
+    "name": "competent",
+    "trans": [
+      "adj. 有能力的，称职的；胜任的，有资格的；足够好的，尚可的"
+    ]
+  },
+  {
+    "name": "competitive",
+    "trans": [
+      "adj. 竞争的；比赛的；求胜心切的"
+    ]
+  },
+  {
+    "name": "compile",
+    "trans": [
+      "vt. 编译；编制；编辑"
+    ]
+  },
+  {
+    "name": "complex",
+    "trans": [
+      "adj. 复杂的；难懂的；复合的",
+      "n. 建筑群；相关联的一组事物；情结"
+    ]
+  },
+  {
+    "name": "complicated",
+    "trans": [
+      "adj. 复杂化；并发；合并 (verb.)"
+    ]
+  },
+  {
+    "name": "comply",
+    "trans": [
+      "vi. 遵守；顺从，遵从；答应"
+    ]
+  },
+  {
+    "name": "component",
+    "trans": [
+      "n. 成分；零件；数要素",
+      "adj. 组成的；合成的；构成的"
+    ]
+  },
+  {
+    "name": "composition",
+    "trans": [
+      "n. 作文，文章；构图，布局；成分，构成"
+    ]
+  },
+  {
+    "name": "compound",
+    "trans": [
+      "n. 化合物；复合物；院子",
+      "v. 使恶化；加重；混合",
+      "adj. 复合的；混合的"
+    ]
+  },
+  {
+    "name": "comprehensive",
+    "trans": [
+      "n. 综合学校；专业综合测验",
+      "adj. 综合的；广泛的；有理解力的"
+    ]
+  },
+  {
+    "name": "compromise",
+    "trans": [
+      "n. 妥协，和解；折衷",
+      "vt. 妥协；危害",
+      "vi. 妥协；让步"
+    ]
+  },
+  {
+    "name": "conceive",
+    "trans": [
+      "vi. 怀孕；设想；考虑",
+      "vt. 怀孕；构思；以为"
+    ]
+  },
+  {
+    "name": "concentrate",
+    "trans": [
+      "n. 浓缩，精选；浓缩液",
+      "vi. 集中；浓缩；全神贯注",
+      "vt. 集中；浓缩"
+    ]
+  },
+  {
+    "name": "concept",
+    "trans": [
+      "n. 概念；观念；设想"
+    ]
+  },
+  {
+    "name": "concession",
+    "trans": [
+      "n. 让步，妥协；特许权，特许经营；优惠，折扣"
+    ]
+  },
+  {
+    "name": "conclude",
+    "trans": [
+      "vt.&vi. 结束，终止；推断；议定",
+      "vt. 得出结论；缔结；推断出",
+      "vi. 终了；作出决定或达成协议"
+    ]
+  },
+  {
+    "name": "concrete",
+    "trans": [
+      "n. 水泥；混凝土；具体物",
+      "adj. 具体的；实在的；水泥的",
+      "vi. 凝结；结合"
+    ]
+  },
+  {
+    "name": "condemn",
+    "trans": [
+      "v. 谴责，严厉指责；判刑，宣告有罪；宣布...不适于使用"
+    ]
+  },
+  {
+    "name": "conduct",
+    "trans": [
+      "n. 进行；行为；实施",
+      "vi. 导电；带领",
+      "vt. 管理；引导；表现"
+    ]
+  },
+  {
+    "name": "confer",
+    "trans": [
+      "vt. 授予，颁与；比较，对照",
+      "vi. 商议；磋商"
+    ]
+  },
+  {
+    "name": "confident",
+    "trans": [
+      "adj. 确信的，深信的；有信心的，沉着的；大胆的，过分自信的",
+      "n. 知己；心腹朋友"
+    ]
+  },
+  {
+    "name": "confine",
+    "trans": [
+      "n. 界限，边界；约束；限制",
+      "vt. 限制；禁闭"
+    ]
+  },
+  {
+    "name": "confirm",
+    "trans": [
+      "v. 证实，确认；批准，确认；使巩固，使确立"
+    ]
+  },
+  {
+    "name": "conflict",
+    "trans": [
+      "n. 冲突，矛盾；斗争；争执",
+      "vi. 冲突，抵触；争执；战斗"
+    ]
+  },
+  {
+    "name": "confront",
+    "trans": [
+      "v. 面对，正视；遭遇，遇到（困难、危险等）；对质，质问"
+    ]
+  },
+  {
+    "name": "confuse",
+    "trans": [
+      "vt. 使困窘；使混乱；使困惑",
+      "vi. 使糊涂"
+    ]
+  },
+  {
+    "name": "conjunction",
+    "trans": [
+      "n. 连词；结合，连接；（事件等的）同时发生"
+    ]
+  },
+  {
+    "name": "conquer",
+    "trans": [
+      "vt. 征服；攻克；打败（敌人）",
+      "vi. 得胜；胜利"
+    ]
+  },
+  {
+    "name": "conscience",
+    "trans": [
+      "n. 良心；良知；内疚"
+    ]
+  },
+  {
+    "name": "conscious",
+    "trans": [
+      "adj. 意识到的；神志清醒的；自觉的",
+      "n. 意识"
+    ]
+  },
+  {
+    "name": "consent",
+    "trans": [
+      "n. 同意；（意见等的）一致；赞成",
+      "vi. 同意；赞成；答应"
+    ]
+  },
+  {
+    "name": "consequence",
+    "trans": [
+      "n. 结果，后果；重要性，重大；推论，结论"
+    ]
+  },
+  {
+    "name": "conservative",
+    "trans": [
+      "adj. 保守的，守旧的；保守主义的；谨慎的",
+      "n. 保守的人；保守主义"
+    ]
+  },
+  {
+    "name": "consistent",
+    "trans": [
+      "adj. 一致的；始终如一的；连续的"
+    ]
+  },
+  {
+    "name": "consolidation",
+    "trans": [
+      "n. 巩固；加强；强化 联合"
+    ]
+  },
+  {
+    "name": "constant",
+    "trans": [
+      "n. 常数；恒量",
+      "adj. 不变的；恒定的；经常的"
+    ]
+  },
+  {
+    "name": "constitute",
+    "trans": [
+      "v. 构成，组成；设立，任命；被视为，被认为是"
+    ]
+  },
+  {
+    "name": "constrain",
+    "trans": [
+      "vt. 驱使；强迫；束缚"
+    ]
+  },
+  {
+    "name": "construction",
+    "trans": [
+      "n. 建设；建筑物；解释"
+    ]
+  },
+  {
+    "name": "consume",
+    "trans": [
+      "vt. 消耗，消费；使…着迷；挥霍",
+      "vi. 耗尽，毁灭；耗尽生命"
+    ]
+  },
+  {
+    "name": "contempt",
+    "trans": [
+      "n. 轻蔑；不尊敬；轻视"
+    ]
+  },
+  {
+    "name": "content",
+    "trans": [
+      "adj. 满意的；满足的",
+      "n. 内容，目录；容量，容积",
+      "v. 使满足；使满意"
+    ]
+  },
+  {
+    "name": "contest",
+    "trans": [
+      "n. 竞赛；争夺；争论",
+      "vt. 争辩；质疑",
+      "vi. 竞争；争辩"
+    ]
+  },
+  {
+    "name": "contract",
+    "trans": [
+      "n. 合同；婚约",
+      "vt. 感染；订约；使缩短",
+      "vi. 收缩；感染；订约"
+    ]
+  },
+  {
+    "name": "contradictory",
+    "trans": [
+      "n. 对立物；矛盾因素",
+      "adj. 矛盾的；反对的；反驳的"
+    ]
+  },
+  {
+    "name": "contrary",
+    "trans": [
+      "n. 相反；反面",
+      "adj. 相反的；对立的",
+      "adv. 相反地"
+    ]
+  },
+  {
+    "name": "contrast",
+    "trans": [
+      "n. 对比；差别；对照物",
+      "vt. 使对比；使与…对照",
+      "vi. 对比；形成对照"
+    ]
+  },
+  {
+    "name": "contribute",
+    "trans": [
+      "vt. 贡献，出力；投稿；捐献",
+      "vi. 贡献，出力；投稿；捐献"
+    ]
+  },
+  {
+    "name": "controversial",
+    "trans": [
+      "adj. 有争议的，引起争论的；容易引起争议的；有争议性的"
+    ]
+  },
+  {
+    "name": "conventional",
+    "trans": [
+      "adj. 符合习俗的，传统的；常见的；惯例的"
+    ]
+  },
+  {
+    "name": "converge",
+    "trans": [
+      "vi. 集中于一点；聚合",
+      "vt. 使聚集；使向一点会合；会聚"
+    ]
+  },
+  {
+    "name": "convert",
+    "trans": [
+      "vt. 使转变；转换…；使…改变信仰",
+      "vi. 转变，变换；皈依",
+      "n. 皈依者"
+    ]
+  },
+  {
+    "name": "convey",
+    "trans": [
+      "vt. 传达；运输；让与"
+    ]
+  },
+  {
+    "name": "conviction",
+    "trans": [
+      "n. 坚定的信念，深信；定罪，判决；确信，深信不疑"
+    ]
+  },
+  {
+    "name": "convincing",
+    "trans": [
+      "adj. 令人相信的；有说服力的；令人心悦诚服的",
+      "v. 使相信(convince的现在分词)；使明白；使确信"
+    ]
+  },
+  {
+    "name": "cooperate",
+    "trans": [
+      "vi. 合作；配合；协助",
+      "v. 合群；互助；结合"
+    ]
+  },
+  {
+    "name": "coordination",
+    "trans": [
+      "n. 协调，配合；协调能力；协调行动"
+    ]
+  },
+  {
+    "name": "core",
+    "trans": [
+      "n. 果核；中心部分；核心，要点",
+      "v. 给……去核",
+      "adj. 核心的，最重要的；基础的，必修的"
+    ]
+  },
+  {
+    "name": "corporate",
+    "trans": [
+      "adj. 公司的，企业的；法人的，社团的；共同的，全体的"
+    ]
+  },
+  {
+    "name": "correct",
+    "trans": [
+      "adj. 正确的；恰当的；端正的",
+      "vt. 改正；告诫",
+      "vi. 调整；纠正错误"
+    ]
+  },
+  {
+    "name": "correlate",
+    "trans": [
+      "v. 使互相关联；联系",
+      "n. 相关物；相关联的人",
+      "adj. 相关的；相应特点的"
+    ]
+  },
+  {
+    "name": "correspond",
+    "trans": [
+      "vi. 通信，保持联系；相一致，符合；相当于，相类似"
+    ]
+  },
+  {
+    "name": "corruption",
+    "trans": [
+      "n. 腐败，贪污；堕落，腐化；腐烂，烂坏"
+    ]
+  },
+  {
+    "name": "counterbalance",
+    "trans": [
+      "vt. 使平均；使平衡；弥补。",
+      "n. 平衡量；平衡力；势均力敌"
+    ]
+  },
+  {
+    "name": "counterpart",
+    "trans": [
+      "n. 对应的人或物；职位或职能相当的人；相对应的部分"
+    ]
+  },
+  {
+    "name": "courageous",
+    "trans": [
+      "adj. 勇敢的，无畏的；有胆量的；英勇的"
+    ]
+  },
+  {
+    "name": "craft",
+    "trans": [
+      "n. 手艺，工艺；船，飞行器；诡计，手腕",
+      "v. 精心制作；手工制作"
+    ]
+  },
+  {
+    "name": "crash",
+    "trans": [
+      "n. 突然坠落；事故；倒闭",
+      "adv. 砰地一声",
+      "v. 坠毁；碰撞；冲过"
+    ]
+  },
+  {
+    "name": "credit",
+    "trans": [
+      "n. 信用，信誉；赊账；学分",
+      "v. 相信，信任；把...归功于；贷记",
+      "adj. 信用的"
+    ]
+  },
+  {
+    "name": "creep",
+    "trans": [
+      "n. 爬行；毛骨悚然的感觉；谄媚者",
+      "vi. 爬行；蔓延；慢慢地移动"
+    ]
+  },
+  {
+    "name": "crisis",
+    "trans": [
+      "n. 危机；危险期；决定性时刻",
+      "adj. 危机的；用于处理危机的"
+    ]
+  },
+  {
+    "name": "critical",
+    "trans": [
+      "adj. 重要的，关键的；批评的，批判的；危急的，紧要的"
+    ]
+  },
+  {
+    "name": "crucial",
+    "trans": [
+      "adj. 重要的；决定性的；定局的"
+    ]
+  },
+  {
+    "name": "cue",
+    "trans": [
+      "n. 暗示，提示；线索；台球杆",
+      "vt. 把…插入演出；给…暗示"
+    ]
+  },
+  {
+    "name": "cultivate",
+    "trans": [
+      "v. 耕作，栽培；培养，养成（习惯等）；结交，交往"
+    ]
+  },
+  {
+    "name": "cunning",
+    "trans": [
+      "adj. 狡猾的；奸诈的；灵巧的",
+      "n. 狡猾；诡诈；狡黠"
+    ]
+  },
+  {
+    "name": "curb",
+    "trans": [
+      "n. 侧石；边石；限制",
+      "vt. 限制；克制；抑制"
+    ]
+  },
+  {
+    "name": "cure",
+    "trans": [
+      "n. 治疗；治愈；疗法",
+      "vt. 治疗；治愈；使硫化",
+      "vi. 治病；痊愈；受治疗"
+    ]
+  },
+  {
+    "name": "curiosity",
+    "trans": [
+      "n. 好奇心，爱打听的癖性；奇人；奇物，古玩"
+    ]
+  },
+  {
+    "name": "current",
+    "trans": [
+      "adj. 现在的；最近的；草写的",
+      "n. 趋势；涌流；（水，气，电）流"
+    ]
+  },
+  {
+    "name": "curriculum",
+    "trans": [
+      "n. 课程；教学大纲；全部课程"
+    ]
+  },
+  {
+    "name": "cursory",
+    "trans": [
+      "adj. 粗略的；草率的；匆忙的"
+    ]
+  },
+  {
+    "name": "dampen",
+    "trans": [
+      "vt. 抑制；使…沮丧；使…潮湿",
+      "vi. 潮湿；丧气"
+    ]
+  },
+  {
+    "name": "dawn",
+    "trans": [
+      "n. 拂晓，破晓，黎明；开端；曙光",
+      "vi. 破晓；开始；见分晓，水落石出"
+    ]
+  },
+  {
+    "name": "dearth",
+    "trans": [
+      "n. 缺乏；不足；短缺"
+    ]
+  },
+  {
+    "name": "debate",
+    "trans": [
+      "n. 辩论；辩论会",
+      "vt. 辩论；争论；讨论",
+      "vi. 辩论；争论；讨论"
+    ]
+  },
+  {
+    "name": "deceptive",
+    "trans": [
+      "adj. 欺诈的；迷惑的；虚伪的"
+    ]
+  },
+  {
+    "name": "declaration",
+    "trans": [
+      "n. 声明，宣告；宣言，公告；申报，申明"
+    ]
+  },
+  {
+    "name": "decline",
+    "trans": [
+      "n. 下降；衰退；斜面",
+      "vt. 谢绝；婉拒",
+      "vi. 下降；衰落；谢绝"
+    ]
+  },
+  {
+    "name": "decoration",
+    "trans": [
+      "n. 装饰品，装饰物；装饰，装潢；勋章，奖章"
+    ]
+  },
+  {
+    "name": "dedicate",
+    "trans": [
+      "v. 奉献，献身；把…用于；献给"
+    ]
+  },
+  {
+    "name": "deduce",
+    "trans": [
+      "vt. 演绎；推论；推断"
+    ]
+  },
+  {
+    "name": "deem",
+    "trans": [
+      "vt. 认为，视作；相信",
+      "vi. 认为，持某种看法；作某种评价"
+    ]
+  },
+  {
+    "name": "defend",
+    "trans": [
+      "vi. 保卫；防守",
+      "vt. 辩护；防护"
+    ]
+  },
+  {
+    "name": "defer",
+    "trans": [
+      "vt. 使推迟；使延期；拖延，推迟",
+      "vi. 服从；延期；推迟"
+    ]
+  },
+  {
+    "name": "deficiency",
+    "trans": [
+      "n. 缺陷，缺点；缺乏；不足的数额"
+    ]
+  },
+  {
+    "name": "define",
+    "trans": [
+      "vt. 规定；使明确；精确地解释",
+      "vi. （给词、短语等）下定义；构成释义"
+    ]
+  },
+  {
+    "name": "deliberate",
+    "trans": [
+      "adj. 故意的；蓄意的；深思熟虑的",
+      "vt. 权衡",
+      "vi. 熟虑；商讨"
+    ]
+  },
+  {
+    "name": "delicate",
+    "trans": [
+      "adj. 纤细的；易碎的；精美的",
+      "n. 精美的东西"
+    ]
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "n. 投球",
+      "vt. 交付；发表；递送",
+      "vi. 实现；传送；履行"
+    ]
+  },
+  {
+    "name": "delusion",
+    "trans": [
+      "n. 迷惑，欺骗；错觉；幻想"
+    ]
+  },
+  {
+    "name": "democratic",
+    "trans": [
+      "adj. 民主的；民主政治的；大众的"
+    ]
+  },
+  {
+    "name": "demographic",
+    "trans": [
+      "adj. 人口统计的；人口学的",
+      "n. 人口统计学；人口统计资料"
+    ]
+  },
+  {
+    "name": "dense",
+    "trans": [
+      "adj. 稠密的，密集的；浓密的，茂密的；愚钝的，迟钝的"
+    ]
+  },
+  {
+    "name": "deny",
+    "trans": [
+      "vi. 否认；拒绝",
+      "vt. 否定，否认；拒绝给予；拒绝…的要求"
+    ]
+  },
+  {
+    "name": "depart",
+    "trans": [
+      "adj. 逝世的",
+      "vi. 离开；出发，起程；违反"
+    ]
+  },
+  {
+    "name": "depict",
+    "trans": [
+      "vt. 描绘；描画；描述"
+    ]
+  },
+  {
+    "name": "depression",
+    "trans": [
+      "n. 沮丧；洼地；不景气"
+    ]
+  },
+  {
+    "name": "deprive",
+    "trans": [
+      "vt. 剥夺；夺去；使丧失"
+    ]
+  },
+  {
+    "name": "derive",
+    "trans": [
+      "vt. 取得；得到；追溯…的起源(或来由)",
+      "vi. (from) 起源；衍生"
+    ]
+  },
+  {
+    "name": "descend",
+    "trans": [
+      "vi. 下降；下去；下来",
+      "vt. 下去；沿…向下"
+    ]
+  },
+  {
+    "name": "describe",
+    "trans": [
+      "v. 描述，描写；表述，阐明；画出…的图形"
+    ]
+  },
+  {
+    "name": "deserve",
+    "trans": [
+      "vt. 应受；应得；值得",
+      "vi. 应受报答；应得报酬；应得赔偿"
+    ]
+  },
+  {
+    "name": "designate",
+    "trans": [
+      "vt. 指定；指派；标出",
+      "adj. 指定的；选定的"
+    ]
+  },
+  {
+    "name": "desire",
+    "trans": [
+      "n. 欲望；要求，心愿；性欲",
+      "vt. 想要；要求；希望得到…",
+      "vi. 渴望"
+    ]
+  },
+  {
+    "name": "desperate",
+    "trans": [
+      "adj. 不顾一切的；令人绝望的；极度渴望的"
+    ]
+  },
+  {
+    "name": "deteriorate",
+    "trans": [
+      "vi. 恶化；变坏",
+      "vt. 恶化"
+    ]
+  },
+  {
+    "name": "determine",
+    "trans": [
+      "v. （使）下决心；（使）做出决定",
+      "vt. 决定，确定；判定，判决；限定",
+      "vi. 确定；决定；判决，终止"
+    ]
+  },
+  {
+    "name": "detrimental",
+    "trans": [
+      "adj. 有害的；不利的",
+      "n. 有害的人；不受欢迎的求婚者"
+    ]
+  },
+  {
+    "name": "devastating",
+    "trans": [
+      "adj. 毁灭性的，灾难性的；惊人的，可怕的；迷人的",
+      "v. 摧毁；毁灭"
+    ]
+  },
+  {
+    "name": "devise",
+    "trans": [
+      "v. 设计；发明；策划",
+      "n. 遗赠；遗赠的财产；遗赠的条款"
+    ]
+  },
+  {
+    "name": "devoted",
+    "trans": [
+      "adj. 专心的；恩爱的献身的；非常用心的",
+      "v. 专心地；恩爱地"
+    ]
+  },
+  {
+    "name": "differentiate",
+    "trans": [
+      "vt. 区分；使差异；求导数",
+      "vi. 区别；产生差别；区别对待"
+    ]
+  },
+  {
+    "name": "diffuse",
+    "trans": [
+      "adj. 散开的；弥漫的",
+      "vt. 传播；扩散；漫射",
+      "vi. 传播；四散"
+    ]
+  },
+  {
+    "name": "disaster",
+    "trans": [
+      "n. 灾难；灾祸；天灾"
+    ]
+  },
+  {
+    "name": "discipline",
+    "trans": [
+      "n. 纪律；训练；惩戒",
+      "v. 训练；约束自己；惩罚"
+    ]
+  },
+  {
+    "name": "disclose",
+    "trans": [
+      "vt. 揭露；透露；公开"
+    ]
+  },
+  {
+    "name": "disconcerting",
+    "trans": [
+      "adj. 困惑的；不安的；尴尬的",
+      "v. 使为难；使慌张；使窘迫"
+    ]
+  },
+  {
+    "name": "discover",
+    "trans": [
+      "vi. 发现",
+      "vt. 发现；发觉"
+    ]
+  },
+  {
+    "name": "discrimination",
+    "trans": [
+      "n. 歧视；区别，辨别；识别力"
+    ]
+  },
+  {
+    "name": "disgrace",
+    "trans": [
+      "n. 丢脸；耻辱；不光彩",
+      "vt. 使丢脸；使失宠；使受耻辱"
+    ]
+  },
+  {
+    "name": "disguise",
+    "trans": [
+      "vi. 隐瞒；掩埋",
+      "vt. 假装；假扮；掩饰",
+      "n. 假装；假面目；伪装物"
+    ]
+  },
+  {
+    "name": "disintegrate",
+    "trans": [
+      "vi. 瓦解；碎裂；衰变",
+      "vt. 使分解；使碎裂；使崩溃"
+    ]
+  },
+  {
+    "name": "dismiss",
+    "trans": [
+      "vt. 解散；解雇；开除",
+      "vi. 解散"
+    ]
+  },
+  {
+    "name": "disorder",
+    "trans": [
+      "n. 混乱，杂乱；失调，紊乱；疾病，病症",
+      "v. 扰乱；使混乱"
+    ]
+  },
+  {
+    "name": "display",
+    "trans": [
+      "n. 显示；炫耀",
+      "vt. 显示；表现；陈列",
+      "adj. 展览的；陈列用的"
+    ]
+  },
+  {
+    "name": "disposable",
+    "trans": [
+      "adj. 可任意处理的；一次性的",
+      "n. 用完即可丢弃的东西"
+    ]
+  },
+  {
+    "name": "disproportionately",
+    "trans": [
+      "adv. 不匀称；不相称"
+    ]
+  },
+  {
+    "name": "dispute",
+    "trans": [
+      "n. 辩论；争吵",
+      "vt. 辩论；怀疑；阻止",
+      "vi. 争论"
+    ]
+  },
+  {
+    "name": "disruptive",
+    "trans": [
+      "adj. 破坏性的，扰乱性的；引起混乱的；颠覆性的，创新性的"
+    ]
+  },
+  {
+    "name": "distort",
+    "trans": [
+      "vt. 扭曲；使失真；曲解",
+      "vi. 扭曲；变形"
+    ]
+  },
+  {
+    "name": "distraction",
+    "trans": [
+      "n. 注意力分散；消遣；心烦意乱"
+    ]
+  },
+  {
+    "name": "distressed",
+    "trans": [
+      "v. 使痛苦；使紧张；使困苦（distress的过去分词）",
+      "adj. 痛苦的；忧虑的；贫困的"
+    ]
+  },
+  {
+    "name": "distribute",
+    "trans": [
+      "v. 分发，分配；分布，散布；分类，归类"
+    ]
+  },
+  {
+    "name": "district",
+    "trans": [
+      "n. 区；地区；区域",
+      "vt. 划分区域；划分地区"
+    ]
+  },
+  {
+    "name": "disturb",
+    "trans": [
+      "vt. 打扰；妨碍；使不安",
+      "vi. 打扰；妨碍"
+    ]
+  },
+  {
+    "name": "diverse",
+    "trans": [
+      "adj. 不同的；多种多样的；变化多的"
+    ]
+  },
+  {
+    "name": "divisive",
+    "trans": [
+      "adj. 分裂的；区分的；造成不和的"
+    ]
+  },
+  {
+    "name": "domestic",
+    "trans": [
+      "n. 国货；佣人",
+      "adj. 国内的；家庭的；驯养的"
+    ]
+  },
+  {
+    "name": "dominate",
+    "trans": [
+      "vt. 控制；支配；占优势",
+      "vi. 占优势；处于支配地位"
+    ]
+  },
+  {
+    "name": "donate",
+    "trans": [
+      "n. 捐赠；捐献",
+      "vt. 捐赠；捐献",
+      "vi. 捐赠；捐献"
+    ]
+  },
+  {
+    "name": "doom",
+    "trans": [
+      "n. 厄运；死亡；判决",
+      "vt. 注定；判决；使失败"
+    ]
+  },
+  {
+    "name": "dormant",
+    "trans": [
+      "adj. 休眠的；静止的；睡眠状态的"
+    ]
+  },
+  {
+    "name": "dramatic",
+    "trans": [
+      "adj. 引人注目的；戏剧的；给人深刻印象的",
+      "pl. 戏剧作品；戏曲"
+    ]
+  },
+  {
+    "name": "drastic",
+    "trans": [
+      "adj. 激烈的；猛烈的",
+      "n. 烈性泻药"
+    ]
+  },
+  {
+    "name": "dreadful",
+    "trans": [
+      "adj. 可怕的；令人畏惧的；讨厌的，糟透了的，丑陋的",
+      "n. 惊险小说杂志"
+    ]
+  },
+  {
+    "name": "drought",
+    "trans": [
+      "n. 干旱（时期），旱季；旱灾；（长期的）缺乏"
+    ]
+  },
+  {
+    "name": "duplication",
+    "trans": [
+      "n. 复制；副本；成倍"
+    ]
+  },
+  {
+    "name": "durable",
+    "trans": [
+      "adj. 耐用的，耐久的；持久的；长期的",
+      "n. 耐用品；耐久品"
+    ]
+  },
+  {
+    "name": "dynamic",
+    "trans": [
+      "n. 动态；动力",
+      "adj. 动态的；动力的；动力学的"
+    ]
+  },
+  {
+    "name": "economic",
+    "trans": [
+      "adj. 经济的；经济学的；有利可图的",
+      "n. 经济学(状况等)"
+    ]
+  },
+  {
+    "name": "effective",
+    "trans": [
+      "adj. 有效的；起作用的；实际的，实在的",
+      "n. 军现役兵额；有生力量；精兵"
+    ]
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj. 有效率的；能干的",
+      "adv. 有效率地；有效地"
+    ]
+  },
+  {
+    "name": "effort",
+    "trans": [
+      "n. 努力，尽力；力气，精力；努力的结果，成就"
+    ]
+  },
+  {
+    "name": "elaborate",
+    "trans": [
+      "adj. 详尽的；复杂的；精心制作的",
+      "v. 详述；详细制定"
+    ]
+  },
+  {
+    "name": "elect",
+    "trans": [
+      "vt. 选举；推选；选择",
+      "n. 当选人；被选的人；上帝的选民",
+      "adj. 被选的；选出的"
+    ]
+  },
+  {
+    "name": "elegant",
+    "trans": [
+      "adj. 优雅的，雅致的；精美的，讲究的；简洁的，巧妙的"
+    ]
+  },
+  {
+    "name": "element",
+    "trans": [
+      "n. 要素，成分；元素；自然环境"
+    ]
+  },
+  {
+    "name": "elevate",
+    "trans": [
+      "v. 提升，提高；提拔，晋升；使更高尚，使更崇高"
+    ]
+  },
+  {
+    "name": "eligible",
+    "trans": [
+      "n. 合格者；适任者；有资格者",
+      "adj. 合格的，合适的；符合条件的；有资格当选的"
+    ]
+  },
+  {
+    "name": "eliminate",
+    "trans": [
+      "v. 消除，排除；淘汰，剔除；杀死，干掉"
+    ]
+  },
+  {
+    "name": "elite",
+    "trans": [
+      "n. 精英；精华；上层人物",
+      "adj. 精英的；优秀的；卓越的"
+    ]
+  },
+  {
+    "name": "embarrassing",
+    "trans": [
+      "adj. 使人尴尬的；令人为难的",
+      "v. （使）窘迫"
+    ]
+  },
+  {
+    "name": "embrace",
+    "trans": [
+      "vt.&vi. 拥抱",
+      "vt. 包括；包含；接受",
+      "n. 拥抱；怀抱"
+    ]
+  },
+  {
+    "name": "emerge",
+    "trans": [
+      "v. 浮现，出现；显露，暴露；兴起，形成"
+    ]
+  },
+  {
+    "name": "emigrate",
+    "trans": [
+      "vi. 移居；移居外国",
+      "vt. 移民"
+    ]
+  },
+  {
+    "name": "emission",
+    "trans": [
+      "n. （光、热等的）散发；发射；喷射"
+    ]
+  },
+  {
+    "name": "emotional",
+    "trans": [
+      "adj. 情绪的；易激动的；感动人的"
+    ]
+  },
+  {
+    "name": "emphasize",
+    "trans": [
+      "vt. 强调；加强语气；重读"
+    ]
+  },
+  {
+    "name": "empower",
+    "trans": [
+      "vt. 授权；准许；使能够"
+    ]
+  },
+  {
+    "name": "encode",
+    "trans": [
+      "vt. （将文字材料）译成密码；编码，编制成计算机语言"
+    ]
+  },
+  {
+    "name": "encounter",
+    "trans": [
+      "n. 遭遇；偶然碰见",
+      "vi. 遭遇；偶然相遇",
+      "vt. 遭遇，邂逅；遇到"
+    ]
+  },
+  {
+    "name": "endeavor",
+    "trans": [
+      "n. 努力；尝试",
+      "v. 努力，尽力；试图，力图"
+    ]
+  },
+  {
+    "name": "endure",
+    "trans": [
+      "vt. 忍耐；容忍",
+      "vi. 忍耐；持续"
+    ]
+  },
+  {
+    "name": "engage",
+    "trans": [
+      "vi. 从事；答应，保证；交战",
+      "vt. 吸引，占用；使参加；雇佣"
+    ]
+  },
+  {
+    "name": "enhance",
+    "trans": [
+      "vt. 提高；加强；增加"
+    ]
+  },
+  {
+    "name": "enlarge",
+    "trans": [
+      "vt. 扩大；使增大；扩展",
+      "vi. 扩大；放大；详述"
+    ]
+  },
+  {
+    "name": "enormous",
+    "trans": [
+      "adj. 巨大的，庞大的；极大的，极多的；惊人的，非常的"
+    ]
+  },
+  {
+    "name": "enrage",
+    "trans": [
+      "v. 激怒；使暴怒"
+    ]
+  },
+  {
+    "name": "ensure",
+    "trans": [
+      "vt. 确保，保证；担保；赋予"
+    ]
+  },
+  {
+    "name": "entail",
+    "trans": [
+      "vt. 使需要，必需；承担；遗传给",
+      "n. 引起；需要；继承"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n. 娱乐，消遣；娱乐活动，表演；款待，招待"
+    ]
+  },
+  {
+    "name": "enthusiasm",
+    "trans": [
+      "n. 热心；热忱；热情"
+    ]
+  },
+  {
+    "name": "entirely",
+    "trans": [
+      "adv. 全部地；完整地；完全地"
+    ]
+  },
+  {
+    "name": "entitle",
+    "trans": [
+      "v. 赋予...权利；给...题名；使...有资格"
+    ]
+  },
+  {
+    "name": "envision",
+    "trans": [
+      "v. 想象；设想；展望"
+    ]
+  },
+  {
+    "name": "epidemic",
+    "trans": [
+      "n. 传染病；流行病；风尚等的流行",
+      "adj. 流行的；传染性的"
+    ]
+  },
+  {
+    "name": "equality",
+    "trans": [
+      "n. 平等；相等；等式"
+    ]
+  },
+  {
+    "name": "equivalent",
+    "trans": [
+      "adj. 相等的，相当的，等效的；等价的，等积的；化学当量的",
+      "n. 对等物；化学当量"
+    ]
+  },
+  {
+    "name": "essential",
+    "trans": [
+      "n. 本质；要素；要点",
+      "adj. 基本的；必要的；本质的"
+    ]
+  },
+  {
+    "name": "establish",
+    "trans": [
+      "vt. 创立；建立（联系或关系）；确立",
+      "v. 查实；证明"
+    ]
+  },
+  {
+    "name": "esteem",
+    "trans": [
+      "vt. 尊敬，敬重；认为，以为；考虑",
+      "n. 尊敬，尊重；意见，看法；评价"
+    ]
+  },
+  {
+    "name": "estimate",
+    "trans": [
+      "vi. 估计；估价",
+      "n. 估计，估价；判断，看法",
+      "vt. 估计；判断；评价"
+    ]
+  },
+  {
+    "name": "ethical",
+    "trans": [
+      "n. 处方药",
+      "adj. 伦理的；道德的；凭处方出售的"
+    ]
+  },
+  {
+    "name": "evade",
+    "trans": [
+      "vt. 逃避；规避；逃脱",
+      "vi. 逃避；规避；逃脱"
+    ]
+  },
+  {
+    "name": "evaluate",
+    "trans": [
+      "vt. 评价；估价；求…的值",
+      "vi. 评价；估价"
+    ]
+  },
+  {
+    "name": "evaporate",
+    "trans": [
+      "vt.&vi. （使某物）蒸发掉",
+      "vi. 消失；发散气体；蒸发",
+      "vt. 使脱水；使蒸发；使挥发"
+    ]
+  },
+  {
+    "name": "eventually",
+    "trans": [
+      "adv. 终于，最后；竟；总归"
+    ]
+  },
+  {
+    "name": "evidence",
+    "trans": [
+      "n. 证词；证据；迹象",
+      "vt. 使明显；显示；表明"
+    ]
+  },
+  {
+    "name": "evolve",
+    "trans": [
+      "vi. 发展，进展；进化；逐步形成",
+      "vt. 发展，进化；进化；使逐步形成"
+    ]
+  },
+  {
+    "name": "exaggerate",
+    "trans": [
+      "vt. 使扩大；使增大",
+      "vi. 夸大；夸张"
+    ]
+  },
+  {
+    "name": "excellent",
+    "trans": [
+      "int. 太好了",
+      "adj. 极好的；卓越的"
+    ]
+  },
+  {
+    "name": "exception",
+    "trans": [
+      "n. 例外，除外；反对；异议"
+    ]
+  },
+  {
+    "name": "excessive",
+    "trans": [
+      "adj. 过多的；极度的；过分的"
+    ]
+  },
+  {
+    "name": "exclusive",
+    "trans": [
+      "n. 独家新闻；独家经营的项目；排外者",
+      "adj. 独有的；排外的；专一的"
+    ]
+  },
+  {
+    "name": "executive",
+    "trans": [
+      "adj. 执行的；行政的；决策的",
+      "n. 执行者；主管；行政部门"
+    ]
+  },
+  {
+    "name": "exert",
+    "trans": [
+      "vt. 尽（力）；施加（压力等）；行使（职权等）"
+    ]
+  },
+  {
+    "name": "exhaust",
+    "trans": [
+      "n. 排气；废气；排气装置",
+      "vt. 排出；耗尽；使精疲力尽",
+      "vi. 排气"
+    ]
+  },
+  {
+    "name": "exhibit",
+    "trans": [
+      "vt. 显示(感情或品质)；陈列；展览",
+      "vi. 展览",
+      "n. 展览品；展览；物证"
+    ]
+  },
+  {
+    "name": "expand",
+    "trans": [
+      "vt. 扩大；增加；详述",
+      "vi. 扩展；增加；详述"
+    ]
+  },
+  {
+    "name": "expensive",
+    "trans": [
+      "adj. 昂贵的，花钱多的；奢侈的；代价高昂的"
+    ]
+  },
+  {
+    "name": "expire",
+    "trans": [
+      "vi. 期满；终止；死亡",
+      "vt. 呼出（空气）"
+    ]
+  },
+  {
+    "name": "explicit",
+    "trans": [
+      "adj. 清楚的，明确的；直率的，坦率的；详细的，明确表达的"
+    ]
+  },
+  {
+    "name": "exploit",
+    "trans": [
+      "vt. 开采；开拓；利用（…为自己谋利）",
+      "n. 功绩；功劳；勋绩"
+    ]
+  },
+  {
+    "name": "explore",
+    "trans": [
+      "vi. 探索；探测；探险",
+      "vt. 探索；探测；探险"
+    ]
+  },
+  {
+    "name": "explosion",
+    "trans": [
+      "n. 爆炸，爆发；激增，突然增加；突然爆发（情感等）"
+    ]
+  },
+  {
+    "name": "export",
+    "trans": [
+      "vt. 输出；出口；运走",
+      "n. 出口；输出品",
+      "vi. 传播；输出"
+    ]
+  },
+  {
+    "name": "expose",
+    "trans": [
+      "v. 暴露，使显露；使面临，使遭受（危险或不快）；揭露，揭发",
+      "n. 揭露；曝光"
+    ]
+  },
+  {
+    "name": "express",
+    "trans": [
+      "v. 表达；表示",
+      "adj. 特快的；快速的",
+      "n. 快车；快运"
+    ]
+  },
+  {
+    "name": "extend",
+    "trans": [
+      "vt.&vi. 延伸；扩大；推广",
+      "vt. 伸展；给予；延长",
+      "vi. 伸出；延伸；增加"
+    ]
+  },
+  {
+    "name": "external",
+    "trans": [
+      "n. 外部；外观；外面",
+      "adj. 外部的；表面的；外用的"
+    ]
+  },
+  {
+    "name": "extinguish",
+    "trans": [
+      "v. 熄灭，扑灭（火焰等）；消灭，根除；使终止，使破灭"
+    ]
+  },
+  {
+    "name": "extract",
+    "trans": [
+      "n. 汁；摘录；榨出物",
+      "vt. 提取；取出；摘录"
+    ]
+  },
+  {
+    "name": "extraordinarily",
+    "trans": [
+      "adv. 非常；格外地；非凡地"
+    ]
+  },
+  {
+    "name": "fabric",
+    "trans": [
+      "n. 布料，织物；结构，构造；体系，体制"
+    ]
+  },
+  {
+    "name": "facilitate",
+    "trans": [
+      "v. 使容易；促进；推动"
+    ]
+  },
+  {
+    "name": "fade",
+    "trans": [
+      "n. 淡出；淡入",
+      "adj. 平淡的；乏味的",
+      "vi. 褪色；凋谢；逐渐消失"
+    ]
+  },
+  {
+    "name": "faint",
+    "trans": [
+      "adj. 微弱的，模糊的；虚弱的，头晕目眩的",
+      "v. 昏厥；晕倒",
+      "n. 昏厥；晕倒"
+    ]
+  },
+  {
+    "name": "fake",
+    "trans": [
+      "adj. 假的；伪造的",
+      "n. 赝品；假货",
+      "v. 伪造；假装"
+    ]
+  },
+  {
+    "name": "familiar",
+    "trans": [
+      "adj. 熟悉的；通晓的；冒昧的",
+      "n. 常客，密友；高级官吏的家属；天主教皇主教的仆人"
+    ]
+  },
+  {
+    "name": "fantastic",
+    "trans": [
+      "n. 古怪的人",
+      "adj. 奇异的；空想的；异想天开的"
+    ]
+  },
+  {
+    "name": "fascinate",
+    "trans": [
+      "vt. 使着迷；使神魂颠倒；蛊惑",
+      "vi. 入迷"
+    ]
+  },
+  {
+    "name": "fatal",
+    "trans": [
+      "adj. 致命的；重大的；毁灭性的"
+    ]
+  },
+  {
+    "name": "favor",
+    "trans": [
+      "n. 喜爱；欢心；好感",
+      "vt. 赞成；喜欢；像"
+    ]
+  },
+  {
+    "name": "feverish",
+    "trans": [
+      "adj. 发烧的，发热的；兴奋的，狂热的；急切的，热切的"
+    ]
+  },
+  {
+    "name": "fiction",
+    "trans": [
+      "n. 小说，虚构的故事；虚构，杜撰；想象"
+    ]
+  },
+  {
+    "name": "fierce",
+    "trans": [
+      "adj. 凶猛的，猛烈的；激烈的，强烈的；热情的，强烈的"
+    ]
+  },
+  {
+    "name": "figure",
+    "trans": [
+      "n. 数字；人物；图形",
+      "vt. 计算；认为；描绘",
+      "vi. 计算；出现；扮演角色"
+    ]
+  },
+  {
+    "name": "financial",
+    "trans": [
+      "adj. 财政的，金融的；有钱的；（俱乐部或社团成员）已缴费的",
+      "n. （组织或个人的）财务状况；金融公司股票"
+    ]
+  },
+  {
+    "name": "finite",
+    "trans": [
+      "adj. 有限的；语限定的；数有穷的，有限的",
+      "n. 有限性；有限的事物"
+    ]
+  },
+  {
+    "name": "flaw",
+    "trans": [
+      "n. 瑕疵；缺点",
+      "v. 降低；破坏；使不完美"
+    ]
+  },
+  {
+    "name": "flexibility",
+    "trans": [
+      "n. 灵活性；弹性；适应性"
+    ]
+  },
+  {
+    "name": "flourish",
+    "trans": [
+      "n. 兴旺；茂盛；挥舞",
+      "vi. 繁荣，兴旺；茂盛；活跃",
+      "vt. 夸耀；挥舞"
+    ]
+  },
+  {
+    "name": "folk",
+    "trans": [
+      "n. 民族；人们,〈口〉家属，亲戚；民间音乐",
+      "adj. 民间的；普通平民的；流传民间的"
+    ]
+  },
+  {
+    "name": "foresee",
+    "trans": [
+      "v. 预见；预料"
+    ]
+  },
+  {
+    "name": "foreshadow",
+    "trans": [
+      "vt. 预示；成为…的前兆",
+      "n. 预兆"
+    ]
+  },
+  {
+    "name": "formal",
+    "trans": [
+      "n. 正式的社交活动；夜礼服",
+      "adj. 正式的；拘谨的；有条理的"
+    ]
+  },
+  {
+    "name": "foster",
+    "trans": [
+      "vt. 养育；收养；怀抱",
+      "adj. 收养的",
+      "n. 养育者"
+    ]
+  },
+  {
+    "name": "foundation",
+    "trans": [
+      "n. 基础，地基；创建，建立；基金会"
+    ]
+  },
+  {
+    "name": "fraction",
+    "trans": [
+      "n. 分数；小部分；微量"
+    ]
+  },
+  {
+    "name": "fragile",
+    "trans": [
+      "adj. 脆弱的；虚弱的；易碎的，易损的"
+    ]
+  },
+  {
+    "name": "frame",
+    "trans": [
+      "n. 框架；结构；画面",
+      "adj. 有木架的；有构架的",
+      "vt. 设计；建造；陷害"
+    ]
+  },
+  {
+    "name": "freeze",
+    "trans": [
+      "n. 冻结；凝固",
+      "vt. 使…冻住；使…结冰",
+      "vi. 冻结；冷冻；僵硬"
+    ]
+  },
+  {
+    "name": "frugal",
+    "trans": [
+      "adj. 节省的，节俭的；朴素的；花钱少的"
+    ]
+  },
+  {
+    "name": "frustrate",
+    "trans": [
+      "vt. 挫败；阻挠；使感到灰心",
+      "adj. 挫败的；无益的",
+      "vi. 失败；受挫"
+    ]
+  },
+  {
+    "name": "fulfill",
+    "trans": [
+      "vt. 履行；实现；满足"
+    ]
+  },
+  {
+    "name": "function",
+    "trans": [
+      "n. 功能；函数；职责",
+      "vi. 运行；活动；行使职责"
+    ]
+  },
+  {
+    "name": "fund",
+    "trans": [
+      "n. 基金；储备；现款",
+      "vt. 积存；为…提供资金；提供资金偿付（债款等）的本息"
+    ]
+  },
+  {
+    "name": "fuse",
+    "trans": [
+      "vi. 熔化；融合",
+      "vt. 使融合；使融化；给…装信管",
+      "n. 保险丝；导火线；雷管"
+    ]
+  },
+  {
+    "name": "garment",
+    "trans": [
+      "n. 衣服，服装；外表，外观",
+      "vt. 给…穿衣服"
+    ]
+  },
+  {
+    "name": "generate",
+    "trans": [
+      "vt. 使形成；发生；生殖"
+    ]
+  },
+  {
+    "name": "generous",
+    "trans": [
+      "adj. 慷慨的，大方的；宽宏大量的，宽厚的；丰富的，充足的"
+    ]
+  },
+  {
+    "name": "genetic",
+    "trans": [
+      "adj. 遗传的；基因的；与基因相关的"
+    ]
+  },
+  {
+    "name": "genius",
+    "trans": [
+      "n. 天才；天才人物；才华"
+    ]
+  },
+  {
+    "name": "genuinely",
+    "trans": [
+      "adv. 真地；真正地；真诚地"
+    ]
+  },
+  {
+    "name": "giant",
+    "trans": [
+      "n. 巨人；伟人；巨大的动物",
+      "adj. 巨大的；巨人般的；伟大的"
+    ]
+  },
+  {
+    "name": "glamorous",
+    "trans": [
+      "adj. 富有魅力的；迷人的；富于吸引力的"
+    ]
+  },
+  {
+    "name": "gloom",
+    "trans": [
+      "n. 昏暗，阴暗；忧郁",
+      "vi. 变黑，变暗；忧郁，沮丧",
+      "vt. 使变黑，变暗；使忧伤，沮丧"
+    ]
+  },
+  {
+    "name": "glory",
+    "trans": [
+      "n. 光荣，荣誉；壮观，壮丽；（对上帝的）赞颂",
+      "vi. 得意，自豪；骄傲"
+    ]
+  },
+  {
+    "name": "grant",
+    "trans": [
+      "n. 拨款；授予物",
+      "vt. 授予；允许；承认",
+      "vi. 同意"
+    ]
+  },
+  {
+    "name": "grasp",
+    "trans": [
+      "n. 抓住；理解；控制",
+      "vi. 抓",
+      "vt. 抓住；领会"
+    ]
+  },
+  {
+    "name": "gratification",
+    "trans": [
+      "n. 满意；喜悦；使人满意之事"
+    ]
+  },
+  {
+    "name": "gratitude",
+    "trans": [
+      "adj. 感激；感谢；感恩",
+      "n. 感恩之心"
+    ]
+  },
+  {
+    "name": "greed",
+    "trans": [
+      "n. 贪婪；贪心"
+    ]
+  },
+  {
+    "name": "grievance",
+    "trans": [
+      "n. 委屈；苦衷；不满"
+    ]
+  },
+  {
+    "name": "grip",
+    "trans": [
+      "n. 紧握；柄；支配",
+      "vt. 紧握；夹紧",
+      "vi. 抓住"
+    ]
+  },
+  {
+    "name": "guarantee",
+    "trans": [
+      "vt. 保证；担保；使(事情)可能发生",
+      "n. 保证，保障；保证书；保用期"
+    ]
+  },
+  {
+    "name": "habitat",
+    "trans": [
+      "n. 栖息地；生境；生活环境"
+    ]
+  },
+  {
+    "name": "hasten",
+    "trans": [
+      "vt. 促；赶快；急忙",
+      "vi. 赶紧；赶快；急忙"
+    ]
+  },
+  {
+    "name": "hemisphere",
+    "trans": [
+      "n. （地球的）半球；脑半球；（球体的）一半"
+    ]
+  },
+  {
+    "name": "heritage",
+    "trans": [
+      "n. 遗产；传统；继承物"
+    ]
+  },
+  {
+    "name": "hierarchical",
+    "trans": [
+      "adj. 分层的；等级制度的"
+    ]
+  },
+  {
+    "name": "hijack",
+    "trans": [
+      "n. 劫持；威逼；敲诈",
+      "vt. 抢劫；揩油",
+      "vi. 拦路抢劫"
+    ]
+  },
+  {
+    "name": "hinder",
+    "trans": [
+      "vt. 阻碍；打扰",
+      "adj. 后面的",
+      "vi. 成为阻碍"
+    ]
+  },
+  {
+    "name": "horizon",
+    "trans": [
+      "n. 地平线；常",
+      "pl. 眼界；见识"
+    ]
+  },
+  {
+    "name": "hostile",
+    "trans": [
+      "adj. 敌人的，敌对的；怀有敌意的；不利的",
+      "n. 敌对者，敌对物；敌方"
+    ]
+  },
+  {
+    "name": "humane",
+    "trans": [
+      "adj. 仁慈的，人道的；高尚的"
+    ]
+  },
+  {
+    "name": "humble",
+    "trans": [
+      "adj. 谦卑的；恭顺的；地位低下的",
+      "vt. 使卑下；贬抑"
+    ]
+  },
+  {
+    "name": "hybrid",
+    "trans": [
+      "n. 杂种；杂交生成的生物体；混合物",
+      "adj. 混合的；杂种的"
+    ]
+  },
+  {
+    "name": "identify",
+    "trans": [
+      "vt. 确定；鉴定；识别，辨认出",
+      "vi. 确定；认同；一致"
+    ]
+  },
+  {
+    "name": "ignore",
+    "trans": [
+      "vt. 驳回诉讼；忽视；不理睬"
+    ]
+  },
+  {
+    "name": "illuminate",
+    "trans": [
+      "vt. 阐明，说明；照亮；使灿烂",
+      "vi. 照亮"
+    ]
+  },
+  {
+    "name": "illusory",
+    "trans": [
+      "adj. 错觉的；幻影的；虚假的"
+    ]
+  },
+  {
+    "name": "illustrate",
+    "trans": [
+      "vt. (用图等)说明；举例说明；作图解",
+      "vi. 举例"
+    ]
+  },
+  {
+    "name": "imitate",
+    "trans": [
+      "vt. 模仿；仿效；仿制"
+    ]
+  },
+  {
+    "name": "immediate",
+    "trans": [
+      "adj. 立即的，即刻的；直接的，最接近的；紧迫的，急需处理的"
+    ]
+  },
+  {
+    "name": "immense",
+    "trans": [
+      "adj. 巨大的，极大的；无限的，无边无际的；极好的，非常棒的"
+    ]
+  },
+  {
+    "name": "immigrate",
+    "trans": [
+      "vi. 移入",
+      "vt. 移民；移居外国，迁移"
+    ]
+  },
+  {
+    "name": "immune",
+    "trans": [
+      "adj. 免疫的；不受影响的；免除的，豁免的",
+      "n. 免疫者；免除者"
+    ]
+  },
+  {
+    "name": "impact",
+    "trans": [
+      "vt. 撞击；冲突；影响",
+      "vi. 冲击；产生影响",
+      "n. 效果；影响；碰撞"
+    ]
+  },
+  {
+    "name": "impel",
+    "trans": [
+      "v. 推动；驱使；促使"
+    ]
+  },
+  {
+    "name": "implement",
+    "trans": [
+      "vt. 使生效；贯彻；执行",
+      "n. 工具；器具；用具"
+    ]
+  },
+  {
+    "name": "implication",
+    "trans": [
+      "n. 暗示，含意；可能的后果，影响；牵连，涉及"
+    ]
+  },
+  {
+    "name": "impose",
+    "trans": [
+      "vt. 强加；征税；以…欺骗",
+      "vi. 利用；欺骗；施加影响"
+    ]
+  },
+  {
+    "name": "impoverished",
+    "trans": [
+      "adj. 穷困的；无力的；用尽了的",
+      "v. 使（某物）贫瘠或恶化"
+    ]
+  },
+  {
+    "name": "impressive",
+    "trans": [
+      "adj. 感人的；令人钦佩的；给人以深刻印象的"
+    ]
+  },
+  {
+    "name": "impulse",
+    "trans": [
+      "n. 冲动；脉冲；推动力",
+      "adj. 一时兴起的；随兴的",
+      "v. 推动"
+    ]
+  },
+  {
+    "name": "inability",
+    "trans": [
+      "n. 无能力；无力；不能"
+    ]
+  },
+  {
+    "name": "incentive",
+    "trans": [
+      "adj. 刺激的；鼓励的",
+      "n. 刺激；鼓励；动机"
+    ]
+  },
+  {
+    "name": "incite",
+    "trans": [
+      "v. 煽动；激起；刺激"
+    ]
+  },
+  {
+    "name": "incline",
+    "trans": [
+      "n. 倾斜；斜面；斜坡",
+      "vt. 使倾斜；使倾向于",
+      "vi. 倾斜；倾向；易于"
+    ]
+  },
+  {
+    "name": "include",
+    "trans": [
+      "v. 包括；包含；计入"
+    ]
+  },
+  {
+    "name": "incomplete",
+    "trans": [
+      "adj. 不完全的；未完成的；不完备的"
+    ]
+  },
+  {
+    "name": "independent",
+    "trans": [
+      "n. 独立自主者；无党派者",
+      "adj. 独立的；单独的；无党派的"
+    ]
+  },
+  {
+    "name": "indicate",
+    "trans": [
+      "vt. 标示；表示；指明",
+      "v. 显示；象征；指示"
+    ]
+  },
+  {
+    "name": "indifferent",
+    "trans": [
+      "adj. 漠不关心的；无关紧要的；中性的，中立的"
+    ]
+  },
+  {
+    "name": "indispensable",
+    "trans": [
+      "n. 不可缺少之物；必不可少的人",
+      "adj. 不可缺少的；绝对必要的；责无旁贷的"
+    ]
+  },
+  {
+    "name": "induce",
+    "trans": [
+      "v. 引起，导致；诱导，劝说；推论，推导"
+    ]
+  },
+  {
+    "name": "indulge",
+    "trans": [
+      "vi. 沉溺；满足；放任",
+      "vt. 满足；纵容；使高兴"
+    ]
+  },
+  {
+    "name": "inedible",
+    "trans": [
+      "adj. 不能食用的；不宜食用的"
+    ]
+  },
+  {
+    "name": "inevitable",
+    "trans": [
+      "adj. 必然发生的，不可避免的；总会发生的，惯常的",
+      "n. 必然发生的事；不可避免的事"
+    ]
+  },
+  {
+    "name": "infection",
+    "trans": [
+      "n. 感染，传染；感染病，传染病；影响，感染"
+    ]
+  },
+  {
+    "name": "infer",
+    "trans": [
+      "vi. 推断；作出推论",
+      "vt. 推断；推论"
+    ]
+  },
+  {
+    "name": "inferior",
+    "trans": [
+      "adj. 较差的，次等的；下级的，下等的；较低的，低于",
+      "n. 下级；下属"
+    ]
+  },
+  {
+    "name": "infirm",
+    "trans": [
+      "adj. 体弱的，虚弱的；年老体弱的；意志不坚定的，优柔寡断的"
+    ]
+  },
+  {
+    "name": "inflation",
+    "trans": [
+      "n. 通货膨胀；（充气物的）膨胀，充气；自负，自大"
+    ]
+  },
+  {
+    "name": "influential",
+    "trans": [
+      "adj. 有影响的；有势力的",
+      "n. 有影响力的人物"
+    ]
+  },
+  {
+    "name": "infrastructure",
+    "trans": [
+      "n. 基础设施；公共建设；下部构造"
+    ]
+  },
+  {
+    "name": "infuriating",
+    "trans": [
+      "adj. 令人愤怒的"
+    ]
+  },
+  {
+    "name": "infuse",
+    "trans": [
+      "vt. 灌输，加入（一种特性）；使充满；浸渍",
+      "vi. 沏（茶）；泡（草药）"
+    ]
+  },
+  {
+    "name": "ingenuity",
+    "trans": [
+      "n. 聪明才智；创造力；独创性"
+    ]
+  },
+  {
+    "name": "inherent",
+    "trans": [
+      "adj. 内在的；固有的；天生的"
+    ]
+  },
+  {
+    "name": "initial",
+    "trans": [
+      "adj. 最初的；开始的；首字母的",
+      "n. 首字母；语音学声母；特大的大写字母",
+      "vt. 用姓名的首字母签名"
+    ]
+  },
+  {
+    "name": "inject",
+    "trans": [
+      "v. 注射，注入；注入（资金、活力等）；插入，引入（话题等）"
+    ]
+  },
+  {
+    "name": "innate",
+    "trans": [
+      "adj. 先天的；天生的；固有的"
+    ]
+  },
+  {
+    "name": "innocent",
+    "trans": [
+      "adj. 无辜的，无罪的；清白的；天真无邪的",
+      "n. 无辜者；头脑简单的人；天真无邪的人"
+    ]
+  },
+  {
+    "name": "innovation",
+    "trans": [
+      "n. 创新；革新；新思想"
+    ]
+  },
+  {
+    "name": "inquire",
+    "trans": [
+      "vi. 询问；查究；询价",
+      "vt. 询问；查究；问明"
+    ]
+  },
+  {
+    "name": "insidious",
+    "trans": [
+      "adj. 阴险的；隐伏的；暗中为害的"
+    ]
+  },
+  {
+    "name": "insightful",
+    "trans": [
+      "adj. 有洞察力的；富有见解的"
+    ]
+  },
+  {
+    "name": "insist",
+    "trans": [
+      "vi. 坚持；强调",
+      "vt. 坚持；强调"
+    ]
+  },
+  {
+    "name": "inspire",
+    "trans": [
+      "vt. 鼓舞；激励；赋予灵感",
+      "vi. 吸；吸入"
+    ]
+  },
+  {
+    "name": "instinct",
+    "trans": [
+      "n. 本能，天性；冲动；天资，天才",
+      "adj. 深深地充满着"
+    ]
+  },
+  {
+    "name": "institution",
+    "trans": [
+      "n. 机构，团体；制度，习俗；大型公共组织"
+    ]
+  },
+  {
+    "name": "instruct",
+    "trans": [
+      "vt. 指导；通知；命令"
+    ]
+  },
+  {
+    "name": "insure",
+    "trans": [
+      "vt. 确保，保证；给…保险",
+      "vi. 确保；投保"
+    ]
+  },
+  {
+    "name": "intangible",
+    "trans": [
+      "adj. 触不到的；难以理解的；无法确定的",
+      "n. （指企业资产）无形的"
+    ]
+  },
+  {
+    "name": "integrity",
+    "trans": [
+      "n. 正直，诚实；完整性，完全；完好，未受损害"
+    ]
+  },
+  {
+    "name": "intellectual",
+    "trans": [
+      "adj. 智力的；有才智的；需用智力的",
+      "n. 知识分子；脑力劳动者；有极高智力的人"
+    ]
+  },
+  {
+    "name": "intelligence",
+    "trans": [
+      "n. 智力，聪明；情报，消息；智能，智慧"
+    ]
+  },
+  {
+    "name": "intend",
+    "trans": [
+      "vi. 有打算",
+      "vt. 打算；想要；意指"
+    ]
+  },
+  {
+    "name": "intense",
+    "trans": [
+      "adj. 强烈的，剧烈的；热烈的，热情的；紧张的，激烈的"
+    ]
+  },
+  {
+    "name": "interact",
+    "trans": [
+      "n. 幕间剧；幕间休息",
+      "vt. 互相影响；互相作用",
+      "vi. 互相影响；互相作用"
+    ]
+  },
+  {
+    "name": "interpersonal",
+    "trans": [
+      "adj. 人与人之间的；人际的；人与人之间的关系的"
+    ]
+  },
+  {
+    "name": "interpretation",
+    "trans": [
+      "n. 解释，说明；理解，诠释；口译，翻译"
+    ]
+  },
+  {
+    "name": "interrupt",
+    "trans": [
+      "n. 中断",
+      "vt. 中断；打断；插嘴",
+      "vi. 打断；打扰"
+    ]
+  },
+  {
+    "name": "intervention",
+    "trans": [
+      "n. 干预，介入；干涉，干预行动；调停，斡旋"
+    ]
+  },
+  {
+    "name": "intimate",
+    "trans": [
+      "adj. 亲密的；私人的；精通的",
+      "n. 至交；知己",
+      "vt. 暗示；通知；宣布"
+    ]
+  },
+  {
+    "name": "intricate",
+    "trans": [
+      "adj. 复杂的；错综的；难以理解的。"
+    ]
+  },
+  {
+    "name": "intrude",
+    "trans": [
+      "vi. 闯入；侵入；侵扰",
+      "vt. 把…强加；把…硬挤"
+    ]
+  },
+  {
+    "name": "intuitive",
+    "trans": [
+      "adj. 直觉的；凭直觉获知的；直观的"
+    ]
+  },
+  {
+    "name": "invert",
+    "trans": [
+      "n. 颠倒的事物；倒置物；倒悬者",
+      "adj. 转化的",
+      "vt. 使…转化；使…颠倒；使…反转"
+    ]
+  },
+  {
+    "name": "invest",
+    "trans": [
+      "vi. 投资，入股；花钱买",
+      "vt. 投资；覆盖；耗费"
+    ]
+  },
+  {
+    "name": "investigation",
+    "trans": [
+      "n. (正式的)调查，侦查；科学研究；学术研究"
+    ]
+  },
+  {
+    "name": "involve",
+    "trans": [
+      "v. 包含，需要；使参与，牵涉；使陷入，使卷入"
+    ]
+  },
+  {
+    "name": "ironic",
+    "trans": [
+      "adj. 用反语的；具有讽刺意味的；冷嘲的"
+    ]
+  },
+  {
+    "name": "isolate",
+    "trans": [
+      "n. 隔离种群",
+      "vt. 使隔离；使孤立；使绝缘",
+      "adj. 隔离的；孤立的"
+    ]
+  },
+  {
+    "name": "issue",
+    "trans": [
+      "n. 问题；流出；期号",
+      "vt. 发行，发布；发给；放出，排出",
+      "vi. 发行；流出；造成…结果"
+    ]
+  },
+  {
+    "name": "joint",
+    "trans": [
+      "n. 接头；接缝；关节",
+      "adj. 联合的；共同的；合资的",
+      "v. 连接；贴合"
+    ]
+  },
+  {
+    "name": "journal",
+    "trans": [
+      "n. 日记，日志；期刊，杂志；分类账",
+      "v. 记日记；写日志"
+    ]
+  },
+  {
+    "name": "jury",
+    "trans": [
+      "n. 陪审团；评委会；评奖团",
+      "adj. 临时用的",
+      "vt. 挑选"
+    ]
+  },
+  {
+    "name": "justice",
+    "trans": [
+      "n. 公正，正义；司法，法律制度；法官，司法官"
+    ]
+  },
+  {
+    "name": "lag",
+    "trans": [
+      "vi. 走得慢；落后",
+      "vt. 落后；投掷；盖上桶盖",
+      "n. 落后；滞后；落后的人"
+    ]
+  },
+  {
+    "name": "lame",
+    "trans": [
+      "adj. 跛足的；僵痛的；不完全的",
+      "vi. 变跛",
+      "vt. 使跛；使成残废"
+    ]
+  },
+  {
+    "name": "launch",
+    "trans": [
+      "vt. 发射；发起，发动；使…下水",
+      "vi. 下水；开始；起飞",
+      "n. 发射；下水；汽艇"
+    ]
+  },
+  {
+    "name": "leakage",
+    "trans": [
+      "n. 泄漏，渗漏；泄露（信息等）；流失（资金等）"
+    ]
+  },
+  {
+    "name": "lean",
+    "trans": [
+      "vi. 倾斜；倚靠；倾向",
+      "adj. 瘦的；贫乏的，歉收的",
+      "vt. 使倾斜"
+    ]
+  },
+  {
+    "name": "legacy",
+    "trans": [
+      "n. 遗产，遗赠；遗留物，后果；传统，遗风",
+      "adj. 遗留下来的；传统的"
+    ]
+  },
+  {
+    "name": "legal",
+    "trans": [
+      "adj. 法律的；合法的；法定的",
+      "n. 法定权利；依法必须登报的声明"
+    ]
+  },
+  {
+    "name": "legitimate",
+    "trans": [
+      "adj. 合法的，正当的；合理的，正当的；合法婚生的",
+      "v. 使合法化；认可"
+    ]
+  },
+  {
+    "name": "leisure",
+    "trans": [
+      "n. 闲暇；空闲；安逸",
+      "adj. 空闲的；有闲的；业余的"
+    ]
+  },
+  {
+    "name": "liberal",
+    "trans": [
+      "adj. 慷慨的；大方的；开明的",
+      "n. 自由主义者；开明的人"
+    ]
+  },
+  {
+    "name": "lineage",
+    "trans": [
+      "n. 血统，家族，宗系；世系，家系；血缘关系"
+    ]
+  },
+  {
+    "name": "literate",
+    "trans": [
+      "adj. 有读写能力的；有文化修养的",
+      "n. 识字的人；有学问的人"
+    ]
+  },
+  {
+    "name": "lobby",
+    "trans": [
+      "n. 大厅；休息室；会客室",
+      "vt. 对……进行游说",
+      "vi. 游说议员"
+    ]
+  },
+  {
+    "name": "locate",
+    "trans": [
+      "vt. 探明；找出；查出",
+      "vi. 建立；住下来"
+    ]
+  },
+  {
+    "name": "lure",
+    "trans": [
+      "vt. 引诱；吸引；诱惑",
+      "n. 诱惑力；魅力；诱饵"
+    ]
+  },
+  {
+    "name": "luxury",
+    "trans": [
+      "n. 奢侈，豪华；奢侈品，美食，美衣；乐趣，享受",
+      "adj. 奢华的；豪华的"
+    ]
+  },
+  {
+    "name": "magnify",
+    "trans": [
+      "vt. 放大；赞美；夸大",
+      "vi. 放大；有放大能力"
+    ]
+  },
+  {
+    "name": "maintain",
+    "trans": [
+      "v. 保持，维持；维修，保养；坚持（观点等）"
+    ]
+  },
+  {
+    "name": "majestic",
+    "trans": [
+      "adj. 威严的，庄严的；宏伟的，雄伟的；高贵的，壮丽的"
+    ]
+  },
+  {
+    "name": "major",
+    "trans": [
+      "adj. 主要的；重要的；主修的",
+      "n. 成年人；主修科目；陆军少校",
+      "vi. 主修"
+    ]
+  },
+  {
+    "name": "mandatory",
+    "trans": [
+      "adj. 强制的；命令的；受委托的",
+      "n. 受托者"
+    ]
+  },
+  {
+    "name": "manipulate",
+    "trans": [
+      "v. 操纵，控制；巧妙地处理；篡改，伪造"
+    ]
+  },
+  {
+    "name": "manufacture",
+    "trans": [
+      "n. 制造；产品；制造业",
+      "vt. 制造；加工；捏造",
+      "vi. 制造"
+    ]
+  },
+  {
+    "name": "manuscript",
+    "trans": [
+      "n. 手稿；原稿；底稿",
+      "adj. 手写的；手抄的"
+    ]
+  },
+  {
+    "name": "margin",
+    "trans": [
+      "n. 边缘，范围；极限；利润，盈余",
+      "vt. 留边；成为…的边；加边于，围绕"
+    ]
+  },
+  {
+    "name": "marine",
+    "trans": [
+      "adj. 船舶的；海生的；海产的",
+      "n. 海运业；舰队；水兵"
+    ]
+  },
+  {
+    "name": "marvel",
+    "trans": [
+      "n. 奇迹",
+      "vt. 对…感到惊异",
+      "vi. 感到惊讶"
+    ]
+  },
+  {
+    "name": "massive",
+    "trans": [
+      "adj. 大量的；巨大的，厚重的；魁伟的"
+    ]
+  },
+  {
+    "name": "mastery",
+    "trans": [
+      "n. 掌握；精通；优势"
+    ]
+  },
+  {
+    "name": "materialistic",
+    "trans": [
+      "adj. 唯物主义的；唯物论的；金钱至上的"
+    ]
+  },
+  {
+    "name": "mature",
+    "trans": [
+      "adj. 成熟的；到期的；充分发育的",
+      "vt. 使…成熟；长成",
+      "vi. 长成；成熟；到期"
+    ]
+  },
+  {
+    "name": "measure",
+    "trans": [
+      "n. 测量；措施；程度",
+      "vt. 测量；估量；权衡",
+      "vi. 测量；估量"
+    ]
+  },
+  {
+    "name": "mechanical",
+    "trans": [
+      "adj. 机械的；力学的；呆板的",
+      "n. (供制版用的)样书；版面设计"
+    ]
+  },
+  {
+    "name": "memorize",
+    "trans": [
+      "v. 记住，熟记；背诵"
+    ]
+  },
+  {
+    "name": "mental",
+    "trans": [
+      "adj. 精神的；脑力的；疯的",
+      "n. 精神病患者"
+    ]
+  },
+  {
+    "name": "merger",
+    "trans": [
+      "n. （企业等的）合并；并购；吸收（如刑法中重罪吸收轻罪）"
+    ]
+  },
+  {
+    "name": "merit",
+    "trans": [
+      "n. 优点，价值；功绩；功过",
+      "vt. 值得",
+      "vi. 应受报答"
+    ]
+  },
+  {
+    "name": "minimal",
+    "trans": [
+      "adj. 最小的，极少的；极小的",
+      "n. 最简单派艺术作品"
+    ]
+  },
+  {
+    "name": "minister",
+    "trans": [
+      "n. 部长；大臣；牧师",
+      "vi. 执行牧师职务；辅助或伺候某人"
+    ]
+  },
+  {
+    "name": "minority",
+    "trans": [
+      "n. 少数民族；少数派；未成年",
+      "adj. 少数的；属于少数派的"
+    ]
+  },
+  {
+    "name": "misery",
+    "trans": [
+      "n. 痛苦，悲惨；不幸；苦恼"
+    ]
+  },
+  {
+    "name": "mislead",
+    "trans": [
+      "vt. 使误入岐途；误导；使产生错误印象"
+    ]
+  },
+  {
+    "name": "mobilize",
+    "trans": [
+      "vt. 动员，调动；集合，组织；使…流通",
+      "vi. 组织；动员起来"
+    ]
+  },
+  {
+    "name": "modest",
+    "trans": [
+      "adj. 谦虚的，谦逊的；适度的，不过分的；中等的，一般的"
+    ]
+  },
+  {
+    "name": "monarch",
+    "trans": [
+      "n. 君主；国王；女王"
+    ]
+  },
+  {
+    "name": "monitor",
+    "trans": [
+      "n. 显示屏，屏幕；计显示器；监测仪",
+      "vt. 监控，监听；搜集，记录；测定",
+      "vi. 监视"
+    ]
+  },
+  {
+    "name": "monopoly",
+    "trans": [
+      "n. 垄断；专卖权；独占"
+    ]
+  },
+  {
+    "name": "motivate",
+    "trans": [
+      "vt. 刺激；使有动机；激发…的积极性"
+    ]
+  },
+  {
+    "name": "multiply",
+    "trans": [
+      "vt. 乘；使增加；使繁殖",
+      "vi. 乘；繁殖；增加",
+      "adv. 多样地；复合地"
+    ]
+  },
+  {
+    "name": "mutually",
+    "trans": [
+      "adv. 互相地；彼此地"
+    ]
+  },
+  {
+    "name": "nasty",
+    "trans": [
+      "adj. 极差的；恶心的；恶意的",
+      "n. 令人不快的人（或物）；可恶；恐怖录像或影片"
+    ]
+  },
+  {
+    "name": "native",
+    "trans": [
+      "adj. 本国的；土著的；天然的",
+      "n. 本地人；土产；当地居民"
+    ]
+  },
+  {
+    "name": "negative",
+    "trans": [
+      "adj. 负的；消极的；否定的",
+      "n. 否定；负数；底片",
+      "vt. 否定；拒绝"
+    ]
+  },
+  {
+    "name": "neglect",
+    "trans": [
+      "vt. 疏忽；忽略；遗漏",
+      "n. 玩忽；被忽略的状态；怠慢"
+    ]
+  },
+  {
+    "name": "negotiate",
+    "trans": [
+      "vi. 谈判；协商；交涉",
+      "vt. 谈判达成；成功越过；议价出售"
+    ]
+  },
+  {
+    "name": "nightmare",
+    "trans": [
+      "n. 噩梦；可怕的事情，无法摆脱的恐惧；泛滥成灾",
+      "adj. 可怕的；噩梦似的"
+    ]
+  },
+  {
+    "name": "nonsense",
+    "trans": [
+      "n. 胡说，废话；荒谬的念头；愚蠢的行为",
+      "adj. 无意义的；荒谬的",
+      "int. 荒唐"
+    ]
+  },
+  {
+    "name": "normal",
+    "trans": [
+      "adj. 正常的；正规的；标准的",
+      "n. 正常；标准；常态"
+    ]
+  },
+  {
+    "name": "notably",
+    "trans": [
+      "adv. “notable“的派生；显著地；尤其"
+    ]
+  },
+  {
+    "name": "noteworthy",
+    "trans": [
+      "adj. 值得注意的；显著的；重要的"
+    ]
+  },
+  {
+    "name": "novel",
+    "trans": [
+      "n. （长篇）小说；法新法，附律",
+      "adj. 新奇的；异常的"
+    ]
+  },
+  {
+    "name": "nurture",
+    "trans": [
+      "vt. 养育；鼓励；培植",
+      "n. 养育；教养；营养物"
+    ]
+  },
+  {
+    "name": "object",
+    "trans": [
+      "n. 目标；物体；客体",
+      "vt. 提出…作为反对的理由",
+      "vi. 反对；拒绝"
+    ]
+  },
+  {
+    "name": "oblige",
+    "trans": [
+      "vt. 迫使；强制；赐，施恩惠",
+      "vi. 帮忙；施恩惠"
+    ]
+  },
+  {
+    "name": "obscure",
+    "trans": [
+      "adj. 模糊的；晦涩的；昏暗的",
+      "vt. 遮掩；使变暗；使难理解"
+    ]
+  },
+  {
+    "name": "obsess",
+    "trans": [
+      "vt. 迷住，缠住；使…着迷；使…困扰"
+    ]
+  },
+  {
+    "name": "obstruct",
+    "trans": [
+      "vt. 阻塞；堵塞；阻碍",
+      "vi. 阻塞；妨碍；（给…）设置障碍"
+    ]
+  },
+  {
+    "name": "occupy",
+    "trans": [
+      "vt. 占用；占领；占据",
+      "v. 使忙于（做某事）"
+    ]
+  },
+  {
+    "name": "occur",
+    "trans": [
+      "vi. 发生；出现；存在"
+    ]
+  },
+  {
+    "name": "odds",
+    "trans": [
+      "n. 可能性，机会；赔率；不利条件，不利因素"
+    ]
+  },
+  {
+    "name": "official",
+    "trans": [
+      "adj. 官方的；正式的；公务的",
+      "n. 官员；公务员；高级职员"
+    ]
+  },
+  {
+    "name": "omission",
+    "trans": [
+      "n. 疏忽，遗漏；省略；冗长"
+    ]
+  },
+  {
+    "name": "opponent",
+    "trans": [
+      "n. 对手；反对者；敌手",
+      "adj. 对立的；敌对的"
+    ]
+  },
+  {
+    "name": "oppose",
+    "trans": [
+      "vt. 反对；对抗，抗争",
+      "vi. 反对"
+    ]
+  },
+  {
+    "name": "oppressive",
+    "trans": [
+      "adj. 压迫的；沉重的；压制性的"
+    ]
+  },
+  {
+    "name": "optimistic",
+    "trans": [
+      "adj. 乐观的；乐观主义的"
+    ]
+  },
+  {
+    "name": "option",
+    "trans": [
+      "n. 选择（的自由）；选项；选择权",
+      "vt. 得到或获准进行选择；调动球员"
+    ]
+  },
+  {
+    "name": "organism",
+    "trans": [
+      "n. 有机体；生物体；微生物"
+    ]
+  },
+  {
+    "name": "organization",
+    "trans": [
+      "n. 组织；团体；机构",
+      "adj. 有组织的"
+    ]
+  },
+  {
+    "name": "original",
+    "trans": [
+      "n. 原件；原作；原物",
+      "adj. 原始的；最初的；独创的"
+    ]
+  },
+  {
+    "name": "ornament",
+    "trans": [
+      "n. 装饰；装饰物；教堂用品",
+      "vt. 装饰；修饰"
+    ]
+  },
+  {
+    "name": "outlive",
+    "trans": [
+      "v. 比...活得长；活过；度过"
+    ]
+  },
+  {
+    "name": "outraged",
+    "trans": [
+      "adj. 义愤填膺的；愤慨的，气愤的",
+      "v. 使愤怒outrage的过去式；过去分词"
+    ]
+  },
+  {
+    "name": "overlook",
+    "trans": [
+      "vt. 忽略；俯瞰；远眺",
+      "n. 忽视；眺望；从高处能看到的景色"
+    ]
+  },
+  {
+    "name": "overshadow",
+    "trans": [
+      "v. 使相形见绌，使黯然失色；遮蔽，遮挡；使蒙上阴影"
+    ]
+  },
+  {
+    "name": "overturn",
+    "trans": [
+      "vt. 推翻；倾覆；破坏",
+      "vi. 推翻；倾覆",
+      "n. 倾覆；周转；破灭"
+    ]
+  },
+  {
+    "name": "overwhelming",
+    "trans": [
+      "adj. 压倒性的；势不可挡的",
+      "v. 压倒；制服"
+    ]
+  },
+  {
+    "name": "panel",
+    "trans": [
+      "n. 镶板；面；（门、墙等上面的）嵌板",
+      "vt. 选定（陪审团）；把…分格；在…上置鞍垫"
+    ]
+  },
+  {
+    "name": "panic",
+    "trans": [
+      "n. 恐慌；惊慌",
+      "adj. 恐慌的；惊慌的",
+      "v. 惊慌；恐慌"
+    ]
+  },
+  {
+    "name": "paradox",
+    "trans": [
+      "n. 悖论，反论；似非而是的论点；自相矛盾的人或事"
+    ]
+  },
+  {
+    "name": "parallel",
+    "trans": [
+      "n. 极其相似的人；相似特点；纬线",
+      "adj. 平行的；极相似的，相应的",
+      "vt. 与…相似；比得上"
+    ]
+  },
+  {
+    "name": "paralysis",
+    "trans": [
+      "n. 麻痹；无力；停顿"
+    ]
+  },
+  {
+    "name": "partial",
+    "trans": [
+      "adj. 部分的，不完全的；偏袒的，不公平的；偏爱的",
+      "n. （乐）分音；泛音"
+    ]
+  },
+  {
+    "name": "participate",
+    "trans": [
+      "vi. 参与，参加；分享",
+      "vt. 分享；分担"
+    ]
+  },
+  {
+    "name": "passionate",
+    "trans": [
+      "adj. 热情的；热烈的，激昂的；易怒的"
+    ]
+  },
+  {
+    "name": "patent",
+    "trans": [
+      "adj. 明显的；获得专利的",
+      "n. 专利；专利 权；专利品",
+      "vt. 取得…专利"
+    ]
+  },
+  {
+    "name": "peak",
+    "trans": [
+      "n. 山峰；最高点；顶点",
+      "adj. 最高的；最大值的",
+      "vt. 使达到最高点；使竖起"
+    ]
+  },
+  {
+    "name": "peer",
+    "trans": [
+      "vi. 凝视，盯着看；窥视",
+      "vt. 封为贵族；与…同等",
+      "n. 贵族；同等的人"
+    ]
+  },
+  {
+    "name": "penalty",
+    "trans": [
+      "n. 惩罚，处罚；罚款，罚金；（体育比赛中的）点球，罚球"
+    ]
+  },
+  {
+    "name": "pension",
+    "trans": [
+      "n. 退休金，抚恤金；津贴；膳宿费",
+      "vt. 发给养老金或抚恤金"
+    ]
+  },
+  {
+    "name": "perceive",
+    "trans": [
+      "vt. 察觉，感觉；理解；认知",
+      "vi. 感到，感知；认识到"
+    ]
+  },
+  {
+    "name": "perish",
+    "trans": [
+      "vi. 死亡；毁灭；腐烂",
+      "vt. 使麻木；毁坏"
+    ]
+  },
+  {
+    "name": "permanent",
+    "trans": [
+      "adj. 稳定的；常务的，常设的",
+      "n. 电烫发；烫发"
+    ]
+  },
+  {
+    "name": "permissible",
+    "trans": [
+      "adj. 可允许的；许可的；不碍事的"
+    ]
+  },
+  {
+    "name": "perpetuate",
+    "trans": [
+      "vt. 使永存；使不朽，使不灭；保持",
+      "adj. 长存的"
+    ]
+  },
+  {
+    "name": "perplexed",
+    "trans": [
+      "adj. 困惑的，糊涂的；复杂的，杂乱的",
+      "v. 使复杂化；使难办"
+    ]
+  },
+  {
+    "name": "persistent",
+    "trans": [
+      "adj. 持续的，连续的；坚持的，执着的；顽固的，固执的"
+    ]
+  },
+  {
+    "name": "perspective",
+    "trans": [
+      "n. 透镜，望远镜；观点，看法；远景，景色",
+      "adj. （按照）透视画法的；透视的"
+    ]
+  },
+  {
+    "name": "pervasive",
+    "trans": [
+      "adj. 普遍的；扩大的；渗透的",
+      "adv. 无处不在地；遍布地",
+      "n. 无处不在；遍布"
+    ]
+  },
+  {
+    "name": "pessimistic",
+    "trans": [
+      "adj. 悲观的；不乐观的"
+    ]
+  },
+  {
+    "name": "philosophy",
+    "trans": [
+      "n. 哲学；哲理；人生观"
+    ]
+  },
+  {
+    "name": "phony",
+    "trans": [
+      "adj. 假的，伪造的；虚伪的，虚假的",
+      "n. 骗子；冒牌货"
+    ]
+  },
+  {
+    "name": "physical",
+    "trans": [
+      "adj. 自然（界）的；身体的；物质的",
+      "n. 身体检查；体格检查"
+    ]
+  },
+  {
+    "name": "plead",
+    "trans": [
+      "vi. 恳求；辩论",
+      "vt. 以…为理由；陈述案情；申辩，认罪，辩护",
+      "vt.&vi. 申诉；答辩；为…辩护"
+    ]
+  },
+  {
+    "name": "polarize",
+    "trans": [
+      "vt. （使）极化；（使）偏振；（使）两极分化",
+      "vi. 极化；偏振；两极分化"
+    ]
+  },
+  {
+    "name": "ponder",
+    "trans": [
+      "vi. 考虑；沉思",
+      "vt. 仔细考虑；衡量"
+    ]
+  },
+  {
+    "name": "popularity",
+    "trans": [
+      "n. 普及，流行；名气；受大众欢迎"
+    ]
+  },
+  {
+    "name": "portray",
+    "trans": [
+      "v. 描绘，描述；扮演，饰演；刻画，表现"
+    ]
+  },
+  {
+    "name": "possession",
+    "trans": [
+      "n. 拥有，占有；所有物，财产；控制，掌握"
+    ]
+  },
+  {
+    "name": "potential",
+    "trans": [
+      "n. 潜能；可能性；电势",
+      "adj. 潜在的；可能的；势的"
+    ]
+  },
+  {
+    "name": "precede",
+    "trans": [
+      "vt. 领先，在…之前；优于，高于",
+      "vi. 领先；在前面"
+    ]
+  },
+  {
+    "name": "precious",
+    "trans": [
+      "adj. 宝贵的，珍贵的；贵重的；矫揉造作的",
+      "adv. 很；非常",
+      "n. 珍爱的人；可爱的人"
+    ]
+  },
+  {
+    "name": "precisely",
+    "trans": [
+      "adv. 准确地，精确地；恰好，正是；完全地，一点不差地"
+    ]
+  },
+  {
+    "name": "predecessor",
+    "trans": [
+      "n. 前辈；前任；前身"
+    ]
+  },
+  {
+    "name": "predict",
+    "trans": [
+      "vi. 作出预言；作预料，作预报",
+      "vt. 预报，预言；预知"
+    ]
+  },
+  {
+    "name": "preference",
+    "trans": [
+      "n. 偏爱；偏好；优先"
+    ]
+  },
+  {
+    "name": "prejudice",
+    "trans": [
+      "n. 成见；偏见；歧视",
+      "vt. 使有偏见；不利于；损害"
+    ]
+  },
+  {
+    "name": "preliminary",
+    "trans": [
+      "n. 准备；预赛；初步措施",
+      "adj. 初步的；开始的；预备的"
+    ]
+  },
+  {
+    "name": "premise",
+    "trans": [
+      "n. 前提；上述各项；房屋连地基",
+      "vt. 引出，预先提出；作为…的前提",
+      "vi. 作出前提"
+    ]
+  },
+  {
+    "name": "prescribe",
+    "trans": [
+      "vt. 命令；规定；开处(方)",
+      "vi. 规定；开药方"
+    ]
+  },
+  {
+    "name": "preserve",
+    "trans": [
+      "vt. 保护；保存；保持",
+      "vi. 保存",
+      "n. 蜜饯；专供私人行猎或捕鱼的保留区"
+    ]
+  },
+  {
+    "name": "pressure",
+    "trans": [
+      "n. 压力，压强；压迫，压榨；紧迫，压力",
+      "v. 施加压力；迫使"
+    ]
+  },
+  {
+    "name": "prestige",
+    "trans": [
+      "n. 声望；威信",
+      "adj. 受尊重的，令人敬仰的；贵重的，气派的"
+    ]
+  },
+  {
+    "name": "presumptively",
+    "trans": [
+      "adv. 假定地、推测地"
+    ]
+  },
+  {
+    "name": "prevailing",
+    "trans": [
+      "adj. 占优势的；主要的；普遍的",
+      "v. 获胜( prevail的现在分词 )；盛行；说服"
+    ]
+  },
+  {
+    "name": "prevent",
+    "trans": [
+      "vt. 预防；阻碍；阻止",
+      "vi. 阻挠；阻止"
+    ]
+  },
+  {
+    "name": "previous",
+    "trans": [
+      "adj. 以前的；早先的；过早的",
+      "adv. 在先；在…以前"
+    ]
+  },
+  {
+    "name": "primary",
+    "trans": [
+      "adj. 最初的；基本的；主要的",
+      "n. 最主要者初选；原色；初级线圈"
+    ]
+  },
+  {
+    "name": "principle",
+    "trans": [
+      "n. 原则，原理；道德准则，行为规范；基本法则，基本信念"
+    ]
+  },
+  {
+    "name": "prior",
+    "trans": [
+      "adj. 在先的；优先的；更重要的",
+      "adv. 居先",
+      "n. 小修道院院长；大修道院副院长"
+    ]
+  },
+  {
+    "name": "private",
+    "trans": [
+      "n. 列兵；二等兵",
+      "adj. 私人的；私有的；私下的"
+    ]
+  },
+  {
+    "name": "privilege",
+    "trans": [
+      "n. 特权；优惠；特别恩典",
+      "vt. 给特权；免除"
+    ]
+  },
+  {
+    "name": "procedure",
+    "trans": [
+      "n. 程序，步骤；手续，流程；手术，医疗程序"
+    ]
+  },
+  {
+    "name": "proceed",
+    "trans": [
+      "vi. 开始；继续进行；发生",
+      "n. 收入；获利"
+    ]
+  },
+  {
+    "name": "proclaim",
+    "trans": [
+      "vt. 宣告，公布；声明；表明"
+    ]
+  },
+  {
+    "name": "productive",
+    "trans": [
+      "adj. 能生产的；生产的，生产性的；多产的"
+    ]
+  },
+  {
+    "name": "professional",
+    "trans": [
+      "adj. 职业的；专业的；内行的",
+      "n. 具有某专业资格的人；专业人士；内行"
+    ]
+  },
+  {
+    "name": "proficient",
+    "trans": [
+      "adj. 精通的；熟练的",
+      "n. 能手；老手；专家"
+    ]
+  },
+  {
+    "name": "profit",
+    "trans": [
+      "n. 益处；利润；盈利比率",
+      "vi. 得益；利用；获利",
+      "vt. 有益于"
+    ]
+  },
+  {
+    "name": "profound",
+    "trans": [
+      "adj. 深厚的；意义深远的；严重的",
+      "n. 〈诗〉深海，大洋；深渊；（灵魂）深处"
+    ]
+  },
+  {
+    "name": "progress",
+    "trans": [
+      "n. 进步；进展；前进",
+      "v. 进步；进展；前进"
+    ]
+  },
+  {
+    "name": "prohibition",
+    "trans": [
+      "n. 禁止；禁令；禁酒"
+    ]
+  },
+  {
+    "name": "prominent",
+    "trans": [
+      "adj. 显著的，突出的；重要的，著名的；突出的，凸出的"
+    ]
+  },
+  {
+    "name": "promising",
+    "trans": [
+      "adj. 有希望的；有前途的",
+      "v. 承诺；答应；“promise”的现在分词"
+    ]
+  },
+  {
+    "name": "promote",
+    "trans": [
+      "vi. 成为王后或其他大于卒的子",
+      "vt. 促进；提升；推销"
+    ]
+  },
+  {
+    "name": "prompt",
+    "trans": [
+      "n. 提示；付款期限",
+      "adj. 敏捷的，迅速的；立刻的",
+      "vt. 提示；促进；激起"
+    ]
+  },
+  {
+    "name": "prone",
+    "trans": [
+      "adj. 俯卧的；易于...的；有...倾向的"
+    ]
+  },
+  {
+    "name": "pronounced",
+    "trans": [
+      "adj. 明显的，显著的；决然的，断然的；强硬的",
+      "v. 宣布，宣称；断言"
+    ]
+  },
+  {
+    "name": "proper",
+    "trans": [
+      "adj. 适当的；本身的；特有的",
+      "adv. 完全地"
+    ]
+  },
+  {
+    "name": "property",
+    "trans": [
+      "n. 财产，所有物；特性，性质；房地产，不动产"
+    ]
+  },
+  {
+    "name": "propose",
+    "trans": [
+      "vi. 建议；求婚；打算",
+      "vt. 建议；打算，计划；求婚"
+    ]
+  },
+  {
+    "name": "prospect",
+    "trans": [
+      "n. 前途；预期；景色",
+      "vt. 勘探；勘察",
+      "vi. 勘探；找矿"
+    ]
+  },
+  {
+    "name": "prosperity",
+    "trans": [
+      "n. 繁荣；兴旺，昌盛；成功"
+    ]
+  },
+  {
+    "name": "protest",
+    "trans": [
+      "n. 抗议；反对；抗议书",
+      "vi. 反对；抗议；断言",
+      "vt. 坚持地表示对...提出异议"
+    ]
+  },
+  {
+    "name": "provide",
+    "trans": [
+      "vt. 提供；规定；准备",
+      "vi. 规定；抚养；作准备"
+    ]
+  },
+  {
+    "name": "provoke",
+    "trans": [
+      "v. 激怒，惹恼；引起，激起；刺激，诱导"
+    ]
+  },
+  {
+    "name": "prudent",
+    "trans": [
+      "adj. 谨慎的；精明的；节俭的"
+    ]
+  },
+  {
+    "name": "psychology",
+    "trans": [
+      "n. 心理学；心理；心理特征"
+    ]
+  },
+  {
+    "name": "publication",
+    "trans": [
+      "n. 出版物，刊物；出版，发行；公布，发表"
+    ]
+  },
+  {
+    "name": "purchase",
+    "trans": [
+      "n. 购买；紧握；起重装置",
+      "vt. 购买；赢得",
+      "vi. 购买东西"
+    ]
+  },
+  {
+    "name": "pursuit",
+    "trans": [
+      "n. 追求，寻求；追赶，追捕；职业，事业"
+    ]
+  },
+  {
+    "name": "radical",
+    "trans": [
+      "n. 基础；激进分子；原子团",
+      "adj. 激进的；根本的；彻底的"
+    ]
+  },
+  {
+    "name": "random",
+    "trans": [
+      "adj. 随机的，任意的；胡乱的，无目的的",
+      "n. 随机选择；随意",
+      "adv. 胡乱地；随意地"
+    ]
+  },
+  {
+    "name": "rarely",
+    "trans": [
+      "adv. 很少地；难得；罕有地"
+    ]
+  },
+  {
+    "name": "readily",
+    "trans": [
+      "adv. 轻易地，容易地；迅速地，立即地；乐意地，欣然地"
+    ]
+  },
+  {
+    "name": "realm",
+    "trans": [
+      "n. 界；领域；范围"
+    ]
+  },
+  {
+    "name": "reap",
+    "trans": [
+      "vt. 收获，获得；收割",
+      "vi. 收割；收获"
+    ]
+  },
+  {
+    "name": "reasonable",
+    "trans": [
+      "adj. 合理的，有道理的；公道的，公平的；明智的，理智的"
+    ]
+  },
+  {
+    "name": "recessing",
+    "trans": [
+      "n. 衰退（期）、萧条（期）"
+    ]
+  },
+  {
+    "name": "recipient",
+    "trans": [
+      "n. 接受者；容器；容纳者",
+      "adj. 容易接受的；感受性强的"
+    ]
+  },
+  {
+    "name": "recitation",
+    "trans": [
+      "n. 背诵，朗诵；复述，叙述；背诵的内容"
+    ]
+  },
+  {
+    "name": "recklessly",
+    "trans": [
+      "adv. 鲁莽地；不顾后果地；轻率地"
+    ]
+  },
+  {
+    "name": "recognize",
+    "trans": [
+      "vt. 认出；识别；承认",
+      "vi. 承认，确认；法律具结，立保证书"
+    ]
+  },
+  {
+    "name": "recommend",
+    "trans": [
+      "vt. 推荐，介绍；劝告；使受欢迎",
+      "vi. 推荐；建议"
+    ]
+  },
+  {
+    "name": "recovery",
+    "trans": [
+      "n. 恢复，康复；复原，重新获得；经济复苏"
+    ]
+  },
+  {
+    "name": "recruit",
+    "trans": [
+      "n. 招聘；新兵；新成员",
+      "vi. 复原；征募新兵；得到补充",
+      "vt. 补充；聘用；征募"
+    ]
+  },
+  {
+    "name": "rectify",
+    "trans": [
+      "vt. 改正；精馏；整流"
+    ]
+  },
+  {
+    "name": "reduce",
+    "trans": [
+      "vi. 减少；缩小；归纳为",
+      "vt. 减少；降低；使处于"
+    ]
+  },
+  {
+    "name": "refer",
+    "trans": [
+      "vi. 提到；针对；关系到",
+      "vt. 送交；提交；归于",
+      "vt.&vi. 参考；查阅"
+    ]
+  },
+  {
+    "name": "reflect",
+    "trans": [
+      "vt.&vi. 反射（光、热、声或影像）；考虑",
+      "vt. 反射，反照；表达；显示",
+      "vi. 映出；反射；深思熟虑"
+    ]
+  },
+  {
+    "name": "reform",
+    "trans": [
+      "n. 改革，改良；改正",
+      "adj. 改革的；改革教会的",
+      "vt. 改革，革新；重新组成"
+    ]
+  },
+  {
+    "name": "refutation",
+    "trans": [
+      "n. 反驳；驳斥；辩驳"
+    ]
+  },
+  {
+    "name": "regime",
+    "trans": [
+      "n. 政权，政体；制度，体制；管理体系，方法"
+    ]
+  },
+  {
+    "name": "region",
+    "trans": [
+      "n. 地区；范围；部位"
+    ]
+  },
+  {
+    "name": "register",
+    "trans": [
+      "n. 登记；注册；记录",
+      "vt. 登记；注册；记录",
+      "vi. 登记；注册；挂号"
+    ]
+  },
+  {
+    "name": "regrettable",
+    "trans": [
+      "adj. 令人遗憾的；可惜的；可悲的"
+    ]
+  },
+  {
+    "name": "regulation",
+    "trans": [
+      "n. 管理；控制；规章",
+      "adj. 规定的；必须穿戴的；必须使用的"
+    ]
+  },
+  {
+    "name": "reign",
+    "trans": [
+      "n. 统治；统治时期；支配",
+      "vi. 统治；支配；盛行"
+    ]
+  },
+  {
+    "name": "reinforce",
+    "trans": [
+      "vt. 加固；强化；增援",
+      "vi. 求援；得到增援；给予更多的支持",
+      "n. 加强；加固物；加固材料"
+    ]
+  },
+  {
+    "name": "reject",
+    "trans": [
+      "n. 被弃之物或人；次品",
+      "vt. 拒绝；排斥；抵制"
+    ]
+  },
+  {
+    "name": "release",
+    "trans": [
+      "n. 释放；发布；让与",
+      "vt. 释放；发射；让与"
+    ]
+  },
+  {
+    "name": "reliance",
+    "trans": [
+      "n. 信赖；信心；受信赖的人或物"
+    ]
+  },
+  {
+    "name": "relieve",
+    "trans": [
+      "vt. 解除，减轻；使不单调乏味；换…的班"
+    ]
+  },
+  {
+    "name": "religious",
+    "trans": [
+      "adj. 虔诚的；笃信宗教的；宗教的",
+      "n. 修士；修女；出家人"
+    ]
+  },
+  {
+    "name": "reluctant",
+    "trans": [
+      "adj. 不情愿的；勉强的；顽抗的"
+    ]
+  },
+  {
+    "name": "remark",
+    "trans": [
+      "n. 注意；言辞",
+      "vt. 评论；觉察",
+      "vi. 谈论"
+    ]
+  },
+  {
+    "name": "reminder",
+    "trans": [
+      "n. 暗示；提醒的人/物；催单"
+    ]
+  },
+  {
+    "name": "remote",
+    "trans": [
+      "adj. （时间上）遥远的；远离的；远程的",
+      "n. 远程操作；遥控器",
+      "vt. 使…向远方延伸；把…延展到远处"
+    ]
+  },
+  {
+    "name": "renovation",
+    "trans": [
+      "n. 革新；修理；恢复活力"
+    ]
+  },
+  {
+    "name": "represent",
+    "trans": [
+      "vt. 代表；表现；描绘",
+      "vi. 代表；提出异议"
+    ]
+  },
+  {
+    "name": "reproducibility",
+    "trans": [
+      "n. 可重复性；可复制性"
+    ]
+  },
+  {
+    "name": "reputation",
+    "trans": [
+      "n. 名誉；名声；好名声"
+    ]
+  },
+  {
+    "name": "require",
+    "trans": [
+      "vt. 要求；需要；想要",
+      "vi. 要求；规定"
+    ]
+  },
+  {
+    "name": "resent",
+    "trans": [
+      "vt. 怨恨；愤恨；厌恶"
+    ]
+  },
+  {
+    "name": "resident",
+    "trans": [
+      "n. 居民，住户；住院医生",
+      "adj. 居住的；常驻的"
+    ]
+  },
+  {
+    "name": "resistant",
+    "trans": [
+      "adj. 有抵抗力的，抵抗的；顽固的",
+      "n. 抵抗者；有抵抗力的东西；防染剂，防腐剂"
+    ]
+  },
+  {
+    "name": "respect",
+    "trans": [
+      "n. 尊敬；敬重；关系",
+      "vt. 尊敬；尊重；关于"
+    ]
+  },
+  {
+    "name": "responsible",
+    "trans": [
+      "adj. 需负责任的；承担责任的；有责任感的"
+    ]
+  },
+  {
+    "name": "restore",
+    "trans": [
+      "vt. 归还；交还；使恢复",
+      "vt.&vi. 恢复（某种情况或感受）；使复原；使复位"
+    ]
+  },
+  {
+    "name": "resume",
+    "trans": [
+      "vt.&vi. 重新开始；恢复",
+      "vt. 重新取得；再占有",
+      "n. 梗概，摘要；简历"
+    ]
+  },
+  {
+    "name": "retail",
+    "trans": [
+      "n. 零售",
+      "vt. 零售；零卖；转述",
+      "adj. 零售的"
+    ]
+  },
+  {
+    "name": "retain",
+    "trans": [
+      "v. 保持，保留；记住，记得；雇用，保留（员工）"
+    ]
+  },
+  {
+    "name": "retreat",
+    "trans": [
+      "n. 撤退；休息寓所",
+      "vt. 退（棋）；使后退",
+      "vi. 撤退；退避；向后倾"
+    ]
+  },
+  {
+    "name": "retrospection",
+    "trans": [
+      "n. 回顾；反省；追忆"
+    ]
+  },
+  {
+    "name": "reveal",
+    "trans": [
+      "n. 揭露；暴露；门侧，窗侧",
+      "vt. 显示；透露；揭露"
+    ]
+  },
+  {
+    "name": "revenue",
+    "trans": [
+      "n. (国家的) 税收；收入，收益；总收入"
+    ]
+  },
+  {
+    "name": "reverse",
+    "trans": [
+      "n. 背面；相反；倒退",
+      "adj. 反面的；颠倒的；反身的",
+      "vt. 颠倒；倒转"
+    ]
+  },
+  {
+    "name": "review",
+    "trans": [
+      "n. 回顾；复习；评论",
+      "vt. 回顾；检查；复审",
+      "vi. 回顾；复习功课；写评论"
+    ]
+  },
+  {
+    "name": "revival",
+    "trans": [
+      "n. 复兴，复活；（宗教信仰的）复兴；重新上演，重新流行"
+    ]
+  },
+  {
+    "name": "revolutionary",
+    "trans": [
+      "adj. 革命的；革命性的；创新的",
+      "n. 革命者；革新者"
+    ]
+  },
+  {
+    "name": "righteous",
+    "trans": [
+      "adj. 正义的；正直的；公正的"
+    ]
+  },
+  {
+    "name": "rigid",
+    "trans": [
+      "adj. 僵硬的，固定的；严格的，严厉的；刚性的，不易弯曲的"
+    ]
+  },
+  {
+    "name": "rigorous",
+    "trans": [
+      "adj. 严格的，严厉的；严密的；严酷的"
+    ]
+  },
+  {
+    "name": "ritual",
+    "trans": [
+      "n. 仪式；惯例；礼制",
+      "adj. 仪式的；例行的；礼节性的"
+    ]
+  },
+  {
+    "name": "rival",
+    "trans": [
+      "n. 对手；竞争者",
+      "v. 与...竞争；比得上",
+      "adj. 竞争的；对抗的"
+    ]
+  },
+  {
+    "name": "robust",
+    "trans": [
+      "adj. 强健的，健壮的；坚固的，结实的；强劲的，有力的"
+    ]
+  },
+  {
+    "name": "rough",
+    "trans": [
+      "adj. 粗糙的；粗野的；未经加工的",
+      "vt. 使粗糙；粗暴对待；草拟"
+    ]
+  },
+  {
+    "name": "routine",
+    "trans": [
+      "n. 例行公事；常规；无聊",
+      "adj. 日常的；常规的；例行的"
+    ]
+  },
+  {
+    "name": "satisfy",
+    "trans": [
+      "vt.&vi. 使满意；满足",
+      "vt. 使确信；符合，达到（要求、规定、标准等）；消除",
+      "vi. 使满足或足够；使满意"
+    ]
+  },
+  {
+    "name": "saturate",
+    "trans": [
+      "vt. 浸湿，浸透；使充满；化使饱和",
+      "adj. 浸透的，渗透的；饱和的；颜色浓深的"
+    ]
+  },
+  {
+    "name": "scapegoat",
+    "trans": [
+      "n. 替罪羊；代人受过的人",
+      "v. 把...作为替罪羊；使...成为替罪羊"
+    ]
+  },
+  {
+    "name": "scary",
+    "trans": [
+      "adj. （事物）可怕的；恐怖的；吓人的"
+    ]
+  },
+  {
+    "name": "scorn",
+    "trans": [
+      "n. 轻蔑；嘲笑；藐视的对象",
+      "vt. 轻蔑；藐视；不屑做",
+      "vi. 表示轻蔑；表示鄙视"
+    ]
+  },
+  {
+    "name": "screen",
+    "trans": [
+      "n. 屏，幕；屏风",
+      "vt. 筛；拍摄；放映",
+      "vi. 拍电影"
+    ]
+  },
+  {
+    "name": "scrutinize",
+    "trans": [
+      "n. 仔细或彻底检查",
+      "vt. 详细检查；细看",
+      "vi. 细阅；作详细检查"
+    ]
+  },
+  {
+    "name": "section",
+    "trans": [
+      "n. 截面；部分；部门",
+      "vt. 把…分段；将…切片；对…进行划分",
+      "vi. 被切割成片；被分成部分"
+    ]
+  },
+  {
+    "name": "secure",
+    "trans": [
+      "vt. 保护；弄到；招致",
+      "adj. 安全的；无虑的；有把握的",
+      "vi. 获得安全；船抛锚；停止工作"
+    ]
+  },
+  {
+    "name": "segment",
+    "trans": [
+      "vi. 分割",
+      "n. 段；部分",
+      "vt. 分割"
+    ]
+  },
+  {
+    "name": "selective",
+    "trans": [
+      "adj. 选择性的，讲究的；有选择地，有选择性地；仔细挑选地"
+    ]
+  },
+  {
+    "name": "senior",
+    "trans": [
+      "n. 上司；较年长者；毕业班学生",
+      "adj. 高级的；年长的；地位较高的"
+    ]
+  },
+  {
+    "name": "sensitive",
+    "trans": [
+      "adj. 敏感的；感觉的；灵敏的",
+      "n. 敏感的人；有灵异能力的人"
+    ]
+  },
+  {
+    "name": "sentiment",
+    "trans": [
+      "n. 感情，情感；观点，看法；情绪"
+    ]
+  },
+  {
+    "name": "separate",
+    "trans": [
+      "n. 分开；抽印本",
+      "adj. 单独的；分开的；不同的",
+      "vt. 使分离；使分开；使分居"
+    ]
+  },
+  {
+    "name": "series",
+    "trans": [
+      "n. 系列，连续；连续剧，系列节目；丛书，系列丛书"
+    ]
+  },
+  {
+    "name": "severe",
+    "trans": [
+      "adj. 严重的，严峻的；严厉的，严格的；剧烈的，猛烈的"
+    ]
+  },
+  {
+    "name": "shed",
+    "trans": [
+      "vt. 散发；流出；摆脱",
+      "vi. 流出；脱落；散布",
+      "n. 小屋，棚；分水岭"
+    ]
+  },
+  {
+    "name": "shield",
+    "trans": [
+      "n. 盾；防护物；保护者",
+      "vt. 遮蔽；包庇；避开",
+      "vi. 防御；起保护作用"
+    ]
+  },
+  {
+    "name": "shift",
+    "trans": [
+      "n. 移动；变化；手段",
+      "vt. 转移；改变；替换",
+      "vi. 移动；转变；转换"
+    ]
+  },
+  {
+    "name": "shrinking",
+    "trans": [
+      "adj. 畏缩的；犹豫不决的；收缩的",
+      "v. 萎缩"
+    ]
+  },
+  {
+    "name": "signature",
+    "trans": [
+      "n. 签名，签字；特征，标志；（音乐）调号"
+    ]
+  },
+  {
+    "name": "significant",
+    "trans": [
+      "n. 象征；有意义的事物",
+      "adj. 重大的；有效的；有意义的"
+    ]
+  },
+  {
+    "name": "skeptical",
+    "trans": [
+      "adj. 怀疑性的；好怀疑的；无神论的"
+    ]
+  },
+  {
+    "name": "skip",
+    "trans": [
+      "n. 跳跃；跳读",
+      "vt. 跳过；遗漏",
+      "vi. 跳跃；跳绳；遗漏"
+    ]
+  },
+  {
+    "name": "slacking",
+    "trans": [
+      "adj. 懒惰的"
+    ]
+  },
+  {
+    "name": "slim",
+    "trans": [
+      "adj. 苗条的；修长的；微小的",
+      "vt. 使…体重减轻；使…苗条",
+      "vi. 减轻体重；变细"
+    ]
+  },
+  {
+    "name": "sole",
+    "trans": [
+      "adj. 唯一的；单独的",
+      "n. 鞋底；脚掌；鳎（一种比目鱼）",
+      "v. 给（鞋）换底"
+    ]
+  },
+  {
+    "name": "sophisticated",
+    "trans": [
+      "adj. 复杂的；精致的；久经世故的",
+      "v. 使变得世故；使迷惑"
+    ]
+  },
+  {
+    "name": "species",
+    "trans": [
+      "n. （动植物的）种，物种；种类；（具有相同特征的）一类人",
+      "adj. 原种的"
+    ]
+  },
+  {
+    "name": "split",
+    "trans": [
+      "n. 劈开；裂缝",
+      "adj. 劈开的",
+      "vt. 分离；使分离；劈开"
+    ]
+  },
+  {
+    "name": "sponsor",
+    "trans": [
+      "n. 发起者；保证人；赞助者",
+      "vt. 发起；赞助；倡议"
+    ]
+  },
+  {
+    "name": "spontaneity",
+    "trans": [
+      "n. 自发性，自然流露；即兴行为，即兴表现"
+    ]
+  },
+  {
+    "name": "spread",
+    "trans": [
+      "n. 传播；伸展",
+      "adj. 伸展的",
+      "vt. 传播，散布；展开；伸展"
+    ]
+  },
+  {
+    "name": "squeeze",
+    "trans": [
+      "n. 压榨；紧握；拥挤",
+      "vt. 挤；紧握；勒索",
+      "vi. 压榨"
+    ]
+  },
+  {
+    "name": "stable",
+    "trans": [
+      "n. 马厩；牛棚",
+      "adj. 稳定的；牢固的；坚定的",
+      "vt. 赶入马房"
+    ]
+  },
+  {
+    "name": "stagnation",
+    "trans": [
+      "n. 淤塞，停滞；不景气；滞止"
+    ]
+  },
+  {
+    "name": "statement",
+    "trans": [
+      "n. 陈述，声明；报表，清单；表态，立场"
+    ]
+  },
+  {
+    "name": "statistical",
+    "trans": [
+      "adj. 统计的；统计学的"
+    ]
+  },
+  {
+    "name": "status",
+    "trans": [
+      "n. 地位，身份；情况，状态；法律地位，法律上的身份"
+    ]
+  },
+  {
+    "name": "steep",
+    "trans": [
+      "n. 峭壁；浸渍",
+      "adj. 陡峭的；不合理的；夸大的",
+      "vt. 泡；浸；使…充满"
+    ]
+  },
+  {
+    "name": "steer",
+    "trans": [
+      "vt. 控制，引导；驾驶",
+      "vi. 驾驶，掌舵；行驶",
+      "n. 阉牛"
+    ]
+  },
+  {
+    "name": "stem",
+    "trans": [
+      "n. 干；茎；船首",
+      "vt. 阻止；除去…的茎；给…装柄",
+      "vi. 阻止；起源于某事物；逆行"
+    ]
+  },
+  {
+    "name": "stick",
+    "trans": [
+      "n. 棍；手杖；呆头呆脑的人",
+      "vi. 坚持；伸出；粘住",
+      "vt. 刺，戳；伸出；粘贴"
+    ]
+  },
+  {
+    "name": "straight",
+    "trans": [
+      "adj. 直的；正直的；准的",
+      "adv. 直；直接；笔直地",
+      "n. 直的东西；传统的人"
+    ]
+  },
+  {
+    "name": "strain",
+    "trans": [
+      "n. 张力；拉紧；负担",
+      "vt. 拉紧；滥用；滤去",
+      "vi. 拉紧；尽力"
+    ]
+  },
+  {
+    "name": "strategy",
+    "trans": [
+      "n. 策略；战略；战术"
+    ]
+  },
+  {
+    "name": "stress",
+    "trans": [
+      "n. 压力；紧张；重音",
+      "vt. 着重；强调",
+      "vi. 强调；着重"
+    ]
+  },
+  {
+    "name": "strict",
+    "trans": [
+      "adj. 严格的，严厉的；严密的，精确的；严谨的，一丝不苟的"
+    ]
+  },
+  {
+    "name": "striking",
+    "trans": [
+      "adj. 显著的；引人注目的；容貌出众的",
+      "v. 打( strike的现在分词)；击；敲响"
+    ]
+  },
+  {
+    "name": "strive",
+    "trans": [
+      "v. 努力；奋斗；力争"
+    ]
+  },
+  {
+    "name": "subject",
+    "trans": [
+      "n. 题目；学科；主语",
+      "adj. 服从的；易患的",
+      "vt. 使隶属；使服从；使遭遇"
+    ]
+  },
+  {
+    "name": "submit",
+    "trans": [
+      "vt. 使服从；屈服；呈送",
+      "vi. 服从；屈从；忍受"
+    ]
+  },
+  {
+    "name": "subscribe",
+    "trans": [
+      "vt. 签署；赞成；捐助",
+      "vi. 订阅；捐款；认购"
+    ]
+  },
+  {
+    "name": "subsequent",
+    "trans": [
+      "adj. 后来的；随后的；作为结果而发生的"
+    ]
+  },
+  {
+    "name": "subsidize",
+    "trans": [
+      "vt. 资助；给与奖助金；向…行贿"
+    ]
+  },
+  {
+    "name": "substantial",
+    "trans": [
+      "n. 本质；重要材料",
+      "adj. 大量的；实质的；内容充实的"
+    ]
+  },
+  {
+    "name": "substitute",
+    "trans": [
+      "n. 替代品，代替物；替补队员",
+      "v. 替代；代替",
+      "adj. 代替的；替代的"
+    ]
+  },
+  {
+    "name": "subtle",
+    "trans": [
+      "adj. 微妙的，细微的；不易察觉的；精巧的，巧妙的"
+    ]
+  },
+  {
+    "name": "succeed",
+    "trans": [
+      "vi. 成功；继承；继任",
+      "vt. 继承；接替；继…之后"
+    ]
+  },
+  {
+    "name": "suffer",
+    "trans": [
+      "vi. 遭受，忍受；受痛苦；经验",
+      "vt. 遭受；忍受；经历"
+    ]
+  },
+  {
+    "name": "suicide",
+    "trans": [
+      "n. 自杀；自杀行为；自杀者",
+      "adj. 自杀的",
+      "vt. 自杀"
+    ]
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. 合适的；适宜的",
+      "adv. 合适地；恰当地"
+    ]
+  },
+  {
+    "name": "summit",
+    "trans": [
+      "n. 顶点；最高级会议；最高阶层",
+      "adj. 最高级的；政府首脑的"
+    ]
+  },
+  {
+    "name": "superb",
+    "trans": [
+      "adj. 极好的；华丽的；宏伟的"
+    ]
+  },
+  {
+    "name": "superior",
+    "trans": [
+      "adj. 较高的；优越的；上层的",
+      "n. 上级；高手；上标"
+    ]
+  },
+  {
+    "name": "supervision",
+    "trans": [
+      "n. 监督；管理；监督的行为、过程或作用"
+    ]
+  },
+  {
+    "name": "supplement",
+    "trans": [
+      "n. 补充物，增补物；补充剂，营养剂；附录，增刊",
+      "v. 补充；增补"
+    ]
+  },
+  {
+    "name": "suppose",
+    "trans": [
+      "conj. 假使…结果会怎样",
+      "vt. 假设；认为；让（虚拟语气）",
+      "vi. 猜想；料想"
+    ]
+  },
+  {
+    "name": "suppress",
+    "trans": [
+      "vt. 用暴力终止；镇压",
+      "v. 封锁；删除"
+    ]
+  },
+  {
+    "name": "surface",
+    "trans": [
+      "n. 表面，表层；外表，外观；水面",
+      "v. 浮出水面；显露",
+      "adj. 表面的；肤浅的"
+    ]
+  },
+  {
+    "name": "surgery",
+    "trans": [
+      "n. 外科手术；诊所，诊室；外科学"
+    ]
+  },
+  {
+    "name": "survive",
+    "trans": [
+      "vt. 幸免于；比...活得长；艰难度过",
+      "vi. 活下来；活着；继续存在"
+    ]
+  },
+  {
+    "name": "suspect",
+    "trans": [
+      "v. 怀疑，猜想；推测，认为",
+      "n. 嫌疑犯；可疑分子",
+      "adj. 可疑的；不可信的"
+    ]
+  },
+  {
+    "name": "suspend",
+    "trans": [
+      "vt. 吊；推迟；悬挂",
+      "vi. 悬挂；中止；停止偿付债务"
+    ]
+  },
+  {
+    "name": "sustain",
+    "trans": [
+      "v. 维持，保持；维持……的生命；遭受，经受",
+      "n. （乐）延音"
+    ]
+  },
+  {
+    "name": "swamp",
+    "trans": [
+      "n. 沼泽（地）；湿地",
+      "vt. 淹没；使沉没；使陷入困难",
+      "vi. 淹没；沉没"
+    ]
+  },
+  {
+    "name": "swing",
+    "trans": [
+      "n. 摇摆；秋千；摆动",
+      "vi. 摇摆；转向；悬挂",
+      "vt. 挥舞；使旋转；悬挂"
+    ]
+  },
+  {
+    "name": "switch",
+    "trans": [
+      "n. 开关；转换；鞭子",
+      "vi. 转换；抽打；换防",
+      "vt. 转换；用鞭子等抽打"
+    ]
+  },
+  {
+    "name": "symbolic",
+    "trans": [
+      "adj. 象征性的，符号的；象征性的，代表性的；符号化的"
+    ]
+  },
+  {
+    "name": "sympathy",
+    "trans": [
+      "n. 同情，怜悯；同情心，同情的表示；赞同，支持"
+    ]
+  },
+  {
+    "name": "temper",
+    "trans": [
+      "n. 脾气；（钢等）回火；性情",
+      "vt. 使回火；锻炼；调和",
+      "vi. 回火；调和"
+    ]
+  },
+  {
+    "name": "temporary",
+    "trans": [
+      "n. 临时工；临时雇员",
+      "adj. 暂时的；临时的"
+    ]
+  },
+  {
+    "name": "tempt",
+    "trans": [
+      "vt. 引诱，怂恿；吸引；冒…的风险",
+      "vi. 有吸引力"
+    ]
+  },
+  {
+    "name": "tendency",
+    "trans": [
+      "n. 倾向，趋势；倾向性，偏好；趋势，动向"
+    ]
+  },
+  {
+    "name": "terminal",
+    "trans": [
+      "n. 末端；终点；终端机",
+      "adj. 末端的；终点的；晚期的"
+    ]
+  },
+  {
+    "name": "terrify",
+    "trans": [
+      "vt. 恐吓；使恐怖；使害怕"
+    ]
+  },
+  {
+    "name": "testify",
+    "trans": [
+      "vi. 作证；声明；证明",
+      "vt. 作证；证明，为…提供证明；公开宣称，宣布"
+    ]
+  },
+  {
+    "name": "thorny",
+    "trans": [
+      "adj. 多刺的；痛苦的；令人苦恼的"
+    ]
+  },
+  {
+    "name": "threaten",
+    "trans": [
+      "vt. 威胁；恐吓；预示",
+      "vi. 威胁；可能来临"
+    ]
+  },
+  {
+    "name": "thrive",
+    "trans": [
+      "v. 茁壮成长，兴旺发达；繁荣，兴盛；茁壮成长，蓬勃发展"
+    ]
+  },
+  {
+    "name": "tissue",
+    "trans": [
+      "n. 组织；纸巾；薄纱",
+      "vt. 饰以薄纱；用化妆纸揩去"
+    ]
+  },
+  {
+    "name": "tolerate",
+    "trans": [
+      "v. 容忍，忍受；允许，认可；耐受"
+    ]
+  },
+  {
+    "name": "tough",
+    "trans": [
+      "adj. 坚韧的；健壮的；强硬的",
+      "adv. 以强硬的态度",
+      "n. 暴徒；恶棍"
+    ]
+  },
+  {
+    "name": "toxic",
+    "trans": [
+      "adj. 有毒的；中毒的；因中毒引起的",
+      "n. 毒物；毒剂"
+    ]
+  },
+  {
+    "name": "transaction",
+    "trans": [
+      "n. 交易；处理；事务"
+    ]
+  },
+  {
+    "name": "transcendence",
+    "trans": [
+      "n. 超越，卓越；超然，超脱；（哲学）先验性，超验性"
+    ]
+  },
+  {
+    "name": "transfer",
+    "trans": [
+      "n. 转让；转移；传递",
+      "vt. 使转移；调任",
+      "vi. 转让；转学；换车"
+    ]
+  },
+  {
+    "name": "transform",
+    "trans": [
+      "vt. 改变；改造；变换",
+      "vi. 改变",
+      "n. 变形"
+    ]
+  },
+  {
+    "name": "transition",
+    "trans": [
+      "n. 过渡，转变；（分子生物）转换；（乐）临时转调",
+      "v. 转变；过渡"
+    ]
+  },
+  {
+    "name": "transparency",
+    "trans": [
+      "n. 透明，透明度；幻灯片；有图案的玻璃"
+    ]
+  },
+  {
+    "name": "transplant",
+    "trans": [
+      "n. 移植；移植器官；被移植物",
+      "vt. 移植；迁移；使移居",
+      "vi. 移植；迁移；移居"
+    ]
+  },
+  {
+    "name": "transportation",
+    "trans": [
+      "n. 运输；运输系统；运输工具"
+    ]
+  },
+  {
+    "name": "tremendous",
+    "trans": [
+      "adj. 极大的，巨大的；惊人的；极好的"
+    ]
+  },
+  {
+    "name": "triumph",
+    "trans": [
+      "n. 胜利；巨大的成就；（成功的）典范",
+      "vi. 获胜；克服；打败"
+    ]
+  },
+  {
+    "name": "turbulent",
+    "trans": [
+      "adj. 骚乱的，混乱的；狂暴的；吵闹的"
+    ]
+  },
+  {
+    "name": "ultimate",
+    "trans": [
+      "n. 终极；根本；基本原则",
+      "adj. 最终的；极限的；根本的"
+    ]
+  },
+  {
+    "name": "unanimous",
+    "trans": [
+      "adj. 全体一致的；意见一致的；无异议的"
+    ]
+  },
+  {
+    "name": "undermine",
+    "trans": [
+      "vt. 在…下挖；侵蚀…的基础；逐渐损害"
+    ]
+  },
+  {
+    "name": "uniform",
+    "trans": [
+      "n. 制服；校服",
+      "adj. 一致的，统一的；均匀的",
+      "v. 使一致；使统一"
+    ]
+  },
+  {
+    "name": "unique",
+    "trans": [
+      "n. 独一无二的人或物",
+      "adj. 独特的，稀罕的；唯一的，独一无二的"
+    ]
+  },
+  {
+    "name": "unite",
+    "trans": [
+      "vi. 团结；联合；混合",
+      "vt. 使…混合；使…联合；使…团结"
+    ]
+  },
+  {
+    "name": "universal",
+    "trans": [
+      "n. 一般概念；普通性",
+      "adj. 普遍的；通用的；宇宙的"
+    ]
+  },
+  {
+    "name": "unsurpassed",
+    "trans": [
+      "adj. 非常卓越的；未被超越的"
+    ]
+  },
+  {
+    "name": "upset",
+    "trans": [
+      "n. 混乱；翻倒；颠覆",
+      "adj. 心烦的；混乱的；弄翻的",
+      "vt. 使心烦；颠覆；扰乱"
+    ]
+  },
+  {
+    "name": "urban",
+    "trans": [
+      "adj. 城市的；都市的；城镇的"
+    ]
+  },
+  {
+    "name": "urge",
+    "trans": [
+      "vt. 推进；促；驱策",
+      "vi. 极力主张",
+      "n. 冲动"
+    ]
+  },
+  {
+    "name": "utility",
+    "trans": [
+      "n. 实用；效用；公共设施",
+      "adj. 实用的；通用的；有多种用途的"
+    ]
+  },
+  {
+    "name": "vacuum",
+    "trans": [
+      "n. 真空；空间；真空吸尘器",
+      "adj. 真空的；产生(利用)真空的",
+      "v. 用吸尘器打扫"
+    ]
+  },
+  {
+    "name": "vague",
+    "trans": [
+      "adj. 模糊的；（思想上）不清楚的；（表达或感知）含糊的",
+      "n. 模糊不定状态"
+    ]
+  },
+  {
+    "name": "vain",
+    "trans": [
+      "adj. 自负的，爱虚荣的；徒劳的，无效的；空虚的，无价值的"
+    ]
+  },
+  {
+    "name": "valid",
+    "trans": [
+      "adj. 有效的；有根据的；合法的"
+    ]
+  },
+  {
+    "name": "vanish",
+    "trans": [
+      "n. 弱化音",
+      "vi. 消失；突然不见；成为零",
+      "vt. 使不见；使消失"
+    ]
+  },
+  {
+    "name": "vanity",
+    "trans": [
+      "n. 虚荣心；虚夸；浮华",
+      "adj. 虚荣心的"
+    ]
+  },
+  {
+    "name": "various",
+    "trans": [
+      "pron. 不止一个的；各别的",
+      "adj. 各种各样的；迥异的，千差万别的"
+    ]
+  },
+  {
+    "name": "verbal",
+    "trans": [
+      "adj. 词语的，言语的，字句的；口头的；动词的",
+      "n. 非谓语动词；非限定动词"
+    ]
+  },
+  {
+    "name": "verdict",
+    "trans": [
+      "n. (陪审团的)裁决；判决；判断"
+    ]
+  },
+  {
+    "name": "verify",
+    "trans": [
+      "vt. 核实；证明；判定"
+    ]
+  },
+  {
+    "name": "viable",
+    "trans": [
+      "adj. 可行的；能养活的；能生育的"
+    ]
+  },
+  {
+    "name": "vibrant",
+    "trans": [
+      "adj. 振动的；充满生气的；响亮的"
+    ]
+  },
+  {
+    "name": "victory",
+    "trans": [
+      "n. 胜利；成功；克服"
+    ]
+  },
+  {
+    "name": "vigorously",
+    "trans": [
+      "adv. 精神旺盛地，活泼地；大力；蓬蓬勃勃"
+    ]
+  },
+  {
+    "name": "violate",
+    "trans": [
+      "vt. 违反；侵犯，妨碍；亵渎"
+    ]
+  },
+  {
+    "name": "virtually",
+    "trans": [
+      "adv. 实际地；实质地；事实上"
+    ]
+  },
+  {
+    "name": "visible",
+    "trans": [
+      "n. 可见物；进出口贸易中的有形项目",
+      "adj. 明显的；看得见的；现有的"
+    ]
+  },
+  {
+    "name": "vision",
+    "trans": [
+      "n. 视力；美景；眼力",
+      "vt. 想象；显现；梦见"
+    ]
+  },
+  {
+    "name": "visualize",
+    "trans": [
+      "vt. 形象；形象化；想象。",
+      "vi. 显现"
+    ]
+  },
+  {
+    "name": "vital",
+    "trans": [
+      "adj. 至关重要的；生死攸关的；有活力的"
+    ]
+  },
+  {
+    "name": "vivid",
+    "trans": [
+      "adj. 生动的，逼真的；鲜明的，清晰的；强烈的，深刻的"
+    ]
+  },
+  {
+    "name": "vocation",
+    "trans": [
+      "n. 职业，行业；使命，天职；（宗教）圣召"
+    ]
+  },
+  {
+    "name": "withdraw",
+    "trans": [
+      "vt. 收回；撤回；取回",
+      "vi. 撤退；退回；走开"
+    ]
+  },
+  {
+    "name": "withstand",
+    "trans": [
+      "vt. 抵挡；禁得起；反抗",
+      "vi. 反抗"
+    ]
+  },
+  {
+    "name": "worship",
+    "trans": [
+      "n. 崇拜；礼拜；尊敬",
+      "vt. 崇拜；尊敬；爱慕",
+      "vi. 拜神；做礼拜"
+    ]
+  },
+  {
+    "name": "yield",
+    "trans": [
+      "vt. 出产；屈服；放弃",
+      "vi. 屈服；投降",
+      "n. 收益；产量"
+    ]
+  },
+  {
+    "name": "zone",
+    "trans": [
+      "n. 地带；地区；联防",
+      "vt. 使分成地带；环绕",
+      "vi. 分成区"
+    ]
+  }
 ]

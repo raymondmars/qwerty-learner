@@ -1,203 +1,223 @@
 [
-    {
-        "name": "dictionary",
-        "trans": [
-            "n. 词典"
-        ]
-    },
-    {
-        "name": "encyclopedia",
-        "trans": [
-            "n. 百科全书"
-        ]
-    },
-    {
-        "name": "reference book",
-        "trans": [
-            "n. 参考书"
-        ]
-    },
-    {
-        "name": "textbook",
-        "trans": [
-            "n. 课本"
-        ]
-    },
-    {
-        "name": "handout",
-        "trans": [
-            "n. 讲义"
-        ]
-    },
-    {
-        "name": "paper",
-        "trans": [
-            "n. 论文"
-        ]
-    },
-    {
-        "name": "online",
-        "trans": [
-            "adj. 在线的"
-        ]
-    },
-    {
-        "name": "internet",
-        "trans": [
-            "n. 互联网"
-        ]
-    },
-    {
-        "name": "database",
-        "trans": [
-            "n. 数据库"
-        ]
-    },
-    {
-        "name": "digital",
-        "trans": [
-            "adj. 电子的，数码的"
-        ]
-    },
-    {
-        "name": "physical",
-        "trans": [
-            "adj. 实体的"
-        ]
-    },
-    {
-        "name": "video",
-        "trans": [
-            "n. 视频"
-        ]
-    },
-    {
-        "name": "CD-ROM",
-        "trans": [
-            "n. 只读光盘"
-        ]
-    },
-    {
-        "name": "DVD",
-        "trans": [
-            "n. 数字化视频光盘"
-        ]
-    },
-    {
-        "name": "periodical",
-        "trans": [
-            "n. 期刊"
-        ]
-    },
-    {
-        "name": "journal",
-        "trans": [
-            "n. 学报"
-        ]
-    },
-    {
-        "name": "current",
-        "trans": [
-            "adj. 现在的"
-        ]
-    },
-    {
-        "name": "back",
-        "trans": [
-            "adj. 过去的"
-        ]
-    },
-    {
-        "name": "issue",
-        "trans": [
-            "n. 刊物"
-        ]
-    },
-    {
-        "name": "leaflet",
-        "trans": [
-            "n. 传单"
-        ]
-    },
-    {
-        "name": "booklet",
-        "trans": [
-            "n. 小册子"
-        ]
-    },
-    {
-        "name": "magazine",
-        "trans": [
-            "n. 杂志"
-        ]
-    },
-    {
-        "name": "newspaper",
-        "trans": [
-            "n. 报纸"
-        ]
-    },
-    {
-        "name": "novel",
-        "trans": [
-            "n. 小说"
-        ]
-    },
-    {
-        "name": "fiction",
-        "trans": [
-            "n. 虚构小说"
-        ]
-    },
-    {
-        "name": "non - fiction",
-        "trans": [
-            "n. 纪实文学"
-        ]
-    },
-    {
-        "name": "enquiry/inquiry",
-        "trans": [
-            "n. 询问，调查"
-        ]
-    },
-    {
-        "name": "delivery desk",
-        "trans": [
-            "n. 借书台"
-        ]
-    },
-    {
-        "name": "circulation desk",
-        "trans": [
-            "n. 还书处"
-        ]
-    },
-    {
-        "name": "open shelf",
-        "trans": [
-            "n. 开架",
-            "adj. 开架的"
-        ]
-    },
-    {
-        "name": "closed shelf",
-        "trans": [
-            "n. 闭架",
-            "adj. 闭架的"
-        ]
-    },
-    {
-        "name": "photocopy",
-        "trans": [
-            "n. 影印本",
-            "v. 复印"
-        ]
-    },
-    {
-        "name": "scanner",
-        "trans": [
-            "n. 扫描仪"
-        ]
-    }
+  {
+    "name": "dictionary",
+    "trans": [
+      "n. 词典，字典；专业术语词典；数据字典"
+    ]
+  },
+  {
+    "name": "encyclopedia",
+    "trans": [
+      "n. 百科全书；(某一学科的)专科全书"
+    ]
+  },
+  {
+    "name": "reference book",
+    "trans": [
+      "n. 参考书"
+    ]
+  },
+  {
+    "name": "textbook",
+    "trans": [
+      "n. 教科书；课本",
+      "adj. 教科书式的；标准的；典型的"
+    ]
+  },
+  {
+    "name": "handout",
+    "trans": [
+      "n. 施舍物；救济品；印刷品"
+    ]
+  },
+  {
+    "name": "paper",
+    "trans": [
+      "n. 纸；报纸；文件",
+      "adj. 纸制的",
+      "v. 用纸糊；用纸包装"
+    ]
+  },
+  {
+    "name": "online",
+    "trans": [
+      "adj. 在线的，联机的；网上的，互联网的",
+      "adv. 在线地；联机地",
+      "n. 在线状态"
+    ]
+  },
+  {
+    "name": "internet",
+    "trans": [
+      "n. 互联网；因特网"
+    ]
+  },
+  {
+    "name": "database",
+    "trans": [
+      "n. 数据库；资料库；信息库"
+    ]
+  },
+  {
+    "name": "digital",
+    "trans": [
+      "adj. 数字的；数据的；手指的",
+      "n. 手指；（钢琴等的）琴键；数字"
+    ]
+  },
+  {
+    "name": "physical",
+    "trans": [
+      "adj. 自然（界）的；身体的；物质的",
+      "n. 身体检查；体格检查"
+    ]
+  },
+  {
+    "name": "video",
+    "trans": [
+      "n. 视频；录像，录像机；电视",
+      "adj. 视频的；录像的；电视的",
+      "v. 录制"
+    ]
+  },
+  {
+    "name": "CD-ROM",
+    "trans": [
+      "n. 只读光盘"
+    ]
+  },
+  {
+    "name": "DVD",
+    "trans": [
+      "adv. 数字化视频光盘；DVD光盘"
+    ]
+  },
+  {
+    "name": "periodical",
+    "trans": [
+      "n. 期刊；杂志",
+      "adj. 周期的，定期的；时常发生的；定期发行的，期刊的"
+    ]
+  },
+  {
+    "name": "journal",
+    "trans": [
+      "n. 日记，日志；期刊，杂志；分类账",
+      "v. 记日记；写日志"
+    ]
+  },
+  {
+    "name": "current",
+    "trans": [
+      "adj. 现在的；最近的；草写的",
+      "n. 趋势；涌流；（水，气，电）流"
+    ]
+  },
+  {
+    "name": "back",
+    "trans": [
+      "n. 背部；后面",
+      "adj. 后面的；背后的",
+      "adv. 向后地；回来"
+    ]
+  },
+  {
+    "name": "issue",
+    "trans": [
+      "n. 问题；流出；期号",
+      "vt. 发行，发布；发给；放出，排出",
+      "vi. 发行；流出；造成…结果"
+    ]
+  },
+  {
+    "name": "leaflet",
+    "trans": [
+      "n. 传单，散页印刷品；小叶，嫩叶；复叶的一片",
+      "vt.&vi. 散发传单"
+    ]
+  },
+  {
+    "name": "booklet",
+    "trans": [
+      "n. 小册子"
+    ]
+  },
+  {
+    "name": "magazine",
+    "trans": [
+      "n. 杂志，期刊；弹药库，弹药舱；电视节目"
+    ]
+  },
+  {
+    "name": "newspaper",
+    "trans": [
+      "n. 报纸；报；报社",
+      "v. 从事新闻工作"
+    ]
+  },
+  {
+    "name": "novel",
+    "trans": [
+      "n. （长篇）小说；法新法，附律",
+      "adj. 新奇的；异常的"
+    ]
+  },
+  {
+    "name": "fiction",
+    "trans": [
+      "n. 小说，虚构的故事；虚构，杜撰；想象"
+    ]
+  },
+  {
+    "name": "non - fiction",
+    "trans": [
+      "n. 纪实文学"
+    ]
+  },
+  {
+    "name": "enquiry/inquiry",
+    "trans": [
+      "n. 询问；调查"
+    ]
+  },
+  {
+    "name": "delivery desk",
+    "trans": [
+      "n. 借书台"
+    ]
+  },
+  {
+    "name": "circulation desk",
+    "trans": [
+      "n. 还书处"
+    ]
+  },
+  {
+    "name": "open shelf",
+    "trans": [
+      "n. 开架",
+      "adj. 开架的"
+    ]
+  },
+  {
+    "name": "closed shelf",
+    "trans": [
+      "n. 闭架",
+      "adj. 闭架的"
+    ]
+  },
+  {
+    "name": "photocopy",
+    "trans": [
+      "n. 复印件；影印",
+      "vt. 影印",
+      "vi. 影印；复印"
+    ]
+  },
+  {
+    "name": "scanner",
+    "trans": [
+      "n. 扫描仪；扫描器；光电子扫描装置"
+    ]
+  }
 ]

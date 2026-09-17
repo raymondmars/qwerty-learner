@@ -1,434 +1,494 @@
 [
-{
+  {
     "name": "father",
     "trans": [
-        "父亲 ；爸爸"
+      "n. 父亲；神父；创始人",
+      "vt. 作为父亲生育子女",
+      "vi. 像父亲般照顾"
     ],
     "usphone": "ˈfɑðər",
     "ukphone": "ˈfɑːðə"
-},
-{
+  },
+  {
     "name": "mother",
     "trans": [
-        "母亲 ；妈妈"
+      "n. 母亲；妈妈",
+      "adj. 母亲的；母体的",
+      "vt. 生育；像母亲一样关爱"
     ],
     "usphone": "ˈmʌðər",
     "ukphone": "ˈmʌðə"
-},
-{
+  },
+  {
     "name": "brother",
     "trans": [
-        "兄 ；弟"
+      "n. 兄弟；同事；战友",
+      "int. 我的老兄！"
     ],
     "usphone": "ˈbrʌðər",
     "ukphone": "ˈbrʌðə"
-},
-{
+  },
+  {
     "name": "sister",
     "trans": [
-        "姐 ；妹"
+      "n. 姐妹；（称志同道合者）姐妹；修女",
+      "adj. 姐妹般的；同类型的",
+      "v. 如姐妹般相待"
     ],
     "usphone": "ˈsɪstər",
     "ukphone": "ˈsɪstə"
-},
-{
+  },
+  {
     "name": "grandmother",
     "trans": [
-        "外祖母"
+      "n. （外）祖母；老奶奶；女祖先",
+      "vt. 当…的祖母",
+      "vi. 当祖母"
     ],
     "usphone": "ˈɡrændˌmʌðər",
     "ukphone": "ˈɡrænˌmʌðə"
-},
-{
+  },
+  {
     "name": "grandfather",
     "trans": [
-        "外祖父"
+      "n. （外）祖父；始祖",
+      "vt. 新规定限制；不受新条例"
     ],
     "usphone": "ˈɡrændˌfɑðər",
     "ukphone": "ˈɡrænˌfɑːðə"
-},
-{
+  },
+  {
     "name": "who",
     "trans": [
-        "谁"
+      "pron. 谁，什么人；…的人；他，她，他们"
     ],
     "usphone": "huː",
     "ukphone": "huː"
-},
-{
+  },
+  {
     "name": "he",
     "trans": [
-        "他"
+      "n. 男性，男子；雄性动物；（He）（中、美、丹）赫（人名）",
+      "pron. 他；（泛指的）人；上帝"
     ],
     "usphone": "hiː",
     "ukphone": "hiː"
-},
-{
+  },
+  {
     "name": "she",
     "trans": [
-        "她"
+      "n. 女人；雌性动物",
+      "pron. 她（主格）"
     ],
     "usphone": "ʃiː",
     "ukphone": "ʃiː"
-},
-{
+  },
+  {
     "name": "classmate",
     "trans": [
-        "同班同学"
+      "n. 同班同学；同学"
     ],
     "usphone": "ˈklæsˌmeɪt",
     "ukphone": "ˈklɑːsmeɪt"
-},
-{
+  },
+  {
     "name": "friend",
     "trans": [
-        "朋友"
+      "n. 朋友；友人；赞助者",
+      "vt. 做朋友；对人友好"
     ],
     "usphone": "frɛnd",
     "ukphone": "frɛnd"
-},
-{
+  },
+  {
     "name": "woman",
     "trans": [
-        "女人"
+      "n. 妇女；女人；女性",
+      "adj. 女人的"
     ],
     "usphone": "ˈwʊmən",
     "ukphone": "ˈwʊmən"
-},
-{
+  },
+  {
     "name": "girl",
     "trans": [
-        "女孩"
+      "n. 女孩，姑娘；女儿；年轻女子"
     ],
     "usphone": "ɡɜrl",
     "ukphone": "ɡɜːl"
-},
-{
+  },
+  {
     "name": "man",
     "trans": [
-        "男人"
+      "n. 人；男人；人类",
+      "vt. 操纵；给…配置人员；使增强勇气"
     ],
     "usphone": "mæn",
     "ukphone": "mæn"
-},
-{
+  },
+  {
     "name": "boy",
     "trans": [
-        "男孩"
+      "n. 男孩，少年；男性（尤指年轻人）；儿子"
     ],
     "usphone": "bɔɪ",
     "ukphone": "bɔɪ"
-},
-{
+  },
+  {
     "name": "look",
     "trans": [
-        "看 ；瞧"
+      "n. 看；样子；面容",
+      "vi. 看；看起来；注意",
+      "vt. 看；期待；注意"
     ],
     "usphone": "lʊk",
     "ukphone": "lʊk"
-},
-{
+  },
+  {
     "name": "his",
     "trans": [
-        "他的"
+      "pron. 他的",
+      "adj. 他的"
     ],
     "usphone": "hɪz",
     "ukphone": "hɪz"
-},
-{
+  },
+  {
     "name": "name",
     "trans": [
-        "名字"
+      "n. 名字；名称；姓名",
+      "vt. 说出；命名；称呼",
+      "adj. 有名的著名的"
     ],
     "usphone": "neɪm",
     "ukphone": "neɪm"
-},
-{
+  },
+  {
     "name": "her",
     "trans": [
-        "她的"
+      "pron. 她（宾格）；她的（所有格）",
+      "adj. 她的"
     ],
     "usphone": "hɜr",
     "ukphone": "hɜːr"
-},
-{
+  },
+  {
     "name": "or",
     "trans": [
-        "还是"
+      "conj. 或，或者；还是；不然，否则",
+      "prep. 在…之前；比…更早",
+      "n. 纹章黑金色、黑色"
     ],
     "usphone": "ɔr",
     "ukphone": "ɔr"
-},
-{
+  },
+  {
     "name": "big",
     "trans": [
-        "大的"
+      "adj. 大的；巨大的；重要的",
+      "adv. 以郑重的方式；大数量",
+      "n. 杰出的组织和个人"
     ],
     "usphone": "bɪɡ",
     "ukphone": "bɪɡ"
-},
-{
+  },
+  {
     "name": "tall",
     "trans": [
-        "高的"
+      "adj. 高的；长的；过分的",
+      "adv. 夸大地"
     ],
     "usphone": "tɔl",
     "ukphone": "tɔːl"
-},
-{
+  },
+  {
     "name": "pretty",
     "trans": [
-        "漂亮的，可爱的"
+      "adj. 漂亮的；标致的；机灵的",
+      "adv. 相当地",
+      "n. (复数)妇女内衣；漂亮的人或物"
     ],
     "usphone": "ˈprɪti",
     "ukphone": "ˈprɪti"
-},
-{
+  },
+  {
     "name": "thin",
     "trans": [
-        "瘦的"
+      "n. 细小部分",
+      "adj. 薄的；瘦的；稀薄的",
+      "vt. 使瘦；使淡；使稀疏"
     ],
     "usphone": "θɪn",
     "ukphone": "θɪn"
-},
-{
+  },
+  {
     "name": "short",
     "trans": [
-        "矮的"
+      "n. 短；缺乏；短路",
+      "adj. 短的；不足的；矮的，低的",
+      "adv. 不足；突然；唐突地"
     ],
     "usphone": "ʃɔrt",
     "ukphone": "ʃɔrt"
-},
-{
+  },
+  {
     "name": "handsome",
     "trans": [
-        "漂亮的，英俊的"
+      "adj. （男子）英俊的；可观的；大方的，慷慨的"
     ],
     "usphone": "ˈhænsəm",
     "ukphone": "ˈhænsəm"
-},
-{
+  },
+  {
     "name": "new",
     "trans": [
-        "新的"
+      "adj. 新的，崭新的；新鲜的，新到的；现代的",
+      "adv. 新近；最近"
     ],
     "usphone": "nu",
     "ukphone": "njuː"
-},
-{
+  },
+  {
     "name": "does",
     "trans": [
-        "（助动词）"
+      "v. 做；工作；有用（do 的第三人称单数）",
+      "n. （Does）（荷）杜斯（人名）"
     ],
     "usphone": "dʌz",
     "ukphone": "dʌz"
-},
-{
+  },
+  {
     "name": "bookshop",
     "trans": [
-        "书店"
+      "n. 书店"
     ],
     "usphone": "ˈbʊkˌʃɑp",
     "ukphone": "ˈbʊkˌʃɒp"
-},
-{
+  },
+  {
     "name": "zoo",
     "trans": [
-        "动物园"
+      "n. 动物园；（铁路货车的最后一节）守车；核粒子园"
     ],
     "usphone": "zu",
     "ukphone": "zuː"
-},
-{
+  },
+  {
     "name": "school",
     "trans": [
-        "学校"
+      "n. 学校；学院；学派",
+      "vt. 教育；训练；磨炼",
+      "vi. 喂食鱼群；游来游去"
     ],
     "usphone": "skuːl",
     "ukphone": "skuːl"
-},
-{
+  },
+  {
     "name": "supermarket",
     "trans": [
-        "超市"
+      "n. 超市；大型自助食品杂货店"
     ],
     "usphone": "ˈsupərˌmɑrkɪt",
     "ukphone": "ˈsuːpərˌmɑːrkɪt"
-},
-{
+  },
+  {
     "name": "park",
     "trans": [
-        "公园"
+      "n. 公园；停车场",
+      "vt. 停放；放置；寄存",
+      "vi. 停放车辆"
     ],
     "usphone": "pɑrk",
     "ukphone": "pɑːrk"
-},
-{
+  },
+  {
     "name": "hospital",
     "trans": [
-        "医院"
+      "n. 医院；收容所；养老院,〈古〉旅客招待所"
     ],
     "usphone": "ˈhɑːspətəl",
     "ukphone": "ˈhɒspɪtl̩"
-},
-{
+  },
+  {
     "name": "go",
     "trans": [
-        "去"
+      "v. 去，走；离开；进行，进展",
+      "n. 尝试；机会",
+      "adj. 活跃的；进行中的"
     ],
     "usphone": "ɡoʊ",
     "ukphone": "ɡəʊ"
-},
-{
+  },
+  {
     "name": "to",
     "trans": [
-        "向，朝"
+      "prep. 向，朝着；到；关于",
+      "adv. 朝一个方向的；到某种状态；关闭"
     ],
     "usphone": "tuː",
     "ukphone": "tuː"
-},
-{
+  },
+  {
     "name": "grass",
     "trans": [
-        "草"
+      "n. 草；草地，草坪",
+      "vt. 放牧；使……长满草；使……吃草",
+      "vi. 长草"
     ],
     "usphone": "ɡræs",
     "ukphone": "ɡrɑːs"
-},
-{
+  },
+  {
     "name": "tree",
     "trans": [
-        "树"
+      "n. 树；木料；树状物",
+      "vt. 把...赶上树",
+      "vi. 爬上树；逃上树"
     ],
     "usphone": "triː",
     "ukphone": "triː"
-},
-{
+  },
+  {
     "name": "flower",
     "trans": [
-        "花 ；花朵"
+      "n. 花；精华；开花植物",
+      "vt. 使开花；用花装饰",
+      "vi. 成熟，发育；开花；繁荣"
     ],
     "usphone": "ˈflaʊər",
     "ukphone": "ˈflaʊər"
-},
-{
+  },
+  {
     "name": "boat",
     "trans": [
-        "小船"
+      "n. 小船，小艇；轮船",
+      "vi. 乘船；划船",
+      "vt. 用船运输；用船装运"
     ],
     "usphone": "boʊt",
     "ukphone": "bəʊt"
-},
-{
+  },
+  {
     "name": "lake",
     "trans": [
-        "湖"
+      "n. 湖；深红色颜料；胭脂红",
+      "vt. （使）血球溶解",
+      "vi. （使）血球溶解"
     ],
     "usphone": "leɪk",
     "ukphone": "leɪk"
-},
-{
+  },
+  {
     "name": "hill",
     "trans": [
-        "小山"
+      "n. 小山；小堆；斜坡",
+      "vt. 堆起；培土"
     ],
     "usphone": "hɪl",
     "ukphone": "hɪl"
-},
-{
+  },
+  {
     "name": "Christmas",
     "trans": [
-        "圣诞节"
+      "n. 圣诞节；圣诞节期间"
     ],
     "usphone": "ˈkrɪsməs",
     "ukphone": "ˈkrɪsməs"
-},
-{
+  },
+  {
     "name": "Father Christmas",
     "trans": [
-        "圣诞老人"
+      "圣诞老人"
     ],
     "usphone": "ˈfɑðər ˈkrɪsməs",
     "ukphone": "ˈfɑːðər ˈkrɪsməs"
-},
-{
+  },
+  {
     "name": "Christmas tree",
     "trans": [
-        "圣诞树"
+      "圣诞树"
     ],
     "usphone": "ˈkrɪsməs triː",
     "ukphone": "ˈkrɪsməs triː"
-},
-{
+  },
+  {
     "name": "card",
     "trans": [
-        "贺卡 ；明信片"
+      "n. 卡；卡片；名片",
+      "vt. 附上或提供卡片；印卡在卡片上列出；检查资格"
     ],
     "usphone": "kɑrd",
     "ukphone": "kɑːd"
-},
-{
+  },
+  {
     "name": "present",
     "trans": [
-        "礼物"
+      "n. 现在；礼物；瞄准",
+      "adj. 现在的；出席的",
+      "vt. 提出；介绍；呈现"
     ],
     "usphone": "ˈprɛzənt",
     "ukphone": "ˈprɛznt"
-},
-{
+  },
+  {
     "name": "New Year",
     "trans": [
-        "新年"
+      "adv. 新年"
     ],
     "usphone": "nu jɪr",
     "ukphone": "njuː jɪər"
-},
-{
+  },
+  {
     "name": "merry",
     "trans": [
-        "高兴的 ；愉快的"
+      "adj. 愉快的，快活的；有趣的；口微醉的",
+      "n. 甜樱桃；梅里（姓氏）"
     ],
     "usphone": "ˈmɛri",
     "ukphone": "ˈmɛri"
-},
-{
+  },
+  {
     "name": "too",
     "trans": [
-        "也 ；又"
+      "adv. 也，还；过分，过度；非常，很"
     ],
     "usphone": "tuː",
     "ukphone": "tuː"
-},
-{
+  },
+  {
     "name": "here",
     "trans": [
-        "这儿"
+      "adv. 在这里；这时；在这一点上",
+      "n. 这里",
+      "int. 喂；嗨"
     ],
     "usphone": "hɪr",
     "ukphone": "hɪər"
-},
-{
+  },
+  {
     "name": "for",
     "trans": [
-        "（表示接受某事物或从某事物中获益的人）"
+      "prep. 表示目的；表示对象；表示时间",
+      "conj. 因为；由于"
     ],
     "usphone": "fɔr",
     "ukphone": "fɔːr"
-},
-{
+  },
+  {
     "name": "thank",
     "trans": [
-        "谢谢"
+      "vt. 感谢；致谢；道谢",
+      "n. （复）感谢；谢意"
     ],
     "usphone": "θæŋk",
     "ukphone": "θæŋk"
-},
-{
+  },
+  {
     "name": "happy",
     "trans": [
-        "快乐的 ；幸福的"
+      "adj. 快乐的，高兴的；幸福的；满意的"
     ],
     "usphone": "ˈhæpi",
     "ukphone": "ˈhæpi"
-}
+  }
 ]

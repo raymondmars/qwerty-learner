@@ -1,306 +1,515 @@
 [
-    {
-        "name": "stop watch",
-        "trans": ["秒表"]
-    },
-    {
-        "name": "ban",
-        "trans": ["禁止"]
-    },
-    {
-        "name": "filter",
-        "trans": ["过滤器"]
-    },
-    {
-        "name": "standard",
-        "trans": ["标准"]
-    },
-    {
-        "name": "operate",
-        "trans": ["操作"]
-    },
-    {
-        "name": "feedback",
-        "trans": ["反馈"]
-    },
-    {
-        "name": "brush",
-        "trans": ["刷子"]
-    },
-    {
-        "name": "captain",
-        "trans": ["队长"]
-    },
-    {
-        "name": "display",
-        "trans": ["显示"]
-    },
-    {
-        "name": "TV surveillance",
-        "trans": ["TV监视"]
-    },
-    {
-        "name": "button",
-        "trans": ["按钮"]
-    },
-    {
-        "name": "blinded",
-        "trans": ["瞎的"]
-    },
-    {
-        "name": "characteristic",
-        "trans": ["特色"]
-    },
-    {
-        "name": "fixed",
-        "trans": ["固定的"]
-    },
-    {
-        "name": "mathematics",
-        "trans": ["数学"]
-    },
-    {
-        "name": "academic",
-        "trans": ["学术的"]
-    },
-    {
-        "name": "scoring",
-        "trans": ["得分"]
-    },
-    {
-        "name": "heroine",
-        "trans": ["女主角"]
-    },
-    {
-        "name": "Town Hall",
-        "trans": ["市政厅"]
-    },
-    {
-        "name": "spare",
-        "trans": ["节约"]
-    },
-    {
-        "name": "altitude",
-        "trans": ["海拔"]
-    },
-    {
-        "name": "scenery",
-        "trans": ["景色"]
-    },
-    {
-        "name": "fishery",
-        "trans": ["渔业"]
-    },
-    {
-        "name": "certificate",
-        "trans": ["证书"]
-    },
-    {
-        "name": "injure",
-        "trans": ["受伤"]
-    },
-    {
-        "name": "strike",
-        "trans": ["撞击"]
-    },
-    {
-        "name": "luggage",
-        "trans": ["行李"]
-    },
-    {
-        "name": "fringe",
-        "trans": ["边缘"]
-    },
-    {
-        "name": "badge",
-        "trans": ["徽章"]
-    },
-    {
-        "name": "cooperative",
-        "trans": ["合作的"]
-    },
-    {
-        "name": "donkey",
-        "trans": ["驴"]
-    },
-    {
-        "name": "riverside",
-        "trans": ["河边"]
-    },
-    {
-        "name": "humid",
-        "trans": ["湿润的"]
-    },
-    {
-        "name": "escape",
-        "trans": ["逃脱"]
-    },
-    {
-        "name": "seek",
-        "trans": ["寻找"]
-    },
-    {
-        "name": "accompany",
-        "trans": ["陪伴"]
-    },
-    {
-        "name": "limb",
-        "trans": ["四肢"]
-    },
-    {
-        "name": "quiz",
-        "trans": ["小型考试"]
-    },
-    {
-        "name": "multimedia",
-        "trans": ["多媒体"]
-    },
-    {
-        "name": "championship",
-        "trans": ["冠军地位"]
-    },
-    {
-        "name": "influential",
-        "trans": ["有影响力的"]
-    },
-    {
-        "name": "regulation",
-        "trans": ["规则"]
-    },
-    {
-        "name": "certificate",
-        "trans": ["证明…"]
-    },
-    {
-        "name": "statement",
-        "trans": ["声明"]
-    },
-    {
-        "name": "calculate",
-        "trans": ["计算"]
-    },
-    {
-        "name": "assume",
-        "trans": ["假定"]
-    },
-    {
-        "name": "emergency",
-        "trans": ["紧急事件"]
-    },
-    {
-        "name": "sign",
-        "trans": ["记号"]
-    },
-    {
-        "name": "disabled",
-        "trans": ["残疾的"]
-    },
-    {
-        "name": "chain",
-        "trans": ["链"]
-    },
-    {
-        "name": "cafeteria",
-        "trans": ["自助餐厅"]
-    },
-    {
-        "name": "chess",
-        "trans": ["国际象棋"]
-    },
-    {
-        "name": "president",
-        "trans": ["总统"]
-    },
-    {
-        "name": "transport",
-        "trans": ["运输"]
-    },
-    {
-        "name": "senior",
-        "trans": ["高级的"]
-    },
-    {
-        "name": "direction",
-        "trans": ["方向"]
-    },
-    {
-        "name": "political",
-        "trans": ["政治的"]
-    },
-    {
-        "name": "landmark",
-        "trans": ["地标性建筑"]
-    },
-    {
-        "name": "submit",
-        "trans": ["上交"]
-    },
-    {
-        "name": "specific",
-        "trans": ["具体的", "特定的"]
-    },
-    {
-        "name": "assess",
-        "trans": ["评估"]
-    },
-    {
-        "name": "junction",
-        "trans": ["交叉路口"]
-    },
-    {
-        "name": "assistance",
-        "trans": ["帮助"]
-    },
-    {
-        "name": "ambulance",
-        "trans": ["救护车"]
-    },
-    {
-        "name": "harbour",
-        "trans": ["港湾"]
-    },
-    {
-        "name": "category",
-        "trans": ["类别"]
-    },
-    {
-        "name": "sufficient",
-        "trans": ["足够的"]
-    },
-    {
-        "name": "orchard",
-        "trans": ["果园"]
-    },
-    {
-        "name": "adjust",
-        "trans": ["适应"]
-    },
-    {
-        "name": "climate",
-        "trans": ["天气"]
-    },
-    {
-        "name": "previous",
-        "trans": ["之前的"]
-    },
-    {
-        "name": "routine",
-        "trans": ["日常的"]
-    },
-    {
-        "name": "illustration",
-        "trans": ["说明", "图解"]
-    },
-    {
-        "name": "carer",
-        "trans": ["护工"]
-    },
-    {
-        "name": "stretch",
-        "trans": ["伸展"]
-    },
-    {
-        "name": "career",
-        "trans": ["生涯", "职业"]
-    }
+  {
+    "name": "stop watch",
+    "trans": [
+      "n. 码表"
+    ]
+  },
+  {
+    "name": "ban",
+    "trans": [
+      "vt. 禁止，下令禁止；剥夺权利；古诅咒",
+      "n. 禁止，禁令；谴责；诅咒，诅骂"
+    ]
+  },
+  {
+    "name": "filter",
+    "trans": [
+      "n. 滤波器；滤光器；滤色镜",
+      "vi. 过滤；透过；渗透",
+      "vt. 过滤；滤除"
+    ]
+  },
+  {
+    "name": "standard",
+    "trans": [
+      "n. 标准；水准；旗",
+      "adj. 标准的；合规格的；公认为优秀的"
+    ]
+  },
+  {
+    "name": "operate",
+    "trans": [
+      "vt.&vi. 运转；操作；经营",
+      "vi. 开刀；（对…）动手术；动手术",
+      "vt. 操作；控制；使运行"
+    ]
+  },
+  {
+    "name": "feedback",
+    "trans": [
+      "n. 反馈；成果，资料；回复"
+    ]
+  },
+  {
+    "name": "brush",
+    "trans": [
+      "n. 刷子；画笔；毛笔",
+      "vi. 刷；擦过；掠过",
+      "vt. 刷；画"
+    ]
+  },
+  {
+    "name": "captain",
+    "trans": [
+      "n. 队长，首领；船长；上尉",
+      "vt. 指挥；率领"
+    ]
+  },
+  {
+    "name": "display",
+    "trans": [
+      "n. 显示；炫耀",
+      "vt. 显示；表现；陈列",
+      "adj. 展览的；陈列用的"
+    ]
+  },
+  {
+    "name": "TV surveillance",
+    "trans": [
+      "TV监视"
+    ]
+  },
+  {
+    "name": "button",
+    "trans": [
+      "n. 按钮；纽扣",
+      "vt. 扣住；扣紧；在…上装纽扣",
+      "vi. 扣住；装有纽扣；扣上纽扣"
+    ]
+  },
+  {
+    "name": "blinded",
+    "trans": [
+      "瞎的"
+    ]
+  },
+  {
+    "name": "characteristic",
+    "trans": [
+      "n. 特征；特性；特色",
+      "adj. 典型的；特有的；表示特性的"
+    ]
+  },
+  {
+    "name": "fixed",
+    "trans": [
+      "adj. 确定的；固执的；处境...的",
+      "v. 修理（过去式）"
+    ]
+  },
+  {
+    "name": "mathematics",
+    "trans": [
+      "n. 数学；〈诗〉同“ripen”；算学"
+    ]
+  },
+  {
+    "name": "academic",
+    "trans": [
+      "n. 大学生，大学教师；学者",
+      "adj. 学术的；理论的；学院的"
+    ]
+  },
+  {
+    "name": "scoring",
+    "trans": [
+      "n. 得分；擦痕"
+    ]
+  },
+  {
+    "name": "heroine",
+    "trans": [
+      "n. 女主角；女英雄；女杰出人物"
+    ]
+  },
+  {
+    "name": "Town Hall",
+    "trans": [
+      "n. 镇公所；市政厅；（英国）市镇集会所"
+    ]
+  },
+  {
+    "name": "spare",
+    "trans": [
+      "vt. 节约；抽出；饶恕",
+      "adj. 多余的；闲置的；备用的",
+      "n. 剩余；备用品"
+    ]
+  },
+  {
+    "name": "altitude",
+    "trans": [
+      "n. 高地；高度；顶垂线"
+    ]
+  },
+  {
+    "name": "scenery",
+    "trans": [
+      "n. 风景；景色；舞台布景"
+    ]
+  },
+  {
+    "name": "fishery",
+    "trans": [
+      "n. 渔业；渔场；水产业"
+    ]
+  },
+  {
+    "name": "certificate",
+    "trans": [
+      "n. 证(明)书；证件；执照",
+      "vt. 批准；认可；发证书给..."
+    ]
+  },
+  {
+    "name": "injure",
+    "trans": [
+      "vt. 伤害；损害；损伤"
+    ]
+  },
+  {
+    "name": "strike",
+    "trans": [
+      "vi. 罢工；打，打击；敲，敲击",
+      "vt. 罢工；打，击；侵袭",
+      "n. 罢工；打击；殴打"
+    ]
+  },
+  {
+    "name": "luggage",
+    "trans": [
+      "n. 行李；皮箱；皮包"
+    ]
+  },
+  {
+    "name": "fringe",
+    "trans": [
+      "n. 边缘；穗；刘海",
+      "adj. 边缘的；附加的",
+      "vt. 加穗于"
+    ]
+  },
+  {
+    "name": "badge",
+    "trans": [
+      "n. 徽章；证章；标记",
+      "v. 给...授予徽章；标记"
+    ]
+  },
+  {
+    "name": "cooperative",
+    "trans": [
+      "adj. 合作的，协作的；愿意合作的，配合的；协同的，互助的",
+      "n. 合作社；协作社"
+    ]
+  },
+  {
+    "name": "donkey",
+    "trans": [
+      "n. 驴子；傻瓜；顽固的人"
+    ]
+  },
+  {
+    "name": "riverside",
+    "trans": [
+      "n. 河边；河畔",
+      "adj. 河畔的"
+    ]
+  },
+  {
+    "name": "humid",
+    "trans": [
+      "adj. 潮湿的；湿润的；多湿气的"
+    ]
+  },
+  {
+    "name": "escape",
+    "trans": [
+      "vi. 逃跑；逃脱；避开",
+      "n. 逃跑；逃亡；避难设备",
+      "adj. 逃避的"
+    ]
+  },
+  {
+    "name": "seek",
+    "trans": [
+      "vt. 寻求；寻找；探索",
+      "vi. 寻找；探索；搜索"
+    ]
+  },
+  {
+    "name": "accompany",
+    "trans": [
+      "vt. 陪伴，伴随；伴奏",
+      "vi. 伴奏；伴唱"
+    ]
+  },
+  {
+    "name": "limb",
+    "trans": [
+      "n. 肢，臂；分支；枝干",
+      "vt. 切断…的手足；从…上截下树枝"
+    ]
+  },
+  {
+    "name": "quiz",
+    "trans": [
+      "n. 考查；恶作剧；课堂测验",
+      "vt. 挖苦；张望；对…进行测验"
+    ]
+  },
+  {
+    "name": "multimedia",
+    "trans": [
+      "adj. 多种手段的；多媒体的",
+      "n. 多媒体"
+    ]
+  },
+  {
+    "name": "championship",
+    "trans": [
+      "n. 锦标赛；冠军称号；冠军的地位"
+    ]
+  },
+  {
+    "name": "influential",
+    "trans": [
+      "adj. 有影响的；有势力的",
+      "n. 有影响力的人物"
+    ]
+  },
+  {
+    "name": "regulation",
+    "trans": [
+      "n. 管理；控制；规章",
+      "adj. 规定的；必须穿戴的；必须使用的"
+    ]
+  },
+  {
+    "name": "certificate",
+    "trans": [
+      "n. 证(明)书；证件；执照",
+      "vt. 批准；认可；发证书给..."
+    ]
+  },
+  {
+    "name": "statement",
+    "trans": [
+      "n. 陈述，声明；报表，清单；表态，立场"
+    ]
+  },
+  {
+    "name": "calculate",
+    "trans": [
+      "vt. 计算；预测；认为",
+      "vi. 计算；以为；作打算"
+    ]
+  },
+  {
+    "name": "assume",
+    "trans": [
+      "vt. 僭取；篡夺；夺取",
+      "vi. 假定；设想；承担"
+    ]
+  },
+  {
+    "name": "emergency",
+    "trans": [
+      "n. 紧急情况；突发事件；非常时刻",
+      "adj. 紧急的；备用的"
+    ]
+  },
+  {
+    "name": "sign",
+    "trans": [
+      "n. 迹象；符号；记号",
+      "vt. 签署；示意",
+      "vi. 签署；签名"
+    ]
+  },
+  {
+    "name": "disabled",
+    "trans": [
+      "adj. 残废的；有缺陷的",
+      "v. 使残废；使伤残；使无效"
+    ]
+  },
+  {
+    "name": "chain",
+    "trans": [
+      "n. 链；束缚；枷锁",
+      "vt. 束缚；囚禁；用铁链锁住"
+    ]
+  },
+  {
+    "name": "cafeteria",
+    "trans": [
+      "n. 自助食堂",
+      "adj. 有多种选择的"
+    ]
+  },
+  {
+    "name": "chess",
+    "trans": [
+      "n. 国际象棋；西洋棋"
+    ]
+  },
+  {
+    "name": "president",
+    "trans": [
+      "n. 总统；董事长；校长"
+    ]
+  },
+  {
+    "name": "transport",
+    "trans": [
+      "n. 运输，运送；运输工具；运输系统",
+      "v. 运输，运送；使狂喜；使激动"
+    ]
+  },
+  {
+    "name": "senior",
+    "trans": [
+      "n. 上司；较年长者；毕业班学生",
+      "adj. 高级的；年长的；地位较高的"
+    ]
+  },
+  {
+    "name": "direction",
+    "trans": [
+      "n. 方向，方位；指示，指令；趋势，动向"
+    ]
+  },
+  {
+    "name": "political",
+    "trans": [
+      "adj. 政治的；政治上的；政党的"
+    ]
+  },
+  {
+    "name": "landmark",
+    "trans": [
+      "n. 陆标；地标；界标",
+      "adj. 有重大意义或影响的"
+    ]
+  },
+  {
+    "name": "submit",
+    "trans": [
+      "vt. 使服从；屈服；呈送",
+      "vi. 服从；屈从；忍受"
+    ]
+  },
+  {
+    "name": "specific",
+    "trans": [
+      "n. 特性；细节；特效药",
+      "adj. 特殊的，特定的；明确的；详细的"
+    ]
+  },
+  {
+    "name": "assess",
+    "trans": [
+      "vt. 评定；估价；对…征税"
+    ]
+  },
+  {
+    "name": "junction",
+    "trans": [
+      "n. 连接点，交叉点；交汇处，汇合处；（电路的）连接，接合"
+    ]
+  },
+  {
+    "name": "assistance",
+    "trans": [
+      "n. 帮助；援助；支持"
+    ]
+  },
+  {
+    "name": "ambulance",
+    "trans": [
+      "n. 救护车；战时流动医院"
+    ]
+  },
+  {
+    "name": "harbour",
+    "trans": [
+      "n. 港；港口；港湾",
+      "v. 庇护，窝藏，藏匿；怀有，心怀；携带"
+    ]
+  },
+  {
+    "name": "category",
+    "trans": [
+      "n. 门类，种类；范畴；部门"
+    ]
+  },
+  {
+    "name": "sufficient",
+    "trans": [
+      "adj. 足够的；充足的；充分的"
+    ]
+  },
+  {
+    "name": "orchard",
+    "trans": [
+      "n. 果园；果园里的全部果树；棒球场"
+    ]
+  },
+  {
+    "name": "adjust",
+    "trans": [
+      "vt. 调整，使…适合；校准",
+      "vi. 调整，校准；适应"
+    ]
+  },
+  {
+    "name": "climate",
+    "trans": [
+      "n. 气候；风气；思潮"
+    ]
+  },
+  {
+    "name": "previous",
+    "trans": [
+      "adj. 以前的；早先的；过早的",
+      "adv. 在先；在…以前"
+    ]
+  },
+  {
+    "name": "routine",
+    "trans": [
+      "n. 例行公事；常规；无聊",
+      "adj. 日常的；常规的；例行的"
+    ]
+  },
+  {
+    "name": "illustration",
+    "trans": [
+      "n. 图解，插图；说明，例证；例证，实例"
+    ]
+  },
+  {
+    "name": "carer",
+    "trans": [
+      "护工"
+    ]
+  },
+  {
+    "name": "stretch",
+    "trans": [
+      "vt. 伸展；张开",
+      "vi. 伸；延伸",
+      "n. 伸展；张开"
+    ]
+  },
+  {
+    "name": "career",
+    "trans": [
+      "n. 生涯；职业；事业",
+      "adj. 作为毕生职业的",
+      "vi. 全速前进；猛冲"
+    ]
+  }
 ]

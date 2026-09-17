@@ -1,829 +1,907 @@
 [
-    {
-        "name": "morning tea",
-        "trans": [
-            "早茶"
-        ],
-        "usphone": "ˈmɔr.ɪ.ŋ tiː",
-        "ukphone": "ˈmɔː.rɪŋ tiː"
-    },
-    {
-        "name": "soup",
-        "trans": [
-            "汤"
-        ],
-        "usphone": "soʊp",
-        "ukphone": "sʊp"
-    },
-    {
-        "name": "garden",
-        "trans": [
-            "花园"
-        ],
-        "usphone": "ˈɡɑː.dən",
-        "ukphone": "ˈɡær.dən"
-    },
-    {
-        "name": "the Potala Palace",
-        "trans": [
-            "布达拉宫"
-        ],
-        "usphone": "pəˈtɑː.lə ˈpæl.ə.m",
-        "ukphone": "pəˈtæl.ə ˈpæl.ɪ.m"
-    },
-    {
-        "name": "the Summer Palace",
-        "trans": [
-            "颐和园"
-        ],
-        "usphone": "ˈsʌm.ər ˈpæl.əs",
-        "ukphone": "ˈsʌm.ə ˈpæl.ɪ.s"
-    },
-    {
-        "name": "the Terracotta Army",
-        "trans": [
-            "兵马俑"
-        ],
-        "usphone": "tɪˈræk.ə.tə ˈɑːr.mɪ",
-        "ukphone": "tɪˈræk.ə.tə ˈɑː.mɪ"
-    },
-    {
-        "name": "vacation",
-        "trans": [
-            "假期"
-        ],
-        "usphone": "vəˈkeɪ.ʃən",
-        "ukphone": "veɪˈkeɪ.ʃən"
-    },
-    {
-        "name": "taste",
-        "trans": [
-            ""
-        ],
-        "usphone": "teɪst",
-        "ukphone": "teɪst"
-    },
-    {
-        "name": "map",
-        "trans": [
-            "地图"
-        ],
-        "usphone": "mæp",
-        "ukphone": "mæp"
-    },
-    {
-        "name": "north",
-        "trans": [
-            "北"
-        ],
-        "usphone": "nɔːrθ",
-        "ukphone": "nɔːθ"
-    },
-    {
-        "name": "south",
-        "trans": [
-            "南"
-        ],
-        "usphone": "saʊθ",
-        "ukphone": "saʊθ"
-    },
-    {
-        "name": "east",
-        "trans": [
-            "东"
-        ],
-        "usphone": "iːst",
-        "ukphone": "iːst"
-    },
-    {
-        "name": "west",
-        "trans": [
-            "西"
-        ],
-        "usphone": "wɛst",
-        "ukphone": "wɛst"
-    },
-    {
-        "name": "famous",
-        "trans": [
-            "著名的"
-        ],
-        "usphone": "ˈfeɪ.məs",
-        "ukphone": "ˈfeɪ.məs"
-    },
-    {
-        "name": "temple",
-        "trans": [
-            "寺"
-        ],
-        "usphone": "ˈtɛm.pəl",
-        "ukphone": "ˈtɛm.pəl"
-    },
-    {
-        "name": "around",
-        "trans": [
-            "遍及；围绕"
-        ],
-        "usphone": "əˈraʊ.nd",
-        "ukphone": "əˈraʊ.nd"
-    },
-    {
-        "name": "the Yangtze River",
-        "trans": [
-            "长江"
-        ],
-        "usphone": "ˈjæŋk.si ˈrɪv.ər",
-        "ukphone": "ˈjæŋk.si ˈrɪv.ər"
-    },
-    {
-        "name": "foggy",
-        "trans": [
-            "有雾的"
-        ],
-        "usphone": "ˈfɑː.ɡi",
-        "ukphone": "ˈfɒɡ.i"
-    },
-    {
-        "name": "spicy",
-        "trans": [
-            "辣的"
-        ],
-        "usphone": "ˈspaɪ.si",
-        "ukphone": "ˈspaɪ.si"
-    },
-    {
-        "name": "silk",
-        "trans": [
-            "丝绸"
-        ],
-        "usphone": "sɪlk",
-        "ukphone": "sɪlk"
-    },
-    {
-        "name": "forest",
-        "trans": [
-            "树林"
-        ],
-        "usphone": "ˈfɔːr.ɪst",
-        "ukphone": "ˈfɒr.ɪst"
-    },
-    {
-        "name": "stone",
-        "trans": [
-            "石头"
-        ],
-        "usphone": "stoʊn",
-        "ukphone": "stəʊn"
-    },
-    {
-        "name": "London",
-        "trans": [
-            "伦敦"
-        ],
-        "usphone": "ˈlʌn.dən",
-        "ukphone": "ˈlʌn.dən"
-    },
-    {
-        "name": "Toronto",
-        "trans": [
-            "多伦多"
-        ],
-        "usphone": "tɔːˈrɑːn.toʊ",
-        "ukphone": "tɔːˈrɒn.təʊ"
-    },
-    {
-        "name": "Sydney",
-        "trans": [
-            "悉尼"
-        ],
-        "usphone": "sɪd.ni",
-        "ukphone": "ˈsɪd.ni"
-    },
-    {
-        "name": "Washington",
-        "trans": [
-            "华盛顿"
-        ],
-        "usphone": "ˈwɑːʃ.ɪŋ.tən",
-        "ukphone": "ˈwɒʃ.ɪŋ.tən"
-    },
-    {
-        "name": "the British Museum",
-        "trans": [
-            "大英博物馆"
-        ],
-        "usphone": "ðə ˈbrɪt.ɪʃ mjuˈziː.əm",
-        "ukphone": "ðə ˈbrɪt.ɪʃ mjuˈziːəm"
-    },
-    {
-        "name": "the CN Tower",
-        "trans": [
-            "加拿大国家电视塔"
-        ],
-        "usphone": "ðə ˌsiːˈen ˈtaʊ.ər",
-        "ukphone": "ðə ˌsiːˈen ˈtaʊ.ə"
-    },
-    {
-        "name": "kangaroo",
-        "trans": [
-            "袋鼠"
-        ],
-        "usphone": "ˌkæŋ.ɡəˈruː",
-        "ukphone": "ˌkæŋ.ɡəˈruː"
-    },
-    {
-        "name": "the Opera House (Sydney)",
-        "trans": [
-            "（悉尼）歌剧院"
-        ],
-        "usphone": "ðə ˈɑp.ər ˈhaʊs",
-        "ukphone": "ðə ˈɒp.ər ˈhaʊs"
-    },
-    {
-        "name": "the White House",
-        "trans": [
-            "白宫"
-        ],
-        "usphone": "ðə ˌwaɪt ˈhaʊs",
-        "ukphone": "ðə ˌwaɪt ˈhaʊs"
-    },
-    {
-        "name": "clock",
-        "trans": [
-            "时钟"
-        ],
-        "usphone": "klɑːk",
-        "ukphone": "klɒk"
-    },
-    {
-        "name": "speak",
-        "trans": [
-            "讲；说"
-        ],
-        "usphone": "spiːk",
-        "ukphone": "spiːk"
-    },
-    {
-        "name": "French",
-        "trans": [
-            "法语"
-        ],
-        "usphone": "fraɪʃ",
-        "ukphone": "fraːʃ"
-    },
-    {
-        "name": "Tower Bridge",
-        "trans": [
-            "塔桥"
-        ],
-        "usphone": "ˈtaʊ.ər ˈbrɪdʒ",
-        "ukphone": "ˈtaʊə ˈbrɪdʒ"
-    },
-    {
-        "name": "the London Eye",
-        "trans": [
-            "伦敦眼"
-        ],
-        "usphone": "ðə ˈlʌn.dən ˈaɪ",
-        "ukphone": "ðə ˈlʌn.dən ˈaɪ"
-    },
-    {
-        "name": "hiking",
-        "trans": [
-            "远足"
-        ],
-        "usphone": "ˈhaɪ.kɪŋ",
-        "ukphone": "ˈhaɪ.kɪ"
-    },
-    {
-        "name": "sunrise",
-        "trans": [
-            "日出"
-        ],
-        "usphone": "ˈsʌn.raɪz",
-        "ukphone": "ˈsʌn.raɪz"
-    },
-    {
-        "name": "president",
-        "trans": [
-            "总统"
-        ],
-        "usphone": "ˈprɛs.ɪ.dənt",
-        "ukphone": "ˈprɛs.ɪ.dənt"
-    },
-    {
-        "name": "reptile",
-        "trans": [
-            "爬行动物"
-        ],
-        "usphone": "ˈrɛp.taɪl",
-        "ukphone": "ˈrɛp.taɪl"
-    },
-    {
-        "name": "bird",
-        "trans": [
-            "鸟"
-        ],
-        "usphone": "bɜːrd",
-        "ukphone": "bɜːd"
-    },
-    {
-        "name": "fish",
-        "trans": [
-            "鱼"
-        ],
-        "usphone": "fɪʃ",
-        "ukphone": "fɪʃ"
-    },
-    {
-        "name": "mammal",
-        "trans": [
-            "哺乳动物"
-        ],
-        "usphone": "ˈmæm.əl",
-        "ukphone": "ˈmæm.əl"
-    },
-    {
-        "name": "insect",
-        "trans": [
-            "昆虫"
-        ],
-        "usphone": "ˈɪn.sɛkt",
-        "ukphone": "ˈɪn.sɛkt"
-    },
-    {
-        "name": "penguin",
-        "trans": [
-            "企鹅"
-        ],
-        "usphone": "ˈpɛŋ.ɡwɪn",
-        "ukphone": "ˈpɛŋ.ɡwɪn"
-    },
-    {
-        "name": "shark",
-        "trans": [
-            "鲨鱼"
-        ],
-        "usphone": "ʃɑːrk",
-        "ukphone": "ʃɑːrk"
-    },
-    {
-        "name": "whale",
-        "trans": [
-            "鲸"
-        ],
-        "usphone": "weɪl",
-        "ukphone": "weɪl"
-    },
-    {
-        "name": "kind",
-        "trans": [
-            "种类"
-        ],
-        "usphone": "kaɪnd",
-        "ukphone": "kaɪnd"
-    },
-    {
-        "name": "metre",
-        "trans": [
-            "米"
-        ],
-        "usphone": "ˈmiː.tər",
-        "ukphone": "ˈmiː.tər"
-    },
-    {
-        "name": "spend",
-        "trans": [
-            "花费"
-        ],
-        "usphone": "spɛnd",
-        "ukphone": "spɛnd"
-    },
-    {
-        "name": "trunk",
-        "trans": [
-            "象鼻"
-        ],
-        "usphone": "trʌŋk",
-        "ukphone": "trʌŋk"
-    },
-    {
-        "name": "peanut",
-        "trans": [
-            "花生"
-        ],
-        "usphone": "ˈpiː.nʌt",
-        "ukphone": "ˈpiː.nʌt"
-    },
-    {
-        "name": "fan",
-        "trans": [
-            "扇子"
-        ],
-        "usphone": "fæn",
-        "ukphone": "fæn"
-    },
-    {
-        "name": "tusk",
-        "trans": [
-            "（象、野猪等的）长牙"
-        ],
-        "usphone": "tʌsk",
-        "ukphone": "tʌsk"
-    },
-    {
-        "name": "Africa",
-        "trans": [
-            "非洲"
-        ],
-        "usphone": "ˈæf.rɪ.kə",
-        "ukphone": "ˈæf.rɪ.kə"
-    },
-    {
-        "name": "Asia",
-        "trans": [
-            "亚洲"
-        ],
-        "usphone": "ˈeɪ.ʒə",
-        "ukphone": "ˈeɪ.ʒə"
-    },
-    {
-        "name": "smart",
-        "trans": [
-            "聪明的"
-        ],
-        "usphone": "smɑːrt",
-        "ukphone": "smɑːrt"
-    },
-    {
-        "name": "scared",
-        "trans": [
-            "害怕的"
-        ],
-        "usphone": "skerd",
-        "ukphone": "skerd"
-    },
-    {
-        "name": "worried",
-        "trans": [
-            "担心的"
-        ],
-        "usphone": "ˈwʌr.id",
-        "ukphone": "ˈwʌr.id"
-    },
-    {
-        "name": "angry",
-        "trans": [
-            "生气的"
-        ],
-        "usphone": "ˈæŋ.ɡri",
-        "ukphone": "ˈæŋ.ɡri"
-    },
-    {
-        "name": "proud",
-        "trans": [
-            "自豪的",
-            "骄傲的"
-        ],
-        "usphone": "praʊd",
-        "ukphone": "praʊd"
-    },
-    {
-        "name": "sad",
-        "trans": [
-            "难过的"
-        ],
-        "usphone": "sæd",
-        "ukphone": "sæd"
-    },
-    {
-        "name": "excited",
-        "trans": [
-            "激动的"
-        ],
-        "usphone": "ɪkˈsaɪ.tɪd",
-        "ukphone": "ɪkˈsaɪ.tɪd"
-    },
-    {
-        "name": "happy",
-        "trans": [
-            "高兴的"
-        ],
-        "usphone": "ˈhæp.i",
-        "ukphone": "ˈhæp.i"
-    },
-    {
-        "name": "ill",
-        "trans": [
-            "有病的",
-            "不舒服的"
-        ],
-        "usphone": "ɪl",
-        "ukphone": "ɪl"
-    },
-    {
-        "name": "win",
-        "trans": [
-            "获胜"
-        ],
-        "usphone": "wɪn",
-        "ukphone": "wɪn"
-    },
-    {
-        "name": "race",
-        "trans": [
-            "赛跑"
-        ],
-        "usphone": "reɪs",
-        "ukphone": "reɪs"
-    },
-    {
-        "name": "find",
-        "trans": [
-            "发现"
-        ],
-        "usphone": "faɪnd",
-        "ukphone": "faɪnd"
-    },
-    {
-        "name": "cry",
-        "trans": [
-            "哭"
-        ],
-        "usphone": "kraɪ",
-        "ukphone": "kraɪ"
-    },
-    {
-        "name": "because",
-        "trans": [
-            "因为"
-        ],
-        "usphone": "bɪˈkɔːz",
-        "ukphone": "bɪˈkɒz"
-    },
-    {
-        "name": "test",
-        "trans": [
-            "测验"
-        ],
-        "usphone": "tɛst",
-        "ukphone": "tɛst"
-    },
-    {
-        "name": "competition",
-        "trans": [
-            "竞赛"
-        ],
-        "usphone": "kɑːm.pəˈtɪʃ.ən",
-        "ukphone": "kɒm.pɪˈtɪʃ.ən"
-    },
-    {
-        "name": "hurt",
-        "trans": [
-            "弄伤"
-        ],
-        "usphone": "hɜːrt",
-        "ukphone": "hɜːrt"
-    },
-    {
-        "name": "inventor",
-        "trans": [
-            "发明家"
-        ],
-        "usphone": "ɪnˈvɛn.t̬ɚ",
-        "ukphone": "ɪnˈven.tər"
-    },
-    {
-        "name": "artist",
-        "trans": [
-            "画家",
-            "艺术家"
-        ],
-        "usphone": "ˈɑːr.t̬ɪst",
-        "ukphone": "ˈɑː.tɪst"
-    },
-    {
-        "name": "scientist",
-        "trans": [
-            "科学家"
-        ],
-        "usphone": "ˈsaɪən.t̬ɪst",
-        "ukphone": "ˈsaɪən.tɪst"
-    },
-    {
-        "name": "poet",
-        "trans": [
-            "诗人"
-        ],
-        "usphone": "ˈpoʊ.ət",
-        "ukphone": "ˈpəʊ.ɪt"
-    },
-    {
-        "name": "writer",
-        "trans": [
-            "作家 "
-        ],
-        "usphone": "ˈraɪ.t̬ɚ",
-        "ukphone": "ˈraɪ.tər"
-    },
-    {
-        "name": "American",
-        "trans": [
-            "美国人",
-            "美国的"
-        ],
-        "usphone": "əˈmer.ɪ.kən",
-        "ukphone": "ˈmer.ɪ.kən"
-    },
-    {
-        "name": "French",
-        "trans": [
-            "法国人",
-            "法国的"
-        ],
-        "usphone": "ˈfrentʃ",
-        "ukphone": "ˈfrentʃ"
-    },
-    {
-        "name": "Danish",
-        "trans": [
-            "丹麦人",
-            "丹麦的",
-            "丹麦语"
-        ],
-        "usphone": "ˈdeɪ.nɪʃ",
-        "ukphone": "ˈdeɪ.nɪʃ"
-    },
-    {
-        "name": "poem",
-        "trans": [
-            "诗",
-            "诗歌"
-        ],
-        "usphone": "ˈpoʊ.əm",
-        "ukphone": "ˈpəʊ.ɪm"
-    },
-    {
-        "name": "paint",
-        "trans": [
-            "用颜料画"
-        ],
-        "usphone": "peɪnt",
-        "ukphone": "peɪnt"
-    },
-    {
-        "name": "invention",
-        "trans": [
-            "发明"
-        ],
-        "usphone": "ɪnˈvɛn.ʃən",
-        "ukphone": "ɪnˈven.ʃən"
-    },
-    {
-        "name": "invent",
-        "trans": [
-            "发明"
-        ],
-        "usphone": "ɪnˈvɛnt",
-        "ukphone": "ɪnˈvent"
-    },
-    {
-        "name": "study",
-        "trans": [
-            "学习",
-            "研究"
-        ],
-        "usphone": "ˈstʌd.i",
-        "ukphone": "ˈstʌd.i"
-    },
-    {
-        "name": "story",
-        "trans": [
-            "故事"
-        ],
-        "usphone": "ˈstɔːr.i",
-        "ukphone": "ˈstɔːr.i"
-    },
-    {
-        "name": "university",
-        "trans": [
-            "大学"
-        ],
-        "usphone": "ˌjuː.nəˈvɝː.sə.t̬i",
-        "ukphone": "ˌjuː.nɪˈvɜː.sɪ.ti"
-    },
-    {
-        "name": "deaf",
-        "trans": [
-            "聋的"
-        ],
-        "usphone": "dɛf",
-        "ukphone": "dɛf"
-    },
-    {
-        "name": "blind",
-        "trans": [
-            "失明的"
-        ],
-        "usphone": "blaɪnd",
-        "ukphone": "blaɪnd"
-    },
-    {
-        "name": "fall",
-        "trans": [
-            "落下"
-        ],
-        "usphone": "fɑːl",
-        "ukphone": "fɔːl"
-    },
-    {
-        "name": "dumpling",
-        "trans": [
-            "饺子",
-            "汤团"
-        ],
-        "usphone": "ˈdʌm.plɪŋ",
-        "ukphone": "ˈdʌm.plɪŋ"
-    },
-    {
-        "name": "fan",
-        "trans": [
-            "迷",
-            "爱好者"
-        ],
-        "usphone": "fæn",
-        "ukphone": "fæn"
-    },
-    {
-        "name": "ice lantern",
-        "trans": [
-            "冰灯"
-        ],
-        "usphone": "aɪs ˈlæn.tərn",
-        "ukphone": "aɪs ˈlæn.tən"
-    },
-    {
-        "name": "bring",
-        "trans": [
-            "带来"
-        ],
-        "usphone": "brɪŋ",
-        "ukphone": "brɪŋ"
-    },
-    {
-        "name": "be afraid of",
-        "trans": [
-            "害怕"
-        ],
-        "usphone": "bi əˈfreɪd əv",
-        "ukphone": "bi əˈfreɪd əv"
-    },
-    {
-        "name": "hear",
-        "trans": [
-            "听到"
-        ],
-        "usphone": "hɪr",
-        "ukphone": "hɪər"
-    },
-    {
-        "name": "pen pal",
-        "trans": [
-            "笔友"
-        ],
-        "usphone": "pɛn pæl",
-        "ukphone": "pɛn pæl"
-    },
-    {
-        "name": "broken",
-        "trans": [
-            "损坏了的"
-        ],
-        "usphone": "ˈbroʊ.kən",
-        "ukphone": "ˈbrəʊ.kən"
-    },
-    {
-        "name": "pity",
-        "trans": [
-            "遗憾"
-        ],
-        "usphone": "ˈpɪt.i",
-        "ukphone": "ˈpɪt.i"
-    },
-    {
-        "name": "prize",
-        "trans": [
-            "奖（品）"
-        ],
-        "usphone": "praɪz",
-        "ukphone": "praɪz"
-    },
-    {
-        "name": "look forward to",
-        "trans": [
-            "盼望"
-        ],
-        "usphone": "lʊk ˈfɔrwərd tu",
-        "ukphone": "lʊk ˈfɔr.wəd tu"
-    }
+  {
+    "name": "morning tea",
+    "trans": [
+      "早茶"
+    ],
+    "usphone": "ˈmɔr.ɪ.ŋ tiː",
+    "ukphone": "ˈmɔː.rɪŋ tiː"
+  },
+  {
+    "name": "soup",
+    "trans": [
+      "n. 汤，羹；马力",
+      "vt. 加速；增加马力"
+    ],
+    "usphone": "soʊp",
+    "ukphone": "sʊp"
+  },
+  {
+    "name": "garden",
+    "trans": [
+      "n. 花园；菜园；果园",
+      "vi. 栽培花木；从事园艺工作",
+      "vt. 造园；以花园装饰"
+    ],
+    "usphone": "ˈɡɑː.dən",
+    "ukphone": "ˈɡær.dən"
+  },
+  {
+    "name": "the Potala Palace",
+    "trans": [
+      "布达拉宫"
+    ],
+    "usphone": "pəˈtɑː.lə ˈpæl.ə.m",
+    "ukphone": "pəˈtæl.ə ˈpæl.ɪ.m"
+  },
+  {
+    "name": "the Summer Palace",
+    "trans": [
+      "颐和园"
+    ],
+    "usphone": "ˈsʌm.ər ˈpæl.əs",
+    "ukphone": "ˈsʌm.ə ˈpæl.ɪ.s"
+  },
+  {
+    "name": "the Terracotta Army",
+    "trans": [
+      "兵马俑"
+    ],
+    "usphone": "tɪˈræk.ə.tə ˈɑːr.mɪ",
+    "ukphone": "tɪˈræk.ə.tə ˈɑː.mɪ"
+  },
+  {
+    "name": "vacation",
+    "trans": [
+      "n. 假期；（房屋）搬出",
+      "vi. 休假；度假"
+    ],
+    "usphone": "vəˈkeɪ.ʃən",
+    "ukphone": "veɪˈkeɪ.ʃən"
+  },
+  {
+    "name": "taste",
+    "trans": [
+      "n. 味道；品味；审美",
+      "vt. 尝；体验",
+      "vi. 尝起来；有…的味道"
+    ],
+    "usphone": "teɪst",
+    "ukphone": "teɪst"
+  },
+  {
+    "name": "map",
+    "trans": [
+      "n. 地图；示意图；染色体图",
+      "vt. 映射；计划；绘制地图",
+      "vi. 基因被安置"
+    ],
+    "usphone": "mæp",
+    "ukphone": "mæp"
+  },
+  {
+    "name": "north",
+    "trans": [
+      "n. 北方；北部",
+      "adj. 北方的；北部的",
+      "adv. 向北方；朝北"
+    ],
+    "usphone": "nɔːrθ",
+    "ukphone": "nɔːθ"
+  },
+  {
+    "name": "south",
+    "trans": [
+      "n. 南方；南部",
+      "adj. 南方的；南部的",
+      "adv. 向南方；在南方"
+    ],
+    "usphone": "saʊθ",
+    "ukphone": "saʊθ"
+  },
+  {
+    "name": "east",
+    "trans": [
+      "n. 东方；东边",
+      "adj. 东方的；东部的",
+      "adv. 向东方；在东方"
+    ],
+    "usphone": "iːst",
+    "ukphone": "iːst"
+  },
+  {
+    "name": "west",
+    "trans": [
+      "n. 西方，西部；西方国家，西方文明",
+      "adj. 西方的；西部的",
+      "adv. 向西；往西"
+    ],
+    "usphone": "wɛst",
+    "ukphone": "wɛst"
+  },
+  {
+    "name": "famous",
+    "trans": [
+      "adj. 著名的；有名的；出名的"
+    ],
+    "usphone": "ˈfeɪ.məs",
+    "ukphone": "ˈfeɪ.məs"
+  },
+  {
+    "name": "temple",
+    "trans": [
+      "n. 庙宇；寺院；神殿"
+    ],
+    "usphone": "ˈtɛm.pəl",
+    "ukphone": "ˈtɛm.pəl"
+  },
+  {
+    "name": "around",
+    "trans": [
+      "adj. 大约；在现存范围内",
+      "adv. 大约；到处；在周围",
+      "prep. 在...周围；在...附近；到处"
+    ],
+    "usphone": "əˈraʊ.nd",
+    "ukphone": "əˈraʊ.nd"
+  },
+  {
+    "name": "the Yangtze River",
+    "trans": [
+      "长江"
+    ],
+    "usphone": "ˈjæŋk.si ˈrɪv.ər",
+    "ukphone": "ˈjæŋk.si ˈrɪv.ər"
+  },
+  {
+    "name": "foggy",
+    "trans": [
+      "adj. 雾的；有雾的；多雾的"
+    ],
+    "usphone": "ˈfɑː.ɡi",
+    "ukphone": "ˈfɒɡ.i"
+  },
+  {
+    "name": "spicy",
+    "trans": [
+      "adj. 辛辣的；香的，多香料的；下流的"
+    ],
+    "usphone": "ˈspaɪ.si",
+    "ukphone": "ˈspaɪ.si"
+  },
+  {
+    "name": "silk",
+    "trans": [
+      "n. 丝绸；蚕丝；丝织物",
+      "adj. 丝的；丝绸的；丝制的",
+      "vi. （玉米）处于长须的阶段中"
+    ],
+    "usphone": "sɪlk",
+    "ukphone": "sɪlk"
+  },
+  {
+    "name": "forest",
+    "trans": [
+      "n. 森林；丛林；（森林似的）一丛",
+      "vt. 在…造林；使长满树林；使成为森林"
+    ],
+    "usphone": "ˈfɔːr.ɪst",
+    "ukphone": "ˈfɒr.ɪst"
+  },
+  {
+    "name": "stone",
+    "trans": [
+      "n. 石头；结石；宝石",
+      "adj. 石的；石制的",
+      "vt. 向扔石块；用石头铺"
+    ],
+    "usphone": "stoʊn",
+    "ukphone": "stəʊn"
+  },
+  {
+    "name": "London",
+    "trans": [
+      "n. 伦敦"
+    ],
+    "usphone": "ˈlʌn.dən",
+    "ukphone": "ˈlʌn.dən"
+  },
+  {
+    "name": "Toronto",
+    "trans": [
+      "n. 多伦多（加拿大城市）"
+    ],
+    "usphone": "tɔːˈrɑːn.toʊ",
+    "ukphone": "tɔːˈrɒn.təʊ"
+  },
+  {
+    "name": "Sydney",
+    "trans": [
+      "n. 悉尼（澳大利亚）"
+    ],
+    "usphone": "sɪd.ni",
+    "ukphone": "ˈsɪd.ni"
+  },
+  {
+    "name": "Washington",
+    "trans": [
+      "n. 华盛顿美国州名；美国城市名；美国第一任总统"
+    ],
+    "usphone": "ˈwɑːʃ.ɪŋ.tən",
+    "ukphone": "ˈwɒʃ.ɪŋ.tən"
+  },
+  {
+    "name": "the British Museum",
+    "trans": [
+      "大英博物馆"
+    ],
+    "usphone": "ðə ˈbrɪt.ɪʃ mjuˈziː.əm",
+    "ukphone": "ðə ˈbrɪt.ɪʃ mjuˈziːəm"
+  },
+  {
+    "name": "the CN Tower",
+    "trans": [
+      "加拿大国家电视塔"
+    ],
+    "usphone": "ðə ˌsiːˈen ˈtaʊ.ər",
+    "ukphone": "ðə ˌsiːˈen ˈtaʊ.ə"
+  },
+  {
+    "name": "kangaroo",
+    "trans": [
+      "n. 袋鼠"
+    ],
+    "usphone": "ˌkæŋ.ɡəˈruː",
+    "ukphone": "ˌkæŋ.ɡəˈruː"
+  },
+  {
+    "name": "the Opera House (Sydney)",
+    "trans": [
+      "（悉尼）歌剧院"
+    ],
+    "usphone": "ðə ˈɑp.ər ˈhaʊs",
+    "ukphone": "ðə ˈɒp.ər ˈhaʊs"
+  },
+  {
+    "name": "the White House",
+    "trans": [
+      "白宫"
+    ],
+    "usphone": "ðə ˌwaɪt ˈhaʊs",
+    "ukphone": "ðə ˌwaɪt ˈhaʊs"
+  },
+  {
+    "name": "clock",
+    "trans": [
+      "n. 时钟；计时器",
+      "vt. 记录；记时",
+      "vi. 打卡；记录时间"
+    ],
+    "usphone": "klɑːk",
+    "ukphone": "klɒk"
+  },
+  {
+    "name": "speak",
+    "trans": [
+      "vi. 说话；演讲；表明",
+      "vt. 讲话；发言；讲演"
+    ],
+    "usphone": "spiːk",
+    "ukphone": "spiːk"
+  },
+  {
+    "name": "French",
+    "trans": [
+      "adj. 法国(人)的；法语的",
+      "n. 法国人；法语",
+      "vt. 剁肉；蔬菜切成长条"
+    ],
+    "usphone": "fraɪʃ",
+    "ukphone": "fraːʃ"
+  },
+  {
+    "name": "Tower Bridge",
+    "trans": [
+      "塔桥"
+    ],
+    "usphone": "ˈtaʊ.ər ˈbrɪdʒ",
+    "ukphone": "ˈtaʊə ˈbrɪdʒ"
+  },
+  {
+    "name": "the London Eye",
+    "trans": [
+      "伦敦眼"
+    ],
+    "usphone": "ðə ˈlʌn.dən ˈaɪ",
+    "ukphone": "ðə ˈlʌn.dən ˈaɪ"
+  },
+  {
+    "name": "hiking",
+    "trans": [
+      "n. 远足；徒步旅行",
+      "v. 徒步旅行；远足；升起"
+    ],
+    "usphone": "ˈhaɪ.kɪŋ",
+    "ukphone": "ˈhaɪ.kɪ"
+  },
+  {
+    "name": "sunrise",
+    "trans": [
+      "n. 日出；拂晓"
+    ],
+    "usphone": "ˈsʌn.raɪz",
+    "ukphone": "ˈsʌn.raɪz"
+  },
+  {
+    "name": "president",
+    "trans": [
+      "n. 总统；董事长；校长"
+    ],
+    "usphone": "ˈprɛs.ɪ.dənt",
+    "ukphone": "ˈprɛs.ɪ.dənt"
+  },
+  {
+    "name": "reptile",
+    "trans": [
+      "n. 爬行动物；卑鄙的人",
+      "adj. 爬虫类的；卑鄙的"
+    ],
+    "usphone": "ˈrɛp.taɪl",
+    "ukphone": "ˈrɛp.taɪl"
+  },
+  {
+    "name": "bird",
+    "trans": [
+      "n. 鸟；家伙；羽毛球",
+      "vt. 向…喝倒彩；起哄",
+      "vi. 猎鸟；观察研究野鸟"
+    ],
+    "usphone": "bɜːrd",
+    "ukphone": "bɜːd"
+  },
+  {
+    "name": "fish",
+    "trans": [
+      "n. 鱼；鱼类",
+      "vt. 钓鱼，捕鱼；搜寻",
+      "vi. 捕鱼，钓鱼；用钩捞取"
+    ],
+    "usphone": "fɪʃ",
+    "ukphone": "fɪʃ"
+  },
+  {
+    "name": "mammal",
+    "trans": [
+      "n. 哺乳动物"
+    ],
+    "usphone": "ˈmæm.əl",
+    "ukphone": "ˈmæm.əl"
+  },
+  {
+    "name": "insect",
+    "trans": [
+      "n. 虫，昆虫；卑鄙的人；微贱的人，小人",
+      "adj. 昆虫的；卑劣的"
+    ],
+    "usphone": "ˈɪn.sɛkt",
+    "ukphone": "ˈɪn.sɛkt"
+  },
+  {
+    "name": "penguin",
+    "trans": [
+      "n. 企鹅；空军地勤人员"
+    ],
+    "usphone": "ˈpɛŋ.ɡwɪn",
+    "ukphone": "ˈpɛŋ.ɡwɪn"
+  },
+  {
+    "name": "shark",
+    "trans": [
+      "n. 鲨鱼；坑蒙拐骗的人，诈骗者；俚老手",
+      "v. 骗取；榨取；用不正当手段攫取",
+      "vi. 诈骗"
+    ],
+    "usphone": "ʃɑːrk",
+    "ukphone": "ʃɑːrk"
+  },
+  {
+    "name": "whale",
+    "trans": [
+      "n. 鲸；巨大的东西",
+      "vt. 猛揍；使惨败",
+      "vi. 捕鲸"
+    ],
+    "usphone": "weɪl",
+    "ukphone": "weɪl"
+  },
+  {
+    "name": "kind",
+    "trans": [
+      "adj. 善良的；友好的；体贴的",
+      "n. 种类；类型"
+    ],
+    "usphone": "kaɪnd",
+    "ukphone": "kaɪnd"
+  },
+  {
+    "name": "metre",
+    "trans": [
+      "n. 米；公尺；韵律"
+    ],
+    "usphone": "ˈmiː.tər",
+    "ukphone": "ˈmiː.tər"
+  },
+  {
+    "name": "spend",
+    "trans": [
+      "n. 预算",
+      "vt. 度过，消磨（时光）；花费；浪费",
+      "vi. 花钱；用尽，耗尽"
+    ],
+    "usphone": "spɛnd",
+    "ukphone": "spɛnd"
+  },
+  {
+    "name": "trunk",
+    "trans": [
+      "n. 树干；躯干；象鼻",
+      "adj. 干线的；躯干的；箱子的",
+      "vt. 把…放入旅行箱内"
+    ],
+    "usphone": "trʌŋk",
+    "ukphone": "trʌŋk"
+  },
+  {
+    "name": "peanut",
+    "trans": [
+      "n. 花生；微不足道的人，小人物；很少的钱",
+      "adj. 微不足道的"
+    ],
+    "usphone": "ˈpiː.nʌt",
+    "ukphone": "ˈpiː.nʌt"
+  },
+  {
+    "name": "fan",
+    "trans": [
+      "n. 迷；风扇；爱好者",
+      "vt. 煽动；刺激；吹拂",
+      "vi. 成扇形散开；飘动"
+    ],
+    "usphone": "fæn",
+    "ukphone": "fæn"
+  },
+  {
+    "name": "tusk",
+    "trans": [
+      "n. （象等动物的）长牙；獠牙；尖形物",
+      "vt. 用牙抵（或刺）；用牙掘（或撕）",
+      "adj. 有獠牙的；有长牙的"
+    ],
+    "usphone": "tʌsk",
+    "ukphone": "tʌsk"
+  },
+  {
+    "name": "Africa",
+    "trans": [
+      "n. 非洲"
+    ],
+    "usphone": "ˈæf.rɪ.kə",
+    "ukphone": "ˈæf.rɪ.kə"
+  },
+  {
+    "name": "Asia",
+    "trans": [
+      "n. 亚洲"
+    ],
+    "usphone": "ˈeɪ.ʒə",
+    "ukphone": "ˈeɪ.ʒə"
+  },
+  {
+    "name": "smart",
+    "trans": [
+      "adj. 巧妙的；洒脱的；聪明的",
+      "vi. 刺痛；难过；烦恼",
+      "n. 刺痛；苦恼"
+    ],
+    "usphone": "smɑːrt",
+    "ukphone": "smɑːrt"
+  },
+  {
+    "name": "scared",
+    "trans": [
+      "adj. 恐惧的；惊恐的；担心的",
+      "v. 使害怕（scare的过去分词）"
+    ],
+    "usphone": "skerd",
+    "ukphone": "skerd"
+  },
+  {
+    "name": "worried",
+    "trans": [
+      "adj. 担心的；烦恼的"
+    ],
+    "usphone": "ˈwʌr.id",
+    "ukphone": "ˈwʌr.id"
+  },
+  {
+    "name": "angry",
+    "trans": [
+      "adj. 生气的；愤怒的；狂暴的"
+    ],
+    "usphone": "ˈæŋ.ɡri",
+    "ukphone": "ˈæŋ.ɡri"
+  },
+  {
+    "name": "proud",
+    "trans": [
+      "adj. 自豪的；得意的；自负的"
+    ],
+    "usphone": "praʊd",
+    "ukphone": "praʊd"
+  },
+  {
+    "name": "sad",
+    "trans": [
+      "adj. 悲哀的；令人悲痛的；伤心的"
+    ],
+    "usphone": "sæd",
+    "ukphone": "sæd"
+  },
+  {
+    "name": "excited",
+    "trans": [
+      "v. 激动；唤起（excite的过去分词）",
+      "adj. 兴奋的；激动的；活跃的"
+    ],
+    "usphone": "ɪkˈsaɪ.tɪd",
+    "ukphone": "ɪkˈsaɪ.tɪd"
+  },
+  {
+    "name": "happy",
+    "trans": [
+      "adj. 快乐的，高兴的；幸福的；满意的"
+    ],
+    "usphone": "ˈhæp.i",
+    "ukphone": "ˈhæp.i"
+  },
+  {
+    "name": "ill",
+    "trans": [
+      "n. 疾病；不幸",
+      "adj. 生病的；坏的；邪恶的",
+      "adv. 不利地；恶劣地；几乎不"
+    ],
+    "usphone": "ɪl",
+    "ukphone": "ɪl"
+  },
+  {
+    "name": "win",
+    "trans": [
+      "n. 赢；胜利",
+      "vt. 赢得；在…中获胜；劝诱",
+      "vi. 赢；获胜；成功"
+    ],
+    "usphone": "wɪn",
+    "ukphone": "wɪn"
+  },
+  {
+    "name": "race",
+    "trans": [
+      "n. 赛跑；竞争；人种",
+      "v. 参加比赛；使比赛；快速移动"
+    ],
+    "usphone": "reɪs",
+    "ukphone": "reɪs"
+  },
+  {
+    "name": "find",
+    "trans": [
+      "n. 发现",
+      "vi. 裁决",
+      "vt. 查找，找到；发现；认为"
+    ],
+    "usphone": "faɪnd",
+    "ukphone": "faɪnd"
+  },
+  {
+    "name": "cry",
+    "trans": [
+      "n. 叫喊；叫声；口号",
+      "vi. 哭；叫；喊",
+      "vt. 叫喊；哭出；大声说"
+    ],
+    "usphone": "kraɪ",
+    "ukphone": "kraɪ"
+  },
+  {
+    "name": "because",
+    "trans": [
+      "conj. 因为；由于"
+    ],
+    "usphone": "bɪˈkɔːz",
+    "ukphone": "bɪˈkɒz"
+  },
+  {
+    "name": "test",
+    "trans": [
+      "n. 试验；检验",
+      "vt. 试验；测试",
+      "vi. 试验；测试"
+    ],
+    "usphone": "tɛst",
+    "ukphone": "tɛst"
+  },
+  {
+    "name": "competition",
+    "trans": [
+      "n. 比赛；比赛会；竞争"
+    ],
+    "usphone": "kɑːm.pəˈtɪʃ.ən",
+    "ukphone": "kɒm.pɪˈtɪʃ.ən"
+  },
+  {
+    "name": "hurt",
+    "trans": [
+      "vt. 使受伤；使痛心；伤害",
+      "vi. 受疼痛；破坏",
+      "n. 打击；创伤"
+    ],
+    "usphone": "hɜːrt",
+    "ukphone": "hɜːrt"
+  },
+  {
+    "name": "inventor",
+    "trans": [
+      "n. 发明家；发明人；创造者"
+    ],
+    "usphone": "ɪnˈvɛn.t̬ɚ",
+    "ukphone": "ɪnˈven.tər"
+  },
+  {
+    "name": "artist",
+    "trans": [
+      "n. 艺术家；美术家（尤指画家）；大师"
+    ],
+    "usphone": "ˈɑːr.t̬ɪst",
+    "ukphone": "ˈɑː.tɪst"
+  },
+  {
+    "name": "scientist",
+    "trans": [
+      "n. 科学家；科学工作者"
+    ],
+    "usphone": "ˈsaɪən.t̬ɪst",
+    "ukphone": "ˈsaɪən.tɪst"
+  },
+  {
+    "name": "poet",
+    "trans": [
+      "n. 诗人；空想家；古典芭蕾舞大师"
+    ],
+    "usphone": "ˈpoʊ.ət",
+    "ukphone": "ˈpəʊ.ɪt"
+  },
+  {
+    "name": "writer",
+    "trans": [
+      "n. 作者；作家；复写器"
+    ],
+    "usphone": "ˈraɪ.t̬ɚ",
+    "ukphone": "ˈraɪ.tər"
+  },
+  {
+    "name": "American",
+    "trans": [
+      "adj. 美洲的；美国的；美式的",
+      "n. 美国人；美式英语"
+    ],
+    "usphone": "əˈmer.ɪ.kən",
+    "ukphone": "ˈmer.ɪ.kən"
+  },
+  {
+    "name": "French",
+    "trans": [
+      "adj. 法国(人)的；法语的",
+      "n. 法国人；法语",
+      "vt. 剁肉；蔬菜切成长条"
+    ],
+    "usphone": "ˈfrentʃ",
+    "ukphone": "ˈfrentʃ"
+  },
+  {
+    "name": "Danish",
+    "trans": [
+      "n. 丹麦语",
+      "adj. 丹麦的；丹麦人的；丹麦语（文）的"
+    ],
+    "usphone": "ˈdeɪ.nɪʃ",
+    "ukphone": "ˈdeɪ.nɪʃ"
+  },
+  {
+    "name": "poem",
+    "trans": [
+      "n. 诗；韵文；诗体文"
+    ],
+    "usphone": "ˈpoʊ.əm",
+    "ukphone": "ˈpəʊ.ɪm"
+  },
+  {
+    "name": "paint",
+    "trans": [
+      "n. 油漆；颜料，涂料；绘画作品",
+      "vt. 油漆；绘画；装饰",
+      "vi. 油漆；描绘；绘画"
+    ],
+    "usphone": "peɪnt",
+    "ukphone": "peɪnt"
+  },
+  {
+    "name": "invention",
+    "trans": [
+      "n. 发明，创造；发明物；虚构，捏造"
+    ],
+    "usphone": "ɪnˈvɛn.ʃən",
+    "ukphone": "ɪnˈven.ʃən"
+  },
+  {
+    "name": "invent",
+    "trans": [
+      "vt. 发明；创造；虚构"
+    ],
+    "usphone": "ɪnˈvɛnt",
+    "ukphone": "ɪnˈvent"
+  },
+  {
+    "name": "study",
+    "trans": [
+      "n. 学习，研究；课题；书房",
+      "vt. 学习；考虑；攻读",
+      "vi. 研究；用功"
+    ],
+    "usphone": "ˈstʌd.i",
+    "ukphone": "ˈstʌd.i"
+  },
+  {
+    "name": "story",
+    "trans": [
+      "n. 故事；小说；新闻报道",
+      "vt. 用历史故事画装饰",
+      "vi. 说谎"
+    ],
+    "usphone": "ˈstɔːr.i",
+    "ukphone": "ˈstɔːr.i"
+  },
+  {
+    "name": "university",
+    "trans": [
+      "n. 大学；高等学府；综合性大学"
+    ],
+    "usphone": "ˌjuː.nəˈvɝː.sə.t̬i",
+    "ukphone": "ˌjuː.nɪˈvɜː.sɪ.ti"
+  },
+  {
+    "name": "deaf",
+    "trans": [
+      "adj. 聋的；不愿听的；装聋的"
+    ],
+    "usphone": "dɛf",
+    "ukphone": "dɛf"
+  },
+  {
+    "name": "blind",
+    "trans": [
+      "n. 掩饰，借口；百叶窗",
+      "adj. 盲目的；瞎的",
+      "vt. 使失明；使失去理智"
+    ],
+    "usphone": "blaɪnd",
+    "ukphone": "blaɪnd"
+  },
+  {
+    "name": "fall",
+    "trans": [
+      "n. 下降；秋天；瀑布",
+      "adj. 秋天的",
+      "vi. 落下；变成；来临"
+    ],
+    "usphone": "fɑːl",
+    "ukphone": "fɔːl"
+  },
+  {
+    "name": "dumpling",
+    "trans": [
+      "n. 饺子；汤团；水果布丁"
+    ],
+    "usphone": "ˈdʌm.plɪŋ",
+    "ukphone": "ˈdʌm.plɪŋ"
+  },
+  {
+    "name": "fan",
+    "trans": [
+      "n. 迷；风扇；爱好者",
+      "vt. 煽动；刺激；吹拂",
+      "vi. 成扇形散开；飘动"
+    ],
+    "usphone": "fæn",
+    "ukphone": "fæn"
+  },
+  {
+    "name": "ice lantern",
+    "trans": [
+      "冰灯"
+    ],
+    "usphone": "aɪs ˈlæn.tərn",
+    "ukphone": "aɪs ˈlæn.tən"
+  },
+  {
+    "name": "bring",
+    "trans": [
+      "vt. 带来；引出；促使",
+      "vi. 产生"
+    ],
+    "usphone": "brɪŋ",
+    "ukphone": "brɪŋ"
+  },
+  {
+    "name": "be afraid of",
+    "trans": [
+      "n. 怕"
+    ],
+    "usphone": "bi əˈfreɪd əv",
+    "ukphone": "bi əˈfreɪd əv"
+  },
+  {
+    "name": "hear",
+    "trans": [
+      "vt.&vi. 听到；听见",
+      "vt. 听说；得知；听取",
+      "vi. 听；听见"
+    ],
+    "usphone": "hɪr",
+    "ukphone": "hɪər"
+  },
+  {
+    "name": "pen pal",
+    "trans": [
+      "笔友"
+    ],
+    "usphone": "pɛn pæl",
+    "ukphone": "pɛn pæl"
+  },
+  {
+    "name": "broken",
+    "trans": [
+      "v. 折断；打碎；损坏（break的过去分词）",
+      "adj. 破碎的；坏掉的"
+    ],
+    "usphone": "ˈbroʊ.kən",
+    "ukphone": "ˈbrəʊ.kən"
+  },
+  {
+    "name": "pity",
+    "trans": [
+      "n. 怜悯；遗憾；遗憾的事",
+      "vt. 同情；怜悯"
+    ],
+    "usphone": "ˈpɪt.i",
+    "ukphone": "ˈpɪt.i"
+  },
+  {
+    "name": "prize",
+    "trans": [
+      "n. 奖品，奖金；奖赏，荣誉；战利品",
+      "adj. 优秀的；一流的",
+      "v. 珍视；重视"
+    ],
+    "usphone": "praɪz",
+    "ukphone": "praɪz"
+  },
+  {
+    "name": "look forward to",
+    "trans": [
+      "期望；期待；盼望"
+    ],
+    "usphone": "lʊk ˈfɔrwərd tu",
+    "ukphone": "lʊk ˈfɔr.wəd tu"
+  }
 ]

@@ -1,230 +1,250 @@
 [
-    {
-        "name": "general practice",
-        "trans": [
-            "n. 全科诊所；一般医师"
-        ]
-    },
-    {
-        "name": "health center",
-        "trans": [
-            "n. 健康中心"
-        ]
-    },
-    {
-        "name": "clinic",
-        "trans": [
-            "n. 诊所"
-        ]
-    },
-    {
-        "name": "infirmary",
-        "trans": [
-            "n. 医务室"
-        ]
-    },
-    {
-        "name": "emergency",
-        "trans": [
-            "n. 紧急情况"
-        ]
-    },
-    {
-        "name": "outpatient",
-        "trans": [
-            "n. 门诊；门诊病人"
-        ]
-    },
-    {
-        "name": "practitioner",
-        "trans": [
-            "n. （医学界或法律界的）从业人员"
-        ]
-    },
-    {
-        "name": "dentist",
-        "trans": [
-            "n. 牙医"
-        ]
-    },
-    {
-        "name": "veterinarian",
-        "trans": [
-            "n. 兽医"
-        ]
-    },
-    {
-        "name": "surgeon",
-        "trans": [
-            "n. 外科医生"
-        ]
-    },
-    {
-        "name": "physician",
-        "trans": [
-            "n. 内科医生"
-        ]
-    },
-    {
-        "name": "physicist",
-        "trans": [
-            "n. 物理学家"
-        ]
-    },
-    {
-        "name": "have a flu",
-        "trans": [
-            "患流感"
-        ]
-    },
-    {
-        "name": "have a cold",
-        "trans": [
-            "感冒"
-        ]
-    },
-    {
-        "name": "infectious",
-        "trans": [
-            "adj. 传染的"
-        ]
-    },
-    {
-        "name": "fever",
-        "trans": [
-            "n. 发烧；v. 发烧"
-        ]
-    },
-    {
-        "name": "headache",
-        "trans": [
-            "n. 头疼"
-        ]
-    },
-    {
-        "name": "cough",
-        "trans": [
-            "n. 咳嗽；v. 咳嗽"
-        ]
-    },
-    {
-        "name": "sneeze",
-        "trans": [
-            "n. 喷嚏；v. 打喷嚏"
-        ]
-    },
-    {
-        "name": "have a stuffed nose",
-        "trans": [
-            "鼻塞"
-        ]
-    },
-    {
-        "name": "have a running nose",
-        "trans": [
-            "流鼻涕"
-        ]
-    },
-    {
-        "name": "have a sore throat",
-        "trans": [
-            "咽喉痛"
-        ]
-    },
-    {
-        "name": "have a dry throat",
-        "trans": [
-            "咽喉干燥"
-        ]
-    },
-    {
-        "name": "have sore eyes",
-        "trans": [
-            "眼睛酸痛"
-        ]
-    },
-    {
-        "name": "shoulder",
-        "trans": [
-            "n. 肩膀"
-        ]
-    },
-    {
-        "name": "back",
-        "trans": [
-            "n. 背"
-        ]
-    },
-    {
-        "name": "wrist",
-        "trans": [
-            "n. 手腕"
-        ]
-    },
-    {
-        "name": "elbow",
-        "trans": [
-            "n. 手肘"
-        ]
-    },
-    {
-        "name": "knee",
-        "trans": [
-            "n. 膝盖"
-        ]
-    },
-    {
-        "name": "toe",
-        "trans": [
-            "n. 脚趾"
-        ]
-    },
-    {
-        "name": "waist",
-        "trans": [
-            "n. 腰"
-        ]
-    },
-    {
-        "name": "finger",
-        "trans": [
-            "n. 手指"
-        ]
-    },
-    {
-        "name": "ankle",
-        "trans": [
-            "n. 脚踝"
-        ]
-    },
-    {
-        "name": "get a pounding",
-        "trans": [
-            "受到撞击"
-        ]
-    },
-    {
-        "name": "sprain",
-        "trans": [
-            "n. 扭伤；v. 扭伤"
-        ]
-    },
-    {
-        "name": "insomnia",
-        "trans": [
-            "n. 失眠"
-        ]
-    },
-    {
-        "name": "vomit",
-        "trans": [
-            "n. 呕吐；v. 呕吐"
-        ]
-    },
-    {
-        "name": "allergy",
-        "trans": [
-            "n. 过敏"
-        ]
-    }
+  {
+    "name": "general practice",
+    "trans": [
+      "n. 全科诊所；一般医师"
+    ]
+  },
+  {
+    "name": "health center",
+    "trans": [
+      "n. 健康中心"
+    ]
+  },
+  {
+    "name": "clinic",
+    "trans": [
+      "n. 诊所，门诊部；门诊时间；临床实习"
+    ]
+  },
+  {
+    "name": "infirmary",
+    "trans": [
+      "n. 医院；医务室养老院；救济院。"
+    ]
+  },
+  {
+    "name": "emergency",
+    "trans": [
+      "n. 紧急情况；突发事件；非常时刻",
+      "adj. 紧急的；备用的"
+    ]
+  },
+  {
+    "name": "outpatient",
+    "trans": [
+      "n. 门诊；门诊病人"
+    ]
+  },
+  {
+    "name": "practitioner",
+    "trans": [
+      "n. 开业者；从业者；执业医生"
+    ]
+  },
+  {
+    "name": "dentist",
+    "trans": [
+      "n. 牙科医生；牙医诊所"
+    ]
+  },
+  {
+    "name": "veterinarian",
+    "trans": [
+      "n. 兽医"
+    ]
+  },
+  {
+    "name": "surgeon",
+    "trans": [
+      "n. 外科医师；军医"
+    ]
+  },
+  {
+    "name": "physician",
+    "trans": [
+      "n. 医生，内科医生；医学博士；（精神创伤的）医治者，抚慰者"
+    ]
+  },
+  {
+    "name": "physicist",
+    "trans": [
+      "n. 物理学家；唯物论者；自然科学家"
+    ]
+  },
+  {
+    "name": "have a flu",
+    "trans": [
+      "患流感"
+    ]
+  },
+  {
+    "name": "have a cold",
+    "trans": [
+      "n. 伤风"
+    ]
+  },
+  {
+    "name": "infectious",
+    "trans": [
+      "adj. 传染的；传染性的；有感染力的"
+    ]
+  },
+  {
+    "name": "fever",
+    "trans": [
+      "n. 发烧，发热；狂热",
+      "vt. 使发烧；使狂热；使患热病",
+      "vi. 发烧；狂热；患热病"
+    ]
+  },
+  {
+    "name": "headache",
+    "trans": [
+      "n. 头痛；麻烦；令人头痛之事"
+    ]
+  },
+  {
+    "name": "cough",
+    "trans": [
+      "n. 咳嗽，咳嗽声；咳嗽病",
+      "vt. 咳出",
+      "vi. 咳嗽"
+    ]
+  },
+  {
+    "name": "sneeze",
+    "trans": [
+      "vi. 打喷嚏；发喷嚏声",
+      "n. 喷嚏"
+    ]
+  },
+  {
+    "name": "have a stuffed nose",
+    "trans": [
+      "鼻塞"
+    ]
+  },
+  {
+    "name": "have a running nose",
+    "trans": [
+      "流鼻涕"
+    ]
+  },
+  {
+    "name": "have a sore throat",
+    "trans": [
+      "咽喉痛"
+    ]
+  },
+  {
+    "name": "have a dry throat",
+    "trans": [
+      "咽喉干燥"
+    ]
+  },
+  {
+    "name": "have sore eyes",
+    "trans": [
+      "眼睛酸痛"
+    ]
+  },
+  {
+    "name": "shoulder",
+    "trans": [
+      "n. 肩，肩膀；肩部",
+      "vi. 用肩推挤；用肩顶",
+      "vt. 肩负；承担"
+    ]
+  },
+  {
+    "name": "back",
+    "trans": [
+      "n. 背部；后面",
+      "adj. 后面的；背后的",
+      "adv. 向后地；回来"
+    ]
+  },
+  {
+    "name": "wrist",
+    "trans": [
+      "n. 手腕；腕关节",
+      "vt. 用腕力移动"
+    ]
+  },
+  {
+    "name": "elbow",
+    "trans": [
+      "n. 肘部；弯头；扶手",
+      "vt. 推挤；用手肘推开"
+    ]
+  },
+  {
+    "name": "knee",
+    "trans": [
+      "n. 膝；膝盖；膝关节",
+      "vt. 用膝盖顶"
+    ]
+  },
+  {
+    "name": "toe",
+    "trans": [
+      "n. 脚趾；足尖",
+      "vt. 用脚尖走；以趾踏触",
+      "vi. 动脚尖；用足尖跳舞"
+    ]
+  },
+  {
+    "name": "waist",
+    "trans": [
+      "n. 腰；腰部；腰围"
+    ]
+  },
+  {
+    "name": "finger",
+    "trans": [
+      "n. 手指；指针，指状物",
+      "vt. 伸出；用手指拨弄",
+      "vi. 用指触摸；拨弄"
+    ]
+  },
+  {
+    "name": "ankle",
+    "trans": [
+      "n. 踝；踝关节"
+    ]
+  },
+  {
+    "name": "get a pounding",
+    "trans": [
+      "受到撞击"
+    ]
+  },
+  {
+    "name": "sprain",
+    "trans": [
+      "n. 扭伤",
+      "v. 扭伤"
+    ]
+  },
+  {
+    "name": "insomnia",
+    "trans": [
+      "n. 失眠症；失眠"
+    ]
+  },
+  {
+    "name": "vomit",
+    "trans": [
+      "n. 呕吐；呕吐物；催吐剂。",
+      "vi. 呕吐；大量喷出。",
+      "vt. 吐出；呕吐"
+    ]
+  },
+  {
+    "name": "allergy",
+    "trans": [
+      "n. 过敏症；反感；厌恶"
+    ]
+  }
 ]

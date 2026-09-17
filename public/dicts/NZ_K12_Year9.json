@@ -10,7 +10,8 @@
   {
     "name": "approach",
     "trans": [
-      "n. 方法；v. 接近"
+      "n. 方法",
+      "v. 接近"
     ],
     "usphone": "əˈprəʊtʃ",
     "ukphone": "əˈprəʊtʃ"
@@ -34,7 +35,8 @@
   {
     "name": "benefit",
     "trans": [
-      "n. 益处；v. 受益"
+      "n. 益处",
+      "v. 受益"
     ],
     "usphone": "ˈbenɪfɪt",
     "ukphone": "ˈbenɪfɪt"
@@ -74,7 +76,8 @@
   {
     "name": "contrast",
     "trans": [
-      "n. 对比；v. 对照"
+      "n. 对比",
+      "v. 对照"
     ],
     "usphone": "ˈkɒntrɑːst , kənˈtrɑːst",
     "ukphone": "ˈkɒntrɑːst"
@@ -106,7 +109,8 @@
   {
     "name": "estimate",
     "trans": [
-      "v. 估计；n. 估算"
+      "v. 估计",
+      "n. 估算"
     ],
     "usphone": "ˈestɪmət , ˈestɪmeɪt",
     "ukphone": "ˈestɪmeɪt"
@@ -130,7 +134,8 @@
   {
     "name": "function",
     "trans": [
-      "n. 功能；v. 运作"
+      "n. 功能",
+      "v. 运作"
     ],
     "usphone": "ˈfʌŋkʃn",
     "ukphone": "ˈfʌŋkʃn"
@@ -194,7 +199,8 @@
   {
     "name": "process",
     "trans": [
-      "n. 过程；v. 处理"
+      "n. 过程",
+      "v. 处理"
     ],
     "usphone": "ˈprəʊses , prəˈses",
     "ukphone": "ˈprəʊses"
@@ -210,7 +216,7 @@
   {
     "name": "research",
     "trans": [
-      "n./v. 研究"
+      "v. 研究"
     ],
     "usphone": "rɪˈsɜːtʃ",
     "ukphone": "rɪˈsɜːtʃ"
@@ -346,7 +352,8 @@
   {
     "name": "alternative",
     "trans": [
-      "n. 替代选择；adj. 可替代的"
+      "n. 替代选择",
+      "adj. 可替代的"
     ],
     "usphone": "ɔːlˈtɜːnətɪv",
     "ukphone": "ɔːlˈtɜːnətɪv"
@@ -394,7 +401,8 @@
   {
     "name": "challenge",
     "trans": [
-      "n. 挑战；v. 质疑"
+      "n. 挑战",
+      "v. 质疑"
     ],
     "usphone": "ˈtʃælɪndʒ",
     "ukphone": "ˈtʃælɪndʒ"
@@ -474,7 +482,7 @@
   {
     "name": "debate",
     "trans": [
-      "n./v. 辩论"
+      "v. 辩论"
     ],
     "usphone": "dɪˈbeɪt",
     "ukphone": "dɪˈbeɪt"
@@ -546,7 +554,8 @@
   {
     "name": "focus",
     "trans": [
-      "n. 焦点；v. 集中"
+      "n. 焦点",
+      "v. 集中"
     ],
     "usphone": "ˈfoʊkəs",
     "ukphone": "ˈfəʊkəs"
@@ -570,7 +579,8 @@
   {
     "name": "individual",
     "trans": [
-      "n. 个人；adj. 个别的"
+      "n. 个人",
+      "adj. 个别的"
     ],
     "usphone": "ˌɪndɪˈvɪdʒuəl",
     "ukphone": "ˌɪndɪˈvɪdʒuəl"
@@ -578,7 +588,7 @@
   {
     "name": "influence",
     "trans": [
-      "n./v. 影响"
+      "v. 影响"
     ],
     "usphone": "ˈɪnfluəns",
     "ukphone": "ˈɪnfluəns"
@@ -602,7 +612,8 @@
   {
     "name": "label",
     "trans": [
-      "n. 标签；v. 标注"
+      "n. 标签",
+      "v. 标注"
     ],
     "usphone": "ˈleɪbl",
     "ukphone": "ˈleɪbl"
@@ -1154,7 +1165,8 @@
   {
     "name": "rhyme",
     "trans": [
-      "n. 押韵；v. 押韵"
+      "n. 押韵",
+      "v. 押韵"
     ],
     "usphone": "raɪm",
     "ukphone": "raɪm"
@@ -1482,7 +1494,8 @@
   {
     "name": "draft",
     "trans": [
-      "n. 草稿；v. 起草"
+      "n. 草稿",
+      "v. 起草"
     ],
     "usphone": "dræft",
     "ukphone": "drɑːft"
@@ -2594,7 +2607,8 @@
   {
     "name": "orbit",
     "trans": [
-      "n. 轨道；v. 绕轨道运行"
+      "n. 轨道",
+      "v. 绕轨道运行"
     ],
     "usphone": "ˈɔːrbɪt",
     "ukphone": "ˈɔːbɪt"
@@ -2834,7 +2848,8 @@
   {
     "name": "round",
     "trans": [
-      "v. 四舍五入；adj. 圆的"
+      "v. 四舍五入",
+      "adj. 圆的"
     ],
     "usphone": "raʊnd",
     "ukphone": "raʊnd"
@@ -3266,7 +3281,7 @@
   {
     "name": "trade",
     "trans": [
-      "n./v. 贸易"
+      "v. 贸易"
     ],
     "usphone": "treɪd",
     "ukphone": "treɪd"
@@ -3330,7 +3345,7 @@
   {
     "name": "vote",
     "trans": [
-      "v./n. 投票"
+      "n. 投票"
     ],
     "usphone": "vəʊt",
     "ukphone": "vəʊt"
@@ -3570,7 +3585,8 @@
   {
     "name": "cause",
     "trans": [
-      "n. 原因；v. 导致"
+      "n. 原因",
+      "v. 导致"
     ],
     "usphone": "kɔːz",
     "ukphone": "kɔːz"
@@ -3618,7 +3634,7 @@
   {
     "name": "exercise",
     "trans": [
-      "n./v. 锻炼"
+      "v. 锻炼"
     ],
     "usphone": "ˈeksərsaɪz",
     "ukphone": "ˈeksəsaɪz"
@@ -3666,7 +3682,7 @@
   {
     "name": "respect",
     "trans": [
-      "n./v. 尊重"
+      "v. 尊重"
     ],
     "usphone": "rɪˈspekt",
     "ukphone": "rɪˈspekt"
@@ -3770,7 +3786,7 @@
   {
     "name": "design",
     "trans": [
-      "n./v. 设计"
+      "v. 设计"
     ],
     "usphone": "dɪˈzaɪn",
     "ukphone": "dɪˈzaɪn"
@@ -3810,7 +3826,8 @@
   {
     "name": "sketch",
     "trans": [
-      "n. 草图；v. 画草图"
+      "n. 草图",
+      "v. 画草图"
     ],
     "usphone": "sketʃ",
     "ukphone": "sketʃ"
@@ -3866,7 +3883,8 @@
   {
     "name": "program",
     "trans": [
-      "n. 计算机程序；v. 编程"
+      "n. 计算机程序",
+      "v. 编程"
     ],
     "usphone": "ˈprəʊɡræm",
     "ukphone": "ˈprəʊɡræm"
@@ -3882,7 +3900,8 @@
   {
     "name": "code",
     "trans": [
-      "n. 代码；v. 编写代码"
+      "n. 代码",
+      "v. 编写代码"
     ],
     "usphone": "kəʊd",
     "ukphone": "kəʊd"

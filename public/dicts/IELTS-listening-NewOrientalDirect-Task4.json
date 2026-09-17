@@ -1,202 +1,230 @@
 [
-    {
-        "name": "borrow",
-        "trans": [
-            "v. 借入"
-        ]
-    },
-    {
-        "name": "lend",
-        "trans": [
-            "v. 借出，借给"
-        ]
-    },
-    {
-        "name": "return",
-        "trans": [
-            "v. 归还"
-        ]
-    },
-    {
-        "name": "book",
-        "trans": [
-            "v. 预订"
-        ]
-    },
-    {
-        "name": "reserve",
-        "trans": [
-            "v. 预约，保留"
-        ]
-    },
-    {
-        "name": "consultation",
-        "trans": [
-            "n. 咨询"
-        ]
-    },
-    {
-        "name": "library card",
-        "trans": [
-            "n. 图书馆卡"
-        ]
-    },
-    {
-        "name": "admission",
-        "trans": [
-            "n. 准入，入场券"
-        ]
-    },
-    {
-        "name": "counter",
-        "trans": [
-            "n. 柜台"
-        ]
-    },
-    {
-        "name": "shelf",
-        "trans": [
-            "n. 架子"
-        ]
-    },
-    {
-        "name": "staff",
-        "trans": [
-            "n. 员工"
-        ]
-    },
-    {
-        "name": "librarian",
-        "trans": [
-            "n. 图书管理员"
-        ]
-    },
-    {
-        "name": "catalog(ue)",
-        "trans": [
-            "n. 目录"
-        ]
-    },
-    {
-        "name": "category",
-        "trans": [
-            "n. 种类，类别"
-        ]
-    },
-    {
-        "name": "classification",
-        "trans": [
-            "n. 分类"
-        ]
-    },
-    {
-        "name": "call slip",
-        "trans": [
-            "n. 借书单"
-        ]
-    },
-    {
-        "name": "title",
-        "trans": [
-            "n. 标题"
-        ]
-    },
-    {
-        "name": "author",
-        "trans": [
-            "n. 作者"
-        ]
-    },
-    {
-        "name": "index",
-        "trans": [
-            "n. 索引"
-        ]
-    },
-    {
-        "name": "deadline",
-        "trans": [
-            "n. 截止日期"
-        ]
-    },
-    {
-        "name": "expire",
-        "trans": [
-            "v. 期满，终止"
-        ]
-    },
-    {
-        "name": "expiry",
-        "trans": [
-            "n. 期满，终止"
-        ]
-    },
-    {
-        "name": "recall",
-        "trans": [
-            "v. 召回，收回"
-        ]
-    },
-    {
-        "name": "renew",
-        "trans": [
-            "v. 更新"
-        ]
-    },
-    {
-        "name": "renewal",
-        "trans": [
-            "n. 更新"
-        ]
-    },
-    {
-        "name": "due",
-        "trans": [
-            "adj. 到期的"
-        ]
-    },
-    {
-        "name": "overdue",
-        "trans": [
-            "adj. 过期的"
-        ]
-    },
-    {
-        "name": "fine",
-        "trans": [
-            "v. 罚款",
-            "n. 罚款"
-        ]
-    },
-    {
-        "name": "available",
-        "trans": [
-            "adj. 可获得的"
-        ]
-    },
-    {
-        "name": "circulation",
-        "trans": [
-            "n. 流通"
-        ]
-    },
-    {
-        "name": "stock",
-        "trans": [
-            "n. 库存，储备"
-        ]
-    },
-    {
-        "name": "loan",
-        "trans": [
-            "v. 借出",
-            "n. 借出物"
-        ]
-    },
-    {
-        "name": "inter library service",
-        "trans": [
-            "n. 馆际服务"
-        ]
-    }
+  {
+    "name": "borrow",
+    "trans": [
+      "vt.&vi. 借入；借钱，借用；数由上位借",
+      "n. 借，借用；担保物，抵押；英史什一税"
+    ]
+  },
+  {
+    "name": "lend",
+    "trans": [
+      "vt. 把…借给；贷（款）；贡献，给予",
+      "vi. 增加；增添；给…增加"
+    ]
+  },
+  {
+    "name": "return",
+    "trans": [
+      "vi. 返回；报答",
+      "adj. 报答的；回程的；返回的",
+      "vt. 返回；报答"
+    ]
+  },
+  {
+    "name": "book",
+    "trans": [
+      "n. 书；书籍账簿卷；篇",
+      "vt.&vi. 预订",
+      "vt. 登记；记账订立演出契约"
+    ]
+  },
+  {
+    "name": "reserve",
+    "trans": [
+      "n. 储备，储存；自然保护区；预备队",
+      "vt. 储备；保留；预约",
+      "vi. 预订"
+    ]
+  },
+  {
+    "name": "consultation",
+    "trans": [
+      "n. 咨询；磋商；会诊"
+    ]
+  },
+  {
+    "name": "library card",
+    "trans": [
+      "adv. 图书卡；借书证"
+    ]
+  },
+  {
+    "name": "admission",
+    "trans": [
+      "n. 入场费，入场券；准许进入，允许加入；承认，供认"
+    ]
+  },
+  {
+    "name": "counter",
+    "trans": [
+      "n. 柜台；对立面；计数器",
+      "vi. 逆向移动，对着干；反驳",
+      "adj. 相反的"
+    ]
+  },
+  {
+    "name": "shelf",
+    "trans": [
+      "n. 架子；搁板；搁板状物"
+    ]
+  },
+  {
+    "name": "staff",
+    "trans": [
+      "n. 职员；参谋；棒",
+      "adj. 职员的；行政工作的",
+      "vt. 供给人员；给…配备职员"
+    ]
+  },
+  {
+    "name": "librarian",
+    "trans": [
+      "n. 图书管理员；图书馆员"
+    ]
+  },
+  {
+    "name": "catalog(ue)",
+    "trans": [
+      "n. 目录"
+    ]
+  },
+  {
+    "name": "category",
+    "trans": [
+      "n. 门类，种类；范畴；部门"
+    ]
+  },
+  {
+    "name": "classification",
+    "trans": [
+      "n. 分类；分级；分类法"
+    ]
+  },
+  {
+    "name": "call slip",
+    "trans": [
+      "n. 借书单"
+    ]
+  },
+  {
+    "name": "title",
+    "trans": [
+      "n. 标题；题目；称号",
+      "vt. 予称号；加标题于",
+      "adj. 标题的"
+    ]
+  },
+  {
+    "name": "author",
+    "trans": [
+      "n. 作者；作家；创造者",
+      "vt. 创造；写作"
+    ]
+  },
+  {
+    "name": "index",
+    "trans": [
+      "n. 指标；指数；索引",
+      "vt. 指出；编入索引中",
+      "vi. 做索引"
+    ]
+  },
+  {
+    "name": "deadline",
+    "trans": [
+      "n. 最后期限；截止期限；死线",
+      "vt. 通过设定一时间期限来统治"
+    ]
+  },
+  {
+    "name": "expire",
+    "trans": [
+      "vi. 期满；终止；死亡",
+      "vt. 呼出（空气）"
+    ]
+  },
+  {
+    "name": "expiry",
+    "trans": [
+      "n. 满期，逾期；呼气；终结"
+    ]
+  },
+  {
+    "name": "recall",
+    "trans": [
+      "vt.&vi. 回忆起；回想",
+      "vt. 召回；收回",
+      "n. 召回；唤回；记忆力"
+    ]
+  },
+  {
+    "name": "renew",
+    "trans": [
+      "vt. 使更新；续借；续费",
+      "vi. 更新；重新开始"
+    ]
+  },
+  {
+    "name": "renewal",
+    "trans": [
+      "n. 更新，恢复；复兴；补充"
+    ]
+  },
+  {
+    "name": "due",
+    "trans": [
+      "adj. 到期的；应得的；应付的",
+      "n. 应付款；应得之物",
+      "adv. 正"
+    ]
+  },
+  {
+    "name": "overdue",
+    "trans": [
+      "adj. 过期的；迟到的；未兑的"
+    ]
+  },
+  {
+    "name": "fine",
+    "trans": [
+      "n. 罚款",
+      "adj. 好的；优良的；细小的，精美的",
+      "vt. 罚款；澄清"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的，可利用的；可用的，空闲的；有效的，起作用的"
+    ]
+  },
+  {
+    "name": "circulation",
+    "trans": [
+      "n. 流通，循环；发行量，流通量；传播，流传"
+    ]
+  },
+  {
+    "name": "stock",
+    "trans": [
+      "n. 原料；库存品；存货",
+      "adj. 存货的；平凡的；惯用的",
+      "vt. 进货；采购；储存"
+    ]
+  },
+  {
+    "name": "loan",
+    "trans": [
+      "n. 贷款；借款；借用",
+      "vt. 借；借给",
+      "vi. 借出"
+    ]
+  },
+  {
+    "name": "inter library service",
+    "trans": [
+      "n. 馆际服务"
+    ]
+  }
 ]
