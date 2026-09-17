@@ -363,6 +363,12 @@ export default function WordComponent({
     if (wordState.isFinished) {
       dispatch({ type: TypingStateActionType.SET_IS_SAVING_RECORD, payload: true })
 
+      // 敲对的相邻字母之间的平均间隔。章末据此挑出「拼对了但拼得犹豫」的词重测，
+      // 少于两个正确字母时算不出间隔，上报 0 表示无从判断
+      const intervals = wordState.letterTimeArray.length - 1
+      const averageKeyInterval = intervals > 0 ? (wordState.letterTimeArray[intervals] - wordState.letterTimeArray[0]) / intervals : 0
+      dispatch({ type: TypingStateActionType.REPORT_WORD_TIMING, payload: { averageKeyInterval } })
+
       saveWordRecord({
         word: word.name,
         wrongCount: wordState.wrongCount,

@@ -2,6 +2,7 @@ import styles from './index.module.css'
 import { useChapterProgress } from '@/pages/Typing/hooks/useChapterProgress'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import {
+  isChapterRetestOpenAtom,
   isEnterToNextWordAtom,
   isIgnoreCaseAtom,
   isShowAnswerOnHoverAtom,
@@ -21,6 +22,7 @@ export default function AdvancedSetting() {
   const [isTextSelectable, setIsTextSelectable] = useAtom(isTextSelectableAtom)
   const [isShowAnswerOnHover, setIsShowAnswerOnHover] = useAtom(isShowAnswerOnHoverAtom)
   const [isEnterToNextWord, setIsEnterToNextWord] = useAtom(isEnterToNextWordAtom)
+  const [isChapterRetestOpen, setIsChapterRetestOpen] = useAtom(isChapterRetestOpenAtom)
 
   const { savedProgress, clearProgress } = useChapterProgress()
   const typingContext = useContext(TypingContext)
@@ -32,6 +34,13 @@ export default function AdvancedSetting() {
       typingContext.dispatch({ type: TypingStateActionType.SKIP_2_WORD_INDEX, newIndex: 0 })
     }
   }, [clearProgress, typingContext])
+
+  const onToggleChapterRetest = useCallback(
+    (checked: boolean) => {
+      setIsChapterRetestOpen(checked)
+    },
+    [setIsChapterRetestOpen],
+  )
 
   const onToggleEnterToNextWord = useCallback(
     (checked: boolean) => {
@@ -92,6 +101,21 @@ export default function AdvancedSetting() {
               </Switch>
               <span className="text-right text-xs font-normal leading-tight text-gray-600">{`Enter 继续已${
                 isEnterToNextWord ? '开启' : '关闭'
+              }`}</span>
+            </div>
+          </div>
+          <div className={styles.section}>
+            <span className={styles.sectionLabel}>章节末尾自动重测</span>
+            <span className={styles.sectionDescription}>
+              开启后，一章练完会把拼错的、以及拼对但拼得犹豫的单词再测一轮。同一个词在一次练习里被检索两次、
+              中间隔着其他单词，比只检索一次记得牢得多
+            </span>
+            <div className={styles.switchBlock}>
+              <Switch checked={isChapterRetestOpen} onChange={onToggleChapterRetest} className="switch-root">
+                <span aria-hidden="true" className="switch-thumb" />
+              </Switch>
+              <span className="text-right text-xs font-normal leading-tight text-gray-600">{`自动重测已${
+                isChapterRetestOpen ? '开启' : '关闭'
               }`}</span>
             </div>
           </div>

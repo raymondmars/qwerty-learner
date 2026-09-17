@@ -83,6 +83,10 @@ export const isEnterToNextWordAtom = atomWithStorage('isEnterToNextWord', true)
 // 单词一次拼对时是否喷彩带
 export const isWordConfettiOpenAtom = atomWithStorage('isWordConfettiOpen', true)
 
+// 章节练完后，是否自动把「拼错的」和「拼对但拼得犹豫的」词再测一轮。
+// 同一个词在一次练习里被检索两次、中间隔着其他词，比只检索一次记得牢得多
+export const isChapterRetestOpenAtom = atomWithStorage('isChapterRetestOpen', true)
+
 export const reviewModeInfoAtom = reviewInfoAtom({
   isReviewMode: false,
   reviewRecord: undefined as ReviewRecord | undefined,

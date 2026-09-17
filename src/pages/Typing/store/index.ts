@@ -36,6 +36,7 @@ export const initialUserInputLog: UserInputLog = {
   correctCount: 0,
   wrongCount: 0,
   LetterMistakes: {},
+  averageKeyInterval: 0,
 }
 
 export enum TypingStateActionType {
@@ -45,6 +46,7 @@ export enum TypingStateActionType {
   TOGGLE_IS_TYPING = 'TOGGLE_IS_TYPING',
   REPORT_WRONG_WORD = 'REPORT_WRONG_WORD',
   REPORT_CORRECT_WORD = 'REPORT_CORRECT_WORD',
+  REPORT_WORD_TIMING = 'REPORT_WORD_TIMING',
   NEXT_WORD = 'NEXT_WORD',
   LOOP_CURRENT_WORD = 'LOOP_CURRENT_WORD',
   FINISH_CHAPTER = 'FINISH_CHAPTER',
@@ -71,6 +73,7 @@ export type TypingStateAction =
   | { type: TypingStateActionType.TOGGLE_IS_TYPING }
   | { type: TypingStateActionType.REPORT_WRONG_WORD; payload: { letterMistake: LetterMistakes } }
   | { type: TypingStateActionType.REPORT_CORRECT_WORD }
+  | { type: TypingStateActionType.REPORT_WORD_TIMING; payload: { averageKeyInterval: number } }
   | {
       type: TypingStateActionType.NEXT_WORD
       payload?: {
@@ -123,6 +126,12 @@ export const typingReducer = (state: TypingState, action: TypingStateAction) => 
 
       const wordLog = state.chapterData.userInputLogs[state.chapterData.index]
       wordLog.correctCount += 1
+      break
+    }
+    case TypingStateActionType.REPORT_WORD_TIMING: {
+      // 单词拼完时上报，此时 index 还停在这个词上（NEXT_WORD 尚未派发）
+      const wordLog = state.chapterData.userInputLogs[state.chapterData.index]
+      if (wordLog) wordLog.averageKeyInterval = action.payload.averageKeyInterval
       break
     }
     case TypingStateActionType.REPORT_WRONG_WORD: {

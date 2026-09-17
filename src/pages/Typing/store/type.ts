@@ -24,6 +24,12 @@ export type UserInputLog = {
   correctCount: number
   wrongCount: number
   LetterMistakes: LetterMistakes
+  /**
+   * 敲对的相邻字母之间的平均间隔，单位毫秒。0 表示这个词还没有可用的计时
+   * （没练到，或者太短算不出间隔）。章末据此挑出「拼对了但拼得犹豫」的词重测 ——
+   * 检索延迟比正确率更早暴露记忆薄弱
+   */
+  averageKeyInterval: number
 }
 
 export type TimerData = {
