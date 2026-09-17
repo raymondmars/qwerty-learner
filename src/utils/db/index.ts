@@ -1,11 +1,12 @@
-import type { IChapterRecord, IReviewRecord, IRevisionDictRecord, IWordRecord, LetterMistakes } from './record'
+import type { IChapterRecord, IReviewRecord, IRevisionDictRecord, IWordRecord, IWordReviewState, LetterMistakes } from './record'
 import { ChapterRecord, ReviewRecord, WordRecord } from './record'
+import { updateReviewStateAfterAttempt } from './review-state'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import type { TypingState } from '@/pages/Typing/store/type'
-import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom } from '@/store'
+import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, typingBaselineAtom } from '@/store'
 import type { Table } from 'dexie'
 import Dexie from 'dexie'
-import { useAtomValue } from 'jotai'
+import { useAtom, useAtomValue } from 'jotai'
 import { useCallback, useContext } from 'react'
 
 class RecordDB extends Dexie {
@@ -15,6 +16,8 @@ class RecordDB extends Dexie {
 
   revisionDictRecords!: Table<IRevisionDictRecord, number>
   revisionWordRecords!: Table<IWordRecord, number>
+
+  wordReviewStates!: Table<IWordReviewState, number>
 
   constructor() {
     super('RecordDB')
@@ -31,10 +34,20 @@ class RecordDB extends Dexie {
       chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
       reviewRecords: '++id,dict,createTime,isFinished',
     })
+    // word 上的唯一索引让「按单词 upsert 复习状态」可以一次查到，不用先扫再写
+    this.version(4).stores({
+      wordRecords: '++id,word,timeStamp,dict,chapter,wrongCount,[dict+chapter]',
+      chapterRecords: '++id,timeStamp,dict,chapter,time,[dict+chapter]',
+      reviewRecords: '++id,dict,createTime,isFinished',
+      wordReviewStates: '++id,&word,dueTimestamp',
+    })
   }
 }
 
 export const db = new RecordDB()
+
+/** 打字基线的指数滑动平均系数。越大越跟手，越小越稳 */
+const BASELINE_SMOOTHING = 0.1
 
 db.wordRecords.mapToClass(WordRecord)
 db.chapterRecords.mapToClass(ChapterRecord)
@@ -83,6 +96,7 @@ export function useSaveWordRecord() {
   const dictID = useAtomValue(currentDictIdAtom)
 
   const { dispatch } = useContext(TypingContext) ?? {}
+  const [typingBaseline, setTypingBaseline] = useAtom(typingBaselineAtom)
 
   const saveWordRecord = useCallback(
     async ({
@@ -110,12 +124,27 @@ export function useSaveWordRecord() {
       } catch (e) {
         console.error(e)
       }
+
+      const averageKeyInterval = timing.length > 0 ? timing.reduce((sum, value) => sum + value, 0) / timing.length : 0
+
+      // 每练完一个词就推进它的间隔重复安排，正常章节练习同样算数 ——
+      // 在第 3 章敲对了 analyse 就是一次成功检索，没有理由还让它当天到期
+      updateReviewStateAfterAttempt({ word, wrongCount, averageKeyInterval, baselineInterval: typingBaseline })
+
+      // 个人打字基线用指数滑动平均：跟得上用户变快，又不会被某一次卡顿带偏。
+      // 只取拼对的样本，拼错的词间隔里混着回退和犹豫，不能代表正常手速
+      if (wrongCount === 0 && averageKeyInterval > 0) {
+        setTypingBaseline((prev) =>
+          prev > 0 ? prev * (1 - BASELINE_SMOOTHING) + averageKeyInterval * BASELINE_SMOOTHING : averageKeyInterval,
+        )
+      }
+
       if (dispatch) {
         dbID > 0 && dispatch({ type: TypingStateActionType.ADD_WORD_RECORD_ID, payload: dbID })
         dispatch({ type: TypingStateActionType.SET_IS_SAVING_RECORD, payload: false })
       }
     },
-    [currentChapter, dictID, dispatch, isRevision],
+    [currentChapter, dictID, dispatch, isRevision, typingBaseline, setTypingBaseline],
   )
 
   return saveWordRecord

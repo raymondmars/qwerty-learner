@@ -83,6 +83,13 @@ export const isEnterToNextWordAtom = atomWithStorage('isEnterToNextWord', true)
 // 单词一次拼对时是否喷彩带
 export const isWordConfettiOpenAtom = atomWithStorage('isWordConfettiOpen', true)
 
+/**
+ * 用户敲对相邻字母的平均间隔（毫秒）的滑动均值，作为判断「这次敲得算快还是算慢」的
+ * 个人基线。用个人基线而不是绝对毫秒，打字快的人和慢的人才能用同一套判定。
+ * 0 表示还没有样本，调用方会退回到一组保守的绝对值。
+ */
+export const typingBaselineAtom = atomWithStorage('typingBaseline', 0)
+
 // 章节练完后，是否自动把「拼错的」和「拼对但拼得犹豫的」词再测一轮。
 // 同一个词在一次练习里被检索两次、中间隔着其他词，比只检索一次记得牢得多
 export const isChapterRetestOpenAtom = atomWithStorage('isChapterRetestOpen', true)

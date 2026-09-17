@@ -3,6 +3,7 @@ import { DictChapterButton } from './components/DictChapterButton'
 import Progress from './components/Progress'
 import PronunciationSwitcher from './components/PronunciationSwitcher'
 import ResultScreen from './components/ResultScreen'
+import ReviewButton from './components/ReviewButton'
 import Speed from './components/Speed'
 import StartButton from './components/StartButton'
 import Switcher from './components/Switcher'
@@ -175,6 +176,7 @@ const App: React.FC = () => {
       <Layout>
         <Header>
           <DictChapterButton />
+          <ReviewButton />
           <PronunciationSwitcher />
           <Switcher />
           <StartButton isLoading={isLoading} />
