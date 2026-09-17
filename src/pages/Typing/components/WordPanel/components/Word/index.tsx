@@ -10,6 +10,7 @@ import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import { EXPLICIT_SPACE } from '@/constants'
 import useKeySounds from '@/hooks/useKeySounds'
 import { useWordConfetti } from '@/pages/Typing/hooks/useConfetti'
+import { useIsFirstEncounter } from '@/pages/Typing/hooks/useIsFirstEncounter'
 import { TypingContext, TypingStateActionType } from '@/pages/Typing/store'
 import {
   currentChapterAtom,
@@ -24,6 +25,7 @@ import {
   isWordWaitingEnterAtom,
   pronunciationIsOpenAtom,
   wordDictationConfigAtom,
+  wordMistakesAtom,
 } from '@/store'
 import type { Word } from '@/typings'
 import { CTRL, getUtcString } from '@/utils'
@@ -48,6 +50,10 @@ const PRONUNCIATION_ICON_RESERVE_PX = 84
 // 字号的下限，再小就看不清了。比这还长的条目（雅思口语库把整句话当成一个「单词」，
 // 最长 194 个字符）不再继续缩小，改由 flex-wrap 折行承接。
 const MIN_LETTER_SIZE_PX = 22
+
+// 拼完到播放读音之间的间隔。给完成提示音留出结束的时间，两个声音叠在一起谁都听不清；
+// 同时这个停顿本身也让「刚敲出来的拼写」和随后进来的读音成为两个可分辨的事件
+const PRONUNCIATION_AFTER_FINISH_DELAY_MS = 350
 
 export default function WordComponent({
   word,
@@ -86,6 +92,8 @@ export default function WordComponent({
   const isWordAllCorrect = wordState.isFinished && wordState.letterStates.every((letterState) => letterState === 'correct')
   const setIsWordWaitingEnter = useSetAtom(isWordWaitingEnterAtom)
   const setIsWordMistaken = useSetAtom(isWordMistakenAtom)
+  const setWordMistakes = useSetAtom(wordMistakesAtom)
+  const isFirstEncounter = useIsFirstEncounter(word.name)
 
   // 彩带跟着「拼写全对」走，不依赖 Enter 继续的设置，关掉该设置时也照样庆祝
   useWordConfetti(isWordConfettiOpen && wordState.isFinished && isWordAllCorrect)
@@ -107,12 +115,29 @@ export default function WordComponent({
   useEffect(() => {
     setIsWordWaitingEnter(isWaitingForEnter)
     setIsWordMistaken(isWaitingForEnter && !isWordAllCorrect)
+    // 拼错不回退，所以 letterStates 里仍是 wrong 的位置就是最终错的位置
+    setWordMistakes(
+      isWaitingForEnter
+        ? wordState.letterStates
+            .map((letterState, index) => ({ index, typed: wordState.inputWord[index] ?? '' }))
+            .filter((_, index) => wordState.letterStates[index] === 'wrong')
+        : [],
+    )
 
     return () => {
       setIsWordWaitingEnter(false)
       setIsWordMistaken(false)
+      setWordMistakes([])
     }
-  }, [isWaitingForEnter, isWordAllCorrect, setIsWordWaitingEnter, setIsWordMistaken])
+  }, [
+    isWaitingForEnter,
+    isWordAllCorrect,
+    wordState.letterStates,
+    wordState.inputWord,
+    setIsWordWaitingEnter,
+    setIsWordMistaken,
+    setWordMistakes,
+  ])
 
   useEffect(() => {
     // run only when word changes
@@ -208,11 +233,36 @@ export default function WordComponent({
     { enableOnFormTags: true, preventDefault: true },
   )
 
+  /**
+   * 读音放在拼写之前还是之后，取决于这一次是「学习」还是「测试」：
+   * 首次遇到的词没听过就无从下手，读音是编码材料，该在开头给；练过的词则应该自己
+   * 从中文回忆出形和音，提前把读音送到耳边会把回忆降级成听写，该留到拼完再给。
+   *
+   * 前提是拼完真的有停顿可用。关掉「按 Enter 继续」时单词立刻翻页，那一刻播读音会和
+   * 下一个词的读音撞在一起，所以那种模式下维持开头播放。
+   */
+  const playsAfterFinish = isEnterToNextWord && isFirstEncounter === false
+
   useEffect(() => {
+    // 查询还没回来就先不播，否则每个练过的词都会在判定出来之前抢先响一次
+    if (isFirstEncounter === undefined || playsAfterFinish) return
+
     if (wordState.inputWord.length === 0 && state.isTyping) {
       wordPronunciationIconRef.current?.play && wordPronunciationIconRef.current?.play()
     }
-  }, [state.isTyping, wordState.inputWord.length, wordPronunciationIconRef.current?.play])
+  }, [isFirstEncounter, playsAfterFinish, state.isTyping, wordState.inputWord.length, wordPronunciationIconRef.current?.play])
+
+  // 拼完之后播。此刻屏幕上是用户自己生成出来的拼写，声音进来正好和它绑在一起；
+  // 拼错时同样要播 —— 那才是纠正性反馈最该发生的时刻，改之前拼错反而什么都听不到
+  useEffect(() => {
+    if (!wordState.isFinished || !playsAfterFinish) return
+
+    const timer = setTimeout(() => {
+      wordPronunciationIconRef.current?.play && wordPronunciationIconRef.current?.play()
+    }, PRONUNCIATION_AFTER_FINISH_DELAY_MS)
+
+    return () => clearTimeout(timer)
+  }, [wordState.isFinished, playsAfterFinish])
 
   const getLetterVisible = useCallback(
     (index: number) => {

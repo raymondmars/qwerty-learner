@@ -1,6 +1,6 @@
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import type { WordDetail, WordSense } from '@/pages/Typing/hooks/useWordDetail'
-import { currentChapterAtom, currentDictInfoAtom, phoneticConfigAtom, pronunciationIsOpenAtom } from '@/store'
+import { currentChapterAtom, currentDictInfoAtom, phoneticConfigAtom, pronunciationIsOpenAtom, wordMistakesAtom } from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue } from 'jotai'
 import type { ReactNode } from 'react'
@@ -105,15 +105,36 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
   const phoneticLabel = phoneticConfig.type === 'uk' ? 'BrE' : 'AmE'
   const hasPhonetic = Boolean(phonetic && phonetic.length > 1)
 
+  // 拼错时，纠正性反馈是这张卡片上最该被读到的东西，其余内容都要给它让路
+  const mistakes = useAtomValue(wordMistakesAtom)
+  const mistakeByIndex = useMemo(() => new Map(mistakes.map((m) => [m.index, m.typed])), [mistakes])
+  const hasMistake = mistakeByIndex.size > 0
+
+  // 用户实际敲出来的那个词，拿来和正确拼写并排放
+  const typedWord = useMemo(
+    () =>
+      hasMistake
+        ? word.name
+            .split('')
+            .map((letter, index) => mistakeByIndex.get(index) ?? letter)
+            .join('')
+        : '',
+    [hasMistake, mistakeByIndex, word.name],
+  )
+
   // 优先用按单词挑出的完整释义，缺失时回落到当前词库自带的 trans
   const senses = useMemo(() => (detail.senses?.length ? detail.senses : word.trans.map(splitPartOfSpeech)), [detail.senses, word.trans])
 
   // 词典收录的固定搭配排在语料统计出的词组前面
   const phrases = useMemo(() => [...(detail.collocations ?? []), ...detail.phrases], [detail.collocations, detail.phrases])
 
+  // 拼错时例句只留一条：反馈窗口很短（拼完到按 Enter），三条例句会把注意力从纠正上拉走。
+  // 拼对时没有纠正信息要保护，多给的内容纯属加餐，愿意多看就多看
+  const sentences = useMemo(() => (hasMistake ? detail.sentences.slice(0, 1) : detail.sentences), [hasMistake, detail.sentences])
+
   const hasRelated = Boolean(detail.synonyms?.length || detail.antonyms?.length || detail.cognates?.length)
   // 没有例句、词组和相关词时右栏整个省掉，卡片收成单栏，不留一大片空白
-  const hasDetailColumn = detail.sentences.length > 0 || phrases.length > 0 || hasRelated
+  const hasDetailColumn = sentences.length > 0 || phrases.length > 0 || hasRelated
 
   return (
     // 卡片只在拼完单词、等待按 Enter 时出现，此刻没有拼写输入要保护，
@@ -131,7 +152,20 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
         >
           <div className="flex flex-wrap items-baseline gap-x-2.5 gap-y-1">
             <span className="font-mono text-[26px] font-bold leading-none tracking-tight text-gray-800 dark:text-gray-100">
-              {word.name}
+              {hasMistake
+                ? word.name.split('').map((letter, index) => (
+                    <span
+                      key={`${index}-${letter}`}
+                      className={
+                        mistakeByIndex.has(index)
+                          ? 'rounded-[3px] bg-amber-200/70 px-[1px] text-amber-900 dark:bg-amber-400/30 dark:text-amber-200'
+                          : ''
+                      }
+                    >
+                      {letter}
+                    </span>
+                  ))
+                : word.name}
             </span>
             {pronunciationIsOpen && (
               <WordPronunciationIcon
@@ -144,6 +178,12 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
 
           {hasPhonetic && (
             <div className="font-mono text-[12.5px] text-gray-400 dark:text-gray-500">{`${phoneticLabel} [${phonetic}]`}</div>
+          )}
+
+          {hasMistake && (
+            <div className="text-[12.5px] text-gray-400 dark:text-gray-500">
+              你拼成了 <span className="font-mono text-red-500 line-through dark:text-red-400">{typedWord}</span>
+            </div>
           )}
 
           <div className="h-px bg-gray-200/80 dark:bg-white/10" />
@@ -175,11 +215,11 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
         {/* 右栏：编号例句与点线对齐的词组 */}
         {hasDetailColumn && (
           <div className="px-10 pb-9 pt-8 text-left">
-            {detail.sentences.length > 0 && (
+            {sentences.length > 0 && (
               <div>
                 <SectionLabel>例句</SectionLabel>
                 <ol className="mt-1.5">
-                  {detail.sentences.map((sentence, index) => (
+                  {sentences.map((sentence, index) => (
                     <li
                       key={sentence.en}
                       className="grid grid-cols-[28px_minmax(0,1fr)] gap-x-3.5 border-b border-gray-100 py-5 last:border-b-0 dark:border-white/[0.07]"
@@ -198,7 +238,7 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
             )}
 
             {phrases.length > 0 && (
-              <div className={detail.sentences.length > 0 ? 'mt-6' : ''}>
+              <div className={sentences.length > 0 ? 'mt-6' : ''}>
                 <SectionLabel>词组</SectionLabel>
                 <ul className="mt-3 grid gap-0.5">
                   {phrases.map((phrase) => (

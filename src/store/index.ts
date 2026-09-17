@@ -89,8 +89,10 @@ export const reviewModeInfoAtom = reviewInfoAtom({
 })
 export const isReviewModeAtom = atom((get) => get(reviewModeInfoAtom).isReviewMode)
 
+// 音标默认打开：听到读音的同时看到音标，形-音两条通道一起编码，
+// 比单独听一遍更容易在脑子里留下稳定的语音表征
 export const phoneticConfigAtom = atomForConfig('phoneticConfig', {
-  isOpen: false,
+  isOpen: true,
   type: 'us' as PhoneticType,
 })
 
@@ -103,6 +105,11 @@ export const isWordWaitingEnterAtom = atom(false)
 // 当前完成的单词里留有拼错的字母。默写模式下屏幕上显示的是用户敲错的字符，
 // 此时即使没有例句词组，也要把详情卡片显示出来，让用户看到正确拼写
 export const isWordMistakenAtom = atom(false)
+
+// 当前完成的单词里最终仍然拼错的位置，以及用户在那里实际敲下的字符。
+// 详情卡片据此把「正确拼写 + 你错在哪」标出来 —— 拼错时这是最该被读到的反馈，
+// 其余内容都要给它让路
+export const wordMistakesAtom = atom<{ index: number; typed: string }[]>([])
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
   isOpen: true,
