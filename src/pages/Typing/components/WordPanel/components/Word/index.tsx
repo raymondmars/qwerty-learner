@@ -38,7 +38,28 @@ const vowelLetters = ['A', 'E', 'I', 'O', 'U']
 // 拼写完成、等待按 Enter 时单词放大的像素值
 const FINISHED_FONT_SIZE_OFFSET = 4
 
-export default function WordComponent({ word, onFinish }: { word: Word; onFinish: () => void }) {
+// Letter 里每个字母占的横向步进，单位 em。JetBrains Mono 是严格等宽字体，前进宽度
+// 0.6em（从 @fontsource/jetbrains-mono 的字体表里核过：unitsPerEm 1000、advance 600），
+// 加 Letter 的左右内边距 0.045em × 2，再减去 -0.01em 的字距。
+const LETTER_STEP_EM = 0.68
+// 发音图标绝对定位在单词右侧（-right-12 即 48px，自身 w-9 即 36px）。单词是居中的，
+// 所以左右两边都要留出这么宽，否则长单词会把图标顶出可视区。
+const PRONUNCIATION_ICON_RESERVE_PX = 84
+// 字号的下限，再小就看不清了。比这还长的条目（雅思口语库把整句话当成一个「单词」，
+// 最长 194 个字符）不再继续缩小，改由 flex-wrap 折行承接。
+const MIN_LETTER_SIZE_PX = 22
+
+export default function WordComponent({
+  word,
+  onFinish,
+  // 单词区可用的横向宽度，由 WordPanel 实测后传下来。自己量不了：单词外面那层
+  // `relative` 是 flex item，宽度由内容撑开，量它会和单词宽度互相依赖。
+  availableWidth = 0,
+}: {
+  word: Word
+  onFinish: () => void
+  availableWidth?: number
+}) {
   // eslint-disable-next-line  @typescript-eslint/no-non-null-assertion
   const { state, dispatch } = useContext(TypingContext)!
   const [wordState, setWordState] = useImmer<WordState>(structuredClone(initialWordState))
@@ -69,11 +90,19 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   // 彩带跟着「拼写全对」走，不依赖 Enter 继续的设置，关掉该设置时也照样庆祝
   useWordConfetti(isWordConfettiOpen && wordState.isFinished && isWordAllCorrect)
 
-  // 设置里的字号作为基准，按视口放大：默认 48px 时得到设计稿的 clamp(57.6px, 11.5vw, 168px)
+  // 设置里的字号作为基准，按视口放大：默认 48px 时得到设计稿的 clamp(57.6px, 11.5vw, 168px)。
+  // 长单词（characterisation、independent variable）按这个字号会横向撑满甚至溢出屏幕，
+  // 所以再按字母数算一个「刚好放得下」的上限压住它。
+  const letterCount = wordState.displayWord.length
   const letterFontSize = useMemo(() => {
     const base = fontSizeConfig.foreignFont + (isWaitingForEnter && isWordAllCorrect ? FINISHED_FONT_SIZE_OFFSET : 0)
-    return `clamp(${(base * 1.2).toFixed(1)}px, 11.5vw, ${(base * 3.5).toFixed(1)}px)`
-  }, [fontSizeConfig.foreignFont, isWaitingForEnter, isWordAllCorrect])
+    const responsive = `clamp(${(base * 1.2).toFixed(1)}px, 11.5vw, ${(base * 3.5).toFixed(1)}px)`
+    if (letterCount === 0 || availableWidth === 0) return responsive
+
+    const budget = availableWidth - (pronunciationIsOpen ? PRONUNCIATION_ICON_RESERVE_PX * 2 : 0)
+    const fitWidth = budget / (letterCount * LETTER_STEP_EM)
+    return `max(${MIN_LETTER_SIZE_PX}px, min(${responsive}, ${fitWidth.toFixed(1)}px))`
+  }, [fontSizeConfig.foreignFont, isWaitingForEnter, isWordAllCorrect, letterCount, availableWidth, pronunciationIsOpen])
 
   useEffect(() => {
     setIsWordWaitingEnter(isWaitingForEnter)
@@ -316,7 +345,7 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
   return (
     <>
       <InputHandler updateInput={updateInput} />
-      <div lang={currentLanguageCategory} className="flex flex-col items-center justify-center pb-1 pt-4">
+      <div lang={currentLanguageCategory} className="flex w-full flex-col items-center justify-center pb-1 pt-4">
         <div
           className={`tooltip-info relative w-fit bg-transparent p-0 leading-normal shadow-none dark:bg-transparent ${
             // 关闭「显示答案」时 Tab 也不再生效，此时不能再提示用户按 Tab
@@ -339,9 +368,16 @@ export default function WordComponent({ word, onFinish }: { word: Word; onFinish
           <div
             onMouseEnter={() => handleHoverWord(true)}
             onMouseLeave={() => handleHoverWord(false)}
-            className={`relative z-10 flex items-center ${isTextSelectable && 'select-all'} justify-center`}
-            // 光标色条挂在字母下方 0.155em 处，下内边距跟着字号一起缩放才不会压到音标行
-            style={{ '--letter-size': letterFontSize, paddingBottom: 'calc(var(--letter-size) * 0.2)' } as CSSProperties}
+            className={`relative z-10 flex flex-wrap items-center ${isTextSelectable && 'select-all'} justify-center`}
+            // 光标色条挂在字母下方 0.155em 处，下内边距跟着字号一起缩放才不会压到音标行。
+            // 折行只会在字号已经缩到下限、仍然放不下时发生，行距同样跟着字号走。
+            style={
+              {
+                '--letter-size': letterFontSize,
+                paddingBottom: 'calc(var(--letter-size) * 0.2)',
+                rowGap: 'calc(var(--letter-size) * 0.3)',
+              } as CSSProperties
+            }
           >
             {wordState.displayWord.split('').map((t, index) => {
               // 拼错时显示用户实际敲下的字符，显示正确答案会让默写模式泄题
