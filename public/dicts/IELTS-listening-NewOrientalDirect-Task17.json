@@ -1,134 +1,155 @@
 [
-    {
-        "name": "assignment",
-        "trans": [
-            "n. 任务，作业"
-        ]
-    },
-    {
-        "name": "case study",
-        "trans": [
-            "N. phrase 案例研究"
-        ]
-    },
-    {
-        "name": "dissertation",
-        "trans": [
-            "n. 专题论文；学位论文"
-        ]
-    },
-    {
-        "name": "focus",
-        "trans": [
-            "n. 中心，焦点；v. 集中目光"
-        ]
-    },
-    {
-        "name": "aim",
-        "trans": [
-            "n. 目标；v. 打算"
-        ]
-    },
-    {
-        "name": "purpose",
-        "trans": [
-            "n. 目标，意图"
-        ]
-    },
-    {
-        "name": "target",
-        "trans": [
-            "n. 目标，对象；v. 以…为目标"
-        ]
-    },
-    {
-        "name": "article",
-        "trans": [
-            "n. 文章"
-        ]
-    },
-    {
-        "name": "editorial",
-        "trans": [
-            "n. 社评"
-        ]
-    },
-    {
-        "name": "interview",
-        "trans": [
-            "n. 面试，面谈；v. 采访"
-        ]
-    },
-    {
-        "name": "questionnaire",
-        "trans": [
-            "n. 问卷；情况调查表"
-        ]
-    },
-    {
-        "name": "fact",
-        "trans": [
-            "n. 现实，实际情况；（尤指）事实，真相"
-        ]
-    },
-    {
-        "name": "statistic",
-        "trans": [
-            "n. 统计数据；统计资料"
-        ]
-    },
-    {
-        "name": "data",
-        "trans": [
-            "n. 信息，数据"
-        ]
-    },
-    {
-        "name": "chart",
-        "trans": [
-            "n. 图表；示意图；曲线图"
-        ]
-    },
-    {
-        "name": "table",
-        "trans": [
-            "n. （一览）表，表格"
-        ]
-    },
-    {
-        "name": "trend",
-        "trans": [
-            "n. 趋势，趋向；倾向，动向"
-        ]
-    },
-    {
-        "name": "regularity",
-        "trans": [
-            "n. 规则;规律"
-        ]
-    },
-    {
-        "name": "section",
-        "trans": [
-            "n. 章节；部分；片段"
-        ]
-    },
-    {
-        "name": "catalogue",
-        "trans": [
-            "n. 目录"
-        ]
-    },
-    {
-        "name": "headline",
-        "trans": [
-            "n. 大字标题"
-        ]
-    },
-    {
-        "name": "bibliography",
-        "trans": [
-            "n. 参考书目，文献目录"
-        ]
-    }
+  {
+    "name": "assignment",
+    "trans": [
+      "n. 任务，作业；分配，委派；转让，让渡"
+    ]
+  },
+  {
+    "name": "case study",
+    "trans": [
+      "n. 个案研究；专题研究；案例研究"
+    ]
+  },
+  {
+    "name": "dissertation",
+    "trans": [
+      "n. (学位)论文；专题；论述"
+    ]
+  },
+  {
+    "name": "focus",
+    "trans": [
+      "n. 焦点；中心；清晰",
+      "vt. 使集中；使聚焦",
+      "vi. 集中；聚焦；调节焦距"
+    ]
+  },
+  {
+    "name": "aim",
+    "trans": [
+      "n. 目的；目标；对准",
+      "vt. 目的在于；引导；把…对准",
+      "vi. 打算；对准目标；瞄准"
+    ]
+  },
+  {
+    "name": "purpose",
+    "trans": [
+      "n. 目的；用途；意志",
+      "vt. 决心；企图；打算"
+    ]
+  },
+  {
+    "name": "target",
+    "trans": [
+      "n. 目标；靶子",
+      "vt. 把……作为目标；规定……的指标；瞄准某物"
+    ]
+  },
+  {
+    "name": "article",
+    "trans": [
+      "n. 文章；物品；条款",
+      "vt. 订约将…收为学徒或见习生；使…受协议条款的约束",
+      "vi. 签订协议；进行控告"
+    ]
+  },
+  {
+    "name": "editorial",
+    "trans": [
+      "adj. 社论的；编辑的",
+      "n. 社论；评论性文章"
+    ]
+  },
+  {
+    "name": "interview",
+    "trans": [
+      "n. 接见；会见；面谈",
+      "vt. 接见；对...进行面谈(试)",
+      "vi. 面试采访"
+    ]
+  },
+  {
+    "name": "questionnaire",
+    "trans": [
+      "n. 问题单；调查表；征求意见表"
+    ]
+  },
+  {
+    "name": "fact",
+    "trans": [
+      "n. 事实，实际情况；真相，真实；（用于强调）确实，的确"
+    ]
+  },
+  {
+    "name": "statistic",
+    "trans": [
+      "n. 统计资料中的一项；（一项）统计数据；统计量",
+      "adj. 统计（上）的；统计学（上）的"
+    ]
+  },
+  {
+    "name": "data",
+    "trans": [
+      "n. 数据；资料；材料"
+    ]
+  },
+  {
+    "name": "chart",
+    "trans": [
+      "n. 图表；海图；图纸",
+      "vt. 绘制…的图表；在海图上标出；详细计划"
+    ]
+  },
+  {
+    "name": "table",
+    "trans": [
+      "n. 桌子；表格；平地层",
+      "vt. 制表；搁置；嵌合",
+      "adj. 桌子的"
+    ]
+  },
+  {
+    "name": "trend",
+    "trans": [
+      "n. 趋势，倾向；走向",
+      "vt. 使…趋向",
+      "vi. 趋向；伸向"
+    ]
+  },
+  {
+    "name": "regularity",
+    "trans": [
+      "n. 规律性，有规律；常规性，经常性；整齐，匀称"
+    ]
+  },
+  {
+    "name": "section",
+    "trans": [
+      "n. 截面；部分；部门",
+      "vt. 把…分段；将…切片；对…进行划分",
+      "vi. 被切割成片；被分成部分"
+    ]
+  },
+  {
+    "name": "catalogue",
+    "trans": [
+      "n. 目录；一览表；系列",
+      "vt. 为…编目录；登记分类"
+    ]
+  },
+  {
+    "name": "headline",
+    "trans": [
+      "n. 大标题；内容提要；栏外标题",
+      "vt. 给…加标题；使成为注意中心；大力宣传"
+    ]
+  },
+  {
+    "name": "bibliography",
+    "trans": [
+      "n. 参考书目，文献目录；某一学科的文献集；书目学，文献学"
+    ]
+  }
 ]

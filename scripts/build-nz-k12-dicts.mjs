@@ -1,5 +1,8 @@
 /**
- * 生成「新西兰 K12」分类下的 Year 9 / Year 10 词库。
+ * 生成「新西兰 K12」分类下的 Year 10 词库。
+ *
+ * Year 9 原本也由本脚本按同样的方式切出来，后来改成按学科整理的人工词表，
+ * 见 scripts/build-nz-year9-dict.mjs，这里只剩 Year 10。
  *
  * 起因：新西兰没有官方的年级词汇表 —— NZ Curriculum 不规定词表，Year 9-10 又在
  * NCEA 之前没有全国统考。唯一 Year 9-10 专属的官方词表是 Aotearoa NZ Spelling Bee
@@ -16,7 +19,7 @@
  * 黑名单不动。
  *
  * 输入：public/dicts/coca20000.json（词频序）、public/dicts/*.json（校验用语料）
- * 输出：public/dicts/NZ_K12_Year9.json、public/dicts/NZ_K12_Year10.json
+ * 输出：public/dicts/NZ_K12_Year10.json
  *
  * 幂等。用法：node scripts/build-nz-k12-dicts.mjs
  */
@@ -28,10 +31,7 @@ const DICTS_DIR = path.join(ROOT, 'public', 'dicts')
 const SOURCE = path.join(DICTS_DIR, 'coca20000.json')
 
 // 清洗后的排名区间，左闭右开，1 起算
-const BANDS = [
-  { name: 'Year 9', from: 2001, to: 3500, file: 'NZ_K12_Year9.json' },
-  { name: 'Year 10', from: 3501, to: 5000, file: 'NZ_K12_Year10.json' },
-]
+const BANDS = [{ name: 'Year 10', from: 3501, to: 5000, file: 'NZ_K12_Year10.json' }]
 
 // 只保留纯字母（可带连字符和撇号）的小写词条：首字母大写的多是美国政治专有名词
 // （Congress、Republican、African-American）和缩写，不适合放进年级词表

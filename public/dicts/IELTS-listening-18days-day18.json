@@ -1,306 +1,518 @@
 [
-    {
-        "name": "steel",
-        "trans": ["钢"]
-    },
-    {
-        "name": "preserve",
-        "trans": ["保存"]
-    },
-    {
-        "name": "tongue",
-        "trans": ["舌头"]
-    },
-    {
-        "name": "finger",
-        "trans": ["手指"]
-    },
-    {
-        "name": "protein",
-        "trans": ["蛋白质"]
-    },
-    {
-        "name": "philosopher",
-        "trans": ["哲学家"]
-    },
-    {
-        "name": "corporation",
-        "trans": ["公司"]
-    },
-    {
-        "name": "pottery",
-        "trans": ["陶瓷"]
-    },
-    {
-        "name": "gun",
-        "trans": ["枪"]
-    },
-    {
-        "name": "lane",
-        "trans": ["车道"]
-    },
-    {
-        "name": "achievement",
-        "trans": ["成就"]
-    },
-    {
-        "name": "frequent",
-        "trans": ["频繁的"]
-    },
-    {
-        "name": "axe",
-        "trans": ["斧头"]
-    },
-    {
-        "name": "soldier",
-        "trans": ["士兵"]
-    },
-    {
-        "name": "energy-saving",
-        "trans": ["节能的"]
-    },
-    {
-        "name": "life span",
-        "trans": ["寿命"]
-    },
-    {
-        "name": "presence",
-        "trans": ["存在"]
-    },
-    {
-        "name": "resistant",
-        "trans": ["反抗的"]
-    },
-    {
-        "name": "jam",
-        "trans": ["（纸）浆", "果酱"]
-    },
-    {
-        "name": "barcode",
-        "trans": ["条形码"]
-    },
-    {
-        "name": "argument",
-        "trans": ["论据"]
-    },
-    {
-        "name": "traffic flow",
-        "trans": ["交通吞吐量"]
-    },
-    {
-        "name": "random",
-        "trans": ["随机的"]
-    },
-    {
-        "name": "genetic",
-        "trans": ["基因的", "遗传的"]
-    },
-    {
-        "name": "generation",
-        "trans": ["一代人", "代"]
-    },
-    {
-        "name": "mechanism",
-        "trans": ["机理", "途径"]
-    },
-    {
-        "name": "angle",
-        "trans": ["角度"]
-    },
-    {
-        "name": "crowded",
-        "trans": ["拥挤的"]
-    },
-    {
-        "name": "storm",
-        "trans": ["暴风雨（雪）"]
-    },
-    {
-        "name": "shortage",
-        "trans": ["短缺", "不足"]
-    },
-    {
-        "name": "laboratory",
-        "trans": ["实验室"]
-    },
-    {
-        "name": "aboriginal",
-        "trans": ["土著居民"]
-    },
-    {
-        "name": "gravity",
-        "trans": ["重力"]
-    },
-    {
-        "name": "digest",
-        "trans": ["消化"]
-    },
-    {
-        "name": "challenge",
-        "trans": ["挑战"]
-    },
-    {
-        "name": "comprehension",
-        "trans": ["理解", "理解力"]
-    },
-    {
-        "name": "enthusiasm",
-        "trans": ["热情"]
-    },
-    {
-        "name": "powder",
-        "trans": ["粉末"]
-    },
-    {
-        "name": "dioxide",
-        "trans": ["二氧化物"]
-    },
-    {
-        "name": "retain",
-        "trans": ["保持", "记住"]
-    },
-    {
-        "name": "bacteria",
-        "trans": ["细菌"]
-    },
-    {
-        "name": "accountable",
-        "trans": ["有责任的"]
-    },
-    {
-        "name": "morale",
-        "trans": ["士气"]
-    },
-    {
-        "name": "triangle",
-        "trans": ["三角形"]
-    },
-    {
-        "name": "trash",
-        "trans": ["垃圾"]
-    },
-    {
-        "name": "coin",
-        "trans": ["硬币"]
-    },
-    {
-        "name": "mall",
-        "trans": ["商场"]
-    },
-    {
-        "name": "aspiration",
-        "trans": ["抱负"]
-    },
-    {
-        "name": "moral",
-        "trans": ["道德的"]
-    },
-    {
-        "name": "passage",
-        "trans": ["文章", "通道"]
-    },
-    {
-        "name": "permit",
-        "trans": ["许可"]
-    },
-    {
-        "name": "adapt",
-        "trans": ["适应"]
-    },
-    {
-        "name": "conservation",
-        "trans": ["保存"]
-    },
-    {
-        "name": "geological",
-        "trans": ["地理的"]
-    },
-    {
-        "name": "polish",
-        "trans": ["抛光"]
-    },
-    {
-        "name": "life cycle",
-        "trans": ["生命周期"]
-    },
-    {
-        "name": "operation",
-        "trans": ["操作"]
-    },
-    {
-        "name": "persuasive",
-        "trans": ["有说服力的"]
-    },
-    {
-        "name": "efficient",
-        "trans": ["有效率的"]
-    },
-    {
-        "name": "rush",
-        "trans": ["仓促行事"]
-    },
-    {
-        "name": "signal",
-        "trans": ["信号"]
-    },
-    {
-        "name": "density",
-        "trans": ["密度", "浓度"]
-    },
-    {
-        "name": "port",
-        "trans": ["港口"]
-    },
-    {
-        "name": "cliff",
-        "trans": ["悬崖"]
-    },
-    {
-        "name": "mobility",
-        "trans": ["流动性", "移动性"]
-    },
-    {
-        "name": "velvet",
-        "trans": ["丝绒", "天鹅绒"]
-    },
-    {
-        "name": "fence",
-        "trans": ["栅栏"]
-    },
-    {
-        "name": "flock",
-        "trans": ["兽群", "鸟群"]
-    },
-    {
-        "name": "passive",
-        "trans": ["被动的", "消极的"]
-    },
-    {
-        "name": "stem",
-        "trans": ["茎"]
-    },
-    {
-        "name": "industry",
-        "trans": ["工业"]
-    },
-    {
-        "name": "cycle",
-        "trans": ["骑自行车"]
-    },
-    {
-        "name": "oven",
-        "trans": ["烤箱", "烤炉"]
-    },
-    {
-        "name": "criteria",
-        "trans": ["标准"]
-    },
-    {
-        "name": "license",
-        "trans": ["许可证"]
-    },
-    {
-        "name": "curriculum vitae",
-        "trans": ["个人简历"]
-    }
+  {
+    "name": "steel",
+    "trans": [
+      "n. 钢铁；钢制品；坚固",
+      "adj. 钢制的；钢铁业的；坚强的",
+      "vt. 钢化；使冷酷"
+    ]
+  },
+  {
+    "name": "preserve",
+    "trans": [
+      "vt. 保护；保存；保持",
+      "vi. 保存",
+      "n. 蜜饯；专供私人行猎或捕鱼的保留区"
+    ]
+  },
+  {
+    "name": "tongue",
+    "trans": [
+      "n. 舌头；语言",
+      "vt. 舔；斥责；用舌吹",
+      "vi. 说话；吹管乐器"
+    ]
+  },
+  {
+    "name": "finger",
+    "trans": [
+      "n. 手指；指针，指状物",
+      "vt. 伸出；用手指拨弄",
+      "vi. 用指触摸；拨弄"
+    ]
+  },
+  {
+    "name": "protein",
+    "trans": [
+      "n. 蛋白质；蛋白质，朊",
+      "adj. 蛋白质的"
+    ]
+  },
+  {
+    "name": "philosopher",
+    "trans": [
+      "n. 哲学家；思想家；善于思考的人"
+    ]
+  },
+  {
+    "name": "corporation",
+    "trans": [
+      "n. 公司，法人团体；大型企业；企业集团"
+    ]
+  },
+  {
+    "name": "pottery",
+    "trans": [
+      "n. 陶器；陶器厂；陶器制造术"
+    ]
+  },
+  {
+    "name": "gun",
+    "trans": [
+      "n. 枪支；枪状物；持枪歹徒",
+      "vt. 向…开枪；开大油门",
+      "vi. 用枪射击；加大油门快速前进"
+    ]
+  },
+  {
+    "name": "lane",
+    "trans": [
+      "n. 小路，小巷；车道，行车道；泳道"
+    ]
+  },
+  {
+    "name": "achievement",
+    "trans": [
+      "n. 成就；完成；达到"
+    ]
+  },
+  {
+    "name": "frequent",
+    "trans": [
+      "adj. 频繁的；时常发生的；惯常的",
+      "vt. 常到，常去；时常出入于"
+    ]
+  },
+  {
+    "name": "axe",
+    "trans": [
+      "n. 斧子；解雇",
+      "vt. 用斧砍；削除，解雇；大量削减（经费），精简（机构）"
+    ]
+  },
+  {
+    "name": "soldier",
+    "trans": [
+      "n. 军人；兵蚁；懒汉",
+      "vi. 当兵；磨洋工；坚持干"
+    ]
+  },
+  {
+    "name": "energy-saving",
+    "trans": [
+      "adj. 节约能源的；能量消耗低的"
+    ]
+  },
+  {
+    "name": "life span",
+    "trans": [
+      "寿命"
+    ]
+  },
+  {
+    "name": "presence",
+    "trans": [
+      "n. 出席，到场；存在，有；仪态，风度"
+    ]
+  },
+  {
+    "name": "resistant",
+    "trans": [
+      "adj. 有抵抗力的，抵抗的；顽固的",
+      "n. 抵抗者；有抵抗力的东西；防染剂，防腐剂"
+    ]
+  },
+  {
+    "name": "jam",
+    "trans": [
+      "n. 果酱；拥挤；困境",
+      "vt. 使堵塞；挤进，使塞满；混杂",
+      "vi. 堵塞；轧住"
+    ]
+  },
+  {
+    "name": "barcode",
+    "trans": [
+      "条形码"
+    ]
+  },
+  {
+    "name": "argument",
+    "trans": [
+      "n. 争论，争吵；理由，论据；论点，论证"
+    ]
+  },
+  {
+    "name": "traffic flow",
+    "trans": [
+      "n. 客运流量；运输流量；交通流"
+    ]
+  },
+  {
+    "name": "random",
+    "trans": [
+      "adj. 随机的，任意的；胡乱的，无目的的",
+      "n. 随机选择；随意",
+      "adv. 胡乱地；随意地"
+    ]
+  },
+  {
+    "name": "genetic",
+    "trans": [
+      "adj. 遗传的；基因的；与基因相关的"
+    ]
+  },
+  {
+    "name": "generation",
+    "trans": [
+      "n. 一代人，一代；产生，发生；一代（人）的寿命"
+    ]
+  },
+  {
+    "name": "mechanism",
+    "trans": [
+      "n. 机械装置，机构；机制，原理；方法，途径"
+    ]
+  },
+  {
+    "name": "angle",
+    "trans": [
+      "n. 角；角度；角落",
+      "vt. 斜移；转变角度",
+      "vi. 钓鱼；谋取；转变角度"
+    ]
+  },
+  {
+    "name": "crowded",
+    "trans": [
+      "adj. 拥挤的；塞满的",
+      "v. 拥挤（crowd的过去分词）"
+    ]
+  },
+  {
+    "name": "storm",
+    "trans": [
+      "n. 暴风雨；大动荡",
+      "vt. 猛攻；怒骂",
+      "vi. 起风暴；横冲直撞；狂怒咆哮"
+    ]
+  },
+  {
+    "name": "shortage",
+    "trans": [
+      "n. 缺乏；不足；短缺"
+    ]
+  },
+  {
+    "name": "laboratory",
+    "trans": [
+      "n. 实验室；研究室；实验大楼"
+    ]
+  },
+  {
+    "name": "aboriginal",
+    "trans": [
+      "adj. 原产的，原始的；土著人的",
+      "n. 土著居民；土生生物；澳大利亚土著"
+    ]
+  },
+  {
+    "name": "gravity",
+    "trans": [
+      "n. 重力；地心引力；严重性，严峻"
+    ]
+  },
+  {
+    "name": "digest",
+    "trans": [
+      "n. 文摘；摘要",
+      "vt. 消化；吸收；融会贯通",
+      "vi. 消化"
+    ]
+  },
+  {
+    "name": "challenge",
+    "trans": [
+      "n. 挑战；盘问；质疑",
+      "vt. 质疑；向…挑战",
+      "vi. 提出挑战，要求竞赛（或竞争）；驳斥"
+    ]
+  },
+  {
+    "name": "comprehension",
+    "trans": [
+      "n. 理解；理解力；领悟"
+    ]
+  },
+  {
+    "name": "enthusiasm",
+    "trans": [
+      "n. 热心；热忱；热情"
+    ]
+  },
+  {
+    "name": "powder",
+    "trans": [
+      "n. 粉；粉末；火药",
+      "vt. 使成粉末；撒粉；搽粉于",
+      "vi. 搽粉；变成粉末"
+    ]
+  },
+  {
+    "name": "dioxide",
+    "trans": [
+      "n. 二氧化物"
+    ]
+  },
+  {
+    "name": "retain",
+    "trans": [
+      "v. 保持，保留；记住，记得；雇用，保留（员工）"
+    ]
+  },
+  {
+    "name": "bacteria",
+    "trans": [
+      "n. 细菌（复数）；细菌（单复数同形）"
+    ]
+  },
+  {
+    "name": "accountable",
+    "trans": [
+      "adj. 有责任的；有解释义务的；可解释的"
+    ]
+  },
+  {
+    "name": "morale",
+    "trans": [
+      "n. 士气；斗志"
+    ]
+  },
+  {
+    "name": "triangle",
+    "trans": [
+      "n. 三角形；三角关系；三角地带"
+    ]
+  },
+  {
+    "name": "trash",
+    "trans": [
+      "n. 垃圾，废物；断枝，碎块；废话",
+      "vt. 废弃；拆毁；搞垮，贬低"
+    ]
+  },
+  {
+    "name": "coin",
+    "trans": [
+      "n. 硬币；金钱；货币",
+      "vt. 制造钱币；创造",
+      "adj. 与硬币有关的"
+    ]
+  },
+  {
+    "name": "mall",
+    "trans": [
+      "n. 购物商场；林荫路；铁圈球场"
+    ]
+  },
+  {
+    "name": "aspiration",
+    "trans": [
+      "n. 强烈的愿望，抱负；志向，抱负；渴望得到或达到的东西"
+    ]
+  },
+  {
+    "name": "moral",
+    "trans": [
+      "adj. 道德的；精神上的；品性端正的",
+      "n. 道德；寓意"
+    ]
+  },
+  {
+    "name": "passage",
+    "trans": [
+      "n. 一段（文章）；走廊；通路",
+      "vi. 通过通道"
+    ]
+  },
+  {
+    "name": "permit",
+    "trans": [
+      "n. 许可证；执照",
+      "vt. 许可；允许",
+      "vi. 许可；允许"
+    ]
+  },
+  {
+    "name": "adapt",
+    "trans": [
+      "vt. 使适应；改编",
+      "vi. 适应；适合"
+    ]
+  },
+  {
+    "name": "conservation",
+    "trans": [
+      "n. 保护；保存；节约（自然资源）"
+    ]
+  },
+  {
+    "name": "geological",
+    "trans": [
+      "adj. 地质的；地质学的"
+    ]
+  },
+  {
+    "name": "polish",
+    "trans": [
+      "vt. 磨光；擦亮；使优美",
+      "vi. 变光亮",
+      "n. 光泽；上光剂优雅；精良"
+    ]
+  },
+  {
+    "name": "life cycle",
+    "trans": [
+      "n. 生命周期"
+    ]
+  },
+  {
+    "name": "operation",
+    "trans": [
+      "n. 手术；操作；运算"
+    ]
+  },
+  {
+    "name": "persuasive",
+    "trans": [
+      "n. 说服者；劝诱。",
+      "adj. 善说服的"
+    ]
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj. 有效率的；能干的",
+      "adv. 有效率地；有效地"
+    ]
+  },
+  {
+    "name": "rush",
+    "trans": [
+      "n. 冲进；匆促；急流",
+      "adj. 急需的",
+      "vt. 使冲；突袭；匆忙地做"
+    ]
+  },
+  {
+    "name": "signal",
+    "trans": [
+      "n. 信号；暗号；标志",
+      "v. 发信号；示意；表示",
+      "adj. 显著的；重大的"
+    ]
+  },
+  {
+    "name": "density",
+    "trans": [
+      "n. 密度，稠密度；浓度，密集程度；人口密度"
+    ]
+  },
+  {
+    "name": "port",
+    "trans": [
+      "n. 港口，口岸；左舷；舱门",
+      "vi. 转向左舷",
+      "vt. 左转舵；持（枪）"
+    ]
+  },
+  {
+    "name": "cliff",
+    "trans": [
+      "n. 悬崖；峭壁"
+    ]
+  },
+  {
+    "name": "mobility",
+    "trans": [
+      "n. 移动性；机动性；迁移率"
+    ]
+  },
+  {
+    "name": "velvet",
+    "trans": [
+      "n. 丝绒；天鹅绒；立绒",
+      "adj. 天鹅绒的；柔软的；（脚声等）轻软的"
+    ]
+  },
+  {
+    "name": "fence",
+    "trans": [
+      "n. 栅栏；围墙；剑术",
+      "vt. 防护；用篱笆围住；练习剑术",
+      "vi. 击剑；搪塞；围以栅栏"
+    ]
+  },
+  {
+    "name": "flock",
+    "trans": [
+      "n. 羊群；群；大量",
+      "vt. 塞填充料",
+      "vi. 成群而行；聚集"
+    ]
+  },
+  {
+    "name": "passive",
+    "trans": [
+      "adj. 被动的；消极的；不抵抗的",
+      "n. 动词被动形式；被动语态"
+    ]
+  },
+  {
+    "name": "stem",
+    "trans": [
+      "n. 干；茎；船首",
+      "vt. 阻止；除去…的茎；给…装柄",
+      "vi. 阻止；起源于某事物；逆行"
+    ]
+  },
+  {
+    "name": "industry",
+    "trans": [
+      "n. 工业，产业；行业，产业界；勤奋，勤劳"
+    ]
+  },
+  {
+    "name": "cycle",
+    "trans": [
+      "n. 循环；周期；自行车",
+      "vt. 使循环；使轮转",
+      "vi. 循环；骑自行车；轮转"
+    ]
+  },
+  {
+    "name": "oven",
+    "trans": [
+      "n. 炉；灶；灶箱"
+    ]
+  },
+  {
+    "name": "criteria",
+    "trans": [
+      "n. 标准；条件（criterion的复数）"
+    ]
+  },
+  {
+    "name": "license",
+    "trans": [
+      "n. 执照，许可证；特许",
+      "vt. 许可；特许；发许可证给"
+    ]
+  },
+  {
+    "name": "curriculum vitae",
+    "trans": [
+      "n. 履历；简历。"
+    ]
+  }
 ]

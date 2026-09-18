@@ -1,210 +1,346 @@
 [
-    {
-        "name": "evidence",
-        "trans": ["证据"]
-    },
-    {
-        "name": "alternative",
-        "trans": ["可供选择的"]
-    },
-    {
-        "name": "intention",
-        "trans": ["意图"]
-    },
-    {
-        "name": "relevant",
-        "trans": ["相关的"]
-    },
-    {
-        "name": "outline",
-        "trans": ["轮廓", "大纲"]
-    },
-    {
-        "name": "extinct",
-        "trans": ["灭绝的"]
-    },
-    {
-        "name": "wing",
-        "trans": ["翅膀"]
-    },
-    {
-        "name": "nest",
-        "trans": ["巢", "窝"]
-    },
-    {
-        "name": "interference",
-        "trans": ["干预", "干涉"]
-    },
-    {
-        "name": "standard",
-        "trans": ["标准"]
-    },
-    {
-        "name": "subtopic",
-        "trans": ["副主题"]
-    },
-    {
-        "name": "therapy",
-        "trans": ["治疗", "疗法"]
-    },
-    {
-        "name": "morality",
-        "trans": ["道德"]
-    },
-    {
-        "name": "participation",
-        "trans": ["参加", "参与"]
-    },
-    {
-        "name": "faculty",
-        "trans": ["科", "系", "能力"]
-    },
-    {
-        "name": "fit",
-        "trans": ["健康的"]
-    },
-    {
-        "name": "useful",
-        "trans": ["有用的"]
-    },
-    {
-        "name": "confuse",
-        "trans": ["使混乱"]
-    },
-    {
-        "name": "inconvenient",
-        "trans": ["不便的"]
-    },
-    {
-        "name": "valuable",
-        "trans": ["有价值的"]
-    },
-    {
-        "name": "advisor",
-        "trans": ["顾问"]
-    },
-    {
-        "name": "forget",
-        "trans": ["忘记"]
-    },
-    {
-        "name": "lecturer",
-        "trans": ["讲师"]
-    },
-    {
-        "name": "content",
-        "trans": ["内容"]
-    },
-    {
-        "name": "practical",
-        "trans": ["实际的"]
-    },
-    {
-        "name": "improvement",
-        "trans": ["改进"]
-    },
-    {
-        "name": "repetitive",
-        "trans": ["重复性的"]
-    },
-    {
-        "name": "village",
-        "trans": ["村庄"]
-    },
-    {
-        "name": "mission",
-        "trans": ["使命"]
-    },
-    {
-        "name": "qualification",
-        "trans": ["资格"]
-    },
-    {
-        "name": "curriculum",
-        "trans": ["课程"]
-    },
-    {
-        "name": "training",
-        "trans": ["训练"]
-    },
-    {
-        "name": "colleague",
-        "trans": ["同事"]
-    },
-    {
-        "name": "description",
-        "trans": ["描述"]
-    },
-    {
-        "name": "administration",
-        "trans": ["管理"]
-    },
-    {
-        "name": "farming",
-        "trans": ["农业", "耕作"]
-    },
-    {
-        "name": "damage",
-        "trans": ["损害", "损毁"]
-    },
-    {
-        "name": "checklist",
-        "trans": ["清单", "检查表"]
-    },
-    {
-        "name": "figures",
-        "trans": ["价格", "金额"]
-    },
-    {
-        "name": "presentation",
-        "trans": ["陈述", "展示"]
-    },
-    {
-        "name": "professor",
-        "trans": ["教授", "教师"]
-    },
-    {
-        "name": "seminar",
-        "trans": ["讨论会"]
-    },
-    {
-        "name": "chemistry",
-        "trans": ["化学"]
-    },
-    {
-        "name": "trade",
-        "trans": ["贸易", "交易"]
-    },
-    {
-        "name": "payment",
-        "trans": ["支付"]
-    },
-    {
-        "name": "portable",
-        "trans": ["便携的"]
-    },
-    {
-        "name": "comedy",
-        "trans": ["喜剧"]
-    },
-    {
-        "name": "pattern",
-        "trans": ["模式"]
-    },
-    {
-        "name": "fresh",
-        "trans": ["新鲜的"]
-    },
-    {
-        "name": "application",
-        "trans": ["申请"]
-    },
-    {
-        "name": "employee",
-        "trans": ["雇员"]
-    },
-    {
-        "name": "evaporate",
-        "trans": ["蒸发"]
-    }
+  {
+    "name": "evidence",
+    "trans": [
+      "n. 证词；证据；迹象",
+      "vt. 使明显；显示；表明"
+    ]
+  },
+  {
+    "name": "alternative",
+    "trans": [
+      "adj. 两者择一的；供选择的；非主流的",
+      "n. 替换物；取舍；抉择"
+    ]
+  },
+  {
+    "name": "intention",
+    "trans": [
+      "n. 意图，打算；目的；意向"
+    ]
+  },
+  {
+    "name": "relevant",
+    "trans": [
+      "adj. 相关的；切题的；中肯的"
+    ]
+  },
+  {
+    "name": "outline",
+    "trans": [
+      "n. 轮廓；大纲；概要",
+      "vt. 概述；略述；描画…轮廓"
+    ]
+  },
+  {
+    "name": "extinct",
+    "trans": [
+      "adj. 灭绝的，绝种的；熄灭的",
+      "vt. 使熄灭"
+    ]
+  },
+  {
+    "name": "wing",
+    "trans": [
+      "n. 翼；翅膀；飞翔",
+      "vt. 使飞；飞过；空运",
+      "vi. 飞行"
+    ]
+  },
+  {
+    "name": "nest",
+    "trans": [
+      "n. 巢，窝；安乐窝；温床",
+      "vt. 筑巢；嵌套",
+      "vi. 筑巢；找鸟巢"
+    ]
+  },
+  {
+    "name": "interference",
+    "trans": [
+      "n. 干涉，介入；干扰，阻碍；干扰，干涉"
+    ]
+  },
+  {
+    "name": "standard",
+    "trans": [
+      "n. 标准；水准；旗",
+      "adj. 标准的；合规格的；公认为优秀的"
+    ]
+  },
+  {
+    "name": "subtopic",
+    "trans": [
+      "n. 副标题"
+    ]
+  },
+  {
+    "name": "therapy",
+    "trans": [
+      "n. 治疗，疗法，疗效；心理治疗；治疗力"
+    ]
+  },
+  {
+    "name": "morality",
+    "trans": [
+      "n. 道德，道德观，道德规范；伦理；品行"
+    ]
+  },
+  {
+    "name": "participation",
+    "trans": [
+      "n. 参与；分享；参股"
+    ]
+  },
+  {
+    "name": "faculty",
+    "trans": [
+      "n. 科，系；能力；全体教员"
+    ]
+  },
+  {
+    "name": "fit",
+    "trans": [
+      "vt.&vi. （使）适合；安装；合身",
+      "adj. 合适的；恰当的；合身的",
+      "n. 合身；适合；匹配"
+    ]
+  },
+  {
+    "name": "useful",
+    "trans": [
+      "adj. 有用的；实用的；有益的"
+    ]
+  },
+  {
+    "name": "confuse",
+    "trans": [
+      "vt. 使困窘；使混乱；使困惑",
+      "vi. 使糊涂"
+    ]
+  },
+  {
+    "name": "inconvenient",
+    "trans": [
+      "adj. 不方便的；打扰人的，麻烦的；不便"
+    ]
+  },
+  {
+    "name": "valuable",
+    "trans": [
+      "adj. 贵重的，宝贵的；有价值的；可评估的",
+      "n. 贵重物品；财宝"
+    ]
+  },
+  {
+    "name": "advisor",
+    "trans": [
+      "n. 顾问；指导教师；劝告者"
+    ]
+  },
+  {
+    "name": "forget",
+    "trans": [
+      "vt. 忘记，忘却；忽略，疏忽；遗落",
+      "vi. 忘记；忽视"
+    ]
+  },
+  {
+    "name": "lecturer",
+    "trans": [
+      "n. 演讲者；讲师；授课老师"
+    ]
+  },
+  {
+    "name": "content",
+    "trans": [
+      "adj. 满意的；满足的",
+      "n. 内容，目录；容量，容积",
+      "v. 使满足；使满意"
+    ]
+  },
+  {
+    "name": "practical",
+    "trans": [
+      "adj. 实践的；实用的；明智的",
+      "n. 实践考试"
+    ]
+  },
+  {
+    "name": "improvement",
+    "trans": [
+      "n. 改进；改善；改进处"
+    ]
+  },
+  {
+    "name": "repetitive",
+    "trans": [
+      "adj. 重复的；反复的"
+    ]
+  },
+  {
+    "name": "village",
+    "trans": [
+      "n. 村庄；村民；（动物的）群落"
+    ]
+  },
+  {
+    "name": "mission",
+    "trans": [
+      "n. 代表团；使命；官方使命",
+      "v. 给…交代任务；派遣；把任务交给"
+    ]
+  },
+  {
+    "name": "qualification",
+    "trans": [
+      "n. 资格，资历；条件，资格；限定，限制"
+    ]
+  },
+  {
+    "name": "curriculum",
+    "trans": [
+      "n. 课程；教学大纲；全部课程"
+    ]
+  },
+  {
+    "name": "training",
+    "trans": [
+      "n. 训练；培训；锻炼",
+      "v. 训练；培训；“train”的现在分词"
+    ]
+  },
+  {
+    "name": "colleague",
+    "trans": [
+      "n. 同事；同僚；同行"
+    ]
+  },
+  {
+    "name": "description",
+    "trans": [
+      "n. 描述，叙述；描写，形容；说明，解释"
+    ]
+  },
+  {
+    "name": "administration",
+    "trans": [
+      "n. 管理，行政；政府，行政机构；实施，执行"
+    ]
+  },
+  {
+    "name": "farming",
+    "trans": [
+      "n. 农事；耕作；养殖",
+      "v. 耕种；务农；“farm”的现在分词"
+    ]
+  },
+  {
+    "name": "damage",
+    "trans": [
+      "vi. 损害；损毁",
+      "vt. 损害；毁坏",
+      "n. 损害；损毁；赔偿金"
+    ]
+  },
+  {
+    "name": "checklist",
+    "trans": [
+      "n. 清单；检查表；备忘录"
+    ]
+  },
+  {
+    "name": "figures",
+    "trans": [
+      "v. 是……的部分；认为；计算（数量，价值）",
+      "n. 数字；人物；图形"
+    ]
+  },
+  {
+    "name": "presentation",
+    "trans": [
+      "n. 展示；描述，陈述；介绍"
+    ]
+  },
+  {
+    "name": "professor",
+    "trans": [
+      "n. 教授；教师；公开表示信仰的人"
+    ]
+  },
+  {
+    "name": "seminar",
+    "trans": [
+      "n. 研讨班，讲习会；研讨小组；研讨会"
+    ]
+  },
+  {
+    "name": "chemistry",
+    "trans": [
+      "n. 化学；化学性质；相互作用"
+    ]
+  },
+  {
+    "name": "trade",
+    "trans": [
+      "n. 贸易，交易；行业；职业",
+      "vt. 用…进行交换",
+      "vi. 交易，买卖；以物易物"
+    ]
+  },
+  {
+    "name": "payment",
+    "trans": [
+      "n. 支付，付款；支付的金额，付款额；报酬，酬劳"
+    ]
+  },
+  {
+    "name": "portable",
+    "trans": [
+      "n. 手提式打字机",
+      "adj. 手提的，便携式的；轻便的"
+    ]
+  },
+  {
+    "name": "comedy",
+    "trans": [
+      "n. 喜剧，喜剧作品；滑稽，幽默；喜剧性事物，有趣的情况"
+    ]
+  },
+  {
+    "name": "pattern",
+    "trans": [
+      "n. 模式；图案；样品",
+      "vt. 模仿；以图案装饰",
+      "vi. 形成图案"
+    ]
+  },
+  {
+    "name": "fresh",
+    "trans": [
+      "n. 开始；新生；泛滥",
+      "adj. 新鲜的；清新的；淡水的",
+      "adv. 刚刚，才；最新地"
+    ]
+  },
+  {
+    "name": "application",
+    "trans": [
+      "n. 申请；申请书；应用"
+    ]
+  },
+  {
+    "name": "employee",
+    "trans": [
+      "n. 受雇者；雇员；雇工"
+    ]
+  },
+  {
+    "name": "evaporate",
+    "trans": [
+      "vt.&vi. （使某物）蒸发掉",
+      "vi. 消失；发散气体；蒸发",
+      "vt. 使脱水；使蒸发；使挥发"
+    ]
+  }
 ]

@@ -1,306 +1,516 @@
 [
-    {
-        "name": "printer",
-        "trans": ["n. 打印机"]
-    },
-    {
-        "name": "withdraw",
-        "trans": ["v. 收回"]
-    },
-    {
-        "name": "outstanding",
-        "trans": ["adj. 杰出的"]
-    },
-    {
-        "name": "canteen",
-        "trans": ["n. 食堂"]
-    },
-    {
-        "name": "exact",
-        "trans": ["adj. 精确的"]
-    },
-    {
-        "name": "switch off",
-        "trans": ["v. 关掉"]
-    },
-    {
-        "name": "boot",
-        "trans": ["n. 靴子"]
-    },
-    {
-        "name": "wood",
-        "trans": ["n. 木材"]
-    },
-    {
-        "name": "forbid",
-        "trans": ["v. 禁止"]
-    },
-    {
-        "name": "client",
-        "trans": ["n. 客户"]
-    },
-    {
-        "name": "rail",
-        "trans": ["n. 铁轨"]
-    },
-    {
-        "name": "intermediate",
-        "trans": ["adj. 中间的"]
-    },
-    {
-        "name": "appliance",
-        "trans": ["n. 电器"]
-    },
-    {
-        "name": "intensive",
-        "trans": ["adj. 加强的"]
-    },
-    {
-        "name": "allergy",
-        "trans": ["n. 过敏"]
-    },
-    {
-        "name": "vegetarian",
-        "trans": ["n. 素食者"]
-    },
-    {
-        "name": "bargain",
-        "trans": ["n. 便宜货"]
-    },
-    {
-        "name": "relative",
-        "trans": ["adj. 相对的"]
-    },
-    {
-        "name": "condition",
-        "trans": ["n. 情况"]
-    },
-    {
-        "name": "package",
-        "trans": ["n. 包裹"]
-    },
-    {
-        "name": "fare",
-        "trans": ["n. 费用"]
-    },
-    {
-        "name": "armchair",
-        "trans": ["n. 扶手椅"]
-    },
-    {
-        "name": "advanced",
-        "trans": ["adj. 高级的"]
-    },
-    {
-        "name": "material",
-        "trans": ["n. 物质"]
-    },
-    {
-        "name": "jeans",
-        "trans": ["n. 牛仔裤"]
-    },
-    {
-        "name": "trolley",
-        "trans": ["n. 手推车"]
-    },
-    {
-        "name": "sightseeing",
-        "trans": ["n. 观光"]
-    },
-    {
-        "name": "post office",
-        "trans": ["n. 邮局"]
-    },
-    {
-        "name": "rent",
-        "trans": ["n. 租金"]
-    },
-    {
-        "name": "sports centre",
-        "trans": ["n. 体育中心"]
-    },
-    {
-        "name": "Monday",
-        "trans": ["n. 星期一"]
-    },
-    {
-        "name": "Sunday",
-        "trans": ["n. 星期天"]
-    },
-    {
-        "name": "rail",
-        "trans": ["n. 铁轨，栏杆"]
-    },
-    {
-        "name": "stair lift",
-        "trans": ["n. 楼梯升降机"]
-    },
-    {
-        "name": "seat",
-        "trans": ["n. 座位"]
-    },
-    {
-        "name": "living room",
-        "trans": ["n. 客厅起居室"]
-    },
-    {
-        "name": "bathroom",
-        "trans": ["n. 浴室，卫生间"]
-    },
-    {
-        "name": "kitchen",
-        "trans": ["n. 厨房"]
-    },
-    {
-        "name": "washing machine",
-        "trans": ["n. 洗衣机"]
-    },
-    {
-        "name": "video",
-        "trans": ["n. 电视，录像机"]
-    },
-    {
-        "name": "basin",
-        "trans": ["n. 盆"]
-    },
-    {
-        "name": "campus",
-        "trans": ["n. 校园"]
-    },
-    {
-        "name": "balcony",
-        "trans": ["n. 阳台"]
-    },
-    {
-        "name": "lamp",
-        "trans": ["n. 灯"]
-    },
-    {
-        "name": "survey",
-        "trans": ["n. 调查，测量"]
-    },
-    {
-        "name": "community",
-        "trans": ["n. 社区，共同体"]
-    },
-    {
-        "name": "dissatisfaction",
-        "trans": ["n. 不满"]
-    },
-    {
-        "name": "quality",
-        "trans": ["n. 质量，品质"]
-    },
-    {
-        "name": "local",
-        "trans": ["adj. 当地的"]
-    },
-    {
-        "name": "swimming pool",
-        "trans": ["n. 游泳池"]
-    },
-    {
-        "name": "bedsheet",
-        "trans": ["n. 床单"]
-    },
-    {
-        "name": "carpet",
-        "trans": ["n. 地毯"]
-    },
-    {
-        "name": "Thursday",
-        "trans": ["n. 星期四"]
-    },
-    {
-        "name": "iron",
-        "trans": ["n. 熨烫"]
-    },
-    {
-        "name": "suburb",
-        "trans": ["n. 郊区"]
-    },
-    {
-        "name": "exterior",
-        "trans": ["adj. 外面的"]
-    },
-    {
-        "name": "setting",
-        "trans": ["n. 环境"]
-    },
-    {
-        "name": "ceremony",
-        "trans": ["n. 典礼仪式"]
-    },
-    {
-        "name": "consult",
-        "trans": ["v. 咨询"]
-    },
-    {
-        "name": "premium",
-        "trans": ["adj. 高品质的"]
-    },
-    {
-        "name": "apply",
-        "trans": ["v. 申请"]
-    },
-    {
-        "name": "brochure",
-        "trans": ["n. 小册子"]
-    },
-    {
-        "name": "reception",
-        "trans": ["n. 招待"]
-    },
-    {
-        "name": "annual",
-        "trans": ["adj. 每年的"]
-    },
-    {
-        "name": "guard",
-        "trans": ["n. 保卫"]
-    },
-    {
-        "name": "poster",
-        "trans": ["n. 海报"]
-    },
-    {
-        "name": "health check",
-        "trans": ["n. 体检"]
-    },
-    {
-        "name": "petrol",
-        "trans": ["n. 汽油"]
-    },
-    {
-        "name": "literacy",
-        "trans": ["n. 读写能力"]
-    },
-    {
-        "name": "comedy",
-        "trans": ["n. 喜剧"]
-    },
-    {
-        "name": "lounge",
-        "trans": ["n. 休息厅"]
-    },
-    {
-        "name": "Spanish",
-        "trans": ["n. 西班牙语"]
-    },
-    {
-        "name": "yoga",
-        "trans": ["n. 瑜伽"]
-    },
-    {
-        "name": "headache",
-        "trans": ["n. 头疼"]
-    },
-    {
-        "name": "burglar",
-        "trans": ["n. 盗贼"]
-    },
-    {
-        "name": "goods",
-        "trans": ["n. 商品"]
-    }
+  {
+    "name": "printer",
+    "trans": [
+      "n. 打印机；印刷工；印花工"
+    ]
+  },
+  {
+    "name": "withdraw",
+    "trans": [
+      "vt. 收回；撤回；取回",
+      "vi. 撤退；退回；走开"
+    ]
+  },
+  {
+    "name": "outstanding",
+    "trans": [
+      "adj. 杰出的；显著的；未解决的",
+      "n. 未偿贷款"
+    ]
+  },
+  {
+    "name": "canteen",
+    "trans": [
+      "n. 食堂；小卖部；餐具箱"
+    ]
+  },
+  {
+    "name": "exact",
+    "trans": [
+      "adj. 准确的，精密的；精确的",
+      "vt. 要求；强求；急需",
+      "vi. 勒索钱财"
+    ]
+  },
+  {
+    "name": "switch off",
+    "trans": [
+      "v. 关掉"
+    ]
+  },
+  {
+    "name": "boot",
+    "trans": [
+      "n. 靴子；长统靴；(英)汽车行李箱",
+      "vt. 踢；穿靴子锁车",
+      "vi. (计算机)；启动；利用"
+    ]
+  },
+  {
+    "name": "wood",
+    "trans": [
+      "n. 木材；木制品；树林",
+      "vt. 植林于；给…添加木柴",
+      "vi. 收集木材"
+    ]
+  },
+  {
+    "name": "forbid",
+    "trans": [
+      "vt. 禁止；不准；不允许"
+    ]
+  },
+  {
+    "name": "client",
+    "trans": [
+      "n. 顾客，客户；委托人，当事人；客户端（计算机）"
+    ]
+  },
+  {
+    "name": "rail",
+    "trans": [
+      "n. 铁轨；扶手；横杆",
+      "vt. 铺铁轨；以横木围栏",
+      "vi. 抱怨；责骂"
+    ]
+  },
+  {
+    "name": "intermediate",
+    "trans": [
+      "adj. 中间的；中级的",
+      "n. 中间体；媒介物；调解人",
+      "vi. 调解；干涉"
+    ]
+  },
+  {
+    "name": "appliance",
+    "trans": [
+      "n. 器具；器械；装置"
+    ]
+  },
+  {
+    "name": "intensive",
+    "trans": [
+      "n. 加强器",
+      "adj. 加强的；集中的；透彻的"
+    ]
+  },
+  {
+    "name": "allergy",
+    "trans": [
+      "n. 过敏症；反感；厌恶"
+    ]
+  },
+  {
+    "name": "vegetarian",
+    "trans": [
+      "n. 吃素的人；素食者；素食主义者",
+      "adj. 素食者的；只有蔬菜的"
+    ]
+  },
+  {
+    "name": "bargain",
+    "trans": [
+      "n. 契约，协定；交易；特价商品",
+      "vt. 做交易",
+      "vi. 讨价还价；达成协议"
+    ]
+  },
+  {
+    "name": "relative",
+    "trans": [
+      "n. 亲戚；相关物；关系词",
+      "adj. 相对的；有关系的；成比例的"
+    ]
+  },
+  {
+    "name": "condition",
+    "trans": [
+      "n. 条件；情况；环境",
+      "vt. 决定；使适应；使健康"
+    ]
+  },
+  {
+    "name": "package",
+    "trans": [
+      "n. 包，包裹；套装软件， 程序包",
+      "adj. 一揽子的",
+      "vt. 打包；将…包装"
+    ]
+  },
+  {
+    "name": "fare",
+    "trans": [
+      "n. 票价；费用；旅客",
+      "vi. 经营；进展；遭遇"
+    ]
+  },
+  {
+    "name": "armchair",
+    "trans": [
+      "n. 扶手椅；单人沙发",
+      "adj. 不切实际的"
+    ]
+  },
+  {
+    "name": "advanced",
+    "trans": [
+      "adj. 先进的；高级的；晚期的",
+      "v. 前进；增加"
+    ]
+  },
+  {
+    "name": "material",
+    "trans": [
+      "adj. 重要的；物质的，实质性的；肉体的",
+      "n. 材料，原料；物资；布料"
+    ]
+  },
+  {
+    "name": "jeans",
+    "trans": [
+      "n. 牛仔裤；工装裤"
+    ]
+  },
+  {
+    "name": "trolley",
+    "trans": [
+      "n. 手推车；空中吊运车",
+      "vt. 用手推车运",
+      "vi. 乘电车"
+    ]
+  },
+  {
+    "name": "sightseeing",
+    "trans": [
+      "n. 观光；游览",
+      "v. 观光（sightsee的ing形式）；游览",
+      "adj. 观光的；游览的"
+    ]
+  },
+  {
+    "name": "post office",
+    "trans": [
+      "n. 邮局；邮政部门；邮政系统"
+    ]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "n. 租金",
+      "vt. 出租；租用；租借",
+      "vi. 租；出租"
+    ]
+  },
+  {
+    "name": "sports centre",
+    "trans": [
+      "n. 体育中心"
+    ]
+  },
+  {
+    "name": "Monday",
+    "trans": [
+      "n. 星期一"
+    ]
+  },
+  {
+    "name": "Sunday",
+    "trans": [
+      "n. 星期日；礼拜日",
+      "adj. 星期日的"
+    ]
+  },
+  {
+    "name": "rail",
+    "trans": [
+      "n. 铁轨；扶手；横杆",
+      "vt. 铺铁轨；以横木围栏",
+      "vi. 抱怨；责骂"
+    ]
+  },
+  {
+    "name": "stair lift",
+    "trans": [
+      "n. 电梯"
+    ]
+  },
+  {
+    "name": "seat",
+    "trans": [
+      "n. 座；座部；位子",
+      "vt. 使坐下；可容纳",
+      "vi. 坐"
+    ]
+  },
+  {
+    "name": "living room",
+    "trans": [
+      "n. 客厅；起居室"
+    ]
+  },
+  {
+    "name": "bathroom",
+    "trans": [
+      "n. 浴室；盥洗室；卫生间"
+    ]
+  },
+  {
+    "name": "kitchen",
+    "trans": [
+      "n. 厨房；炊具；炊事人员"
+    ]
+  },
+  {
+    "name": "washing machine",
+    "trans": [
+      "n. 洗衣机"
+    ]
+  },
+  {
+    "name": "video",
+    "trans": [
+      "n. 视频；录像，录像机；电视",
+      "adj. 视频的；录像的；电视的",
+      "v. 录制"
+    ]
+  },
+  {
+    "name": "basin",
+    "trans": [
+      "n. 盆，脸盆；盆地，流域；海盆，湖盆"
+    ]
+  },
+  {
+    "name": "campus",
+    "trans": [
+      "n. （大学）校园；大学，大学生活；校园内的草地"
+    ]
+  },
+  {
+    "name": "balcony",
+    "trans": [
+      "n. 阳台；包厢；戏院楼厅"
+    ]
+  },
+  {
+    "name": "lamp",
+    "trans": [
+      "n. 灯；照射器",
+      "vt. 照亮",
+      "vi. 发亮"
+    ]
+  },
+  {
+    "name": "survey",
+    "trans": [
+      "n. 调查；测量；审视",
+      "vt. 调查；勘测；俯瞰",
+      "vi. 测量土地"
+    ]
+  },
+  {
+    "name": "community",
+    "trans": [
+      "n. 社区，社会；团体，界；共同体，共同性"
+    ]
+  },
+  {
+    "name": "dissatisfaction",
+    "trans": [
+      "n. 不满；不满意"
+    ]
+  },
+  {
+    "name": "quality",
+    "trans": [
+      "n. 质量， 品质；特性；才能",
+      "adj. 优质的；高品质的；棒极了"
+    ]
+  },
+  {
+    "name": "local",
+    "trans": [
+      "n. 局部；当地居民；本地新闻",
+      "adj. 当地的；局部的；地方性的"
+    ]
+  },
+  {
+    "name": "swimming pool",
+    "trans": [
+      "n. 游泳池；游泳场；游泳馆"
+    ]
+  },
+  {
+    "name": "bedsheet",
+    "trans": [
+      "n. 床单"
+    ]
+  },
+  {
+    "name": "carpet",
+    "trans": [
+      "n. 地毯；覆盖地面的一层厚东西",
+      "vt. 给......铺地毯",
+      "v. 训斥；责骂"
+    ]
+  },
+  {
+    "name": "Thursday",
+    "trans": [
+      "n. 星期四"
+    ]
+  },
+  {
+    "name": "iron",
+    "trans": [
+      "n. 铁；烙铁；熨斗",
+      "adj. 铁制的；坚强的",
+      "v. 熨烫；烫平"
+    ]
+  },
+  {
+    "name": "suburb",
+    "trans": [
+      "n. 郊区；市郊；城郊"
+    ]
+  },
+  {
+    "name": "exterior",
+    "trans": [
+      "n. 外部；表面；外型",
+      "adj. 外部的；表面的；外在的"
+    ]
+  },
+  {
+    "name": "setting",
+    "trans": [
+      "n. 环境；背景；（日月的）沉落",
+      "v. 设置；放；“set”的现在分词"
+    ]
+  },
+  {
+    "name": "ceremony",
+    "trans": [
+      "n. 典礼，仪式；礼节，礼仪；客套，虚礼"
+    ]
+  },
+  {
+    "name": "consult",
+    "trans": [
+      "vi. 请教；商议；当顾问",
+      "vt. 查阅；商量；向…请教"
+    ]
+  },
+  {
+    "name": "premium",
+    "trans": [
+      "n. 额外费用；奖金；保险费",
+      "adj. 高价的；优质的"
+    ]
+  },
+  {
+    "name": "apply",
+    "trans": [
+      "vi. 申请；涂，敷；适用",
+      "vt. 申请；涂，敷；应用"
+    ]
+  },
+  {
+    "name": "brochure",
+    "trans": [
+      "n. 小册子；手册；指南"
+    ]
+  },
+  {
+    "name": "reception",
+    "trans": [
+      "n. 接待，招待；接收，接受；招待会，欢迎会"
+    ]
+  },
+  {
+    "name": "annual",
+    "trans": [
+      "adj. 每年的；年度的；一年生的",
+      "n. 年报；年刊；年鉴"
+    ]
+  },
+  {
+    "name": "guard",
+    "trans": [
+      "n. 守卫；警戒；护卫队",
+      "vi. 警惕",
+      "vt. 保卫；监视"
+    ]
+  },
+  {
+    "name": "poster",
+    "trans": [
+      "n. 海报；招贴；布告"
+    ]
+  },
+  {
+    "name": "health check",
+    "trans": [
+      "n. 健康检查"
+    ]
+  },
+  {
+    "name": "petrol",
+    "trans": [
+      "n. 汽油"
+    ]
+  },
+  {
+    "name": "literacy",
+    "trans": [
+      "n. 有文化；有教养；有读写能力"
+    ]
+  },
+  {
+    "name": "comedy",
+    "trans": [
+      "n. 喜剧，喜剧作品；滑稽，幽默；喜剧性事物，有趣的情况"
+    ]
+  },
+  {
+    "name": "lounge",
+    "trans": [
+      "n. 休息室；闲逛；躺椅",
+      "vi. 闲逛；懒洋洋地躺卧；闲混",
+      "vt. 虚度光阴"
+    ]
+  },
+  {
+    "name": "Spanish",
+    "trans": [
+      "n. 西班牙语；西班牙人",
+      "adj. 西班牙的；西班牙人的；西班牙语的"
+    ]
+  },
+  {
+    "name": "yoga",
+    "trans": [
+      "n. （印度）瑜伽；瑜伽术；瑜伽派"
+    ]
+  },
+  {
+    "name": "headache",
+    "trans": [
+      "n. 头痛；麻烦；令人头痛之事"
+    ]
+  },
+  {
+    "name": "burglar",
+    "trans": [
+      "n. 窃贼；破门盗窃者；夜盗"
+    ]
+  },
+  {
+    "name": "goods",
+    "trans": [
+      "n. 商品；动产；合意的人"
+    ]
+  }
 ]

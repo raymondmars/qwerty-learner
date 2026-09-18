@@ -1,2770 +1,3057 @@
 [
-    {
-        "name": "abnormal",
-        "trans": [
-            "不正常的"
-        ],
-        "usphone": "æbˈnɔːml",
-        "ukphone": "æbˈnɔːrml"
-    },
-    {
-        "name": "academic",
-        "trans": [
-            "学术的"
-        ],
-        "usphone": "ˌækəˈdemɪk",
-        "ukphone": "ˌækəˈdemɪk"
-    },
-    {
-        "name": "accessible",
-        "trans": [
-            "可接近的"
-        ],
-        "usphone": "əkˈsesəbl",
-        "ukphone": "əkˈsesəbl"
-    },
-    {
-        "name": "accountable",
-        "trans": [
-            "负有责任的"
-        ],
-        "usphone": "əˈkaʊntəbl",
-        "ukphone": "əˈkaʊntəbl"
-    },
-    {
-        "name": "accurate",
-        "trans": [
-            "正确无误的"
-        ],
-        "usphone": "ˈækjərət",
-        "ukphone": "ˈækjərət"
-    },
-    {
-        "name": "additional",
-        "trans": [
-            "额外的"
-        ],
-        "usphone": "əˈdɪʃənl",
-        "ukphone": "əˈdɪʃənl"
-    },
-    {
-        "name": "adequate",
-        "trans": [
-            "充足的；令人满 意的"
-        ],
-        "usphone": "ˈædɪkwət",
-        "ukphone": "ˈædɪkwət"
-    },
-    {
-        "name": "advanced",
-        "trans": [
-            "高级的，先进的"
-        ],
-        "usphone": "əd'vænst",
-        "ukphone": "əd'vænst"
-    },
-    {
-        "name": "advisable",
-        "trans": [
-            "明智的"
-        ],
-        "usphone": "ədˈvaɪzəbl",
-        "ukphone": "ədˈvaɪzəbl"
-    },
-    {
-        "name": "allergic",
-        "trans": [
-            "过敏的"
-        ],
-        "usphone": "əˈlɜːdʒɪk",
-        "ukphone": "əˈlɜːrdʒɪk"
-    },
-    {
-        "name": "alternative",
-        "trans": [
-            "可选择的"
-        ],
-        "usphone": "ɔːlˈtɜːnətɪv",
-        "ukphone": "ɔːlˈtɜːrnətɪv"
-    },
-    {
-        "name": "amazing",
-        "trans": [
-            "令人惊讶的"
-        ],
-        "usphone": "əˈmeɪzɪŋ",
-        "ukphone": "əˈmeɪzɪŋ"
-    },
-    {
-        "name": "ambiguous",
-        "trans": [
-            "有歧义的"
-        ],
-        "usphone": "æmˈbɪɡjuəs",
-        "ukphone": "æmˈbɪɡjuəs"
-    },
-    {
-        "name": "ambitious",
-        "trans": [
-            "极富野心的"
-        ],
-        "usphone": "æmˈbɪʃəs",
-        "ukphone": "æmˈbɪʃəs"
-    },
-    {
-        "name": "analytical",
-        "trans": [
-            "分析的"
-        ],
-        "usphone": "ˌænəˈlɪtɪkl",
-        "ukphone": "ˌænəˈlɪtɪkl"
-    },
-    {
-        "name": "ancient",
-        "trans": [
-            "古代的"
-        ],
-        "usphone": "ˈeɪnʃənt",
-        "ukphone": "ˈeɪnʃənt"
-    },
-    {
-        "name": "angry",
-        "trans": [
-            "气愤的，生气的"
-        ],
-        "usphone": "ˈæŋɡri",
-        "ukphone": "ˈæŋɡri"
-    },
-    {
-        "name": "applied",
-        "trans": [
-            "应用的"
-        ],
-        "usphone": "əˈplaɪd",
-        "ukphone": "əˈplaɪd"
-    },
-    {
-        "name": "archaeological",
-        "trans": [
-            "考古学的"
-        ],
-        "usphone": "ˌɑrkiːəˈlɑdʒɪkəl",
-        "ukphone": "ˌɑːrkiːəˈlɒdʒɪkəl"
-    },
-    {
-        "name": "artificial",
-        "trans": [
-            "人工的"
-        ],
-        "usphone": "ˌɑːtɪˈfɪʃl",
-        "ukphone": "ˌɑːrtɪˈfɪʃl"
-    },
-    {
-        "name": "artistic",
-        "trans": [
-            "艺术的"
-        ],
-        "usphone": "ɑːˈtɪstɪk",
-        "ukphone": "ɑːrˈtɪstɪk"
-    },
-    {
-        "name": "ascending",
-        "trans": [
-            "上升的"
-        ],
-        "usphone": "ə'sɛndɪŋ",
-        "ukphone": "ə'sendiŋ"
-    },
-    {
-        "name": "atmospheric",
-        "trans": [
-            "大气的"
-        ],
-        "usphone": "ˌætməsˈferɪk",
-        "ukphone": "ˌætməsˈferɪk"
-    },
-    {
-        "name": "attentive",
-        "trans": [
-            "注意的"
-        ],
-        "usphone": "əˈtentɪv",
-        "ukphone": "əˈtentɪv"
-    },
-    {
-        "name": "audio",
-        "trans": [
-            "声音的"
-        ],
-        "usphone": "ˈɔːdiəʊ",
-        "ukphone": "ˈɔːdioʊ"
-    },
-    {
-        "name": "available",
-        "trans": [
-            "可获得的，有时间的"
-        ],
-        "usphone": "əˈveɪləbl",
-        "ukphone": "əˈveɪləbl"
-    },
-    {
-        "name": "aware",
-        "trans": [
-            "意识到的"
-        ],
-        "usphone": "əˈweə",
-        "ukphone": "əˈwer"
-    },
-    {
-        "name": "awful",
-        "trans": [
-            "可怕的"
-        ],
-        "usphone": "ˈɔːfl",
-        "ukphone": "ˈɔːfl"
-    },
-    {
-        "name": "auto",
-        "trans": [
-            "自动的"
-        ],
-        "usphone": "ˈɔːtəʊ",
-        "ukphone": "ˈɔːtoʊ"
-    },
-    {
-        "name": "bald",
-        "trans": [
-            "光秃的"
-        ],
-        "usphone": "bɔːld",
-        "ukphone": "bɔːld"
-    },
-    {
-        "name": "barren",
-        "trans": [
-            "贫瘠的"
-        ],
-        "usphone": "ˈbærən",
-        "ukphone": "ˈbærən"
-    },
-    {
-        "name": "basic",
-        "trans": [
-            "基础的"
-        ],
-        "usphone": "ˈbeɪsɪk",
-        "ukphone": "ˈbeɪsɪk"
-    },
-    {
-        "name": "beautiful",
-        "trans": [
-            "美丽的"
-        ],
-        "usphone": "ˈbjuːtɪfl",
-        "ukphone": "ˈbjuːtɪfl"
-    },
-    {
-        "name": "biological",
-        "trans": [
-            "生物的"
-        ],
-        "usphone": "ˌbaɪəˈlɒdʒɪkl",
-        "ukphone": "ˌbaɪəˈlɑːdʒɪkl"
-    },
-    {
-        "name": "blind",
-        "trans": [
-            "盲的"
-        ],
-        "usphone": "blaɪnd",
-        "ukphone": "blaɪnd"
-    },
-    {
-        "name": "blond",
-        "trans": [
-            "金发的"
-        ],
-        "usphone": "blɒnd",
-        "ukphone": "blɑːnd"
-    },
-    {
-        "name": "British",
-        "trans": [
-            "英国的"
-        ],
-        "usphone": "'brɪtɪʃ",
-        "ukphone": "'brɪtɪʃ"
-    },
-    {
-        "name": "broad",
-        "trans": [
-            "广泛的"
-        ],
-        "usphone": "brɔːd",
-        "ukphone": "brɔːd"
-    },
-    {
-        "name": "buried",
-        "trans": [
-            "埋藏的"
-        ],
-        "usphone": "ˈberid",
-        "ukphone": "ˈberid"
-    },
-    {
-        "name": "calculating",
-        "trans": [
-            "计算的"
-        ],
-        "usphone": "ˈkælkjuleɪtɪŋ",
-        "ukphone": "ˈkælkjuleɪtɪŋ"
-    },
-    {
-        "name": "casual",
-        "trans": [
-            "随便的"
-        ],
-        "usphone": "ˈkæʒuəl",
-        "ukphone": "ˈkæʒuəl"
-    },
-    {
-        "name": "central",
-        "trans": [
-            "中央的"
-        ],
-        "usphone": "ˈsentrəl",
-        "ukphone": "ˈsentrəl"
-    },
-    {
-        "name": "challenging",
-        "trans": [
-            "挑战的"
-        ],
-        "usphone": "ˈtʃælɪndʒɪŋ",
-        "ukphone": "ˈtʃælɪndʒɪŋ"
-    },
-    {
-        "name": "cheaper",
-        "trans": [
-            "便宜些的"
-        ],
-        "usphone": "ˈtʃiːpə",
-        "ukphone": "ˈtʃipər"
-    },
-    {
-        "name": "cheerful",
-        "trans": [
-            "高兴的"
-        ],
-        "usphone": "ˈtʃɪəfl",
-        "ukphone": "ˈtʃɪrfl"
-    },
-    {
-        "name": "children's",
-        "trans": [
-            "儿童的"
-        ],
-        "usphone": "ˈtʃɪldrənz",
-        "ukphone": "ˈtʃɪldrənz"
-    },
-    {
-        "name": "classical",
-        "trans": [
-            "古典的"
-        ],
-        "usphone": "ˈklæsɪkl",
-        "ukphone": "ˈklæsɪkl"
-    },
-    {
-        "name": "clean",
-        "trans": [
-            "干净的"
-        ],
-        "usphone": "kliːn",
-        "ukphone": "kliːn"
-    },
-    {
-        "name": "cleanest",
-        "trans": [
-            "最干净的"
-        ],
-        "usphone": "kliːnist",
-        "ukphone": "kliːnist"
-    },
-    {
-        "name": "clear",
-        "trans": [
-            "清楚的"
-        ],
-        "usphone": "klɪə",
-        "ukphone": "klɪr"
-    },
-    {
-        "name": "clever",
-        "trans": [
-            "聪明的"
-        ],
-        "usphone": "ˈklevə",
-        "ukphone": "ˈklevər"
-    },
-    {
-        "name": "coastal",
-        "trans": [
-            "海边的"
-        ],
-        "usphone": "ˈkəʊstl",
-        "ukphone": "ˈkoʊstl"
-    },
-    {
-        "name": "comfortable",
-        "trans": [
-            "舒适的"
-        ],
-        "usphone": "ˈkʌmftəbl",
-        "ukphone": "ˈkʌmftəbl"
-    },
-    {
-        "name": "common",
-        "trans": [
-            "普通的"
-        ],
-        "usphone": "ˈkɒmən",
-        "ukphone": "ˈkɑːmən"
-    },
-    {
-        "name": "commonsense",
-        "trans": [
-            "有常识的"
-        ],
-        "usphone": "ˈkɑmənˌsɛns",
-        "ukphone": "ˈkɒmənˌsɛns"
-    },
-    {
-        "name": "complete",
-        "trans": [
-            "完全的"
-        ],
-        "usphone": "kəmˈpliːt",
-        "ukphone": "kəmˈpliːt"
-    },
-    {
-        "name": "completed",
-        "trans": [
-            "完成的"
-        ],
-        "usphone": "kəmˈpliːtɪd",
-        "ukphone": "kəmˈpliːtɪd"
-    },
-    {
-        "name": "confident",
-        "trans": [
-            "自信的"
-        ],
-        "usphone": "ˈkɒnfɪdənt",
-        "ukphone": "ˈkɑːnfɪdənt"
-    },
-    {
-        "name": "conservative",
-        "trans": [
-            "保守的"
-        ],
-        "usphone": "kənˈsɜːvətɪv",
-        "ukphone": "kənˈsɜːrvətɪv"
-    },
-    {
-        "name": "convenient",
-        "trans": [
-            "方便的"
-        ],
-        "usphone": "kənˈviːniənt",
-        "ukphone": "kənˈviːniənt"
-    },
-    {
-        "name": "co-operative",
-        "trans": [
-            "合作的(=cooperative)"
-        ],
-        "usphone": "ˈkoʊˌɑpəˌreɪtɪv",
-        "ukphone": "ˈkəʊˌɒpərətɪv"
-    },
-    {
-        "name": "corrupt",
-        "trans": [
-            "腐败的"
-        ],
-        "usphone": "kəˈrʌpt",
-        "ukphone": "kəˈrʌpt"
-    },
-    {
-        "name": "costly",
-        "trans": [
-            "昂贵的，费钱的"
-        ],
-        "usphone": "ˈkɒstli",
-        "ukphone": "ˈkɔːstli"
-    },
-    {
-        "name": "cream",
-        "trans": [
-            "奶油色的"
-        ],
-        "usphone": "kriːm",
-        "ukphone": "kriːm"
-    },
-    {
-        "name": "critical",
-        "trans": [
-            "批评的"
-        ],
-        "usphone": "ˈkrɪtɪkl",
-        "ukphone": "ˈkrɪtɪkl"
-    },
-    {
-        "name": "crucial",
-        "trans": [
-            "至关重要的，决定性的"
-        ],
-        "usphone": "ˈkruːʃl",
-        "ukphone": "ˈkruːʃl"
-    },
-    {
-        "name": "cultural",
-        "trans": [
-            "文化的"
-        ],
-        "usphone": "ˈkʌltʃərəl",
-        "ukphone": "ˈkʌltʃərəl"
-    },
-    {
-        "name": "curly",
-        "trans": [
-            "卷发的"
-        ],
-        "usphone": "ˈkɜːli",
-        "ukphone": "ˈkɜːrli"
-    },
-    {
-        "name": "current",
-        "trans": [
-            "目前的"
-        ],
-        "usphone": "ˈkʌrənt",
-        "ukphone": "ˈkɜːrənt"
-    },
-    {
-        "name": "daily",
-        "trans": [
-            "每日的"
-        ],
-        "usphone": "ˈdeɪli",
-        "ukphone": "ˈdeɪli"
-    },
-    {
-        "name": "dairy",
-        "trans": [
-            "牛奶的"
-        ],
-        "usphone": "ˈdeəri",
-        "ukphone": "ˈderi"
-    },
-    {
-        "name": "dangerous",
-        "trans": [
-            "危险的"
-        ],
-        "usphone": "ˈdeɪndʒərəs",
-        "ukphone": "ˈdeɪndʒərəs"
-    },
-    {
-        "name": "dark",
-        "trans": [
-            "黑暗的，深色的"
-        ],
-        "usphone": "dɑːk",
-        "ukphone": "dɑːrk"
-    },
-    {
-        "name": "departmental",
-        "trans": [
-            "部门的"
-        ],
-        "usphone": "ˌdiːpɑːtˈmentl",
-        "ukphone": "ˌdiːpɑːrtˈmentl"
-    },
-    {
-        "name": "dependent",
-        "trans": [
-            "依赖的"
-        ],
-        "usphone": "dɪˈpendənt",
-        "ukphone": "dɪˈpendənt"
-    },
-    {
-        "name": "detailed",
-        "trans": [
-            "细节的"
-        ],
-        "usphone": "ˈdiːteɪld",
-        "ukphone": "ˈdiːteɪld"
-    },
-    {
-        "name": "different",
-        "trans": [
-            "不同的"
-        ],
-        "usphone": "ˈdɪfrənt",
-        "ukphone": "ˈdɪfrənt"
-    },
-    {
-        "name": "direct",
-        "trans": [
-            "直接的"
-        ],
-        "usphone": "dəˈrekt",
-        "ukphone": "dəˈrekt"
-    },
-    {
-        "name": "disabled",
-        "trans": [
-            "肢体有残疾的"
-        ],
-        "usphone": "dɪsˈeɪbld",
-        "ukphone": "dɪsˈeɪbld"
-    },
-    {
-        "name": "distant",
-        "trans": [
-            "远的"
-        ],
-        "usphone": "ˈdɪstənt",
-        "ukphone": "ˈdɪstənt"
-    },
-    {
-        "name": "distinct",
-        "trans": [
-            "明显的"
-        ],
-        "usphone": "dɪˈstɪŋkt",
-        "ukphone": "dɪˈstɪŋkt"
-    },
-    {
-        "name": "domestic",
-        "trans": [
-            "国内的，家里的，内部的"
-        ],
-        "usphone": "dəˈmestɪk",
-        "ukphone": "dəˈmestɪk"
-    },
-    {
-        "name": "dominant",
-        "trans": [
-            "最主要的"
-        ],
-        "usphone": "ˈdɒmɪnənt",
-        "ukphone": "ˈdɑːmɪnənt"
-    },
-    {
-        "name": "eastern",
-        "trans": [
-            "东方的，东部的"
-        ],
-        "usphone": "ˈiːstən",
-        "ukphone": "ˈiːstərn"
-    },
-    {
-        "name": "economic",
-        "trans": [
-            "经济的"
-        ],
-        "usphone": "ˌiːkəˈnɒmɪk",
-        "ukphone": "ˌiːkəˈnɑːmɪk"
-    },
-    {
-        "name": "educational",
-        "trans": [
-            "教育的"
-        ],
-        "usphone": "ˌedʒuˈkeɪʃənl",
-        "ukphone": "ˌedʒuˈkeɪʃənl"
-    },
-    {
-        "name": "effective",
-        "trans": [
-            "有效的"
-        ],
-        "usphone": "ɪˈfektɪv",
-        "ukphone": "ɪˈfektɪv"
-    },
-    {
-        "name": "efficient",
-        "trans": [
-            "有效率的"
-        ],
-        "usphone": "ɪˈfɪʃnt",
-        "ukphone": "ɪˈfɪʃnt"
-    },
-    {
-        "name": "elementary",
-        "trans": [
-            "初级的"
-        ],
-        "usphone": "ˌelɪˈmentri",
-        "ukphone": "ˌelɪˈmentri"
-    },
-    {
-        "name": "empty",
-        "trans": [
-            "空的"
-        ],
-        "usphone": "ˈempti",
-        "ukphone": "ˈempti"
-    },
-    {
-        "name": "enormous",
-        "trans": [
-            "广泛的，大的"
-        ],
-        "usphone": "ɪˈnɔːməs",
-        "ukphone": "ɪˈnɔːrməs"
-    },
-    {
-        "name": "enthusiastic",
-        "trans": [
-            "热情的"
-        ],
-        "usphone": "ɪnˌθjuːziˈæstɪk",
-        "ukphone": "ɪnˌθuːziˈæstɪk"
-    },
-    {
-        "name": "environmental",
-        "trans": [
-            "环境的"
-        ],
-        "usphone": "ɪnˌvaɪrənˈmentl",
-        "ukphone": "ɪnˌvaɪrənˈmentl"
-    },
-    {
-        "name": "essential",
-        "trans": [
-            "基本的"
-        ],
-        "usphone": "ɪˈsenʃl",
-        "ukphone": "ɪˈsenʃl"
-    },
-    {
-        "name": "excited",
-        "trans": [
-            "兴奋的"
-        ],
-        "usphone": "ɪkˈsaɪtɪd",
-        "ukphone": "ɪkˈsaɪtɪd"
-    },
-    {
-        "name": "exciting",
-        "trans": [
-            "令人兴奋的"
-        ],
-        "usphone": "ɪkˈsaɪtɪŋ",
-        "ukphone": "ɪkˈsaɪtɪŋ"
-    },
-    {
-        "name": "existent",
-        "trans": [
-            "存在的"
-        ],
-        "usphone": "ɪɡˈzɪstənt",
-        "ukphone": "ɪɡˈzɪstənt"
-    },
-    {
-        "name": "expensive",
-        "trans": [
-            "昂贵的"
-        ],
-        "usphone": "ɪkˈspensɪv",
-        "ukphone": "ɪkˈspensɪv"
-    },
-    {
-        "name": "experienced",
-        "trans": [
-            "有经验的"
-        ],
-        "usphone": "ɪkˈspɪəriənst",
-        "ukphone": "ɪkˈspɪriənst"
-    },
-    {
-        "name": "experimental",
-        "trans": [
-            "实验的"
-        ],
-        "usphone": "ɪkˌsperɪˈmentl",
-        "ukphone": "ɪkˌsperɪˈmentl"
-    },
-    {
-        "name": "extensive",
-        "trans": [
-            "广泛的"
-        ],
-        "usphone": "ɪkˈstensɪv",
-        "ukphone": "ɪkˈstensɪv"
-    },
-    {
-        "name": "extra",
-        "trans": [
-            "额外的"
-        ],
-        "usphone": "ˈekstrə",
-        "ukphone": "ˈekstrə"
-    },
-    {
-        "name": "fair",
-        "trans": [
-            "美丽的；公平的"
-        ],
-        "usphone": "feə",
-        "ukphone": "fer"
-    },
-    {
-        "name": "fake",
-        "trans": [
-            "假的，伪造的"
-        ],
-        "usphone": "feɪk",
-        "ukphone": "feɪk"
-    },
-    {
-        "name": "famed",
-        "trans": [
-            "著名的"
-        ],
-        "usphone": "feɪmd",
-        "ukphone": "feɪmd"
-    },
-    {
-        "name": "familiar",
-        "trans": [
-            "熟悉的"
-        ],
-        "usphone": "fəˈmɪliə",
-        "ukphone": "fəˈmɪliər"
-    },
-    {
-        "name": "famous",
-        "trans": [
-            "著名的"
-        ],
-        "usphone": "ˈfeɪməs",
-        "ukphone": "ˈfeɪməs"
-    },
-    {
-        "name": "fancy",
-        "trans": [
-            "奇怪的"
-        ],
-        "usphone": "ˈfænsi",
-        "ukphone": "ˈfænsi"
-    },
-    {
-        "name": "fashionable",
-        "trans": [
-            "流行的，时髦的"
-        ],
-        "usphone": "ˈfæʃnəbl",
-        "ukphone": "ˈfæʃnəbl"
-    },
-    {
-        "name": "favourite",
-        "trans": [
-            "最喜爱的"
-        ],
-        "usphone": "ˈfeɪvərɪt",
-        "ukphone": "ˈfeɪvərɪt"
-    },
-    {
-        "name": "final",
-        "trans": [
-            "最后的"
-        ],
-        "usphone": "ˈfaɪnl",
-        "ukphone": "ˈfaɪnl"
-    },
-    {
-        "name": "financial",
-        "trans": [
-            "金融的"
-        ],
-        "usphone": "faɪˈnænʃl",
-        "ukphone": "faɪˈnænʃl"
-    },
-    {
-        "name": "fine",
-        "trans": [
-            "好的"
-        ],
-        "usphone": "faɪn",
-        "ukphone": "faɪn"
-    },
-    {
-        "name": "firm",
-        "trans": [
-            "坚实的"
-        ],
-        "usphone": "fɜːm",
-        "ukphone": "fɜːrm"
-    },
-    {
-        "name": "flexible",
-        "trans": [
-            "灵活的"
-        ],
-        "usphone": "ˈfleksəbl",
-        "ukphone": "ˈfleksəbl"
-    },
-    {
-        "name": "foreign",
-        "trans": [
-            "国外的"
-        ],
-        "usphone": "ˈfɒrən",
-        "ukphone": "ˈfɔːrən"
-    },
-    {
-        "name": "formal",
-        "trans": [
-            "正式的"
-        ],
-        "usphone": "ˈfɔːml",
-        "ukphone": "ˈfɔːrml"
-    },
-    {
-        "name": "former",
-        "trans": [
-            "以前的"
-        ],
-        "usphone": "ˈfɔːmə",
-        "ukphone": "ˈfɔːrmər"
-    },
-    {
-        "name": "free",
-        "trans": [
-            "自由的"
-        ],
-        "usphone": "friː",
-        "ukphone": "friː"
-    },
-    {
-        "name": "frequent",
-        "trans": [
-            "经常的，频繁的"
-        ],
-        "usphone": "ˈfriːkwənt , friˈkwent",
-        "ukphone": "ˈfriːkwənt , friˈkwent"
-    },
-    {
-        "name": "fundamental",
-        "trans": [
-            "基本的，基础的"
-        ],
-        "usphone": "ˌfʌndəˈmentl",
-        "ukphone": "ˌfʌndəˈmentl"
-    },
-    {
-        "name": "further",
-        "trans": [
-            "进一步的"
-        ],
-        "usphone": "ˈfɜːðə",
-        "ukphone": "ˈfɜːrðər"
-    },
-    {
-        "name": "general",
-        "trans": [
-            "普通的，笼统的"
-        ],
-        "usphone": "ˈdʒenrəl",
-        "ukphone": "ˈdʒenrəl"
-    },
-    {
-        "name": "genetic",
-        "trans": [
-            "遗传的"
-        ],
-        "usphone": "dʒəˈnetɪk",
-        "ukphone": "dʒəˈnetɪk"
-    },
-    {
-        "name": "geographical",
-        "trans": [
-            "地理学的"
-        ],
-        "usphone": "ˌdʒiːəˈɡræfɪkl",
-        "ukphone": "ˌdʒiːəˈɡræfɪkl"
-    },
-    {
-        "name": "global",
-        "trans": [
-            "全球的，整体的"
-        ],
-        "usphone": "ˈɡləʊbl",
-        "ukphone": "ˈɡloʊbl"
-    },
-    {
-        "name": "handy",
-        "trans": [
-            "方便的"
-        ],
-        "usphone": "ˈhændi",
-        "ukphone": "ˈhændi"
-    },
-    {
-        "name": "harmful",
-        "trans": [
-            "有害的"
-        ],
-        "usphone": "ˈhɑːmfl",
-        "ukphone": "ˈhɑːrmfl"
-    },
-    {
-        "name": "hazardous",
-        "trans": [
-            "冒险的，危险的"
-        ],
-        "usphone": "ˈhæzədəs",
-        "ukphone": "ˈhæzərdəs"
-    },
-    {
-        "name": "healthy",
-        "trans": [
-            "健康的"
-        ],
-        "usphone": "ˈhelθi",
-        "ukphone": "ˈhelθi"
-    },
-    {
-        "name": "heavier",
-        "trans": [
-            "更沉重的"
-        ],
-        "usphone": "ˈhevɪə",
-        "ukphone": "ˈheviər"
-    },
-    {
-        "name": "heavy",
-        "trans": [
-            "重的"
-        ],
-        "usphone": "ˈhevi",
-        "ukphone": "ˈhevi"
-    },
-    {
-        "name": "helpful",
-        "trans": [
-            "有用的"
-        ],
-        "usphone": "ˈhelpfl",
-        "ukphone": "ˈhelpfl"
-    },
-    {
-        "name": "herbivorous",
-        "trans": [
-            "食草的"
-        ],
-        "usphone": "hɜ:'bɪvərəs",
-        "ukphone": "həˈbɪvərəs,ə-"
-    },
-    {
-        "name": "higher",
-        "trans": [
-            "更高的"
-        ],
-        "usphone": "ˈhaɪə",
-        "ukphone": "ˈhaɪər"
-    },
-    {
-        "name": "highly-trained",
-        "trans": [
-            "高度训练的"
-        ],
-        "usphone": "ˈhaɪliˌtreɪnd",
-        "ukphone": "ˈhaɪliˌtreɪnd"
-    },
-    {
-        "name": "historical",
-        "trans": [
-            "历史的"
-        ],
-        "usphone": "hɪˈstɒrɪkl",
-        "ukphone": "hɪˈstɔːrɪkl"
-    },
-    {
-        "name": "least",
-        "trans": [
-            "最少的，最小的"
-        ],
-        "usphone": "liːst",
-        "ukphone": "liːst"
-    },
-    {
-        "name": "ill",
-        "trans": [
-            "生病的"
-        ],
-        "usphone": "ɪl",
-        "ukphone": "ɪl"
-    },
-    {
-        "name": "illegal",
-        "trans": [
-            "非法的"
-        ],
-        "usphone": "ɪˈliːɡl",
-        "ukphone": "ɪˈliːɡl"
-    },
-    {
-        "name": "immune",
-        "trans": [
-            "免疫的"
-        ],
-        "usphone": "ɪˈmjuːn",
-        "ukphone": "ɪˈmjuːn"
-    },
-    {
-        "name": "important",
-        "trans": [
-            "重要的"
-        ],
-        "usphone": "ɪmˈpɔːtnt",
-        "ukphone": "ɪmˈpɔːrtnt"
-    },
-    {
-        "name": "impossible",
-        "trans": [
-            "不可能的"
-        ],
-        "usphone": "ɪmˈpɒsəbl",
-        "ukphone": "ɪmˈpɑːsəbl"
-    },
-    {
-        "name": "inaccurate",
-        "trans": [
-            "不准确的"
-        ],
-        "usphone": "ɪn'ækjərət",
-        "ukphone": "ɪn'ækjʊrət"
-    },
-    {
-        "name": "inadequate",
-        "trans": [
-            "不足的"
-        ],
-        "usphone": "ɪnˈædɪkwət",
-        "ukphone": "ɪnˈædɪkwət"
-    },
-    {
-        "name": "individual",
-        "trans": [
-            "个人的"
-        ],
-        "usphone": "ˌɪndɪˈvɪdʒuəl",
-        "ukphone": "ˌɪndɪˈvɪdʒuəl"
-    },
-    {
-        "name": "industrial",
-        "trans": [
-            "工业的"
-        ],
-        "usphone": "ɪnˈdʌstriəl",
-        "ukphone": "ɪnˈdʌstriəl"
-    },
-    {
-        "name": "informative",
-        "trans": [
-            "通知的，有信息的"
-        ],
-        "usphone": "ɪnˈfɔːmətɪv",
-        "ukphone": "ɪnˈfɔːrmətɪv"
-    },
-    {
-        "name": "initial",
-        "trans": [
-            "最初的"
-        ],
-        "usphone": "ɪˈnɪʃl",
-        "ukphone": "ɪˈnɪʃl"
-    },
-    {
-        "name": "inspiring",
-        "trans": [
-            "鼓舞人心的"
-        ],
-        "usphone": "ɪnˈspaɪərɪŋ",
-        "ukphone": "ɪnˈspaɪərɪŋ"
-    },
-    {
-        "name": "intact",
-        "trans": [
-            "完好无损的"
-        ],
-        "usphone": "ɪnˈtækt",
-        "ukphone": "ɪnˈtækt"
-    },
-    {
-        "name": "intelligent",
-        "trans": [
-            "智力的"
-        ],
-        "usphone": "ɪnˈtelɪdʒənt",
-        "ukphone": "ɪnˈtelɪdʒənt"
-    },
-    {
-        "name": "intensive",
-        "trans": [
-            "强化的"
-        ],
-        "usphone": "ɪnˈtensɪv",
-        "ukphone": "ɪnˈtensɪv"
-    },
-    {
-        "name": "interesting",
-        "trans": [
-            "有趣的"
-        ],
-        "usphone": "'ɪntrəstɪŋ",
-        "ukphone": "ˈɪntrəstɪŋ"
-    },
-    {
-        "name": "intermediate",
-        "trans": [
-            "中级的"
-        ],
-        "usphone": "ˌɪntəˈmiːdiət",
-        "ukphone": "ˌɪntərˈmiːdiət"
-    },
-    {
-        "name": "internal",
-        "trans": [
-            "内部的"
-        ],
-        "usphone": "ɪnˈtɜːnl",
-        "ukphone": "ɪnˈtɜːrnl"
-    },
-    {
-        "name": "international",
-        "trans": [
-            "国际的"
-        ],
-        "usphone": "ˌɪntəˈnæʃnəl",
-        "ukphone": "ˌɪntərˈnæʃnəl"
-    },
-    {
-        "name": "irregular",
-        "trans": [
-            "不规则的"
-        ],
-        "usphone": "ɪˈreɡjələ",
-        "ukphone": "ɪˈreɡjələr"
-    },
-    {
-        "name": "irritable",
-        "trans": [
-            "易怒的"
-        ],
-        "usphone": "ˈɪrɪtəbl",
-        "ukphone": "ˈɪrɪtəbl"
-    },
-    {
-        "name": "isolated",
-        "trans": [
-            "与世隔绝的"
-        ],
-        "usphone": "ˈaɪsəleɪtɪd",
-        "ukphone": "ˈaɪsəleɪtɪd"
-    },
-    {
-        "name": "key",
-        "trans": [
-            "重点的，关键的"
-        ],
-        "usphone": "kiː",
-        "ukphone": "kiː"
-    },
-    {
-        "name": "latest",
-        "trans": [
-            "最新的"
-        ],
-        "usphone": "ˈleɪtɪst",
-        "ukphone": "ˈleɪtɪst"
-    },
-    {
-        "name": "legal",
-        "trans": [
-            "合法的"
-        ],
-        "usphone": "ˈliːɡl",
-        "ukphone": "ˈliːɡl"
-    },
-    {
-        "name": "little-known",
-        "trans": [
-            "不知名的，无名的"
-        ],
-        "usphone": "ˈlɪtəlˌnoʊn",
-        "ukphone": "ˈlɪtl̩ˌnəʊn"
-    },
-    {
-        "name": "loyal",
-        "trans": [
-            "忠诚的"
-        ],
-        "usphone": "ˈlɔɪəl",
-        "ukphone": "ˈlɔɪəl"
-    },
-    {
-        "name": "magic",
-        "trans": [
-            "魔术的"
-        ],
-        "usphone": "ˈmædʒɪk",
-        "ukphone": "ˈmædʒɪk"
-    },
-    {
-        "name": "magical",
-        "trans": [
-            "难以想象的，不可思议的"
-        ],
-        "usphone": "ˈmædʒɪkl",
-        "ukphone": "ˈmædʒɪkl"
-    },
-    {
-        "name": "magnificent",
-        "trans": [
-            "华丽的"
-        ],
-        "usphone": "mæɡˈnɪfɪsnt",
-        "ukphone": "mæɡˈnɪfɪsnt"
-    },
-    {
-        "name": "major",
-        "trans": [
-            "主要的"
-        ],
-        "usphone": "ˈmeɪdʒə",
-        "ukphone": "ˈmeɪdʒər"
-    },
-    {
-        "name": "martial",
-        "trans": [
-            "武术的"
-        ],
-        "usphone": "ˈmɑːʃl",
-        "ukphone": "ˈmɑːrʃl"
-    },
-    {
-        "name": "mature",
-        "trans": [
-            "成熟的"
-        ],
-        "usphone": "məˈtʃʊə",
-        "ukphone": "məˈtʃʊr"
-    },
-    {
-        "name": "medical",
-        "trans": [
-            "医疗的"
-        ],
-        "usphone": "ˈmedɪkl",
-        "ukphone": "ˈmedɪkl"
-    },
-    {
-        "name": "mental",
-        "trans": [
-            "精神的"
-        ],
-        "usphone": "ˈmentl",
-        "ukphone": "ˈmentl"
-    },
-    {
-        "name": "mid",
-        "trans": [
-            "中间的"
-        ],
-        "usphone": "mɪd",
-        "ukphone": "mɪd"
-    },
-    {
-        "name": "migratory",
-        "trans": [
-            "迁移的"
-        ],
-        "usphone": "ˈmaɪɡrətri",
-        "ukphone": "ˈmaɪɡrətɔːri"
-    },
-    {
-        "name": "military",
-        "trans": [
-            "军人的，军队的"
-        ],
-        "usphone": "ˈmɪlətri",
-        "ukphone": "ˈmɪləteri"
-    },
-    {
-        "name": "miserable",
-        "trans": [
-            "痛苦的"
-        ],
-        "usphone": "ˈmɪzrəbl",
-        "ukphone": "ˈmɪzrəbl"
-    },
-    {
-        "name": "mobile",
-        "trans": [
-            "运动的"
-        ],
-        "usphone": "ˈməʊbaɪl",
-        "ukphone": "ˈmoʊbl"
-    },
-    {
-        "name": "moderate",
-        "trans": [
-            "中度的"
-        ],
-        "usphone": "ˈmɒdərət , ˈmɒdəreɪt",
-        "ukphone": "ˈmɑːdərət , ˈmɑːdəreɪt"
-    },
-    {
-        "name": "modern",
-        "trans": [
-            "现代的"
-        ],
-        "usphone": "ˈmɒdn",
-        "ukphone": "ˈmɑːdərn"
-    },
-    {
-        "name": "musical",
-        "trans": [
-            "音乐的"
-        ],
-        "usphone": "ˈmjuːzɪkl",
-        "ukphone": "ˈmjuːzɪkl"
-    },
-    {
-        "name": "natural",
-        "trans": [
-            "自然的"
-        ],
-        "usphone": "ˈnætʃrəl",
-        "ukphone": "ˈnætʃrəl"
-    },
-    {
-        "name": "negative",
-        "trans": [
-            "消极的"
-        ],
-        "usphone": "ˈneɡətɪv",
-        "ukphone": "ˈneɡətɪv"
-    },
-    {
-        "name": "neighbouring",
-        "trans": [
-            "附近的，临近的"
-        ],
-        "usphone": "ˈneɪbərɪŋ",
-        "ukphone": "ˈneɪbərɪŋ"
-    },
-    {
-        "name": "nervous",
-        "trans": [
-            "紧张的"
-        ],
-        "usphone": "ˈnɜːvəs",
-        "ukphone": "ˈnɜːrvəs"
-    },
-    {
-        "name": "noble",
-        "trans": [
-            "高尚的，贵族的"
-        ],
-        "usphone": "'nobl",
-        "ukphone": "'nəʊb(ə)l"
-    },
-    {
-        "name": "noisy",
-        "trans": [
-            "嘈杂的"
-        ],
-        "usphone": "ˈnɔɪzi",
-        "ukphone": "ˈnɔɪzi"
-    },
-    {
-        "name": "non-active",
-        "trans": [
-            "不活跃的"
-        ],
-        "usphone": "ˌnɑnˈæktɪv",
-        "ukphone": "ˌnɒnˈæktɪv"
-    },
-    {
-        "name": "normal",
-        "trans": [
-            "正常的"
-        ],
-        "usphone": "ˈnɔːml",
-        "ukphone": "ˈnɔːrml"
-    },
-    {
-        "name": "northern",
-        "trans": [
-            "北方的"
-        ],
-        "usphone": "ˈnɔːðən",
-        "ukphone": "ˈnɔːrðərn"
-    },
-    {
-        "name": "objective",
-        "trans": [
-            "客观的"
-        ],
-        "usphone": "əbˈdʒektɪv",
-        "ukphone": "əbˈdʒektɪv"
-    },
-    {
-        "name": "occupational",
-        "trans": [
-            "职业的"
-        ],
-        "usphone": "ˌɒkjuˈpeɪʃənl",
-        "ukphone": "ˌɑːkjuˈpeɪʃənl"
-    },
-    {
-        "name": "Olympic",
-        "trans": [
-            "奥运会的"
-        ],
-        "usphone": "əˈlɪmpɪk",
-        "ukphone": "əˈlɪmpɪk"
-    },
-    {
-        "name": "optic",
-        "trans": [
-            "光学的"
-        ],
-        "usphone": "'ɑptɪk",
-        "ukphone": "'ɑːptɪk"
-    },
-    {
-        "name": "optional",
-        "trans": [
-            "可选择的"
-        ],
-        "usphone": "ˈɒpʃənl",
-        "ukphone": "ˈɑːpʃənl"
-    },
-    {
-        "name": "oral",
-        "trans": [
-            "口语的"
-        ],
-        "usphone": "ˈɔːrəl",
-        "ukphone": "ˈɔːrəl"
-    },
-    {
-        "name": "organic",
-        "trans": [
-            "有机的"
-        ],
-        "usphone": "ɔːˈɡænɪk",
-        "ukphone": "ɔːrˈɡænɪk"
-    },
-    {
-        "name": "overall",
-        "trans": [
-            "整个的"
-        ],
-        "usphone": "ˌəʊvərˈɔːl , ˈəʊvərɔːl",
-        "ukphone": "ˌoʊvərˈɔːl , ˈoʊvərɔːl"
-    },
-    {
-        "name": "overhead",
-        "trans": [
-            "头上的"
-        ],
-        "usphone": "ˌəʊvəˈhed , ˈəʊvəhed",
-        "ukphone": "ˌoʊvərˈhed , ˈoʊvərhed"
-    },
-    {
-        "name": "overseas",
-        "trans": [
-            "海外的"
-        ],
-        "usphone": "ˌəʊvəˈsiːz",
-        "ukphone": "ˌoʊvərˈsiːz"
-    },
-    {
-        "name": "parental",
-        "trans": [
-            "父母的"
-        ],
-        "usphone": "pəˈrentl",
-        "ukphone": "pəˈrentl"
-    },
-    {
-        "name": "payable",
-        "trans": [
-            "可支付的"
-        ],
-        "usphone": "ˈpeɪəbl",
-        "ukphone": "ˈpeɪəbl"
-    },
-    {
-        "name": "perfect",
-        "trans": [
-            "完美的"
-        ],
-        "usphone": "ˈpɜːfɪkt , pəˈfekt",
-        "ukphone": "ˈpɜːrfɪkt , pərˈfekt"
-    },
-    {
-        "name": "personal",
-        "trans": [
-            "个人的"
-        ],
-        "usphone": "ˈpɜːsənl",
-        "ukphone": "ˈpɜːrsənl"
-    },
-    {
-        "name": "physical",
-        "trans": [
-            "肉体的；身体的"
-        ],
-        "usphone": "ˈfɪzɪkl",
-        "ukphone": "ˈfɪzɪkl"
-    },
-    {
-        "name": "pleasant",
-        "trans": [
-            "愉快的"
-        ],
-        "usphone": "ˈpleznt",
-        "ukphone": "ˈpleznt"
-    },
-    {
-        "name": "political",
-        "trans": [
-            "政治的"
-        ],
-        "usphone": "pəˈlɪtɪkl",
-        "ukphone": "pəˈlɪtɪkl"
-    },
-    {
-        "name": "pop",
-        "trans": [
-            "流行的"
-        ],
-        "usphone": "pɒp",
-        "ukphone": "pɑːp"
-    },
-    {
-        "name": "popular",
-        "trans": [
-            "时髦的"
-        ],
-        "usphone": "ˈpɒpjələ",
-        "ukphone": "ˈpɑːpjələr"
-    },
-    {
-        "name": "positive",
-        "trans": [
-            "积极的"
-        ],
-        "usphone": "ˈpɒzətɪv",
-        "ukphone": "ˈpɑːzətɪv"
-    },
-    {
-        "name": "possible",
-        "trans": [
-            "可能的"
-        ],
-        "usphone": "ˈpɒsəbl",
-        "ukphone": "ˈpɑːsəbl"
-    },
-    {
-        "name": "potential",
-        "trans": [
-            "潜在的"
-        ],
-        "usphone": "pəˈtenʃl",
-        "ukphone": "pəˈtenʃl"
-    },
-    {
-        "name": "practical",
-        "trans": [
-            "实际的"
-        ],
-        "usphone": "ˈpræktɪkl",
-        "ukphone": "ˈpræktɪkl"
-    },
-    {
-        "name": "precious",
-        "trans": [
-            "珍贵的"
-        ],
-        "usphone": "ˈpreʃəs",
-        "ukphone": "ˈpreʃəs"
-    },
-    {
-        "name": "predictable",
-        "trans": [
-            "可预言的"
-        ],
-        "usphone": "prɪˈdɪktəbl",
-        "ukphone": "prɪˈdɪktəbl"
-    },
-    {
-        "name": "present",
-        "trans": [
-            "目前的"
-        ],
-        "usphone": "ˈpreznt , prɪˈzent",
-        "ukphone": "ˈpreznt , prɪˈzent"
-    },
-    {
-        "name": "previous",
-        "trans": [
-            "以前的，原来的"
-        ],
-        "usphone": "ˈpriːviəs",
-        "ukphone": "ˈpriːviəs"
-    },
-    {
-        "name": "printed",
-        "trans": [
-            "打印出来的"
-        ],
-        "usphone": "ˈprɪntɪd",
-        "ukphone": "ˈprɪntɪd"
-    },
-    {
-        "name": "private",
-        "trans": [
-            "私人的"
-        ],
-        "usphone": "ˈpraɪvət",
-        "ukphone": "ˈpraɪvɪt"
-    },
-    {
-        "name": "professional",
-        "trans": [
-            "专业的"
-        ],
-        "usphone": "prəˈfeʃənl",
-        "ukphone": "prəˈfeʃənl"
-    },
-    {
-        "name": "promising",
-        "trans": [
-            "有前途的"
-        ],
-        "usphone": "ˈprɒmɪsɪŋ",
-        "ukphone": "ˈprɑːmɪsɪŋ"
-    },
-    {
-        "name": "psychiatric",
-        "trans": [
-            "精神病的"
-        ],
-        "usphone": "ˌsaɪkiˈætrɪk",
-        "ukphone": "ˌsaɪkiˈætrɪk"
-    },
-    {
-        "name": "psychological",
-        "trans": [
-            "心理的"
-        ],
-        "usphone": "ˌsaɪkəˈlɒdʒɪkl",
-        "ukphone": "ˌsaɪkəˈlɑːdʒɪkl"
-    },
-    {
-        "name": "public",
-        "trans": [
-            "公共的"
-        ],
-        "usphone": "ˈpʌblɪk",
-        "ukphone": "ˈpʌblɪk"
-    },
-    {
-        "name": "pure",
-        "trans": [
-            "纯洁的"
-        ],
-        "usphone": "pjʊə",
-        "ukphone": "pjʊr"
-    },
-    {
-        "name": "purest",
-        "trans": [
-            "最纯净的（最高级"
-        ],
-        "usphone": "ˈpjʊərɪst",
-        "ukphone": "ˈpjʊrəst"
-    },
-    {
-        "name": "Queen's",
-        "trans": [
-            "女王的"
-        ],
-        "usphone": "kwinz",
-        "ukphone": "kwiːnz"
-    },
-    {
-        "name": "random",
-        "trans": [
-            "随机的"
-        ],
-        "usphone": "ˈrændəm",
-        "ukphone": "ˈrændəm"
-    },
-    {
-        "name": "rapid",
-        "trans": [
-            "快速的"
-        ],
-        "usphone": "ˈræpɪd",
-        "ukphone": "ˈræpɪd"
-    },
-    {
-        "name": "rare",
-        "trans": [
-            "罕见的"
-        ],
-        "usphone": "reə",
-        "ukphone": "rer"
-    },
-    {
-        "name": "raw",
-        "trans": [
-            "生的"
-        ],
-        "usphone": "rɔː",
-        "ukphone": "rɔː"
-    },
-    {
-        "name": "recycled",
-        "trans": [
-            "回收的"
-        ],
-        "usphone": "ˌriːˈsaɪkld",
-        "ukphone": "ˌriːˈsaɪkld"
-    },
-    {
-        "name": "redundant",
-        "trans": [
-            "多余的"
-        ],
-        "usphone": "rɪˈdʌndənt",
-        "ukphone": "rɪˈdʌndənt"
-    },
-    {
-        "name": "regional",
-        "trans": [
-            "局域的"
-        ],
-        "usphone": "ˈriːdʒənl",
-        "ukphone": "ˈriːdʒənl"
-    },
-    {
-        "name": "regular",
-        "trans": [
-            "定期的；规律的"
-        ],
-        "usphone": "ˈreɡjələ",
-        "ukphone": "ˈreɡjələr"
-    },
-    {
-        "name": "reinforced",
-        "trans": [
-            "加强的"
-        ],
-        "usphone": "ˌriːɪnˈfɔːst",
-        "ukphone": "ˌriːɪnˈfɔːrst"
-    },
-    {
-        "name": "related",
-        "trans": [
-            "相关的"
-        ],
-        "usphone": "rɪˈleɪtɪd",
-        "ukphone": "rɪˈleɪtɪd"
-    },
-    {
-        "name": "relevant",
-        "trans": [
-            "相关的"
-        ],
-        "usphone": "ˈreləvənt",
-        "ukphone": "ˈreləvənt"
-    },
-    {
-        "name": "reliable",
-        "trans": [
-            "可信赖的，可靠的，可依赖的"
-        ],
-        "usphone": "rɪˈlaɪəbl",
-        "ukphone": "rɪˈlaɪəbl"
-    },
-    {
-        "name": "remote",
-        "trans": [
-            "远的"
-        ],
-        "usphone": "rɪˈməʊt",
-        "ukphone": "rɪˈmoʊt"
-    },
-    {
-        "name": "resistant",
-        "trans": [
-            "抵抗的"
-        ],
-        "usphone": "rɪˈzɪstənt",
-        "ukphone": "rɪˈzɪstənt"
-    },
-    {
-        "name": "reverse",
-        "trans": [
-            "相反的"
-        ],
-        "usphone": "rɪˈvɜːs",
-        "ukphone": "rɪˈvɜːrs"
-    },
-    {
-        "name": "rising",
-        "trans": [
-            "上升的"
-        ],
-        "usphone": "ˈraɪzɪŋ",
-        "ukphone": "ˈraɪzɪŋ"
-    },
-    {
-        "name": "royal",
-        "trans": [
-            "皇家的"
-        ],
-        "usphone": "ˈrɔɪəl",
-        "ukphone": "ˈrɔɪəl"
-    },
-    {
-        "name": "rural",
-        "trans": [
-            "乡下的"
-        ],
-        "usphone": "ˈrʊərəl",
-        "ukphone": "ˈrʊrəl"
-    },
-    {
-        "name": "sacked",
-        "trans": [
-            "被解雇的"
-        ],
-        "usphone": "sækt",
-        "ukphone": "sækt"
-    },
-    {
-        "name": "safe",
-        "trans": [
-            "安全的"
-        ],
-        "usphone": "seɪf",
-        "ukphone": "seɪf"
-    },
-    {
-        "name": "satisfactory",
-        "trans": [
-            "满意的"
-        ],
-        "usphone": "ˌsætɪsˈfæktəri",
-        "ukphone": "ˌsætɪsˈfæktəri"
-    },
-    {
-        "name": "scarce",
-        "trans": [
-            "不足的"
-        ],
-        "usphone": "skeəs",
-        "ukphone": "skers"
-    },
-    {
-        "name": "scientific",
-        "trans": [
-            "科学的"
-        ],
-        "usphone": "ˌsaɪənˈtɪfɪk",
-        "ukphone": "ˌsaɪənˈtɪfɪk"
-    },
-    {
-        "name": "seasonal",
-        "trans": [
-            "季节的"
-        ],
-        "usphone": "ˈsiːzənl",
-        "ukphone": "ˈsiːzənl"
-    },
-    {
-        "name": "seasoned",
-        "trans": [
-            "风干的"
-        ],
-        "usphone": "ˈsiːznd",
-        "ukphone": "ˈsiːznd"
-    },
-    {
-        "name": "secondary",
-        "trans": [
-            "第二的"
-        ],
-        "usphone": "ˈsekəndri",
-        "ukphone": "ˈsekənderi"
-    },
-    {
-        "name": "second-hand",
-        "trans": [
-            "二手的"
-        ],
-        "usphone": "ˈsɛkəndˌhænd",
-        "ukphone": "ˈsɛkəndˌhænd"
-    },
-    {
-        "name": "self-funded",
-        "trans": [
-            "自给自足的"
-        ],
-        "usphone": "ˈsɛlfˌfʌndɪd",
-        "ukphone": "ˈsɛlfˌfʌndɪd"
-    },
-    {
-        "name": "self-sufficient",
-        "trans": [
-            "自给自足的"
-        ],
-        "usphone": "'selfsə'fiʃənt",
-        "ukphone": "ˌselfsə'fɪʃnt"
-    },
-    {
-        "name": "senior",
-        "trans": [
-            "高级的"
-        ],
-        "usphone": "ˈsiːniə",
-        "ukphone": "ˈsiːniər"
-    },
-    {
-        "name": "sensible",
-        "trans": [
-            "明智的"
-        ],
-        "usphone": "ˈsensəbl",
-        "ukphone": "ˈsensəbl"
-    },
-    {
-        "name": "serial",
-        "trans": [
-            "连续的"
-        ],
-        "usphone": "ˈsɪəriəl",
-        "ukphone": "ˈsɪriəl"
-    },
-    {
-        "name": "serious",
-        "trans": [
-            "严肃的"
-        ],
-        "usphone": "ˈsɪəriəs",
-        "ukphone": "ˈsɪriəs"
-    },
-    {
-        "name": "seven-screen",
-        "trans": [
-            "七个屏幕的"
-        ],
-        "usphone": "ˈsɛvənˌskrin",
-        "ukphone": "ˈsɛvənˌskriːn"
-    },
-    {
-        "name": "several",
-        "trans": [
-            "几个"
-        ],
-        "usphone": "ˈsevrəl",
-        "ukphone": "ˈsevrəl"
-    },
-    {
-        "name": "shared",
-        "trans": [
-            "共享的"
-        ],
-        "usphone": "ʃeəd",
-        "ukphone": "ʃerd"
-    },
-    {
-        "name": "sharp",
-        "trans": [
-            "锋利的；紧急的"
-        ],
-        "usphone": "ʃɑːp",
-        "ukphone": "ʃɑːrp"
-    },
-    {
-        "name": "short",
-        "trans": [
-            "短的"
-        ],
-        "usphone": "ʃɔːt",
-        "ukphone": "ʃɔːrt"
-    },
-    {
-        "name": "sick",
-        "trans": [
-            "生病的"
-        ],
-        "usphone": "sɪk",
-        "ukphone": "sɪk"
-    },
-    {
-        "name": "silent",
-        "trans": [
-            "安静的"
-        ],
-        "usphone": "ˈsaɪlənt",
-        "ukphone": "ˈsaɪlənt"
-    },
-    {
-        "name": "silver",
-        "trans": [
-            "银的"
-        ],
-        "usphone": "ˈsɪlvə",
-        "ukphone": "ˈsɪlvər"
-    },
-    {
-        "name": "similar",
-        "trans": [
-            "相似的"
-        ],
-        "usphone": "ˈsɪmələ",
-        "ukphone": "ˈsɪmələr"
-    },
-    {
-        "name": "simple",
-        "trans": [
-            "简单的"
-        ],
-        "usphone": "ˈsɪmpl",
-        "ukphone": "ˈsɪmpl"
-    },
-    {
-        "name": "sleepy",
-        "trans": [
-            "想睡的"
-        ],
-        "usphone": "ˈsliːpi",
-        "ukphone": "ˈsliːpi"
-    },
-    {
-        "name": "slim",
-        "trans": [
-            "苗条的"
-        ],
-        "usphone": "slɪm",
-        "ukphone": "slɪm"
-    },
-    {
-        "name": "smart",
-        "trans": [
-            "聪明的"
-        ],
-        "usphone": "smɑːt",
-        "ukphone": "smɑːrt"
-    },
-    {
-        "name": "smelly",
-        "trans": [
-            "有臭味的"
-        ],
-        "usphone": "ˈsmeli",
-        "ukphone": "ˈsmeli"
-    },
-    {
-        "name": "social",
-        "trans": [
-            "社会的"
-        ],
-        "usphone": "ˈsəʊʃl",
-        "ukphone": "ˈsoʊʃl"
-    },
-    {
-        "name": "solar",
-        "trans": [
-            "太阳的"
-        ],
-        "usphone": "ˈsəʊlə",
-        "ukphone": "ˈsoʊlər"
-    },
-    {
-        "name": "soundproof",
-        "trans": [
-            "隔音的"
-        ],
-        "usphone": "ˈsaʊn(d)pruːf",
-        "ukphone": "ˈsaʊn(d)ˌpruf"
-    },
-    {
-        "name": "southern",
-        "trans": [
-            "南方的"
-        ],
-        "usphone": "ˈsʌðən",
-        "ukphone": "ˈsʌðərn"
-    },
-    {
-        "name": "spacious",
-        "trans": [
-            "宽敞的，宽广的"
-        ],
-        "usphone": "ˈspeɪʃəs",
-        "ukphone": "ˈspeɪʃəs"
-    },
-    {
-        "name": "spare",
-        "trans": [
-            "多余的"
-        ],
-        "usphone": "speə",
-        "ukphone": "sper"
-    },
-    {
-        "name": "special",
-        "trans": [
-            "特别的"
-        ],
-        "usphone": "ˈspeʃl",
-        "ukphone": "ˈspeʃl"
-    },
-    {
-        "name": "specialised",
-        "trans": [
-            "特别的，专门的"
-        ],
-        "usphone": "'speʃəlaɪzd",
-        "ukphone": "'speʃəlaɪzd"
-    },
-    {
-        "name": "species",
-        "trans": [
-            "种类，物种"
-        ],
-        "usphone": "ˈspiːʃiːz",
-        "ukphone": "ˈspiːʃiːz"
-    },
-    {
-        "name": "specific",
-        "trans": [
-            "特别的"
-        ],
-        "usphone": "spəˈsɪfɪk",
-        "ukphone": "spəˈsɪfɪk"
-    },
-    {
-        "name": "spiral",
-        "trans": [
-            "螺旋的"
-        ],
-        "usphone": "ˈspaɪrəl",
-        "ukphone": "ˈspaɪrəl"
-    },
-    {
-        "name": "stable",
-        "trans": [
-            "adj.稳定的 n.马圈"
-        ],
-        "usphone": "ˈsteɪbl",
-        "ukphone": "ˈsteɪbl"
-    },
-    {
-        "name": "steady",
-        "trans": [
-            "稳定的"
-        ],
-        "usphone": "ˈstedi",
-        "ukphone": "ˈstedi"
-    },
-    {
-        "name": "stout",
-        "trans": [
-            "（形容人）结实 的，强壮的"
-        ],
-        "usphone": "staʊt",
-        "ukphone": "staʊt"
-    },
-    {
-        "name": "strained",
-        "trans": [
-            "紧张的"
-        ],
-        "usphone": "streɪnd",
-        "ukphone": "streɪnd"
-    },
-    {
-        "name": "stressful",
-        "trans": [
-            "压力的"
-        ],
-        "usphone": "ˈstresfl",
-        "ukphone": "ˈstresfl"
-    },
-    {
-        "name": "stretching",
-        "trans": [
-            "伸展的"
-        ],
-        "usphone": "ˈstretʃɪŋ",
-        "ukphone": "ˈstretʃɪŋ"
-    },
-    {
-        "name": "strong",
-        "trans": [
-            "强壮的"
-        ],
-        "usphone": "strɒŋ",
-        "ukphone": "strɔːŋ"
-    },
-    {
-        "name": "stronger",
-        "trans": [
-            "更强的"
-        ],
-        "usphone": "ˈstrɒŋgə",
-        "ukphone": "ˈstrɔːŋər"
-    },
-    {
-        "name": "subjective",
-        "trans": [
-            "主观的"
-        ],
-        "usphone": "səbˈdʒektɪv",
-        "ukphone": "səbˈdʒektɪv"
-    },
-    {
-        "name": "successful",
-        "trans": [
-            "成功的"
-        ],
-        "usphone": "səkˈsesfl",
-        "ukphone": "səkˈsesfl"
-    },
-    {
-        "name": "sufficient",
-        "trans": [
-            "充分的"
-        ],
-        "usphone": "səˈfɪʃnt",
-        "ukphone": "səˈfɪʃnt"
-    },
-    {
-        "name": "suitable",
-        "trans": [
-            "合适的"
-        ],
-        "usphone": "ˈsuːtəbl",
-        "ukphone": "ˈsuːtəbl"
-    },
-    {
-        "name": "super",
-        "trans": [
-            "超级的"
-        ],
-        "usphone": "ˈsuːpə",
-        "ukphone": "ˈsuːpər"
-    },
-    {
-        "name": "surprised",
-        "trans": [
-            "惊奇的"
-        ],
-        "usphone": "səˈpraɪzd",
-        "ukphone": "sərˈpraɪzd"
-    },
-    {
-        "name": "systematic",
-        "trans": [
-            "系统的"
-        ],
-        "usphone": "ˌsɪstəˈmætɪk",
-        "ukphone": "ˌsɪstəˈmætɪk"
-    },
-    {
-        "name": "technical",
-        "trans": [
-            "科技的"
-        ],
-        "usphone": "ˈteknɪkl",
-        "ukphone": "ˈteknɪkl"
-    },
-    {
-        "name": "theoretical",
-        "trans": [
-            "理论的"
-        ],
-        "usphone": "ˌθɪəˈretɪkl",
-        "ukphone": "ˌθiːəˈretɪkl"
-    },
-    {
-        "name": "traditional",
-        "trans": [
-            "传统的"
-        ],
-        "usphone": "trəˈdɪʃənl",
-        "ukphone": "trəˈdɪʃənl"
-    },
-    {
-        "name": "troublesome",
-        "trans": [
-            "带来麻烦的"
-        ],
-        "usphone": "ˈtrʌblsəm",
-        "ukphone": "ˈtrʌblsəm"
-    },
-    {
-        "name": "typical",
-        "trans": [
-            "典型的"
-        ],
-        "usphone": "ˈtɪpɪkl",
-        "ukphone": "ˈtɪpɪkl"
-    },
-    {
-        "name": "unanimous",
-        "trans": [
-            "意见一致的"
-        ],
-        "usphone": "juˈnænɪməs",
-        "ukphone": "juˈnænɪməs"
-    },
-    {
-        "name": "uncomfortable",
-        "trans": [
-            "不舒服的"
-        ],
-        "usphone": "ʌnˈkʌmftəbl",
-        "ukphone": "ʌnˈkʌmftəbl"
-    },
-    {
-        "name": "unconvincing",
-        "trans": [
-            "没有说服力的"
-        ],
-        "usphone": "ˌənˈkɑnvɪnsɪŋ",
-        "ukphone": "ˌʌnkənˈvɪnsɪŋ"
-    },
-    {
-        "name": "underground",
-        "trans": [
-            "地下的"
-        ],
-        "usphone": "ˌʌndəˈɡraʊnd , ˈʌndəɡraʊnd",
-        "ukphone": "ˌʌndərˈɡraʊnd , ˈʌndərɡraʊnd"
-    },
-    {
-        "name": "unfair",
-        "trans": [
-            "不公平的"
-        ],
-        "usphone": "ˌʌnˈfeə",
-        "ukphone": "ˌʌnˈfer"
-    },
-    {
-        "name": "unhealthy",
-        "trans": [
-            "不健康的"
-        ],
-        "usphone": "ʌnˈhelθi",
-        "ukphone": "ʌnˈhelθi"
-    },
-    {
-        "name": "unique",
-        "trans": [
-            "独特的"
-        ],
-        "usphone": "juˈniːk",
-        "ukphone": "juˈniːk"
-    },
-    {
-        "name": "united",
-        "trans": [
-            "联合的"
-        ],
-        "usphone": "jʊ'naɪtɪd",
-        "ukphone": "jʊ'naɪtɪd"
-    },
-    {
-        "name": "unreliable",
-        "trans": [
-            "不可依赖的"
-        ],
-        "usphone": "ˌʌnrɪˈlaɪəbl",
-        "ukphone": "ˌʌnrɪˈlaɪəbl"
-    },
-    {
-        "name": "unsocial",
-        "trans": [
-            "不合群的"
-        ],
-        "usphone": "ˌənˈsoʊʃəl",
-        "ukphone": "ˌʌnˈsəʊʃəl"
-    },
-    {
-        "name": "unusual",
-        "trans": [
-            "非同寻常的"
-        ],
-        "usphone": "ʌnˈjuːʒuəl",
-        "ukphone": "ʌnˈjuːʒuəl"
-    },
-    {
-        "name": "useful",
-        "trans": [
-            "有用的"
-        ],
-        "usphone": "ˈjuːsfl",
-        "ukphone": "ˈjuːsfl"
-    },
-    {
-        "name": "useless",
-        "trans": [
-            "没用的"
-        ],
-        "usphone": "ˈjuːsləs",
-        "ukphone": "ˈjuːsləs"
-    },
-    {
-        "name": "usual",
-        "trans": [
-            "平常的，普通的"
-        ],
-        "usphone": "ˈjuːʒuəl",
-        "ukphone": "ˈjuːʒuəl"
-    },
-    {
-        "name": "various",
-        "trans": [
-            "各种的"
-        ],
-        "usphone": "ˈveəriəs",
-        "ukphone": "ˈveriəs"
-    },
-    {
-        "name": "violent",
-        "trans": [
-            "猛烈的，暴力的"
-        ],
-        "usphone": "ˈvaɪələnt",
-        "ukphone": "ˈvaɪələnt"
-    },
-    {
-        "name": "virtual",
-        "trans": [
-            "虚拟的"
-        ],
-        "usphone": "ˈvɜːtʃuəl",
-        "ukphone": "ˈvɜːrtʃuəl"
-    },
-    {
-        "name": "visible",
-        "trans": [
-            "可见的"
-        ],
-        "usphone": "ˈvɪzəbl",
-        "ukphone": "ˈvɪzəbl"
-    },
-    {
-        "name": "visual",
-        "trans": [
-            "视觉的"
-        ],
-        "usphone": "ˈvɪʒuəl",
-        "ukphone": "ˈvɪʒuəl"
-    },
-    {
-        "name": "warm",
-        "trans": [
-            "温暖的"
-        ],
-        "usphone": "wɔːm",
-        "ukphone": "wɔːrm"
-    },
-    {
-        "name": "washable",
-        "trans": [
-            "可洗的"
-        ],
-        "usphone": "ˈwɑʃəbl̩",
-        "ukphone": "ˈwɒʃəbl̩"
-    },
-    {
-        "name": "wealthy",
-        "trans": [
-            "有钱的"
-        ],
-        "usphone": "ˈwelθi",
-        "ukphone": "ˈwelθi"
-    },
-    {
-        "name": "weekly",
-        "trans": [
-            "每周的"
-        ],
-        "usphone": "ˈwiːkli",
-        "ukphone": "ˈwiːkli"
-    },
-    {
-        "name": "western",
-        "trans": [
-            "西方的"
-        ],
-        "usphone": "'wɛstɚn",
-        "ukphone": "'west(ə)n"
-    },
-    {
-        "name": "whole",
-        "trans": [
-            "整个的"
-        ],
-        "usphone": "həʊl",
-        "ukphone": "hoʊl"
-    },
-    {
-        "name": "wide",
-        "trans": [
-            "广泛的"
-        ],
-        "usphone": "waɪd",
-        "ukphone": "waɪd"
-    },
-    {
-        "name": "wise",
-        "trans": [
-            "明智的"
-        ],
-        "usphone": "waɪz",
-        "ukphone": "waɪz"
-    },
-    {
-        "name": "worthwhile",
-        "trans": [
-            "值得的"
-        ],
-        "usphone": "ˌwɜːθˈwaɪl",
-        "ukphone": "ˌwɜːrθˈwaɪl"
-    },
-    {
-        "name": "worthy",
-        "trans": [
-            "值得做某事"
-        ],
-        "usphone": "ˈwɜːði",
-        "ukphone": "ˈwɜːrði"
-    },
-    {
-        "name": "almost",
-        "trans": [
-            "几乎，差不多"
-        ],
-        "usphone": "ˈɔːlməʊst",
-        "ukphone": "ˈɔːlmoʊst"
-    },
-    {
-        "name": "currently",
-        "trans": [
-            "目前地"
-        ],
-        "usphone": "ˈkʌrəntli",
-        "ukphone": "ˈkɜːrəntli"
-    },
-    {
-        "name": "directly",
-        "trans": [
-            "直接地"
-        ],
-        "usphone": "dəˈrektli",
-        "ukphone": "dəˈrektli"
-    },
-    {
-        "name": "effectively",
-        "trans": [
-            "有效地"
-        ],
-        "usphone": "ɪˈfektɪvli",
-        "ukphone": "ɪˈfektɪvli"
-    },
-    {
-        "name": "efficiently",
-        "trans": [
-            "有效率地"
-        ],
-        "usphone": "ɪˈfɪʃntli",
-        "ukphone": "ɪˈfɪʃntli"
-    },
-    {
-        "name": "originally",
-        "trans": [
-            "最初地"
-        ],
-        "usphone": "əˈrɪdʒənəli",
-        "ukphone": "əˈrɪdʒənəli"
-    },
-    {
-        "name": "physically",
-        "trans": [
-            "身体地"
-        ],
-        "usphone": "ˈfɪzɪkli",
-        "ukphone": "ˈfɪzɪkli"
-    },
-    {
-        "name": "professionally",
-        "trans": [
-            "专业地"
-        ],
-        "usphone": "prəˈfeʃənəli",
-        "ukphone": "prəˈfeʃənəli"
-    },
-    {
-        "name": "rapidly",
-        "trans": [
-            "快速地"
-        ],
-        "usphone": "ˈræpɪdli",
-        "ukphone": "ˈræpɪdli"
-    },
-    {
-        "name": "regularly",
-        "trans": [
-            "定期地"
-        ],
-        "usphone": "ˈreɡjələli",
-        "ukphone": "ˈreɡjələrli"
-    },
-    {
-        "name": "scarcely",
-        "trans": [
-            "不足地"
-        ],
-        "usphone": "ˈskeəsli",
-        "ukphone": "ˈskersli"
-    },
-    {
-        "name": "virtually",
-        "trans": [
-            "几乎"
-        ],
-        "usphone": "ˈvɜːtʃuəli",
-        "ukphone": "ˈvɜːrtʃuəli"
-    }
+  {
+    "name": "abnormal",
+    "trans": [
+      "adj. 反常的；不正常的；不规则的",
+      "n. 不正常的人"
+    ],
+    "usphone": "æbˈnɔːml",
+    "ukphone": "æbˈnɔːrml"
+  },
+  {
+    "name": "academic",
+    "trans": [
+      "n. 大学生，大学教师；学者",
+      "adj. 学术的；理论的；学院的"
+    ],
+    "usphone": "ˌækəˈdemɪk",
+    "ukphone": "ˌækəˈdemɪk"
+  },
+  {
+    "name": "accessible",
+    "trans": [
+      "adj. 易接近的；可进入的；可理解的"
+    ],
+    "usphone": "əkˈsesəbl",
+    "ukphone": "əkˈsesəbl"
+  },
+  {
+    "name": "accountable",
+    "trans": [
+      "adj. 有责任的；有解释义务的；可解释的"
+    ],
+    "usphone": "əˈkaʊntəbl",
+    "ukphone": "əˈkaʊntəbl"
+  },
+  {
+    "name": "accurate",
+    "trans": [
+      "adj. 准确的；精确的；正确的"
+    ],
+    "usphone": "ˈækjərət",
+    "ukphone": "ˈækjərət"
+  },
+  {
+    "name": "additional",
+    "trans": [
+      "adj. 额外的；附加的；另外的"
+    ],
+    "usphone": "əˈdɪʃənl",
+    "ukphone": "əˈdɪʃənl"
+  },
+  {
+    "name": "adequate",
+    "trans": [
+      "adj. 足够的，充足的；适当的，恰当的；合格的，差强人意的"
+    ],
+    "usphone": "ˈædɪkwət",
+    "ukphone": "ˈædɪkwət"
+  },
+  {
+    "name": "advanced",
+    "trans": [
+      "adj. 先进的；高级的；晚期的",
+      "v. 前进；增加"
+    ],
+    "usphone": "əd'vænst",
+    "ukphone": "əd'vænst"
+  },
+  {
+    "name": "advisable",
+    "trans": [
+      "adj. 明智的；可取的；适当的"
+    ],
+    "usphone": "ədˈvaɪzəbl",
+    "ukphone": "ədˈvaɪzəbl"
+  },
+  {
+    "name": "allergic",
+    "trans": [
+      "adj. 过敏的；过敏症的；对…极讨厌的"
+    ],
+    "usphone": "əˈlɜːdʒɪk",
+    "ukphone": "əˈlɜːrdʒɪk"
+  },
+  {
+    "name": "alternative",
+    "trans": [
+      "adj. 两者择一的；供选择的；非主流的",
+      "n. 替换物；取舍；抉择"
+    ],
+    "usphone": "ɔːlˈtɜːnətɪv",
+    "ukphone": "ɔːlˈtɜːrnətɪv"
+  },
+  {
+    "name": "amazing",
+    "trans": [
+      "adj. 令人惊异的",
+      "vt. 使惊异：感到非常好奇",
+      "n. 吃惊；好奇"
+    ],
+    "usphone": "əˈmeɪzɪŋ",
+    "ukphone": "əˈmeɪzɪŋ"
+  },
+  {
+    "name": "ambiguous",
+    "trans": [
+      "adj. 引起歧义的；模棱两可的；含糊不清的"
+    ],
+    "usphone": "æmˈbɪɡjuəs",
+    "ukphone": "æmˈbɪɡjuəs"
+  },
+  {
+    "name": "ambitious",
+    "trans": [
+      "adj. 野心勃勃的；有雄心的；热望的"
+    ],
+    "usphone": "æmˈbɪʃəs",
+    "ukphone": "æmˈbɪʃəs"
+  },
+  {
+    "name": "analytical",
+    "trans": [
+      "adj. 分析的；解析的；善于分析的"
+    ],
+    "usphone": "ˌænəˈlɪtɪkl",
+    "ukphone": "ˌænəˈlɪtɪkl"
+  },
+  {
+    "name": "ancient",
+    "trans": [
+      "n. 古代人；老人",
+      "adj. 古代的；古老的，过时的；年老的"
+    ],
+    "usphone": "ˈeɪnʃənt",
+    "ukphone": "ˈeɪnʃənt"
+  },
+  {
+    "name": "angry",
+    "trans": [
+      "adj. 生气的；愤怒的；狂暴的"
+    ],
+    "usphone": "ˈæŋɡri",
+    "ukphone": "ˈæŋɡri"
+  },
+  {
+    "name": "applied",
+    "trans": [
+      "adj. 应用的；实用的",
+      "v. 申请；应用；适用"
+    ],
+    "usphone": "əˈplaɪd",
+    "ukphone": "əˈplaɪd"
+  },
+  {
+    "name": "archaeological",
+    "trans": [
+      "adj. 考古学的；与考古学有关的"
+    ],
+    "usphone": "ˌɑrkiːəˈlɑdʒɪkəl",
+    "ukphone": "ˌɑːrkiːəˈlɒdʒɪkəl"
+  },
+  {
+    "name": "artificial",
+    "trans": [
+      "adj. 人造的；人工的；虚假的，非原产地的",
+      "n. 人造肥料；假花"
+    ],
+    "usphone": "ˌɑːtɪˈfɪʃl",
+    "ukphone": "ˌɑːrtɪˈfɪʃl"
+  },
+  {
+    "name": "artistic",
+    "trans": [
+      "adj. 艺术的；风雅的；有美感的"
+    ],
+    "usphone": "ɑːˈtɪstɪk",
+    "ukphone": "ɑːrˈtɪstɪk"
+  },
+  {
+    "name": "ascending",
+    "trans": [
+      "adj. 上升的；向上的",
+      "v. 上升；升高；登高"
+    ],
+    "usphone": "ə'sɛndɪŋ",
+    "ukphone": "ə'sendiŋ"
+  },
+  {
+    "name": "atmospheric",
+    "trans": [
+      "adj. 大气的；空气的；大气层的"
+    ],
+    "usphone": "ˌætməsˈferɪk",
+    "ukphone": "ˌætməsˈferɪk"
+  },
+  {
+    "name": "attentive",
+    "trans": [
+      "adj. 注意的；专心的；留心的"
+    ],
+    "usphone": "əˈtentɪv",
+    "ukphone": "əˈtentɪv"
+  },
+  {
+    "name": "audio",
+    "trans": [
+      "adj. 听觉的，声音的；音频的",
+      "n. 声音回路；音响；可听到的声音"
+    ],
+    "usphone": "ˈɔːdiəʊ",
+    "ukphone": "ˈɔːdioʊ"
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的，可利用的；可用的，空闲的；有效的，起作用的"
+    ],
+    "usphone": "əˈveɪləbl",
+    "ukphone": "əˈveɪləbl"
+  },
+  {
+    "name": "aware",
+    "trans": [
+      "adj. 意识到的；知道的；有…方面知识的"
+    ],
+    "usphone": "əˈweə",
+    "ukphone": "əˈwer"
+  },
+  {
+    "name": "awful",
+    "trans": [
+      "adj. 糟糕的；可怕的；非常的",
+      "adv. 非常；极"
+    ],
+    "usphone": "ˈɔːfl",
+    "ukphone": "ˈɔːfl"
+  },
+  {
+    "name": "auto",
+    "trans": [
+      "n. 汽车；自动车",
+      "adj. 自动的"
+    ],
+    "usphone": "ˈɔːtəʊ",
+    "ukphone": "ˈɔːtoʊ"
+  },
+  {
+    "name": "bald",
+    "trans": [
+      "adj. 秃顶的；光秃的；单调的",
+      "vi. 变秃"
+    ],
+    "usphone": "bɔːld",
+    "ukphone": "bɔːld"
+  },
+  {
+    "name": "barren",
+    "trans": [
+      "adj. 贫瘠的；不结果实的；不孕的",
+      "n. 荒原；不毛之地"
+    ],
+    "usphone": "ˈbærən",
+    "ukphone": "ˈbærən"
+  },
+  {
+    "name": "basic",
+    "trans": [
+      "n. 基本；实质性的东西；基础训练",
+      "adj. 基本的；基础的；含硅量少的"
+    ],
+    "usphone": "ˈbeɪsɪk",
+    "ukphone": "ˈbeɪsɪk"
+  },
+  {
+    "name": "beautiful",
+    "trans": [
+      "adj. 美；美丽；美观的"
+    ],
+    "usphone": "ˈbjuːtɪfl",
+    "ukphone": "ˈbjuːtɪfl"
+  },
+  {
+    "name": "biological",
+    "trans": [
+      "adj. 生物学的；生物的；与生物学相关的",
+      "n. 药生物制品；生物制剂"
+    ],
+    "usphone": "ˌbaɪəˈlɒdʒɪkl",
+    "ukphone": "ˌbaɪəˈlɑːdʒɪkl"
+  },
+  {
+    "name": "blind",
+    "trans": [
+      "n. 掩饰，借口；百叶窗",
+      "adj. 盲目的；瞎的",
+      "vt. 使失明；使失去理智"
+    ],
+    "usphone": "blaɪnd",
+    "ukphone": "blaɪnd"
+  },
+  {
+    "name": "blond",
+    "trans": [
+      "adj. 浅色的；金色的；白肤金发的（男人）",
+      "n. 白肤金发的人"
+    ],
+    "usphone": "blɒnd",
+    "ukphone": "blɑːnd"
+  },
+  {
+    "name": "British",
+    "trans": [
+      "adj. 不列颠的；英国的；英联邦的",
+      "n. 英国人；英国英语"
+    ],
+    "usphone": "'brɪtɪʃ",
+    "ukphone": "'brɪtɪʃ"
+  },
+  {
+    "name": "broad",
+    "trans": [
+      "adj. 宽广的，宽阔的；……宽；咧开嘴的",
+      "n. 女人，娘儿们；宽阔部分",
+      "adv. 宽阔地"
+    ],
+    "usphone": "brɔːd",
+    "ukphone": "brɔːd"
+  },
+  {
+    "name": "buried",
+    "trans": [
+      "adj. 埋在地下的",
+      "v. 埋葬；埋藏；“bury”的过去式和过去分词"
+    ],
+    "usphone": "ˈberid",
+    "ukphone": "ˈberid"
+  },
+  {
+    "name": "calculating",
+    "trans": [
+      "adj. 计算用的；精于算计的",
+      "v. 计算；“calculate”的现在分词"
+    ],
+    "usphone": "ˈkælkjuleɪtɪŋ",
+    "ukphone": "ˈkælkjuleɪtɪŋ"
+  },
+  {
+    "name": "casual",
+    "trans": [
+      "n. 便装；临时工人；待命士兵",
+      "adj. 随便的；非正式的；临时的"
+    ],
+    "usphone": "ˈkæʒuəl",
+    "ukphone": "ˈkæʒuəl"
+  },
+  {
+    "name": "central",
+    "trans": [
+      "adj. 中心的；主要的；基本的",
+      "n. 电话交流；中央办公室；中心"
+    ],
+    "usphone": "ˈsentrəl",
+    "ukphone": "ˈsentrəl"
+  },
+  {
+    "name": "challenging",
+    "trans": [
+      "v. 要求；质疑；反对",
+      "adj. 挑战的；引起挑战性兴趣的"
+    ],
+    "usphone": "ˈtʃælɪndʒɪŋ",
+    "ukphone": "ˈtʃælɪndʒɪŋ"
+  },
+  {
+    "name": "cheaper",
+    "trans": [
+      "adj. 更便宜的；“cheap”的比较级"
+    ],
+    "usphone": "ˈtʃiːpə",
+    "ukphone": "ˈtʃipər"
+  },
+  {
+    "name": "cheerful",
+    "trans": [
+      "adj. 快乐的；愉快的；高兴的"
+    ],
+    "usphone": "ˈtʃɪəfl",
+    "ukphone": "ˈtʃɪrfl"
+  },
+  {
+    "name": "children's",
+    "trans": [
+      "儿童的"
+    ],
+    "usphone": "ˈtʃɪldrənz",
+    "ukphone": "ˈtʃɪldrənz"
+  },
+  {
+    "name": "classical",
+    "trans": [
+      "n. 古典音乐",
+      "adj. 古典的；经典的；传统的"
+    ],
+    "usphone": "ˈklæsɪkl",
+    "ukphone": "ˈklæsɪkl"
+  },
+  {
+    "name": "clean",
+    "trans": [
+      "adj. 清洁的；整齐的；新的",
+      "vt.&vi. （使）清洁；变干净；除去…的灰尘",
+      "vi. 清扫"
+    ],
+    "usphone": "kliːn",
+    "ukphone": "kliːn"
+  },
+  {
+    "name": "cleanest",
+    "trans": [
+      "adj. 清洁的( clean的最高级 )；整齐的；新的"
+    ],
+    "usphone": "kliːnist",
+    "ukphone": "kliːnist"
+  },
+  {
+    "name": "clear",
+    "trans": [
+      "n. 清除；空隙",
+      "adj. 清楚的；清澈的；晴朗的",
+      "vt. 通过；清除；使干净"
+    ],
+    "usphone": "klɪə",
+    "ukphone": "klɪr"
+  },
+  {
+    "name": "clever",
+    "trans": [
+      "adj. 聪明的；机灵的；熟练的"
+    ],
+    "usphone": "ˈklevə",
+    "ukphone": "ˈklevər"
+  },
+  {
+    "name": "coastal",
+    "trans": [
+      "adj. 临海的，沿海的；海岸的；沿岸"
+    ],
+    "usphone": "ˈkəʊstl",
+    "ukphone": "ˈkoʊstl"
+  },
+  {
+    "name": "comfortable",
+    "trans": [
+      "n. 盖被",
+      "adj. 舒适的；舒服的"
+    ],
+    "usphone": "ˈkʌmftəbl",
+    "ukphone": "ˈkʌmftəbl"
+  },
+  {
+    "name": "common",
+    "trans": [
+      "n. 普通；平民；公有地",
+      "adj. 共同的；普通的；一般的"
+    ],
+    "usphone": "ˈkɒmən",
+    "ukphone": "ˈkɑːmən"
+  },
+  {
+    "name": "commonsense",
+    "trans": [
+      "adj. 有常识的；明白事理的",
+      "n. 常识"
+    ],
+    "usphone": "ˈkɑmənˌsɛns",
+    "ukphone": "ˈkɒmənˌsɛns"
+  },
+  {
+    "name": "complete",
+    "trans": [
+      "adj. 完整的；完成的；彻底的",
+      "vt. 完成；使圆满；使完美"
+    ],
+    "usphone": "kəmˈpliːt",
+    "ukphone": "kəmˈpliːt"
+  },
+  {
+    "name": "completed",
+    "trans": [
+      "adj. 完成的；初次同房的；完整的",
+      "v. 完成；填写（表格）；（使）完整"
+    ],
+    "usphone": "kəmˈpliːtɪd",
+    "ukphone": "kəmˈpliːtɪd"
+  },
+  {
+    "name": "confident",
+    "trans": [
+      "adj. 确信的，深信的；有信心的，沉着的；大胆的，过分自信的",
+      "n. 知己；心腹朋友"
+    ],
+    "usphone": "ˈkɒnfɪdənt",
+    "ukphone": "ˈkɑːnfɪdənt"
+  },
+  {
+    "name": "conservative",
+    "trans": [
+      "adj. 保守的，守旧的；保守主义的；谨慎的",
+      "n. 保守的人；保守主义"
+    ],
+    "usphone": "kənˈsɜːvətɪv",
+    "ukphone": "kənˈsɜːrvətɪv"
+  },
+  {
+    "name": "convenient",
+    "trans": [
+      "adj. 方便的，便利的；便于使用的，称心的；适当的，合宜的"
+    ],
+    "usphone": "kənˈviːniənt",
+    "ukphone": "kənˈviːniənt"
+  },
+  {
+    "name": "co-operative",
+    "trans": [
+      "adj. 合作性质的；联营的"
+    ],
+    "usphone": "ˈkoʊˌɑpəˌreɪtɪv",
+    "ukphone": "ˈkəʊˌɒpərətɪv"
+  },
+  {
+    "name": "corrupt",
+    "trans": [
+      "adj. 腐败的，贪污的；堕落的",
+      "vt. 使腐烂；使堕落，使恶化",
+      "vi. 堕落，腐化；腐烂"
+    ],
+    "usphone": "kəˈrʌpt",
+    "ukphone": "kəˈrʌpt"
+  },
+  {
+    "name": "costly",
+    "trans": [
+      "adj. 昂贵的；价值高的；豪华的"
+    ],
+    "usphone": "ˈkɒstli",
+    "ukphone": "ˈkɔːstli"
+  },
+  {
+    "name": "cream",
+    "trans": [
+      "n. 奶油；乳脂；含乳脂的饮料",
+      "adj. 奶油色的；米黄色的",
+      "v. 打败；击败；彻底征服"
+    ],
+    "usphone": "kriːm",
+    "ukphone": "kriːm"
+  },
+  {
+    "name": "critical",
+    "trans": [
+      "adj. 重要的，关键的；批评的，批判的；危急的，紧要的"
+    ],
+    "usphone": "ˈkrɪtɪkl",
+    "ukphone": "ˈkrɪtɪkl"
+  },
+  {
+    "name": "crucial",
+    "trans": [
+      "adj. 重要的；决定性的；定局的"
+    ],
+    "usphone": "ˈkruːʃl",
+    "ukphone": "ˈkruːʃl"
+  },
+  {
+    "name": "cultural",
+    "trans": [
+      "adj. 文化的；栽培的；培养的"
+    ],
+    "usphone": "ˈkʌltʃərəl",
+    "ukphone": "ˈkʌltʃərəl"
+  },
+  {
+    "name": "curly",
+    "trans": [
+      "adj. 卷曲的；卷毛的；（木材）有皱状纹理的"
+    ],
+    "usphone": "ˈkɜːli",
+    "ukphone": "ˈkɜːrli"
+  },
+  {
+    "name": "current",
+    "trans": [
+      "adj. 现在的；最近的；草写的",
+      "n. 趋势；涌流；（水，气，电）流"
+    ],
+    "usphone": "ˈkʌrənt",
+    "ukphone": "ˈkɜːrənt"
+  },
+  {
+    "name": "daily",
+    "trans": [
+      "n. 日报；朝来夜去的女佣",
+      "adj. 日常的；每日的",
+      "adv. 日常地；每日；天天"
+    ],
+    "usphone": "ˈdeɪli",
+    "ukphone": "ˈdeɪli"
+  },
+  {
+    "name": "dairy",
+    "trans": [
+      "n. 乳制品；乳品店；奶牛场",
+      "adj. 乳制的；乳品业的；牛奶的"
+    ],
+    "usphone": "ˈdeəri",
+    "ukphone": "ˈderi"
+  },
+  {
+    "name": "dangerous",
+    "trans": [
+      "adj. 危险的；不安全的；引起危险的"
+    ],
+    "usphone": "ˈdeɪndʒərəs",
+    "ukphone": "ˈdeɪndʒərəs"
+  },
+  {
+    "name": "dark",
+    "trans": [
+      "n. 黑暗；夜；黄昏",
+      "adj. 黑暗的，深色的；模糊的；无知的"
+    ],
+    "usphone": "dɑːk",
+    "ukphone": "dɑːrk"
+  },
+  {
+    "name": "departmental",
+    "trans": [
+      "adj. 部门的；各县的；分科的"
+    ],
+    "usphone": "ˌdiːpɑːtˈmentl",
+    "ukphone": "ˌdiːpɑːrtˈmentl"
+  },
+  {
+    "name": "dependent",
+    "trans": [
+      "adj. 依靠的；依赖的；取决于…的",
+      "n. 受抚养人；受赡养者；依赖他人者"
+    ],
+    "usphone": "dɪˈpendənt",
+    "ukphone": "dɪˈpendənt"
+  },
+  {
+    "name": "detailed",
+    "trans": [
+      "adj. 详细的，明细的；精细的；复杂的",
+      "v. 详细说明(detail的过去分词)"
+    ],
+    "usphone": "ˈdiːteɪld",
+    "ukphone": "ˈdiːteɪld"
+  },
+  {
+    "name": "different",
+    "trans": [
+      "adj. 不同的，有差异的；不同寻常的，与众不同的；各种各样的"
+    ],
+    "usphone": "ˈdɪfrənt",
+    "ukphone": "ˈdɪfrənt"
+  },
+  {
+    "name": "direct",
+    "trans": [
+      "adj. 直接的；直率的；笔直的",
+      "vt. 指挥；命令；负责",
+      "vi. 指导；指出"
+    ],
+    "usphone": "dəˈrekt",
+    "ukphone": "dəˈrekt"
+  },
+  {
+    "name": "disabled",
+    "trans": [
+      "adj. 残废的；有缺陷的",
+      "v. 使残废；使伤残；使无效"
+    ],
+    "usphone": "dɪsˈeɪbld",
+    "ukphone": "dɪsˈeɪbld"
+  },
+  {
+    "name": "distant",
+    "trans": [
+      "adj. 遥远的，远距离的；疏远的，冷淡的；远亲的，关系疏远的"
+    ],
+    "usphone": "ˈdɪstənt",
+    "ukphone": "ˈdɪstənt"
+  },
+  {
+    "name": "distinct",
+    "trans": [
+      "adj. 明显的，清晰的；不同的，有区别的；独特的，与众不同的"
+    ],
+    "usphone": "dɪˈstɪŋkt",
+    "ukphone": "dɪˈstɪŋkt"
+  },
+  {
+    "name": "domestic",
+    "trans": [
+      "n. 国货；佣人",
+      "adj. 国内的；家庭的；驯养的"
+    ],
+    "usphone": "dəˈmestɪk",
+    "ukphone": "dəˈmestɪk"
+  },
+  {
+    "name": "dominant",
+    "trans": [
+      "adj. 占优势的；统治的，支配的；生显性的",
+      "n. 生显性性状，显性基因；优势物种；乐全阶第五音"
+    ],
+    "usphone": "ˈdɒmɪnənt",
+    "ukphone": "ˈdɑːmɪnənt"
+  },
+  {
+    "name": "eastern",
+    "trans": [
+      "n. 东方人；（美国）东部地区的人",
+      "adj. 东方的；朝东的；东洋的"
+    ],
+    "usphone": "ˈiːstən",
+    "ukphone": "ˈiːstərn"
+  },
+  {
+    "name": "economic",
+    "trans": [
+      "adj. 经济的；经济学的；有利可图的",
+      "n. 经济学(状况等)"
+    ],
+    "usphone": "ˌiːkəˈnɒmɪk",
+    "ukphone": "ˌiːkəˈnɑːmɪk"
+  },
+  {
+    "name": "educational",
+    "trans": [
+      "adj. 教育(方面)的，为教育的；有教育意义的；提供咨询的",
+      "adv. 用教育方法",
+      "n. 教育学家；教育园；教育电视"
+    ],
+    "usphone": "ˌedʒuˈkeɪʃənl",
+    "ukphone": "ˌedʒuˈkeɪʃənl"
+  },
+  {
+    "name": "effective",
+    "trans": [
+      "adj. 有效的；起作用的；实际的，实在的",
+      "n. 军现役兵额；有生力量；精兵"
+    ],
+    "usphone": "ɪˈfektɪv",
+    "ukphone": "ɪˈfektɪv"
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj. 有效率的；能干的",
+      "adv. 有效率地；有效地"
+    ],
+    "usphone": "ɪˈfɪʃnt",
+    "ukphone": "ɪˈfɪʃnt"
+  },
+  {
+    "name": "elementary",
+    "trans": [
+      "adj. 基本的；初级的；元素的"
+    ],
+    "usphone": "ˌelɪˈmentri",
+    "ukphone": "ˌelɪˈmentri"
+  },
+  {
+    "name": "empty",
+    "trans": [
+      "n. 空车；空的东西",
+      "adj. 空的；无意义的；无知的",
+      "vt. 使失去；使…成为空的"
+    ],
+    "usphone": "ˈempti",
+    "ukphone": "ˈempti"
+  },
+  {
+    "name": "enormous",
+    "trans": [
+      "adj. 巨大的，庞大的；极大的，极多的；惊人的，非常的"
+    ],
+    "usphone": "ɪˈnɔːməs",
+    "ukphone": "ɪˈnɔːrməs"
+  },
+  {
+    "name": "enthusiastic",
+    "trans": [
+      "adj. 热情的；热心的；狂热的"
+    ],
+    "usphone": "ɪnˌθjuːziˈæstɪk",
+    "ukphone": "ɪnˌθuːziˈæstɪk"
+  },
+  {
+    "name": "environmental",
+    "trans": [
+      "adj. 环境的，环境方面的；生态的，生态环境的；环保的"
+    ],
+    "usphone": "ɪnˌvaɪrənˈmentl",
+    "ukphone": "ɪnˌvaɪrənˈmentl"
+  },
+  {
+    "name": "essential",
+    "trans": [
+      "n. 本质；要素；要点",
+      "adj. 基本的；必要的；本质的"
+    ],
+    "usphone": "ɪˈsenʃl",
+    "ukphone": "ɪˈsenʃl"
+  },
+  {
+    "name": "excited",
+    "trans": [
+      "v. 激动；唤起（excite的过去分词）",
+      "adj. 兴奋的；激动的；活跃的"
+    ],
+    "usphone": "ɪkˈsaɪtɪd",
+    "ukphone": "ɪkˈsaɪtɪd"
+  },
+  {
+    "name": "exciting",
+    "trans": [
+      "adj. 令人激动的；使人兴奋的",
+      "v. 使兴奋；使激动；“excite”的现在分词"
+    ],
+    "usphone": "ɪkˈsaɪtɪŋ",
+    "ukphone": "ɪkˈsaɪtɪŋ"
+  },
+  {
+    "name": "existent",
+    "trans": [
+      "生存者；存在的事物；存在的"
+    ],
+    "usphone": "ɪɡˈzɪstənt",
+    "ukphone": "ɪɡˈzɪstənt"
+  },
+  {
+    "name": "expensive",
+    "trans": [
+      "adj. 昂贵的，花钱多的；奢侈的；代价高昂的"
+    ],
+    "usphone": "ɪkˈspensɪv",
+    "ukphone": "ɪkˈspensɪv"
+  },
+  {
+    "name": "experienced",
+    "trans": [
+      "v. 经历；遭遇",
+      "adj. 熟练的；有经验的"
+    ],
+    "usphone": "ɪkˈspɪəriənst",
+    "ukphone": "ɪkˈspɪriənst"
+  },
+  {
+    "name": "experimental",
+    "trans": [
+      "adj. 实验的；根据实验的；试验性的",
+      "n. 试验性的东西"
+    ],
+    "usphone": "ɪkˌsperɪˈmentl",
+    "ukphone": "ɪkˌsperɪˈmentl"
+  },
+  {
+    "name": "extensive",
+    "trans": [
+      "adj. 广大的，广阔的；大量的，广泛的；全面的，综合的"
+    ],
+    "usphone": "ɪkˈstensɪv",
+    "ukphone": "ɪkˈstensɪv"
+  },
+  {
+    "name": "extra",
+    "trans": [
+      "n. 临时演员；号外；额外的事物",
+      "adj. 额外的，另外收费的；特大的",
+      "adv. 特别地，非常；另外"
+    ],
+    "usphone": "ˈekstrə",
+    "ukphone": "ˈekstrə"
+  },
+  {
+    "name": "fair",
+    "trans": [
+      "n. 展览会；市集；美人",
+      "adj. 公平的；美丽的，白皙的；晴朗的",
+      "vi. 转晴"
+    ],
+    "usphone": "feə",
+    "ukphone": "fer"
+  },
+  {
+    "name": "fake",
+    "trans": [
+      "adj. 假的；伪造的",
+      "n. 赝品；假货",
+      "v. 伪造；假装"
+    ],
+    "usphone": "feɪk",
+    "ukphone": "feɪk"
+  },
+  {
+    "name": "famed",
+    "trans": [
+      "adj. 著名的；出名的"
+    ],
+    "usphone": "feɪmd",
+    "ukphone": "feɪmd"
+  },
+  {
+    "name": "familiar",
+    "trans": [
+      "adj. 熟悉的；通晓的；冒昧的",
+      "n. 常客，密友；高级官吏的家属；天主教皇主教的仆人"
+    ],
+    "usphone": "fəˈmɪliə",
+    "ukphone": "fəˈmɪliər"
+  },
+  {
+    "name": "famous",
+    "trans": [
+      "adj. 著名的；有名的；出名的"
+    ],
+    "usphone": "ˈfeɪməs",
+    "ukphone": "ˈfeɪməs"
+  },
+  {
+    "name": "fancy",
+    "trans": [
+      "n. 幻想；想象力；爱好",
+      "adj. 想象的；奇特的；昂贵的",
+      "vt. 想象；喜爱；设想"
+    ],
+    "usphone": "ˈfænsi",
+    "ukphone": "ˈfænsi"
+  },
+  {
+    "name": "fashionable",
+    "trans": [
+      "adj. 流行的；时髦的，符合时尚的；时髦人物使用的",
+      "n. 时髦的人"
+    ],
+    "usphone": "ˈfæʃnəbl",
+    "ukphone": "ˈfæʃnəbl"
+  },
+  {
+    "name": "favourite",
+    "trans": [
+      "adj. 最喜爱的；中意的",
+      "n. 特别喜爱的人或物"
+    ],
+    "usphone": "ˈfeɪvərɪt",
+    "ukphone": "ˈfeɪvərɪt"
+  },
+  {
+    "name": "final",
+    "trans": [
+      "n. 决赛；期末考试；当日报纸的末版",
+      "adj. 最终的；决定性的；不可更改的"
+    ],
+    "usphone": "ˈfaɪnl",
+    "ukphone": "ˈfaɪnl"
+  },
+  {
+    "name": "financial",
+    "trans": [
+      "adj. 财政的，金融的；有钱的；（俱乐部或社团成员）已缴费的",
+      "n. （组织或个人的）财务状况；金融公司股票"
+    ],
+    "usphone": "faɪˈnænʃl",
+    "ukphone": "faɪˈnænʃl"
+  },
+  {
+    "name": "fine",
+    "trans": [
+      "n. 罚款",
+      "adj. 好的；优良的；细小的，精美的",
+      "vt. 罚款；澄清"
+    ],
+    "usphone": "faɪn",
+    "ukphone": "faɪn"
+  },
+  {
+    "name": "firm",
+    "trans": [
+      "n. 公司；商号",
+      "adj. 坚定的；牢固的；严格的",
+      "vt. 使坚定；使牢固"
+    ],
+    "usphone": "fɜːm",
+    "ukphone": "fɜːrm"
+  },
+  {
+    "name": "flexible",
+    "trans": [
+      "adj. 灵活的；柔韧的；易弯曲的"
+    ],
+    "usphone": "ˈfleksəbl",
+    "ukphone": "ˈfleksəbl"
+  },
+  {
+    "name": "foreign",
+    "trans": [
+      "adj. 外国的，来自国外的；外来的，异国的；陌生的，不熟悉的"
+    ],
+    "usphone": "ˈfɒrən",
+    "ukphone": "ˈfɔːrən"
+  },
+  {
+    "name": "formal",
+    "trans": [
+      "n. 正式的社交活动；夜礼服",
+      "adj. 正式的；拘谨的；有条理的"
+    ],
+    "usphone": "ˈfɔːml",
+    "ukphone": "ˈfɔːrml"
+  },
+  {
+    "name": "former",
+    "trans": [
+      "adj. 在前的；以前的；前任的",
+      "n. 前者；形成的原因"
+    ],
+    "usphone": "ˈfɔːmə",
+    "ukphone": "ˈfɔːrmər"
+  },
+  {
+    "name": "free",
+    "trans": [
+      "adj. 自由的；空闲的；大方的",
+      "vt. 释放；解放",
+      "adv. 自由地免费地"
+    ],
+    "usphone": "friː",
+    "ukphone": "friː"
+  },
+  {
+    "name": "frequent",
+    "trans": [
+      "adj. 频繁的；时常发生的；惯常的",
+      "vt. 常到，常去；时常出入于"
+    ],
+    "usphone": "ˈfriːkwənt , friˈkwent",
+    "ukphone": "ˈfriːkwənt , friˈkwent"
+  },
+  {
+    "name": "fundamental",
+    "trans": [
+      "adj. 基本的；基础的；根本的",
+      "n. 基本原则；基本原理"
+    ],
+    "usphone": "ˌfʌndəˈmentl",
+    "ukphone": "ˌfʌndəˈmentl"
+  },
+  {
+    "name": "further",
+    "trans": [
+      "adv. 更远地，进一步地；另外，此外",
+      "adj. 更多的；进一步的",
+      "v. 促进；推进"
+    ],
+    "usphone": "ˈfɜːðə",
+    "ukphone": "ˈfɜːrðər"
+  },
+  {
+    "name": "general",
+    "trans": [
+      "n. 一般；将军，上将；常规",
+      "adj. 一般的，普通的；综合的；大体的"
+    ],
+    "usphone": "ˈdʒenrəl",
+    "ukphone": "ˈdʒenrəl"
+  },
+  {
+    "name": "genetic",
+    "trans": [
+      "adj. 遗传的；基因的；与基因相关的"
+    ],
+    "usphone": "dʒəˈnetɪk",
+    "ukphone": "dʒəˈnetɪk"
+  },
+  {
+    "name": "geographical",
+    "trans": [
+      "adj. 地理的；地理学的"
+    ],
+    "usphone": "ˌdʒiːəˈɡræfɪkl",
+    "ukphone": "ˌdʒiːəˈɡræfɪkl"
+  },
+  {
+    "name": "global",
+    "trans": [
+      "adj. 全球的，全世界的；全面的，总体的；整体的，全局的"
+    ],
+    "usphone": "ˈɡləʊbl",
+    "ukphone": "ˈɡloʊbl"
+  },
+  {
+    "name": "handy",
+    "trans": [
+      "adj. 便利的；顺手的",
+      "v. 处（人）绞刑；上吊"
+    ],
+    "usphone": "ˈhændi",
+    "ukphone": "ˈhændi"
+  },
+  {
+    "name": "harmful",
+    "trans": [
+      "adj. 对…有害的；能造成损害的；不利"
+    ],
+    "usphone": "ˈhɑːmfl",
+    "ukphone": "ˈhɑːrmfl"
+  },
+  {
+    "name": "hazardous",
+    "trans": [
+      "adj. 冒险的；有危险的；碰运气的",
+      "adv. 冒险地；有危险地",
+      "n. 冒险；危险"
+    ],
+    "usphone": "ˈhæzədəs",
+    "ukphone": "ˈhæzərdəs"
+  },
+  {
+    "name": "healthy",
+    "trans": [
+      "adj. 健康的，身体好的；有益健康的；正常的，良好的"
+    ],
+    "usphone": "ˈhelθi",
+    "ukphone": "ˈhelθi"
+  },
+  {
+    "name": "heavier",
+    "trans": [
+      "adj. 更沉重的；更巨大的"
+    ],
+    "usphone": "ˈhevɪə",
+    "ukphone": "ˈheviər"
+  },
+  {
+    "name": "heavy",
+    "trans": [
+      "n. 重物；严肃角色",
+      "adj. 沉重的；繁重的，巨大的；拥挤的",
+      "adv. 大量地；笨重地"
+    ],
+    "usphone": "ˈhevi",
+    "ukphone": "ˈhevi"
+  },
+  {
+    "name": "helpful",
+    "trans": [
+      "adj. (to)有帮助的；有益的；有用的"
+    ],
+    "usphone": "ˈhelpfl",
+    "ukphone": "ˈhelpfl"
+  },
+  {
+    "name": "herbivorous",
+    "trans": [
+      "adj. 食草的"
+    ],
+    "usphone": "hɜ:'bɪvərəs",
+    "ukphone": "həˈbɪvərəs,ə-"
+  },
+  {
+    "name": "higher",
+    "trans": [
+      "adj. 高等级的；更高的；“high”的比较级在更高处"
+    ],
+    "usphone": "ˈhaɪə",
+    "ukphone": "ˈhaɪər"
+  },
+  {
+    "name": "highly-trained",
+    "trans": [
+      "adj. 高度训练的；训练有素的"
+    ],
+    "usphone": "ˈhaɪliˌtreɪnd",
+    "ukphone": "ˈhaɪliˌtreɪnd"
+  },
+  {
+    "name": "historical",
+    "trans": [
+      "adj. 历史的；史学的；基于史实的"
+    ],
+    "usphone": "hɪˈstɒrɪkl",
+    "ukphone": "hɪˈstɔːrɪkl"
+  },
+  {
+    "name": "least",
+    "trans": [
+      "adj. 最少的；最小的",
+      "adv. 最少；最小",
+      "n. 最少量；最小量"
+    ],
+    "usphone": "liːst",
+    "ukphone": "liːst"
+  },
+  {
+    "name": "ill",
+    "trans": [
+      "n. 疾病；不幸",
+      "adj. 生病的；坏的；邪恶的",
+      "adv. 不利地；恶劣地；几乎不"
+    ],
+    "usphone": "ɪl",
+    "ukphone": "ɪl"
+  },
+  {
+    "name": "illegal",
+    "trans": [
+      "n. 非法移民；非法劳工",
+      "adj. 非法的；违法的；违反规则的"
+    ],
+    "usphone": "ɪˈliːɡl",
+    "ukphone": "ɪˈliːɡl"
+  },
+  {
+    "name": "immune",
+    "trans": [
+      "adj. 免疫的；不受影响的；免除的，豁免的",
+      "n. 免疫者；免除者"
+    ],
+    "usphone": "ɪˈmjuːn",
+    "ukphone": "ɪˈmjuːn"
+  },
+  {
+    "name": "important",
+    "trans": [
+      "adj. 重要的，重大的；importance n .重要性",
+      "adv. 重要地"
+    ],
+    "usphone": "ɪmˈpɔːtnt",
+    "ukphone": "ɪmˈpɔːrtnt"
+  },
+  {
+    "name": "impossible",
+    "trans": [
+      "n. 不可能；不可能的事",
+      "adj. 不可能的；不可能存在的；难以忍受的"
+    ],
+    "usphone": "ɪmˈpɒsəbl",
+    "ukphone": "ɪmˈpɑːsəbl"
+  },
+  {
+    "name": "inaccurate",
+    "trans": [
+      "adj. 有错误的；不正确的",
+      "adv. 不精密地；不准确地"
+    ],
+    "usphone": "ɪn'ækjərət",
+    "ukphone": "ɪn'ækjʊrət"
+  },
+  {
+    "name": "inadequate",
+    "trans": [
+      "adj. 不充足的，不适当的；不足胜任的，信心不足的",
+      "adv. 不充足地，不适当地；不足胜任地"
+    ],
+    "usphone": "ɪnˈædɪkwət",
+    "ukphone": "ɪnˈædɪkwət"
+  },
+  {
+    "name": "individual",
+    "trans": [
+      "n. 个人；个体",
+      "adj. 个人的；个别的；独特的"
+    ],
+    "usphone": "ˌɪndɪˈvɪdʒuəl",
+    "ukphone": "ˌɪndɪˈvɪdʒuəl"
+  },
+  {
+    "name": "industrial",
+    "trans": [
+      "n. 工业股票；工业工人",
+      "adj. 工业的，产业的；从事工业的；供工业用的"
+    ],
+    "usphone": "ɪnˈdʌstriəl",
+    "ukphone": "ɪnˈdʌstriəl"
+  },
+  {
+    "name": "informative",
+    "trans": [
+      "adj. 教育性的，有益的；情报的；见闻广博的"
+    ],
+    "usphone": "ɪnˈfɔːmətɪv",
+    "ukphone": "ɪnˈfɔːrmətɪv"
+  },
+  {
+    "name": "initial",
+    "trans": [
+      "adj. 最初的；开始的；首字母的",
+      "n. 首字母；语音学声母；特大的大写字母",
+      "vt. 用姓名的首字母签名"
+    ],
+    "usphone": "ɪˈnɪʃl",
+    "ukphone": "ɪˈnɪʃl"
+  },
+  {
+    "name": "inspiring",
+    "trans": [
+      "adj. 鼓舞的；激励的",
+      "v. 鼓舞；激励；“inspire”的现在分词"
+    ],
+    "usphone": "ɪnˈspaɪərɪŋ",
+    "ukphone": "ɪnˈspaɪərɪŋ"
+  },
+  {
+    "name": "intact",
+    "trans": [
+      "adj. 完整的；未经触动的；原封不动的"
+    ],
+    "usphone": "ɪnˈtækt",
+    "ukphone": "ɪnˈtækt"
+  },
+  {
+    "name": "intelligent",
+    "trans": [
+      "adj. 智能的；聪明的；理解力强的"
+    ],
+    "usphone": "ɪnˈtelɪdʒənt",
+    "ukphone": "ɪnˈtelɪdʒənt"
+  },
+  {
+    "name": "intensive",
+    "trans": [
+      "n. 加强器",
+      "adj. 加强的；集中的；透彻的"
+    ],
+    "usphone": "ɪnˈtensɪv",
+    "ukphone": "ɪnˈtensɪv"
+  },
+  {
+    "name": "interesting",
+    "trans": [
+      "adj. 有趣的，有吸引力的；怪异的",
+      "v. 使感兴趣；引起……的关注"
+    ],
+    "usphone": "'ɪntrəstɪŋ",
+    "ukphone": "ˈɪntrəstɪŋ"
+  },
+  {
+    "name": "intermediate",
+    "trans": [
+      "adj. 中间的；中级的",
+      "n. 中间体；媒介物；调解人",
+      "vi. 调解；干涉"
+    ],
+    "usphone": "ˌɪntəˈmiːdiət",
+    "ukphone": "ˌɪntərˈmiːdiət"
+  },
+  {
+    "name": "internal",
+    "trans": [
+      "adj. 国内的；内部的；体内的",
+      "prep. （机构）内部的",
+      "n. 内脏，内部器官；本质，本性"
+    ],
+    "usphone": "ɪnˈtɜːnl",
+    "ukphone": "ɪnˈtɜːrnl"
+  },
+  {
+    "name": "international",
+    "trans": [
+      "adj. 国际的；国际上的",
+      "n. 国际比赛；国际比赛选手；外国人"
+    ],
+    "usphone": "ˌɪntəˈnæʃnəl",
+    "ukphone": "ˌɪntərˈnæʃnəl"
+  },
+  {
+    "name": "irregular",
+    "trans": [
+      "adj. 不整齐的；不规则的；不正常的",
+      "n. 不规则物；不合规格的产品；非正规军人员"
+    ],
+    "usphone": "ɪˈreɡjələ",
+    "ukphone": "ɪˈreɡjələr"
+  },
+  {
+    "name": "irritable",
+    "trans": [
+      "adj. 过敏的；急躁的；易怒的"
+    ],
+    "usphone": "ˈɪrɪtəbl",
+    "ukphone": "ˈɪrɪtəbl"
+  },
+  {
+    "name": "isolated",
+    "trans": [
+      "adj. 隔离的；孤独的；单独的",
+      "v. 使孤立；使绝缘；脱离"
+    ],
+    "usphone": "ˈaɪsəleɪtɪd",
+    "ukphone": "ˈaɪsəleɪtɪd"
+  },
+  {
+    "name": "key",
+    "trans": [
+      "n. 钥匙；关键；答案",
+      "adj. 主要的；关键的",
+      "vt. 上锁；调节；提供解答"
+    ],
+    "usphone": "kiː",
+    "ukphone": "kiː"
+  },
+  {
+    "name": "latest",
+    "trans": [
+      "n. 最新的事物",
+      "adv. 最迟地；最后地",
+      "adj. 最新的，最近的；最迟的，最后的"
+    ],
+    "usphone": "ˈleɪtɪst",
+    "ukphone": "ˈleɪtɪst"
+  },
+  {
+    "name": "legal",
+    "trans": [
+      "adj. 法律的；合法的；法定的",
+      "n. 法定权利；依法必须登报的声明"
+    ],
+    "usphone": "ˈliːɡl",
+    "ukphone": "ˈliːɡl"
+  },
+  {
+    "name": "little-known",
+    "trans": [
+      "adj. 鲜为人知的；无名的"
+    ],
+    "usphone": "ˈlɪtəlˌnoʊn",
+    "ukphone": "ˈlɪtl̩ˌnəʊn"
+  },
+  {
+    "name": "loyal",
+    "trans": [
+      "adj. 忠诚的，忠心的；忠贞的",
+      "n. 效忠的臣民；忠实信徒"
+    ],
+    "usphone": "ˈlɔɪəl",
+    "ukphone": "ˈlɔɪəl"
+  },
+  {
+    "name": "magic",
+    "trans": [
+      "n. 魔法；巫术；戏法",
+      "adj. 有魔力的；神奇的",
+      "vt. 使用魔(变出等)"
+    ],
+    "usphone": "ˈmædʒɪk",
+    "ukphone": "ˈmædʒɪk"
+  },
+  {
+    "name": "magical",
+    "trans": [
+      "adj. 魔力的，不可思议的，迷人的；神；幻"
+    ],
+    "usphone": "ˈmædʒɪkl",
+    "ukphone": "ˈmædʒɪkl"
+  },
+  {
+    "name": "magnificent",
+    "trans": [
+      "adj. 壮丽的，宏伟的；令人印象深刻的；极好的，极出色的"
+    ],
+    "usphone": "mæɡˈnɪfɪsnt",
+    "ukphone": "mæɡˈnɪfɪsnt"
+  },
+  {
+    "name": "major",
+    "trans": [
+      "adj. 主要的；重要的；主修的",
+      "n. 成年人；主修科目；陆军少校",
+      "vi. 主修"
+    ],
+    "usphone": "ˈmeɪdʒə",
+    "ukphone": "ˈmeɪdʒər"
+  },
+  {
+    "name": "martial",
+    "trans": [
+      "adj. 军事的；战争的；尚武的"
+    ],
+    "usphone": "ˈmɑːʃl",
+    "ukphone": "ˈmɑːrʃl"
+  },
+  {
+    "name": "mature",
+    "trans": [
+      "adj. 成熟的；到期的；充分发育的",
+      "vt. 使…成熟；长成",
+      "vi. 长成；成熟；到期"
+    ],
+    "usphone": "məˈtʃʊə",
+    "ukphone": "məˈtʃʊr"
+  },
+  {
+    "name": "medical",
+    "trans": [
+      "adj. 医学的；药的；内科的",
+      "n. 医生；体格检查"
+    ],
+    "usphone": "ˈmedɪkl",
+    "ukphone": "ˈmedɪkl"
+  },
+  {
+    "name": "mental",
+    "trans": [
+      "adj. 精神的；脑力的；疯的",
+      "n. 精神病患者"
+    ],
+    "usphone": "ˈmentl",
+    "ukphone": "ˈmentl"
+  },
+  {
+    "name": "mid",
+    "trans": [
+      "adj. 中间的；居中的；（用于复合词中）中",
+      "prep. 在…中间；中天",
+      "adv. 在船身中部"
+    ],
+    "usphone": "mɪd",
+    "ukphone": "mɪd"
+  },
+  {
+    "name": "migratory",
+    "trans": [
+      "adj. 迁移的；迁徙的；移栖的"
+    ],
+    "usphone": "ˈmaɪɡrətri",
+    "ukphone": "ˈmaɪɡrətɔːri"
+  },
+  {
+    "name": "military",
+    "trans": [
+      "adj. 军事的；军用的；讨厌的",
+      "n. 军人；军队；武装力量"
+    ],
+    "usphone": "ˈmɪlətri",
+    "ukphone": "ˈmɪləteri"
+  },
+  {
+    "name": "miserable",
+    "trans": [
+      "adj. 悲惨的；痛苦的；卑鄙的"
+    ],
+    "usphone": "ˈmɪzrəbl",
+    "ukphone": "ˈmɪzrəbl"
+  },
+  {
+    "name": "mobile",
+    "trans": [
+      "adj. 可移动的；行动自如的；易变的",
+      "n. 风铃；手机"
+    ],
+    "usphone": "ˈməʊbaɪl",
+    "ukphone": "ˈmoʊbl"
+  },
+  {
+    "name": "moderate",
+    "trans": [
+      "adj. 中等的；适度的；温和的",
+      "v. （使）缓和；节制",
+      "n. 温和派人士"
+    ],
+    "usphone": "ˈmɒdərət , ˈmɒdəreɪt",
+    "ukphone": "ˈmɑːdərət , ˈmɑːdəreɪt"
+  },
+  {
+    "name": "modern",
+    "trans": [
+      "adj. 现代的；近代的；时髦的",
+      "n. 现代人；时尚人士"
+    ],
+    "usphone": "ˈmɒdn",
+    "ukphone": "ˈmɑːdərn"
+  },
+  {
+    "name": "musical",
+    "trans": [
+      "adj. 音乐的；悦耳的；喜爱音乐的",
+      "n. 音乐剧；音乐片"
+    ],
+    "usphone": "ˈmjuːzɪkl",
+    "ukphone": "ˈmjuːzɪkl"
+  },
+  {
+    "name": "natural",
+    "trans": [
+      "adj. 自然的；物质的；天生的",
+      "n. 自然的事情；白痴；本位音"
+    ],
+    "usphone": "ˈnætʃrəl",
+    "ukphone": "ˈnætʃrəl"
+  },
+  {
+    "name": "negative",
+    "trans": [
+      "adj. 负的；消极的；否定的",
+      "n. 否定；负数；底片",
+      "vt. 否定；拒绝"
+    ],
+    "usphone": "ˈneɡətɪv",
+    "ukphone": "ˈneɡətɪv"
+  },
+  {
+    "name": "neighbouring",
+    "trans": [
+      "adj. 邻近的；附近的；接壤的"
+    ],
+    "usphone": "ˈneɪbərɪŋ",
+    "ukphone": "ˈneɪbərɪŋ"
+  },
+  {
+    "name": "nervous",
+    "trans": [
+      "adj. 神经的；紧张不安的；强健有力的"
+    ],
+    "usphone": "ˈnɜːvəs",
+    "ukphone": "ˈnɜːrvəs"
+  },
+  {
+    "name": "noble",
+    "trans": [
+      "adj. 高尚的；贵族的；惰性的",
+      "n. 贵族",
+      "vt. 抓住；逮捕"
+    ],
+    "usphone": "'nobl",
+    "ukphone": "'nəʊb(ə)l"
+  },
+  {
+    "name": "noisy",
+    "trans": [
+      "adj. 嘈杂的；喧闹的；充满噪音的",
+      "n. 响声；嘈杂声"
+    ],
+    "usphone": "ˈnɔɪzi",
+    "ukphone": "ˈnɔɪzi"
+  },
+  {
+    "name": "non-active",
+    "trans": [
+      "adj. 不活跃的"
+    ],
+    "usphone": "ˌnɑnˈæktɪv",
+    "ukphone": "ˌnɒnˈæktɪv"
+  },
+  {
+    "name": "normal",
+    "trans": [
+      "adj. 正常的；正规的；标准的",
+      "n. 正常；标准；常态"
+    ],
+    "usphone": "ˈnɔːml",
+    "ukphone": "ˈnɔːrml"
+  },
+  {
+    "name": "northern",
+    "trans": [
+      "n. 北部方言",
+      "adj. 北部的；北方的"
+    ],
+    "usphone": "ˈnɔːðən",
+    "ukphone": "ˈnɔːrðərn"
+  },
+  {
+    "name": "objective",
+    "trans": [
+      "adj. 客观的；目标的；宾格的",
+      "n. 目的；目标；物镜"
+    ],
+    "usphone": "əbˈdʒektɪv",
+    "ukphone": "əbˈdʒektɪv"
+  },
+  {
+    "name": "occupational",
+    "trans": [
+      "adj. 职业的；职业造成的",
+      "adv. 职业引起地"
+    ],
+    "usphone": "ˌɒkjuˈpeɪʃənl",
+    "ukphone": "ˌɑːkjuˈpeɪʃənl"
+  },
+  {
+    "name": "Olympic",
+    "trans": [
+      "adj. 奥林匹斯山的，奥林匹亚的；奥林匹克的",
+      "n. 奥林匹克运动会比赛项目；用复数"
+    ],
+    "usphone": "əˈlɪmpɪk",
+    "ukphone": "əˈlɪmpɪk"
+  },
+  {
+    "name": "optic",
+    "trans": [
+      "adj. 光学的；视觉的；眼睛的",
+      "n. 眼睛；镜片"
+    ],
+    "usphone": "'ɑptɪk",
+    "ukphone": "'ɑːptɪk"
+  },
+  {
+    "name": "optional",
+    "trans": [
+      "adj. 可选择的；随意的",
+      "n. 选修科目"
+    ],
+    "usphone": "ˈɒpʃənl",
+    "ukphone": "ˈɑːpʃənl"
+  },
+  {
+    "name": "oral",
+    "trans": [
+      "adj. 口头的，口述的；口服的；属于或关于嘴的",
+      "n. （尤指外语考试中的）口试"
+    ],
+    "usphone": "ˈɔːrəl",
+    "ukphone": "ˈɔːrəl"
+  },
+  {
+    "name": "organic",
+    "trans": [
+      "adj. 有机体的；器官的；根本的",
+      "n. 有机物质"
+    ],
+    "usphone": "ɔːˈɡænɪk",
+    "ukphone": "ɔːrˈɡænɪk"
+  },
+  {
+    "name": "overall",
+    "trans": [
+      "adj. 全面的；总的",
+      "adv. 总的来说；全面地",
+      "n. 工作服；罩衫"
+    ],
+    "usphone": "ˌəʊvərˈɔːl , ˈəʊvərɔːl",
+    "ukphone": "ˌoʊvərˈɔːl , ˈoʊvərɔːl"
+  },
+  {
+    "name": "overhead",
+    "trans": [
+      "adj. 离地面的；头顶上的；上空的，架空的",
+      "adv. 在头顶上；在空中；在楼上",
+      "n. 经费"
+    ],
+    "usphone": "ˌəʊvəˈhed , ˈəʊvəhed",
+    "ukphone": "ˌoʊvərˈhed , ˈoʊvərhed"
+  },
+  {
+    "name": "overseas",
+    "trans": [
+      "adv. 在国外；在海外",
+      "adj. 海外的；国外的",
+      "n. 海外；国外（尤指欧洲以外的国家）"
+    ],
+    "usphone": "ˌəʊvəˈsiːz",
+    "ukphone": "ˌoʊvərˈsiːz"
+  },
+  {
+    "name": "parental",
+    "trans": [
+      "adj. 父母的；父的；母的"
+    ],
+    "usphone": "pəˈrentl",
+    "ukphone": "pəˈrentl"
+  },
+  {
+    "name": "payable",
+    "trans": [
+      "adj. 应付的；到期的；可付的"
+    ],
+    "usphone": "ˈpeɪəbl",
+    "ukphone": "ˈpeɪəbl"
+  },
+  {
+    "name": "perfect",
+    "trans": [
+      "n. 完成式",
+      "adj. 完美的；最好的；精通的",
+      "vt. 使完美；使熟练"
+    ],
+    "usphone": "ˈpɜːfɪkt , pəˈfekt",
+    "ukphone": "ˈpɜːrfɪkt , pərˈfekt"
+  },
+  {
+    "name": "personal",
+    "trans": [
+      "n. 人事消息栏；人称代名词",
+      "adj. 个人的；身体的；亲自的"
+    ],
+    "usphone": "ˈpɜːsənl",
+    "ukphone": "ˈpɜːrsənl"
+  },
+  {
+    "name": "physical",
+    "trans": [
+      "adj. 自然（界）的；身体的；物质的",
+      "n. 身体检查；体格检查"
+    ],
+    "usphone": "ˈfɪzɪkl",
+    "ukphone": "ˈfɪzɪkl"
+  },
+  {
+    "name": "pleasant",
+    "trans": [
+      "adj. 令人愉快的；舒适的",
+      "vi. 满意；喜欢",
+      "vt. 使高兴"
+    ],
+    "usphone": "ˈpleznt",
+    "ukphone": "ˈpleznt"
+  },
+  {
+    "name": "political",
+    "trans": [
+      "adj. 政治的；政治上的；政党的"
+    ],
+    "usphone": "pəˈlɪtɪkl",
+    "ukphone": "pəˈlɪtɪkl"
+  },
+  {
+    "name": "pop",
+    "trans": [
+      "n. 砰的一声；流行音乐；汽水",
+      "v. 发出砰的一声；突然地行动",
+      "adj. 流行的；通俗的砰地"
+    ],
+    "usphone": "pɒp",
+    "ukphone": "pɑːp"
+  },
+  {
+    "name": "popular",
+    "trans": [
+      "adj. 受欢迎的，流行的；广受喜爱的；通俗的，大众的"
+    ],
+    "usphone": "ˈpɒpjələ",
+    "ukphone": "ˈpɑːpjələr"
+  },
+  {
+    "name": "positive",
+    "trans": [
+      "adj. 积极的；确实的，肯定的；数正的",
+      "n. 正面；正片；语原级形容词"
+    ],
+    "usphone": "ˈpɒzətɪv",
+    "ukphone": "ˈpɑːzətɪv"
+  },
+  {
+    "name": "possible",
+    "trans": [
+      "n. 可能性；合适的人；可能的事物",
+      "adj. 可能的；合理的；合适的"
+    ],
+    "usphone": "ˈpɒsəbl",
+    "ukphone": "ˈpɑːsəbl"
+  },
+  {
+    "name": "potential",
+    "trans": [
+      "n. 潜能；可能性；电势",
+      "adj. 潜在的；可能的；势的"
+    ],
+    "usphone": "pəˈtenʃl",
+    "ukphone": "pəˈtenʃl"
+  },
+  {
+    "name": "practical",
+    "trans": [
+      "adj. 实践的；实用的；明智的",
+      "n. 实践考试"
+    ],
+    "usphone": "ˈpræktɪkl",
+    "ukphone": "ˈpræktɪkl"
+  },
+  {
+    "name": "precious",
+    "trans": [
+      "adj. 宝贵的，珍贵的；贵重的；矫揉造作的",
+      "adv. 很；非常",
+      "n. 珍爱的人；可爱的人"
+    ],
+    "usphone": "ˈpreʃəs",
+    "ukphone": "ˈpreʃəs"
+  },
+  {
+    "name": "predictable",
+    "trans": [
+      "adj. 可预言的；不出所料的，可以想见的；平庸的",
+      "n. 可预测性"
+    ],
+    "usphone": "prɪˈdɪktəbl",
+    "ukphone": "prɪˈdɪktəbl"
+  },
+  {
+    "name": "present",
+    "trans": [
+      "n. 现在；礼物；瞄准",
+      "adj. 现在的；出席的",
+      "vt. 提出；介绍；呈现"
+    ],
+    "usphone": "ˈpreznt , prɪˈzent",
+    "ukphone": "ˈpreznt , prɪˈzent"
+  },
+  {
+    "name": "previous",
+    "trans": [
+      "adj. 以前的；早先的；过早的",
+      "adv. 在先；在…以前"
+    ],
+    "usphone": "ˈpriːviəs",
+    "ukphone": "ˈpriːviəs"
+  },
+  {
+    "name": "printed",
+    "trans": [
+      "adj. 印刷的；印好的；印花样的",
+      "v. 打印；印刷；“print”的过去式和过去分词"
+    ],
+    "usphone": "ˈprɪntɪd",
+    "ukphone": "ˈprɪntɪd"
+  },
+  {
+    "name": "private",
+    "trans": [
+      "n. 列兵；二等兵",
+      "adj. 私人的；私有的；私下的"
+    ],
+    "usphone": "ˈpraɪvət",
+    "ukphone": "ˈpraɪvɪt"
+  },
+  {
+    "name": "professional",
+    "trans": [
+      "adj. 职业的；专业的；内行的",
+      "n. 具有某专业资格的人；专业人士；内行"
+    ],
+    "usphone": "prəˈfeʃənl",
+    "ukphone": "prəˈfeʃənl"
+  },
+  {
+    "name": "promising",
+    "trans": [
+      "adj. 有希望的；有前途的",
+      "v. 承诺；答应；“promise”的现在分词"
+    ],
+    "usphone": "ˈprɒmɪsɪŋ",
+    "ukphone": "ˈprɑːmɪsɪŋ"
+  },
+  {
+    "name": "psychiatric",
+    "trans": [
+      "adj. 精神病学的；精神病治疗的"
+    ],
+    "usphone": "ˌsaɪkiˈætrɪk",
+    "ukphone": "ˌsaɪkiˈætrɪk"
+  },
+  {
+    "name": "psychological",
+    "trans": [
+      "adj. 心理的，精神的；心理学的；精神上的，心理上的"
+    ],
+    "usphone": "ˌsaɪkəˈlɒdʒɪkl",
+    "ukphone": "ˌsaɪkəˈlɑːdʒɪkl"
+  },
+  {
+    "name": "public",
+    "trans": [
+      "n. 公众；社会；公共场所",
+      "adj. 公众的；政府的；公用的"
+    ],
+    "usphone": "ˈpʌblɪk",
+    "ukphone": "ˈpʌblɪk"
+  },
+  {
+    "name": "pure",
+    "trans": [
+      "adj. 纯的；单纯的；纯真的",
+      "prep. 清晰的；纯正的"
+    ],
+    "usphone": "pjʊə",
+    "ukphone": "pjʊr"
+  },
+  {
+    "name": "purest",
+    "trans": [
+      "最纯净的最高级"
+    ],
+    "usphone": "ˈpjʊərɪst",
+    "ukphone": "ˈpjʊrəst"
+  },
+  {
+    "name": "Queen's",
+    "trans": [
+      "adj. 女王的"
+    ],
+    "usphone": "kwinz",
+    "ukphone": "kwiːnz"
+  },
+  {
+    "name": "random",
+    "trans": [
+      "adj. 随机的，任意的；胡乱的，无目的的",
+      "n. 随机选择；随意",
+      "adv. 胡乱地；随意地"
+    ],
+    "usphone": "ˈrændəm",
+    "ukphone": "ˈrændəm"
+  },
+  {
+    "name": "rapid",
+    "trans": [
+      "adj. 快速的；摄感光快的；险峻的",
+      "n. 急流；高速交通工具，高速交通网"
+    ],
+    "usphone": "ˈræpɪd",
+    "ukphone": "ˈræpɪd"
+  },
+  {
+    "name": "rare",
+    "trans": [
+      "adj. 稀有的；稀薄的；半熟的",
+      "adv. 非常；极其",
+      "vi. 用后腿站起；渴望"
+    ],
+    "usphone": "reə",
+    "ukphone": "rer"
+  },
+  {
+    "name": "raw",
+    "trans": [
+      "n. 擦伤处",
+      "adj. 生的；未加工的；阴冷的",
+      "vt. 擦伤"
+    ],
+    "usphone": "rɔː",
+    "ukphone": "rɔː"
+  },
+  {
+    "name": "recycled",
+    "trans": [
+      "adj. 回收的",
+      "v. 再循环；“recycle”的过去式和过去分词"
+    ],
+    "usphone": "ˌriːˈsaɪkld",
+    "ukphone": "ˌriːˈsaɪkld"
+  },
+  {
+    "name": "redundant",
+    "trans": [
+      "adj. 多余的，过剩的；冗长的，累赘的；被解雇的，失业的"
+    ],
+    "usphone": "rɪˈdʌndənt",
+    "ukphone": "rɪˈdʌndənt"
+  },
+  {
+    "name": "regional",
+    "trans": [
+      "adj. 地区的；局部的；整个地区的"
+    ],
+    "usphone": "ˈriːdʒənl",
+    "ukphone": "ˈriːdʒənl"
+  },
+  {
+    "name": "regular",
+    "trans": [
+      "n. 常客；正式队员；中坚分子",
+      "adj. 定期的；有规律的；合格的",
+      "adv. 定期地；经常地"
+    ],
+    "usphone": "ˈreɡjələ",
+    "ukphone": "ˈreɡjələr"
+  },
+  {
+    "name": "reinforced",
+    "trans": [
+      "adj. 加强的",
+      "v. 增强"
+    ],
+    "usphone": "ˌriːɪnˈfɔːst",
+    "ukphone": "ˌriːɪnˈfɔːrst"
+  },
+  {
+    "name": "related",
+    "trans": [
+      "adj. 相关的；有联系的",
+      "v. 关联；“relate”的过去式和过去分词"
+    ],
+    "usphone": "rɪˈleɪtɪd",
+    "ukphone": "rɪˈleɪtɪd"
+  },
+  {
+    "name": "relevant",
+    "trans": [
+      "adj. 相关的；切题的；中肯的"
+    ],
+    "usphone": "ˈreləvənt",
+    "ukphone": "ˈreləvənt"
+  },
+  {
+    "name": "reliable",
+    "trans": [
+      "adj. 可靠的；可信赖的；真实可信的",
+      "n. 可靠的人"
+    ],
+    "usphone": "rɪˈlaɪəbl",
+    "ukphone": "rɪˈlaɪəbl"
+  },
+  {
+    "name": "remote",
+    "trans": [
+      "adj. （时间上）遥远的；远离的；远程的",
+      "n. 远程操作；遥控器",
+      "vt. 使…向远方延伸；把…延展到远处"
+    ],
+    "usphone": "rɪˈməʊt",
+    "ukphone": "rɪˈmoʊt"
+  },
+  {
+    "name": "resistant",
+    "trans": [
+      "adj. 有抵抗力的，抵抗的；顽固的",
+      "n. 抵抗者；有抵抗力的东西；防染剂，防腐剂"
+    ],
+    "usphone": "rɪˈzɪstənt",
+    "ukphone": "rɪˈzɪstənt"
+  },
+  {
+    "name": "reverse",
+    "trans": [
+      "n. 背面；相反；倒退",
+      "adj. 反面的；颠倒的；反身的",
+      "vt. 颠倒；倒转"
+    ],
+    "usphone": "rɪˈvɜːs",
+    "ukphone": "rɪˈvɜːrs"
+  },
+  {
+    "name": "rising",
+    "trans": [
+      "adj. 上升的；高涨的",
+      "n. 上升；造反",
+      "v. 上升；提高；“rise”的现在分词"
+    ],
+    "usphone": "ˈraɪzɪŋ",
+    "ukphone": "ˈraɪzɪŋ"
+  },
+  {
+    "name": "royal",
+    "trans": [
+      "n. 王室；王室成员",
+      "adj. 皇家的；盛大的；女王的"
+    ],
+    "usphone": "ˈrɔɪəl",
+    "ukphone": "ˈrɔɪəl"
+  },
+  {
+    "name": "rural",
+    "trans": [
+      "adj. 乡下的，农村的；田园的；地方的"
+    ],
+    "usphone": "ˈrʊərəl",
+    "ukphone": "ˈrʊrəl"
+  },
+  {
+    "name": "sacked",
+    "trans": [
+      "v. 解雇；装入袋子；劫掠"
+    ],
+    "usphone": "sækt",
+    "ukphone": "sækt"
+  },
+  {
+    "name": "safe",
+    "trans": [
+      "adj. 安全的；无危险的；可靠的",
+      "n. 保险箱；保险柜",
+      "adv. 安全地；平安地"
+    ],
+    "usphone": "seɪf",
+    "ukphone": "seɪf"
+  },
+  {
+    "name": "satisfactory",
+    "trans": [
+      "adj. 满意的；符合要求的；赎罪的"
+    ],
+    "usphone": "ˌsætɪsˈfæktəri",
+    "ukphone": "ˌsætɪsˈfæktəri"
+  },
+  {
+    "name": "scarce",
+    "trans": [
+      "adj. 缺乏的，不足的；稀有的",
+      "adv. 仅仅；几乎不；几乎没有"
+    ],
+    "usphone": "skeəs",
+    "ukphone": "skers"
+  },
+  {
+    "name": "scientific",
+    "trans": [
+      "adj. 科学的；有系统的；应用科学的"
+    ],
+    "usphone": "ˌsaɪənˈtɪfɪk",
+    "ukphone": "ˌsaɪənˈtɪfɪk"
+  },
+  {
+    "name": "seasonal",
+    "trans": [
+      "adj. 季节的；周期性的；依照季节的"
+    ],
+    "usphone": "ˈsiːzənl",
+    "ukphone": "ˈsiːzənl"
+  },
+  {
+    "name": "seasoned",
+    "trans": [
+      "adj. 富有经验的；加佐料的；风干的",
+      "v. 给...调味；适应；风干"
+    ],
+    "usphone": "ˈsiːznd",
+    "ukphone": "ˈsiːznd"
+  },
+  {
+    "name": "secondary",
+    "trans": [
+      "n. 副手；代理人",
+      "adj. 第二的；中等的；次要的"
+    ],
+    "usphone": "ˈsekəndri",
+    "ukphone": "ˈsekənderi"
+  },
+  {
+    "name": "second-hand",
+    "trans": [
+      "adj. 旧的，二手的；用过的；间接得来的",
+      "n. （钟表的）秒针；旧货",
+      "adv. 间接地；第二手地"
+    ],
+    "usphone": "ˈsɛkəndˌhænd",
+    "ukphone": "ˈsɛkəndˌhænd"
+  },
+  {
+    "name": "self-funded",
+    "trans": [
+      "adj. 自筹款项的；自筹资金的"
+    ],
+    "usphone": "ˈsɛlfˌfʌndɪd",
+    "ukphone": "ˈsɛlfˌfʌndɪd"
+  },
+  {
+    "name": "self-sufficient",
+    "trans": [
+      "adj. 自足的，极为自负的，傲慢的；自给；自给自足"
+    ],
+    "usphone": "'selfsə'fiʃənt",
+    "ukphone": "ˌselfsə'fɪʃnt"
+  },
+  {
+    "name": "senior",
+    "trans": [
+      "n. 上司；较年长者；毕业班学生",
+      "adj. 高级的；年长的；地位较高的"
+    ],
+    "usphone": "ˈsiːniə",
+    "ukphone": "ˈsiːniər"
+  },
+  {
+    "name": "sensible",
+    "trans": [
+      "n. 可感觉到的东西；敏感的人",
+      "adj. 明智的；通情达理的；合乎情理的"
+    ],
+    "usphone": "ˈsensəbl",
+    "ukphone": "ˈsensəbl"
+  },
+  {
+    "name": "serial",
+    "trans": [
+      "n. 电视连续剧；期刊；连载小说",
+      "adj. 连续的；连载的；分期偿还的"
+    ],
+    "usphone": "ˈsɪəriəl",
+    "ukphone": "ˈsɪriəl"
+  },
+  {
+    "name": "serious",
+    "trans": [
+      "adj. 严肃的，认真的；重要的，严重的；严峻的，严重的"
+    ],
+    "usphone": "ˈsɪəriəs",
+    "ukphone": "ˈsɪriəs"
+  },
+  {
+    "name": "seven-screen",
+    "trans": [
+      "adj. 七个屏幕的"
+    ],
+    "usphone": "ˈsɛvənˌskrin",
+    "ukphone": "ˈsɛvənˌskriːn"
+  },
+  {
+    "name": "several",
+    "trans": [
+      "adj. 几个的；专有的；各自的",
+      "pron. 几个，数个；一些"
+    ],
+    "usphone": "ˈsevrəl",
+    "ukphone": "ˈsevrəl"
+  },
+  {
+    "name": "shared",
+    "trans": [
+      "adj. 共享的；共同的",
+      "v. 共享；分享；“share”的过去式和过去分词"
+    ],
+    "usphone": "ʃeəd",
+    "ukphone": "ʃerd"
+  },
+  {
+    "name": "sharp",
+    "trans": [
+      "n. 尖头；骗子；内行",
+      "adj. 急剧的；锋利的；强烈的",
+      "vt. 磨快；把音调升高"
+    ],
+    "usphone": "ʃɑːp",
+    "ukphone": "ʃɑːrp"
+  },
+  {
+    "name": "short",
+    "trans": [
+      "n. 短；缺乏；短路",
+      "adj. 短的；不足的；矮的，低的",
+      "adv. 不足；突然；唐突地"
+    ],
+    "usphone": "ʃɔːt",
+    "ukphone": "ʃɔːrt"
+  },
+  {
+    "name": "sick",
+    "trans": [
+      "adj. 有病的；恶心的；腻烦的",
+      "n. 病人；呕吐物",
+      "vt. 追逐；攻击；唆使"
+    ],
+    "usphone": "sɪk",
+    "ukphone": "sɪk"
+  },
+  {
+    "name": "silent",
+    "trans": [
+      "n. 无声电影",
+      "adj. 沉默的；寂静的；无记载的"
+    ],
+    "usphone": "ˈsaɪlənt",
+    "ukphone": "ˈsaɪlənt"
+  },
+  {
+    "name": "silver",
+    "trans": [
+      "n. 银；银器；银币",
+      "adj. 银的；银色的；银制的",
+      "v. 镀银；使具有银色光泽"
+    ],
+    "usphone": "ˈsɪlvə",
+    "ukphone": "ˈsɪlvər"
+  },
+  {
+    "name": "similar",
+    "trans": [
+      "adj. 类似的；同类的；相似的",
+      "n. 类似物；相像的人；相似物"
+    ],
+    "usphone": "ˈsɪmələ",
+    "ukphone": "ˈsɪmələr"
+  },
+  {
+    "name": "simple",
+    "trans": [
+      "n. 笨蛋；愚蠢的行为；出身低微者",
+      "adj. 简单的；单纯的；天真的"
+    ],
+    "usphone": "ˈsɪmpl",
+    "ukphone": "ˈsɪmpl"
+  },
+  {
+    "name": "sleepy",
+    "trans": [
+      "adj. 想睡的；困倦的；瞌睡的"
+    ],
+    "usphone": "ˈsliːpi",
+    "ukphone": "ˈsliːpi"
+  },
+  {
+    "name": "slim",
+    "trans": [
+      "adj. 苗条的；修长的；微小的",
+      "vt. 使…体重减轻；使…苗条",
+      "vi. 减轻体重；变细"
+    ],
+    "usphone": "slɪm",
+    "ukphone": "slɪm"
+  },
+  {
+    "name": "smart",
+    "trans": [
+      "adj. 巧妙的；洒脱的；聪明的",
+      "vi. 刺痛；难过；烦恼",
+      "n. 刺痛；苦恼"
+    ],
+    "usphone": "smɑːt",
+    "ukphone": "smɑːrt"
+  },
+  {
+    "name": "smelly",
+    "trans": [
+      "adj. 发出难闻气味的；有臭味的；〈口〉“smell”的派生"
+    ],
+    "usphone": "ˈsmeli",
+    "ukphone": "ˈsmeli"
+  },
+  {
+    "name": "social",
+    "trans": [
+      "adj. 社会的，社交的；爱交际的，善于社交的；群居的",
+      "n. 联谊会；联欢会"
+    ],
+    "usphone": "ˈsəʊʃl",
+    "ukphone": "ˈsoʊʃl"
+  },
+  {
+    "name": "solar",
+    "trans": [
+      "n. 日光浴室",
+      "adj. 太阳的；日光的；利用太阳光的"
+    ],
+    "usphone": "ˈsəʊlə",
+    "ukphone": "ˈsoʊlər"
+  },
+  {
+    "name": "soundproof",
+    "trans": [
+      "adj. 隔音的",
+      "v. 使隔音"
+    ],
+    "usphone": "ˈsaʊn(d)pruːf",
+    "ukphone": "ˈsaʊn(d)ˌpruf"
+  },
+  {
+    "name": "southern",
+    "trans": [
+      "adj. 南方的，南部的；来自南方的",
+      "n. 南方人；南部人"
+    ],
+    "usphone": "ˈsʌðən",
+    "ukphone": "ˈsʌðərn"
+  },
+  {
+    "name": "spacious",
+    "trans": [
+      "adj. 宽广的；广阔的；宽敞的"
+    ],
+    "usphone": "ˈspeɪʃəs",
+    "ukphone": "ˈspeɪʃəs"
+  },
+  {
+    "name": "spare",
+    "trans": [
+      "vt. 节约；抽出；饶恕",
+      "adj. 多余的；闲置的；备用的",
+      "n. 剩余；备用品"
+    ],
+    "usphone": "speə",
+    "ukphone": "sper"
+  },
+  {
+    "name": "special",
+    "trans": [
+      "adj. 特殊的；特别的；专门的",
+      "n. 特别的东西；特价；特刊"
+    ],
+    "usphone": "ˈspeʃl",
+    "ukphone": "ˈspeʃl"
+  },
+  {
+    "name": "specialised",
+    "trans": [
+      "adj. 专门的；特别的（等于specialized）",
+      "v. 使专门化；专攻"
+    ],
+    "usphone": "'speʃəlaɪzd",
+    "ukphone": "'speʃəlaɪzd"
+  },
+  {
+    "name": "species",
+    "trans": [
+      "n. （动植物的）种，物种；种类；（具有相同特征的）一类人",
+      "adj. 原种的"
+    ],
+    "usphone": "ˈspiːʃiːz",
+    "ukphone": "ˈspiːʃiːz"
+  },
+  {
+    "name": "specific",
+    "trans": [
+      "n. 特性；细节；特效药",
+      "adj. 特殊的，特定的；明确的；详细的"
+    ],
+    "usphone": "spəˈsɪfɪk",
+    "ukphone": "spəˈsɪfɪk"
+  },
+  {
+    "name": "spiral",
+    "trans": [
+      "n. 螺旋；旋涡；螺旋形之物",
+      "adj. 螺旋形的；盘旋的",
+      "vt. 使成螺旋形；使作螺旋形上升"
+    ],
+    "usphone": "ˈspaɪrəl",
+    "ukphone": "ˈspaɪrəl"
+  },
+  {
+    "name": "stable",
+    "trans": [
+      "n. 马厩；牛棚",
+      "adj. 稳定的；牢固的；坚定的",
+      "vt. 赶入马房"
+    ],
+    "usphone": "ˈsteɪbl",
+    "ukphone": "ˈsteɪbl"
+  },
+  {
+    "name": "steady",
+    "trans": [
+      "adj. 稳定的；不变的；沉着的",
+      "vi. 稳固",
+      "vt. 使稳定；稳固；使坚定"
+    ],
+    "usphone": "ˈstedi",
+    "ukphone": "ˈstedi"
+  },
+  {
+    "name": "stout",
+    "trans": [
+      "adj. 强壮的；结实的；勇敢的",
+      "n. 烈性黑啤酒；胖子；特大号"
+    ],
+    "usphone": "staʊt",
+    "ukphone": "staʊt"
+  },
+  {
+    "name": "strained",
+    "trans": [
+      "adj. 紧张的；不友善的；经过滤的",
+      "v. 尽量利用；尽全力；过滤",
+      "vt. 过滤，滤去；歪曲；扭伤"
+    ],
+    "usphone": "streɪnd",
+    "ukphone": "streɪnd"
+  },
+  {
+    "name": "stressful",
+    "trans": [
+      "adj. 紧张的；有压力的"
+    ],
+    "usphone": "ˈstresfl",
+    "ukphone": "ˈstresfl"
+  },
+  {
+    "name": "stretching",
+    "trans": [
+      "adj. 伸展的",
+      "n. 延伸；伸长",
+      "v. 伸展；延伸；“stretch”的现在分词"
+    ],
+    "usphone": "ˈstretʃɪŋ",
+    "ukphone": "ˈstretʃɪŋ"
+  },
+  {
+    "name": "strong",
+    "trans": [
+      "adj. 强的；坚强的；强烈的",
+      "adv. 强劲地；猛烈地；大大地"
+    ],
+    "usphone": "strɒŋ",
+    "ukphone": "strɔːŋ"
+  },
+  {
+    "name": "stronger",
+    "trans": [
+      "adj. 更强壮的"
+    ],
+    "usphone": "ˈstrɒŋgə",
+    "ukphone": "ˈstrɔːŋər"
+  },
+  {
+    "name": "subjective",
+    "trans": [
+      "adj. 主观的；个人的；自觉的"
+    ],
+    "usphone": "səbˈdʒektɪv",
+    "ukphone": "səbˈdʒektɪv"
+  },
+  {
+    "name": "successful",
+    "trans": [
+      "adj. 圆满的；顺利的；成功的"
+    ],
+    "usphone": "səkˈsesfl",
+    "ukphone": "səkˈsesfl"
+  },
+  {
+    "name": "sufficient",
+    "trans": [
+      "adj. 足够的；充足的；充分的"
+    ],
+    "usphone": "səˈfɪʃnt",
+    "ukphone": "səˈfɪʃnt"
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. 合适的；适宜的",
+      "adv. 合适地；恰当地"
+    ],
+    "usphone": "ˈsuːtəbl",
+    "ukphone": "ˈsuːtəbl"
+  },
+  {
+    "name": "super",
+    "trans": [
+      "adj. 极好的；超级的",
+      "n. 主管人；负责人；警务长",
+      "adv. 特别；格外"
+    ],
+    "usphone": "ˈsuːpə",
+    "ukphone": "ˈsuːpər"
+  },
+  {
+    "name": "surprised",
+    "trans": [
+      "adj. 感到惊讶；惊奇；感到意外"
+    ],
+    "usphone": "səˈpraɪzd",
+    "ukphone": "sərˈpraɪzd"
+  },
+  {
+    "name": "systematic",
+    "trans": [
+      "adj. 系统的；体系的；有系统的"
+    ],
+    "usphone": "ˌsɪstəˈmætɪk",
+    "ukphone": "ˌsɪstəˈmætɪk"
+  },
+  {
+    "name": "technical",
+    "trans": [
+      "adj. 技术的；专业的；工艺的"
+    ],
+    "usphone": "ˈteknɪkl",
+    "ukphone": "ˈteknɪkl"
+  },
+  {
+    "name": "theoretical",
+    "trans": [
+      "adj. 理论的；理论上的；假设的"
+    ],
+    "usphone": "ˌθɪəˈretɪkl",
+    "ukphone": "ˌθiːəˈretɪkl"
+  },
+  {
+    "name": "traditional",
+    "trans": [
+      "adj. 传统的；惯例的",
+      "adv. 传统上；传说上"
+    ],
+    "usphone": "trəˈdɪʃənl",
+    "ukphone": "trəˈdɪʃənl"
+  },
+  {
+    "name": "troublesome",
+    "trans": [
+      "adj. 麻烦的；讨厌的；使人苦恼的"
+    ],
+    "usphone": "ˈtrʌblsəm",
+    "ukphone": "ˈtrʌblsəm"
+  },
+  {
+    "name": "typical",
+    "trans": [
+      "adj. 典型的，有代表性的；特有的，独特的；普通的，一般的"
+    ],
+    "usphone": "ˈtɪpɪkl",
+    "ukphone": "ˈtɪpɪkl"
+  },
+  {
+    "name": "unanimous",
+    "trans": [
+      "adj. 全体一致的；意见一致的；无异议的"
+    ],
+    "usphone": "juˈnænɪməs",
+    "ukphone": "juˈnænɪməs"
+  },
+  {
+    "name": "uncomfortable",
+    "trans": [
+      "adj. 使人不舒服的；感到难受的；不自在的"
+    ],
+    "usphone": "ʌnˈkʌmftəbl",
+    "ukphone": "ʌnˈkʌmftəbl"
+  },
+  {
+    "name": "unconvincing",
+    "trans": [
+      "没有说服力的"
+    ],
+    "usphone": "ˌənˈkɑnvɪnsɪŋ",
+    "ukphone": "ˌʌnkənˈvɪnsɪŋ"
+  },
+  {
+    "name": "underground",
+    "trans": [
+      "n. 地下；地铁；地道",
+      "adj. 地下的；秘密的；先锋派的",
+      "adv. 在地下；秘密地"
+    ],
+    "usphone": "ˌʌndəˈɡraʊnd , ˈʌndəɡraʊnd",
+    "ukphone": "ˌʌndərˈɡraʊnd , ˈʌndərɡraʊnd"
+  },
+  {
+    "name": "unfair",
+    "trans": [
+      "adj. 不公平的；不公正的；(商业上)不正当的"
+    ],
+    "usphone": "ˌʌnˈfeə",
+    "ukphone": "ˌʌnˈfer"
+  },
+  {
+    "name": "unhealthy",
+    "trans": [
+      "adj. 不健康的；危险的；有害身心健康的"
+    ],
+    "usphone": "ʌnˈhelθi",
+    "ukphone": "ʌnˈhelθi"
+  },
+  {
+    "name": "unique",
+    "trans": [
+      "n. 独一无二的人或物",
+      "adj. 独特的，稀罕的；唯一的，独一无二的"
+    ],
+    "usphone": "juˈniːk",
+    "ukphone": "juˈniːk"
+  },
+  {
+    "name": "united",
+    "trans": [
+      "adj. 团结的；联合的；统一的",
+      "v. （使）团结；（使）联合；（使）统一"
+    ],
+    "usphone": "jʊ'naɪtɪd",
+    "ukphone": "jʊ'naɪtɪd"
+  },
+  {
+    "name": "unreliable",
+    "trans": [
+      "adj. 不可靠的；不可信任的；不稳定的"
+    ],
+    "usphone": "ˌʌnrɪˈlaɪəbl",
+    "ukphone": "ˌʌnrɪˈlaɪəbl"
+  },
+  {
+    "name": "unsocial",
+    "trans": [
+      "adj. 非社会的；不合群的；孤僻的"
+    ],
+    "usphone": "ˌənˈsoʊʃəl",
+    "ukphone": "ˌʌnˈsəʊʃəl"
+  },
+  {
+    "name": "unusual",
+    "trans": [
+      "adj. 不寻常的；罕见的；异常的"
+    ],
+    "usphone": "ʌnˈjuːʒuəl",
+    "ukphone": "ʌnˈjuːʒuəl"
+  },
+  {
+    "name": "useful",
+    "trans": [
+      "adj. 有用的；实用的；有益的"
+    ],
+    "usphone": "ˈjuːsfl",
+    "ukphone": "ˈjuːsfl"
+  },
+  {
+    "name": "useless",
+    "trans": [
+      "adj. 无用的；无价值的；无效的"
+    ],
+    "usphone": "ˈjuːsləs",
+    "ukphone": "ˈjuːsləs"
+  },
+  {
+    "name": "usual",
+    "trans": [
+      "adj. 通常的；平常的；惯常的"
+    ],
+    "usphone": "ˈjuːʒuəl",
+    "ukphone": "ˈjuːʒuəl"
+  },
+  {
+    "name": "various",
+    "trans": [
+      "pron. 不止一个的；各别的",
+      "adj. 各种各样的；迥异的，千差万别的"
+    ],
+    "usphone": "ˈveəriəs",
+    "ukphone": "ˈveriəs"
+  },
+  {
+    "name": "violent",
+    "trans": [
+      "adj. 暴力的，凶暴的；猛烈的，强烈的；激烈的，剧烈的"
+    ],
+    "usphone": "ˈvaɪələnt",
+    "ukphone": "ˈvaɪələnt"
+  },
+  {
+    "name": "virtual",
+    "trans": [
+      "adj. 几乎的；实际上的；事实上的"
+    ],
+    "usphone": "ˈvɜːtʃuəl",
+    "ukphone": "ˈvɜːrtʃuəl"
+  },
+  {
+    "name": "visible",
+    "trans": [
+      "n. 可见物；进出口贸易中的有形项目",
+      "adj. 明显的；看得见的；现有的"
+    ],
+    "usphone": "ˈvɪzəbl",
+    "ukphone": "ˈvɪzəbl"
+  },
+  {
+    "name": "visual",
+    "trans": [
+      "adj. 看的；看得见的；视觉的",
+      "n. 画面；图象"
+    ],
+    "usphone": "ˈvɪʒuəl",
+    "ukphone": "ˈvɪʒuəl"
+  },
+  {
+    "name": "warm",
+    "trans": [
+      "n. 取暖；加热",
+      "adj. 温暖的；热情的",
+      "vt. 使…兴奋；使…温暖；使…感兴趣"
+    ],
+    "usphone": "wɔːm",
+    "ukphone": "wɔːrm"
+  },
+  {
+    "name": "washable",
+    "trans": [
+      "可洗的"
+    ],
+    "usphone": "ˈwɑʃəbl̩",
+    "ukphone": "ˈwɒʃəbl̩"
+  },
+  {
+    "name": "wealthy",
+    "trans": [
+      "adj. 富有的；丰裕的；充分的",
+      "n. 富人；有钱人"
+    ],
+    "usphone": "ˈwelθi",
+    "ukphone": "ˈwelθi"
+  },
+  {
+    "name": "weekly",
+    "trans": [
+      "adj. 每周的；每星期的",
+      "adv. 每周一次；每星期",
+      "n. 周刊；周报"
+    ],
+    "usphone": "ˈwiːkli",
+    "ukphone": "ˈwiːkli"
+  },
+  {
+    "name": "western",
+    "trans": [
+      "adj. 西方的；西部的；西洋的",
+      "n. 西方人；西部片；西部小说"
+    ],
+    "usphone": "'wɛstɚn",
+    "ukphone": "'west(ə)n"
+  },
+  {
+    "name": "whole",
+    "trans": [
+      "adj. 完整的；全部的；整体的",
+      "n. 全部；完整；整体",
+      "adv. 完全"
+    ],
+    "usphone": "həʊl",
+    "ukphone": "hoʊl"
+  },
+  {
+    "name": "wide",
+    "trans": [
+      "n. 大千世界",
+      "adj. 广泛的；宽的，广阔的；张大的",
+      "adv. 广泛地；广阔地；充分地"
+    ],
+    "usphone": "waɪd",
+    "ukphone": "waɪd"
+  },
+  {
+    "name": "wise",
+    "trans": [
+      "adj. 明智的；聪明的；博学的",
+      "vt. 使知道；教导",
+      "vi. 了解"
+    ],
+    "usphone": "waɪz",
+    "ukphone": "waɪz"
+  },
+  {
+    "name": "worthwhile",
+    "trans": [
+      "adj. 值得的；值钱的；有价值的"
+    ],
+    "usphone": "ˌwɜːθˈwaɪl",
+    "ukphone": "ˌwɜːrθˈwaɪl"
+  },
+  {
+    "name": "worthy",
+    "trans": [
+      "n. 杰出人物；知名人士",
+      "adj. 值得的；有价值的；配得上的，相称的"
+    ],
+    "usphone": "ˈwɜːði",
+    "ukphone": "ˈwɜːrði"
+  },
+  {
+    "name": "almost",
+    "trans": [
+      "adv. 几乎；差不多",
+      "adj. 几乎"
+    ],
+    "usphone": "ˈɔːlməʊst",
+    "ukphone": "ˈɔːlmoʊst"
+  },
+  {
+    "name": "currently",
+    "trans": [
+      "adv. 当前；目前；眼下"
+    ],
+    "usphone": "ˈkʌrəntli",
+    "ukphone": "ˈkɜːrəntli"
+  },
+  {
+    "name": "directly",
+    "trans": [
+      "conj. 一…就",
+      "adv. 直接地；立即；马上"
+    ],
+    "usphone": "dəˈrektli",
+    "ukphone": "dəˈrektli"
+  },
+  {
+    "name": "effectively",
+    "trans": [
+      "adv. 有效地，生效地；有力地；实际上"
+    ],
+    "usphone": "ɪˈfektɪvli",
+    "ukphone": "ɪˈfektɪvli"
+  },
+  {
+    "name": "efficiently",
+    "trans": [
+      "adv. 效率高地；有能力地"
+    ],
+    "usphone": "ɪˈfɪʃntli",
+    "ukphone": "ɪˈfɪʃntli"
+  },
+  {
+    "name": "originally",
+    "trans": [
+      "adv. 起初，原来；本来；独创地，新颖地"
+    ],
+    "usphone": "əˈrɪdʒənəli",
+    "ukphone": "əˈrɪdʒənəli"
+  },
+  {
+    "name": "physically",
+    "trans": [
+      "adv. 身体上；实际上；按自然规律"
+    ],
+    "usphone": "ˈfɪzɪkli",
+    "ukphone": "ˈfɪzɪkli"
+  },
+  {
+    "name": "professionally",
+    "trans": [
+      "adv. 专业地；内行地"
+    ],
+    "usphone": "prəˈfeʃənəli",
+    "ukphone": "prəˈfeʃənəli"
+  },
+  {
+    "name": "rapidly",
+    "trans": [
+      "adv. 迅速地；很快地；立即"
+    ],
+    "usphone": "ˈræpɪdli",
+    "ukphone": "ˈræpɪdli"
+  },
+  {
+    "name": "regularly",
+    "trans": [
+      "adv. 定期地；有规律地；整齐地"
+    ],
+    "usphone": "ˈreɡjələli",
+    "ukphone": "ˈreɡjələrli"
+  },
+  {
+    "name": "scarcely",
+    "trans": [
+      "adv. 仅仅；几乎不；简直没有"
+    ],
+    "usphone": "ˈskeəsli",
+    "ukphone": "ˈskersli"
+  },
+  {
+    "name": "virtually",
+    "trans": [
+      "adv. 实际地；实质地；事实上"
+    ],
+    "usphone": "ˈvɜːtʃuəli",
+    "ukphone": "ˈvɜːrtʃuəli"
+  }
 ]

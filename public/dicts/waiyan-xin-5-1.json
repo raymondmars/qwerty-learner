@@ -2,913 +2,1091 @@
   {
     "name": "met",
     "trans": [
-      "adv.(meet的过去式）碰上，遇见"
+      "adv. (meet的过去式）碰上；遇见"
     ]
   },
   {
     "name": "above",
     "trans": [
-      "adv.在......上方，在......之上"
+      "prep. 在...上方；高于；超过",
+      "adv. 在上面；在上文",
+      "adj. 上述的；前面提到的"
     ]
   },
   {
     "name": "ground",
     "trans": [
-      "adv.地面"
+      "n. 地面；土地；范围",
+      "vt. 打基础；使搁浅；使接触地面",
+      "vi. 搁浅；着陆"
     ]
   },
   {
     "name": "those",
     "trans": [
-      "adv.那些"
+      "pron. that的复数",
+      "adj. 那些的；那",
+      "n. 那，那个( that的名词复数)；（指较远的人或事物）那；（指已提到过或已知的人或事物）那"
     ]
   },
   {
     "name": "ice cream",
     "trans": [
-      "adv.冰激凌"
+      "n. 冰淇淋"
     ]
   },
   {
     "name": "us",
     "trans": [
-      "adv.（宾格）我们"
+      "pron. 我们；我们俩；我们大家"
     ]
   },
   {
     "name": "finish",
     "trans": [
-      "adv.吃完"
+      "n. 结束；完美；回味（葡萄酒）",
+      "vt. 完成；结束；用完",
+      "vi. 结束，终止；终结"
     ]
   },
   {
     "name": "wait",
     "trans": [
-      "adv.等待，等候"
+      "n. 等待；等候",
+      "vi. 等待；耽搁；伺候用餐",
+      "vt. 等候；推迟；延缓"
     ]
   },
   {
     "name": "hurry",
     "trans": [
-      "adv.赶紧，匆忙"
+      "vi. 赶紧；快速移动",
+      "vt. 促；加快；迅速处理",
+      "n. 骚乱；匆忙；急需"
     ]
   },
   {
     "name": "hurry up",
     "trans": [
-      "adv.赶紧，赶快"
+      "n. 催促；赶快"
     ]
   },
   {
     "name": "dropped",
     "trans": [
-      "adv.（drop的过去式）（无意中）使掉落"
+      "adj. （衣服式样）低腰的；靠下的",
+      "v. 投，丢；停止，放弃；（使）掉落"
     ]
   },
   {
     "name": "send",
     "trans": [
-      "adv.发送，寄"
+      "n. 上升运动",
+      "vi. 派人；寄信",
+      "vt. 发送，寄；派遣；使进入"
     ]
   },
   {
     "name": "email",
     "trans": [
-      "adv.电子邮件"
+      "n. 电子邮件",
+      "v. 发送电子邮件"
     ]
   },
   {
     "name": "ran",
     "trans": [
-      "adv.（run的过去式）跑"
+      "v. 跑（run的过去式）"
     ]
   },
   {
     "name": "love",
     "trans": [
-      "adv.爱你的"
+      "vt. 爱；爱慕；热爱",
+      "vi. 爱",
+      "n. 爱；恋爱；爱情"
     ]
   },
   {
     "name": "list",
     "trans": [
-      "adv.清单"
+      "n. 列表；清单；目录",
+      "vi. 列于表上",
+      "vt. 列出；记入名单内"
     ]
   },
   {
     "name": "er",
     "trans": [
-      "adv.哦，嗯，呃"
+      "adv. 哦；嗯；呃"
     ]
   },
   {
     "name": "need",
     "trans": [
-      "adv.需要"
+      "vt. 需要；必需",
+      "aux. 需要",
+      "n. 需要；必须；缺乏"
     ]
   },
   {
     "name": "first",
     "trans": [
-      "adv.首先，第一；最先的，第一（次）的"
+      "num. 第一",
+      "n. 第一；开始；冠军",
+      "adj. 第一的；基本的；最早的"
     ]
   },
   {
     "name": "can",
     "trans": [
-      "adv.可以"
+      "aux. 能；会；可以",
+      "n. 罐头；金属容器",
+      "v. 把…装罐；保存"
     ]
   },
   {
     "name": "lost",
     "trans": [
-      "adv.(lose的过去式）丢失"
+      "adj. 迷路的，迷失的；失去的，丧失的；无法恢复的",
+      "v. 失去；遗失；痛失"
     ]
   },
   {
     "name": "how much",
     "trans": [
-      "adv.多少（用于不可数名词）"
+      "conj. 多少"
     ]
   },
   {
     "name": "cheese",
     "trans": [
-      "adv.奶酪"
+      "n. 奶酪；干酪；要人",
+      "adj. 叛变的；胆小的",
+      "vt. 停止"
     ]
   },
   {
     "name": "any",
     "trans": [
-      "adv.一些，一点，若干"
+      "adj. 任何的；所有的；丝毫",
+      "pron. 任何；任何一个；若干",
+      "adv. 稍微；少许"
     ]
   },
   {
     "name": "use",
     "trans": [
-      "adv.使用"
+      "n. 使用；用途；发挥",
+      "vt. 利用；耗费",
+      "vi. 使用；运用"
     ]
   },
   {
     "name": "over there",
     "trans": [
-      "adv.在那边"
+      "n. 在那边；在欧洲；在战地"
     ]
   },
   {
     "name": "bottle",
     "trans": [
-      "adv.瓶子；一瓶的容量"
+      "n. 瓶子；一瓶的容量",
+      "vt. 控制；把…装入瓶中",
+      "vi. （街头艺人演出后）收拢钱币"
     ]
   },
   {
     "name": "half",
     "trans": [
-      "adv.一半"
+      "n. 一半，半数；半场，半学年",
+      "adj. 一半的；半数的",
+      "adv. 一半地；部分地"
     ]
   },
   {
     "name": "kilo",
     "trans": [
-      "adv.千克，公斤"
+      "n. 千克；公斤"
     ]
   },
   {
     "name": "a lot of",
     "trans": [
-      "adv.许多的"
+      "adv. 许多的"
     ]
   },
   {
     "name": "weekend",
     "trans": [
-      "adv.周末"
+      "n. 周末，周末休假；周末聚会",
+      "adj. 周末的；周末用的",
+      "vi. 度周末"
     ]
   },
   {
     "name": "place",
     "trans": [
-      "adv.地方"
+      "n. 地方；住所；座位",
+      "vt. 放置；任命；寄予",
+      "vi. 名列前茅；取得名次"
     ]
   },
   {
     "name": "British",
     "trans": [
-      "adv.英国的；英国人的，英国人"
+      "adj. 不列颠的；英国的；英联邦的",
+      "n. 英国人；英国英语"
     ]
   },
   {
     "name": "museum",
     "trans": [
-      "adv.博物馆"
+      "n. 博物馆；美术馆"
     ]
   },
   {
     "name": "how",
     "trans": [
-      "adv.如何，怎样"
+      "adv. 如何；多少；多么",
+      "n. 方法；方式",
+      "conj. 如何"
     ]
   },
   {
     "name": "best",
     "trans": [
-      "adv.最"
+      "adj. 最好的；最优秀的",
+      "adv. 最好地；最出色地",
+      "n. 最好的人或物；最佳状态"
     ]
   },
   {
     "name": "took",
     "trans": [
-      "adv.（take的过去式）搭乘"
+      "v. 拿；取；接受（take的过去式）"
     ]
   },
   {
     "name": "trip",
     "trans": [
-      "adv.旅行，旅程"
+      "n. 旅行；绊倒；差错",
+      "vt. 绊倒；使犯错",
+      "vi. 绊倒；远足；犯错误"
     ]
   },
   {
     "name": "along",
     "trans": [
-      "adv.沿着"
+      "adv. 一起；向前；进展",
+      "prep. 沿着；顺着；靠着…边"
     ]
   },
   {
     "name": "river",
     "trans": [
-      "adv.河，江"
+      "n. 江；河；水道"
     ]
   },
   {
     "name": "hour",
     "trans": [
-      "adv.小时"
+      "n. 小时；钟头；课时"
     ]
   },
   {
     "name": "twenty",
     "trans": [
-      "adv.二十"
+      "n. 二十，二十个；二十多岁；二十年代",
+      "num. 二十",
+      "adj. 二十的"
     ]
   },
   {
     "name": "minute",
     "trans": [
-      "adv.分钟"
+      "n. 分；分钟；一会儿",
+      "adj. 微小的；不重要的；详细的",
+      "vt. 记录"
     ]
   },
   {
     "name": "of",
     "trans": [
-      "adv.关于......的，表明......的"
+      "prep. 属于；来自；由...制成"
     ]
   },
   {
     "name": "wall",
     "trans": [
-      "adv.墙，城墙"
+      "n. 墙；壁；围墙",
+      "vt. 用墙围住；用墙隔开",
+      "v. 演戏般地转动(眼睛)"
     ]
   },
   {
     "name": "arrive",
     "trans": [
-      "adv.到达"
+      "vi. 到达；成功；达成"
     ]
   },
   {
     "name": "for",
     "trans": [
-      "adv.达，计"
+      "prep. 表示目的；表示对象；表示时间",
+      "conj. 因为；由于"
     ]
   },
   {
     "name": "mountain",
     "trans": [
-      "adv.山"
+      "n. 山，山脉；大量，大堆",
+      "adj. 山的；山地的"
     ]
   },
   {
     "name": "with",
     "trans": [
-      "adv.拥有，具有"
+      "prep. 和...一起；用；具有"
     ]
   },
   {
     "name": "plant",
     "trans": [
-      "adv.植物"
+      "n. 工厂，车间；植物；设备",
+      "vt. 种植；培养；栽培",
+      "vi. 种植"
     ]
   },
   {
     "name": "pair",
     "trans": [
-      "adv.一套，一双，一副"
+      "n. 一副；一对男女；套在一起的两匹马",
+      "vt.&vi. （使…）成对；（使…）成双",
+      "vi. 交配；交尾"
     ]
   },
   {
     "name": "shorts",
     "trans": [
-      "adv.（常复）短裤"
+      "n. （从事运动或天气炎热时穿的）短裤；男人的短内裤；电影短片"
     ]
   },
   {
     "name": "argue",
     "trans": [
-      "adv.争论，争吵"
+      "vt. 争论；辩论；争吵",
+      "vi. 提出理由；争论；争辩"
     ]
   },
   {
     "name": "matter",
     "trans": [
-      "adv.问题，麻烦"
+      "n. 事件；（讨论、考虑等的）问题；重要性",
+      "vi. 要紧，重要；化脓；有重大影响"
     ]
   },
   {
     "name": "What's the matter",
     "trans": [
-      "adv.怎么啦？"
+      "adv. 怎么啦？"
     ]
   },
   {
     "name": "took",
     "trans": [
-      "adv.（take的过去式）拿（走），取（走）"
+      "v. 拿；取；接受（take的过去式）"
     ]
   },
   {
     "name": "wear",
     "trans": [
-      "adv.穿"
+      "n. 衣物；磨损；耐久性",
+      "v. 穿着；用旧；耗损"
     ]
   },
   {
     "name": "That's OK",
     "trans": [
-      "adv.没关系"
+      "adv. 没关系"
     ]
   },
   {
     "name": "sports",
     "trans": [
-      "adv.体育运动，体育运动用的"
+      "n. 运动；运动会（sport的复数）；（报纸）体育版面",
+      "adj. 运动的；适用于运动的",
+      "v. 娱乐；戏弄（sport的第三人称单数）"
     ]
   },
   {
     "name": "hey",
     "trans": [
-      "adv.嘿，喂"
+      "int. 你好！（表示问候）；咳",
+      "n. 干草（等于hay）"
     ]
   },
   {
     "name": "nineteen",
     "trans": [
-      "adv.十九"
+      "num. 十九；十九个；第十九",
+      "n. 十九岁；十九点钟"
     ]
   },
   {
     "name": "crayon",
     "trans": [
-      "adv.蜡笔"
+      "n. 蜡笔；有色粉笔",
+      "vt. 以蜡笔作画；用颜色粉笔画"
     ]
   },
   {
     "name": "fifteen",
     "trans": [
-      "adv.十五"
+      "num. 十五；十五个",
+      "pron. 十五个；只...",
+      "adj. 十五的；十五个的"
     ]
   },
   {
     "name": "begin",
     "trans": [
-      "adv.开始"
+      "vt.&vi. 开始；着手；创始",
+      "vi. （从…）开始；起始；起初是"
     ]
   },
   {
     "name": "give out",
     "trans": [
-      "adv.分发"
+      "adv. 分发"
     ]
   },
   {
     "name": "all right",
     "trans": [
-      "adv.好，行"
+      "adj. 可接受（的）；满意（的）；安全健康（的）",
+      "int. 是不是；（表示同意）好；没什么"
     ]
   },
   {
     "name": "thirteen",
     "trans": [
-      "adv.十三"
+      "n. 十三；十三岁；十三个",
+      "num. 十三",
+      "adj. 十三的；十三个的"
     ]
   },
   {
     "name": "fourteen",
     "trans": [
-      "adv.十四"
+      "num. 十四；十四个；第十四",
+      "n. 十四的记号；十四岁；十四点钟"
     ]
   },
   {
     "name": "sixteen",
     "trans": [
-      "adv.十六"
+      "n. 十六，十六个；十六岁；十六点钟",
+      "num. 十六；第十六",
+      "adj. 十六的；十六个的"
     ]
   },
   {
     "name": "seventeen",
     "trans": [
-      "adv.十七"
+      "n. 十七（个）；十七",
+      "adj. 十七岁的；十七的；十七个的",
+      "num. 十七"
     ]
   },
   {
     "name": "eighteen",
     "trans": [
-      "adv.十八"
+      "n. 十八；十八个",
+      "num. 十八",
+      "adj. 十八个的；十八的"
     ]
   },
   {
     "name": "floor",
     "trans": [
-      "adv.地面，地板"
+      "n. 地板，地面；楼层；基底",
+      "vt. 铺地板；打倒，击倒；（被困难）难倒"
     ]
   },
   {
     "name": "forty",
     "trans": [
-      "adv.四十"
+      "adj. 四十；第四十",
+      "pron. 四十个；只..."
     ]
   },
   {
     "name": "number",
     "trans": [
-      "adv.数字"
+      "n. 数；数字；号码",
+      "vi. 总计；编号",
+      "vt. 编号；把...算作"
     ]
   },
   {
     "name": "thirty",
     "trans": [
-      "adv.三十"
+      "n. 三十；三十个；三十年代",
+      "adj. 三十的；三十个的",
+      "num. 三十；三十个"
     ]
   },
   {
     "name": "fifty",
     "trans": [
-      "adv.五十"
+      "n. 五十个人；五十岁；五十年代",
+      "num. 五十；五十个",
+      "adj. 五十的；五十个的；许多的"
     ]
   },
   {
     "name": "sixty",
     "trans": [
-      "adv.六十"
+      "num. 六十；六十个",
+      "n. 六十",
+      "adj. 六十的；六十个的"
     ]
   },
   {
     "name": "seventy",
     "trans": [
-      "adv.七十"
+      "n. 七十；七十个；七十岁",
+      "num. 七十",
+      "adj. 七十的；七十个的；七十岁的"
     ]
   },
   {
     "name": "eighty",
     "trans": [
-      "adv.八十"
+      "num. 八十",
+      "n. 八十；八十岁；八十年代",
+      "adj. 八十的，八十个的；八十岁的"
     ]
   },
   {
     "name": "ninety",
     "trans": [
-      "adv.九十"
+      "num. 九十",
+      "n. 九十；九十年代；九十岁",
+      "adj. 九十的；九十岁的"
     ]
   },
   {
     "name": "happily",
     "trans": [
-      "adv.幸福地，愉快地"
+      "adv. 快乐地；幸福地；幸运地"
     ]
   },
   {
     "name": "many",
     "trans": [
-      "adv.许多，很多"
+      "adj. 许多的；多的",
+      "pron. 许多人；许多",
+      "n. 许多；大量"
     ]
   },
   {
     "name": "well",
     "trans": [
-      "adv.好，熟练地"
+      "n. 井；源泉",
+      "adj. 良好的；健康的；适宜的",
+      "adv. 很好地；充分地；满意地"
     ]
   },
   {
     "name": "team",
     "trans": [
-      "adv.运动队，球队"
+      "n. 队，组；团队；工作组",
+      "vi. 协同工作；合作；把（牛马等）联套在车上"
     ]
   },
   {
     "name": "really",
     "trans": [
-      "adv.很，非常"
+      "adv. 真正地，确实地；非常，很；的确，实在",
+      "int. 真的吗？",
+      "adj. 真实的；真正的"
     ]
   },
   {
     "name": "good at",
     "trans": [
-      "adv.擅长"
+      "n. 擅长；一清二楚；拿手的"
     ]
   },
   {
     "name": "catch",
     "trans": [
-      "adv.抓住，接住"
+      "n. 捕捉；捕获物；窗钩",
+      "vt. 赶上；抓住；感染",
+      "vi. 赶上；抓住"
     ]
   },
   {
     "name": "goalkeeper",
     "trans": [
-      "adv.守门员"
+      "n. 守门员"
     ]
   },
   {
     "name": "think",
     "trans": [
-      "adv.想，认为"
+      "vt. 想；认为；想像",
+      "vi. 想；认为",
+      "n. 想；想法"
     ]
   },
   {
     "name": "fantastic",
     "trans": [
-      "adv.极好的"
+      "n. 古怪的人",
+      "adj. 奇异的；空想的；异想天开的"
     ]
   },
   {
     "name": "fan",
     "trans": [
-      "adv.狂热仰慕者，迷"
+      "n. 迷；风扇；爱好者",
+      "vt. 煽动；刺激；吹拂",
+      "vi. 成扇形散开；飘动"
     ]
   },
   {
     "name": "past",
     "trans": [
-      "adv.过去"
+      "n. 过去；往事",
+      "adj. 过去的；以前的",
+      "adv. 经过；超过"
     ]
   },
   {
     "name": "swan",
     "trans": [
-      "adv.（swim的过去式）游泳"
+      "n. 天鹅；诗人，歌手",
+      "vi. 游荡；闲逛；随意旅行"
     ]
   },
   {
     "name": "slow",
     "trans": [
-      "adv.慢的"
+      "adj. 慢的；减速的；迟钝的",
+      "vt. 放慢；阻碍",
+      "vi. 变慢；变萧条"
     ]
   },
   {
     "name": "healthy",
     "trans": [
-      "adv.健康的"
+      "adj. 健康的，身体好的；有益健康的；正常的，良好的"
     ]
   },
   {
     "name": "a lot",
     "trans": [
-      "adv.许多，大量"
+      "n. 许多",
+      "adv. 常"
     ]
   },
   {
     "name": "useful",
     "trans": [
-      "adv.有用的"
+      "adj. 有用的；实用的；有益的"
     ]
   },
   {
     "name": "show",
     "trans": [
-      "adv.(电视或广播）节目"
+      "n. 显示；表演；炫耀",
+      "vt. 显示；说明；演出",
+      "vi. 显示；说明；指示"
     ]
   },
   {
     "name": "presenter",
     "trans": [
-      "adv.(电视或广播节目的）主持人"
+      "n. 提出者；推荐者；赠送者"
     ]
   },
   {
     "name": "blind",
     "trans": [
-      "adv.失明的，瞎的"
+      "n. 掩饰，借口；百叶窗",
+      "adj. 盲目的；瞎的",
+      "vt. 使失明；使失去理智"
     ]
   },
   {
     "name": "deaf",
     "trans": [
-      "adv.失聪的，聋的"
+      "adj. 聋的；不愿听的；装聋的"
     ]
   },
   {
     "name": "hear",
     "trans": [
-      "adv.听到"
+      "vt.&vi. 听到；听见",
+      "vt. 听说；得知；听取",
+      "vi. 听；听见"
     ]
   },
   {
     "name": "her",
     "trans": [
-      "adv.（宾格）她"
+      "pron. 她（宾格）；她的（所有格）",
+      "adj. 她的"
     ]
   },
   {
     "name": "fire",
     "trans": [
-      "adv.火灾，失火"
+      "n. 火；火灾；炮火",
+      "vt. 点燃；解雇；开除",
+      "vi. 着火；射击；开枪"
     ]
   },
   {
     "name": "firefighter",
     "trans": [
-      "adv.消防队员"
+      "n. 消防队员"
     ]
   },
   {
     "name": "hot dog",
     "trans": [
-      "adv.热狗"
+      "n. 热狗（香肠面包）",
+      "adj. 〈美俚〉极好的"
     ]
   },
   {
     "name": "sausage",
     "trans": [
-      "adv.香肠"
+      "n. 香肠；腊肠；装香肠的碎肉"
     ]
   },
   {
     "name": "kind",
     "trans": [
-      "adv.有好的，善意的，体贴的"
+      "adj. 善良的；友好的；体贴的",
+      "n. 种类；类型"
     ]
   },
   {
     "name": "time",
     "trans": [
-      "adv.时刻，时候，时间"
+      "n. 时间；倍；次数",
+      "v. 计时；安排时间",
+      "adj. 时间的；定时的；分期的"
     ]
   },
   {
     "name": "school",
     "trans": [
-      "adv.学校"
+      "n. 学校；学院；学派",
+      "vt. 教育；训练；磨炼",
+      "vi. 喂食鱼群；游来游去"
     ]
   },
   {
     "name": "start",
     "trans": [
-      "adv.开始，发生"
+      "vi. 跳起；出发；开始",
+      "vt. 开始；使震惊",
+      "n. 起点；震动；领先优势"
     ]
   },
   {
     "name": "past",
     "trans": [
-      "adv.晚于，过（几点）"
+      "n. 过去；往事",
+      "adj. 过去的；以前的",
+      "adv. 经过；超过"
     ]
   },
   {
     "name": "late",
     "trans": [
-      "adv.迟到的"
+      "adj. 晚的；迟的；已故的",
+      "adv. 晚；迟；最近"
     ]
   },
   {
     "name": "go to bed",
     "trans": [
-      "adv.上床睡觉"
+      "n. 睡；同床；付印"
     ]
   },
   {
     "name": "exercise",
     "trans": [
-      "adv.运动，锻炼"
+      "n. 运动；练习；运用",
+      "vt. 锻炼；练习；使用",
+      "vi. 运动；练习"
     ]
   },
   {
     "name": "playground",
     "trans": [
-      "adv.操场"
+      "n. 操场；游乐场；运动场"
     ]
   },
   {
     "name": "before",
     "trans": [
-      "adv.在......之前"
+      "prep. 在…之前；先于",
+      "conj. 在…以前；在…之前",
+      "adv. 以前；在前"
     ]
   },
   {
     "name": "join",
     "trans": [
-      "adv.加入，参加"
+      "n. 结合；连接；接合点",
+      "vi. 加入；参加；结合",
+      "vt. 参加；结合；连接"
     ]
   },
   {
     "name": "Skipping rope",
     "trans": [
-      "adv.跳绳"
+      "adv. 跳绳"
     ]
   },
   {
     "name": "coffee",
     "trans": [
-      "adv.咖啡"
+      "n. 咖啡（饮料）；咖啡豆；咖啡色"
     ]
   },
   {
     "name": "tea",
     "trans": [
-      "adv.茶"
+      "n. 茶叶；茶树；茶点",
+      "vt. 给…沏茶",
+      "vi. 喝茶；进茶点"
     ]
   },
   {
     "name": "always",
     "trans": [
-      "adv.总是，一直"
+      "adv. 始终；一直；永远"
     ]
   },
   {
     "name": "bell",
     "trans": [
-      "adv.钟，铃"
+      "n. 铃，钟；钟声，铃声；钟状物",
+      "vt. 装钟于；系铃于",
+      "vi. 鸣钟；成钟状鼓起"
     ]
   },
   {
     "name": "rang",
     "trans": [
-      "adv.(ring)过去式鸣，响"
+      "adv. (ring)过去式鸣；响"
     ]
   },
   {
     "name": "into",
     "trans": [
-      "adv.进入......里面"
+      "prep. 到…里；向内；变成"
     ]
   },
   {
     "name": "feel",
     "trans": [
-      "adv.感觉，觉得"
+      "n. 感觉；触摸",
+      "vi. 觉得；摸索",
+      "vt. 感觉；认为；触摸"
     ]
   },
   {
     "name": "bored",
     "trans": [
-      "adv.厌烦的，厌倦的"
+      "adj. 无聊的；无趣的；烦人的",
+      "v. 挖；掘；钻"
     ]
   },
   {
     "name": "sad",
     "trans": [
-      "adv.伤心的，难过的"
+      "adj. 悲哀的；令人悲痛的；伤心的"
     ]
   },
   {
     "name": "woof",
     "trans": [
-      "adv.（狗发出的）吠声"
+      "n. 纬线；织物；低吠声",
+      "vi. 发出低吠声；发低音"
     ]
   },
   {
     "name": "miss",
     "trans": [
-      "adv.想念"
+      "n. 女士；小姐；年轻未婚女子",
+      "vt. 错过；想念；缺（勤）"
     ]
   },
   {
     "name": "angry",
     "trans": [
-      "adv.生气，愤怒的"
+      "adj. 生气的；愤怒的；狂暴的"
     ]
   },
   {
     "name": "ill",
     "trans": [
-      "adv.有病的，不健康的"
+      "n. 疾病；不幸",
+      "adj. 生病的；坏的；邪恶的",
+      "adv. 不利地；恶劣地；几乎不"
     ]
   },
   {
     "name": "told",
     "trans": [
-      "adv.(tell的过去式）告诉"
+      "v. 告诉（tell的过去式）；讲述"
     ]
   },
   {
     "name": "better",
     "trans": [
-      "adv.痊愈的，恢复健康的"
+      "adj. 更好的；较好的",
+      "adv. 更好地；较好地",
+      "v. 改善；使...变好"
     ]
   },
   {
     "name": "farm",
     "trans": [
-      "adv.农场"
+      "n. 农场；农庄；农田",
+      "vt. 收费；务农",
+      "vi. 务农"
     ]
   },
   {
     "name": "tired",
     "trans": [
-      "adv.累的，疲劳的 "
+      "adj. 疲倦的；困倦的；对…不耐烦的",
+      "v. 对（做）某事感到厌倦"
     ]
   },
   {
     "name": "won",
     "trans": [
-      "adv.（win的过去式）赢，获胜"
+      "adv. （win的过去式）赢；获胜"
     ]
   },
   {
     "name": "ruler",
     "trans": [
-      "adv.直尺"
+      "n. 统治者，君主；尺子，直尺；统治阶级"
     ]
   },
   {
     "name": "smell",
     "trans": [
-      "adv.闻出，嗅出"
+      "n. 嗅觉；气味；味道",
+      "vt. 嗅；闻；探出",
+      "vi. 闻；发臭"
     ]
   },
   {
     "name": "kitchen",
     "trans": [
-      "adv.厨房"
+      "n. 厨房；炊具；炊事人员"
     ]
   },
   {
     "name": "toilet",
     "trans": [
-      "adv.厕所，卫生间"
+      "n. 厕所，盥洗室；梳妆，打扮",
+      "vt. 给…梳妆打扮",
+      "vi. 梳妆；打扮"
     ]
   },
   {
     "name": "room",
     "trans": [
-      "adv.房间"
+      "n. 房间；空间；余地",
+      "vt. 为…提供住处；租房，合住；投宿，住宿",
+      "vi. 居住；住宿"
     ]
   },
   {
     "name": "living room",
     "trans": [
-      "adv.起居室，客厅"
+      "n. 客厅；起居室"
     ]
   },
   {
     "name": "hide-and-seek",
     "trans": [
-      "adv.捉迷藏"
+      "n. 捉迷藏"
     ]
   },
   {
     "name": "now",
     "trans": [
-      "adv.好，哦"
+      "adv. 此时，现在；马上，立刻",
+      "conj. 既然；由于",
+      "n. 现在；此刻"
     ]
   },
   {
     "name": "last",
     "trans": [
-      "adv.最后"
+      "adj. 最后的；末尾的；最近的",
+      "adv. 最后；最新",
+      "n. 最后来的人(或发生的事)"
     ]
   },
   {
     "name": "hide",
     "trans": [
-      "adv.躲，躲藏 "
+      "n. 躲藏；兽皮；躲藏处",
+      "vt. 隐藏；隐瞒；鞭打",
+      "vi. 隐藏"
     ]
   },
   {
     "name": "sofa",
     "trans": [
-      "adv.沙发"
+      "n. 长沙发；沙发"
     ]
   },
   {
     "name": "shout",
     "trans": [
-      "adv.呼喊，大叫"
+      "n. 呼喊；呼叫",
+      "vi. 呼喊；喊叫；大声说",
+      "vt. 呼喊；大声说"
     ]
   },
   {
     "name": "grass",
     "trans": [
-      "adv.草，草地"
+      "n. 草；草地，草坪",
+      "vt. 放牧；使……长满草；使……吃草",
+      "vi. 长草"
     ]
   },
   {
     "name": "baby",
     "trans": [
-      "adv.婴儿"
+      "n. 婴儿；婴孩；幼崽",
+      "vt. 把…当作婴孩看待，娇养；纵容",
+      "adj. 小孩似的；孩子的；小型的"
     ]
   },
   {
     "name": "dangerous",
     "trans": [
-      "adv.危险的"
+      "adj. 危险的；不安全的；引起危险的"
     ]
   }
 ]

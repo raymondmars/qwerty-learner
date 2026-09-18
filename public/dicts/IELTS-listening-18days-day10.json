@@ -1,134 +1,235 @@
 [
-    {
-        "name": "mammal",
-        "trans": ["哺乳动物"]
-    },
-    {
-        "name": "postpone",
-        "trans": ["推迟"]
-    },
-    {
-        "name": "woodland",
-        "trans": ["林地", "森林"]
-    },
-    {
-        "name": "cave",
-        "trans": ["山洞"]
-    },
-    {
-        "name": "order",
-        "trans": ["订购", "秩序", "命令"]
-    },
-    {
-        "name": "lawyer",
-        "trans": ["律师"]
-    },
-    {
-        "name": "acid",
-        "trans": ["酸的"]
-    },
-    {
-        "name": "beat",
-        "trans": ["（心脏）跳动"]
-    },
-    {
-        "name": "fitness",
-        "trans": ["健康"]
-    },
-    {
-        "name": "necessity",
-        "trans": ["必需品"]
-    },
-    {
-        "name": "church",
-        "trans": ["教堂"]
-    },
-    {
-        "name": "flood",
-        "trans": ["洪水"]
-    },
-    {
-        "name": "publication",
-        "trans": ["出版"]
-    },
-    {
-        "name": "critical",
-        "trans": ["批评的", "关键的"]
-    },
-    {
-        "name": "behavior",
-        "trans": ["行为"]
-    },
-    {
-        "name": "vote",
-        "trans": ["投票"]
-    },
-    {
-        "name": "session",
-        "trans": ["会议", "学期"]
-    },
-    {
-        "name": "crop",
-        "trans": ["农作物"]
-    },
-    {
-        "name": "technique",
-        "trans": ["技巧"]
-    },
-    {
-        "name": "entrant",
-        "trans": ["参与者"]
-    },
-    {
-        "name": "overload",
-        "trans": ["使超载", "超负荷"]
-    },
-    {
-        "name": "council",
-        "trans": ["委员会"]
-    },
-    {
-        "name": "chairman",
-        "trans": ["主席"]
-    },
-    {
-        "name": "railway",
-        "trans": ["铁路"]
-    },
-    {
-        "name": "contract",
-        "trans": ["合同"]
-    },
-    {
-        "name": "rare",
-        "trans": ["稀少的"]
-    },
-    {
-        "name": "common room",
-        "trans": ["公共休息室"]
-    },
-    {
-        "name": "enquiry",
-        "trans": ["咨询"]
-    },
-    {
-        "name": "thick",
-        "trans": ["厚的"]
-    },
-    {
-        "name": "liquid",
-        "trans": ["液体"]
-    },
-    {
-        "name": "dye",
-        "trans": ["染"]
-    },
-    {
-        "name": "rat",
-        "trans": ["老鼠"]
-    },
-    {
-        "name": "measure",
-        "trans": ["测量"]
-    }
+  {
+    "name": "mammal",
+    "trans": [
+      "n. 哺乳动物"
+    ]
+  },
+  {
+    "name": "postpone",
+    "trans": [
+      "vt. 使延期，延缓；把…放在次要地位；把…放在后面",
+      "vi. 延缓；延缓发作"
+    ]
+  },
+  {
+    "name": "woodland",
+    "trans": [
+      "n. 林地；森林",
+      "adj. 林地的；居住在森林中的"
+    ]
+  },
+  {
+    "name": "cave",
+    "trans": [
+      "n. 洞穴；窑洞",
+      "vi. 凹陷，塌落；投降",
+      "vt. 使凹陷，使塌落；在…挖洞穴"
+    ]
+  },
+  {
+    "name": "order",
+    "trans": [
+      "n. 命令；顺序；规则",
+      "vt. 命令；整理；定购",
+      "vi. 命令；定货"
+    ]
+  },
+  {
+    "name": "lawyer",
+    "trans": [
+      "n. 律师；法律顾问"
+    ]
+  },
+  {
+    "name": "acid",
+    "trans": [
+      "n. 酸；迷幻药",
+      "adj. 酸的；讽刺的；刻薄的"
+    ]
+  },
+  {
+    "name": "beat",
+    "trans": [
+      "n. 拍子；敲击；有规律的一连串敲打",
+      "adj. 筋疲力尽的；疲惫不堪的",
+      "vt. 打；打败"
+    ]
+  },
+  {
+    "name": "fitness",
+    "trans": [
+      "n. 健康；适当；适合性"
+    ]
+  },
+  {
+    "name": "necessity",
+    "trans": [
+      "n. 必要性，需要；必然性",
+      "pl. 必需品"
+    ]
+  },
+  {
+    "name": "church",
+    "trans": [
+      "n. 教堂；礼拜；教派",
+      "adj. 教会的；礼拜的",
+      "vt. 领…到教堂接受宗教仪式"
+    ]
+  },
+  {
+    "name": "flood",
+    "trans": [
+      "n. 洪水；泛滥；一大批",
+      "vt. 淹没；充满；溢出",
+      "vi. 涌出；涌进；为水淹没"
+    ]
+  },
+  {
+    "name": "publication",
+    "trans": [
+      "n. 出版物，刊物；出版，发行；公布，发表"
+    ]
+  },
+  {
+    "name": "critical",
+    "trans": [
+      "adj. 重要的，关键的；批评的，批判的；危急的，紧要的"
+    ]
+  },
+  {
+    "name": "behavior",
+    "trans": [
+      "n. 行为，举止；表现，举止；(动物的)习性"
+    ]
+  },
+  {
+    "name": "vote",
+    "trans": [
+      "n. 投票，选举；选票；得票数",
+      "vi. 选举；投票",
+      "vt. 提议，使投票；投票决定；公认"
+    ]
+  },
+  {
+    "name": "session",
+    "trans": [
+      "n. 会议；一段时间；开庭期",
+      "adj. 短期的"
+    ]
+  },
+  {
+    "name": "crop",
+    "trans": [
+      "n. 产量；农作物；庄稼",
+      "vt. 种植；收割；修剪",
+      "vi. 收获"
+    ]
+  },
+  {
+    "name": "technique",
+    "trans": [
+      "n. 技巧，技术，方法；技法，技艺；技术性操作"
+    ]
+  },
+  {
+    "name": "entrant",
+    "trans": [
+      "n. 进入者；新到者；新工作者"
+    ]
+  },
+  {
+    "name": "overload",
+    "trans": [
+      "vt. 使负担太重；使超载；超过负荷",
+      "n. 过多；过量；超负荷"
+    ]
+  },
+  {
+    "name": "council",
+    "trans": [
+      "n. 委员会；会议；理事会"
+    ]
+  },
+  {
+    "name": "chairman",
+    "trans": [
+      "n. （主持会议的）主席；委员长；（委员会的）委员长",
+      "vt. 担任…的主席"
+    ]
+  },
+  {
+    "name": "railway",
+    "trans": [
+      "n. 铁路；铁道；铁路系统",
+      "vi. 乘火车旅行；在…铺设铁路"
+    ]
+  },
+  {
+    "name": "contract",
+    "trans": [
+      "n. 合同；婚约",
+      "vt. 感染；订约；使缩短",
+      "vi. 收缩；感染；订约"
+    ]
+  },
+  {
+    "name": "rare",
+    "trans": [
+      "adj. 稀有的；稀薄的；半熟的",
+      "adv. 非常；极其",
+      "vi. 用后腿站起；渴望"
+    ]
+  },
+  {
+    "name": "common room",
+    "trans": [
+      "n. （学校、学院等的）公共休息室"
+    ]
+  },
+  {
+    "name": "enquiry",
+    "trans": [
+      "n. 询问；调查；查询"
+    ]
+  },
+  {
+    "name": "thick",
+    "trans": [
+      "adj. 厚的；粗的；密的",
+      "adv. 厚；浓；密",
+      "n. 密集处；最厚处"
+    ]
+  },
+  {
+    "name": "liquid",
+    "trans": [
+      "adj. 液体的；清澈的；明亮的",
+      "n. 液体，流体；流音"
+    ]
+  },
+  {
+    "name": "dye",
+    "trans": [
+      "n. 染料；染色",
+      "vt. 染；把…染上颜色",
+      "vi. 被染色"
+    ]
+  },
+  {
+    "name": "rat",
+    "trans": [
+      "n. 老鼠；耗子；卑鄙的人",
+      "vi. 背叛；捕鼠",
+      "vt. 弄蓬松；告发"
+    ]
+  },
+  {
+    "name": "measure",
+    "trans": [
+      "n. 测量；措施；程度",
+      "vt. 测量；估量；权衡",
+      "vi. 测量；估量"
+    ]
+  }
 ]

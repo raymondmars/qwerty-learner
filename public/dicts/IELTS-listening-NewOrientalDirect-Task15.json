@@ -1,176 +1,201 @@
 [
-    {
-        "name": "fitness centre",
-        "trans": [
-            "n. phrase 健身中心"
-        ]
-    },
-    {
-        "name": "coach",
-        "trans": [
-            "n. 教练"
-        ]
-    },
-    {
-        "name": "session",
-        "trans": [
-            "n. 时期，课程"
-        ]
-    },
-    {
-        "name": "weight",
-        "trans": [
-            "n. 重量"
-        ]
-    },
-    {
-        "name": "injury",
-        "trans": [
-            "n. 伤"
-        ]
-    },
-    {
-        "name": "champion",
-        "trans": [
-            "n. 冠军"
-        ]
-    },
-    {
-        "name": "volunteer",
-        "trans": [
-            "n. 志愿者"
-        ]
-    },
-    {
-        "name": "income",
-        "trans": [
-            "n. 收入"
-        ]
-    },
-    {
-        "name": "donation",
-        "trans": [
-            "n. 捐赠，捐赠物"
-        ]
-    },
-    {
-        "name": "investment",
-        "trans": [
-            "n. 投资"
-        ]
-    },
-    {
-        "name": "grant",
-        "trans": [
-            "n. 补助金、拨款"
-        ]
-    },
-    {
-        "name": "sponsor",
-        "trans": [
-            "v. 赞助；n. 赞助人"
-        ]
-    },
-    {
-        "name": "fundraising",
-        "trans": [
-            "n. 筹款"
-        ]
-    },
-    {
-        "name": "instrument",
-        "trans": [
-            "n. 仪器"
-        ]
-    },
-    {
-        "name": "flute",
-        "trans": [
-            "n. 笛子"
-        ]
-    },
-    {
-        "name": "clarinet",
-        "trans": [
-            "n. 单簧管"
-        ]
-    },
-    {
-        "name": "perform",
-        "trans": [
-            "v. 表演"
-        ]
-    },
-    {
-        "name": "rehearsal",
-        "trans": [
-            "n. 彩排"
-        ]
-    },
-    {
-        "name": "festival",
-        "trans": [
-            "n. 节日"
-        ]
-    },
-    {
-        "name": "carnival",
-        "trans": [
-            "n. 嘉年华"
-        ]
-    },
-    {
-        "name": "firework",
-        "trans": [
-            "n. 烟火"
-        ]
-    },
-    {
-        "name": "poster",
-        "trans": [
-            "n. 海报"
-        ]
-    },
-    {
-        "name": "fee",
-        "trans": [
-            "n. 费用"
-        ]
-    },
-    {
-        "name": "facility",
-        "trans": [
-            "n. 设施"
-        ]
-    },
-    {
-        "name": "hall",
-        "trans": [
-            "n. 大厅"
-        ]
-    },
-    {
-        "name": "gallery",
-        "trans": [
-            "n. 画廊"
-        ]
-    },
-    {
-        "name": "complex",
-        "trans": [
-            "n. 综合体;建筑群"
-        ]
-    },
-    {
-        "name": "exhibition",
-        "trans": [
-            "n. 展览"
-        ]
-    },
-    {
-        "name": "sculpture",
-        "trans": [
-            "n. 雕塑"
-        ]
-    }
+  {
+    "name": "fitness centre",
+    "trans": [
+      "n. phrase 健身中心"
+    ]
+  },
+  {
+    "name": "coach",
+    "trans": [
+      "n. 教练；（铁路）旅客车厢；长途客运汽车",
+      "vt.&vi. 训练；辅导",
+      "vt. 训练；指导"
+    ]
+  },
+  {
+    "name": "session",
+    "trans": [
+      "n. 会议；一段时间；开庭期",
+      "adj. 短期的"
+    ]
+  },
+  {
+    "name": "weight",
+    "trans": [
+      "n. 重量；砝码；秤锤",
+      "v. 使负担；装载过重；视…为重要"
+    ]
+  },
+  {
+    "name": "injury",
+    "trans": [
+      "n. 伤害，损害；创伤，受伤；侵害，侮辱"
+    ]
+  },
+  {
+    "name": "champion",
+    "trans": [
+      "n. 冠军；拥护者；战士",
+      "adj. 优胜的；第一流的",
+      "vt. 支持；拥护"
+    ]
+  },
+  {
+    "name": "volunteer",
+    "trans": [
+      "n. 志愿者；义工",
+      "v. 自愿做；主动提出",
+      "adj. 志愿的；义务的"
+    ]
+  },
+  {
+    "name": "income",
+    "trans": [
+      "n. 收入；收益；所得"
+    ]
+  },
+  {
+    "name": "donation",
+    "trans": [
+      "n. 捐赠，赠送；捐款；捐赠物"
+    ]
+  },
+  {
+    "name": "investment",
+    "trans": [
+      "n. 投资，投资额；投资物，投资的东西；投入，付出"
+    ]
+  },
+  {
+    "name": "grant",
+    "trans": [
+      "n. 拨款；授予物",
+      "vt. 授予；允许；承认",
+      "vi. 同意"
+    ]
+  },
+  {
+    "name": "sponsor",
+    "trans": [
+      "n. 发起者；保证人；赞助者",
+      "vt. 发起；赞助；倡议"
+    ]
+  },
+  {
+    "name": "fundraising",
+    "trans": [
+      "n. 筹款；募款",
+      "adj. 筹款的形容词"
+    ]
+  },
+  {
+    "name": "instrument",
+    "trans": [
+      "n. 仪器；手段，工具；乐器",
+      "vt. 用仪器装备；为演奏谱曲；向…提交文书"
+    ]
+  },
+  {
+    "name": "flute",
+    "trans": [
+      "n. 长笛；(刀具的)出屑槽",
+      "vt. 用长笛吹奏",
+      "vi. 吹长笛"
+    ]
+  },
+  {
+    "name": "clarinet",
+    "trans": [
+      "n. 乐单簧管；竖笛；黑管"
+    ]
+  },
+  {
+    "name": "perform",
+    "trans": [
+      "vt.&vi. 执行；履行；表演",
+      "vt. 工作；做；进行",
+      "vi. 运行，表现；（驯兽）玩把戏"
+    ]
+  },
+  {
+    "name": "rehearsal",
+    "trans": [
+      "n. 排演；预演；练习"
+    ]
+  },
+  {
+    "name": "festival",
+    "trans": [
+      "n. 节日；庆祝，纪念活动；欢乐",
+      "adj. 节日的，喜庆的；快乐的"
+    ]
+  },
+  {
+    "name": "carnival",
+    "trans": [
+      "n. 狂欢节；嘉年华；节日，联欢"
+    ]
+  },
+  {
+    "name": "firework",
+    "trans": [
+      "n. 爆竹；花炮；烟火"
+    ]
+  },
+  {
+    "name": "poster",
+    "trans": [
+      "n. 海报；招贴；布告"
+    ]
+  },
+  {
+    "name": "fee",
+    "trans": [
+      "n. 费用；酬金；小费",
+      "vt. 付费给……"
+    ]
+  },
+  {
+    "name": "facility",
+    "trans": [
+      "n. 灵巧；熟练",
+      "pl. 设备，设施；便利"
+    ]
+  },
+  {
+    "name": "hall",
+    "trans": [
+      "n. 走廊，门厅；大厅，礼堂；宿舍，学生公寓"
+    ]
+  },
+  {
+    "name": "gallery",
+    "trans": [
+      "n. 画廊；走廊；旁听席",
+      "vt. 在…修建走廊；在…挖地道",
+      "vi. 挖地道"
+    ]
+  },
+  {
+    "name": "complex",
+    "trans": [
+      "adj. 复杂的；难懂的；复合的",
+      "n. 建筑群；相关联的一组事物；情结"
+    ]
+  },
+  {
+    "name": "exhibition",
+    "trans": [
+      "n. 展览，展示；展览会；表演"
+    ]
+  },
+  {
+    "name": "sculpture",
+    "trans": [
+      "n. 雕塑；雕刻；刻蚀",
+      "vt. 雕塑；雕刻；刻蚀",
+      "vi. 从事雕刻"
+    ]
+  }
 ]

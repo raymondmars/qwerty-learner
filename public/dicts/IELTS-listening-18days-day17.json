@@ -1,186 +1,325 @@
 [
-    {
-        "name": "compose",
-        "trans": ["构成"]
-    },
-    {
-        "name": "trace",
-        "trans": ["痕迹"]
-    },
-    {
-        "name": "mineral",
-        "trans": ["矿物"]
-    },
-    {
-        "name": "metabolism",
-        "trans": ["新陈代谢"]
-    },
-    {
-        "name": "deserve",
-        "trans": ["应得"]
-    },
-    {
-        "name": "maintenance",
-        "trans": ["维护"]
-    },
-    {
-        "name": "intrigue",
-        "trans": ["激起"]
-    },
-    {
-        "name": "poison",
-        "trans": ["毒"]
-    },
-    {
-        "name": "decline",
-        "trans": ["下降"]
-    },
-    {
-        "name": "aging",
-        "trans": ["老化"]
-    },
-    {
-        "name": "ocean",
-        "trans": ["大洋"]
-    },
-    {
-        "name": "marriage",
-        "trans": ["结婚"]
-    },
-    {
-        "name": "curve",
-        "trans": ["曲线"]
-    },
-    {
-        "name": "constant",
-        "trans": ["不变的"]
-    },
-    {
-        "name": "muscle",
-        "trans": ["肌肉"]
-    },
-    {
-        "name": "immune",
-        "trans": ["免疫的"]
-    },
-    {
-        "name": "spider",
-        "trans": ["蜘蛛"]
-    },
-    {
-        "name": "extensive",
-        "trans": ["广泛的"]
-    },
-    {
-        "name": "pottery",
-        "trans": ["陶瓷"]
-    },
-    {
-        "name": "enrollment",
-        "trans": ["登记"]
-    },
-    {
-        "name": "oxygen",
-        "trans": ["氧气"]
-    },
-    {
-        "name": "shark",
-        "trans": ["鲨鱼"]
-    },
-    {
-        "name": "straightforward",
-        "trans": ["简单的"]
-    },
-    {
-        "name": "injury",
-        "trans": ["伤害"]
-    },
-    {
-        "name": "corporate",
-        "trans": ["公司的"]
-    },
-    {
-        "name": "attack",
-        "trans": ["攻击"]
-    },
-    {
-        "name": "reserve",
-        "trans": ["储备"]
-    },
-    {
-        "name": "plough",
-        "trans": ["耕地"]
-    },
-    {
-        "name": "commodity",
-        "trans": ["商品"]
-    },
-    {
-        "name": "transportation",
-        "trans": ["运输"]
-    },
-    {
-        "name": "operational",
-        "trans": ["合作"]
-    },
-    {
-        "name": "aerial",
-        "trans": ["空中的"]
-    },
-    {
-        "name": "barrier",
-        "trans": ["障碍物"]
-    },
-    {
-        "name": "fertilizer",
-        "trans": ["肥料"]
-    },
-    {
-        "name": "yield",
-        "trans": ["产出"]
-    },
-    {
-        "name": "shellfish",
-        "trans": ["甲壳类动物"]
-    },
-    {
-        "name": "nomadic",
-        "trans": ["游动的"]
-    },
-    {
-        "name": "grain",
-        "trans": ["谷类"]
-    },
-    {
-        "name": "pedal",
-        "trans": ["踏板"]
-    },
-    {
-        "name": "stomach",
-        "trans": ["胃"]
-    },
-    {
-        "name": "peer",
-        "trans": ["同龄人"]
-    },
-    {
-        "name": "confusion",
-        "trans": ["困惑"]
-    },
-    {
-        "name": "drum",
-        "trans": ["鼓"]
-    },
-    {
-        "name": "intensity",
-        "trans": ["强度"]
-    },
-    {
-        "name": "fade",
-        "trans": ["逐渐消失"]
-    },
-    {
-        "name": "pirate",
-        "trans": ["海盗"]
-    }
+  {
+    "name": "compose",
+    "trans": [
+      "vt. 构成；写作；使平静",
+      "vi. 组成；作曲；排字"
+    ]
+  },
+  {
+    "name": "trace",
+    "trans": [
+      "vi. 追溯；沿路走",
+      "vt. 追踪，查探；描绘；回溯",
+      "n. 痕迹，微量；迹线；缰绳"
+    ]
+  },
+  {
+    "name": "mineral",
+    "trans": [
+      "n. 矿物；（英）矿泉水；无机物",
+      "adj. 矿物的；矿质的"
+    ]
+  },
+  {
+    "name": "metabolism",
+    "trans": [
+      "n. 新陈代谢；变形。"
+    ]
+  },
+  {
+    "name": "deserve",
+    "trans": [
+      "vt. 应受；应得；值得",
+      "vi. 应受报答；应得报酬；应得赔偿"
+    ]
+  },
+  {
+    "name": "maintenance",
+    "trans": [
+      "n. 维护，保养；维持，保持；生活费用，赡养费"
+    ]
+  },
+  {
+    "name": "intrigue",
+    "trans": [
+      "n. 阴谋；诡计。",
+      "vi. 密谋；私通。",
+      "vt. 激起...的兴趣；用诡计取得"
+    ]
+  },
+  {
+    "name": "poison",
+    "trans": [
+      "n. 毒药；酒；极糟的食物",
+      "vt. 毒死；污染；放毒于",
+      "adj. 有毒的"
+    ]
+  },
+  {
+    "name": "decline",
+    "trans": [
+      "n. 下降；衰退；斜面",
+      "vt. 谢绝；婉拒",
+      "vi. 下降；衰落；谢绝"
+    ]
+  },
+  {
+    "name": "aging",
+    "trans": [
+      "n. 老化；老龄化；（酒等的）陈化",
+      "v. 使变老；（使）长大( age的现在分词 )；使显老"
+    ]
+  },
+  {
+    "name": "ocean",
+    "trans": [
+      "n. 海洋，大洋；海量，大量",
+      "adj. 海洋的；大洋的"
+    ]
+  },
+  {
+    "name": "marriage",
+    "trans": [
+      "n. 婚姻；结婚；婚礼"
+    ]
+  },
+  {
+    "name": "curve",
+    "trans": [
+      "n. 曲线；弯曲；曲线球",
+      "adj. 弯曲的；曲线形的",
+      "vt. 弯；使弯曲"
+    ]
+  },
+  {
+    "name": "constant",
+    "trans": [
+      "n. 常数；恒量",
+      "adj. 不变的；恒定的；经常的"
+    ]
+  },
+  {
+    "name": "muscle",
+    "trans": [
+      "n. 肌肉；力量",
+      "vt. 加强；使劲搬动；使劲挤出",
+      "vi. 使劲行进"
+    ]
+  },
+  {
+    "name": "immune",
+    "trans": [
+      "adj. 免疫的；不受影响的；免除的，豁免的",
+      "n. 免疫者；免除者"
+    ]
+  },
+  {
+    "name": "spider",
+    "trans": [
+      "n. 蜘蛛",
+      "v. 爬行；快速移动"
+    ]
+  },
+  {
+    "name": "extensive",
+    "trans": [
+      "adj. 广大的，广阔的；大量的，广泛的；全面的，综合的"
+    ]
+  },
+  {
+    "name": "pottery",
+    "trans": [
+      "n. 陶器；陶器厂；陶器制造术"
+    ]
+  },
+  {
+    "name": "enrollment",
+    "trans": [
+      "n. 登记；注册；入会"
+    ]
+  },
+  {
+    "name": "oxygen",
+    "trans": [
+      "n. 氧气；氧"
+    ]
+  },
+  {
+    "name": "shark",
+    "trans": [
+      "n. 鲨鱼；坑蒙拐骗的人，诈骗者；俚老手",
+      "v. 骗取；榨取；用不正当手段攫取",
+      "vi. 诈骗"
+    ]
+  },
+  {
+    "name": "straightforward",
+    "trans": [
+      "adj. 简单的；坦率的；明确的",
+      "adv. 直截了当地；坦率地"
+    ]
+  },
+  {
+    "name": "injury",
+    "trans": [
+      "n. 伤害，损害；创伤，受伤；侵害，侮辱"
+    ]
+  },
+  {
+    "name": "corporate",
+    "trans": [
+      "adj. 公司的，企业的；法人的，社团的；共同的，全体的"
+    ]
+  },
+  {
+    "name": "attack",
+    "trans": [
+      "n. 攻击；抨击；疾病发作",
+      "vt. 攻击；抨击；动手干",
+      "vi. 攻击；腐蚀"
+    ]
+  },
+  {
+    "name": "reserve",
+    "trans": [
+      "n. 储备，储存；自然保护区；预备队",
+      "vt. 储备；保留；预约",
+      "vi. 预订"
+    ]
+  },
+  {
+    "name": "plough",
+    "trans": [
+      "n. 犁；耕地（等于plow）",
+      "vi. 用犁耕田；开路",
+      "vt. 犁；耕"
+    ]
+  },
+  {
+    "name": "commodity",
+    "trans": [
+      "n. 商品，货物；日用品，必需品；有价值或有用的东西"
+    ]
+  },
+  {
+    "name": "transportation",
+    "trans": [
+      "n. 运输；运输系统；运输工具"
+    ]
+  },
+  {
+    "name": "operational",
+    "trans": [
+      "adj. 操作的；运转的；起作用的"
+    ]
+  },
+  {
+    "name": "aerial",
+    "trans": [
+      "n. 天线",
+      "adj. 空中的，航空的；空气的；空想的"
+    ]
+  },
+  {
+    "name": "barrier",
+    "trans": [
+      "n. 障碍；屏障；栅栏",
+      "vt. 把…关入栅栏；用栅栏围住"
+    ]
+  },
+  {
+    "name": "fertilizer",
+    "trans": [
+      "n. 肥料；受精媒介物；促进发展者"
+    ]
+  },
+  {
+    "name": "yield",
+    "trans": [
+      "vt. 出产；屈服；放弃",
+      "vi. 屈服；投降",
+      "n. 收益；产量"
+    ]
+  },
+  {
+    "name": "shellfish",
+    "trans": [
+      "n. 贝类动物；甲壳类动物；甲壳类（食物）"
+    ]
+  },
+  {
+    "name": "nomadic",
+    "trans": [
+      "adj. 游牧的；流浪的；游动的"
+    ]
+  },
+  {
+    "name": "grain",
+    "trans": [
+      "n. 粮食；颗粒；谷物",
+      "vt. 使成谷粒",
+      "vi. 成谷粒"
+    ]
+  },
+  {
+    "name": "pedal",
+    "trans": [
+      "n. 踏板；脚蹬子",
+      "vi. 踩踏板；骑车",
+      "vt. 骑（自行车）；踩……的踏板"
+    ]
+  },
+  {
+    "name": "stomach",
+    "trans": [
+      "n. 胃；腹部；胃口",
+      "vt. 忍受；吃下",
+      "vi. 忍受"
+    ]
+  },
+  {
+    "name": "peer",
+    "trans": [
+      "vi. 凝视，盯着看；窥视",
+      "vt. 封为贵族；与…同等",
+      "n. 贵族；同等的人"
+    ]
+  },
+  {
+    "name": "confusion",
+    "trans": [
+      "n. 混乱，困惑；混淆，弄错；困惑不解"
+    ]
+  },
+  {
+    "name": "drum",
+    "trans": [
+      "n. 鼓；鼓声",
+      "vi. 击鼓；大力争取",
+      "vt. 击鼓；大力争取"
+    ]
+  },
+  {
+    "name": "intensity",
+    "trans": [
+      "n. 强度，烈度；强烈程度，剧烈程度；专注度，热切程度"
+    ]
+  },
+  {
+    "name": "fade",
+    "trans": [
+      "n. 淡出；淡入",
+      "adj. 平淡的；乏味的",
+      "vi. 褪色；凋谢；逐渐消失"
+    ]
+  },
+  {
+    "name": "pirate",
+    "trans": [
+      "n. 海盗；盗版；侵犯专利权者",
+      "vt. 掠夺；翻印；剽窃",
+      "vi. 做海盗；从事劫掠"
+    ]
+  }
 ]

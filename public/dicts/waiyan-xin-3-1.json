@@ -2,805 +2,958 @@
   {
     "name": "I",
     "trans": [
-      "adv.我"
+      "pron. 我；个人；利己主义者",
+      "n. 碘元素；英语字母表中第九个字母；罗马数字1"
     ]
   },
   {
     "name": "am(I'm=I am)",
     "trans": [
-      "adv.是（我是）"
+      "adv. 是（我是）"
     ]
   },
   {
     "name": "aah",
     "trans": [
-      "adv.啊"
+      "v. 发啧啧声；惊呼"
     ]
   },
   {
     "name": "hello",
     "trans": [
-      "adv.你好"
+      "int. 哈喽，喂；你好，您好；表示问候",
+      "n. “喂”的招呼声或问候声",
+      "vi. 喊“喂”"
     ]
   },
   {
     "name": "ooh",
     "trans": [
-      "adv.嗬"
+      "int. (表示惊讶、欣喜、痛苦等)嚯；呵"
     ]
   },
   {
     "name": "goodbye",
     "trans": [
-      "adv.再见"
+      "int. 再见；再会",
+      "n. 说再见"
     ]
   },
   {
     "name": "are",
     "trans": [
-      "adv.是"
+      "v. 是（be 的第二人称单复数现在式）",
+      "n. 公亩"
     ]
   },
   {
     "name": "How are you? ",
     "trans": [
-      "adv.你好么？"
+      "adv. 你好么？"
     ]
   },
   {
     "name": "good",
     "trans": [
-      "adv.好的"
+      "n. 好处；善行；慷慨的行为",
+      "adj. 好的；优良的；愉快的",
+      "adv. 好"
     ]
   },
   {
     "name": "morning",
     "trans": [
-      "adv.早晨，上午"
+      "n. 早晨；黎明；初期"
     ]
   },
   {
     "name": "fine",
     "trans": [
-      "adv.健康的"
+      "n. 罚款",
+      "adj. 好的；优良的；细小的，精美的",
+      "vt. 罚款；澄清"
     ]
   },
   {
     "name": "thank",
     "trans": [
-      "adv.谢谢"
+      "vt. 感谢；致谢；道谢",
+      "n. （复）感谢；谢意"
     ]
   },
   {
     "name": "you ",
     "trans": [
-      "adv.你；你们"
+      "adv. 你；你们"
     ]
   },
   {
     "name": "Ms",
     "trans": [
-      "adv.女士"
+      "abbr. 小姐；女士"
     ]
   },
   {
     "name": "boy",
     "trans": [
-      "adv.男孩"
+      "n. 男孩，少年；男性（尤指年轻人）；儿子"
     ]
   },
   {
     "name": "girl",
     "trans": [
-      "adv.女孩"
+      "n. 女孩，姑娘；女儿；年轻女子"
     ]
   },
   {
     "name": "whoqps",
     "trans": [
-      "adv.哎哟"
+      "adv. 哎哟"
     ]
   },
   {
     "name": "and",
     "trans": [
-      "adv.那么；和"
+      "conj. 和，与；而且，并且；那么，就"
     ]
   },
   {
     "name": "too",
     "trans": [
-      "adv.也"
+      "adv. 也，还；过分，过度；非常，很"
     ]
   },
   {
     "name": "ha ha ",
     "trans": [
-      "adv.哈哈"
+      "adv. 哈哈"
     ]
   },
   {
     "name": "what",
     "trans": [
-      "adv.什么"
+      "pron. 什么，什么事物；多少，什么样的",
+      "adj. 什么；什么样的",
+      "adv. 什么；多么"
     ]
   },
   {
     "name": "is(what's=what is",
     "trans": [
-      "adv.是（是什么）"
+      "adv. 是（是什么）"
     ]
   },
   {
     "name": "your",
     "trans": [
-      "adv.你的；你们的"
+      "pron. 你的；你们的；你们的(东西)"
     ]
   },
   {
     "name": "name",
     "trans": [
-      "adv.名字"
+      "n. 名字；名称；姓名",
+      "vt. 说出；命名；称呼",
+      "adj. 有名的著名的"
     ]
   },
   {
     "name": "please",
     "trans": [
-      "adv.请"
+      "vt. 取悦；使高兴；合心意",
+      "vi. 取悦；满意",
+      "adv. 请"
     ]
   },
   {
     "name": "afternoon",
     "trans": [
-      "adv.下午"
+      "n. 下午；午后",
+      "int. 下午好"
     ]
   },
   {
     "name": "Mr",
     "trans": [
-      "adv.先生"
+      "abbr. Mister 先生；Master 少爷；Mother 母亲"
     ]
   },
   {
     "name": "point",
     "trans": [
-      "adv.指"
+      "n. 要点；得分；标点",
+      "vt. 指向；弄尖；加标点于",
+      "vi. 表明；指向"
     ]
   },
   {
     "name": "to",
     "trans": [
-      "adv.向......"
+      "prep. 向，朝着；到；关于",
+      "adv. 朝一个方向的；到某种状态；关闭"
     ]
   },
   {
     "name": "the",
     "trans": [
-      "adv.这(那)个，这(那)些"
+      "art. 这；那",
+      "adv. 更加用于比较级；最高级前"
     ]
   },
   {
     "name": "door",
     "trans": [
-      "adv.门"
+      "n. 门；门口；家"
     ]
   },
   {
     "name": "sit",
     "trans": [
-      "adv.坐"
+      "vi. 坐；就坐；孵",
+      "vt. 使坐；担任；开会",
+      "n. 坐"
     ]
   },
   {
     "name": "down",
     "trans": [
-      "adv.向下"
+      "adv. 向下；在下面；下跌",
+      "adj. 向下的；降低的；情绪低落",
+      "n. 绒毛；汗毛；轻视"
     ]
   },
   {
     "name": "stand",
     "trans": [
-      "adv.站"
+      "n. 站立；立场；看台",
+      "vi. 站立；位于；停滞",
+      "vt. 使站立；忍受；抵抗"
     ]
   },
   {
     "name": "up",
     "trans": [
-      "adv.向上"
+      "adv. 向上；在上方；起来",
+      "adj. 上面的；向上的；上行的",
+      "n. 上升；上坡；上行"
     ]
   },
   {
     "name": "window",
     "trans": [
-      "adv.窗户"
+      "n. 窗户，窗口；窗格，窗玻璃；（计算机屏幕上的）窗口"
     ]
   },
   {
     "name": "blackboard",
     "trans": [
-      "adv.黑板"
+      "n. 黑板"
     ]
   },
   {
     "name": "bird",
     "trans": [
-      "adv.鸟"
+      "n. 鸟；家伙；羽毛球",
+      "vt. 向…喝倒彩；起哄",
+      "vi. 猎鸟；观察研究野鸟"
     ]
   },
   {
     "name": "tweet",
     "trans": [
-      "adv.鸟(啾啾的声音)"
+      "n. 小鸟叫声；自录音再现装置发出的高音；推特",
+      "vi. 吱吱地叫；啾鸣"
     ]
   },
   {
     "name": "desk",
     "trans": [
-      "adv.书桌"
+      "n. 办公桌；服务台；编辑部",
+      "adj. 书桌的；桌上用的；伏案做的"
     ]
   },
   {
     "name": "chair",
     "trans": [
-      "adv.椅子"
+      "n. 椅子；讲座；（会议的）主席位",
+      "vt. 担任（会议的）主席；使…入座；使就任要职"
     ]
   },
   {
     "name": "it ",
     "trans": [
-      "adv.它"
+      "adv. 它"
     ]
   },
   {
     "name": "it's=it is",
     "trans": [
-      "adv.它是"
+      "adv. 它是"
     ]
   },
   {
     "name": "red",
     "trans": [
-      "adv.红色的"
+      "adj. 红色的；（脸）涨红的；烧红的",
+      "n. 红色；红衣服；红颜料"
     ]
   },
   {
     "name": "look",
     "trans": [
-      "adv.看"
+      "n. 看；样子；面容",
+      "vi. 看；看起来；注意",
+      "vt. 看；期待；注意"
     ]
   },
   {
     "name": "wow",
     "trans": [
-      "adv.呀，哇"
+      "int. 哇！呀！",
+      "n. 一鸣惊人；音符失真，声音走音；魔兽世界（游戏）",
+      "vt. 使惊叹，使佩服；使热烈叫好"
     ]
   },
   {
     "name": "yellow",
     "trans": [
-      "adv.黄色的"
+      "adj. 黄色的；发黄的；胆小的，懦弱的",
+      "n. 黄色",
+      "v. 变黄；使变黄"
     ]
   },
   {
     "name": "blue",
     "trans": [
-      "adv.蓝色的"
+      "adj. 蓝色的；忧郁的，沮丧的；下流的，色情的",
+      "n. 蓝色",
+      "v. 使变蓝；使...感到沮丧"
     ]
   },
   {
     "name": "a(an)",
     "trans": [
-      "adv.一个，一"
+      "adv. 一个；一"
     ]
   },
   {
     "name": "chameleon",
     "trans": [
-      "adv.变色龙"
+      "n. 变色龙；善变的人；轻浮的人"
     ]
   },
   {
     "name": "my",
     "trans": [
-      "adv.我的"
+      "pron. 我的",
+      "adj. 我的(I的所有格形式)",
+      "int. 哎呦(用于表示惊讶的感叹词)"
     ]
   },
   {
     "name": "panda",
     "trans": [
-      "adv.熊猫"
+      "n. 熊猫；猫熊"
     ]
   },
   {
     "name": "now",
     "trans": [
-      "adv.现在"
+      "adv. 此时，现在；马上，立刻",
+      "conj. 既然；由于",
+      "n. 现在；此刻"
     ]
   },
   {
     "name": "green",
     "trans": [
-      "adv.绿色的"
+      "n. 绿色；青春",
+      "adj. 绿色的；青春的",
+      "vt. 使…变绿色"
     ]
   },
   {
     "name": "black",
     "trans": [
-      "adv.黑色的"
+      "adj. 黑的；暗的；穿黑衣服的",
+      "n. 黑色东西；黑色；黑人",
+      "v. (使)变黑；抹黑"
     ]
   },
   {
     "name": "dog",
     "trans": [
-      "adv.狗"
+      "n. 狗；丑女人；卑鄙的人",
+      "vt. 跟踪；尾随"
     ]
   },
   {
     "name": "cat",
     "trans": [
-      "adv.猫"
+      "n. 猫；猫科；猫皮",
+      "vt. 吊锚",
+      "vi. 寻找性交伴侣；(CAT)电子计算机横断层扫描"
     ]
   },
   {
     "name": "cap",
     "trans": [
-      "adv.帽子"
+      "n. 盖；帽子",
+      "vt. 覆盖；胜过；给…戴帽",
+      "vi. 脱帽致意"
     ]
   },
   {
     "name": "how many",
     "trans": [
-      "adv.多少"
+      "n. 多少"
     ]
   },
   {
     "name": "one",
     "trans": [
-      "adv.一"
+      "num. 一；一个",
+      "pron. 一个人；一个（事物）",
+      "n. 一；一个；一元（钱）"
     ]
   },
   {
     "name": "two",
     "trans": [
-      "adv.二"
+      "n. 两个；两个东西；两点钟",
+      "adj. 两个的；我同",
+      "num. 两个；第二；二"
     ]
   },
   {
     "name": "three",
     "trans": [
-      "adv.三"
+      "num. 三；三个；第三（章，页等）",
+      "n. 三岁；三个人东西；三，三个",
+      "adj. 三的；三个的"
     ]
   },
   {
     "name": "four",
     "trans": [
-      "adv.四"
+      "num. 四；四个",
+      "n. 四个人（或事）的一组；（板球）四分的一击；（衣服等）四号",
+      "adj. 四的；四个的"
     ]
   },
   {
     "name": "five",
     "trans": [
-      "adv.五"
+      "n. 五，五个；五美元钞票",
+      "num. 五；五个",
+      "adj. 五的；五个的"
     ]
   },
   {
     "name": "six",
     "trans": [
-      "adv.六"
+      "n. 六；六个；六岁",
+      "num. 六；六个"
     ]
   },
   {
     "name": "seven",
     "trans": [
-      "adv.七"
+      "num. 七个；七",
+      "n. 七个；七",
+      "adj. 七的；七个的"
     ]
   },
   {
     "name": "eight",
     "trans": [
-      "adv.八"
+      "num. 八；八个；第八",
+      "n. 八；八人（或物）一组；八人划船队",
+      "adj. 八个的"
     ]
   },
   {
     "name": "nine",
     "trans": [
-      "adv.九"
+      "n. 九；九个",
+      "num. 九；九个",
+      "adj. 九的；九个的"
     ]
   },
   {
     "name": "oh",
     "trans": [
-      "adv.哦，噢"
+      "int. 嗬；哦；唉呀"
     ]
   },
   {
     "name": "ten",
     "trans": [
-      "adv.十"
+      "num. 十，十个；第十",
+      "n. 十个人；十点钟；十岁"
     ]
   },
   {
     "name": "eleven",
     "trans": [
-      "adv.十一"
+      "num. 十一；十一个；第十一",
+      "n. 十一；十一个",
+      "adj. 十一的；十一个的"
     ]
   },
   {
     "name": "twelve",
     "trans": [
-      "adv.十二"
+      "num. 十二；十二个",
+      "n. 十二；十二个",
+      "adj. 十二的；十二个的"
     ]
   },
   {
     "name": "happy",
     "trans": [
-      "adv.快乐的"
+      "adj. 快乐的，高兴的；幸福的；满意的"
     ]
   },
   {
     "name": "birthday",
     "trans": [
-      "adv.生日"
+      "n. 生日；诞生日；周年纪念日"
     ]
   },
   {
     "name": "here",
     "trans": [
-      "adv.这里"
+      "adv. 在这里；这时；在这一点上",
+      "n. 这里",
+      "int. 喂；嗨"
     ]
   },
   {
     "name": "present",
     "trans": [
-      "adv.礼物"
+      "n. 现在；礼物；瞄准",
+      "adj. 现在的；出席的",
+      "vt. 提出；介绍；呈现"
     ]
   },
   {
     "name": "this",
     "trans": [
-      "adv.这个"
+      "adj. 这；本；这个",
+      "pron. 这；这个；这里",
+      "adv. 这样地；这么"
     ]
   },
   {
     "name": "pencil",
     "trans": [
-      "adv.铅笔"
+      "n. 铅笔；笔状物",
+      "vt. 用铅笔写；用眉笔涂",
+      "vi. 成铅笔状"
     ]
   },
   {
     "name": "pen",
     "trans": [
-      "adv.钢笔"
+      "n. 笔，笔尖；笔法，文笔；作家",
+      "vt. 写；把…关入栏中；关押，囚禁"
     ]
   },
   {
     "name": "cake",
     "trans": [
-      "adv.蛋糕"
+      "n. 饼；糕；蛋糕",
+      "vt. 涂厚厚的一层；覆盖；填满",
+      "vi. 结成块"
     ]
   },
   {
     "name": "old",
     "trans": [
-      "adv.岁的"
+      "adj. 老的；某年龄的；以前的",
+      "n. 古时；某年龄"
     ]
   },
   {
     "name": "how old",
     "trans": [
-      "adv.多大"
+      "conj. 多少岁"
     ]
   },
   {
     "name": "yes",
     "trans": [
-      "adv.是的"
+      "adv. 是的；是",
+      "n. 赞同；同意"
     ]
   },
   {
     "name": "you're=you are",
     "trans": [
-      "adv.你是"
+      "adv. 你是"
     ]
   },
   {
     "name": "teacher",
     "trans": [
-      "adv.教师"
+      "n. 教师；老师；先生"
     ]
   },
   {
     "name": "pupil",
     "trans": [
-      "adv.小学生"
+      "n. 学生；瞳孔；未成年人"
     ]
   },
   {
     "name": "school",
     "trans": [
-      "adv.学校"
+      "n. 学校；学院；学派",
+      "vt. 教育；训练；磨炼",
+      "vi. 喂食鱼群；游来游去"
     ]
   },
   {
     "name": "classroom",
     "trans": [
-      "adv.教室"
+      "n. 教室；教学活动；教学方法"
     ]
   },
   {
     "name": "English",
     "trans": [
-      "adv.英语"
+      "n. 英语；英文；英国人",
+      "vt. 把……译成英语",
+      "adj. 英文的；英国的；英国人的"
     ]
   },
   {
     "name": "that",
     "trans": [
-      "adv.那个"
+      "pron. 那个；那些",
+      "adj. 那个的；那些的",
+      "adv. 那么；如此"
     ]
   },
   {
     "name": "say",
     "trans": [
-      "adv.说"
+      "vi. 说， 讲；表明，宣称；假设",
+      "vt. 表明；念；说明",
+      "n. 发言权；说话；要说的话"
     ]
   },
   {
     "name": "again",
     "trans": [
-      "adv.再一次"
+      "adv. 又，此外；再一次；再说",
+      "n. （英、保）阿盖恩"
     ]
   },
   {
     "name": "schoolbag",
     "trans": [
-      "adv.书包"
+      "n. 书包"
     ]
   },
   {
     "name": "ball",
     "trans": [
-      "adv.球"
+      "n. 球；球状物；舞会",
+      "v. 使成球状；使聚集成球状"
     ]
   },
   {
     "name": "book",
     "trans": [
-      "adv.书"
+      "n. 书；书籍账簿卷；篇",
+      "vt.&vi. 预订",
+      "vt. 登记；记账订立演出契约"
     ]
   },
   {
     "name": "monster",
     "trans": [
-      "adv.怪物"
+      "n. 怪兽，怪物；残忍的人，恶魔；小恶棍，捣蛋鬼",
+      "adj. 很受欢迎的；庞大的，巨大的",
+      "v. 严厉批评；斥责"
     ]
   },
   {
     "name": "new",
     "trans": [
-      "adv.新的"
+      "adj. 新的，崭新的；新鲜的，新到的；现代的",
+      "adv. 新近；最近"
     ]
   },
   {
     "name": "kite",
     "trans": [
-      "adv.风筝"
+      "n. 风筝",
+      "vi. 使用空头支票；像风筝一样飞；轻快地移动",
+      "vt. 骗钱；涂改（支票）"
     ]
   },
   {
     "name": "or",
     "trans": [
-      "adv.或者"
+      "conj. 或，或者；还是；不然，否则",
+      "prep. 在…之前；比…更早",
+      "n. 纹章黑金色、黑色"
     ]
   },
   {
     "name": "don't=do not",
     "trans": [
-      "adv.不"
+      "adv. 不"
     ]
   },
   {
     "name": "know",
     "trans": [
-      "adv.知道"
+      "vi. 了解；熟悉；确信",
+      "vt. 知道；认识；懂得"
     ]
   },
   {
     "name": "no",
     "trans": [
-      "adv.不"
+      "adv. 不是；不",
+      "adj. 没有的；不允许",
+      "n. 不；拒绝"
     ]
   },
   {
     "name": "not(isn't=is not)",
     "trans": [
-      "adv.不(不是）"
+      "adv. 不(不是）"
     ]
   },
   {
     "name": "help",
     "trans": [
-      "adv.救命(呼救用语）"
+      "n. 帮助；补救办法；帮忙者",
+      "vt. 帮助；促进；治疗",
+      "vi. 帮助；有用；招待"
     ]
   },
   {
     "name": "where",
     "trans": [
-      "adv.哪里"
+      "adv. 哪里，在哪里；到哪里；某种情势或位置",
+      "conj. 在…的地方",
+      "n. 地方；场所"
     ]
   },
   {
     "name": "in",
     "trans": [
-      "adv.在......里"
+      "adv. 进入；在里头；到达",
+      "n. 执政者；门路",
+      "prep. 在……内；进……里；在……期间"
     ]
   },
   {
     "name": "bag",
     "trans": [
-      "adv.包"
+      "n. 包；袋；猎获物",
+      "vt. 猎获；把…装入袋中；放弃",
+      "vi. 松垂；变形"
     ]
   },
   {
     "name": "mother",
     "trans": [
-      "adv.母亲"
+      "n. 母亲；妈妈",
+      "adj. 母亲的；母体的",
+      "vt. 生育；像母亲一样关爱"
     ]
   },
   {
     "name": "father",
     "trans": [
-      "adv.父亲"
+      "n. 父亲；神父；创始人",
+      "vt. 作为父亲生育子女",
+      "vi. 像父亲般照顾"
     ]
   },
   {
     "name": "sister",
     "trans": [
-      "adv.姐妹"
+      "n. 姐妹；（称志同道合者）姐妹；修女",
+      "adj. 姐妹般的；同类型的",
+      "v. 如姐妹般相待"
     ]
   },
   {
     "name": "brother",
     "trans": [
-      "adv.兄弟"
+      "n. 兄弟；同事；战友",
+      "int. 我的老兄！"
     ]
   },
   {
     "name": "she",
     "trans": [
-      "adv.她"
+      "n. 女人；雌性动物",
+      "pron. 她（主格）"
     ]
   },
   {
     "name": "grandpa",
     "trans": [
-      "adv.祖父；外祖父"
+      "n. 爷爷；外公；老太爷"
     ]
   },
   {
     "name": "grandma",
     "trans": [
-      "adv.祖母；外祖母"
+      "n. 奶奶；外婆"
     ]
   },
   {
     "name": "that's=that is",
     "trans": [
-      "adv.那是"
+      "adv. 那是"
     ]
   },
   {
     "name": "me",
     "trans": [
-      "adv.我"
+      "n. 自我；极端自私的人；自我的一部分",
+      "pron. 我（宾格）"
     ]
   },
   {
     "name": "he(he's=he is)",
     "trans": [
-      "adv.他(他是)"
+      "adv. 他(他是)"
     ]
   },
   {
     "name": "doctor",
     "trans": [
-      "adv.医生"
+      "vt. 修理；篡改，伪造；为…治病",
+      "n. 医生；博士",
+      "vi. 就医；行医"
     ]
   },
   {
     "name": "policeman",
     "trans": [
-      "adv.警察"
+      "n. （男）警察，警员；看守矿井的人；化 淀帚"
     ]
   },
   {
     "name": "nurse",
     "trans": [
-      "adv.护士"
+      "n. 保姆；护士；奶妈",
+      "vt. 看护；哺乳",
+      "vi. 看护；照顾；栽培"
     ]
   },
   {
     "name": "driver",
     "trans": [
-      "adv.司机"
+      "n. 驾驶员，司机；驱动程序；（高尔夫球的）一号木杆"
     ]
   },
   {
     "name": "farmer",
     "trans": [
-      "adv.农民"
+      "n. 农民；农夫；农场主"
     ]
   },
   {
     "name": "his",
     "trans": [
-      "adv.他的"
+      "pron. 他的",
+      "adj. 他的"
     ]
   },
   {
     "name": "head",
     "trans": [
-      "adv.头"
+      "n. 头；头部；领导",
+      "v. 朝...方向走；领导；主管",
+      "adj. 主要的；首要的"
     ]
   },
   {
     "name": "leg",
     "trans": [
-      "adv.腿"
+      "n. 腿，腿部；支柱，支撑物；裤腿",
+      "v. 用腿推动；走"
     ]
   },
   {
     "name": "foot",
     "trans": [
-      "adv.脚"
+      "n. 脚；英尺；步调",
+      "vt. 支付；给……换底",
+      "vi. 步行；跳舞；总计"
     ]
   },
   {
     "name": "on",
     "trans": [
-      "adv.在......上"
+      "prep. 在...上；在...时；关于",
+      "adv. 向前；继续；进行中",
+      "adj. 开着的；进行中的；上演的"
     ]
   },
   {
     "name": "arm",
     "trans": [
-      "adv.胳膊"
+      "n. 手臂；武器；袖子",
+      "vt. 武装；备战",
+      "vi. 武装起来"
     ]
   },
   {
     "name": "hand",
     "trans": [
-      "adv.手"
+      "n. 手；指针；帮助",
+      "v. 递给；交给；搀扶",
+      "adj. 手工的；手动的"
     ]
   },
   {
     "name": "her",
     "trans": [
-      "adv.她的"
+      "pron. 她（宾格）；她的（所有格）",
+      "adj. 她的"
     ]
   },
   {
     "name": "nose",
     "trans": [
-      "adv.鼻子"
+      "n. 鼻子；嗅觉；突出的部分",
+      "vt. 嗅；用鼻子触",
+      "vi. 小心探索着前进；探问"
     ]
   },
   {
     "name": "eye",
     "trans": [
-      "adv.眼睛"
+      "n. 眼睛；视力；眼状物",
+      "vt. 定睛地看；注视；审视"
     ]
   },
   {
     "name": "mouth",
     "trans": [
-      "adv.嘴"
+      "n. 嘴；口；口腔",
+      "vt. 装腔作势说话；送进嘴里；喃喃自语",
+      "vi. 傲慢地说；嘟嘴扮鬼脸"
     ]
   },
   {
     "name": "ear",
     "trans": [
-      "adv.耳朵"
+      "n. 耳朵；穗；听觉",
+      "vi. （美俚）听见；抽穗"
     ]
   }
 ]

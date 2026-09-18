@@ -116,6 +116,27 @@ export class ChapterRecord implements IChapterRecord {
   }
 }
 
+/**
+ * 一个单词的间隔重复状态。按单词存、不分词库 —— 记住了就是记住了，
+ * 在雅思库里练熟的 analyse 换到 Year 9 库里同样不需要马上复习。
+ * 调度算法见 src/utils/spacedRepetition.ts。
+ */
+export interface IWordReviewState {
+  id?: number
+  /** 统一小写，同一个词在不同词库里大小写可能不一致 */
+  word: string
+  /** 连续答对次数，答错归零 */
+  repetitions: number
+  /** 当前间隔，单位天 */
+  intervalDays: number
+  easeFactor: number
+  /** 累计答错次数 */
+  lapses: number
+  /** 到期时间，UTC 秒，已压到当天零点 */
+  dueTimestamp: number
+  lastReviewedAt: number
+}
+
 export interface IReviewRecord {
   id?: number
   dict: string

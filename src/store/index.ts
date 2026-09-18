@@ -83,14 +83,42 @@ export const isEnterToNextWordAtom = atomWithStorage('isEnterToNextWord', true)
 // 单词一次拼对时是否喷彩带
 export const isWordConfettiOpenAtom = atomWithStorage('isWordConfettiOpen', true)
 
+/**
+ * 每天最多复习多少个词。0 表示不限。
+ *
+ * 到期的词会积压 —— 停练一周再回来可能有上千个词到期，一次全推给用户只会劝退。
+ * 每天固定量比一个吓人的数字更能坚持，Anki 也是这么做的。
+ */
+export const dailyReviewLimitAtom = atomWithStorage('dailyReviewLimit', 50)
+
+/**
+ * 今天已经复习了多少个词。date 是本地日期（YYYY-MM-DD），跨天自动归零。
+ *
+ * 只统计复习会话里练的词，正常章节练习不占额度 —— 那是学新词，不是还债。
+ */
+export const dailyReviewProgressAtom = atomWithStorage('dailyReviewProgress', { date: '', count: 0 })
+
+/**
+ * 用户敲对相邻字母的平均间隔（毫秒）的滑动均值，作为判断「这次敲得算快还是算慢」的
+ * 个人基线。用个人基线而不是绝对毫秒，打字快的人和慢的人才能用同一套判定。
+ * 0 表示还没有样本，调用方会退回到一组保守的绝对值。
+ */
+export const typingBaselineAtom = atomWithStorage('typingBaseline', 0)
+
+// 章节练完后，是否自动把「拼错的」和「拼对但拼得犹豫的」词再测一轮。
+// 同一个词在一次练习里被检索两次、中间隔着其他词，比只检索一次记得牢得多
+export const isChapterRetestOpenAtom = atomWithStorage('isChapterRetestOpen', true)
+
 export const reviewModeInfoAtom = reviewInfoAtom({
   isReviewMode: false,
   reviewRecord: undefined as ReviewRecord | undefined,
 })
 export const isReviewModeAtom = atom((get) => get(reviewModeInfoAtom).isReviewMode)
 
+// 音标默认打开：听到读音的同时看到音标，形-音两条通道一起编码，
+// 比单独听一遍更容易在脑子里留下稳定的语音表征
 export const phoneticConfigAtom = atomForConfig('phoneticConfig', {
-  isOpen: false,
+  isOpen: true,
   type: 'us' as PhoneticType,
 })
 
@@ -103,6 +131,11 @@ export const isWordWaitingEnterAtom = atom(false)
 // 当前完成的单词里留有拼错的字母。默写模式下屏幕上显示的是用户敲错的字符，
 // 此时即使没有例句词组，也要把详情卡片显示出来，让用户看到正确拼写
 export const isWordMistakenAtom = atom(false)
+
+// 当前完成的单词里最终仍然拼错的位置，以及用户在那里实际敲下的字符。
+// 详情卡片据此把「正确拼写 + 你错在哪」标出来 —— 拼错时这是最该被读到的反馈，
+// 其余内容都要给它让路
+export const wordMistakesAtom = atom<{ index: number; typed: string }[]>([])
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
   isOpen: true,

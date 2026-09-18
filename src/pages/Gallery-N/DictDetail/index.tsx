@@ -2,7 +2,6 @@ import { useDeleteWordRecord } from '../../../utils/db'
 import Chapter from '../Chapter'
 import { ErrorTable } from '../ErrorTable'
 import { getRowsFromErrorWordData } from '../ErrorTable/columns'
-import { ReviewDetail } from '../ReviewDetail'
 import useErrorWordData from '../hooks/useErrorWords'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Tabs, TabsContent } from '@/components/ui/tabs'
@@ -15,12 +14,10 @@ import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import IcOutlineCollectionsBookmark from '~icons/ic/outline-collections-bookmark'
 import MajesticonsPaperFoldTextLine from '~icons/majesticons/paper-fold-text-line'
-import PajamasReviewList from '~icons/pajamas/review-list'
 
 enum Tab {
   Chapters = 'chapters',
   Errors = 'errors',
-  Review = 'review',
 }
 
 export default function DictDetail({ dictionary: dict }: { dictionary: Dictionary }) {
@@ -93,14 +90,6 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
                   <IcOutlineCollectionsBookmark className="mr-1.5 text-gray-500" />
                   查看错题
                 </ToggleGroupItem>
-                <ToggleGroupItem
-                  value={Tab.Review}
-                  disabled={curTab === Tab.Review}
-                  className={`${curTab === Tab.Review ? 'text-primary-foreground bg-primary' : ''} disabled:opacity-100`}
-                >
-                  <PajamasReviewList className="mr-1.5 text-gray-500" />
-                  错题回顾
-                </ToggleGroupItem>
               </>
             )}
           </ToggleGroup>
@@ -125,9 +114,6 @@ export default function DictDetail({ dictionary: dict }: { dictionary: Dictionar
           </TabsContent>
           <TabsContent value={Tab.Errors} className="h-full">
             <ErrorTable data={tableData} isLoading={isLoading} error={error} onDelete={onDelete} />
-          </TabsContent>
-          <TabsContent value={Tab.Review} className="h-full">
-            <ReviewDetail errorData={errorWordData} dict={dict} />
           </TabsContent>
         </Tabs>
       </div>

@@ -1,158 +1,181 @@
 [
-    {
-        "name": "species",
-        "trans": [
-            "n. 物种"
-        ]
-    },
-    {
-        "name": "rare",
-        "trans": [
-            "adj. 稀有的"
-        ]
-    },
-    {
-        "name": "female",
-        "trans": [
-            "adj. 雌性的"
-        ]
-    },
-    {
-        "name": "mammal",
-        "trans": [
-            "n. 哺乳动物"
-        ]
-    },
-    {
-        "name": "reptile",
-        "trans": [
-            "n. 爬行动物"
-        ]
-    },
-    {
-        "name": "amphibian",
-        "trans": [
-            "n. 两栖动物"
-        ]
-    },
-    {
-        "name": "livestock",
-        "trans": [
-            "n. 牲畜"
-        ]
-    },
-    {
-        "name": "cattle",
-        "trans": [
-            "n. 牛"
-        ]
-    },
-    {
-        "name": "distribution",
-        "trans": [
-            "n. 分布、分配"
-        ]
-    },
-    {
-        "name": "habitat",
-        "trans": [
-            "n. 栖息地"
-        ]
-    },
-    {
-        "name": "inhabit",
-        "trans": [
-            "v. 居住"
-        ]
-    },
-    {
-        "name": "territory",
-        "trans": [
-            "n. 领地"
-        ]
-    },
-    {
-        "name": "nest",
-        "trans": [
-            "n. 巢"
-        ]
-    },
-    {
-        "name": "reserve",
-        "trans": [
-            "n. 保护区"
-        ]
-    },
-    {
-        "name": "sanctuary",
-        "trans": [
-            "n. 保护区"
-        ]
-    },
-    {
-        "name": "conservation",
-        "trans": [
-            "n. 保护"
-        ]
-    },
-    {
-        "name": "zoo",
-        "trans": [
-            "n. 动物园"
-        ]
-    },
-    {
-        "name": "tail",
-        "trans": [
-            "n. 尾巴"
-        ]
-    },
-    {
-        "name": "pattern",
-        "trans": [
-            "n. 图案，样式"
-        ]
-    },
-    {
-        "name": "jaw",
-        "trans": [
-            "n. 颌，下巴"
-        ]
-    },
-    {
-        "name": "tongue",
-        "trans": [
-            "n. 舌头"
-        ]
-    },
-    {
-        "name": "mane",
-        "trans": [
-            "n. 鬃毛"
-        ]
-    },
-    {
-        "name": "teeth",
-        "trans": [
-            "n. 牙齿"
-        ]
-    },
-    {
-        "name": "beak",
-        "trans": [
-            "n. 喙"
-        ]
-    },
-    {
-        "name": "claw",
-        "trans": [
-            "n. 爪"
-        ]
-    },
-    {
-        "name": "feather",
-        "trans": [
-            "n. 羽毛"
-        ]
-    }
+  {
+    "name": "species",
+    "trans": [
+      "n. （动植物的）种，物种；种类；（具有相同特征的）一类人",
+      "adj. 原种的"
+    ]
+  },
+  {
+    "name": "rare",
+    "trans": [
+      "adj. 稀有的；稀薄的；半熟的",
+      "adv. 非常；极其",
+      "vi. 用后腿站起；渴望"
+    ]
+  },
+  {
+    "name": "female",
+    "trans": [
+      "adj. 女性的；雌性的；能结果实的",
+      "n. 女人；雌性动物；雌性植物，雌株"
+    ]
+  },
+  {
+    "name": "mammal",
+    "trans": [
+      "n. 哺乳动物"
+    ]
+  },
+  {
+    "name": "reptile",
+    "trans": [
+      "n. 爬行动物；卑鄙的人",
+      "adj. 爬虫类的；卑鄙的"
+    ]
+  },
+  {
+    "name": "amphibian",
+    "trans": [
+      "adj. 两栖类的；水陆两用的",
+      "n. 两栖动物；水陆两用飞机；水陆两用车"
+    ]
+  },
+  {
+    "name": "livestock",
+    "trans": [
+      "n. 牲畜；家畜"
+    ]
+  },
+  {
+    "name": "cattle",
+    "trans": [
+      "n. 牛；牲畜（骂人的话）；家畜"
+    ]
+  },
+  {
+    "name": "distribution",
+    "trans": [
+      "n. 分配，分发；分布，分散；配送，销售"
+    ]
+  },
+  {
+    "name": "habitat",
+    "trans": [
+      "n. 栖息地；生境；生活环境"
+    ]
+  },
+  {
+    "name": "inhabit",
+    "trans": [
+      "vt. 栖息；居住于；占据",
+      "vi. （古）居住；栖息"
+    ]
+  },
+  {
+    "name": "territory",
+    "trans": [
+      "n. 领土，版图；领地，地盘；(动物的)领地"
+    ]
+  },
+  {
+    "name": "nest",
+    "trans": [
+      "n. 巢，窝；安乐窝；温床",
+      "vt. 筑巢；嵌套",
+      "vi. 筑巢；找鸟巢"
+    ]
+  },
+  {
+    "name": "reserve",
+    "trans": [
+      "n. 储备，储存；自然保护区；预备队",
+      "vt. 储备；保留；预约",
+      "vi. 预订"
+    ]
+  },
+  {
+    "name": "sanctuary",
+    "trans": [
+      "n. 避难所；至圣所；耶路撒冷的神殿"
+    ]
+  },
+  {
+    "name": "conservation",
+    "trans": [
+      "n. 保护；保存；节约（自然资源）"
+    ]
+  },
+  {
+    "name": "zoo",
+    "trans": [
+      "n. 动物园；（铁路货车的最后一节）守车；核粒子园"
+    ]
+  },
+  {
+    "name": "tail",
+    "trans": [
+      "n. 尾巴；踪迹；辫子",
+      "adj. 从后面而来的；尾部的",
+      "vt. 尾随；装上尾巴"
+    ]
+  },
+  {
+    "name": "pattern",
+    "trans": [
+      "n. 模式；图案；样品",
+      "vt. 模仿；以图案装饰",
+      "vi. 形成图案"
+    ]
+  },
+  {
+    "name": "jaw",
+    "trans": [
+      "n. 颌；下巴；狭窄入口",
+      "vt. 教训；对…唠叨",
+      "vi. 教训；唠叨"
+    ]
+  },
+  {
+    "name": "tongue",
+    "trans": [
+      "n. 舌头；语言",
+      "vt. 舔；斥责；用舌吹",
+      "vi. 说话；吹管乐器"
+    ]
+  },
+  {
+    "name": "mane",
+    "trans": [
+      "n. 鬃毛；浓密的头发"
+    ]
+  },
+  {
+    "name": "teeth",
+    "trans": [
+      "n. 齿状物；威力；效力"
+    ]
+  },
+  {
+    "name": "beak",
+    "trans": [
+      "n. 鸟嘴；鹰钩鼻子；地方执法官"
+    ]
+  },
+  {
+    "name": "claw",
+    "trans": [
+      "n. 爪；螯，钳；爪形器具",
+      "vi. 用爪抓（或挖）",
+      "vt. 用爪抓（或挖）"
+    ]
+  },
+  {
+    "name": "feather",
+    "trans": [
+      "n. 羽毛；翎毛；羽状物",
+      "vt. 用羽毛装饰",
+      "vi. 长出羽毛"
+    ]
+  }
 ]

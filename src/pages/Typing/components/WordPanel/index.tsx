@@ -19,7 +19,7 @@ import {
 } from '@/store'
 import type { Word } from '@/typings'
 import { useAtomValue, useSetAtom } from 'jotai'
-import { useCallback, useContext, useMemo, useState } from 'react'
+import { useCallback, useContext, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 
 const EMPTY_WORD_DETAIL: WordDetail = { sentences: [], phrases: [] }
@@ -54,6 +54,25 @@ export default function WordPanel() {
   }, [state.chapterData.index, state.chapterData.words.length])
 
   usePrefetchPronunciationSound(nextWord?.name)
+
+  // 单词区的可用宽度。外层是 Tailwind 的 .container，最大宽度按断点跳变
+  // （1400px 视口下容器只有 1280px），算不出来只能实测。Word 拿它把长单词的字号压到
+  // 刚好放得下，不然 characterisation 这种词会横向撑满甚至溢出屏幕。
+  const [wordAreaWidth, setWordAreaWidth] = useState(0)
+  const wordAreaRef = useRef<HTMLDivElement>(null)
+
+  // ResizeObserver 的回调总是异步的，首帧拿不到宽度，长单词会先按大字号闪一下。
+  // 用 layout effect 在首次绘制前先同步量一次。
+  useLayoutEffect(() => {
+    const node = wordAreaRef.current
+    if (!node) return
+
+    setWordAreaWidth(node.getBoundingClientRect().width)
+
+    const observer = new ResizeObserver(([entry]) => setWordAreaWidth(entry.contentRect.width))
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [])
 
   const reloadCurrentWordComponent = useCallback(() => {
     setWordComponentKey((old) => old + 1)
@@ -183,7 +202,7 @@ export default function WordPanel() {
       </div>
       <div className="container flex flex-grow flex-col items-center justify-center">
         {currentWord && (
-          <div className="relative flex w-full justify-center">
+          <div ref={wordAreaRef} className="relative flex w-full justify-center">
             {!state.isTyping && (
               <div className="absolute flex h-full w-full justify-center">
                 <div className="z-10 flex w-full items-center backdrop-blur-sm">
@@ -194,7 +213,7 @@ export default function WordPanel() {
               </div>
             )}
             <div className="relative">
-              <WordComponent word={currentWord} onFinish={onFinish} key={wordComponentKey} />
+              <WordComponent word={currentWord} onFinish={onFinish} availableWidth={wordAreaWidth} key={wordComponentKey} />
               {phoneticConfig.isOpen && <Phonetic word={currentWord} />}
               {!visibleWordDetail && (
                 <Translation

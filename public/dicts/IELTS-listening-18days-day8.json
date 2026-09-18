@@ -1,305 +1,525 @@
 [
-    {
-        "name": "motor",
-        "trans": ["n. 汽车"]
-    },
-    {
-        "name": "hot balloon",
-        "trans": ["n. 热气球"]
-    },
-    {
-        "name": "register",
-        "trans": ["v. 注册"]
-    },
-    {
-        "name": "calm",
-        "trans": ["adj. 平静的"]
-    },
-    {
-        "name": "postal",
-        "trans": ["adj. 邮政的"]
-    },
-    {
-        "name": "bonus",
-        "trans": ["n. 奖金"]
-    },
-    {
-        "name": "insect",
-        "trans": ["n. 昆虫"]
-    },
-    {
-        "name": "warning",
-        "trans": ["n. 警告"]
-    },
-    {
-        "name": "seed",
-        "trans": ["n. 种子"]
-    },
-    {
-        "name": "custom",
-        "trans": ["n. 风俗习惯"]
-    },
-    {
-        "name": "goods",
-        "trans": ["n. 商品"]
-    },
-    {
-        "trans": ["v. 拒绝"]
-    },
-    {
-        "name": "belonging",
-        "trans": ["n. 所有物"]
-    },
-    {
-        "name": "monologue",
-        "trans": ["n. 独白"]
-    },
-    {
-        "name": "label",
-        "trans": ["n. 标签"]
-    },
-    {
-        "name": "applicant",
-        "trans": ["n. 申请人"]
-    },
-    {
-        "name": "opportunity",
-        "trans": ["n. 机会"]
-    },
-    {
-        "name": "document",
-        "trans": ["n. 文件"]
-    },
-    {
-        "name": "promotion",
-        "trans": ["n. 晋升"]
-    },
-    {
-        "name": "networking",
-        "trans": ["n. 一种互助性的网络体系"]
-    },
-    {
-        "name": "self-employment",
-        "trans": ["n. 自营"]
-    },
-    {
-        "name": "organization",
-        "trans": ["n. 组织"]
-    },
-    {
-        "name": "community",
-        "trans": ["n. 社区"]
-    },
-    {
-        "name": "involvement",
-        "trans": ["n. 牵连"]
-    },
-    {
-        "name": "washroom",
-        "trans": ["n. 卫生间"]
-    },
-    {
-        "name": "corridor",
-        "trans": ["n. 走廊"]
-    },
-    {
-        "name": "control",
-        "trans": ["v. 控制"]
-    },
-    {
-        "name": "reward",
-        "trans": ["n. 报酬"]
-    },
-    {
-        "name": "competitive",
-        "trans": ["adj. 竞争的"]
-    },
-    {
-        "name": "waste",
-        "trans": ["n. 垃圾"]
-    },
-    {
-        "name": "reduce",
-        "trans": ["v. 减少"]
-    },
-    {
-        "name": "improvement",
-        "trans": ["n. 改善"]
-    },
-    {
-        "name": "safety",
-        "trans": ["n. 安全"]
-    },
-    {
-        "name": "soft",
-        "trans": ["adj. 柔软的"]
-    },
-    {
-        "name": "fire disaster",
-        "trans": ["n. 火灾"]
-    },
-    {
-        "name": "secure",
-        "trans": ["adj. 安全的"]
-    },
-    {
-        "name": "leaf",
-        "trans": ["n. 叶子"]
-    },
-    {
-        "name": "rubbish",
-        "trans": ["n. 垃圾"]
-    },
-    {
-        "name": "roof",
-        "trans": ["n. 屋顶"]
-    },
-    {
-        "name": "gas tank",
-        "trans": ["n. 煤气罐"]
-    },
-    {
-        "name": "gap",
-        "trans": ["n. 差距"]
-    },
-    {
-        "name": "yard",
-        "trans": ["n. 院子"]
-    },
-    {
-        "name": "remove",
-        "trans": ["v. 迁移"]
-    },
-    {
-        "name": "occur",
-        "trans": ["v. 发生"]
-    },
-    {
-        "name": "brushfire",
-        "trans": ["n. 山林火灾"]
-    },
-    {
-        "name": "volunteer",
-        "trans": ["n. 志愿者"]
-    },
-    {
-        "name": "battery",
-        "trans": ["n. 电池"]
-    },
-    {
-        "name": "bottom",
-        "trans": ["n. 底部"]
-    },
-    {
-        "name": "confirm",
-        "trans": ["v. 确认"]
-    },
-    {
-        "name": "wooden",
-        "trans": ["adj. 木制的"]
-    },
-    {
-        "name": "urban",
-        "trans": ["adj. 城市的"]
-    },
-    {
-        "name": "souvenir",
-        "trans": ["n. 纪念品"]
-    },
-    {
-        "name": "recycled",
-        "trans": ["adj. 回收利用的"]
-    },
-    {
-        "name": "golf",
-        "trans": ["n. 高尔夫球"]
-    },
-    {
-        "name": "resort",
-        "trans": ["n. 度假胜地"]
-    },
-    {
-        "name": "weave",
-        "trans": ["v. 编织"]
-    },
-    {
-        "name": "car transfer",
-        "trans": ["n. 车辆中转"]
-    },
-    {
-        "name": "endangered",
-        "trans": ["adj. 濒危的"]
-    },
-    {
-        "name": "herbal",
-        "trans": ["adj. 草本的"]
-    },
-    {
-        "name": "length",
-        "trans": ["n. 长度"]
-    },
-    {
-        "name": "fur",
-        "trans": ["n. 皮毛"]
-    },
-    {
-        "name": "consumption",
-        "trans": ["n. 消费"]
-    },
-    {
-        "name": "fuel",
-        "trans": ["n. 燃料"]
-    },
-    {
-        "name": "natural gas",
-        "trans": ["n. 天然气"]
-    },
-    {
-        "name": "alter",
-        "trans": ["v. 改变"]
-    },
-    {
-        "name": "smooth",
-        "trans": ["adj. 光滑的"]
-    },
-    {
-        "name": "utilize",
-        "trans": ["v. 利用"]
-    },
-    {
-        "name": "taste",
-        "trans": ["n. 品味"]
-    },
-    {
-        "name": "petrol",
-        "trans": ["n. 汽油"]
-    },
-    {
-        "name": "sheet",
-        "trans": ["n. 纸张"]
-    },
-    {
-        "name": "storage",
-        "trans": ["n. 仓库"]
-    },
-    {
-        "name": "rubber",
-        "trans": ["n. 橡胶"]
-    },
-    {
-        "name": "download",
-        "trans": ["v. 下载"]
-    },
-    {
-        "name": "invoice",
-        "trans": ["n. 发票"]
-    },
-    {
-        "name": "security",
-        "trans": ["n. 安保"]
-    },
-    {
-        "name": "evidence",
-        "trans": ["n. 证据"]
-    }
+  {
+    "name": "motor",
+    "trans": [
+      "n. 发动机；机动车；马达",
+      "adj. 机动的；有引擎的；汽车的",
+      "v. (用引擎)驱动"
+    ]
+  },
+  {
+    "name": "hot balloon",
+    "trans": [
+      "n. 热气球"
+    ]
+  },
+  {
+    "name": "register",
+    "trans": [
+      "n. 登记；注册；记录",
+      "vt. 登记；注册；记录",
+      "vi. 登记；注册；挂号"
+    ]
+  },
+  {
+    "name": "calm",
+    "trans": [
+      "adj. 平静的，镇定的；风平浪静的",
+      "n. 平静；镇定",
+      "v. 使平静；使镇定"
+    ]
+  },
+  {
+    "name": "postal",
+    "trans": [
+      "n. 明信片",
+      "adj. 邮政的；邮局的"
+    ]
+  },
+  {
+    "name": "bonus",
+    "trans": [
+      "n. 奖金，红利；额外津贴，意外收获",
+      "adj. 额外的；意外的"
+    ]
+  },
+  {
+    "name": "insect",
+    "trans": [
+      "n. 虫，昆虫；卑鄙的人；微贱的人，小人",
+      "adj. 昆虫的；卑劣的"
+    ]
+  },
+  {
+    "name": "warning",
+    "trans": [
+      "n. 警告；预兆；预告",
+      "v. 警告（warn的ing形式）",
+      "adj. 警告的；引以为戒的"
+    ]
+  },
+  {
+    "name": "seed",
+    "trans": [
+      "n. 种子；根据；精液",
+      "vt. 播种；结实；成熟",
+      "vi. 播种；（植物）结实"
+    ]
+  },
+  {
+    "name": "custom",
+    "trans": [
+      "n. 习惯，惯例；风俗；海关，关税",
+      "adj. （衣服等）定做的；定制的"
+    ]
+  },
+  {
+    "name": "goods",
+    "trans": [
+      "n. 商品；动产；合意的人"
+    ]
+  },
+  {
+    "trans": [
+      "v. 拒绝"
+    ]
+  },
+  {
+    "name": "belonging",
+    "trans": [
+      "n. 所有物；行李；附属物"
+    ]
+  },
+  {
+    "name": "monologue",
+    "trans": [
+      "n. 独白；独角戏；长篇大论"
+    ]
+  },
+  {
+    "name": "label",
+    "trans": [
+      "n. 标签；签条；标记",
+      "vt. 贴标签于；分类；把...称为"
+    ]
+  },
+  {
+    "name": "applicant",
+    "trans": [
+      "n. 申请人；应征者"
+    ]
+  },
+  {
+    "name": "opportunity",
+    "trans": [
+      "n. 机会；时机；良机"
+    ]
+  },
+  {
+    "name": "document",
+    "trans": [
+      "n. 文件；公文；文献",
+      "v. 记录；为…提供证明"
+    ]
+  },
+  {
+    "name": "promotion",
+    "trans": [
+      "n. 晋升，提升；促销，推销；推广，宣传"
+    ]
+  },
+  {
+    "name": "networking",
+    "trans": [
+      "n. 网络化；计网络系统；人际网"
+    ]
+  },
+  {
+    "name": "self-employment",
+    "trans": [
+      "n. 自雇；个体经营"
+    ]
+  },
+  {
+    "name": "organization",
+    "trans": [
+      "n. 组织；团体；机构",
+      "adj. 有组织的"
+    ]
+  },
+  {
+    "name": "community",
+    "trans": [
+      "n. 社区，社会；团体，界；共同体，共同性"
+    ]
+  },
+  {
+    "name": "involvement",
+    "trans": [
+      "n. 参与，介入；卷入，牵连；密切关系，复杂性"
+    ]
+  },
+  {
+    "name": "washroom",
+    "trans": [
+      "n. 洗手间；盥洗室；厕所"
+    ]
+  },
+  {
+    "name": "corridor",
+    "trans": [
+      "n. 走廊；回廊；通路"
+    ]
+  },
+  {
+    "name": "control",
+    "trans": [
+      "n. 控制；管理；抑制",
+      "vt. 控制；管理；抑制"
+    ]
+  },
+  {
+    "name": "reward",
+    "trans": [
+      "n. 报答；报酬；赏金",
+      "vt. 报答；给...报酬；奖赏"
+    ]
+  },
+  {
+    "name": "competitive",
+    "trans": [
+      "adj. 竞争的；比赛的；求胜心切的"
+    ]
+  },
+  {
+    "name": "waste",
+    "trans": [
+      "n. 浪费；废物；垃圾",
+      "v. 浪费；白费",
+      "adj. 废弃的；荒芜的"
+    ]
+  },
+  {
+    "name": "reduce",
+    "trans": [
+      "vi. 减少；缩小；归纳为",
+      "vt. 减少；降低；使处于"
+    ]
+  },
+  {
+    "name": "improvement",
+    "trans": [
+      "n. 改进；改善；改进处"
+    ]
+  },
+  {
+    "name": "safety",
+    "trans": [
+      "n. 安全；保险；安全打",
+      "vt. 保护"
+    ]
+  },
+  {
+    "name": "soft",
+    "trans": [
+      "adj. 软的；柔软的；柔和的",
+      "adv. 柔软地温和地",
+      "n. 柔软的东西"
+    ]
+  },
+  {
+    "name": "fire disaster",
+    "trans": [
+      "n. 火灾"
+    ]
+  },
+  {
+    "name": "secure",
+    "trans": [
+      "vt. 保护；弄到；招致",
+      "adj. 安全的；无虑的；有把握的",
+      "vi. 获得安全；船抛锚；停止工作"
+    ]
+  },
+  {
+    "name": "leaf",
+    "trans": [
+      "n. 叶；叶子；树叶",
+      "vt. 翻页",
+      "vi. 长叶子；翻页浏览"
+    ]
+  },
+  {
+    "name": "rubbish",
+    "trans": [
+      "n. 垃圾，废弃物；毫无价值的东西，劣质产品；废话，瞎说",
+      "v. 严厉批评；把……说得一无是处",
+      "adj. 很差劲的；无用的"
+    ]
+  },
+  {
+    "name": "roof",
+    "trans": [
+      "n. 屋顶，房屋；最高部，顶部；最高限度",
+      "vt. 给…盖顶；覆盖；保护，庇护"
+    ]
+  },
+  {
+    "name": "gas tank",
+    "trans": [
+      "n. 煤气罐"
+    ]
+  },
+  {
+    "name": "gap",
+    "trans": [
+      "n. 缺口；分歧；间隔",
+      "vt. 造成缝隙；使成缺口；使豁裂",
+      "vi. 豁开；张开；有缺口"
+    ]
+  },
+  {
+    "name": "yard",
+    "trans": [
+      "n. 院子；庭院；帆桁",
+      "vt. 把…关进或围在畜栏里"
+    ]
+  },
+  {
+    "name": "remove",
+    "trans": [
+      "n. 移动；距离；搬家",
+      "vt. 移动，迁移；开除；调动",
+      "vi. 移动，迁移；搬家"
+    ]
+  },
+  {
+    "name": "occur",
+    "trans": [
+      "vi. 发生；出现；存在"
+    ]
+  },
+  {
+    "name": "brushfire",
+    "trans": [
+      "n. 山林火灾"
+    ]
+  },
+  {
+    "name": "volunteer",
+    "trans": [
+      "n. 志愿者；义工",
+      "v. 自愿做；主动提出",
+      "adj. 志愿的；义务的"
+    ]
+  },
+  {
+    "name": "battery",
+    "trans": [
+      "n. 电池，蓄电池；一组，一系列；炮组，排炮",
+      "adj. 笼养的；层架式养殖的"
+    ]
+  },
+  {
+    "name": "bottom",
+    "trans": [
+      "n. 底部；末端；臀部",
+      "adj. 底部的",
+      "vt. 装底；测量深浅；查明真相"
+    ]
+  },
+  {
+    "name": "confirm",
+    "trans": [
+      "v. 证实，确认；批准，确认；使巩固，使确立"
+    ]
+  },
+  {
+    "name": "wooden",
+    "trans": [
+      "adj. 木制的，木头的；僵硬的，呆板的；无生气的，木讷的"
+    ]
+  },
+  {
+    "name": "urban",
+    "trans": [
+      "adj. 城市的；都市的；城镇的"
+    ]
+  },
+  {
+    "name": "souvenir",
+    "trans": [
+      "n. 纪念品；礼物",
+      "vt. 把…留作纪念"
+    ]
+  },
+  {
+    "name": "recycled",
+    "trans": [
+      "adj. 回收的",
+      "v. 再循环；“recycle”的过去式和过去分词"
+    ]
+  },
+  {
+    "name": "golf",
+    "trans": [
+      "n. 高尔夫球",
+      "v. 打高尔夫球",
+      "vi. (打)高尔夫球"
+    ]
+  },
+  {
+    "name": "resort",
+    "trans": [
+      "n. (渡假)胜地；手段；求助",
+      "vi. 求助；凭借；诉诸"
+    ]
+  },
+  {
+    "name": "weave",
+    "trans": [
+      "vt. 织；编；组合",
+      "vi. 纺织；编织",
+      "n. 编法；织法；编织"
+    ]
+  },
+  {
+    "name": "car transfer",
+    "trans": [
+      "n. 车辆中转"
+    ]
+  },
+  {
+    "name": "endangered",
+    "trans": [
+      "adj. 快要绝种的",
+      "v. 危及"
+    ]
+  },
+  {
+    "name": "herbal",
+    "trans": [
+      "n. 植物志；草本书",
+      "adj. 草药的；草本的"
+    ]
+  },
+  {
+    "name": "length",
+    "trans": [
+      "n. 长度，长；时间的长短；（语）音长"
+    ]
+  },
+  {
+    "name": "fur",
+    "trans": [
+      "n. 软毛；毛皮；裘皮",
+      "vt. 用毛皮制作；用毛皮盖于",
+      "vi. 用毛皮制的"
+    ]
+  },
+  {
+    "name": "consumption",
+    "trans": [
+      "n. 消费；消耗；肺痨"
+    ]
+  },
+  {
+    "name": "fuel",
+    "trans": [
+      "vi. 得到燃料",
+      "vt. 供以燃料；加燃料",
+      "n. 燃料；刺激因素"
+    ]
+  },
+  {
+    "name": "natural gas",
+    "trans": [
+      "n. 天然气"
+    ]
+  },
+  {
+    "name": "alter",
+    "trans": [
+      "vt. 改变；更改；改建（房屋）",
+      "vi. 改变；修改"
+    ]
+  },
+  {
+    "name": "smooth",
+    "trans": [
+      "adj. 平滑的；平静的；平稳的",
+      "vt. 使光滑；磨光；安慰",
+      "vi. 变光滑"
+    ]
+  },
+  {
+    "name": "utilize",
+    "trans": [
+      "v. 利用；使用"
+    ]
+  },
+  {
+    "name": "taste",
+    "trans": [
+      "n. 味道；品味；审美",
+      "vt. 尝；体验",
+      "vi. 尝起来；有…的味道"
+    ]
+  },
+  {
+    "name": "petrol",
+    "trans": [
+      "n. 汽油"
+    ]
+  },
+  {
+    "name": "sheet",
+    "trans": [
+      "n. 薄片，纸张；薄板；床单",
+      "adj. 片状的",
+      "vt. 覆盖；盖上被单；使成大片"
+    ]
+  },
+  {
+    "name": "storage",
+    "trans": [
+      "n. 存储；仓库；贮藏所"
+    ]
+  },
+  {
+    "name": "rubber",
+    "trans": [
+      "n. 橡胶；橡皮；合成橡胶",
+      "adj. 橡胶制成的",
+      "vt. 涂橡胶于；用橡胶制造"
+    ]
+  },
+  {
+    "name": "download",
+    "trans": [
+      "v. 下载（数据或程序）",
+      "n. 下载；下载的数据或程序"
+    ]
+  },
+  {
+    "name": "invoice",
+    "trans": [
+      "n. 账单；发货单；收款请求",
+      "vt. 开发票；记清单"
+    ]
+  },
+  {
+    "name": "security",
+    "trans": [
+      "n. 安全；保证；证券",
+      "adj. 安全的；保安的；保密的"
+    ]
+  },
+  {
+    "name": "evidence",
+    "trans": [
+      "n. 证词；证据；迹象",
+      "vt. 使明显；显示；表明"
+    ]
+  }
 ]

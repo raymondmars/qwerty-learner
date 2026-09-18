@@ -1,310 +1,523 @@
 [
-    {
-        "name": "gym",
-        "trans": ["n. 健身房"]
-    },
-    {
-        "name": "laundry",
-        "trans": ["n. 洗衣店"]
-    },
-    {
-        "name": "harbour",
-        "trans": ["n. 海港"]
-    },
-    {
-        "name": "balcony",
-        "trans": ["n. 阳台"]
-    },
-    {
-        "name": "intermediate",
-        "trans": ["adj. 中级的"]
-    },
-    {
-        "name": "electricity",
-        "trans": ["n. 电力"]
-    },
-    {
-        "name": "Africa",
-        "trans": ["n. 非洲"]
-    },
-    {
-        "name": "vegetarian",
-        "trans": ["n. 素食主义者"]
-    },
-    {
-        "name": "India",
-        "trans": ["n. 印度"]
-    },
-    {
-        "name": "navigation",
-        "trans": ["n. 导航"]
-    },
-    {
-        "name": "translate",
-        "trans": ["v. 翻译"]
-    },
-    {
-        "name": "helicopter",
-        "trans": ["n. 直升机"]
-    },
-    {
-        "name": "event",
-        "trans": ["n. 事件"]
-    },
-    {
-        "name": "organic",
-        "trans": ["adj. 有机的"]
-    },
-    {
-        "name": "vacant",
-        "trans": ["adj. 空缺的"]
-    },
-    {
-        "name": "exhibition",
-        "trans": ["n. 展览会"]
-    },
-    {
-        "name": "waitress",
-        "trans": ["n. 女服务员"]
-    },
-    {
-        "name": "detail",
-        "trans": ["n. 细节"]
-    },
-    {
-        "name": "leaflet",
-        "trans": ["n. 传单"]
-    },
-    {
-        "name": "coastline",
-        "trans": ["n. 海岸线"]
-    },
-    {
-        "name": "keyboard",
-        "trans": ["n. 键盘"]
-    },
-    {
-        "name": "ruin",
-        "trans": ["n. 废墟"]
-    },
-    {
-        "name": "database",
-        "trans": ["n. 数据库"]
-    },
-    {
-        "name": "accommodation",
-        "trans": ["n. 住宿"]
-    },
-    {
-        "name": "slide",
-        "trans": ["n. 滑梯"]
-    },
-    {
-        "name": "stair lift",
-        "trans": ["n. 电梯"]
-    },
-    {
-        "name": "hostel",
-        "trans": ["n. 招待所"]
-    },
-    {
-        "name": "average",
-        "trans": ["adj. 普通的"]
-    },
-    {
-        "name": "travel",
-        "trans": ["v. 旅行"]
-    },
-    {
-        "name": "challenge",
-        "trans": ["n. 挑战"]
-    },
-    {
-        "name": "teenager",
-        "trans": ["n. 青少年"]
-    },
-    {
-        "name": "junior",
-        "trans": ["n. 青少年"]
-    },
-    {
-        "name": "rent",
-        "trans": ["n. 租金"]
-    },
-    {
-        "name": "fax",
-        "trans": ["n. 传真"]
-    },
-    {
-        "name": "landlady",
-        "trans": ["n. 女房东"]
-    },
-    {
-        "name": "switch",
-        "trans": ["n. 开关"]
-    },
-    {
-        "name": "hire",
-        "trans": ["v. 租用"]
-    },
-    {
-        "name": "heater",
-        "trans": ["n. 加热器"]
-    },
-    {
-        "name": "maid",
-        "trans": ["n. 女仆"]
-    },
-    {
-        "name": "fridge",
-        "trans": ["n. 电冰箱"]
-    },
-    {
-        "name": "lock",
-        "trans": ["n. 锁"]
-    },
-    {
-        "name": "midnight",
-        "trans": ["n. 午夜"]
-    },
-    {
-        "name": "department",
-        "trans": ["n. 部门"]
-    },
-    {
-        "name": "further",
-        "trans": ["adj. 更远的"]
-    },
-    {
-        "name": "personal",
-        "trans": ["adj. 个人的"]
-    },
-    {
-        "name": "recruitment",
-        "trans": ["n. 招聘"]
-    },
-    {
-        "name": "fight",
-        "trans": ["n. 打仗"]
-    },
-    {
-        "name": "occasional",
-        "trans": ["adj. 偶尔的"]
-    },
-    {
-        "name": "skill",
-        "trans": ["n. 技能"]
-    },
-    {
-        "name": "requirement",
-        "trans": ["n. 要求"]
-    },
-    {
-        "name": "vision",
-        "trans": ["n. 视力"]
-    },
-    {
-        "name": "math",
-        "trans": ["n. 数学"]
-    },
-    {
-        "name": "prepare",
-        "trans": ["v. 准备"]
-    },
-    {
-        "name": "customer",
-        "trans": ["n. 顾客"]
-    },
-    {
-        "name": "cultural",
-        "trans": ["adj. 文化的"]
-    },
-    {
-        "name": "refreshment",
-        "trans": ["n. 点心"]
-    },
-    {
-        "name": "accommodation",
-        "trans": ["n. 住宿"]
-    },
-    {
-        "name": "awareness",
-        "trans": ["n. 意识"]
-    },
-    {
-        "name": "cash",
-        "trans": ["n. 现金"]
-    },
-    {
-        "name": "advice",
-        "trans": ["n. 建议"]
-    },
-    {
-        "name": "museum",
-        "trans": ["n. 博物馆"]
-    },
-    {
-        "name": "credit card",
-        "trans": ["n. 信用卡"]
-    },
-    {
-        "name": "snowboarding",
-        "trans": ["n. 单板滑雪"]
-    },
-    {
-        "name": "sailing",
-        "trans": ["n. 航海"]
-    },
-    {
-        "name": "in advance",
-        "trans": ["提前"]
-    },
-    {
-        "name": "mountain",
-        "trans": ["n. 山"]
-    },
-    {
-        "name": "destination",
-        "trans": ["n. 目的地"]
-    },
-    {
-        "name": "suggestion",
-        "trans": ["n. 建议"]
-    },
-    {
-        "name": "alternative",
-        "trans": ["adj. 选择性的"]
-    },
-    {
-        "name": "job agency",
-        "trans": ["n. 招聘中介"]
-    },
-    {
-        "name": "booklet",
-        "trans": ["n. 小册子"]
-    },
-    {
-        "name": "European",
-        "trans": ["n. 欧洲人"]
-    },
-    {
-        "name": "contact",
-        "trans": ["v. 联系"]
-    },
-    {
-        "name": "flat",
-        "trans": ["n. 公寓"]
-    },
-    {
-        "name": "plant",
-        "trans": ["v. 种植"]
-    },
-    {
-        "name": "venue",
-        "trans": ["n. 集会/聚会场所"]
-    },
-    {
-        "name": "interviewer",
-        "trans": ["n. 面试者"]
-    }
+  {
+    "name": "gym",
+    "trans": [
+      "n. 健身房；体育；体育馆"
+    ]
+  },
+  {
+    "name": "laundry",
+    "trans": [
+      "n. 洗衣物；待洗的衣物；洗衣房"
+    ]
+  },
+  {
+    "name": "harbour",
+    "trans": [
+      "n. 港；港口；港湾",
+      "v. 庇护，窝藏，藏匿；怀有，心怀；携带"
+    ]
+  },
+  {
+    "name": "balcony",
+    "trans": [
+      "n. 阳台；包厢；戏院楼厅"
+    ]
+  },
+  {
+    "name": "intermediate",
+    "trans": [
+      "adj. 中间的；中级的",
+      "n. 中间体；媒介物；调解人",
+      "vi. 调解；干涉"
+    ]
+  },
+  {
+    "name": "electricity",
+    "trans": [
+      "n. 电，电能；电学，电力学；刺激，激情"
+    ]
+  },
+  {
+    "name": "Africa",
+    "trans": [
+      "n. 非洲"
+    ]
+  },
+  {
+    "name": "vegetarian",
+    "trans": [
+      "n. 吃素的人；素食者；素食主义者",
+      "adj. 素食者的；只有蔬菜的"
+    ]
+  },
+  {
+    "name": "India",
+    "trans": [
+      "n. 印度"
+    ]
+  },
+  {
+    "name": "navigation",
+    "trans": [
+      "n. 航行，航海；导航；导航技术"
+    ]
+  },
+  {
+    "name": "translate",
+    "trans": [
+      "vt. 翻译；转化；解释",
+      "vi. 翻译"
+    ]
+  },
+  {
+    "name": "helicopter",
+    "trans": [
+      "n. 直升机；直升飞机",
+      "vt. 用直升飞机载送",
+      "vi. 乘直升飞机"
+    ]
+  },
+  {
+    "name": "event",
+    "trans": [
+      "n. 事件，大事；活动，节目；（体育）项目"
+    ]
+  },
+  {
+    "name": "organic",
+    "trans": [
+      "adj. 有机体的；器官的；根本的",
+      "n. 有机物质"
+    ]
+  },
+  {
+    "name": "vacant",
+    "trans": [
+      "adj. 空的，无人占用的；空虚的，茫然的；空闲的，空缺的"
+    ]
+  },
+  {
+    "name": "exhibition",
+    "trans": [
+      "n. 展览，展示；展览会；表演"
+    ]
+  },
+  {
+    "name": "waitress",
+    "trans": [
+      "n. 女服务员；女侍者",
+      "vi. 做女服务生"
+    ]
+  },
+  {
+    "name": "detail",
+    "trans": [
+      "n. 细节；详情；部分",
+      "vt. 详述；选派；用小元素装饰",
+      "vi. 画细节"
+    ]
+  },
+  {
+    "name": "leaflet",
+    "trans": [
+      "n. 传单，散页印刷品；小叶，嫩叶；复叶的一片",
+      "vt.&vi. 散发传单"
+    ]
+  },
+  {
+    "name": "coastline",
+    "trans": [
+      "n. 海岸线；海岸地形 (或轮廓)；沿海地带"
+    ]
+  },
+  {
+    "name": "keyboard",
+    "trans": [
+      "n. 键盘",
+      "vt. 键入；用键盘式排字机排字",
+      "vi. 用键盘进行操作；作键盘式排字机排字"
+    ]
+  },
+  {
+    "name": "ruin",
+    "trans": [
+      "n. 废墟；毁坏；灭亡",
+      "vt. 毁灭；使破产",
+      "vi. 破产；堕落；被毁灭"
+    ]
+  },
+  {
+    "name": "database",
+    "trans": [
+      "n. 数据库；资料库；信息库"
+    ]
+  },
+  {
+    "name": "accommodation",
+    "trans": [
+      "n. 住处，住宿；适应，调节；和解，协调"
+    ]
+  },
+  {
+    "name": "slide",
+    "trans": [
+      "vi. 滑；跌落",
+      "vt. 使滑动",
+      "n. 滑；幻灯片；雪崩"
+    ]
+  },
+  {
+    "name": "stair lift",
+    "trans": [
+      "n. 电梯"
+    ]
+  },
+  {
+    "name": "hostel",
+    "trans": [
+      "n. 旅社；招待所；〈英古〉旅馆",
+      "vi. 留宿于招待所"
+    ]
+  },
+  {
+    "name": "average",
+    "trans": [
+      "adj. 平均的；一般的；普通的",
+      "n. 平均数；平均水平",
+      "v. 平均为；平均是"
+    ]
+  },
+  {
+    "name": "travel",
+    "trans": [
+      "n. 旅行；游历；漫游",
+      "vt. 经过；在…旅行",
+      "vi. 旅行；行进；步行"
+    ]
+  },
+  {
+    "name": "challenge",
+    "trans": [
+      "n. 挑战；盘问；质疑",
+      "vt. 质疑；向…挑战",
+      "vi. 提出挑战，要求竞赛（或竞争）；驳斥"
+    ]
+  },
+  {
+    "name": "teenager",
+    "trans": [
+      "n. 青少年；十几岁的人"
+    ]
+  },
+  {
+    "name": "junior",
+    "trans": [
+      "adj. 年少的；下级的；后进的",
+      "n. 晚辈；年少者；地位较低者"
+    ]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "n. 租金",
+      "vt. 出租；租用；租借",
+      "vi. 租；出租"
+    ]
+  },
+  {
+    "name": "fax",
+    "trans": [
+      "n. 传真；传真机",
+      "v. 传真；用传真发送"
+    ]
+  },
+  {
+    "name": "landlady",
+    "trans": [
+      "n. 女房东；女地主；女店主"
+    ]
+  },
+  {
+    "name": "switch",
+    "trans": [
+      "n. 开关；转换；鞭子",
+      "vi. 转换；抽打；换防",
+      "vt. 转换；用鞭子等抽打"
+    ]
+  },
+  {
+    "name": "hire",
+    "trans": [
+      "n. 雇用，租用；租金，工钱",
+      "vt. 雇用；出租",
+      "vi. 雇用，租用；受雇"
+    ]
+  },
+  {
+    "name": "heater",
+    "trans": [
+      "n. 加热器，炉子；加热的人；手枪"
+    ]
+  },
+  {
+    "name": "maid",
+    "trans": [
+      "n. 女仆；少女",
+      "vt. 侍候；做新娘的女傧相",
+      "vi. 当女仆"
+    ]
+  },
+  {
+    "name": "fridge",
+    "trans": [
+      "n. 冰箱；电冰箱"
+    ]
+  },
+  {
+    "name": "lock",
+    "trans": [
+      "vt. 锁，锁上；隐藏",
+      "vi. 锁；锁住；卡住",
+      "n. 锁；水闸；刹车"
+    ]
+  },
+  {
+    "name": "midnight",
+    "trans": [
+      "n. 午夜；半夜12点钟",
+      "adj. 半夜的；漆黑的"
+    ]
+  },
+  {
+    "name": "department",
+    "trans": [
+      "n. 部门，科室；（政府的）部；系，院（大学里的学院）"
+    ]
+  },
+  {
+    "name": "further",
+    "trans": [
+      "adv. 更远地，进一步地；另外，此外",
+      "adj. 更多的；进一步的",
+      "v. 促进；推进"
+    ]
+  },
+  {
+    "name": "personal",
+    "trans": [
+      "n. 人事消息栏；人称代名词",
+      "adj. 个人的；身体的；亲自的"
+    ]
+  },
+  {
+    "name": "recruitment",
+    "trans": [
+      "n. 征募新兵；补充；募集"
+    ]
+  },
+  {
+    "name": "fight",
+    "trans": [
+      "vt.&vi. 战斗；斗争；打架",
+      "n. 打架；吵架；战斗"
+    ]
+  },
+  {
+    "name": "occasional",
+    "trans": [
+      "adj. 偶尔的，间或发生的；不经常的，偶然的；特殊场合的"
+    ]
+  },
+  {
+    "name": "skill",
+    "trans": [
+      "n. 技巧， 技艺；（特定的）技术，技能",
+      "v. 培训（工人）"
+    ]
+  },
+  {
+    "name": "requirement",
+    "trans": [
+      "n. 要求，必要条件；需求，需要；规定，要求"
+    ]
+  },
+  {
+    "name": "vision",
+    "trans": [
+      "n. 视力；美景；眼力",
+      "vt. 想象；显现；梦见"
+    ]
+  },
+  {
+    "name": "math",
+    "trans": [
+      "n. 数学（等于mathematics）"
+    ]
+  },
+  {
+    "name": "prepare",
+    "trans": [
+      "vt. 准备；使适合；装备",
+      "vi. 预备；做好思想准备"
+    ]
+  },
+  {
+    "name": "customer",
+    "trans": [
+      "n. 客户；顾客；主顾"
+    ]
+  },
+  {
+    "name": "cultural",
+    "trans": [
+      "adj. 文化的；栽培的；培养的"
+    ]
+  },
+  {
+    "name": "refreshment",
+    "trans": [
+      "n. 茶点和饮料；提神；心旷神怡"
+    ]
+  },
+  {
+    "name": "accommodation",
+    "trans": [
+      "n. 住处，住宿；适应，调节；和解，协调"
+    ]
+  },
+  {
+    "name": "awareness",
+    "trans": [
+      "n. 意识，认识；察觉，警觉性；认知，了解"
+    ]
+  },
+  {
+    "name": "cash",
+    "trans": [
+      "n. 现金；现款",
+      "vt. 兑现；付现款",
+      "adj. 现金的"
+    ]
+  },
+  {
+    "name": "advice",
+    "trans": [
+      "n. 建议；忠告；意见"
+    ]
+  },
+  {
+    "name": "museum",
+    "trans": [
+      "n. 博物馆；美术馆"
+    ]
+  },
+  {
+    "name": "credit card",
+    "trans": [
+      "n. 信用卡"
+    ]
+  },
+  {
+    "name": "snowboarding",
+    "trans": [
+      "n. 滑板滑雪（运动）；单板滑雪（运动）"
+    ]
+  },
+  {
+    "name": "sailing",
+    "trans": [
+      "n. 航行，航海；启航；航海术",
+      "v. 航行；起航（sail的现在分词形式）",
+      "adj. 航行的"
+    ]
+  },
+  {
+    "name": "in advance",
+    "trans": [
+      "adv. 提前"
+    ]
+  },
+  {
+    "name": "mountain",
+    "trans": [
+      "n. 山，山脉；大量，大堆",
+      "adj. 山的；山地的"
+    ]
+  },
+  {
+    "name": "destination",
+    "trans": [
+      "n. 目的地；终点；目标",
+      "adj. 作为目的地的"
+    ]
+  },
+  {
+    "name": "suggestion",
+    "trans": [
+      "n. 建议，提议；暗示，暗示的事物；微量"
+    ]
+  },
+  {
+    "name": "alternative",
+    "trans": [
+      "adj. 两者择一的；供选择的；非主流的",
+      "n. 替换物；取舍；抉择"
+    ]
+  },
+  {
+    "name": "job agency",
+    "trans": [
+      "n. 招聘中介"
+    ]
+  },
+  {
+    "name": "booklet",
+    "trans": [
+      "n. 小册子"
+    ]
+  },
+  {
+    "name": "European",
+    "trans": [
+      "adj. 欧洲的；欧洲人的；欧盟的",
+      "n. 欧洲人"
+    ]
+  },
+  {
+    "name": "contact",
+    "trans": [
+      "n. 接触，联系；联系人",
+      "v. 联系；接触",
+      "adj. 接触的；联系的"
+    ]
+  },
+  {
+    "name": "flat",
+    "trans": [
+      "adj. 平的；扁平的；平坦的",
+      "adv. 平直地；干脆地",
+      "n. 一套房间；单元住宅；公寓"
+    ]
+  },
+  {
+    "name": "plant",
+    "trans": [
+      "n. 工厂，车间；植物；设备",
+      "vt. 种植；培养；栽培",
+      "vi. 种植"
+    ]
+  },
+  {
+    "name": "venue",
+    "trans": [
+      "n. 审判地；犯罪地点；发生地点"
+    ]
+  },
+  {
+    "name": "interviewer",
+    "trans": [
+      "n. 采访者；会见者；面谈者"
+    ]
+  }
 ]

@@ -1,310 +1,537 @@
 [
-    {
-        "name": "remain",
-        "trans": ["v. 保持"]
-    },
-    {
-        "name": "detailed",
-        "trans": ["adj. 详细的"]
-    },
-    {
-        "name": "disadvantage",
-        "trans": ["n. 缺点"]
-    },
-    {
-        "name": "lift",
-        "trans": ["v. 举起"]
-    },
-    {
-        "name": "medical",
-        "trans": ["adj. 医学的"]
-    },
-    {
-        "name": "arrange",
-        "trans": ["v. 安排"]
-    },
-    {
-        "name": "artist",
-        "trans": ["n. 艺术家"]
-    },
-    {
-        "name": "passport",
-        "trans": ["n. 护照"]
-    },
-    {
-        "name": "university",
-        "trans": ["n. 大学"]
-    },
-    {
-        "name": "occupation",
-        "trans": ["n. 职业"]
-    },
-    {
-        "name": "audience",
-        "trans": ["n. 观众"]
-    },
-    {
-        "name": "landscape",
-        "trans": ["n. 风景"]
-    },
-    {
-        "name": "clay",
-        "trans": ["n. 黏土"]
-    },
-    {
-        "name": "advantage",
-        "trans": ["n. 优点"]
-    },
-    {
-        "name": "deck",
-        "trans": ["n. 甲板"]
-    },
-    {
-        "name": "tourist",
-        "trans": ["n. 旅行者"]
-    },
-    {
-        "name": "entrance",
-        "trans": ["n. 入口"]
-    },
-    {
-        "name": "concern",
-        "trans": ["n. 担心的事"]
-    },
-    {
-        "name": "feature",
-        "trans": ["n. 特色"]
-    },
-    {
-        "name": "service",
-        "trans": ["n. 服务"]
-    },
-    {
-        "name": "opportunity",
-        "trans": ["n. 机会"]
-    },
-    {
-        "name": "band",
-        "trans": ["n. 队"]
-    },
-    {
-        "name": "camp",
-        "trans": ["n. 露营"]
-    },
-    {
-        "name": "festival",
-        "trans": ["n. 节日"]
-    },
-    {
-        "name": "protection",
-        "trans": ["n. 保护"]
-    },
-    {
-        "name": "model",
-        "trans": ["n. 模型"]
-    },
-    {
-        "name": "salt",
-        "trans": ["n. 盐"]
-    },
-    {
-        "name": "purple",
-        "trans": ["n. 紫色"]
-    },
-    {
-        "name": "calorie",
-        "trans": ["n. 卡路里"]
-    },
-    {
-        "name": "race",
-        "trans": ["n. 比赛"]
-    },
-    {
-        "name": "concert",
-        "trans": ["n. 音乐会"]
-    },
-    {
-        "name": "provide",
-        "trans": ["v. 提供"]
-    },
-    {
-        "name": "broadcast",
-        "trans": ["v. 广播"]
-    },
-    {
-        "name": "tent",
-        "trans": ["n. 帐篷"]
-    },
-    {
-        "name": "piano",
-        "trans": ["n. 钢琴"]
-    },
-    {
-        "name": "share",
-        "trans": ["v. 分享"]
-    },
-    {
-        "name": "discount",
-        "trans": ["n. 折扣"]
-    },
-    {
-        "name": "tablet",
-        "trans": ["n. 药片"]
-    },
-    {
-        "name": "original",
-        "trans": ["adj. 原始的"]
-    },
-    {
-        "name": "control",
-        "trans": ["n. 控制"]
-    },
-    {
-        "name": "handle",
-        "trans": ["v. 操作"]
-    },
-    {
-        "name": "participant",
-        "trans": ["n. 参与者"]
-    },
-    {
-        "name": "repair",
-        "trans": ["n. 修理"]
-    },
-    {
-        "name": "advertisement",
-        "trans": ["n. 广告"]
-    },
-    {
-        "name": "silver",
-        "trans": ["n. 银色"]
-    },
-    {
-        "name": "additional",
-        "trans": ["adj. 附加的"]
-    },
-    {
-        "name": "dining room",
-        "trans": ["n. 餐厅"]
-    },
-    {
-        "name": "candle",
-        "trans": ["n. 蜡烛"]
-    },
-    {
-        "name": "single",
-        "trans": ["n. 单个的"]
-    },
-    {
-        "name": "performance",
-        "trans": ["n. 表演"]
-    },
-    {
-        "name": "supermarket",
-        "trans": ["n. 超市"]
-    },
-    {
-        "name": "avenue",
-        "trans": ["n. 大街"]
-    },
-    {
-        "name": "available",
-        "trans": ["adj. 可获得的"]
-    },
-    {
-        "name": "vacuum",
-        "trans": ["n. 真空"]
-    },
-    {
-        "name": "registration",
-        "trans": ["n. 登记"]
-    },
-    {
-        "name": "sale",
-        "trans": ["n. 出售"]
-    },
-    {
-        "name": "cousin",
-        "trans": ["n. 堂兄弟姐妹"]
-    },
-    {
-        "name": "reusable",
-        "trans": ["adj. 可以再使用的"]
-    },
-    {
-        "name": "certificate",
-        "trans": ["n. 证书"]
-    },
-    {
-        "name": "swimming pool",
-        "trans": ["n. 游泳池"]
-    },
-    {
-        "name": "initial",
-        "trans": ["adj. 最初的"]
-    },
-    {
-        "name": "garage",
-        "trans": ["n. 车库"]
-    },
-    {
-        "name": "deliver",
-        "trans": ["v. 传递"]
-    },
-    {
-        "name": "primary school",
-        "trans": ["n. 小学"]
-    },
-    {
-        "name": "purchase",
-        "trans": ["n. 购买"]
-    },
-    {
-        "name": "consult",
-        "trans": ["v. 请教：咨询"]
-    },
-    {
-        "name": "alarm",
-        "trans": ["n. 闹钟：警报"]
-    },
-    {
-        "name": "driving license",
-        "trans": ["n. 行车执照"]
-    },
-    {
-        "name": "sandwich",
-        "trans": ["n. 三明治"]
-    },
-    {
-        "name": "postcode",
-        "trans": ["n. 邮编"]
-    },
-    {
-        "name": "loss",
-        "trans": ["n. 减少"]
-    },
-    {
-        "name": "technician",
-        "trans": ["n. 技术人员"]
-    },
-    {
-        "name": "tour",
-        "trans": ["n. 旅行"]
-    },
-    {
-        "name": "valid",
-        "trans": ["adj. 有效的"]
-    },
-    {
-        "name": "wheelchair",
-        "trans": ["n. 轮椅"]
-    },
-    {
-        "name": "fridge",
-        "trans": ["n. 电冰箱"]
-    },
-    {
-        "name": "poetry",
-        "trans": ["n. 诗"]
-    }
+  {
+    "name": "remain",
+    "trans": [
+      "n. 剩余物；残余；残骸",
+      "vi. 留下，逗留；剩下，余留；留待",
+      "v. 仍然是；依旧是"
+    ]
+  },
+  {
+    "name": "detailed",
+    "trans": [
+      "adj. 详细的，明细的；精细的；复杂的",
+      "v. 详细说明(detail的过去分词)"
+    ]
+  },
+  {
+    "name": "disadvantage",
+    "trans": [
+      "n. 缺点；不利条件；损失"
+    ]
+  },
+  {
+    "name": "lift",
+    "trans": [
+      "vt. 举起；提升；鼓舞",
+      "vi. 消散；升起；耸立",
+      "n. 电梯；举起；起重机"
+    ]
+  },
+  {
+    "name": "medical",
+    "trans": [
+      "adj. 医学的；药的；内科的",
+      "n. 医生；体格检查"
+    ]
+  },
+  {
+    "name": "arrange",
+    "trans": [
+      "vi. 安排；排列；协商",
+      "vt. 安排；排列；整理"
+    ]
+  },
+  {
+    "name": "artist",
+    "trans": [
+      "n. 艺术家；美术家（尤指画家）；大师"
+    ]
+  },
+  {
+    "name": "passport",
+    "trans": [
+      "n. 护照；通行证；许可证"
+    ]
+  },
+  {
+    "name": "university",
+    "trans": [
+      "n. 大学；高等学府；综合性大学"
+    ]
+  },
+  {
+    "name": "occupation",
+    "trans": [
+      "n. 职业，工作；占用，占领；占据，占有"
+    ]
+  },
+  {
+    "name": "audience",
+    "trans": [
+      "n. 观众，听众；读者群，受众；接见，会见"
+    ]
+  },
+  {
+    "name": "landscape",
+    "trans": [
+      "n. 风景，景色；风景画；形势，局面",
+      "v. 美化...的景观；对...做景观美化"
+    ]
+  },
+  {
+    "name": "clay",
+    "trans": [
+      "n. 粘土，黏土；泥土，黏土制品",
+      "adj. 粘土的；黏土的"
+    ]
+  },
+  {
+    "name": "advantage",
+    "trans": [
+      "n. 优势；利益；有利条件",
+      "vt. 有利于；使处于优势",
+      "vi. 获利"
+    ]
+  },
+  {
+    "name": "deck",
+    "trans": [
+      "n. 甲板；行李仓；露天平台",
+      "vt. 装饰；装甲板；打扮"
+    ]
+  },
+  {
+    "name": "tourist",
+    "trans": [
+      "n. 旅行者；观光客",
+      "adj. 旅游的",
+      "vt. 在旅行参观"
+    ]
+  },
+  {
+    "name": "entrance",
+    "trans": [
+      "n. 入口，门口；进入，入场；入学，录取",
+      "v. 使入迷；使狂喜"
+    ]
+  },
+  {
+    "name": "concern",
+    "trans": [
+      "vt. 影响；涉及；忙于",
+      "n. 所关切的事；企业；关心"
+    ]
+  },
+  {
+    "name": "feature",
+    "trans": [
+      "n. 特色，特征；容貌；特写或专题节目",
+      "vt. 特写；以…为特色；由…主演",
+      "vi. 起重要作用"
+    ]
+  },
+  {
+    "name": "service",
+    "trans": [
+      "n. 服务，服侍；服役；仪式",
+      "adj. 服务性的；耐用的；服现役的",
+      "vt. 维修，检修；保养"
+    ]
+  },
+  {
+    "name": "opportunity",
+    "trans": [
+      "n. 机会；时机；良机"
+    ]
+  },
+  {
+    "name": "band",
+    "trans": [
+      "n. 带，箍；条纹；价值、数量等的范围",
+      "vt. 用带绑扎",
+      "vt.&vi. 结合起来；伙同"
+    ]
+  },
+  {
+    "name": "camp",
+    "trans": [
+      "n. 营地；露营",
+      "v. 露营；宿营",
+      "adj. 做作的；夸张的；娘娘腔的"
+    ]
+  },
+  {
+    "name": "festival",
+    "trans": [
+      "n. 节日；庆祝，纪念活动；欢乐",
+      "adj. 节日的，喜庆的；快乐的"
+    ]
+  },
+  {
+    "name": "protection",
+    "trans": [
+      "n. 保护，防护；保护措施，保护手段；保护制度，保护政策"
+    ]
+  },
+  {
+    "name": "model",
+    "trans": [
+      "n. 模型；典型；模范",
+      "vt. 模拟；塑造；模仿",
+      "vi. 做模型；做模特儿"
+    ]
+  },
+  {
+    "name": "salt",
+    "trans": [
+      "n. 盐；食盐；海水中的盐分",
+      "v. 加盐于；腌",
+      "adj. 含盐的；咸的"
+    ]
+  },
+  {
+    "name": "purple",
+    "trans": [
+      "n. 紫色；紫袍",
+      "adj. 紫色的；帝王的；华而不实的",
+      "vt. 使成紫色"
+    ]
+  },
+  {
+    "name": "calorie",
+    "trans": [
+      "n. 大卡；千卡(食物所产生的能量单位)；卡路里"
+    ]
+  },
+  {
+    "name": "race",
+    "trans": [
+      "n. 赛跑；竞争；人种",
+      "v. 参加比赛；使比赛；快速移动"
+    ]
+  },
+  {
+    "name": "concert",
+    "trans": [
+      "n. 音乐会；演奏会；一致",
+      "vt. 制定计划；通过协商达成一致",
+      "vi. 合作"
+    ]
+  },
+  {
+    "name": "provide",
+    "trans": [
+      "vt. 提供；规定；准备",
+      "vi. 规定；抚养；作准备"
+    ]
+  },
+  {
+    "name": "broadcast",
+    "trans": [
+      "n. 广播；播音；广播节目",
+      "vt.&vi. 广播；播放",
+      "vt. 传播；乱传(消息等)"
+    ]
+  },
+  {
+    "name": "tent",
+    "trans": [
+      "n. 帐篷；住处；帷幕",
+      "vt. 用帐篷遮盖；使在帐篷里住宿",
+      "vi. 住帐蓬；暂时居住"
+    ]
+  },
+  {
+    "name": "piano",
+    "trans": [
+      "n. 钢琴",
+      "adj. 轻柔的；柔和的（音乐术语）"
+    ]
+  },
+  {
+    "name": "share",
+    "trans": [
+      "n. 份额；股份",
+      "vt. 分享，分担；分配",
+      "vi. 共享；分担"
+    ]
+  },
+  {
+    "name": "discount",
+    "trans": [
+      "n. 折扣；贴现率",
+      "vt. 打折扣；将…贴现；贬损",
+      "vi. 贴现；打折扣出售商品"
+    ]
+  },
+  {
+    "name": "tablet",
+    "trans": [
+      "n. 碑；药片；写字板",
+      "vt. 用碑牌纪念；将(备忘录等)写在板上；将…制成小片或小块"
+    ]
+  },
+  {
+    "name": "original",
+    "trans": [
+      "n. 原件；原作；原物",
+      "adj. 原始的；最初的；独创的"
+    ]
+  },
+  {
+    "name": "control",
+    "trans": [
+      "n. 控制；管理；抑制",
+      "vt. 控制；管理；抑制"
+    ]
+  },
+  {
+    "name": "handle",
+    "trans": [
+      "n. 把手；柄；手感",
+      "vt. 处理；操作；运用",
+      "vi. 搬运；易于操纵"
+    ]
+  },
+  {
+    "name": "participant",
+    "trans": [
+      "n. 参加者，参与者；与会代表；参与国",
+      "adj. 参加的；有关系的"
+    ]
+  },
+  {
+    "name": "repair",
+    "trans": [
+      "n. 修理，修补；修补部位",
+      "vt. 修理；恢复；补救，纠正",
+      "vi. 修理；修复"
+    ]
+  },
+  {
+    "name": "advertisement",
+    "trans": [
+      "n. 广告；公告；登广告"
+    ]
+  },
+  {
+    "name": "silver",
+    "trans": [
+      "n. 银；银器；银币",
+      "adj. 银的；银色的；银制的",
+      "v. 镀银；使具有银色光泽"
+    ]
+  },
+  {
+    "name": "additional",
+    "trans": [
+      "adj. 额外的；附加的；另外的"
+    ]
+  },
+  {
+    "name": "dining room",
+    "trans": [
+      "n. 饭厅；餐厅"
+    ]
+  },
+  {
+    "name": "candle",
+    "trans": [
+      "n. 蜡烛；烛光；烛形物",
+      "vt. 对着光检查"
+    ]
+  },
+  {
+    "name": "single",
+    "trans": [
+      "n. 一个；单打；单程票",
+      "adj. 单一的；单身的；单程的",
+      "vt. 选出"
+    ]
+  },
+  {
+    "name": "performance",
+    "trans": [
+      "adj. 性能卓越的；高性能的",
+      "n. 表演，演出；工作情况，表现；（投资的）业绩"
+    ]
+  },
+  {
+    "name": "supermarket",
+    "trans": [
+      "n. 超市；大型自助食品杂货店"
+    ]
+  },
+  {
+    "name": "avenue",
+    "trans": [
+      "n. 大街，林荫道；途径，手段；大街（常指美国城市的）"
+    ]
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的，可利用的；可用的，空闲的；有效的，起作用的"
+    ]
+  },
+  {
+    "name": "vacuum",
+    "trans": [
+      "n. 真空；空间；真空吸尘器",
+      "adj. 真空的；产生(利用)真空的",
+      "v. 用吸尘器打扫"
+    ]
+  },
+  {
+    "name": "registration",
+    "trans": [
+      "n. 登记；注册；挂号"
+    ]
+  },
+  {
+    "name": "sale",
+    "trans": [
+      "n. 销售；出售；拍卖"
+    ]
+  },
+  {
+    "name": "cousin",
+    "trans": [
+      "n. 表哥；表弟；堂哥"
+    ]
+  },
+  {
+    "name": "reusable",
+    "trans": [
+      "adj. 可再用的；可重复使用的；可重用的"
+    ]
+  },
+  {
+    "name": "certificate",
+    "trans": [
+      "n. 证(明)书；证件；执照",
+      "vt. 批准；认可；发证书给..."
+    ]
+  },
+  {
+    "name": "swimming pool",
+    "trans": [
+      "n. 游泳池；游泳场；游泳馆"
+    ]
+  },
+  {
+    "name": "initial",
+    "trans": [
+      "adj. 最初的；开始的；首字母的",
+      "n. 首字母；语音学声母；特大的大写字母",
+      "vt. 用姓名的首字母签名"
+    ]
+  },
+  {
+    "name": "garage",
+    "trans": [
+      "n. 车库；汽车修理站；飞机库",
+      "vt. 把…送入车库；把（汽车）开进车库"
+    ]
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "n. 投球",
+      "vt. 交付；发表；递送",
+      "vi. 实现；传送；履行"
+    ]
+  },
+  {
+    "name": "primary school",
+    "trans": [
+      "n. 小学"
+    ]
+  },
+  {
+    "name": "purchase",
+    "trans": [
+      "n. 购买；紧握；起重装置",
+      "vt. 购买；赢得",
+      "vi. 购买东西"
+    ]
+  },
+  {
+    "name": "consult",
+    "trans": [
+      "vi. 请教；商议；当顾问",
+      "vt. 查阅；商量；向…请教"
+    ]
+  },
+  {
+    "name": "alarm",
+    "trans": [
+      "n. 惊恐；警报；闹铃",
+      "vt. 使惊恐；警告；给（门等）安装警报器"
+    ]
+  },
+  {
+    "name": "driving license",
+    "trans": [
+      "n. 驾驶执照"
+    ]
+  },
+  {
+    "name": "sandwich",
+    "trans": [
+      "n. 三明治；夹心面包",
+      "vt. 夹入；挤进；把...做成三明治"
+    ]
+  },
+  {
+    "name": "postcode",
+    "trans": [
+      "n. （英）邮政编码；邮区号"
+    ]
+  },
+  {
+    "name": "loss",
+    "trans": [
+      "n. 失去，丧失；损失，亏损；损耗，减少"
+    ]
+  },
+  {
+    "name": "technician",
+    "trans": [
+      "n. 技术员；技师；技巧精湛者"
+    ]
+  },
+  {
+    "name": "tour",
+    "trans": [
+      "n. 旅行，观光；巡回演出；任职期",
+      "vt. 到…旅游；在…巡回演出",
+      "vi. 观光；巡回"
+    ]
+  },
+  {
+    "name": "valid",
+    "trans": [
+      "adj. 有效的；有根据的；合法的"
+    ]
+  },
+  {
+    "name": "wheelchair",
+    "trans": [
+      "n. 轮椅"
+    ]
+  },
+  {
+    "name": "fridge",
+    "trans": [
+      "n. 冰箱；电冰箱"
+    ]
+  },
+  {
+    "name": "poetry",
+    "trans": [
+      "n. 诗歌；诗歌艺术；诗意"
+    ]
+  }
 ]

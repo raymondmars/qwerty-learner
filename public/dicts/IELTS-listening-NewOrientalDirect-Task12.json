@@ -1,272 +1,299 @@
 [
-    {
-        "name": "venue",
-        "trans": [
-            "n. 场所，场馆"
-        ]
-    },
-    {
-        "name": "theatre / theater",
-        "trans": [
-            "n. 剧院"
-        ]
-    },
-    {
-        "name": "concert hall",
-        "trans": [
-            "n. 音乐厅"
-        ]
-    },
-    {
-        "name": "museum",
-        "trans": [
-            "n. 博物馆"
-        ]
-    },
-    {
-        "name": "castle",
-        "trans": [
-            "n. 城堡"
-        ]
-    },
-    {
-        "name": "unsafe",
-        "trans": [
-            "adj. 不安全的"
-        ]
-    },
-    {
-        "name": "shabby-looking",
-        "trans": [
-            "adj. 外表破旧的"
-        ]
-    },
-    {
-        "name": "damaged",
-        "trans": [
-            "adj. 被破坏的"
-        ]
-    },
-    {
-        "name": "destroy",
-        "trans": [
-            "v. 毁坏"
-        ]
-    },
-    {
-        "name": "bomb",
-        "trans": [
-            "n. 炸弹"
-        ]
-    },
-    {
-        "name": "demolition",
-        "trans": [
-            "n. 拆除"
-        ]
-    },
-    {
-        "name": "reconstruct",
-        "trans": [
-            "v. 重建"
-        ]
-    },
-    {
-        "name": "rebuild",
-        "trans": [
-            "v. 重建"
-        ]
-    },
-    {
-        "name": "refurbish",
-        "trans": [
-            "v. 整修"
-        ]
-    },
-    {
-        "name": "redecorate",
-        "trans": [
-            "v. 重新装饰"
-        ]
-    },
-    {
-        "name": "relocate",
-        "trans": [
-            "v. 搬迁"
-        ]
-    },
-    {
-        "name": "reorient",
-        "trans": [
-            "v. 重定向，改变方向"
-        ]
-    },
-    {
-        "name": "exterior",
-        "trans": [
-            "n. 外部"
-        ]
-    },
-    {
-        "name": "repaint",
-        "trans": [
-            "v. 重新粉刷"
-        ]
-    },
-    {
-        "name": "statue",
-        "trans": [
-            "n. 雕像，塑像"
-        ]
-    },
-    {
-        "name": "sculpture",
-        "trans": [
-            "n. 雕塑，雕刻"
-        ]
-    },
-    {
-        "name": "interior",
-        "trans": [
-            "n. 内部"
-        ]
-    },
-    {
-        "name": "ceiling",
-        "trans": [
-            "n. 天花板"
-        ]
-    },
-    {
-        "name": "light",
-        "trans": [
-            "n. 灯"
-        ]
-    },
-    {
-        "name": "chandelier",
-        "trans": [
-            "n. 枝形吊灯"
-        ]
-    },
-    {
-        "name": "wall",
-        "trans": [
-            "n. 墙壁"
-        ]
-    },
-    {
-        "name": "acoustic",
-        "trans": [
-            "adj. 音响的"
-        ]
-    },
-    {
-        "name": "floor",
-        "trans": [
-            "n. 地板，楼层"
-        ]
-    },
-    {
-        "name": "basement",
-        "trans": [
-            "n. 地下室"
-        ]
-    },
-    {
-        "name": "ground floor",
-        "trans": [
-            "n. 【英】一层"
-        ]
-    },
-    {
-        "name": "foyer",
-        "trans": [
-            "n. 门厅"
-        ]
-    },
-    {
-        "name": "box office",
-        "trans": [
-            "n. 售票处"
-        ]
-    },
-    {
-        "name": "lift",
-        "trans": [
-            "n. 【英】电梯"
-        ]
-    },
-    {
-        "name": "elevator",
-        "trans": [
-            "n. 【美】电梯"
-        ]
-    },
-    {
-        "name": "escalator",
-        "trans": [
-            "n. 扶梯"
-        ]
-    },
-    {
-        "name": "dressing room",
-        "trans": [
-            "n. 化妆间"
-        ]
-    },
-    {
-        "name": "cloakroom",
-        "trans": [
-            "n. 衣帽寄存处"
-        ]
-    },
-    {
-        "name": "stage",
-        "trans": [
-            "n. 舞台"
-        ]
-    },
-    {
-        "name": "backstage",
-        "trans": [
-            "n. 后台"
-        ]
-    },
-    {
-        "name": "auditorium",
-        "trans": [
-            "n. 观众席"
-        ]
-    },
-    {
-        "name": "leg-room",
-        "trans": [
-            "n. 伸腿处"
-        ]
-    },
-    {
-        "name": "funding",
-        "trans": [
-            "n. 资金"
-        ]
-    },
-    {
-        "name": "government",
-        "trans": [
-            "n. 政府"
-        ]
-    },
-    {
-        "name": "council",
-        "trans": [
-            "n. 议会"
-        ]
-    },
-    {
-        "name": "raise",
-        "trans": [
-            "v. 筹集（资金）"
-        ]
-    }
+  {
+    "name": "venue",
+    "trans": [
+      "n. 审判地；犯罪地点；发生地点"
+    ]
+  },
+  {
+    "name": "theatre / theater",
+    "trans": [
+      "n. 剧院"
+    ]
+  },
+  {
+    "name": "concert hall",
+    "trans": [
+      "n. 音乐堂"
+    ]
+  },
+  {
+    "name": "museum",
+    "trans": [
+      "n. 博物馆；美术馆"
+    ]
+  },
+  {
+    "name": "castle",
+    "trans": [
+      "n. 城堡；巨大建筑物",
+      "vt. 置于城堡中；(棋)移动王车易位",
+      "vi. (棋)移动王车易位"
+    ]
+  },
+  {
+    "name": "unsafe",
+    "trans": [
+      "adj. 不安全的；危险的；不安稳的"
+    ]
+  },
+  {
+    "name": "shabby-looking",
+    "trans": [
+      "adj. 外表破旧的"
+    ]
+  },
+  {
+    "name": "damaged",
+    "trans": [
+      "adj. 被损坏的",
+      "v. 损害；毁坏"
+    ]
+  },
+  {
+    "name": "destroy",
+    "trans": [
+      "v. 摧毁，破坏；消灭，杀死；废除，取消"
+    ]
+  },
+  {
+    "name": "bomb",
+    "trans": [
+      "n. 炸弹；高压罐；火山口喷出的熔岩",
+      "vt. 轰炸；大败；长传",
+      "vi. 失败"
+    ]
+  },
+  {
+    "name": "demolition",
+    "trans": [
+      "n. 拆除（等于demolishment）；破坏；毁坏"
+    ]
+  },
+  {
+    "name": "reconstruct",
+    "trans": [
+      "vt. 重建；改造；修复"
+    ]
+  },
+  {
+    "name": "rebuild",
+    "trans": [
+      "vt. 重建；改造，重新组装；复原",
+      "vi. 重建"
+    ]
+  },
+  {
+    "name": "refurbish",
+    "trans": [
+      "vt. 刷新；擦亮；使清洁"
+    ]
+  },
+  {
+    "name": "redecorate",
+    "trans": [
+      "v. 重新装饰"
+    ]
+  },
+  {
+    "name": "relocate",
+    "trans": [
+      "vt. 重新安置；迁移",
+      "vi. 迁移新址；重新安置",
+      "n. 浮动"
+    ]
+  },
+  {
+    "name": "reorient",
+    "trans": [
+      "v. 再定方位；再教育；（使）适应"
+    ]
+  },
+  {
+    "name": "exterior",
+    "trans": [
+      "n. 外部；表面；外型",
+      "adj. 外部的；表面的；外在的"
+    ]
+  },
+  {
+    "name": "repaint",
+    "trans": [
+      "vt. 再次(重新)油漆；再次(重新)画；恢复…原来的色彩",
+      "n. 再次(重新)油漆；再次(重新)画；重新涂漆的东西"
+    ]
+  },
+  {
+    "name": "statue",
+    "trans": [
+      "n. 雕像；塑像",
+      "vt. 以雕像装饰"
+    ]
+  },
+  {
+    "name": "sculpture",
+    "trans": [
+      "n. 雕塑；雕刻；刻蚀",
+      "vt. 雕塑；雕刻；刻蚀",
+      "vi. 从事雕刻"
+    ]
+  },
+  {
+    "name": "interior",
+    "trans": [
+      "n. 内部；内地；内政",
+      "adj. 内部的；内地的，国内的；内面的"
+    ]
+  },
+  {
+    "name": "ceiling",
+    "trans": [
+      "n. 天花板；顶蓬；上限"
+    ]
+  },
+  {
+    "name": "light",
+    "trans": [
+      "n. 光；光线；灯",
+      "adj. 轻的；浅色的；明亮的",
+      "v. 点亮；照亮"
+    ]
+  },
+  {
+    "name": "chandelier",
+    "trans": [
+      "n. 枝形吊灯"
+    ]
+  },
+  {
+    "name": "wall",
+    "trans": [
+      "n. 墙；壁；围墙",
+      "vt. 用墙围住；用墙隔开",
+      "v. 演戏般地转动(眼睛)"
+    ]
+  },
+  {
+    "name": "acoustic",
+    "trans": [
+      "n. 原声乐器；不用电传音的乐器",
+      "adj. 声学的；音响的；听觉的"
+    ]
+  },
+  {
+    "name": "floor",
+    "trans": [
+      "n. 地板，地面；楼层；基底",
+      "vt. 铺地板；打倒，击倒；（被困难）难倒"
+    ]
+  },
+  {
+    "name": "basement",
+    "trans": [
+      "n. 地下室；地窖"
+    ]
+  },
+  {
+    "name": "ground floor",
+    "trans": [
+      "n. 底层"
+    ]
+  },
+  {
+    "name": "foyer",
+    "trans": [
+      "n. 休息室；大厅"
+    ]
+  },
+  {
+    "name": "box office",
+    "trans": [
+      "n. 售票处"
+    ]
+  },
+  {
+    "name": "lift",
+    "trans": [
+      "vt. 举起；提升；鼓舞",
+      "vi. 消散；升起；耸立",
+      "n. 电梯；举起；起重机"
+    ]
+  },
+  {
+    "name": "elevator",
+    "trans": [
+      "n. 电梯；升降机；升降舵"
+    ]
+  },
+  {
+    "name": "escalator",
+    "trans": [
+      "n. （美）自动扶梯；电动扶梯"
+    ]
+  },
+  {
+    "name": "dressing room",
+    "trans": [
+      "n. 化妆间"
+    ]
+  },
+  {
+    "name": "cloakroom",
+    "trans": [
+      "n. 衣帽间；寄物处；（英）盥洗室"
+    ]
+  },
+  {
+    "name": "stage",
+    "trans": [
+      "n. 阶段；舞台；戏剧",
+      "vt. 举行；上演；筹划",
+      "vi. 举行；适于上演；乘驿车旅行"
+    ]
+  },
+  {
+    "name": "backstage",
+    "trans": [
+      "adv. 后台；秘密地；背地里"
+    ]
+  },
+  {
+    "name": "auditorium",
+    "trans": [
+      "n. 礼堂；听众席；观众席"
+    ]
+  },
+  {
+    "name": "leg-room",
+    "trans": [
+      "n. 伸腿处"
+    ]
+  },
+  {
+    "name": "funding",
+    "trans": [
+      "n. 资金，经费；提供资金",
+      "v. 为...提供资金"
+    ]
+  },
+  {
+    "name": "government",
+    "trans": [
+      "n. 政府；政体；管理"
+    ]
+  },
+  {
+    "name": "council",
+    "trans": [
+      "n. 委员会；会议；理事会"
+    ]
+  },
+  {
+    "name": "raise",
+    "trans": [
+      "n. 高地；上升；加薪",
+      "vt. 提高；筹集；养育",
+      "vi. 上升"
+    ]
+  }
 ]

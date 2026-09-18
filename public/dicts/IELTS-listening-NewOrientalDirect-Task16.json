@@ -1,254 +1,289 @@
 [
-    {
-        "name": "research",
-        "trans": [
-            "n. 研究；调查；探索"
-        ]
-    },
-    {
-        "name": "project",
-        "trans": [
-            "n. 项目；方案；工程"
-        ]
-    },
-    {
-        "name": "programme",
-        "trans": [
-            "n. （电视或广播中的）节目"
-        ]
-    },
-    {
-        "name": "proposal",
-        "trans": [
-            "n. 建议；计划；提案"
-        ]
-    },
-    {
-        "name": "procedure",
-        "trans": [
-            "n. 程序；步骤；常规"
-        ]
-    },
-    {
-        "name": "allocate",
-        "trans": [
-            "v. 分配；分派；拨给，划拨"
-        ]
-    },
-    {
-        "name": "reference",
-        "trans": [
-            "n. 提到；谈到；论及、参考文献、推荐信、介绍人"
-        ]
-    },
-    {
-        "name": "laboratory",
-        "trans": [
-            "n. 实验室；实验大楼"
-        ]
-    },
-    {
-        "name": "equipment",
-        "trans": [
-            "n. 设备；器材；用具"
-        ]
-    },
-    {
-        "name": "microscope",
-        "trans": [
-            "n. 显微镜"
-        ]
-    },
-    {
-        "name": "development",
-        "trans": [
-            "n. 成长，发育；发展"
-        ]
-    },
-    {
-        "name": "stage",
-        "trans": [
-            "n. 阶段；发展时期"
-        ]
-    },
-    {
-        "name": "phase",
-        "trans": [
-            "n. （发展或变化的）阶段，时期"
-        ]
-    },
-    {
-        "name": "monitor",
-        "trans": [
-            "v. 监控，监测"
-        ]
-    },
-    {
-        "name": "record",
-        "trans": [
-            "v. 录制；录（音）；录（像）"
-        ]
-    },
-    {
-        "name": "label",
-        "trans": [
-            "v. 贴标签"
-        ]
-    },
-    {
-        "name": "diagram",
-        "trans": [
-            "n. 图，图解，示意图"
-        ]
-    },
-    {
-        "name": "analyze",
-        "trans": [
-            "v. 分析"
-        ]
-    },
-    {
-        "name": "analysis",
-        "trans": [
-            "n. 分析"
-        ]
-    },
-    {
-        "name": "finding",
-        "trans": [
-            "n. （正式的）调查发现，调研结果"
-        ]
-    },
-    {
-        "name": "presentation",
-        "trans": [
-            "n. 报告，演讲，陈述"
-        ]
-    },
-    {
-        "name": "topic",
-        "trans": [
-            "n. 话题；主题"
-        ]
-    },
-    {
-        "name": "survey",
-        "trans": [
-            "n. 调查"
-        ]
-    },
-    {
-        "name": "journal",
-        "trans": [
-            "n. 杂志，期刊；报纸"
-        ]
-    },
-    {
-        "name": "discussion",
-        "trans": [
-            "n. 讨论，议论，谈论"
-        ]
-    },
-    {
-        "name": "outline",
-        "trans": [
-            "n. 轮廓，略图，外形"
-        ]
-    },
-    {
-        "name": "structure",
-        "trans": [
-            "n. 结构；构造；机构；体系"
-        ]
-    },
-    {
-        "name": "content",
-        "trans": [
-            "n. 内容"
-        ]
-    },
-    {
-        "name": "introduction",
-        "trans": [
-            "n. 采用；引进；推行；放入，插入"
-        ]
-    },
-    {
-        "name": "overview",
-        "trans": [
-            "n. 概述；概观"
-        ]
-    },
-    {
-        "name": "background",
-        "trans": [
-            "n. （画、照片的）背景，衬托"
-        ]
-    },
-    {
-        "name": "summary",
-        "trans": [
-            "n. 总结，概要，摘要"
-        ]
-    },
-    {
-        "name": "conclusion",
-        "trans": [
-            "n. 结局；结尾；结果"
-        ]
-    },
-    {
-        "name": "round off",
-        "trans": [
-            "phr. v. 结束，圆满完成"
-        ]
-    },
-    {
-        "name": "slide",
-        "trans": [
-            "n. 幻灯片"
-        ]
-    },
-    {
-        "name": "illustration",
-        "trans": [
-            "n. 插图；图解，图示"
-        ]
-    },
-    {
-        "name": "handout",
-        "trans": [
-            "n. （尤指发给学生或听报告的人的）讲义，印刷品"
-        ]
-    },
-    {
-        "name": "note",
-        "trans": [
-            "n. 笔记，便条"
-        ]
-    },
-    {
-        "name": "eye contact",
-        "trans": [
-            "N. phrase 目光接触"
-        ]
-    },
-    {
-        "name": "audience",
-        "trans": [
-            "n. 观众；听众；读者"
-        ]
-    },
-    {
-        "name": "body language",
-        "trans": [
-            "N. phrase 身体语言，肢体语言"
-        ]
-    },
-    {
-        "name": "style",
-        "trans": [
-            "n. 做事方式；（尤指）风格，作风"
-        ]
-    }
+  {
+    "name": "research",
+    "trans": [
+      "n. 研究；调查",
+      "vt. 研究；调查",
+      "vi. 研究；调查"
+    ]
+  },
+  {
+    "name": "project",
+    "trans": [
+      "n. 工程；计划；事业",
+      "vt. 设计；计划；发射",
+      "vi. 设计；计划；表达"
+    ]
+  },
+  {
+    "name": "programme",
+    "trans": [
+      "n. 计划，规划；节目；程序",
+      "vt. 规划；拟…计划",
+      "vi. 编程序；制作节目"
+    ]
+  },
+  {
+    "name": "proposal",
+    "trans": [
+      "n. 提议，建议；方案，提案；求婚"
+    ]
+  },
+  {
+    "name": "procedure",
+    "trans": [
+      "n. 程序，步骤；手续，流程；手术，医疗程序"
+    ]
+  },
+  {
+    "name": "allocate",
+    "trans": [
+      "vt. 分配；拨出；使坐落于",
+      "vi. 分配；指定"
+    ]
+  },
+  {
+    "name": "reference",
+    "trans": [
+      "n. 参考，参照；涉及，提及；参考书目",
+      "vt. 引用",
+      "vi. 引用"
+    ]
+  },
+  {
+    "name": "laboratory",
+    "trans": [
+      "n. 实验室；研究室；实验大楼"
+    ]
+  },
+  {
+    "name": "equipment",
+    "trans": [
+      "n. 设备；装备；器材"
+    ]
+  },
+  {
+    "name": "microscope",
+    "trans": [
+      "n. 显微镜"
+    ]
+  },
+  {
+    "name": "development",
+    "trans": [
+      "n. 发展，进步；开发，研制；发育，生长"
+    ]
+  },
+  {
+    "name": "stage",
+    "trans": [
+      "n. 阶段；舞台；戏剧",
+      "vt. 举行；上演；筹划",
+      "vi. 举行；适于上演；乘驿车旅行"
+    ]
+  },
+  {
+    "name": "phase",
+    "trans": [
+      "n. 相，周相；阶段；物理学相位",
+      "vt. 分阶段实行；调整相位",
+      "vi. 分阶段进行"
+    ]
+  },
+  {
+    "name": "monitor",
+    "trans": [
+      "n. 显示屏，屏幕；计显示器；监测仪",
+      "vt. 监控，监听；搜集，记录；测定",
+      "vi. 监视"
+    ]
+  },
+  {
+    "name": "record",
+    "trans": [
+      "n. 记录；纪录；履历",
+      "vt. 记录；(将声音等)录下；表明",
+      "adj. 关于"
+    ]
+  },
+  {
+    "name": "label",
+    "trans": [
+      "n. 标签；签条；标记",
+      "vt. 贴标签于；分类；把...称为"
+    ]
+  },
+  {
+    "name": "diagram",
+    "trans": [
+      "n. 图表；图解；示意图",
+      "vt. 用图表示；图解"
+    ]
+  },
+  {
+    "name": "analyze",
+    "trans": [
+      "vt. 分析；分解；解释"
+    ]
+  },
+  {
+    "name": "analysis",
+    "trans": [
+      "n. 分析，解析；分析报告，分析结果；分析方法，分析体系"
+    ]
+  },
+  {
+    "name": "finding",
+    "trans": [
+      "n. 发现；裁决；发现物",
+      "v. 找到；感到（find的ing形式）；遇到"
+    ]
+  },
+  {
+    "name": "presentation",
+    "trans": [
+      "n. 展示；描述，陈述；介绍"
+    ]
+  },
+  {
+    "name": "topic",
+    "trans": [
+      "n. 主题（等于theme）；题目；一般规则"
+    ]
+  },
+  {
+    "name": "survey",
+    "trans": [
+      "n. 调查；测量；审视",
+      "vt. 调查；勘测；俯瞰",
+      "vi. 测量土地"
+    ]
+  },
+  {
+    "name": "journal",
+    "trans": [
+      "n. 日记，日志；期刊，杂志；分类账",
+      "v. 记日记；写日志"
+    ]
+  },
+  {
+    "name": "discussion",
+    "trans": [
+      "n. 讨论，商讨；辩论，争论；详细的评述"
+    ]
+  },
+  {
+    "name": "outline",
+    "trans": [
+      "n. 轮廓；大纲；概要",
+      "vt. 概述；略述；描画…轮廓"
+    ]
+  },
+  {
+    "name": "structure",
+    "trans": [
+      "n. 结构；构造；建筑物",
+      "vt. 组织；构成；建造"
+    ]
+  },
+  {
+    "name": "content",
+    "trans": [
+      "adj. 满意的；满足的",
+      "n. 内容，目录；容量，容积",
+      "v. 使满足；使满意"
+    ]
+  },
+  {
+    "name": "introduction",
+    "trans": [
+      "n. 介绍；引进；初次见面"
+    ]
+  },
+  {
+    "name": "overview",
+    "trans": [
+      "n. 概观；总的看法；回顾，复习"
+    ]
+  },
+  {
+    "name": "background",
+    "trans": [
+      "n. 背景；隐蔽的位置",
+      "adj. 背景的；发布背景材料的",
+      "vt. 作…的背景"
+    ]
+  },
+  {
+    "name": "summary",
+    "trans": [
+      "n. 概要；摘要；总结",
+      "adj. 简易的；扼要的"
+    ]
+  },
+  {
+    "name": "conclusion",
+    "trans": [
+      "n. 结论，结果；结束，终结；推论，推定"
+    ]
+  },
+  {
+    "name": "round off",
+    "trans": [
+      "v. 结束；圆满完成"
+    ]
+  },
+  {
+    "name": "slide",
+    "trans": [
+      "vi. 滑；跌落",
+      "vt. 使滑动",
+      "n. 滑；幻灯片；雪崩"
+    ]
+  },
+  {
+    "name": "illustration",
+    "trans": [
+      "n. 图解，插图；说明，例证；例证，实例"
+    ]
+  },
+  {
+    "name": "handout",
+    "trans": [
+      "n. 施舍物；救济品；印刷品"
+    ]
+  },
+  {
+    "name": "note",
+    "trans": [
+      "n. 笔记；音符；票据",
+      "vt. 注意；记录；注解"
+    ]
+  },
+  {
+    "name": "eye contact",
+    "trans": [
+      "n. 眼神接触；目光交流"
+    ]
+  },
+  {
+    "name": "audience",
+    "trans": [
+      "n. 观众，听众；读者群，受众；接见，会见"
+    ]
+  },
+  {
+    "name": "body language",
+    "trans": [
+      "n. phrase 身体语言；肢体语言"
+    ]
+  },
+  {
+    "name": "style",
+    "trans": [
+      "n. 风格；时尚；类型",
+      "vt. 设计；称呼；使合潮流",
+      "vi. 设计式样；用刻刀作装饰画"
+    ]
+  }
 ]

@@ -1,310 +1,521 @@
 [
-    {
-        "name": "limitation",
-        "trans": ["n. 限制"]
-    },
-    {
-        "name": "grassland",
-        "trans": ["n. 草原"]
-    },
-    {
-        "name": "marine",
-        "trans": ["adj. 海洋的", "海事的"]
-    },
-    {
-        "name": "undergraduate",
-        "trans": ["n. 大学生"]
-    },
-    {
-        "name": "scrub",
-        "trans": ["v. 用力擦洗"]
-    },
-    {
-        "name": "journal",
-        "trans": ["n. 期刊"]
-    },
-    {
-        "name": "base",
-        "trans": ["n. 基础", "基地"]
-    },
-    {
-        "name": "archaeology",
-        "trans": ["n. 考古学"]
-    },
-    {
-        "name": "reference",
-        "trans": ["n. 参考", "参考书"]
-    },
-    {
-        "name": "classical",
-        "trans": ["adj. 古典的"]
-    },
-    {
-        "name": "brief",
-        "trans": ["adj. 简短的"]
-    },
-    {
-        "name": "module",
-        "trans": ["n. 模块"]
-    },
-    {
-        "name": "compulsory",
-        "trans": ["adj. 必修的"]
-    },
-    {
-        "name": "classification",
-        "trans": ["n. 分类"]
-    },
-    {
-        "name": "score",
-        "trans": ["n. 分数"]
-    },
-    {
-        "name": "judge",
-        "trans": ["v. 判断"]
-    },
-    {
-        "name": "coursework",
-        "trans": ["n. 课程作业"]
-    },
-    {
-        "name": "origin",
-        "trans": ["n. 起源"]
-    },
-    {
-        "name": "oral",
-        "trans": ["adj. 口头的"]
-    },
-    {
-        "name": "engine",
-        "trans": ["n. 发动机"]
-    },
-    {
-        "name": "capacity",
-        "trans": ["n. 容量", "能力"]
-    },
-    {
-        "name": "prefer",
-        "trans": ["v. 更喜欢"]
-    },
-    {
-        "name": "commercial",
-        "trans": ["adj. 商业的"]
-    },
-    {
-        "name": "reliable",
-        "trans": ["adj. 可靠的"]
-    },
-    {
-        "name": "roll over",
-        "trans": ["v. 翻滚"]
-    },
-    {
-        "name": "harmful",
-        "trans": ["adj. 有害的"]
-    },
-    {
-        "name": "statistics",
-        "trans": ["n. 统计学"]
-    },
-    {
-        "name": "note",
-        "trans": ["n. 笔记"]
-    },
-    {
-        "name": "raise",
-        "trans": ["v. 提高"]
-    },
-    {
-        "name": "cost",
-        "trans": ["n. 花费"]
-    },
-    {
-        "name": "reputation",
-        "trans": ["n. 名望"]
-    },
-    {
-        "name": "software",
-        "trans": ["n. 软件"]
-    },
-    {
-        "name": "creative",
-        "trans": ["adj. 有创造力的"]
-    },
-    {
-        "name": "diploma",
-        "trans": ["n. 毕业证书"]
-    },
-    {
-        "name": "respondent",
-        "trans": ["n. 回答者"]
-    },
-    {
-        "name": "uncertain",
-        "trans": ["adj. 不确定的"]
-    },
-    {
-        "name": "gradual",
-        "trans": ["adj. 逐渐的"]
-    },
-    {
-        "name": "privacy",
-        "trans": ["n. 隐私"]
-    },
-    {
-        "name": "margin",
-        "trans": ["n. 边缘"]
-    },
-    {
-        "name": "interaction",
-        "trans": ["n. 互动"]
-    },
-    {
-        "name": "bibliography",
-        "trans": ["n. 参考书目"]
-    },
-    {
-        "name": "scale",
-        "trans": ["n. 规模"]
-    },
-    {
-        "name": "legislation",
-        "trans": ["n. 法律"]
-    },
-    {
-        "name": "flexibility",
-        "trans": ["n. 灵活性"]
-    },
-    {
-        "name": "overweigh",
-        "trans": ["v. 比...重要"]
-    },
-    {
-        "name": "psycholinguistics",
-        "trans": ["n. 心理语言学"]
-    },
-    {
-        "name": "distinguish",
-        "trans": ["v. 区别"]
-    },
-    {
-        "name": "explode",
-        "trans": ["v. 爆炸"]
-    },
-    {
-        "name": "celebrity",
-        "trans": ["n. 名人"]
-    },
-    {
-        "name": "pigeon",
-        "trans": ["n. 鸽子"]
-    },
-    {
-        "name": "vague",
-        "trans": ["adj. 模糊的"]
-    },
-    {
-        "name": "exploit",
-        "trans": ["v. 开发"]
-    },
-    {
-        "name": "disguise",
-        "trans": ["v. 伪装"]
-    },
-    {
-        "name": "index",
-        "trans": ["n. 索引"]
-    },
-    {
-        "name": "text",
-        "trans": ["n. 文本"]
-    },
-    {
-        "name": "factual",
-        "trans": ["adj. 事实的"]
-    },
-    {
-        "name": "digital",
-        "trans": ["adj. 数字的"]
-    },
-    {
-        "name": "editor",
-        "trans": ["n. 编辑"]
-    },
-    {
-        "name": "status",
-        "trans": ["n. 地位"]
-    },
-    {
-        "name": "theoretical",
-        "trans": ["adj. 理论上的"]
-    },
-    {
-        "name": "freedom",
-        "trans": ["n. 自由"]
-    },
-    {
-        "name": "challenging",
-        "trans": ["adj. 挑战的"]
-    },
-    {
-        "name": "background",
-        "trans": ["n. 背景"]
-    },
-    {
-        "name": "overview",
-        "trans": ["n. 概览"]
-    },
-    {
-        "name": "existing",
-        "trans": ["adj. 现存的"]
-    },
-    {
-        "name": "chat",
-        "trans": ["n. 聊天"]
-    },
-    {
-        "name": "technology",
-        "trans": ["n. 技术"]
-    },
-    {
-        "name": "debate",
-        "trans": ["v. 辩论"]
-    },
-    {
-        "name": "friendliness",
-        "trans": ["n. 友好"]
-    },
-    {
-        "name": "exchange",
-        "trans": ["v. 交换"]
-    },
-    {
-        "name": "conclusion",
-        "trans": ["n. 结论"]
-    },
-    {
-        "name": "secretary",
-        "trans": ["n. 秘书"]
-    },
-    {
-        "name": "upper",
-        "trans": ["adj. 上层的"]
-    },
-    {
-        "name": "cautious",
-        "trans": ["adj. 谨慎的"]
-    },
-    {
-        "name": "dissertation",
-        "trans": ["n. 论文"]
-    },
-    {
-        "name": "methodology",
-        "trans": ["n. 方法论"]
-    },
-    {
-        "name": "generalisation",
-        "trans": ["n. 概括"]
-    }
+  {
+    "name": "limitation",
+    "trans": [
+      "n. 限制，局限性；限制因素，限度；缺点，弱点"
+    ]
+  },
+  {
+    "name": "grassland",
+    "trans": [
+      "n. 草原；牧场；草地"
+    ]
+  },
+  {
+    "name": "marine",
+    "trans": [
+      "adj. 船舶的；海生的；海产的",
+      "n. 海运业；舰队；水兵"
+    ]
+  },
+  {
+    "name": "undergraduate",
+    "trans": [
+      "n. 本科生；大学生",
+      "adj. 本科的；大学的"
+    ]
+  },
+  {
+    "name": "scrub",
+    "trans": [
+      "n. 矮树；洗擦；擦洗者",
+      "vt. 用力擦洗；使净化",
+      "vi. 擦洗；进行手臂消毒"
+    ]
+  },
+  {
+    "name": "journal",
+    "trans": [
+      "n. 日记，日志；期刊，杂志；分类账",
+      "v. 记日记；写日志"
+    ]
+  },
+  {
+    "name": "base",
+    "trans": [
+      "n. 基础；底部；垒",
+      "adj. 卑鄙的；低劣的",
+      "vt. 以…作基础"
+    ]
+  },
+  {
+    "name": "archaeology",
+    "trans": [
+      "n. 考古学；古物；古迹"
+    ]
+  },
+  {
+    "name": "reference",
+    "trans": [
+      "n. 参考，参照；涉及，提及；参考书目",
+      "vt. 引用",
+      "vi. 引用"
+    ]
+  },
+  {
+    "name": "classical",
+    "trans": [
+      "n. 古典音乐",
+      "adj. 古典的；经典的；传统的"
+    ]
+  },
+  {
+    "name": "brief",
+    "trans": [
+      "n. 摘要；简报",
+      "adj. 简短的；简洁的；短暂的",
+      "vt. 作简报；简单讨论"
+    ]
+  },
+  {
+    "name": "module",
+    "trans": [
+      "n. 模块，单元；组件，模件；（航天器的）舱"
+    ]
+  },
+  {
+    "name": "compulsory",
+    "trans": [
+      "n. （花样滑冰、竞技体操等的）规定动作",
+      "adj. 义务的；必修的；被强制的"
+    ]
+  },
+  {
+    "name": "classification",
+    "trans": [
+      "n. 分类；分级；分类法"
+    ]
+  },
+  {
+    "name": "score",
+    "trans": [
+      "n. 分数；二十；配乐",
+      "vt. 获得；评价；划线，刻划",
+      "vi. 得分；记分；刻痕"
+    ]
+  },
+  {
+    "name": "judge",
+    "trans": [
+      "vt. 判断；审判",
+      "n. 法官；裁判员",
+      "vi. 审判；判决"
+    ]
+  },
+  {
+    "name": "coursework",
+    "trans": [
+      "n. 作业，修习；指定功课，职业培训"
+    ]
+  },
+  {
+    "name": "origin",
+    "trans": [
+      "n. 起源，由来；出身，血统；起点，原点"
+    ]
+  },
+  {
+    "name": "oral",
+    "trans": [
+      "adj. 口头的，口述的；口服的；属于或关于嘴的",
+      "n. （尤指外语考试中的）口试"
+    ]
+  },
+  {
+    "name": "engine",
+    "trans": [
+      "n. 发动机；引擎；机车",
+      "vt. 装引擎"
+    ]
+  },
+  {
+    "name": "capacity",
+    "trans": [
+      "adj. 无虚席的；满场的",
+      "n. 能力，才能；容积，容纳能力；职位，职责"
+    ]
+  },
+  {
+    "name": "prefer",
+    "trans": [
+      "vt. 更喜欢；宁愿；提出",
+      "vi. 喜欢；愿意"
+    ]
+  },
+  {
+    "name": "commercial",
+    "trans": [
+      "n. 商业广告",
+      "adj. 商业的；营利的；靠广告收入的"
+    ]
+  },
+  {
+    "name": "reliable",
+    "trans": [
+      "adj. 可靠的；可信赖的；真实可信的",
+      "n. 可靠的人"
+    ]
+  },
+  {
+    "name": "roll over",
+    "trans": [
+      "n. 滚动；使滚；得分"
+    ]
+  },
+  {
+    "name": "harmful",
+    "trans": [
+      "adj. 对…有害的；能造成损害的；不利"
+    ]
+  },
+  {
+    "name": "statistics",
+    "trans": [
+      "n. 统计学；统计数据；统计资料"
+    ]
+  },
+  {
+    "name": "note",
+    "trans": [
+      "n. 笔记；音符；票据",
+      "vt. 注意；记录；注解"
+    ]
+  },
+  {
+    "name": "raise",
+    "trans": [
+      "n. 高地；上升；加薪",
+      "vt. 提高；筹集；养育",
+      "vi. 上升"
+    ]
+  },
+  {
+    "name": "cost",
+    "trans": [
+      "n. 费用，代价，成本；损失",
+      "vt. 花费；使付出；使花许多钱",
+      "vi. 花费"
+    ]
+  },
+  {
+    "name": "reputation",
+    "trans": [
+      "n. 名誉；名声；好名声"
+    ]
+  },
+  {
+    "name": "software",
+    "trans": [
+      "n. 软件；软体；软设备"
+    ]
+  },
+  {
+    "name": "creative",
+    "trans": [
+      "adj. 有创造力的，创新的；富有想象力的，有独创性的",
+      "n. 创意人员；创造性工作者"
+    ]
+  },
+  {
+    "name": "diploma",
+    "trans": [
+      "n. 毕业证书，学位证书；公文，文书；奖状",
+      "vt. 发给…毕业文凭"
+    ]
+  },
+  {
+    "name": "respondent",
+    "trans": [
+      "n. 被告；回答问题的人；调查对象",
+      "adj. 回答的；响应的；被告的"
+    ]
+  },
+  {
+    "name": "uncertain",
+    "trans": [
+      "adj. 无常的；含糊的；靠不住的"
+    ]
+  },
+  {
+    "name": "gradual",
+    "trans": [
+      "adj. 渐进的，渐（升）降的；倾斜度小的；逐次的，逐渐的",
+      "n. 弥撒升阶圣歌；弥撒圣歌集"
+    ]
+  },
+  {
+    "name": "privacy",
+    "trans": [
+      "n. 隐私；秘密；隐居"
+    ]
+  },
+  {
+    "name": "margin",
+    "trans": [
+      "n. 边缘，范围；极限；利润，盈余",
+      "vt. 留边；成为…的边；加边于，围绕"
+    ]
+  },
+  {
+    "name": "interaction",
+    "trans": [
+      "n. 相互作用，相互影响；交互，互动；交流，沟通"
+    ]
+  },
+  {
+    "name": "bibliography",
+    "trans": [
+      "n. 参考书目，文献目录；某一学科的文献集；书目学，文献学"
+    ]
+  },
+  {
+    "name": "scale",
+    "trans": [
+      "n. 规模；比例；鳞",
+      "vt. 测量；攀登；刮鳞",
+      "vi. 衡量；攀登；剥落"
+    ]
+  },
+  {
+    "name": "legislation",
+    "trans": [
+      "n. 法律；法规；立法"
+    ]
+  },
+  {
+    "name": "flexibility",
+    "trans": [
+      "n. 灵活性；弹性；适应性"
+    ]
+  },
+  {
+    "name": "overweigh",
+    "trans": [
+      "v. 比...重要"
+    ]
+  },
+  {
+    "name": "psycholinguistics",
+    "trans": [
+      "n. 心理语言学"
+    ]
+  },
+  {
+    "name": "distinguish",
+    "trans": [
+      "vi. 区别，区分；辨别",
+      "vt. 区分；辨别；使杰出，使表现突出"
+    ]
+  },
+  {
+    "name": "explode",
+    "trans": [
+      "vi. 爆炸，爆发；激增",
+      "vt. 使爆炸；爆炸；推翻"
+    ]
+  },
+  {
+    "name": "celebrity",
+    "trans": [
+      "n. 名人，名流；著名；名声"
+    ]
+  },
+  {
+    "name": "pigeon",
+    "trans": [
+      "n. 鸽子；易受骗的人；责任"
+    ]
+  },
+  {
+    "name": "vague",
+    "trans": [
+      "adj. 模糊的；（思想上）不清楚的；（表达或感知）含糊的",
+      "n. 模糊不定状态"
+    ]
+  },
+  {
+    "name": "exploit",
+    "trans": [
+      "vt. 开采；开拓；利用（…为自己谋利）",
+      "n. 功绩；功劳；勋绩"
+    ]
+  },
+  {
+    "name": "disguise",
+    "trans": [
+      "vi. 隐瞒；掩埋",
+      "vt. 假装；假扮；掩饰",
+      "n. 假装；假面目；伪装物"
+    ]
+  },
+  {
+    "name": "index",
+    "trans": [
+      "n. 指标；指数；索引",
+      "vt. 指出；编入索引中",
+      "vi. 做索引"
+    ]
+  },
+  {
+    "name": "text",
+    "trans": [
+      "n. 文本，文字；课文，教科书；原文",
+      "v. 发短信"
+    ]
+  },
+  {
+    "name": "factual",
+    "trans": [
+      "adj. 事实的，真实的；根据事实的；确凿的"
+    ]
+  },
+  {
+    "name": "digital",
+    "trans": [
+      "adj. 数字的；数据的；手指的",
+      "n. 手指；（钢琴等的）琴键；数字"
+    ]
+  },
+  {
+    "name": "editor",
+    "trans": [
+      "n. 编辑，编辑人员；主编，编辑主任；编辑程序，编辑器"
+    ]
+  },
+  {
+    "name": "status",
+    "trans": [
+      "n. 地位，身份；情况，状态；法律地位，法律上的身份"
+    ]
+  },
+  {
+    "name": "theoretical",
+    "trans": [
+      "adj. 理论的；理论上的；假设的"
+    ]
+  },
+  {
+    "name": "freedom",
+    "trans": [
+      "n. 自由，自主；自由权，特权；无拘束，随心所欲"
+    ]
+  },
+  {
+    "name": "challenging",
+    "trans": [
+      "v. 要求；质疑；反对",
+      "adj. 挑战的；引起挑战性兴趣的"
+    ]
+  },
+  {
+    "name": "background",
+    "trans": [
+      "n. 背景；隐蔽的位置",
+      "adj. 背景的；发布背景材料的",
+      "vt. 作…的背景"
+    ]
+  },
+  {
+    "name": "overview",
+    "trans": [
+      "n. 概观；总的看法；回顾，复习"
+    ]
+  },
+  {
+    "name": "existing",
+    "trans": [
+      "adj. 目前的；现存的",
+      "v. 存在( exist的现在分词)；持续存在"
+    ]
+  },
+  {
+    "name": "chat",
+    "trans": [
+      "n. 聊天；闲谈",
+      "vt. 与…搭讪；与…攀谈",
+      "vi. 聊天；闲谈"
+    ]
+  },
+  {
+    "name": "technology",
+    "trans": [
+      "n. 技术，科技；技术学，工艺学；（某种）技术"
+    ]
+  },
+  {
+    "name": "debate",
+    "trans": [
+      "n. 辩论；辩论会",
+      "vt. 辩论；争论；讨论",
+      "vi. 辩论；争论；讨论"
+    ]
+  },
+  {
+    "name": "friendliness",
+    "trans": [
+      "n. 友情；亲切；友善"
+    ]
+  },
+  {
+    "name": "exchange",
+    "trans": [
+      "n. 交换；交流；交易所",
+      "vt. 交换；交易；兑换",
+      "vi. 交换；交易；兑换"
+    ]
+  },
+  {
+    "name": "conclusion",
+    "trans": [
+      "n. 结论，结果；结束，终结；推论，推定"
+    ]
+  },
+  {
+    "name": "secretary",
+    "trans": [
+      "n. 秘书；书记；部长"
+    ]
+  },
+  {
+    "name": "upper",
+    "trans": [
+      "adj. 上面的；地位较高的；上部的",
+      "n. 鞋帮；上铺；兴奋剂"
+    ]
+  },
+  {
+    "name": "cautious",
+    "trans": [
+      "adj. 小心的，谨慎的；兢；恮"
+    ]
+  },
+  {
+    "name": "dissertation",
+    "trans": [
+      "n. (学位)论文；专题；论述"
+    ]
+  },
+  {
+    "name": "methodology",
+    "trans": [
+      "n. 一套方法方法学；方法论；方法论者",
+      "adj. 方法学的"
+    ]
+  },
+  {
+    "name": "generalisation",
+    "trans": [
+      "n. 一般化；普通化；归纳"
+    ]
+  }
 ]

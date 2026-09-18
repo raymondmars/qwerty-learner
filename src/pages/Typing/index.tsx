@@ -3,6 +3,7 @@ import { DictChapterButton } from './components/DictChapterButton'
 import Progress from './components/Progress'
 import PronunciationSwitcher from './components/PronunciationSwitcher'
 import ResultScreen from './components/ResultScreen'
+import ReviewButton from './components/ReviewButton'
 import Speed from './components/Speed'
 import StartButton from './components/StartButton'
 import Switcher from './components/Switcher'
@@ -145,7 +146,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     // 当用户完成章节后且完成 word Record 数据保存，记录 chapter Record 数据,
-    // 错词复习只练本章的一小撮单词，写进 chapterRecords 会污染练习次数、正确率和个人最好成绩，故跳过
+    // 章末重测只练本章的一小撮单词，写进 chapterRecords 会污染练习次数、正确率和个人最好成绩，故跳过
     if (state.isFinished && !state.isSavingRecord && !state.isWrongWordReview) {
       saveChapterRecord(state)
     }
@@ -175,6 +176,7 @@ const App: React.FC = () => {
       <Layout>
         <Header>
           <DictChapterButton />
+          <ReviewButton />
           <PronunciationSwitcher />
           <Switcher />
           <StartButton isLoading={isLoading} />

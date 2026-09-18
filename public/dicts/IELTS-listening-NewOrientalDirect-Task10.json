@@ -1,266 +1,313 @@
 [
-    {
-        "name": "reserve",
-        "trans": [
-            "v. 预定"
-        ]
-    },
-    {
-        "name": "book",
-        "trans": [
-            "v. 预定"
-        ]
-    },
-    {
-        "name": "rent",
-        "trans": [
-            "v. 租"
-        ]
-    },
-    {
-        "name": "hire",
-        "trans": [
-            "v. 租"
-        ]
-    },
-    {
-        "name": "room",
-        "trans": [
-            "n. 房间；空间"
-        ]
-    },
-    {
-        "name": "in advance",
-        "trans": [
-            "adv. 提前"
-        ]
-    },
-    {
-        "name": "event",
-        "trans": [
-            "n. 事由，事件"
-        ]
-    },
-    {
-        "name": "ceremony",
-        "trans": [
-            "n. 仪式，典礼"
-        ]
-    },
-    {
-        "name": "conference",
-        "trans": [
-            "n. 会议"
-        ]
-    },
-    {
-        "name": "anniversary",
-        "trans": [
-            "n. 纪念日"
-        ]
-    },
-    {
-        "name": "facility",
-        "trans": [
-            "n. 设施"
-        ]
-    },
-    {
-        "name": "hall",
-        "trans": [
-            "n. 礼堂"
-        ]
-    },
-    {
-        "name": "projector",
-        "trans": [
-            "n. 投影仪"
-        ]
-    },
-    {
-        "name": "microphone",
-        "trans": [
-            "n. 话筒"
-        ]
-    },
-    {
-        "name": "cater",
-        "trans": [
-            "v. 为……提供餐饮"
-        ]
-    },
-    {
-        "name": "buffet",
-        "trans": [
-            "n. 自助餐"
-        ]
-    },
-    {
-        "name": "entertainment",
-        "trans": [
-            "n. 娱乐"
-        ]
-    },
-    {
-        "name": "gym",
-        "trans": [
-            "n. 健身房"
-        ]
-    },
-    {
-        "name": "spa",
-        "trans": [
-            "n. 水疗"
-        ]
-    },
-    {
-        "name": "live",
-        "trans": [
-            "adj. 现场的"
-        ]
-    },
-    {
-        "name": "band",
-        "trans": [
-            "n. 乐队"
-        ]
-    },
-    {
-        "name": "rooftop",
-        "trans": [
-            "n. 屋顶"
-        ]
-    },
-    {
-        "name": "gallery",
-        "trans": [
-            "n. 画廊"
-        ]
-    },
-    {
-        "name": "payment",
-        "trans": [
-            "n. 付款"
-        ]
-    },
-    {
-        "name": "charge",
-        "trans": [
-            "v. 收费"
-        ]
-    },
-    {
-        "name": "discount",
-        "trans": [
-            "n. 折扣"
-        ]
-    },
-    {
-        "name": "deposit",
-        "trans": [
-            "n. 定金, 存款"
-        ]
-    },
-    {
-        "name": "cash",
-        "trans": [
-            "n. 现金"
-        ]
-    },
-    {
-        "name": "credit card",
-        "trans": [
-            "n. 信用卡"
-        ]
-    },
-    {
-        "name": "check / cheque",
-        "trans": [
-            "n. 支票"
-        ]
-    },
-    {
-        "name": "transport",
-        "trans": [
-            "n. 交通"
-        ]
-    },
-    {
-        "name": "flight",
-        "trans": [
-            "n. 飞机，航班"
-        ]
-    },
-    {
-        "name": "shuttle",
-        "trans": [
-            "n. 通勤大巴"
-        ]
-    },
-    {
-        "name": "door-to-door",
-        "trans": [
-            "adj. 门对门的"
-        ]
-    },
-    {
-        "name": "departure",
-        "trans": [
-            "n. 出发"
-        ]
-    },
-    {
-        "name": "arrival",
-        "trans": [
-            "n. 到达"
-        ]
-    },
-    {
-        "name": "transfer",
-        "trans": [
-            "v. 换乘"
-        ]
-    },
-    {
-        "name": "connection",
-        "trans": [
-            "n. 联运，转机转车"
-        ]
-    },
-    {
-        "name": "solar",
-        "trans": [
-            "adj. 太阳能的"
-        ]
-    },
-    {
-        "name": "licence / license",
-        "trans": [
-            "n. 许可证"
-        ]
-    },
-    {
-        "name": "taxi",
-        "trans": [
-            "n. 出租车"
-        ]
-    },
-    {
-        "name": "cab",
-        "trans": [
-            "n. 出租车"
-        ]
-    },
-    {
-        "name": "tram",
-        "trans": [
-            "n. 有轨电车"
-        ]
-    },
-    {
-        "name": "helicopter",
-        "trans": [
-            "n. 直升机"
-        ]
-    }
+  {
+    "name": "reserve",
+    "trans": [
+      "n. 储备，储存；自然保护区；预备队",
+      "vt. 储备；保留；预约",
+      "vi. 预订"
+    ]
+  },
+  {
+    "name": "book",
+    "trans": [
+      "n. 书；书籍账簿卷；篇",
+      "vt.&vi. 预订",
+      "vt. 登记；记账订立演出契约"
+    ]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "n. 租金",
+      "vt. 出租；租用；租借",
+      "vi. 租；出租"
+    ]
+  },
+  {
+    "name": "hire",
+    "trans": [
+      "n. 雇用，租用；租金，工钱",
+      "vt. 雇用；出租",
+      "vi. 雇用，租用；受雇"
+    ]
+  },
+  {
+    "name": "room",
+    "trans": [
+      "n. 房间；空间；余地",
+      "vt. 为…提供住处；租房，合住；投宿，住宿",
+      "vi. 居住；住宿"
+    ]
+  },
+  {
+    "name": "in advance",
+    "trans": [
+      "adv. 提前"
+    ]
+  },
+  {
+    "name": "event",
+    "trans": [
+      "n. 事件，大事；活动，节目；（体育）项目"
+    ]
+  },
+  {
+    "name": "ceremony",
+    "trans": [
+      "n. 典礼，仪式；礼节，礼仪；客套，虚礼"
+    ]
+  },
+  {
+    "name": "conference",
+    "trans": [
+      "n. 会议；讨论；协商",
+      "vi. 举行或参加（系列）会议"
+    ]
+  },
+  {
+    "name": "anniversary",
+    "trans": [
+      "n. 周年纪念日",
+      "adj. 周年的；周年纪念的；年年的"
+    ]
+  },
+  {
+    "name": "facility",
+    "trans": [
+      "n. 灵巧；熟练",
+      "pl. 设备，设施；便利"
+    ]
+  },
+  {
+    "name": "hall",
+    "trans": [
+      "n. 走廊，门厅；大厅，礼堂；宿舍，学生公寓"
+    ]
+  },
+  {
+    "name": "projector",
+    "trans": [
+      "n. 放映机；幻灯机；投影仪"
+    ]
+  },
+  {
+    "name": "microphone",
+    "trans": [
+      "n. 话筒；麦克风；扩音器"
+    ]
+  },
+  {
+    "name": "cater",
+    "trans": [
+      "vt.&vi. 提供饮食及服务",
+      "vt. 满足需要，适合；投合，迎合",
+      "n. 骰子；纸牌的四点"
+    ]
+  },
+  {
+    "name": "buffet",
+    "trans": [
+      "n. 自助餐；小卖部；打击",
+      "adj. 自助的；自助餐的",
+      "vi. 斗争；奋勇前进"
+    ]
+  },
+  {
+    "name": "entertainment",
+    "trans": [
+      "n. 娱乐，消遣；娱乐活动，表演；款待，招待"
+    ]
+  },
+  {
+    "name": "gym",
+    "trans": [
+      "n. 健身房；体育；体育馆"
+    ]
+  },
+  {
+    "name": "spa",
+    "trans": [
+      "n. 休闲健身中心；矿泉疗养地；矿泉城"
+    ]
+  },
+  {
+    "name": "live",
+    "trans": [
+      "adj. 活的；生动的；实况转播的",
+      "vt. 经历；度过",
+      "vi. 活；居住；生存"
+    ]
+  },
+  {
+    "name": "band",
+    "trans": [
+      "n. 带，箍；条纹；价值、数量等的范围",
+      "vt. 用带绑扎",
+      "vt.&vi. 结合起来；伙同"
+    ]
+  },
+  {
+    "name": "rooftop",
+    "trans": [
+      "n. 屋顶"
+    ]
+  },
+  {
+    "name": "gallery",
+    "trans": [
+      "n. 画廊；走廊；旁听席",
+      "vt. 在…修建走廊；在…挖地道",
+      "vi. 挖地道"
+    ]
+  },
+  {
+    "name": "payment",
+    "trans": [
+      "n. 支付，付款；支付的金额，付款额；报酬，酬劳"
+    ]
+  },
+  {
+    "name": "charge",
+    "trans": [
+      "n. 费用；电荷；掌管",
+      "vt. 使充电；使承担；指责",
+      "vi. 充电；控告；索价"
+    ]
+  },
+  {
+    "name": "discount",
+    "trans": [
+      "n. 折扣；贴现率",
+      "vt. 打折扣；将…贴现；贬损",
+      "vi. 贴现；打折扣出售商品"
+    ]
+  },
+  {
+    "name": "deposit",
+    "trans": [
+      "n. 存款；押金；订金",
+      "vt. 使沉积；存放",
+      "vi. 沉淀"
+    ]
+  },
+  {
+    "name": "cash",
+    "trans": [
+      "n. 现金；现款",
+      "vt. 兑现；付现款",
+      "adj. 现金的"
+    ]
+  },
+  {
+    "name": "credit card",
+    "trans": [
+      "n. 信用卡"
+    ]
+  },
+  {
+    "name": "check / cheque",
+    "trans": [
+      "n. 支票"
+    ]
+  },
+  {
+    "name": "transport",
+    "trans": [
+      "n. 运输，运送；运输工具；运输系统",
+      "v. 运输，运送；使狂喜；使激动"
+    ]
+  },
+  {
+    "name": "flight",
+    "trans": [
+      "n. 飞行；班机；逃走",
+      "vt. 射击；使惊飞",
+      "vi. 迁徙"
+    ]
+  },
+  {
+    "name": "shuttle",
+    "trans": [
+      "n. 航天飞机；穿梭；梭子",
+      "vt. 使穿梭般来回移动；短程穿梭般运送",
+      "vi. 穿梭往返"
+    ]
+  },
+  {
+    "name": "door-to-door",
+    "trans": [
+      "adj. 挨户访问的；按户达的",
+      "adv. 挨户访问地；按户送地"
+    ]
+  },
+  {
+    "name": "departure",
+    "trans": [
+      "n. 离开，出发；偏离，背离；起程，启程"
+    ]
+  },
+  {
+    "name": "arrival",
+    "trans": [
+      "n. 到达，抵达；到达者，抵达物；出现，问世"
+    ]
+  },
+  {
+    "name": "transfer",
+    "trans": [
+      "n. 转让；转移；传递",
+      "vt. 使转移；调任",
+      "vi. 转让；转学；换车"
+    ]
+  },
+  {
+    "name": "connection",
+    "trans": [
+      "n. 联系，关系；连接，接通；人际关系，人脉"
+    ]
+  },
+  {
+    "name": "solar",
+    "trans": [
+      "n. 日光浴室",
+      "adj. 太阳的；日光的；利用太阳光的"
+    ]
+  },
+  {
+    "name": "licence / license",
+    "trans": [
+      "n. 许可证"
+    ]
+  },
+  {
+    "name": "taxi",
+    "trans": [
+      "n. 出租汽车",
+      "vt. 使滑行；用出租车送",
+      "vi. 乘出租车；滑行"
+    ]
+  },
+  {
+    "name": "cab",
+    "trans": [
+      "n. 驾驶室；出租汽车；出租马车",
+      "vi. 乘出租马车（或汽车）"
+    ]
+  },
+  {
+    "name": "tram",
+    "trans": [
+      "n. 电车轨道；煤车",
+      "vt. 用煤车运载",
+      "vi. 乘电车"
+    ]
+  },
+  {
+    "name": "helicopter",
+    "trans": [
+      "n. 直升机；直升飞机",
+      "vt. 用直升飞机载送",
+      "vi. 乘直升飞机"
+    ]
+  }
 ]

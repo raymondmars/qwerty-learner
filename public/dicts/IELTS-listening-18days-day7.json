@@ -1,302 +1,514 @@
 [
-    {
-        "name": "personal officer",
-        "trans": ["n. 人事部员工"]
-    },
-    {
-        "name": "booking form",
-        "trans": ["n. 预定表格"]
-    },
-    {
-        "name": "file",
-        "trans": ["n. 文件"]
-    },
-    {
-        "name": "cabin",
-        "trans": ["n. 船舱"]
-    },
-    {
-        "name": "bill",
-        "trans": ["n. 清单"]
-    },
-    {
-        "name": "neutral",
-        "trans": ["adj. 中立的"]
-    },
-    {
-        "name": "luggage",
-        "trans": ["n. 行李"]
-    },
-    {
-        "name": "documentary film",
-        "trans": ["n. 纪录片"]
-    },
-    {
-        "name": "unloaded",
-        "trans": ["adj. 卸货"]
-    },
-    {
-        "name": "parking lot",
-        "trans": ["n. 停车场"]
-    },
-    {
-        "name": "comedy",
-        "trans": ["n. 喜剧"]
-    },
-    {
-        "name": "campsite",
-        "trans": ["n. 营地"]
-    },
-    {
-        "name": "fiction",
-        "trans": ["n. 小说"]
-    },
-    {
-        "name": "metal paint",
-        "trans": ["n. 金属漆"]
-    },
-    {
-        "name": "meadow",
-        "trans": ["n. 草地"]
-    },
-    {
-        "name": "metal detector",
-        "trans": ["n. 金属探测器"]
-    },
-    {
-        "name": "cash point",
-        "trans": ["n. 提款机"]
-    },
-    {
-        "name": "label",
-        "trans": ["n. 标签"]
-    },
-    {
-        "name": "ink",
-        "trans": ["n. 墨水"]
-    },
-    {
-        "name": "statue",
-        "trans": ["n. 雕塑"]
-    },
-    {
-        "name": "seed",
-        "trans": ["n. 种子"]
-    },
-    {
-        "name": "award",
-        "trans": ["n. 奖品"]
-    },
-    {
-        "name": "vehicle",
-        "trans": ["n. 车辆"]
-    },
-    {
-        "name": "herb",
-        "trans": ["n. 草药"]
-    },
-    {
-        "name": "excursion",
-        "trans": ["n. 短途旅行"]
-    },
-    {
-        "name": "blanket",
-        "trans": ["n. 毛毯"]
-    },
-    {
-        "name": "extra",
-        "trans": ["adj. 额外的"]
-    },
-    {
-        "name": "coal",
-        "trans": ["n. 煤"]
-    },
-    {
-        "name": "terrain",
-        "trans": ["n. 地形"]
-    },
-    {
-        "name": "aspect",
-        "trans": ["n. 方面"]
-    },
-    {
-        "name": "allow",
-        "trans": ["v. 允许"]
-    },
-    {
-        "name": "recommend",
-        "trans": ["v. 推荐"]
-    },
-    {
-        "name": "mine",
-        "trans": ["n. 矿"]
-    },
-    {
-        "name": "reception",
-        "trans": ["n. 接待处"]
-    },
-    {
-        "name": "technological",
-        "trans": ["adj. 科技的"]
-    },
-    {
-        "name": "staff",
-        "trans": ["n. 职员"]
-    },
-    {
-        "name": "insight",
-        "trans": ["n. 洞察力"]
-    },
-    {
-        "name": "elevator",
-        "trans": ["n. 电梯"]
-    },
-    {
-        "name": "underground",
-        "trans": ["n. 地铁"]
-    },
-    {
-        "name": "employee",
-        "trans": ["n. 员工"]
-    },
-    {
-        "name": "notice board",
-        "trans": ["n. 布告栏"]
-    },
-    {
-        "name": "supportive",
-        "trans": ["adj. 支持的"]
-    },
-    {
-        "name": "budget",
-        "trans": ["n. 预算"]
-    },
-    {
-        "name": "responsibility",
-        "trans": ["n. 责任"]
-    },
-    {
-        "name": "atmosphere",
-        "trans": ["n. 气氛"]
-    },
-    {
-        "name": "guest",
-        "trans": ["n. 客人"]
-    },
-    {
-        "name": "screen",
-        "trans": ["n. 屏幕"]
-    },
-    {
-        "name": "deliver",
-        "trans": ["v. 递送"]
-    },
-    {
-        "name": "store room",
-        "trans": ["n. 储藏室"]
-    },
-    {
-        "name": "main hall",
-        "trans": ["n. 大厅"]
-    },
-    {
-        "name": "lobby",
-        "trans": ["n. 大厅"]
-    },
-    {
-        "name": "tax",
-        "trans": ["n. 税"]
-    },
-    {
-        "name": "accountant",
-        "trans": ["n. 会计师"]
-    },
-    {
-        "name": "architecture",
-        "trans": ["n. 建筑"]
-    },
-    {
-        "name": "waterfall",
-        "trans": ["n. 瀑布"]
-    },
-    {
-        "name": "rent",
-        "trans": ["n. 租金"]
-    },
-    {
-        "name": "solar energy",
-        "trans": ["n. 太阳能"]
-    },
-    {
-        "name": "villa",
-        "trans": ["n. 别墅"]
-    },
-    {
-        "name": "picnic",
-        "trans": ["n. 野餐"]
-    },
-    {
-        "name": "pond",
-        "trans": ["n. 池塘"]
-    },
-    {
-        "name": "pool",
-        "trans": ["n. 游泳池"]
-    },
-    {
-        "name": "agent",
-        "trans": ["n. 中介"]
-    },
-    {
-        "name": "real estate",
-        "trans": ["n. 房地产"]
-    },
-    {
-        "name": "worthwhile",
-        "trans": ["adj. 值得的"]
-    },
-    {
-        "name": "location",
-        "trans": ["n. 位置"]
-    },
-    {
-        "name": "suitable",
-        "trans": ["adj. 适当的"]
-    },
-    {
-        "name": "decorate",
-        "trans": ["v. 装饰"]
-    },
-    {
-        "name": "appointment",
-        "trans": ["n. 约定"]
-    },
-    {
-        "name": "single",
-        "trans": ["adj. 单一的"]
-    },
-    {
-        "name": "garage",
-        "trans": ["n. 车库"]
-    },
-    {
-        "name": "spare room",
-        "trans": ["n. 空房"]
-    },
-    {
-        "name": "shade",
-        "trans": ["n. 树荫"]
-    },
-    {
-        "name": "string",
-        "trans": ["n. 线"]
-    },
-    {
-        "name": "lettuce",
-        "trans": ["n. 生菜"]
-    },
-    {
-        "name": "spoon",
-        "trans": ["n. 勺子"]
-    }
+  {
+    "name": "personal officer",
+    "trans": [
+      "n. 人事部员工"
+    ]
+  },
+  {
+    "name": "booking form",
+    "trans": [
+      "n. 挂号单；预订单"
+    ]
+  },
+  {
+    "name": "file",
+    "trans": [
+      "n. 文件；档案；文件夹",
+      "vt. 提出；锉；琢磨",
+      "vi. 列队行进；用锉刀锉"
+    ]
+  },
+  {
+    "name": "cabin",
+    "trans": [
+      "n. 小屋；客舱；船舱",
+      "vt. 把…关在小屋里",
+      "vi. 住在小屋里"
+    ]
+  },
+  {
+    "name": "bill",
+    "trans": [
+      "n. 账单；钞票；清单",
+      "vt. 安排；给…开账单；为…发提（货）单",
+      "vi. 鸟嘴相接触"
+    ]
+  },
+  {
+    "name": "neutral",
+    "trans": [
+      "adj. 中立的，中性的；中立国的；非彩色的",
+      "n. 中立国；中立者；非彩色"
+    ]
+  },
+  {
+    "name": "luggage",
+    "trans": [
+      "n. 行李；皮箱；皮包"
+    ]
+  },
+  {
+    "name": "documentary film",
+    "trans": [
+      "n. 纪录片"
+    ]
+  },
+  {
+    "name": "unloaded",
+    "trans": [
+      "adj. 卸货"
+    ]
+  },
+  {
+    "name": "parking lot",
+    "trans": [
+      "n. 停车场"
+    ]
+  },
+  {
+    "name": "comedy",
+    "trans": [
+      "n. 喜剧，喜剧作品；滑稽，幽默；喜剧性事物，有趣的情况"
+    ]
+  },
+  {
+    "name": "campsite",
+    "trans": [
+      "n. 度假营地；野营地，宿营地"
+    ]
+  },
+  {
+    "name": "fiction",
+    "trans": [
+      "n. 小说，虚构的故事；虚构，杜撰；想象"
+    ]
+  },
+  {
+    "name": "metal paint",
+    "trans": [
+      "n. 金属漆"
+    ]
+  },
+  {
+    "name": "meadow",
+    "trans": [
+      "n. 草地；牧场；牧草地"
+    ]
+  },
+  {
+    "name": "metal detector",
+    "trans": [
+      "n. 金属探测器"
+    ]
+  },
+  {
+    "name": "cash point",
+    "trans": [
+      "n. 提款机"
+    ]
+  },
+  {
+    "name": "label",
+    "trans": [
+      "n. 标签；签条；标记",
+      "vt. 贴标签于；分类；把...称为"
+    ]
+  },
+  {
+    "name": "ink",
+    "trans": [
+      "n. 墨水，墨汁；油墨；颜料",
+      "v. 给……上油墨；用墨水画出；涂墨水于"
+    ]
+  },
+  {
+    "name": "statue",
+    "trans": [
+      "n. 雕像；塑像",
+      "vt. 以雕像装饰"
+    ]
+  },
+  {
+    "name": "seed",
+    "trans": [
+      "n. 种子；根据；精液",
+      "vt. 播种；结实；成熟",
+      "vi. 播种；（植物）结实"
+    ]
+  },
+  {
+    "name": "award",
+    "trans": [
+      "n. 奖；奖品；判定",
+      "vi. 授予；给予",
+      "vt. 授予"
+    ]
+  },
+  {
+    "name": "vehicle",
+    "trans": [
+      "n. 车辆，交通工具；载体，媒介；手段，工具"
+    ]
+  },
+  {
+    "name": "herb",
+    "trans": [
+      "n. 草本；草药；中草药"
+    ]
+  },
+  {
+    "name": "excursion",
+    "trans": [
+      "n. 远足；短途旅行；涉猎某事"
+    ]
+  },
+  {
+    "name": "blanket",
+    "trans": [
+      "n. 毯子；毛毯",
+      "adj. 总括的；全面的",
+      "v. 覆盖；笼罩"
+    ]
+  },
+  {
+    "name": "extra",
+    "trans": [
+      "n. 临时演员；号外；额外的事物",
+      "adj. 额外的，另外收费的；特大的",
+      "adv. 特别地，非常；另外"
+    ]
+  },
+  {
+    "name": "coal",
+    "trans": [
+      "n. 煤；煤块；木炭",
+      "vt. 给…加煤；把…烧成炭",
+      "vi. 上煤；加煤"
+    ]
+  },
+  {
+    "name": "terrain",
+    "trans": [
+      "n. 地形，地势；领域；地带"
+    ]
+  },
+  {
+    "name": "aspect",
+    "trans": [
+      "n. 方面，特色；朝向，方位；外表，外观",
+      "v. （行星与另一天体）形成角度关系"
+    ]
+  },
+  {
+    "name": "allow",
+    "trans": [
+      "vi. 容许；考虑",
+      "vt. 允许；给予；认可"
+    ]
+  },
+  {
+    "name": "recommend",
+    "trans": [
+      "vt. 推荐，介绍；劝告；使受欢迎",
+      "vi. 推荐；建议"
+    ]
+  },
+  {
+    "name": "mine",
+    "trans": [
+      "pron. 我的",
+      "n. 矿山；矿井；地雷",
+      "v. 开采；采矿；埋设地雷"
+    ]
+  },
+  {
+    "name": "reception",
+    "trans": [
+      "n. 接待，招待；接收，接受；招待会，欢迎会"
+    ]
+  },
+  {
+    "name": "technological",
+    "trans": [
+      "adj. 技术上的；工艺(学)的；由于技术原因的",
+      "adv. 技术上地"
+    ]
+  },
+  {
+    "name": "staff",
+    "trans": [
+      "n. 职员；参谋；棒",
+      "adj. 职员的；行政工作的",
+      "vt. 供给人员；给…配备职员"
+    ]
+  },
+  {
+    "name": "insight",
+    "trans": [
+      "n. 洞悉；洞察；见识"
+    ]
+  },
+  {
+    "name": "elevator",
+    "trans": [
+      "n. 电梯；升降机；升降舵"
+    ]
+  },
+  {
+    "name": "underground",
+    "trans": [
+      "n. 地下；地铁；地道",
+      "adj. 地下的；秘密的；先锋派的",
+      "adv. 在地下；秘密地"
+    ]
+  },
+  {
+    "name": "employee",
+    "trans": [
+      "n. 受雇者；雇员；雇工"
+    ]
+  },
+  {
+    "name": "notice board",
+    "trans": [
+      "n. 布告栏"
+    ]
+  },
+  {
+    "name": "supportive",
+    "trans": [
+      "adj. 支持的；支援的；赞助的"
+    ]
+  },
+  {
+    "name": "budget",
+    "trans": [
+      "n. 预算；预算费",
+      "vt. 安排，预定；把…编入预算",
+      "vi. 编预算；做预算"
+    ]
+  },
+  {
+    "name": "responsibility",
+    "trans": [
+      "n. 责任，义务；职责，工作；责任心"
+    ]
+  },
+  {
+    "name": "atmosphere",
+    "trans": [
+      "n. 大气，空气；气氛，环境；大气层"
+    ]
+  },
+  {
+    "name": "guest",
+    "trans": [
+      "n. 客人，宾客；顾客",
+      "adj. 客人的；特邀的，客座的",
+      "vt. 款待；招待"
+    ]
+  },
+  {
+    "name": "screen",
+    "trans": [
+      "n. 屏，幕；屏风",
+      "vt. 筛；拍摄；放映",
+      "vi. 拍电影"
+    ]
+  },
+  {
+    "name": "deliver",
+    "trans": [
+      "n. 投球",
+      "vt. 交付；发表；递送",
+      "vi. 实现；传送；履行"
+    ]
+  },
+  {
+    "name": "store room",
+    "trans": [
+      "n. 储藏室"
+    ]
+  },
+  {
+    "name": "main hall",
+    "trans": [
+      "n. 大厅"
+    ]
+  },
+  {
+    "name": "lobby",
+    "trans": [
+      "n. 大厅；休息室；会客室",
+      "vt. 对……进行游说",
+      "vi. 游说议员"
+    ]
+  },
+  {
+    "name": "tax",
+    "trans": [
+      "n. 税；税款；负担",
+      "vt. 课税；使...负重荷；斥责"
+    ]
+  },
+  {
+    "name": "accountant",
+    "trans": [
+      "n. 会计师；会计员"
+    ]
+  },
+  {
+    "name": "architecture",
+    "trans": [
+      "n. 建筑学；建筑风格；建筑设计"
+    ]
+  },
+  {
+    "name": "waterfall",
+    "trans": [
+      "n. 瀑布；瀑布似的东西；（披垂的）波型长发"
+    ]
+  },
+  {
+    "name": "rent",
+    "trans": [
+      "n. 租金",
+      "vt. 出租；租用；租借",
+      "vi. 租；出租"
+    ]
+  },
+  {
+    "name": "solar energy",
+    "trans": [
+      "n. 太阳能"
+    ]
+  },
+  {
+    "name": "villa",
+    "trans": [
+      "n. 别墅；郊区住宅"
+    ]
+  },
+  {
+    "name": "picnic",
+    "trans": [
+      "n. 野餐郊游；供野餐吃的食品；猪的肩肉",
+      "vi. 去野餐，参加野餐；野餐式地用餐；在户外用餐",
+      "vt. 用野餐招待"
+    ]
+  },
+  {
+    "name": "pond",
+    "trans": [
+      "n. 池塘",
+      "vt. 筑成池塘",
+      "vi. 筑成池塘"
+    ]
+  },
+  {
+    "name": "pool",
+    "trans": [
+      "n. 联营；撞球；水塘",
+      "vt. 合伙经营",
+      "vi. 联营；合伙经营"
+    ]
+  },
+  {
+    "name": "agent",
+    "trans": [
+      "n. 代理人，代理商；药剂；特工",
+      "adj. 代理的",
+      "vt. 由…作中介；由…代理"
+    ]
+  },
+  {
+    "name": "real estate",
+    "trans": [
+      "n. 不动产；房地产"
+    ]
+  },
+  {
+    "name": "worthwhile",
+    "trans": [
+      "adj. 值得的；值钱的；有价值的"
+    ]
+  },
+  {
+    "name": "location",
+    "trans": [
+      "n. 地点，位置；场所，地方；定位，测位"
+    ]
+  },
+  {
+    "name": "suitable",
+    "trans": [
+      "adj. 合适的；适宜的",
+      "adv. 合适地；恰当地"
+    ]
+  },
+  {
+    "name": "decorate",
+    "trans": [
+      "vt. 装饰；布置；授勋给",
+      "vi. 装饰；布置"
+    ]
+  },
+  {
+    "name": "appointment",
+    "trans": [
+      "n. 约会，预约；任命，任职；约定，约会（时间）"
+    ]
+  },
+  {
+    "name": "single",
+    "trans": [
+      "n. 一个；单打；单程票",
+      "adj. 单一的；单身的；单程的",
+      "vt. 选出"
+    ]
+  },
+  {
+    "name": "garage",
+    "trans": [
+      "n. 车库；汽车修理站；飞机库",
+      "vt. 把…送入车库；把（汽车）开进车库"
+    ]
+  },
+  {
+    "name": "spare room",
+    "trans": [
+      "n. 备用室"
+    ]
+  },
+  {
+    "name": "shade",
+    "trans": [
+      "n. 遮阳，遮棚；挡风物；玻璃罩",
+      "vt. 遮蔽；险胜；加灯罩",
+      "vi. 逐渐变化"
+    ]
+  },
+  {
+    "name": "string",
+    "trans": [
+      "n. 线；细绳；一串",
+      "vt. 串起；成串；收紧",
+      "vi. 给...装弦"
+    ]
+  },
+  {
+    "name": "lettuce",
+    "trans": [
+      "n. 生菜；莴苣；（美）纸币"
+    ]
+  },
+  {
+    "name": "spoon",
+    "trans": [
+      "n. 匙，勺子；一杓的量",
+      "vt. 用匙舀；使成匙状",
+      "vi. 轻轻向上击"
+    ]
+  }
 ]

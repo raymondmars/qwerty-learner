@@ -1,306 +1,518 @@
 [
-    {
-        "name": "power steering",
-        "trans": ["动力方向盘"]
-    },
-    {
-        "name": "photo journalism",
-        "trans": ["图片新闻", "摄影新闻"]
-    },
-    {
-        "name": "structure",
-        "trans": ["结构"]
-    },
-    {
-        "name": "repetition",
-        "trans": ["重复"]
-    },
-    {
-        "name": "invest",
-        "trans": ["投资"]
-    },
-    {
-        "name": "framing",
-        "trans": ["框架"]
-    },
-    {
-        "name": "crime",
-        "trans": ["罪行"]
-    },
-    {
-        "name": "creative",
-        "trans": ["有创造力的"]
-    },
-    {
-        "name": "frame",
-        "trans": ["设计"]
-    },
-    {
-        "name": "inspire",
-        "trans": ["鼓舞"]
-    },
-    {
-        "name": "handout",
-        "trans": ["讲义"]
-    },
-    {
-        "name": "disappoint",
-        "trans": ["使失望"]
-    },
-    {
-        "name": "independent",
-        "trans": ["独立的"]
-    },
-    {
-        "name": "external",
-        "trans": ["外部的"]
-    },
-    {
-        "name": "obey",
-        "trans": ["遵守"]
-    },
-    {
-        "name": "procedure",
-        "trans": ["手续", "过程"]
-    },
-    {
-        "name": "consumer",
-        "trans": ["消费者"]
-    },
-    {
-        "name": "effect",
-        "trans": ["影响"]
-    },
-    {
-        "name": "mineral",
-        "trans": ["矿物"]
-    },
-    {
-        "name": "stitch",
-        "trans": ["缝补"]
-    },
-    {
-        "name": "pure",
-        "trans": ["纯净的"]
-    },
-    {
-        "name": "virus",
-        "trans": ["病毒"]
-    },
-    {
-        "name": "identity",
-        "trans": ["身份"]
-    },
-    {
-        "name": "evaluation",
-        "trans": ["评估"]
-    },
-    {
-        "name": "sound quality",
-        "trans": ["音质"]
-    },
-    {
-        "name": "case study",
-        "trans": ["案例分析"]
-    },
-    {
-        "name": "coral",
-        "trans": ["珊瑚"]
-    },
-    {
-        "name": "frog",
-        "trans": ["青蛙"]
-    },
-    {
-        "name": "bacteria",
-        "trans": ["细菌"]
-    },
-    {
-        "name": "smooth",
-        "trans": ["光滑的"]
-    },
-    {
-        "name": "chain",
-        "trans": ["连锁"]
-    },
-    {
-        "name": "optimisation",
-        "trans": ["最佳化"]
-    },
-    {
-        "name": "fibre",
-        "trans": ["纤维"]
-    },
-    {
-        "name": "stabilise",
-        "trans": ["使稳定", "使稳固"]
-    },
-    {
-        "name": "bone",
-        "trans": ["骨头"]
-    },
-    {
-        "name": "patterns",
-        "trans": ["模式"]
-    },
-    {
-        "name": "robot",
-        "trans": ["机器人"]
-    },
-    {
-        "name": "attention",
-        "trans": ["注意力"]
-    },
-    {
-        "name": "smell",
-        "trans": ["嗅"]
-    },
-    {
-        "name": "delay",
-        "trans": ["延期"]
-    },
-    {
-        "name": "accurate",
-        "trans": ["正确的"]
-    },
-    {
-        "name": "chapter",
-        "trans": ["章"]
-    },
-    {
-        "name": "darkroom",
-        "trans": ["暗室"]
-    },
-    {
-        "name": "volume",
-        "trans": ["音量"]
-    },
-    {
-        "name": "craft",
-        "trans": ["手工"]
-    },
-    {
-        "name": "packing",
-        "trans": ["包装"]
-    },
-    {
-        "name": "appreciate",
-        "trans": ["感激"]
-    },
-    {
-        "name": "accurate",
-        "trans": ["精确的"]
-    },
-    {
-        "name": "stimulate",
-        "trans": ["刺激"]
-    },
-    {
-        "name": "utility",
-        "trans": ["实用性"]
-    },
-    {
-        "name": "strict",
-        "trans": ["严格的"]
-    },
-    {
-        "name": "font",
-        "trans": ["字体"]
-    },
-    {
-        "name": "retail",
-        "trans": ["零售"]
-    },
-    {
-        "name": "staircase",
-        "trans": ["楼梯间"]
-    },
-    {
-        "name": "accumulate",
-        "trans": ["积累"]
-    },
-    {
-        "name": "steam",
-        "trans": ["蒸汽"]
-    },
-    {
-        "name": "timber",
-        "trans": ["木材"]
-    },
-    {
-        "name": "aggressive",
-        "trans": ["侵略的"]
-    },
-    {
-        "name": "analysis",
-        "trans": ["分析"]
-    },
-    {
-        "name": "additive",
-        "trans": ["添加剂"]
-    },
-    {
-        "name": "proofread",
-        "trans": ["校对"]
-    },
-    {
-        "name": "ignore",
-        "trans": ["忽略"]
-    },
-    {
-        "name": "rural",
-        "trans": ["乡下的"]
-    },
-    {
-        "name": "nitrogen",
-        "trans": ["氮气"]
-    },
-    {
-        "name": "ozone layer",
-        "trans": ["臭氧层"]
-    },
-    {
-        "name": "sculpture",
-        "trans": ["雕刻"]
-    },
-    {
-        "name": "moisture",
-        "trans": ["水分", "湿气"]
-    },
-    {
-        "name": "rubber",
-        "trans": ["橡胶轮胎"]
-    },
-    {
-        "name": "downhill",
-        "trans": ["下坡路"]
-    },
-    {
-        "name": "roof",
-        "trans": ["房顶"]
-    },
-    {
-        "name": "condition",
-        "trans": ["条件", "状况"]
-    },
-    {
-        "name": "fluid",
-        "trans": ["液体", "流体"]
-    },
-    {
-        "name": "kidney",
-        "trans": ["肾", "肾脏"]
-    },
-    {
-        "name": "machine",
-        "trans": ["机械"]
-    },
-    {
-        "name": "eyesight",
-        "trans": ["视力"]
-    },
-    {
-        "name": "camel",
-        "trans": ["骆驼"]
-    }
+  {
+    "name": "power steering",
+    "trans": [
+      "动力方向盘"
+    ]
+  },
+  {
+    "name": "photo journalism",
+    "trans": [
+      "图片新闻；摄影新闻"
+    ]
+  },
+  {
+    "name": "structure",
+    "trans": [
+      "n. 结构；构造；建筑物",
+      "vt. 组织；构成；建造"
+    ]
+  },
+  {
+    "name": "repetition",
+    "trans": [
+      "n. 重复，反复；重复的话；重复的行为"
+    ]
+  },
+  {
+    "name": "invest",
+    "trans": [
+      "vi. 投资，入股；花钱买",
+      "vt. 投资；覆盖；耗费"
+    ]
+  },
+  {
+    "name": "framing",
+    "trans": [
+      "n. 构架；框架；骨架"
+    ]
+  },
+  {
+    "name": "crime",
+    "trans": [
+      "n. 罪行，犯罪；罪恶",
+      "v. 指控犯罪；判定犯罪；处罚军事犯"
+    ]
+  },
+  {
+    "name": "creative",
+    "trans": [
+      "adj. 有创造力的，创新的；富有想象力的，有独创性的",
+      "n. 创意人员；创造性工作者"
+    ]
+  },
+  {
+    "name": "frame",
+    "trans": [
+      "n. 框架；结构；画面",
+      "adj. 有木架的；有构架的",
+      "vt. 设计；建造；陷害"
+    ]
+  },
+  {
+    "name": "inspire",
+    "trans": [
+      "vt. 鼓舞；激励；赋予灵感",
+      "vi. 吸；吸入"
+    ]
+  },
+  {
+    "name": "handout",
+    "trans": [
+      "n. 施舍物；救济品；印刷品"
+    ]
+  },
+  {
+    "name": "disappoint",
+    "trans": [
+      "vt. 使失望；使破灭，使落空",
+      "vi. 使失望"
+    ]
+  },
+  {
+    "name": "independent",
+    "trans": [
+      "n. 独立自主者；无党派者",
+      "adj. 独立的；单独的；无党派的"
+    ]
+  },
+  {
+    "name": "external",
+    "trans": [
+      "n. 外部；外观；外面",
+      "adj. 外部的；表面的；外用的"
+    ]
+  },
+  {
+    "name": "obey",
+    "trans": [
+      "vt. 服从，听从；按照……行动",
+      "vi. 服从，顺从；听话"
+    ]
+  },
+  {
+    "name": "procedure",
+    "trans": [
+      "n. 程序，步骤；手续，流程；手术，医疗程序"
+    ]
+  },
+  {
+    "name": "consumer",
+    "trans": [
+      "n. 消费者；顾客；用户"
+    ]
+  },
+  {
+    "name": "effect",
+    "trans": [
+      "n. 结果；效果；效力",
+      "vt. 招致；引起；实现",
+      "pl. 财产；动产"
+    ]
+  },
+  {
+    "name": "mineral",
+    "trans": [
+      "n. 矿物；（英）矿泉水；无机物",
+      "adj. 矿物的；矿质的"
+    ]
+  },
+  {
+    "name": "stitch",
+    "trans": [
+      "n. 针脚，线迹；一针",
+      "vt. 缝；缝合",
+      "vi. 缝；缝合"
+    ]
+  },
+  {
+    "name": "pure",
+    "trans": [
+      "adj. 纯的；单纯的；纯真的",
+      "prep. 清晰的；纯正的"
+    ]
+  },
+  {
+    "name": "virus",
+    "trans": [
+      "n. 病毒；恶毒；毒害"
+    ]
+  },
+  {
+    "name": "identity",
+    "trans": [
+      "n. 身份，特性；同一性，一致；身份认同"
+    ]
+  },
+  {
+    "name": "evaluation",
+    "trans": [
+      "n. 评价；评估；估价"
+    ]
+  },
+  {
+    "name": "sound quality",
+    "trans": [
+      "n. 音质"
+    ]
+  },
+  {
+    "name": "case study",
+    "trans": [
+      "n. 个案研究；专题研究；案例研究"
+    ]
+  },
+  {
+    "name": "coral",
+    "trans": [
+      "n. 珊瑚；珊瑚虫；珊瑚色",
+      "adj. 珊瑚的；珊瑚色的"
+    ]
+  },
+  {
+    "name": "frog",
+    "trans": [
+      "n. 青蛙；辙叉；饰扣",
+      "vi. 捕蛙"
+    ]
+  },
+  {
+    "name": "bacteria",
+    "trans": [
+      "n. 细菌（复数）；细菌（单复数同形）"
+    ]
+  },
+  {
+    "name": "smooth",
+    "trans": [
+      "adj. 平滑的；平静的；平稳的",
+      "vt. 使光滑；磨光；安慰",
+      "vi. 变光滑"
+    ]
+  },
+  {
+    "name": "chain",
+    "trans": [
+      "n. 链；束缚；枷锁",
+      "vt. 束缚；囚禁；用铁链锁住"
+    ]
+  },
+  {
+    "name": "optimisation",
+    "trans": [
+      "最佳化"
+    ]
+  },
+  {
+    "name": "fibre",
+    "trans": [
+      "n. 纤维，纤维质；纤维素，纤维制品；性格，道德品质"
+    ]
+  },
+  {
+    "name": "stabilise",
+    "trans": [
+      "vt. 使…坚固；使…安定；装稳定器（等于stablize）",
+      "vi. 稳定；安定"
+    ]
+  },
+  {
+    "name": "bone",
+    "trans": [
+      "n. 骨；骨骼",
+      "vt. 剔去...的骨；施骨肥于",
+      "vi. 苦学；专心致志"
+    ]
+  },
+  {
+    "name": "patterns",
+    "trans": [
+      "n. 模式（pattern的复数形式）",
+      "v. 摹制；用图案装饰"
+    ]
+  },
+  {
+    "name": "robot",
+    "trans": [
+      "n. 机器人；遥控设备，自动机械；机械般工作的人"
+    ]
+  },
+  {
+    "name": "attention",
+    "trans": [
+      "n. 注意，注意力；照料，关怀；殷勤",
+      "int. 口令立正"
+    ]
+  },
+  {
+    "name": "smell",
+    "trans": [
+      "n. 嗅觉；气味；味道",
+      "vt. 嗅；闻；探出",
+      "vi. 闻；发臭"
+    ]
+  },
+  {
+    "name": "delay",
+    "trans": [
+      "n. 延期；耽搁；被耽搁或推迟的时间",
+      "vt. 延期；耽搁",
+      "vi. 延期；耽搁"
+    ]
+  },
+  {
+    "name": "accurate",
+    "trans": [
+      "adj. 准确的；精确的；正确的"
+    ]
+  },
+  {
+    "name": "chapter",
+    "trans": [
+      "n. 章，回；（俱乐部、协会等的）分会；人生或历史上的重要时期",
+      "vt. 把…分成章节"
+    ]
+  },
+  {
+    "name": "darkroom",
+    "trans": [
+      "n. 暗房；暗室"
+    ]
+  },
+  {
+    "name": "volume",
+    "trans": [
+      "n. 体积，容积；总数，总量；音量，响度",
+      "adj. 大量的",
+      "v. 以卷的形式发出；成团卷起"
+    ]
+  },
+  {
+    "name": "craft",
+    "trans": [
+      "n. 手艺，工艺；船，飞行器；诡计，手腕",
+      "v. 精心制作；手工制作"
+    ]
+  },
+  {
+    "name": "packing",
+    "trans": [
+      "n. 包装；填充物",
+      "v. 包装；装满；压紧（pack的ing形式）"
+    ]
+  },
+  {
+    "name": "appreciate",
+    "trans": [
+      "vi. 增值；涨价",
+      "vt. 欣赏；感激；领会"
+    ]
+  },
+  {
+    "name": "accurate",
+    "trans": [
+      "adj. 准确的；精确的；正确的"
+    ]
+  },
+  {
+    "name": "stimulate",
+    "trans": [
+      "vt. 刺激；激励，鼓舞；使兴奋",
+      "vi. 起兴奋作用；起促进作用；起刺激作用"
+    ]
+  },
+  {
+    "name": "utility",
+    "trans": [
+      "n. 实用；效用；公共设施",
+      "adj. 实用的；通用的；有多种用途的"
+    ]
+  },
+  {
+    "name": "strict",
+    "trans": [
+      "adj. 严格的，严厉的；严密的，精确的；严谨的，一丝不苟的"
+    ]
+  },
+  {
+    "name": "font",
+    "trans": [
+      "n. 字体；字形；泉"
+    ]
+  },
+  {
+    "name": "retail",
+    "trans": [
+      "n. 零售",
+      "vt. 零售；零卖；转述",
+      "adj. 零售的"
+    ]
+  },
+  {
+    "name": "staircase",
+    "trans": [
+      "n. 楼梯；阶梯"
+    ]
+  },
+  {
+    "name": "accumulate",
+    "trans": [
+      "vt. 积累；累加；堆积",
+      "vi. 堆积；累积"
+    ]
+  },
+  {
+    "name": "steam",
+    "trans": [
+      "n. 蒸汽；水蒸气",
+      "vi. 蒸发；蒸；冒热气",
+      "vt. 蒸"
+    ]
+  },
+  {
+    "name": "timber",
+    "trans": [
+      "n. 木材，木料；林木，树木",
+      "v. 用木材支撑；伐木"
+    ]
+  },
+  {
+    "name": "aggressive",
+    "trans": [
+      "adj. 好斗的，挑衅的；气势汹汹的；积极进取的，有进取心的"
+    ]
+  },
+  {
+    "name": "analysis",
+    "trans": [
+      "n. 分析，解析；分析报告，分析结果；分析方法，分析体系"
+    ]
+  },
+  {
+    "name": "additive",
+    "trans": [
+      "n. 添加剂；添加物；数加法",
+      "adj. 附加的；化加成的，加和的；数加法的"
+    ]
+  },
+  {
+    "name": "proofread",
+    "trans": [
+      "vt. 校对；校勘",
+      "vi. 做校对工作"
+    ]
+  },
+  {
+    "name": "ignore",
+    "trans": [
+      "vt. 驳回诉讼；忽视；不理睬"
+    ]
+  },
+  {
+    "name": "rural",
+    "trans": [
+      "adj. 乡下的，农村的；田园的；地方的"
+    ]
+  },
+  {
+    "name": "nitrogen",
+    "trans": [
+      "n. 氮；氮气"
+    ]
+  },
+  {
+    "name": "ozone layer",
+    "trans": [
+      "臭氧层"
+    ]
+  },
+  {
+    "name": "sculpture",
+    "trans": [
+      "n. 雕塑；雕刻；刻蚀",
+      "vt. 雕塑；雕刻；刻蚀",
+      "vi. 从事雕刻"
+    ]
+  },
+  {
+    "name": "moisture",
+    "trans": [
+      "n. 水分；湿度；潮湿"
+    ]
+  },
+  {
+    "name": "rubber",
+    "trans": [
+      "n. 橡胶；橡皮；合成橡胶",
+      "adj. 橡胶制成的",
+      "vt. 涂橡胶于；用橡胶制造"
+    ]
+  },
+  {
+    "name": "downhill",
+    "trans": [
+      "n. 下坡；滑降",
+      "adj. 下坡的；容易的",
+      "adv. 下坡；向下；每况愈下"
+    ]
+  },
+  {
+    "name": "roof",
+    "trans": [
+      "n. 屋顶，房屋；最高部，顶部；最高限度",
+      "vt. 给…盖顶；覆盖；保护，庇护"
+    ]
+  },
+  {
+    "name": "condition",
+    "trans": [
+      "n. 条件；情况；环境",
+      "vt. 决定；使适应；使健康"
+    ]
+  },
+  {
+    "name": "fluid",
+    "trans": [
+      "n. 流体；液体",
+      "adj. 流动的；流畅的；不固定的"
+    ]
+  },
+  {
+    "name": "kidney",
+    "trans": [
+      "n. 肾脏；腰子；个性"
+    ]
+  },
+  {
+    "name": "machine",
+    "trans": [
+      "n. 机器，机械；机械般的人；核心",
+      "vt. 用机器制造；用机器加工",
+      "vi. 被机器切削"
+    ]
+  },
+  {
+    "name": "eyesight",
+    "trans": [
+      "n. 视觉，视力；见解，观察；眼力"
+    ]
+  },
+  {
+    "name": "camel",
+    "trans": [
+      "n. 骆驼；打捞浮筒；工作作风官僚",
+      "adj. 驼色的；暗棕色的",
+      "vi. 工作刻板平庸"
+    ]
+  }
 ]

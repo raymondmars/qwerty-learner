@@ -1,218 +1,242 @@
 [
-    {
-        "name": "pedestrian",
-        "trans": [
-            "n. 行人"
-        ]
-    },
-    {
-        "name": "safety",
-        "trans": [
-            "n. 安全"
-        ]
-    },
-    {
-        "name": "traffic accident",
-        "trans": [
-            "n. 交通事故"
-        ]
-    },
-    {
-        "name": "traffic jam",
-        "trans": [
-            "n. 交通堵塞"
-        ]
-    },
-    {
-        "name": "traffic congestion",
-        "trans": [
-            "n. 交通堵塞"
-        ]
-    },
-    {
-        "name": "pollution",
-        "trans": [
-            "n. 污染"
-        ]
-    },
-    {
-        "name": "install",
-        "trans": [
-            "v. 安装"
-        ]
-    },
-    {
-        "name": "traffic light",
-        "trans": [
-            "n. 交通信号灯"
-        ]
-    },
-    {
-        "name": "crossroads",
-        "trans": [
-            "n. 十字路口"
-        ]
-    },
-    {
-        "name": "intersection",
-        "trans": [
-            "n. 十字路口"
-        ]
-    },
-    {
-        "name": "junction",
-        "trans": [
-            "n. 路口"
-        ]
-    },
-    {
-        "name": "erect",
-        "trans": [
-            "v. 树立"
-        ]
-    },
-    {
-        "name": "sign",
-        "trans": [
-            "n. 标志"
-        ]
-    },
-    {
-        "name": "keep clear",
-        "trans": [
-            "禁止占用"
-        ]
-    },
-    {
-        "name": "out of bounds",
-        "trans": [
-            "禁止入内"
-        ]
-    },
-    {
-        "name": "pavement",
-        "trans": [
-            "n. 人行道"
-        ]
-    },
-    {
-        "name": "footpath",
-        "trans": [
-            "n. 人行道"
-        ]
-    },
-    {
-        "name": "widen",
-        "trans": [
-            "v. 使……变宽"
-        ]
-    },
-    {
-        "name": "colour",
-        "trans": [
-            "v. 给……着色"
-        ]
-    },
-    {
-        "name": "mark",
-        "trans": [
-            "v. 做标记"
-        ]
-    },
-    {
-        "name": "bend",
-        "trans": [
-            "n. 转弯处"
-        ]
-    },
-    {
-        "name": "corner",
-        "trans": [
-            "n. 转弯处"
-        ]
-    },
-    {
-        "name": "cycle path/ lane",
-        "trans": [
-            "n. 自行车道"
-        ]
-    },
-    {
-        "name": "separate",
-        "trans": [
-            "adj. 分开的，单独的"
-        ]
-    },
-    {
-        "name": "parking",
-        "trans": [
-            "n. 停车"
-        ]
-    },
-    {
-        "name": "car park",
-        "trans": [
-            "n. 【英】停车场"
-        ]
-    },
-    {
-        "name": "parking lot",
-        "trans": [
-            "n. 【美】停车场"
-        ]
-    },
-    {
-        "name": "disabled",
-        "trans": [
-            "adj. 残疾的"
-        ]
-    },
-    {
-        "name": "pay and display",
-        "trans": [
-            "泊车付费系统"
-        ]
-    },
-    {
-        "name": "regulation",
-        "trans": [
-            "n. 法规，规则"
-        ]
-    },
-    {
-        "name": "regulate",
-        "trans": [
-            "v. 控制，调节"
-        ]
-    },
-    {
-        "name": "restriction",
-        "trans": [
-            "n. 限制"
-        ]
-    },
-    {
-        "name": "lorry",
-        "trans": [
-            "n. 卡车"
-        ]
-    },
-    {
-        "name": "load",
-        "trans": [
-            "v. 装载"
-        ]
-    },
-    {
-        "name": "obey",
-        "trans": [
-            "v. 遵守"
-        ]
-    },
-    {
-        "name": "ban",
-        "trans": [
-            "v. 禁止"
-        ]
-    }
+  {
+    "name": "pedestrian",
+    "trans": [
+      "n. 行人；步行者",
+      "adj. 平凡的；乏味的；缺乏想象力的"
+    ]
+  },
+  {
+    "name": "safety",
+    "trans": [
+      "n. 安全；保险；安全打",
+      "vt. 保护"
+    ]
+  },
+  {
+    "name": "traffic accident",
+    "trans": [
+      "n. 交通事故"
+    ]
+  },
+  {
+    "name": "traffic jam",
+    "trans": [
+      "n. 交通堵塞"
+    ]
+  },
+  {
+    "name": "traffic congestion",
+    "trans": [
+      "n. 交通堵塞"
+    ]
+  },
+  {
+    "name": "pollution",
+    "trans": [
+      "n. 污染；污染物；噪音污染，（夜间扰人的）强烈灯光"
+    ]
+  },
+  {
+    "name": "install",
+    "trans": [
+      "vt. 安装；任命；安顿"
+    ]
+  },
+  {
+    "name": "traffic light",
+    "trans": [
+      "n. 交通信号灯；红绿灯"
+    ]
+  },
+  {
+    "name": "crossroads",
+    "trans": [
+      "n. 十字路口转折点；重大的抉择时刻处于关键时刻；在紧要关头"
+    ]
+  },
+  {
+    "name": "intersection",
+    "trans": [
+      "n. 交叉点，十字路口；交集，共同点；相交，交叉"
+    ]
+  },
+  {
+    "name": "junction",
+    "trans": [
+      "n. 连接点，交叉点；交汇处，汇合处；（电路的）连接，接合"
+    ]
+  },
+  {
+    "name": "erect",
+    "trans": [
+      "vt. 使竖立；建造；安装",
+      "adj. 竖立的；笔直的；因性刺激而勃起的",
+      "vi. 直立；勃起"
+    ]
+  },
+  {
+    "name": "sign",
+    "trans": [
+      "n. 迹象；符号；记号",
+      "vt. 签署；示意",
+      "vi. 签署；签名"
+    ]
+  },
+  {
+    "name": "keep clear",
+    "trans": [
+      "禁止占用"
+    ]
+  },
+  {
+    "name": "out of bounds",
+    "trans": [
+      "禁止入内"
+    ]
+  },
+  {
+    "name": "pavement",
+    "trans": [
+      "n. 人行道；硬路面；铺过的路面"
+    ]
+  },
+  {
+    "name": "footpath",
+    "trans": [
+      "n. 人行道；小路；小径"
+    ]
+  },
+  {
+    "name": "widen",
+    "trans": [
+      "vt. 加宽；扩大",
+      "vi. 变宽；变阔扩大"
+    ]
+  },
+  {
+    "name": "colour",
+    "trans": [
+      "n. 颜色；风格；气色，面色",
+      "vt. 把…涂颜色，粉饰；歪曲；使脸红",
+      "vi. 变色"
+    ]
+  },
+  {
+    "name": "mark",
+    "trans": [
+      "n. 标志；马克；符号",
+      "vi. 作记号",
+      "vt. 标志；做标记于；打分数"
+    ]
+  },
+  {
+    "name": "bend",
+    "trans": [
+      "n. 弯曲",
+      "vt. 使弯曲；使屈服；使致力",
+      "vi. 弯曲，转弯；屈服；倾向"
+    ]
+  },
+  {
+    "name": "corner",
+    "trans": [
+      "n. 角落，角；拐角；困境",
+      "vi. 驾车转弯；聚于角落",
+      "vt. 垄断；逼入困境"
+    ]
+  },
+  {
+    "name": "cycle path/ lane",
+    "trans": [
+      "n. 自行车道"
+    ]
+  },
+  {
+    "name": "separate",
+    "trans": [
+      "n. 分开；抽印本",
+      "adj. 单独的；分开的；不同的",
+      "vt. 使分离；使分开；使分居"
+    ]
+  },
+  {
+    "name": "parking",
+    "trans": [
+      "n. （车辆等的）停放；停车场所；停车位",
+      "v. 停放；停车；“park”的现在分词"
+    ]
+  },
+  {
+    "name": "car park",
+    "trans": [
+      "n. 停车场"
+    ]
+  },
+  {
+    "name": "parking lot",
+    "trans": [
+      "n. 停车场"
+    ]
+  },
+  {
+    "name": "disabled",
+    "trans": [
+      "adj. 残废的；有缺陷的",
+      "v. 使残废；使伤残；使无效"
+    ]
+  },
+  {
+    "name": "pay and display",
+    "trans": [
+      "泊车付费系统"
+    ]
+  },
+  {
+    "name": "regulation",
+    "trans": [
+      "n. 管理；控制；规章",
+      "adj. 规定的；必须穿戴的；必须使用的"
+    ]
+  },
+  {
+    "name": "regulate",
+    "trans": [
+      "v. 管理，控制；调节，调整；规范，规定"
+    ]
+  },
+  {
+    "name": "restriction",
+    "trans": [
+      "n. 限制，约束；限制条件，限制规定；受限制的事物"
+    ]
+  },
+  {
+    "name": "lorry",
+    "trans": [
+      "n. （英）卡车；货车；运料车"
+    ]
+  },
+  {
+    "name": "load",
+    "trans": [
+      "n. 负载，负荷；工作量；装载量",
+      "vi. 加载；装载；装货",
+      "vt. 使担负；装填"
+    ]
+  },
+  {
+    "name": "obey",
+    "trans": [
+      "vt. 服从，听从；按照……行动",
+      "vi. 服从，顺从；听话"
+    ]
+  },
+  {
+    "name": "ban",
+    "trans": [
+      "vt. 禁止，下令禁止；剥夺权利；古诅咒",
+      "n. 禁止，禁令；谴责；诅咒，诅骂"
+    ]
+  }
 ]

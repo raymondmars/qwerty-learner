@@ -1,674 +1,760 @@
 [
-    {
-        "name": "classroom",
-        "trans": [
-            "教室"
-        ],
-        "usphone": "'klæsrʊm",
-        "ukphone": "'klɑːsruːm; -rʊm"
-    },
-    {
-        "name": "window",
-        "trans": [
-            "窗户"
-        ],
-        "usphone": "'wɪndo",
-        "ukphone": "'wɪndəʊ"
-    },
-    {
-        "name": "blackboard",
-        "trans": [
-            "黑板"
-        ],
-        "usphone": "'blækbɔrd",
-        "ukphone": "'blækbɔːd"
-    },
-    {
-        "name": "light",
-        "trans": [
-            "电灯"
-        ],
-        "usphone": "laɪt",
-        "ukphone": "laɪt"
-    },
-    {
-        "name": "picture",
-        "trans": [
-            "图画"
-        ],
-        "usphone": "'pɪktʃɚ",
-        "ukphone": "'pɪktʃə"
-    },
-    {
-        "name": "door",
-        "trans": [
-            "门"
-        ],
-        "usphone": "dɔr",
-        "ukphone": "dɔː"
-    },
-    {
-        "name": "teacher's desk",
-        "trans": [
-            "讲台"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "computer",
-        "trans": [
-            "计算机"
-        ],
-        "usphone": "kəm'pjutɚ",
-        "ukphone": "kəm'pjuːtə"
-    },
-    {
-        "name": "fan",
-        "trans": [
-            "风扇"
-        ],
-        "usphone": "fæn",
-        "ukphone": "fæn"
-    },
-    {
-        "name": "wall",
-        "trans": [
-            "墙壁"
-        ],
-        "usphone": "wɔl",
-        "ukphone": "wɔːl"
-    },
-    {
-        "name": "floor",
-        "trans": [
-            "地板"
-        ],
-        "usphone": "flɔr",
-        "ukphone": "flɔː"
-    },
-    {
-        "name": "really",
-        "trans": [
-            "真的"
-        ],
-        "usphone": "ˈriəˌli, ˈrili",
-        "ukphone": "'rɪəlɪ"
-    },
-    {
-        "name": "near",
-        "trans": [
-            "距离近"
-        ],
-        "usphone": "nɪr",
-        "ukphone": "nɪə"
-    },
-    {
-        "name": "TV",
-        "trans": [
-            "电视"
-        ],
-        "usphone": "ˌti vi",
-        "ukphone": "ˌti: ˈvi:"
-    },
-    {
-        "name": "clean",
-        "trans": [
-            "打扫"
-        ],
-        "usphone": "klin",
-        "ukphone": "kliːn"
-    },
-    {
-        "name": "help",
-        "trans": [
-            "帮助"
-        ],
-        "usphone": "hɛlp",
-        "ukphone": "help"
-    },
-    {
-        "name": "schoolbag",
-        "trans": [
-            "书包"
-        ],
-        "usphone": "ˈskulˌbæɡ",
-        "ukphone": "'skuːlbæɡ"
-    },
-    {
-        "name": "maths book",
-        "trans": [
-            "数学书"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "English book",
-        "trans": [
-            "英语书"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "Chinese book",
-        "trans": [
-            "语文书"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "storybook",
-        "trans": [
-            "故事书"
-        ],
-        "usphone": "'stɔrɪ'bʊk",
-        "ukphone": "'stɔːrɪbʊk"
-    },
-    {
-        "name": "candy",
-        "trans": [
-            "糖果"
-        ],
-        "usphone": "ˈkændɪ",
-        "ukphone": "'kændɪ"
-    },
-    {
-        "name": "notebook",
-        "trans": [
-            "笔记本"
-        ],
-        "usphone": "'notbʊk",
-        "ukphone": "'nəʊtbʊk"
-    },
-    {
-        "name": "toy",
-        "trans": [
-            "玩具"
-        ],
-        "usphone": "tɔɪ",
-        "ukphone": "tɒɪ"
-    },
-    {
-        "name": "key",
-        "trans": [
-            "钥匙"
-        ],
-        "usphone": "",
-        "ukphone": "kiː"
-    },
-    {
-        "name": "wow",
-        "trans": [
-            "呀"
-        ],
-        "usphone": "wou",
-        "ukphone": "waʊ"
-    },
-    {
-        "name": "lost",
-        "trans": [
-            "丢失"
-        ],
-        "usphone": "lɔst",
-        "ukphone": "lɒst"
-    },
-    {
-        "name": "so much",
-        "trans": [
-            "非常地"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "cute",
-        "trans": [
-            "可爱的"
-        ],
-        "usphone": "kjʊt",
-        "ukphone": "kjuːt"
-    },
-    {
-        "name": "strong",
-        "trans": [
-            "强壮的"
-        ],
-        "usphone": "strɔŋ",
-        "ukphone": "strɒŋ"
-    },
-    {
-        "name": "friendly",
-        "trans": [
-            "友好的"
-        ],
-        "usphone": "ˈfrɛndlɪ",
-        "ukphone": "ˈfrendlɪ"
-    },
-    {
-        "name": "quiet",
-        "trans": [
-            "安静的"
-        ],
-        "usphone": "'kwaɪət",
-        "ukphone": "'kwaɪət"
-    },
-    {
-        "name": "hair",
-        "trans": [
-            "头发"
-        ],
-        "usphone": "hɛr",
-        "ukphone": "heə"
-    },
-    {
-        "name": "shoe",
-        "trans": [
-            "鞋"
-        ],
-        "usphone": "ʃu",
-        "ukphone": "ʃuː"
-    },
-    {
-        "name": "glasses",
-        "trans": [
-            "眼镜"
-        ],
-        "usphone": "'glæsɪz",
-        "ukphone": "'glɑːsɪz"
-    },
-    {
-        "name": "his",
-        "trans": [
-            "他的"
-        ],
-        "usphone": "hɪz",
-        "ukphone": "hɪz"
-    },
-    {
-        "name": "or",
-        "trans": [
-            "或者"
-        ],
-        "usphone": "ɔr",
-        "ukphone": "ɔː"
-    },
-    {
-        "name": "right",
-        "trans": [
-            "对的"
-        ],
-        "usphone": "raɪt",
-        "ukphone": "raɪt"
-    },
-    {
-        "name": "hat",
-        "trans": [
-            "帽子"
-        ],
-        "usphone": "hæt",
-        "ukphone": "hæt"
-    },
-    {
-        "name": "her",
-        "trans": [
-            "她的"
-        ],
-        "usphone": "hɚ",
-        "ukphone": "hɜː"
-    },
-    {
-        "name": "bedroom",
-        "trans": [
-            "卧室"
-        ],
-        "usphone": "'bɛdrum",
-        "ukphone": "'bedruːm; -rʊm"
-    },
-    {
-        "name": "living room",
-        "trans": [
-            "客厅"
-        ],
-        "usphone": "'lɪvɪŋ rum",
-        "ukphone": "'lɪvɪŋ ru:m"
-    },
-    {
-        "name": "study",
-        "trans": [
-            "书房"
-        ],
-        "usphone": "'stʌdi",
-        "ukphone": "'stʌdɪ"
-    },
-    {
-        "name": "kitchen",
-        "trans": [
-            "厨房"
-        ],
-        "usphone": "'kɪtʃɪn",
-        "ukphone": "'kɪtʃɪn; -tʃ(ə)n"
-    },
-    {
-        "name": "bathroom",
-        "trans": [
-            "浴室"
-        ],
-        "usphone": "'bæθrum",
-        "ukphone": "'bɑːθruːm; -rʊm"
-    },
-    {
-        "name": "bed",
-        "trans": [
-            "床"
-        ],
-        "usphone": "bɛd",
-        "ukphone": "bed"
-    },
-    {
-        "name": "phone",
-        "trans": [
-            "电话"
-        ],
-        "usphone": "fon",
-        "ukphone": "fəʊn"
-    },
-    {
-        "name": "table",
-        "trans": [
-            "桌子"
-        ],
-        "usphone": "'tebl",
-        "ukphone": "'teɪb(ə)l"
-    },
-    {
-        "name": "sofa",
-        "trans": [
-            "长沙发"
-        ],
-        "usphone": "'sofə",
-        "ukphone": "'səʊfə"
-    },
-    {
-        "name": "fridge",
-        "trans": [
-            "冰箱"
-        ],
-        "usphone": "frɪdʒ",
-        "ukphone": "frɪdʒ"
-    },
-    {
-        "name": "find",
-        "trans": [
-            "找到"
-        ],
-        "usphone": "faɪnd",
-        "ukphone": "faɪnd"
-    },
-    {
-        "name": "them",
-        "trans": [
-            "他们"
-        ],
-        "usphone": "ðɛm; ðəm",
-        "ukphone": "ðem; ðəm"
-    },
-    {
-        "name": "beef",
-        "trans": [
-            "牛肉"
-        ],
-        "usphone": "bif",
-        "ukphone": "biːf"
-    },
-    {
-        "name": "chicken",
-        "trans": [
-            "鸡肉"
-        ],
-        "usphone": "ˈtʃɪkɪn",
-        "ukphone": "'tʃɪkɪn"
-    },
-    {
-        "name": "noodles",
-        "trans": [
-            "面条"
-        ],
-        "usphone": "ˈnudlz",
-        "ukphone": "ˈnu:dlz"
-    },
-    {
-        "name": "soup",
-        "trans": [
-            "汤"
-        ],
-        "usphone": "sup",
-        "ukphone": "suːp"
-    },
-    {
-        "name": "vegetable",
-        "trans": [
-            "蔬菜"
-        ],
-        "usphone": "ˈvɛdʒtəbl",
-        "ukphone": "ˈvedʒtəbl"
-    },
-    {
-        "name": "chopsticks",
-        "trans": [
-            "筷子"
-        ],
-        "usphone": "'tʃɑp,stɪks",
-        "ukphone": "'tʃɒpstɪks"
-    },
-    {
-        "name": "bowl",
-        "trans": [
-            "碗"
-        ],
-        "usphone": "bol",
-        "ukphone": "bəʊl"
-    },
-    {
-        "name": "fork",
-        "trans": [
-            "餐叉"
-        ],
-        "usphone": "fɔrk",
-        "ukphone": "fɔːk"
-    },
-    {
-        "name": "knife",
-        "trans": [
-            "刀"
-        ],
-        "usphone": "naɪf",
-        "ukphone": "naɪf"
-    },
-    {
-        "name": "spoon",
-        "trans": [
-            "匙,勺子"
-        ],
-        "usphone": "spun",
-        "ukphone": "spuːn"
-    },
-    {
-        "name": "dinner",
-        "trans": [
-            "正餐"
-        ],
-        "usphone": "'dɪnɚ",
-        "ukphone": "'dɪnə"
-    },
-    {
-        "name": "ready",
-        "trans": [
-            "准备好"
-        ],
-        "usphone": "'rɛdi",
-        "ukphone": "'redɪ"
-    },
-    {
-        "name": "help yourself",
-        "trans": [
-            "为（自己）取用"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "pass",
-        "trans": [
-            "给"
-        ],
-        "usphone": "pæs",
-        "ukphone": "pɑːs"
-    },
-    {
-        "name": "try",
-        "trans": [
-            "试"
-        ],
-        "usphone": "traɪ",
-        "ukphone": "traɪ"
-    },
-    {
-        "name": "parents",
-        "trans": [
-            "父母"
-        ],
-        "usphone": "'pɛrənts",
-        "ukphone": "'peərənts"
-    },
-    {
-        "name": "cousin",
-        "trans": [
-            "同辈表亲"
-        ],
-        "usphone": "'kʌzn",
-        "ukphone": "'kʌz(ə)n"
-    },
-    {
-        "name": "uncle",
-        "trans": [
-            "叔叔"
-        ],
-        "usphone": "'ʌŋkl",
-        "ukphone": "'ʌŋk(ə)l"
-    },
-    {
-        "name": "aunt",
-        "trans": [
-            "阿姨"
-        ],
-        "usphone": "ænt",
-        "ukphone": "ɑːnt"
-    },
-    {
-        "name": "baby brother",
-        "trans": [
-            "小弟弟"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "doctor",
-        "trans": [
-            "医生"
-        ],
-        "usphone": "'dɑktɚ",
-        "ukphone": "'dɒktə"
-    },
-    {
-        "name": "cook",
-        "trans": [
-            "厨师"
-        ],
-        "usphone": "kʊk",
-        "ukphone": "kʊk"
-    },
-    {
-        "name": "driver",
-        "trans": [
-            "司机"
-        ],
-        "usphone": "'draɪvɚ",
-        "ukphone": "'draɪvə"
-    },
-    {
-        "name": "farmer",
-        "trans": [
-            "农民"
-        ],
-        "usphone": "'fɑmɚ",
-        "ukphone": "'fɑːmə"
-    },
-    {
-        "name": "nurse",
-        "trans": [
-            "护士"
-        ],
-        "usphone": "nɝs",
-        "ukphone": "nɜːs"
-    },
-    {
-        "name": "people",
-        "trans": [
-            "人们"
-        ],
-        "usphone": "'pipl",
-        "ukphone": "'piːp(ə)l"
-    },
-    {
-        "name": "but",
-        "trans": [
-            "但是"
-        ],
-        "usphone": "bʌt",
-        "ukphone": "bʌt; bət"
-    },
-    {
-        "name": "little",
-        "trans": [
-            "小的"
-        ],
-        "usphone": "'lɪtl",
-        "ukphone": "'lɪt(ə)l"
-    },
-    {
-        "name": "puppy",
-        "trans": [
-            "小狗"
-        ],
-        "usphone": "'pʌpi",
-        "ukphone": "'pʌpɪ"
-    },
-    {
-        "name": "football player",
-        "trans": [
-            "足球运动员"
-        ],
-        "usphone": "",
-        "ukphone": ""
-    },
-    {
-        "name": "job",
-        "trans": [
-            "工作"
-        ],
-        "usphone": "",
-        "ukphone": "dʒɒb"
-    },
-    {
-        "name": "basketball",
-        "trans": [
-            "篮球"
-        ],
-        "usphone": "'bæskɪtbɔl",
-        "ukphone": "'bɑːskɪtbɔːl"
-    }
+  {
+    "name": "classroom",
+    "trans": [
+      "n. 教室；教学活动；教学方法"
+    ],
+    "usphone": "'klæsrʊm",
+    "ukphone": "'klɑːsruːm; -rʊm"
+  },
+  {
+    "name": "window",
+    "trans": [
+      "n. 窗户，窗口；窗格，窗玻璃；（计算机屏幕上的）窗口"
+    ],
+    "usphone": "'wɪndo",
+    "ukphone": "'wɪndəʊ"
+  },
+  {
+    "name": "blackboard",
+    "trans": [
+      "n. 黑板"
+    ],
+    "usphone": "'blækbɔrd",
+    "ukphone": "'blækbɔːd"
+  },
+  {
+    "name": "light",
+    "trans": [
+      "n. 光；光线；灯",
+      "adj. 轻的；浅色的；明亮的",
+      "v. 点亮；照亮"
+    ],
+    "usphone": "laɪt",
+    "ukphone": "laɪt"
+  },
+  {
+    "name": "picture",
+    "trans": [
+      "n. 照片，图画；影片；景色",
+      "vt. 画；想像；描写"
+    ],
+    "usphone": "'pɪktʃɚ",
+    "ukphone": "'pɪktʃə"
+  },
+  {
+    "name": "door",
+    "trans": [
+      "n. 门；门口；家"
+    ],
+    "usphone": "dɔr",
+    "ukphone": "dɔː"
+  },
+  {
+    "name": "teacher's desk",
+    "trans": [
+      "讲台"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "computer",
+    "trans": [
+      "n. 计算机；电脑；电子计算机"
+    ],
+    "usphone": "kəm'pjutɚ",
+    "ukphone": "kəm'pjuːtə"
+  },
+  {
+    "name": "fan",
+    "trans": [
+      "n. 迷；风扇；爱好者",
+      "vt. 煽动；刺激；吹拂",
+      "vi. 成扇形散开；飘动"
+    ],
+    "usphone": "fæn",
+    "ukphone": "fæn"
+  },
+  {
+    "name": "wall",
+    "trans": [
+      "n. 墙；壁；围墙",
+      "vt. 用墙围住；用墙隔开",
+      "v. 演戏般地转动(眼睛)"
+    ],
+    "usphone": "wɔl",
+    "ukphone": "wɔːl"
+  },
+  {
+    "name": "floor",
+    "trans": [
+      "n. 地板，地面；楼层；基底",
+      "vt. 铺地板；打倒，击倒；（被困难）难倒"
+    ],
+    "usphone": "flɔr",
+    "ukphone": "flɔː"
+  },
+  {
+    "name": "really",
+    "trans": [
+      "adv. 真正地，确实地；非常，很；的确，实在",
+      "int. 真的吗？",
+      "adj. 真实的；真正的"
+    ],
+    "usphone": "ˈriəˌli, ˈrili",
+    "ukphone": "'rɪəlɪ"
+  },
+  {
+    "name": "near",
+    "trans": [
+      "adj. 接近的，靠近的；近似的，差不多的",
+      "adv. 在附近；接近",
+      "prep. 靠近；接近"
+    ],
+    "usphone": "nɪr",
+    "ukphone": "nɪə"
+  },
+  {
+    "name": "TV",
+    "trans": [
+      "n. 电视；电视机；电视节目"
+    ],
+    "usphone": "ˌti vi",
+    "ukphone": "ˌti: ˈvi:"
+  },
+  {
+    "name": "clean",
+    "trans": [
+      "adj. 清洁的；整齐的；新的",
+      "vt.&vi. （使）清洁；变干净；除去…的灰尘",
+      "vi. 清扫"
+    ],
+    "usphone": "klin",
+    "ukphone": "kliːn"
+  },
+  {
+    "name": "help",
+    "trans": [
+      "n. 帮助；补救办法；帮忙者",
+      "vt. 帮助；促进；治疗",
+      "vi. 帮助；有用；招待"
+    ],
+    "usphone": "hɛlp",
+    "ukphone": "help"
+  },
+  {
+    "name": "schoolbag",
+    "trans": [
+      "n. 书包"
+    ],
+    "usphone": "ˈskulˌbæɡ",
+    "ukphone": "'skuːlbæɡ"
+  },
+  {
+    "name": "maths book",
+    "trans": [
+      "数学书"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "English book",
+    "trans": [
+      "英语书"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "Chinese book",
+    "trans": [
+      "语文书"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "storybook",
+    "trans": [
+      "n. 故事书；小说"
+    ],
+    "usphone": "'stɔrɪ'bʊk",
+    "ukphone": "'stɔːrɪbʊk"
+  },
+  {
+    "name": "candy",
+    "trans": [
+      "n. 糖果；砂糖结晶",
+      "vt. 用糖煮；使结晶为砂糖",
+      "vi. 结晶为砂糖"
+    ],
+    "usphone": "ˈkændɪ",
+    "ukphone": "'kændɪ"
+  },
+  {
+    "name": "notebook",
+    "trans": [
+      "n. 笔记簿；笔记本电脑；手册"
+    ],
+    "usphone": "'notbʊk",
+    "ukphone": "'nəʊtbʊk"
+  },
+  {
+    "name": "toy",
+    "trans": [
+      "n. 玩具；玩物；小玩意",
+      "adj. 玩具的；作为玩具的；微小的",
+      "v. 玩弄；摆弄；戏弄"
+    ],
+    "usphone": "tɔɪ",
+    "ukphone": "tɒɪ"
+  },
+  {
+    "name": "key",
+    "trans": [
+      "n. 钥匙；关键；答案",
+      "adj. 主要的；关键的",
+      "vt. 上锁；调节；提供解答"
+    ],
+    "usphone": "",
+    "ukphone": "kiː"
+  },
+  {
+    "name": "wow",
+    "trans": [
+      "int. 哇！呀！",
+      "n. 一鸣惊人；音符失真，声音走音；魔兽世界（游戏）",
+      "vt. 使惊叹，使佩服；使热烈叫好"
+    ],
+    "usphone": "wou",
+    "ukphone": "waʊ"
+  },
+  {
+    "name": "lost",
+    "trans": [
+      "adj. 迷路的，迷失的；失去的，丧失的；无法恢复的",
+      "v. 失去；遗失；痛失"
+    ],
+    "usphone": "lɔst",
+    "ukphone": "lɒst"
+  },
+  {
+    "name": "so much",
+    "trans": [
+      "adv. 十分；非常"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cute",
+    "trans": [
+      "adj. 可爱的；漂亮的；讨人喜欢的"
+    ],
+    "usphone": "kjʊt",
+    "ukphone": "kjuːt"
+  },
+  {
+    "name": "strong",
+    "trans": [
+      "adj. 强的；坚强的；强烈的",
+      "adv. 强劲地；猛烈地；大大地"
+    ],
+    "usphone": "strɔŋ",
+    "ukphone": "strɒŋ"
+  },
+  {
+    "name": "friendly",
+    "trans": [
+      "adj. 友好的；亲切的；支持的",
+      "adv. 友善地；温和地"
+    ],
+    "usphone": "ˈfrɛndlɪ",
+    "ukphone": "ˈfrendlɪ"
+  },
+  {
+    "name": "quiet",
+    "trans": [
+      "n. 安静；和平",
+      "adj. 安静的；安定的；不动的",
+      "vt. 使平息；安慰"
+    ],
+    "usphone": "'kwaɪət",
+    "ukphone": "'kwaɪət"
+  },
+  {
+    "name": "hair",
+    "trans": [
+      "n. 头发；毛发；些微",
+      "vt. 除去…的毛发",
+      "vi. 生长毛发；形成毛状纤维"
+    ],
+    "usphone": "hɛr",
+    "ukphone": "heə"
+  },
+  {
+    "name": "shoe",
+    "trans": [
+      "n. 鞋；蹄铁；（汽车轮的）制动器，煞车",
+      "vt. 为…钉蹄铁；给…穿上鞋；装防护物"
+    ],
+    "usphone": "ʃu",
+    "ukphone": "ʃuː"
+  },
+  {
+    "name": "glasses",
+    "trans": [
+      "n. 眼镜；玻璃（glass的复数形式）；双筒望远镜",
+      "v. 把…装入玻璃容器内"
+    ],
+    "usphone": "'glæsɪz",
+    "ukphone": "'glɑːsɪz"
+  },
+  {
+    "name": "his",
+    "trans": [
+      "pron. 他的",
+      "adj. 他的"
+    ],
+    "usphone": "hɪz",
+    "ukphone": "hɪz"
+  },
+  {
+    "name": "or",
+    "trans": [
+      "conj. 或，或者；还是；不然，否则",
+      "prep. 在…之前；比…更早",
+      "n. 纹章黑金色、黑色"
+    ],
+    "usphone": "ɔr",
+    "ukphone": "ɔː"
+  },
+  {
+    "name": "right",
+    "trans": [
+      "n. 正确；右边；正义",
+      "adj. 正确的；直接的；右方的",
+      "vt. 纠正"
+    ],
+    "usphone": "raɪt",
+    "ukphone": "raɪt"
+  },
+  {
+    "name": "hat",
+    "trans": [
+      "n. 帽子；（帽子所表示的）职位，职务",
+      "vt. 给…戴上帽子；为…提供帽子",
+      "vi. 供应帽子；制造帽子"
+    ],
+    "usphone": "hæt",
+    "ukphone": "hæt"
+  },
+  {
+    "name": "her",
+    "trans": [
+      "pron. 她（宾格）；她的（所有格）",
+      "adj. 她的"
+    ],
+    "usphone": "hɚ",
+    "ukphone": "hɜː"
+  },
+  {
+    "name": "bedroom",
+    "trans": [
+      "n. 卧室；寝室",
+      "adj. 城郊住宅区的；两性关系的；男女性爱的"
+    ],
+    "usphone": "'bɛdrum",
+    "ukphone": "'bedruːm; -rʊm"
+  },
+  {
+    "name": "living room",
+    "trans": [
+      "n. 客厅；起居室"
+    ],
+    "usphone": "'lɪvɪŋ rum",
+    "ukphone": "'lɪvɪŋ ru:m"
+  },
+  {
+    "name": "study",
+    "trans": [
+      "n. 学习，研究；课题；书房",
+      "vt. 学习；考虑；攻读",
+      "vi. 研究；用功"
+    ],
+    "usphone": "'stʌdi",
+    "ukphone": "'stʌdɪ"
+  },
+  {
+    "name": "kitchen",
+    "trans": [
+      "n. 厨房；炊具；炊事人员"
+    ],
+    "usphone": "'kɪtʃɪn",
+    "ukphone": "'kɪtʃɪn; -tʃ(ə)n"
+  },
+  {
+    "name": "bathroom",
+    "trans": [
+      "n. 浴室；盥洗室；卫生间"
+    ],
+    "usphone": "'bæθrum",
+    "ukphone": "'bɑːθruːm; -rʊm"
+  },
+  {
+    "name": "bed",
+    "trans": [
+      "n. 床；基础；河底， 海底",
+      "vt. 使睡觉；安置，嵌入；栽种",
+      "vi. 上床；分层"
+    ],
+    "usphone": "bɛd",
+    "ukphone": "bed"
+  },
+  {
+    "name": "phone",
+    "trans": [
+      "n. 电话；耳机，听筒",
+      "vt. 打电话",
+      "vi. 打电话"
+    ],
+    "usphone": "fon",
+    "ukphone": "fəʊn"
+  },
+  {
+    "name": "table",
+    "trans": [
+      "n. 桌子；表格；平地层",
+      "vt. 制表；搁置；嵌合",
+      "adj. 桌子的"
+    ],
+    "usphone": "'tebl",
+    "ukphone": "'teɪb(ə)l"
+  },
+  {
+    "name": "sofa",
+    "trans": [
+      "n. 长沙发；沙发"
+    ],
+    "usphone": "'sofə",
+    "ukphone": "'səʊfə"
+  },
+  {
+    "name": "fridge",
+    "trans": [
+      "n. 冰箱；电冰箱"
+    ],
+    "usphone": "frɪdʒ",
+    "ukphone": "frɪdʒ"
+  },
+  {
+    "name": "find",
+    "trans": [
+      "n. 发现",
+      "vi. 裁决",
+      "vt. 查找，找到；发现；认为"
+    ],
+    "usphone": "faɪnd",
+    "ukphone": "faɪnd"
+  },
+  {
+    "name": "them",
+    "trans": [
+      "pron. 他们；她们；它们",
+      "n. （Them）（老）探（人名）"
+    ],
+    "usphone": "ðɛm; ðəm",
+    "ukphone": "ðem; ðəm"
+  },
+  {
+    "name": "beef",
+    "trans": [
+      "n. 牛肉；肌肉；食用牛",
+      "vt. 养；加强",
+      "vi. 抱怨，告发；发牢骚"
+    ],
+    "usphone": "bif",
+    "ukphone": "biːf"
+  },
+  {
+    "name": "chicken",
+    "trans": [
+      "n. 鸡肉；小鸡；胆小鬼，懦夫",
+      "adj. 鸡肉的；胆怯的；幼小的"
+    ],
+    "usphone": "ˈtʃɪkɪn",
+    "ukphone": "'tʃɪkɪn"
+  },
+  {
+    "name": "noodles",
+    "trans": [
+      "n. 面条；挂面（noodle的复数形式)"
+    ],
+    "usphone": "ˈnudlz",
+    "ukphone": "ˈnu:dlz"
+  },
+  {
+    "name": "soup",
+    "trans": [
+      "n. 汤，羹；马力",
+      "vt. 加速；增加马力"
+    ],
+    "usphone": "sup",
+    "ukphone": "suːp"
+  },
+  {
+    "name": "vegetable",
+    "trans": [
+      "n. 蔬菜；植物",
+      "adj. 植物的；蔬菜的；呆滞的，无生气的"
+    ],
+    "usphone": "ˈvɛdʒtəbl",
+    "ukphone": "ˈvedʒtəbl"
+  },
+  {
+    "name": "chopsticks",
+    "trans": [
+      "n. 筷子"
+    ],
+    "usphone": "'tʃɑp,stɪks",
+    "ukphone": "'tʃɒpstɪks"
+  },
+  {
+    "name": "bowl",
+    "trans": [
+      "n. 碗；钵；碗状物",
+      "vi. 打保龄球；快速移动",
+      "vt. 投球；投球得分"
+    ],
+    "usphone": "bol",
+    "ukphone": "bəʊl"
+  },
+  {
+    "name": "fork",
+    "trans": [
+      "n. 叉；餐叉；耙",
+      "vt. 叉起；使成叉状",
+      "vi. 分叉；分歧"
+    ],
+    "usphone": "fɔrk",
+    "ukphone": "fɔːk"
+  },
+  {
+    "name": "knife",
+    "trans": [
+      "n. 刀；匕首",
+      "vt. 用刀切；（口）伤害",
+      "vi. 劈开；划过"
+    ],
+    "usphone": "naɪf",
+    "ukphone": "naɪf"
+  },
+  {
+    "name": "spoon",
+    "trans": [
+      "n. 匙，勺子；一杓的量",
+      "vt. 用匙舀；使成匙状",
+      "vi. 轻轻向上击"
+    ],
+    "usphone": "spun",
+    "ukphone": "spuːn"
+  },
+  {
+    "name": "dinner",
+    "trans": [
+      "n. 晚餐，晚宴；宴会；正餐"
+    ],
+    "usphone": "'dɪnɚ",
+    "ukphone": "'dɪnə"
+  },
+  {
+    "name": "ready",
+    "trans": [
+      "n. 现款；预备好的状态",
+      "adj. 准备好；现成的；迅速的",
+      "vt. 使准备好"
+    ],
+    "usphone": "'rɛdi",
+    "ukphone": "'redɪ"
+  },
+  {
+    "name": "help yourself",
+    "trans": [
+      "随便做（或用）吧；请自便"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pass",
+    "trans": [
+      "n. 及格；经过；护照",
+      "vt. 通过；经过；传递",
+      "vi. 经过；传递；变化"
+    ],
+    "usphone": "pæs",
+    "ukphone": "pɑːs"
+  },
+  {
+    "name": "try",
+    "trans": [
+      "n. 尝试；努力；试验",
+      "vt. 试图，努力；试验；审判",
+      "vi. 尝试；努力；试验"
+    ],
+    "usphone": "traɪ",
+    "ukphone": "traɪ"
+  },
+  {
+    "name": "parents",
+    "trans": [
+      "n. 父母；双亲（parent的复数）",
+      "v. 教养；引起（parent的三单形式）"
+    ],
+    "usphone": "'pɛrənts",
+    "ukphone": "'peərənts"
+  },
+  {
+    "name": "cousin",
+    "trans": [
+      "n. 表哥；表弟；堂哥"
+    ],
+    "usphone": "'kʌzn",
+    "ukphone": "'kʌz(ə)n"
+  },
+  {
+    "name": "uncle",
+    "trans": [
+      "n. 叔叔；伯父；舅舅（父母的兄弟或姐妹的丈夫）"
+    ],
+    "usphone": "'ʌŋkl",
+    "ukphone": "'ʌŋk(ə)l"
+  },
+  {
+    "name": "aunt",
+    "trans": [
+      "n. 姑母；姨母；伯母"
+    ],
+    "usphone": "ænt",
+    "ukphone": "ɑːnt"
+  },
+  {
+    "name": "baby brother",
+    "trans": [
+      "小弟弟"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "doctor",
+    "trans": [
+      "vt. 修理；篡改，伪造；为…治病",
+      "n. 医生；博士",
+      "vi. 就医；行医"
+    ],
+    "usphone": "'dɑktɚ",
+    "ukphone": "'dɒktə"
+  },
+  {
+    "name": "cook",
+    "trans": [
+      "n. 厨师；厨子",
+      "vt. 烹调；煮",
+      "vi. 烹调；做菜"
+    ],
+    "usphone": "kʊk",
+    "ukphone": "kʊk"
+  },
+  {
+    "name": "driver",
+    "trans": [
+      "n. 驾驶员，司机；驱动程序；（高尔夫球的）一号木杆"
+    ],
+    "usphone": "'draɪvɚ",
+    "ukphone": "'draɪvə"
+  },
+  {
+    "name": "farmer",
+    "trans": [
+      "n. 农民；农夫；农场主"
+    ],
+    "usphone": "'fɑmɚ",
+    "ukphone": "'fɑːmə"
+  },
+  {
+    "name": "nurse",
+    "trans": [
+      "n. 保姆；护士；奶妈",
+      "vt. 看护；哺乳",
+      "vi. 看护；照顾；栽培"
+    ],
+    "usphone": "nɝs",
+    "ukphone": "nɜːs"
+  },
+  {
+    "name": "people",
+    "trans": [
+      "n. 人，人类；居民；人民",
+      "vt. 居住于，布满；使住满人，在…殖民；把动物放养在"
+    ],
+    "usphone": "'pipl",
+    "ukphone": "'piːp(ə)l"
+  },
+  {
+    "name": "but",
+    "trans": [
+      "conj. 但是；可是；然而",
+      "prep. 除了；除...以外",
+      "adv. 只有；仅仅"
+    ],
+    "usphone": "bʌt",
+    "ukphone": "bʌt; bət"
+  },
+  {
+    "name": "little",
+    "trans": [
+      "n. 少许；没有多少；短时间",
+      "adj. 小的；很少的；短暂的",
+      "adv. 完全不"
+    ],
+    "usphone": "'lɪtl",
+    "ukphone": "'lɪt(ə)l"
+  },
+  {
+    "name": "puppy",
+    "trans": [
+      "n. 小狗；幼小的动物"
+    ],
+    "usphone": "'pʌpi",
+    "ukphone": "'pʌpɪ"
+  },
+  {
+    "name": "football player",
+    "trans": [
+      "n. 足球运动员"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "job",
+    "trans": [
+      "n. （一件）工作；职责；职业",
+      "vt. 承包；代客买卖",
+      "vi. 做零工；作包工；打杂"
+    ],
+    "usphone": "",
+    "ukphone": "dʒɒb"
+  },
+  {
+    "name": "basketball",
+    "trans": [
+      "n. 篮球（运动）；篮球（球）"
+    ],
+    "usphone": "'bæskɪtbɔl",
+    "ukphone": "'bɑːskɪtbɔːl"
+  }
 ]

@@ -1,0 +1,3001 @@
+{
+  "title": "新西兰 Year 9 英语词汇表",
+  "spelling": "British English",
+  "total": 489,
+  "categories": [
+    {
+      "category": "学术通用词汇（各科通用）",
+      "count": 102,
+      "words": [
+        {
+          "id": 1,
+          "word": "analyse",
+          "phonetic": "/ˈænəlaɪz/",
+          "meaning": "v. 分析"
+        },
+        {
+          "id": 2,
+          "word": "approach",
+          "phonetic": "/əˈprəʊtʃ/",
+          "meaning": "n. 方法；v. 接近"
+        },
+        {
+          "id": 3,
+          "word": "assess",
+          "phonetic": "/əˈses/",
+          "meaning": "v. 评估"
+        },
+        {
+          "id": 4,
+          "word": "assume",
+          "phonetic": "/əˈsjuːm/",
+          "meaning": "v. 假设；认为"
+        },
+        {
+          "id": 5,
+          "word": "benefit",
+          "phonetic": "/ˈbenɪfɪt/",
+          "meaning": "n. 益处；v. 受益"
+        },
+        {
+          "id": 6,
+          "word": "concept",
+          "phonetic": "/ˈkɒnsept/",
+          "meaning": "n. 概念"
+        },
+        {
+          "id": 7,
+          "word": "conclude",
+          "phonetic": "/kənˈkluːd/",
+          "meaning": "v. 得出结论"
+        },
+        {
+          "id": 8,
+          "word": "consist of",
+          "phonetic": "/kənˈsɪst ɒv/",
+          "meaning": "phr. 由……组成"
+        },
+        {
+          "id": 9,
+          "word": "context",
+          "phonetic": "/ˈkɒntekst/",
+          "meaning": "n. 背景；语境"
+        },
+        {
+          "id": 10,
+          "word": "contrast",
+          "phonetic": "/ˈkɒntrɑːst/",
+          "meaning": "n. 对比；v. 对照"
+        },
+        {
+          "id": 11,
+          "word": "data",
+          "phonetic": "/ˈdeɪtə/",
+          "meaning": "n. 数据"
+        },
+        {
+          "id": 12,
+          "word": "define",
+          "phonetic": "/dɪˈfaɪn/",
+          "meaning": "v. 定义"
+        },
+        {
+          "id": 13,
+          "word": "establish",
+          "phonetic": "/ɪˈstæblɪʃ/",
+          "meaning": "v. 建立；确立"
+        },
+        {
+          "id": 14,
+          "word": "estimate",
+          "phonetic": "/ˈestɪmeɪt/",
+          "meaning": "v. 估计；n. 估算"
+        },
+        {
+          "id": 15,
+          "word": "evidence",
+          "phonetic": "/ˈevɪdəns/",
+          "meaning": "n. 证据"
+        },
+        {
+          "id": 16,
+          "word": "factor",
+          "phonetic": "/ˈfæktə/",
+          "meaning": "n. 因素"
+        },
+        {
+          "id": 17,
+          "word": "function",
+          "phonetic": "/ˈfʌŋkʃn/",
+          "meaning": "n. 功能；v. 运作"
+        },
+        {
+          "id": 18,
+          "word": "identify",
+          "phonetic": "/aɪˈdentɪfaɪ/",
+          "meaning": "v. 识别；找出"
+        },
+        {
+          "id": 19,
+          "word": "impact",
+          "phonetic": "/ˈɪmpækt/",
+          "meaning": "n. 影响；冲击"
+        },
+        {
+          "id": 20,
+          "word": "indicate",
+          "phonetic": "/ˈɪndɪkeɪt/",
+          "meaning": "v. 表明；指出"
+        },
+        {
+          "id": 21,
+          "word": "interpret",
+          "phonetic": "/ɪnˈtɜːprɪt/",
+          "meaning": "v. 解读；解释"
+        },
+        {
+          "id": 22,
+          "word": "issue",
+          "phonetic": "/ˈɪʃuː/",
+          "meaning": "n. 议题；问题"
+        },
+        {
+          "id": 23,
+          "word": "method",
+          "phonetic": "/ˈmeθəd/",
+          "meaning": "n. 方法"
+        },
+        {
+          "id": 24,
+          "word": "occur",
+          "phonetic": "/əˈkɜː/",
+          "meaning": "v. 发生"
+        },
+        {
+          "id": 25,
+          "word": "process",
+          "phonetic": "/ˈprəʊses/",
+          "meaning": "n. 过程；v. 处理"
+        },
+        {
+          "id": 26,
+          "word": "require",
+          "phonetic": "/rɪˈkwaɪə/",
+          "meaning": "v. 需要；要求"
+        },
+        {
+          "id": 27,
+          "word": "research",
+          "phonetic": "/rɪˈsɜːtʃ/",
+          "meaning": "n./v. 研究"
+        },
+        {
+          "id": 28,
+          "word": "respond",
+          "phonetic": "/rɪˈspɒnd/",
+          "meaning": "v. 回应；回答"
+        },
+        {
+          "id": 29,
+          "word": "significant",
+          "phonetic": "/sɪɡˈnɪfɪkənt/",
+          "meaning": "adj. 重要的；显著的"
+        },
+        {
+          "id": 30,
+          "word": "similar",
+          "phonetic": "/ˈsɪmələ/",
+          "meaning": "adj. 相似的"
+        },
+        {
+          "id": 31,
+          "word": "source",
+          "phonetic": "/sɔːs/",
+          "meaning": "n. 来源；出处"
+        },
+        {
+          "id": 32,
+          "word": "structure",
+          "phonetic": "/ˈstrʌktʃə/",
+          "meaning": "n. 结构"
+        },
+        {
+          "id": 33,
+          "word": "summarise",
+          "phonetic": "/ˈsʌməraɪz/",
+          "meaning": "v. 总结；概括"
+        },
+        {
+          "id": 34,
+          "word": "theory",
+          "phonetic": "/ˈθɪəri/",
+          "meaning": "n. 理论"
+        },
+        {
+          "id": 35,
+          "word": "justify",
+          "phonetic": "/ˈdʒʌstɪfaɪ/",
+          "meaning": "v. 证明……合理 （指令词）"
+        },
+        {
+          "id": 36,
+          "word": "explain",
+          "phonetic": "/ɪkˈspleɪn/",
+          "meaning": "v. 解释 （指令词）"
+        },
+        {
+          "id": 37,
+          "word": "describe",
+          "phonetic": "/dɪˈskraɪb/",
+          "meaning": "v. 描述 （指令词）"
+        },
+        {
+          "id": 38,
+          "word": "compare",
+          "phonetic": "/kəmˈpeə/",
+          "meaning": "v. 比较 （指令词）"
+        },
+        {
+          "id": 39,
+          "word": "evaluate",
+          "phonetic": "/ɪˈvæljueɪt/",
+          "meaning": "v. 评价 （指令词）"
+        },
+        {
+          "id": 40,
+          "word": "discuss",
+          "phonetic": "/dɪˈskʌs/",
+          "meaning": "v. 讨论 （指令词）"
+        },
+        {
+          "id": 41,
+          "word": "achieve",
+          "phonetic": "/əˈtʃiːv/",
+          "meaning": "v. 实现；达到"
+        },
+        {
+          "id": 42,
+          "word": "acquire",
+          "phonetic": "/əˈkwaɪə/",
+          "meaning": "v. 获得；习得"
+        },
+        {
+          "id": 43,
+          "word": "affect",
+          "phonetic": "/əˈfekt/",
+          "meaning": "v. 影响"
+        },
+        {
+          "id": 44,
+          "word": "alternative",
+          "phonetic": "/ɔːlˈtɜːnətɪv/",
+          "meaning": "n. 替代选择；adj. 可替代的"
+        },
+        {
+          "id": 45,
+          "word": "analysis",
+          "phonetic": "/əˈnæləsɪs/",
+          "meaning": "n. 分析"
+        },
+        {
+          "id": 46,
+          "word": "appropriate",
+          "phonetic": "/əˈprəʊpriət/",
+          "meaning": "adj. 合适的；恰当的"
+        },
+        {
+          "id": 47,
+          "word": "aspect",
+          "phonetic": "/ˈæspekt/",
+          "meaning": "n. 方面"
+        },
+        {
+          "id": 48,
+          "word": "available",
+          "phonetic": "/əˈveɪləbl/",
+          "meaning": "adj. 可获得的；可用的"
+        },
+        {
+          "id": 49,
+          "word": "category",
+          "phonetic": "/ˈkætəɡəri/",
+          "meaning": "n. 类别"
+        },
+        {
+          "id": 50,
+          "word": "challenge",
+          "phonetic": "/ˈtʃælɪndʒ/",
+          "meaning": "n. 挑战；v. 质疑"
+        },
+        {
+          "id": 51,
+          "word": "circumstance",
+          "phonetic": "/ˈsɜːkəmstəns/",
+          "meaning": "n. 情况；环境"
+        },
+        {
+          "id": 52,
+          "word": "communicate",
+          "phonetic": "/kəˈmjuːnɪkeɪt/",
+          "meaning": "v. 交流；传达"
+        },
+        {
+          "id": 53,
+          "word": "complex",
+          "phonetic": "/ˈkɒmpleks/",
+          "meaning": "adj. 复杂的"
+        },
+        {
+          "id": 54,
+          "word": "consequence",
+          "phonetic": "/ˈkɒnsɪkwəns/",
+          "meaning": "n. 后果；结果"
+        },
+        {
+          "id": 55,
+          "word": "considerable",
+          "phonetic": "/kənˈsɪdərəbl/",
+          "meaning": "adj. 相当大的"
+        },
+        {
+          "id": 56,
+          "word": "constant",
+          "phonetic": "/ˈkɒnstənt/",
+          "meaning": "adj. 持续的；不变的"
+        },
+        {
+          "id": 57,
+          "word": "contribute",
+          "phonetic": "/kənˈtrɪbjuːt/",
+          "meaning": "v. 贡献；促成"
+        },
+        {
+          "id": 58,
+          "word": "create",
+          "phonetic": "/kriˈeɪt/",
+          "meaning": "v. 创造；创作"
+        },
+        {
+          "id": 59,
+          "word": "crucial",
+          "phonetic": "/ˈkruːʃl/",
+          "meaning": "adj. 至关重要的"
+        },
+        {
+          "id": 60,
+          "word": "debate",
+          "phonetic": "/dɪˈbeɪt/",
+          "meaning": "n./v. 辩论"
+        },
+        {
+          "id": 61,
+          "word": "demonstrate",
+          "phonetic": "/ˈdemənstreɪt/",
+          "meaning": "v. 证明；展示"
+        },
+        {
+          "id": 62,
+          "word": "distinct",
+          "phonetic": "/dɪˈstɪŋkt/",
+          "meaning": "adj. 明显不同的"
+        },
+        {
+          "id": 63,
+          "word": "effect",
+          "phonetic": "/ɪˈfekt/",
+          "meaning": "n. 效果；影响"
+        },
+        {
+          "id": 64,
+          "word": "emphasis",
+          "phonetic": "/ˈemfəsɪs/",
+          "meaning": "n. 强调；重点"
+        },
+        {
+          "id": 65,
+          "word": "ensure",
+          "phonetic": "/ɪnˈʃʊə/",
+          "meaning": "v. 确保"
+        },
+        {
+          "id": 66,
+          "word": "environment",
+          "phonetic": "/ɪnˈvaɪrənmənt/",
+          "meaning": "n. 环境"
+        },
+        {
+          "id": 67,
+          "word": "error",
+          "phonetic": "/ˈerə/",
+          "meaning": "n. 错误；误差"
+        },
+        {
+          "id": 68,
+          "word": "feature",
+          "phonetic": "/ˈfiːtʃə/",
+          "meaning": "n. 特征；特点"
+        },
+        {
+          "id": 69,
+          "word": "focus",
+          "phonetic": "/ˈfəʊkəs/",
+          "meaning": "n. 焦点；v. 集中"
+        },
+        {
+          "id": 70,
+          "word": "generate",
+          "phonetic": "/ˈdʒenəreɪt/",
+          "meaning": "v. 产生；生成"
+        },
+        {
+          "id": 71,
+          "word": "illustrate",
+          "phonetic": "/ˈɪləstreɪt/",
+          "meaning": "v. 说明；举例说明"
+        },
+        {
+          "id": 72,
+          "word": "individual",
+          "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+          "meaning": "n. 个人；adj. 个别的"
+        },
+        {
+          "id": 73,
+          "word": "influence",
+          "phonetic": "/ˈɪnfluəns/",
+          "meaning": "n./v. 影响"
+        },
+        {
+          "id": 74,
+          "word": "initial",
+          "phonetic": "/ɪˈnɪʃl/",
+          "meaning": "adj. 最初的"
+        },
+        {
+          "id": 75,
+          "word": "involve",
+          "phonetic": "/ɪnˈvɒlv/",
+          "meaning": "v. 涉及；包含"
+        },
+        {
+          "id": 76,
+          "word": "label",
+          "phonetic": "/ˈleɪbl/",
+          "meaning": "n. 标签；v. 标注"
+        },
+        {
+          "id": 77,
+          "word": "locate",
+          "phonetic": "/ləʊˈkeɪt/",
+          "meaning": "v. 找到；确定位置"
+        },
+        {
+          "id": 78,
+          "word": "logical",
+          "phonetic": "/ˈlɒdʒɪkl/",
+          "meaning": "adj. 合乎逻辑的"
+        },
+        {
+          "id": 79,
+          "word": "maintain",
+          "phonetic": "/meɪnˈteɪn/",
+          "meaning": "v. 保持；维持"
+        },
+        {
+          "id": 80,
+          "word": "major",
+          "phonetic": "/ˈmeɪdʒə/",
+          "meaning": "adj. 主要的；重大的"
+        },
+        {
+          "id": 81,
+          "word": "minor",
+          "phonetic": "/ˈmaɪnə/",
+          "meaning": "adj. 次要的；较小的"
+        },
+        {
+          "id": 82,
+          "word": "obtain",
+          "phonetic": "/əbˈteɪn/",
+          "meaning": "v. 获得"
+        },
+        {
+          "id": 83,
+          "word": "outcome",
+          "phonetic": "/ˈaʊtkʌm/",
+          "meaning": "n. 结果"
+        },
+        {
+          "id": 84,
+          "word": "participate",
+          "phonetic": "/pɑːˈtɪsɪpeɪt/",
+          "meaning": "v. 参与"
+        },
+        {
+          "id": 85,
+          "word": "predict",
+          "phonetic": "/prɪˈdɪkt/",
+          "meaning": "v. 预测"
+        },
+        {
+          "id": 86,
+          "word": "previous",
+          "phonetic": "/ˈpriːviəs/",
+          "meaning": "adj. 先前的"
+        },
+        {
+          "id": 87,
+          "word": "principle",
+          "phonetic": "/ˈprɪnsəpl/",
+          "meaning": "n. 原则；原理"
+        },
+        {
+          "id": 88,
+          "word": "relevant",
+          "phonetic": "/ˈreləvənt/",
+          "meaning": "adj. 相关的"
+        },
+        {
+          "id": 89,
+          "word": "reliable",
+          "phonetic": "/rɪˈlaɪəbl/",
+          "meaning": "adj. 可靠的"
+        },
+        {
+          "id": 90,
+          "word": "rely on",
+          "phonetic": "/rɪˈlaɪ ɒn/",
+          "meaning": "phr. 依靠；依赖"
+        },
+        {
+          "id": 91,
+          "word": "select",
+          "phonetic": "/sɪˈlekt/",
+          "meaning": "v. 选择"
+        },
+        {
+          "id": 92,
+          "word": "specific",
+          "phonetic": "/spəˈsɪfɪk/",
+          "meaning": "adj. 具体的；特定的"
+        },
+        {
+          "id": 93,
+          "word": "strategy",
+          "phonetic": "/ˈstrætədʒi/",
+          "meaning": "n. 策略"
+        },
+        {
+          "id": 94,
+          "word": "sufficient",
+          "phonetic": "/səˈfɪʃnt/",
+          "meaning": "adj. 足够的"
+        },
+        {
+          "id": 95,
+          "word": "survey",
+          "phonetic": "/ˈsɜːveɪ/",
+          "meaning": "n. 调查"
+        },
+        {
+          "id": 96,
+          "word": "task",
+          "phonetic": "/tɑːsk/",
+          "meaning": "n. 任务"
+        },
+        {
+          "id": 97,
+          "word": "technique",
+          "phonetic": "/tekˈniːk/",
+          "meaning": "n. 技巧；技术"
+        },
+        {
+          "id": 98,
+          "word": "topic",
+          "phonetic": "/ˈtɒpɪk/",
+          "meaning": "n. 话题；主题"
+        },
+        {
+          "id": 99,
+          "word": "vary",
+          "phonetic": "/ˈveəri/",
+          "meaning": "v. 变化；不同"
+        },
+        {
+          "id": 100,
+          "word": "vital",
+          "phonetic": "/ˈvaɪtl/",
+          "meaning": "adj. 极其重要的"
+        },
+        {
+          "id": 101,
+          "word": "outline",
+          "phonetic": "/ˈaʊtlaɪn/",
+          "meaning": "v. 概述 （指令词）"
+        },
+        {
+          "id": 102,
+          "word": "state",
+          "phonetic": "/steɪt/",
+          "meaning": "v. 陈述；说明 （指令词）"
+        }
+      ]
+    },
+    {
+      "category": "阅读与文学分析",
+      "count": 56,
+      "words": [
+        {
+          "id": 103,
+          "word": "theme",
+          "phonetic": "/θiːm/",
+          "meaning": "n. 主题"
+        },
+        {
+          "id": 104,
+          "word": "character",
+          "phonetic": "/ˈkærəktə/",
+          "meaning": "n. 人物；性格"
+        },
+        {
+          "id": 105,
+          "word": "characterisation",
+          "phonetic": "/ˌkærəktəraɪˈzeɪʃn/",
+          "meaning": "n. 人物塑造"
+        },
+        {
+          "id": 106,
+          "word": "protagonist",
+          "phonetic": "/prəˈtæɡənɪst/",
+          "meaning": "n. 主人公"
+        },
+        {
+          "id": 107,
+          "word": "antagonist",
+          "phonetic": "/ænˈtæɡənɪst/",
+          "meaning": "n. 反派；对手"
+        },
+        {
+          "id": 108,
+          "word": "setting",
+          "phonetic": "/ˈsetɪŋ/",
+          "meaning": "n. 背景（时间、地点）"
+        },
+        {
+          "id": 109,
+          "word": "plot",
+          "phonetic": "/plɒt/",
+          "meaning": "n. 情节"
+        },
+        {
+          "id": 110,
+          "word": "conflict",
+          "phonetic": "/ˈkɒnflɪkt/",
+          "meaning": "n. 冲突"
+        },
+        {
+          "id": 111,
+          "word": "climax",
+          "phonetic": "/ˈklaɪmæks/",
+          "meaning": "n. 高潮"
+        },
+        {
+          "id": 112,
+          "word": "resolution",
+          "phonetic": "/ˌrezəˈluːʃn/",
+          "meaning": "n. 结局；解决"
+        },
+        {
+          "id": 113,
+          "word": "narrator",
+          "phonetic": "/nəˈreɪtə/",
+          "meaning": "n. 叙述者"
+        },
+        {
+          "id": 114,
+          "word": "point of view",
+          "phonetic": "/ˌpɔɪnt əv ˈvjuː/",
+          "meaning": "n. 叙述视角；观点"
+        },
+        {
+          "id": 115,
+          "word": "tone",
+          "phonetic": "/təʊn/",
+          "meaning": "n. 语气；腔调"
+        },
+        {
+          "id": 116,
+          "word": "mood",
+          "phonetic": "/muːd/",
+          "meaning": "n. 氛围；情绪"
+        },
+        {
+          "id": 117,
+          "word": "atmosphere",
+          "phonetic": "/ˈætməsfɪə/",
+          "meaning": "n. 氛围；大气"
+        },
+        {
+          "id": 118,
+          "word": "imagery",
+          "phonetic": "/ˈɪmɪdʒəri/",
+          "meaning": "n. 意象"
+        },
+        {
+          "id": 119,
+          "word": "simile",
+          "phonetic": "/ˈsɪməli/",
+          "meaning": "n. 明喻"
+        },
+        {
+          "id": 120,
+          "word": "metaphor",
+          "phonetic": "/ˈmetəfə/",
+          "meaning": "n. 暗喻"
+        },
+        {
+          "id": 121,
+          "word": "personification",
+          "phonetic": "/pəˌsɒnɪfɪˈkeɪʃn/",
+          "meaning": "n. 拟人"
+        },
+        {
+          "id": 122,
+          "word": "alliteration",
+          "phonetic": "/əˌlɪtəˈreɪʃn/",
+          "meaning": "n. 头韵"
+        },
+        {
+          "id": 123,
+          "word": "onomatopoeia",
+          "phonetic": "/ˌɒnəˌmætəˈpiːə/",
+          "meaning": "n. 拟声词"
+        },
+        {
+          "id": 124,
+          "word": "hyperbole",
+          "phonetic": "/haɪˈpɜːbəli/",
+          "meaning": "n. 夸张"
+        },
+        {
+          "id": 125,
+          "word": "symbolism",
+          "phonetic": "/ˈsɪmbəlɪzəm/",
+          "meaning": "n. 象征手法"
+        },
+        {
+          "id": 126,
+          "word": "foreshadowing",
+          "phonetic": "/fɔːˈʃædəʊɪŋ/",
+          "meaning": "n. 伏笔；预示"
+        },
+        {
+          "id": 127,
+          "word": "flashback",
+          "phonetic": "/ˈflæʃbæk/",
+          "meaning": "n. 倒叙；闪回"
+        },
+        {
+          "id": 128,
+          "word": "rhetorical question",
+          "phonetic": "/rɪˌtɒrɪkl ˈkwestʃən/",
+          "meaning": "n. 反问句"
+        },
+        {
+          "id": 129,
+          "word": "audience",
+          "phonetic": "/ˈɔːdiəns/",
+          "meaning": "n. 受众；观众"
+        },
+        {
+          "id": 130,
+          "word": "purpose",
+          "phonetic": "/ˈpɜːpəs/",
+          "meaning": "n. 目的"
+        },
+        {
+          "id": 131,
+          "word": "persuasive",
+          "phonetic": "/pəˈsweɪsɪv/",
+          "meaning": "adj. 有说服力的"
+        },
+        {
+          "id": 132,
+          "word": "camera angle",
+          "phonetic": "/ˈkæmərə ˌæŋɡl/",
+          "meaning": "n. 镜头角度"
+        },
+        {
+          "id": 133,
+          "word": "close-up",
+          "phonetic": "/ˈkləʊs ʌp/",
+          "meaning": "n. 特写镜头"
+        },
+        {
+          "id": 134,
+          "word": "long shot",
+          "phonetic": "/ˈlɒŋ ʃɒt/",
+          "meaning": "n. 远景镜头"
+        },
+        {
+          "id": 135,
+          "word": "lighting",
+          "phonetic": "/ˈlaɪtɪŋ/",
+          "meaning": "n. 灯光；照明"
+        },
+        {
+          "id": 136,
+          "word": "soundtrack",
+          "phonetic": "/ˈsaʊndtræk/",
+          "meaning": "n. 配乐；原声"
+        },
+        {
+          "id": 137,
+          "word": "genre",
+          "phonetic": "/ˈʒɒnrə/",
+          "meaning": "n. 体裁；类型"
+        },
+        {
+          "id": 138,
+          "word": "narrative",
+          "phonetic": "/ˈnærətɪv/",
+          "meaning": "n. 叙事；故事"
+        },
+        {
+          "id": 139,
+          "word": "fiction",
+          "phonetic": "/ˈfɪkʃn/",
+          "meaning": "n. 小说；虚构作品"
+        },
+        {
+          "id": 140,
+          "word": "non-fiction",
+          "phonetic": "/ˌnɒn ˈfɪkʃn/",
+          "meaning": "n. 非虚构作品"
+        },
+        {
+          "id": 141,
+          "word": "novel",
+          "phonetic": "/ˈnɒvl/",
+          "meaning": "n. 长篇小说"
+        },
+        {
+          "id": 142,
+          "word": "short story",
+          "phonetic": "/ˌʃɔːt ˈstɔːri/",
+          "meaning": "n. 短篇小说"
+        },
+        {
+          "id": 143,
+          "word": "poem",
+          "phonetic": "/ˈpəʊɪm/",
+          "meaning": "n. 诗"
+        },
+        {
+          "id": 144,
+          "word": "stanza",
+          "phonetic": "/ˈstænzə/",
+          "meaning": "n. 诗节"
+        },
+        {
+          "id": 145,
+          "word": "rhyme",
+          "phonetic": "/raɪm/",
+          "meaning": "n. 押韵；v. 押韵"
+        },
+        {
+          "id": 146,
+          "word": "rhythm",
+          "phonetic": "/ˈrɪðəm/",
+          "meaning": "n. 节奏"
+        },
+        {
+          "id": 147,
+          "word": "dialogue",
+          "phonetic": "/ˈdaɪəlɒɡ/",
+          "meaning": "n. 对话"
+        },
+        {
+          "id": 148,
+          "word": "quotation",
+          "phonetic": "/kwəʊˈteɪʃn/",
+          "meaning": "n. 引文；引语"
+        },
+        {
+          "id": 149,
+          "word": "repetition",
+          "phonetic": "/ˌrepəˈtɪʃn/",
+          "meaning": "n. 重复"
+        },
+        {
+          "id": 150,
+          "word": "irony",
+          "phonetic": "/ˈaɪrəni/",
+          "meaning": "n. 反讽"
+        },
+        {
+          "id": 151,
+          "word": "emotive language",
+          "phonetic": "/ɪˈməʊtɪv ˈlæŋɡwɪdʒ/",
+          "meaning": "n. 情感化语言"
+        },
+        {
+          "id": 152,
+          "word": "biography",
+          "phonetic": "/baɪˈɒɡrəfi/",
+          "meaning": "n. 传记"
+        },
+        {
+          "id": 153,
+          "word": "autobiography",
+          "phonetic": "/ˌɔːtəbaɪˈɒɡrəfi/",
+          "meaning": "n. 自传"
+        },
+        {
+          "id": 154,
+          "word": "article",
+          "phonetic": "/ˈɑːtɪkl/",
+          "meaning": "n. 文章；冠词"
+        },
+        {
+          "id": 155,
+          "word": "headline",
+          "phonetic": "/ˈhedlaɪn/",
+          "meaning": "n. 新闻标题"
+        },
+        {
+          "id": 156,
+          "word": "speech",
+          "phonetic": "/spiːtʃ/",
+          "meaning": "n. 演讲"
+        },
+        {
+          "id": 157,
+          "word": "author",
+          "phonetic": "/ˈɔːθə/",
+          "meaning": "n. 作者"
+        },
+        {
+          "id": 158,
+          "word": "director",
+          "phonetic": "/dəˈrektə/",
+          "meaning": "n. 导演"
+        }
+      ]
+    },
+    {
+      "category": "语法与写作基础",
+      "count": 30,
+      "words": [
+        {
+          "id": 159,
+          "word": "noun",
+          "phonetic": "/naʊn/",
+          "meaning": "n. 名词"
+        },
+        {
+          "id": 160,
+          "word": "verb",
+          "phonetic": "/vɜːb/",
+          "meaning": "n. 动词"
+        },
+        {
+          "id": 161,
+          "word": "adjective",
+          "phonetic": "/ˈædʒɪktɪv/",
+          "meaning": "n. 形容词"
+        },
+        {
+          "id": 162,
+          "word": "adverb",
+          "phonetic": "/ˈædvɜːb/",
+          "meaning": "n. 副词"
+        },
+        {
+          "id": 163,
+          "word": "pronoun",
+          "phonetic": "/ˈprəʊnaʊn/",
+          "meaning": "n. 代词"
+        },
+        {
+          "id": 164,
+          "word": "preposition",
+          "phonetic": "/ˌprepəˈzɪʃn/",
+          "meaning": "n. 介词"
+        },
+        {
+          "id": 165,
+          "word": "conjunction",
+          "phonetic": "/kənˈdʒʌŋkʃn/",
+          "meaning": "n. 连词"
+        },
+        {
+          "id": 166,
+          "word": "sentence",
+          "phonetic": "/ˈsentəns/",
+          "meaning": "n. 句子"
+        },
+        {
+          "id": 167,
+          "word": "clause",
+          "phonetic": "/klɔːz/",
+          "meaning": "n. 从句；分句"
+        },
+        {
+          "id": 168,
+          "word": "phrase",
+          "phonetic": "/freɪz/",
+          "meaning": "n. 短语"
+        },
+        {
+          "id": 169,
+          "word": "tense",
+          "phonetic": "/tens/",
+          "meaning": "n. 时态"
+        },
+        {
+          "id": 170,
+          "word": "subject",
+          "phonetic": "/ˈsʌbdʒɪkt/",
+          "meaning": "n. 主语；科目"
+        },
+        {
+          "id": 171,
+          "word": "paragraph",
+          "phonetic": "/ˈpærəɡrɑːf/",
+          "meaning": "n. 段落"
+        },
+        {
+          "id": 172,
+          "word": "introduction",
+          "phonetic": "/ˌɪntrəˈdʌkʃn/",
+          "meaning": "n. 引言；开头"
+        },
+        {
+          "id": 173,
+          "word": "body paragraph",
+          "phonetic": "/ˈbɒdi ˌpærəɡrɑːf/",
+          "meaning": "n. 正文段落"
+        },
+        {
+          "id": 174,
+          "word": "argument",
+          "phonetic": "/ˈɑːɡjumənt/",
+          "meaning": "n. 论点；争论"
+        },
+        {
+          "id": 175,
+          "word": "opinion",
+          "phonetic": "/əˈpɪnjən/",
+          "meaning": "n. 观点；意见"
+        },
+        {
+          "id": 176,
+          "word": "fact",
+          "phonetic": "/fækt/",
+          "meaning": "n. 事实"
+        },
+        {
+          "id": 177,
+          "word": "statement",
+          "phonetic": "/ˈsteɪtmənt/",
+          "meaning": "n. 陈述"
+        },
+        {
+          "id": 178,
+          "word": "formal",
+          "phonetic": "/ˈfɔːml/",
+          "meaning": "adj. 正式的"
+        },
+        {
+          "id": 179,
+          "word": "informal",
+          "phonetic": "/ɪnˈfɔːml/",
+          "meaning": "adj. 非正式的"
+        },
+        {
+          "id": 180,
+          "word": "vocabulary",
+          "phonetic": "/vəˈkæbjələri/",
+          "meaning": "n. 词汇"
+        },
+        {
+          "id": 181,
+          "word": "grammar",
+          "phonetic": "/ˈɡræmə/",
+          "meaning": "n. 语法"
+        },
+        {
+          "id": 182,
+          "word": "punctuation",
+          "phonetic": "/ˌpʌŋktʃuˈeɪʃn/",
+          "meaning": "n. 标点符号"
+        },
+        {
+          "id": 183,
+          "word": "apostrophe",
+          "phonetic": "/əˈpɒstrəfi/",
+          "meaning": "n. 撇号（'）"
+        },
+        {
+          "id": 184,
+          "word": "comma",
+          "phonetic": "/ˈkɒmə/",
+          "meaning": "n. 逗号"
+        },
+        {
+          "id": 185,
+          "word": "full stop",
+          "phonetic": "/ˌfʊl ˈstɒp/",
+          "meaning": "n. 句号"
+        },
+        {
+          "id": 186,
+          "word": "draft",
+          "phonetic": "/drɑːft/",
+          "meaning": "n. 草稿；v. 起草"
+        },
+        {
+          "id": 187,
+          "word": "edit",
+          "phonetic": "/ˈedɪt/",
+          "meaning": "v. 修改；编辑"
+        },
+        {
+          "id": 188,
+          "word": "proofread",
+          "phonetic": "/ˈpruːfriːd/",
+          "meaning": "v. 校对"
+        }
+      ]
+    },
+    {
+      "category": "写作连接词",
+      "count": 36,
+      "words": [
+        {
+          "id": 189,
+          "word": "furthermore",
+          "phonetic": "/ˌfɜːðəˈmɔː/",
+          "meaning": "adv. 此外；而且"
+        },
+        {
+          "id": 190,
+          "word": "in addition",
+          "phonetic": "/ɪn əˈdɪʃn/",
+          "meaning": "phr. 另外；此外"
+        },
+        {
+          "id": 191,
+          "word": "moreover",
+          "phonetic": "/mɔːrˈəʊvə/",
+          "meaning": "adv. 而且；此外"
+        },
+        {
+          "id": 192,
+          "word": "however",
+          "phonetic": "/haʊˈevə/",
+          "meaning": "adv. 然而"
+        },
+        {
+          "id": 193,
+          "word": "although",
+          "phonetic": "/ɔːlˈðəʊ/",
+          "meaning": "conj. 虽然；尽管"
+        },
+        {
+          "id": 194,
+          "word": "on the other hand",
+          "phonetic": "/ɒn ði ˈʌðə hænd/",
+          "meaning": "phr. 另一方面"
+        },
+        {
+          "id": 195,
+          "word": "in contrast",
+          "phonetic": "/ɪn ˈkɒntrɑːst/",
+          "meaning": "phr. 相比之下"
+        },
+        {
+          "id": 196,
+          "word": "therefore",
+          "phonetic": "/ˈðeəfɔː/",
+          "meaning": "adv. 因此"
+        },
+        {
+          "id": 197,
+          "word": "as a result",
+          "phonetic": "/æz ə rɪˈzʌlt/",
+          "meaning": "phr. 结果；因此"
+        },
+        {
+          "id": 198,
+          "word": "consequently",
+          "phonetic": "/ˈkɒnsɪkwəntli/",
+          "meaning": "adv. 因此；结果"
+        },
+        {
+          "id": 199,
+          "word": "because of",
+          "phonetic": "/bɪˈkɒz ɒv/",
+          "meaning": "phr. 由于；因为"
+        },
+        {
+          "id": 200,
+          "word": "for example",
+          "phonetic": "/fər ɪɡˈzɑːmpl/",
+          "meaning": "phr. 例如"
+        },
+        {
+          "id": 201,
+          "word": "for instance",
+          "phonetic": "/fər ˈɪnstəns/",
+          "meaning": "phr. 例如"
+        },
+        {
+          "id": 202,
+          "word": "such as",
+          "phonetic": "/ˈsʌtʃ æz/",
+          "meaning": "phr. 比如；诸如"
+        },
+        {
+          "id": 203,
+          "word": "similarly",
+          "phonetic": "/ˈsɪmələli/",
+          "meaning": "adv. 同样地"
+        },
+        {
+          "id": 204,
+          "word": "likewise",
+          "phonetic": "/ˈlaɪkwaɪz/",
+          "meaning": "adv. 同样地"
+        },
+        {
+          "id": 205,
+          "word": "suggest",
+          "phonetic": "/səˈdʒest/",
+          "meaning": "v. 暗示；表明"
+        },
+        {
+          "id": 206,
+          "word": "reveal",
+          "phonetic": "/rɪˈviːl/",
+          "meaning": "v. 揭示；显示"
+        },
+        {
+          "id": 207,
+          "word": "in conclusion",
+          "phonetic": "/ɪn kənˈkluːʒn/",
+          "meaning": "phr. 总之；最后"
+        },
+        {
+          "id": 208,
+          "word": "overall",
+          "phonetic": "/ˌəʊvərˈɔːl/",
+          "meaning": "adv. 总的来说"
+        },
+        {
+          "id": 209,
+          "word": "firstly",
+          "phonetic": "/ˈfɜːstli/",
+          "meaning": "adv. 首先"
+        },
+        {
+          "id": 210,
+          "word": "secondly",
+          "phonetic": "/ˈsekəndli/",
+          "meaning": "adv. 其次"
+        },
+        {
+          "id": 211,
+          "word": "finally",
+          "phonetic": "/ˈfaɪnəli/",
+          "meaning": "adv. 最后"
+        },
+        {
+          "id": 212,
+          "word": "meanwhile",
+          "phonetic": "/ˈmiːnwaɪl/",
+          "meaning": "adv. 与此同时"
+        },
+        {
+          "id": 213,
+          "word": "eventually",
+          "phonetic": "/ɪˈventʃuəli/",
+          "meaning": "adv. 最终"
+        },
+        {
+          "id": 214,
+          "word": "in particular",
+          "phonetic": "/ɪn pəˈtɪkjələ/",
+          "meaning": "phr. 尤其；特别"
+        },
+        {
+          "id": 215,
+          "word": "especially",
+          "phonetic": "/ɪˈspeʃəli/",
+          "meaning": "adv. 特别；尤其"
+        },
+        {
+          "id": 216,
+          "word": "instead",
+          "phonetic": "/ɪnˈsted/",
+          "meaning": "adv. 代替；反而"
+        },
+        {
+          "id": 217,
+          "word": "nevertheless",
+          "phonetic": "/ˌnevəðəˈles/",
+          "meaning": "adv. 尽管如此"
+        },
+        {
+          "id": 218,
+          "word": "despite",
+          "phonetic": "/dɪˈspaɪt/",
+          "meaning": "prep. 尽管"
+        },
+        {
+          "id": 219,
+          "word": "whereas",
+          "phonetic": "/ˌweərˈæz/",
+          "meaning": "conj. 而；然而"
+        },
+        {
+          "id": 220,
+          "word": "unless",
+          "phonetic": "/ənˈles/",
+          "meaning": "conj. 除非"
+        },
+        {
+          "id": 221,
+          "word": "in other words",
+          "phonetic": "/ɪn ˈʌðə wɜːdz/",
+          "meaning": "phr. 换句话说"
+        },
+        {
+          "id": 222,
+          "word": "clearly",
+          "phonetic": "/ˈklɪəli/",
+          "meaning": "adv. 显然"
+        },
+        {
+          "id": 223,
+          "word": "highlight",
+          "phonetic": "/ˈhaɪlaɪt/",
+          "meaning": "v. 突出；强调"
+        },
+        {
+          "id": 224,
+          "word": "emphasise",
+          "phonetic": "/ˈemfəsaɪz/",
+          "meaning": "v. 强调"
+        }
+      ]
+    },
+    {
+      "category": "描写性词汇（记叙文写作）",
+      "count": 35,
+      "words": [
+        {
+          "id": 225,
+          "word": "anxious",
+          "phonetic": "/ˈæŋkʃəs/",
+          "meaning": "adj. 焦虑的"
+        },
+        {
+          "id": 226,
+          "word": "furious",
+          "phonetic": "/ˈfjʊəriəs/",
+          "meaning": "adj. 狂怒的"
+        },
+        {
+          "id": 227,
+          "word": "delighted",
+          "phonetic": "/dɪˈlaɪtɪd/",
+          "meaning": "adj. 高兴的"
+        },
+        {
+          "id": 228,
+          "word": "exhausted",
+          "phonetic": "/ɪɡˈzɔːstɪd/",
+          "meaning": "adj. 筋疲力尽的"
+        },
+        {
+          "id": 229,
+          "word": "determined",
+          "phonetic": "/dɪˈtɜːmɪnd/",
+          "meaning": "adj. 坚定的；下定决心的"
+        },
+        {
+          "id": 230,
+          "word": "reluctant",
+          "phonetic": "/rɪˈlʌktənt/",
+          "meaning": "adj. 不情愿的"
+        },
+        {
+          "id": 231,
+          "word": "confident",
+          "phonetic": "/ˈkɒnfɪdənt/",
+          "meaning": "adj. 自信的"
+        },
+        {
+          "id": 232,
+          "word": "curious",
+          "phonetic": "/ˈkjʊəriəs/",
+          "meaning": "adj. 好奇的"
+        },
+        {
+          "id": 233,
+          "word": "grateful",
+          "phonetic": "/ˈɡreɪtfl/",
+          "meaning": "adj. 感激的"
+        },
+        {
+          "id": 234,
+          "word": "isolated",
+          "phonetic": "/ˈaɪsəleɪtɪd/",
+          "meaning": "adj. 孤立的；偏僻的"
+        },
+        {
+          "id": 235,
+          "word": "desperate",
+          "phonetic": "/ˈdespərət/",
+          "meaning": "adj. 绝望的；拼命的"
+        },
+        {
+          "id": 236,
+          "word": "cautious",
+          "phonetic": "/ˈkɔːʃəs/",
+          "meaning": "adj. 谨慎的"
+        },
+        {
+          "id": 237,
+          "word": "generous",
+          "phonetic": "/ˈdʒenərəs/",
+          "meaning": "adj. 慷慨的"
+        },
+        {
+          "id": 238,
+          "word": "nervous",
+          "phonetic": "/ˈnɜːvəs/",
+          "meaning": "adj. 紧张的"
+        },
+        {
+          "id": 239,
+          "word": "ashamed",
+          "phonetic": "/əˈʃeɪmd/",
+          "meaning": "adj. 羞愧的"
+        },
+        {
+          "id": 240,
+          "word": "ancient",
+          "phonetic": "/ˈeɪnʃənt/",
+          "meaning": "adj. 古老的"
+        },
+        {
+          "id": 241,
+          "word": "enormous",
+          "phonetic": "/ɪˈnɔːməs/",
+          "meaning": "adj. 巨大的"
+        },
+        {
+          "id": 242,
+          "word": "fragile",
+          "phonetic": "/ˈfrædʒaɪl/",
+          "meaning": "adj. 易碎的；脆弱的"
+        },
+        {
+          "id": 243,
+          "word": "gloomy",
+          "phonetic": "/ˈɡluːmi/",
+          "meaning": "adj. 阴暗的；忧郁的"
+        },
+        {
+          "id": 244,
+          "word": "vivid",
+          "phonetic": "/ˈvɪvɪd/",
+          "meaning": "adj. 生动的；鲜艳的"
+        },
+        {
+          "id": 245,
+          "word": "peaceful",
+          "phonetic": "/ˈpiːsfl/",
+          "meaning": "adj. 宁静的"
+        },
+        {
+          "id": 246,
+          "word": "chaotic",
+          "phonetic": "/keɪˈɒtɪk/",
+          "meaning": "adj. 混乱的"
+        },
+        {
+          "id": 247,
+          "word": "eerie",
+          "phonetic": "/ˈɪəri/",
+          "meaning": "adj. 阴森的；怪异的"
+        },
+        {
+          "id": 248,
+          "word": "magnificent",
+          "phonetic": "/mæɡˈnɪfɪsnt/",
+          "meaning": "adj. 壮丽的"
+        },
+        {
+          "id": 249,
+          "word": "whisper",
+          "phonetic": "/ˈwɪspə/",
+          "meaning": "v. 低语"
+        },
+        {
+          "id": 250,
+          "word": "murmur",
+          "phonetic": "/ˈmɜːmə/",
+          "meaning": "v. 喃喃地说"
+        },
+        {
+          "id": 251,
+          "word": "stumble",
+          "phonetic": "/ˈstʌmbl/",
+          "meaning": "v. 绊倒；踉跄"
+        },
+        {
+          "id": 252,
+          "word": "glance",
+          "phonetic": "/ɡlɑːns/",
+          "meaning": "v. 瞥一眼"
+        },
+        {
+          "id": 253,
+          "word": "stare",
+          "phonetic": "/steə/",
+          "meaning": "v. 盯着看"
+        },
+        {
+          "id": 254,
+          "word": "tremble",
+          "phonetic": "/ˈtrembl/",
+          "meaning": "v. 颤抖"
+        },
+        {
+          "id": 255,
+          "word": "gasp",
+          "phonetic": "/ɡɑːsp/",
+          "meaning": "v. 倒吸一口气"
+        },
+        {
+          "id": 256,
+          "word": "sprint",
+          "phonetic": "/sprɪnt/",
+          "meaning": "v. 冲刺"
+        },
+        {
+          "id": 257,
+          "word": "wander",
+          "phonetic": "/ˈwɒndə/",
+          "meaning": "v. 漫步；闲荡"
+        },
+        {
+          "id": 258,
+          "word": "hesitate",
+          "phonetic": "/ˈhezɪteɪt/",
+          "meaning": "v. 犹豫"
+        },
+        {
+          "id": 259,
+          "word": "shiver",
+          "phonetic": "/ˈʃɪvə/",
+          "meaning": "v. 发抖"
+        }
+      ]
+    },
+    {
+      "category": "科学 Science",
+      "count": 76,
+      "words": [
+        {
+          "id": 260,
+          "word": "hypothesis",
+          "phonetic": "/haɪˈpɒθəsɪs/",
+          "meaning": "n. 假设"
+        },
+        {
+          "id": 261,
+          "word": "experiment",
+          "phonetic": "/ɪkˈsperɪmənt/",
+          "meaning": "n. 实验"
+        },
+        {
+          "id": 262,
+          "word": "fair test",
+          "phonetic": "/ˌfeə ˈtest/",
+          "meaning": "n. 公平测试"
+        },
+        {
+          "id": 263,
+          "word": "observation",
+          "phonetic": "/ˌɒbzəˈveɪʃn/",
+          "meaning": "n. 观察"
+        },
+        {
+          "id": 264,
+          "word": "variable",
+          "phonetic": "/ˈveəriəbl/",
+          "meaning": "n. 变量"
+        },
+        {
+          "id": 265,
+          "word": "independent variable",
+          "phonetic": "/ˌɪndɪˈpendənt ˈveəriəbl/",
+          "meaning": "n. 自变量"
+        },
+        {
+          "id": 266,
+          "word": "dependent variable",
+          "phonetic": "/dɪˈpendənt ˈveəriəbl/",
+          "meaning": "n. 因变量"
+        },
+        {
+          "id": 267,
+          "word": "equipment",
+          "phonetic": "/ɪˈkwɪpmənt/",
+          "meaning": "n. 器材；设备"
+        },
+        {
+          "id": 268,
+          "word": "cell",
+          "phonetic": "/sel/",
+          "meaning": "n. 细胞"
+        },
+        {
+          "id": 269,
+          "word": "organism",
+          "phonetic": "/ˈɔːɡənɪzəm/",
+          "meaning": "n. 生物体"
+        },
+        {
+          "id": 270,
+          "word": "atom",
+          "phonetic": "/ˈætəm/",
+          "meaning": "n. 原子"
+        },
+        {
+          "id": 271,
+          "word": "element",
+          "phonetic": "/ˈelɪmənt/",
+          "meaning": "n. 元素"
+        },
+        {
+          "id": 272,
+          "word": "compound",
+          "phonetic": "/ˈkɒmpaʊnd/",
+          "meaning": "n. 化合物"
+        },
+        {
+          "id": 273,
+          "word": "mixture",
+          "phonetic": "/ˈmɪkstʃə/",
+          "meaning": "n. 混合物"
+        },
+        {
+          "id": 274,
+          "word": "solution",
+          "phonetic": "/səˈluːʃn/",
+          "meaning": "n. 溶液；解决办法"
+        },
+        {
+          "id": 275,
+          "word": "dissolve",
+          "phonetic": "/dɪˈzɒlv/",
+          "meaning": "v. 溶解"
+        },
+        {
+          "id": 276,
+          "word": "evaporate",
+          "phonetic": "/ɪˈvæpəreɪt/",
+          "meaning": "v. 蒸发"
+        },
+        {
+          "id": 277,
+          "word": "particle",
+          "phonetic": "/ˈpɑːtɪkl/",
+          "meaning": "n. 粒子；微粒"
+        },
+        {
+          "id": 278,
+          "word": "energy",
+          "phonetic": "/ˈenədʒi/",
+          "meaning": "n. 能量"
+        },
+        {
+          "id": 279,
+          "word": "force",
+          "phonetic": "/fɔːs/",
+          "meaning": "n. 力"
+        },
+        {
+          "id": 280,
+          "word": "gravity",
+          "phonetic": "/ˈɡrævəti/",
+          "meaning": "n. 重力；引力"
+        },
+        {
+          "id": 281,
+          "word": "friction",
+          "phonetic": "/ˈfrɪkʃn/",
+          "meaning": "n. 摩擦力"
+        },
+        {
+          "id": 282,
+          "word": "ecosystem",
+          "phonetic": "/ˈiːkəʊsɪstəm/",
+          "meaning": "n. 生态系统"
+        },
+        {
+          "id": 283,
+          "word": "habitat",
+          "phonetic": "/ˈhæbɪtæt/",
+          "meaning": "n. 栖息地"
+        },
+        {
+          "id": 284,
+          "word": "adaptation",
+          "phonetic": "/ˌædæpˈteɪʃn/",
+          "meaning": "n. 适应"
+        },
+        {
+          "id": 285,
+          "word": "photosynthesis",
+          "phonetic": "/ˌfəʊtəʊˈsɪnθəsɪs/",
+          "meaning": "n. 光合作用"
+        },
+        {
+          "id": 286,
+          "word": "acid",
+          "phonetic": "/ˈæsɪd/",
+          "meaning": "n. 酸"
+        },
+        {
+          "id": 287,
+          "word": "base",
+          "phonetic": "/beɪs/",
+          "meaning": "n. 碱；基础"
+        },
+        {
+          "id": 288,
+          "word": "laboratory",
+          "phonetic": "/ləˈbɒrətri/",
+          "meaning": "n. 实验室"
+        },
+        {
+          "id": 289,
+          "word": "beaker",
+          "phonetic": "/ˈbiːkə/",
+          "meaning": "n. 烧杯"
+        },
+        {
+          "id": 290,
+          "word": "test tube",
+          "phonetic": "/ˈtest tjuːb/",
+          "meaning": "n. 试管"
+        },
+        {
+          "id": 291,
+          "word": "Bunsen burner",
+          "phonetic": "/ˌbʌnsn ˈbɜːnə/",
+          "meaning": "n. 本生灯"
+        },
+        {
+          "id": 292,
+          "word": "safety glasses",
+          "phonetic": "/ˈseɪfti ˌɡlɑːsɪz/",
+          "meaning": "n. 护目镜"
+        },
+        {
+          "id": 293,
+          "word": "microscope",
+          "phonetic": "/ˈmaɪkrəskəʊp/",
+          "meaning": "n. 显微镜"
+        },
+        {
+          "id": 294,
+          "word": "measure",
+          "phonetic": "/ˈmeʒə/",
+          "meaning": "v. 测量"
+        },
+        {
+          "id": 295,
+          "word": "temperature",
+          "phonetic": "/ˈtemprətʃə/",
+          "meaning": "n. 温度"
+        },
+        {
+          "id": 296,
+          "word": "thermometer",
+          "phonetic": "/θəˈmɒmɪtə/",
+          "meaning": "n. 温度计"
+        },
+        {
+          "id": 297,
+          "word": "mass",
+          "phonetic": "/mæs/",
+          "meaning": "n. 质量"
+        },
+        {
+          "id": 298,
+          "word": "weight",
+          "phonetic": "/weɪt/",
+          "meaning": "n. 重量"
+        },
+        {
+          "id": 299,
+          "word": "density",
+          "phonetic": "/ˈdensəti/",
+          "meaning": "n. 密度"
+        },
+        {
+          "id": 300,
+          "word": "solid",
+          "phonetic": "/ˈsɒlɪd/",
+          "meaning": "n. 固体"
+        },
+        {
+          "id": 301,
+          "word": "liquid",
+          "phonetic": "/ˈlɪkwɪd/",
+          "meaning": "n. 液体"
+        },
+        {
+          "id": 302,
+          "word": "gas",
+          "phonetic": "/ɡæs/",
+          "meaning": "n. 气体"
+        },
+        {
+          "id": 303,
+          "word": "melt",
+          "phonetic": "/melt/",
+          "meaning": "v. 融化"
+        },
+        {
+          "id": 304,
+          "word": "freeze",
+          "phonetic": "/friːz/",
+          "meaning": "v. 冻结"
+        },
+        {
+          "id": 305,
+          "word": "boil",
+          "phonetic": "/bɔɪl/",
+          "meaning": "v. 沸腾"
+        },
+        {
+          "id": 306,
+          "word": "condense",
+          "phonetic": "/kənˈdens/",
+          "meaning": "v. 冷凝"
+        },
+        {
+          "id": 307,
+          "word": "chemical reaction",
+          "phonetic": "/ˌkemɪkl riˈækʃn/",
+          "meaning": "n. 化学反应"
+        },
+        {
+          "id": 308,
+          "word": "molecule",
+          "phonetic": "/ˈmɒlɪkjuːl/",
+          "meaning": "n. 分子"
+        },
+        {
+          "id": 309,
+          "word": "nucleus",
+          "phonetic": "/ˈnjuːkliəs/",
+          "meaning": "n. 细胞核；原子核"
+        },
+        {
+          "id": 310,
+          "word": "membrane",
+          "phonetic": "/ˈmembreɪn/",
+          "meaning": "n. 膜"
+        },
+        {
+          "id": 311,
+          "word": "tissue",
+          "phonetic": "/ˈtɪʃuː/",
+          "meaning": "n. 组织"
+        },
+        {
+          "id": 312,
+          "word": "organ",
+          "phonetic": "/ˈɔːɡən/",
+          "meaning": "n. 器官"
+        },
+        {
+          "id": 313,
+          "word": "bacteria",
+          "phonetic": "/bækˈtɪəriə/",
+          "meaning": "n. 细菌"
+        },
+        {
+          "id": 314,
+          "word": "virus",
+          "phonetic": "/ˈvaɪrəs/",
+          "meaning": "n. 病毒"
+        },
+        {
+          "id": 315,
+          "word": "species",
+          "phonetic": "/ˈspiːʃiːz/",
+          "meaning": "n. 物种"
+        },
+        {
+          "id": 316,
+          "word": "classification",
+          "phonetic": "/ˌklæsɪfɪˈkeɪʃn/",
+          "meaning": "n. 分类"
+        },
+        {
+          "id": 317,
+          "word": "predator",
+          "phonetic": "/ˈpredətə/",
+          "meaning": "n. 捕食者"
+        },
+        {
+          "id": 318,
+          "word": "prey",
+          "phonetic": "/preɪ/",
+          "meaning": "n. 猎物"
+        },
+        {
+          "id": 319,
+          "word": "food chain",
+          "phonetic": "/ˈfuːd tʃeɪn/",
+          "meaning": "n. 食物链"
+        },
+        {
+          "id": 320,
+          "word": "producer",
+          "phonetic": "/prəˈdjuːsə/",
+          "meaning": "n. 生产者"
+        },
+        {
+          "id": 321,
+          "word": "consumer",
+          "phonetic": "/kənˈsjuːmə/",
+          "meaning": "n. 消费者"
+        },
+        {
+          "id": 322,
+          "word": "decomposer",
+          "phonetic": "/ˌdiːkəmˈpəʊzə/",
+          "meaning": "n. 分解者"
+        },
+        {
+          "id": 323,
+          "word": "planet",
+          "phonetic": "/ˈplænɪt/",
+          "meaning": "n. 行星"
+        },
+        {
+          "id": 324,
+          "word": "solar system",
+          "phonetic": "/ˈsəʊlə ˌsɪstəm/",
+          "meaning": "n. 太阳系"
+        },
+        {
+          "id": 325,
+          "word": "orbit",
+          "phonetic": "/ˈɔːbɪt/",
+          "meaning": "n. 轨道；v. 绕轨道运行"
+        },
+        {
+          "id": 326,
+          "word": "earthquake",
+          "phonetic": "/ˈɜːθkweɪk/",
+          "meaning": "n. 地震"
+        },
+        {
+          "id": 327,
+          "word": "volcano",
+          "phonetic": "/vɒlˈkeɪnəʊ/",
+          "meaning": "n. 火山"
+        },
+        {
+          "id": 328,
+          "word": "erosion",
+          "phonetic": "/ɪˈrəʊʒn/",
+          "meaning": "n. 侵蚀"
+        },
+        {
+          "id": 329,
+          "word": "fossil",
+          "phonetic": "/ˈfɒsl/",
+          "meaning": "n. 化石"
+        },
+        {
+          "id": 330,
+          "word": "electricity",
+          "phonetic": "/ɪˌlekˈtrɪsəti/",
+          "meaning": "n. 电"
+        },
+        {
+          "id": 331,
+          "word": "circuit",
+          "phonetic": "/ˈsɜːkɪt/",
+          "meaning": "n. 电路"
+        },
+        {
+          "id": 332,
+          "word": "conductor",
+          "phonetic": "/kənˈdʌktə/",
+          "meaning": "n. 导体"
+        },
+        {
+          "id": 333,
+          "word": "insulator",
+          "phonetic": "/ˈɪnsjuleɪtə/",
+          "meaning": "n. 绝缘体"
+        },
+        {
+          "id": 334,
+          "word": "magnet",
+          "phonetic": "/ˈmæɡnət/",
+          "meaning": "n. 磁铁"
+        },
+        {
+          "id": 335,
+          "word": "reflection",
+          "phonetic": "/rɪˈflekʃn/",
+          "meaning": "n. 反射；倒影"
+        }
+      ]
+    },
+    {
+      "category": "数学 Maths",
+      "count": 58,
+      "words": [
+        {
+          "id": 336,
+          "word": "integer",
+          "phonetic": "/ˈɪntɪdʒə/",
+          "meaning": "n. 整数"
+        },
+        {
+          "id": 337,
+          "word": "fraction",
+          "phonetic": "/ˈfrækʃn/",
+          "meaning": "n. 分数"
+        },
+        {
+          "id": 338,
+          "word": "decimal",
+          "phonetic": "/ˈdesɪml/",
+          "meaning": "n. 小数"
+        },
+        {
+          "id": 339,
+          "word": "percentage",
+          "phonetic": "/pəˈsentɪdʒ/",
+          "meaning": "n. 百分比"
+        },
+        {
+          "id": 340,
+          "word": "ratio",
+          "phonetic": "/ˈreɪʃiəʊ/",
+          "meaning": "n. 比；比例"
+        },
+        {
+          "id": 341,
+          "word": "expression",
+          "phonetic": "/ɪkˈspreʃn/",
+          "meaning": "n. 代数式；表达"
+        },
+        {
+          "id": 342,
+          "word": "equation",
+          "phonetic": "/ɪˈkweɪʒn/",
+          "meaning": "n. 方程；等式"
+        },
+        {
+          "id": 343,
+          "word": "coordinate",
+          "phonetic": "/kəʊˈɔːdɪnət/",
+          "meaning": "n. 坐标"
+        },
+        {
+          "id": 344,
+          "word": "perimeter",
+          "phonetic": "/pəˈrɪmɪtə/",
+          "meaning": "n. 周长"
+        },
+        {
+          "id": 345,
+          "word": "area",
+          "phonetic": "/ˈeəriə/",
+          "meaning": "n. 面积；区域"
+        },
+        {
+          "id": 346,
+          "word": "volume",
+          "phonetic": "/ˈvɒljuːm/",
+          "meaning": "n. 体积；音量"
+        },
+        {
+          "id": 347,
+          "word": "angle",
+          "phonetic": "/ˈæŋɡl/",
+          "meaning": "n. 角；角度"
+        },
+        {
+          "id": 348,
+          "word": "parallel",
+          "phonetic": "/ˈpærəlel/",
+          "meaning": "adj. 平行的"
+        },
+        {
+          "id": 349,
+          "word": "perpendicular",
+          "phonetic": "/ˌpɜːpənˈdɪkjələ/",
+          "meaning": "adj. 垂直的"
+        },
+        {
+          "id": 350,
+          "word": "mean",
+          "phonetic": "/miːn/",
+          "meaning": "n. 平均数"
+        },
+        {
+          "id": 351,
+          "word": "median",
+          "phonetic": "/ˈmiːdiən/",
+          "meaning": "n. 中位数"
+        },
+        {
+          "id": 352,
+          "word": "mode",
+          "phonetic": "/məʊd/",
+          "meaning": "n. 众数；模式"
+        },
+        {
+          "id": 353,
+          "word": "range",
+          "phonetic": "/reɪndʒ/",
+          "meaning": "n. 极差；范围"
+        },
+        {
+          "id": 354,
+          "word": "probability",
+          "phonetic": "/ˌprɒbəˈbɪləti/",
+          "meaning": "n. 概率；可能性"
+        },
+        {
+          "id": 355,
+          "word": "round",
+          "phonetic": "/raʊnd/",
+          "meaning": "v. 四舍五入；adj. 圆的"
+        },
+        {
+          "id": 356,
+          "word": "addition",
+          "phonetic": "/əˈdɪʃn/",
+          "meaning": "n. 加法"
+        },
+        {
+          "id": 357,
+          "word": "subtraction",
+          "phonetic": "/səbˈtrækʃn/",
+          "meaning": "n. 减法"
+        },
+        {
+          "id": 358,
+          "word": "multiplication",
+          "phonetic": "/ˌmʌltɪplɪˈkeɪʃn/",
+          "meaning": "n. 乘法"
+        },
+        {
+          "id": 359,
+          "word": "division",
+          "phonetic": "/dɪˈvɪʒn/",
+          "meaning": "n. 除法"
+        },
+        {
+          "id": 360,
+          "word": "sum",
+          "phonetic": "/sʌm/",
+          "meaning": "n. 和"
+        },
+        {
+          "id": 361,
+          "word": "difference",
+          "phonetic": "/ˈdɪfrəns/",
+          "meaning": "n. 差；区别"
+        },
+        {
+          "id": 362,
+          "word": "product",
+          "phonetic": "/ˈprɒdʌkt/",
+          "meaning": "n. 积；产品"
+        },
+        {
+          "id": 363,
+          "word": "multiple",
+          "phonetic": "/ˈmʌltɪpl/",
+          "meaning": "n. 倍数"
+        },
+        {
+          "id": 364,
+          "word": "prime number",
+          "phonetic": "/ˌpraɪm ˈnʌmbə/",
+          "meaning": "n. 质数"
+        },
+        {
+          "id": 365,
+          "word": "square root",
+          "phonetic": "/ˌskweə ˈruːt/",
+          "meaning": "n. 平方根"
+        },
+        {
+          "id": 366,
+          "word": "power",
+          "phonetic": "/ˈpaʊə/",
+          "meaning": "n. 乘方；幂"
+        },
+        {
+          "id": 367,
+          "word": "negative number",
+          "phonetic": "/ˌneɡətɪv ˈnʌmbə/",
+          "meaning": "n. 负数"
+        },
+        {
+          "id": 368,
+          "word": "algebra",
+          "phonetic": "/ˈældʒɪbrə/",
+          "meaning": "n. 代数"
+        },
+        {
+          "id": 369,
+          "word": "simplify",
+          "phonetic": "/ˈsɪmplɪfaɪ/",
+          "meaning": "v. 化简"
+        },
+        {
+          "id": 370,
+          "word": "expand",
+          "phonetic": "/ɪkˈspænd/",
+          "meaning": "v. 展开"
+        },
+        {
+          "id": 371,
+          "word": "substitute",
+          "phonetic": "/ˈsʌbstɪtjuːt/",
+          "meaning": "v. 代入；替换"
+        },
+        {
+          "id": 372,
+          "word": "solve",
+          "phonetic": "/sɒlv/",
+          "meaning": "v. 解；解决"
+        },
+        {
+          "id": 373,
+          "word": "formula",
+          "phonetic": "/ˈfɔːmjələ/",
+          "meaning": "n. 公式"
+        },
+        {
+          "id": 374,
+          "word": "pattern",
+          "phonetic": "/ˈpætn/",
+          "meaning": "n. 规律；图案"
+        },
+        {
+          "id": 375,
+          "word": "sequence",
+          "phonetic": "/ˈsiːkwəns/",
+          "meaning": "n. 数列；顺序"
+        },
+        {
+          "id": 376,
+          "word": "diameter",
+          "phonetic": "/daɪˈæmɪtə/",
+          "meaning": "n. 直径"
+        },
+        {
+          "id": 377,
+          "word": "radius",
+          "phonetic": "/ˈreɪdiəs/",
+          "meaning": "n. 半径"
+        },
+        {
+          "id": 378,
+          "word": "circumference",
+          "phonetic": "/səˈkʌmfərəns/",
+          "meaning": "n. 圆周长"
+        },
+        {
+          "id": 379,
+          "word": "triangle",
+          "phonetic": "/ˈtraɪæŋɡl/",
+          "meaning": "n. 三角形"
+        },
+        {
+          "id": 380,
+          "word": "rectangle",
+          "phonetic": "/ˈrektæŋɡl/",
+          "meaning": "n. 长方形"
+        },
+        {
+          "id": 381,
+          "word": "polygon",
+          "phonetic": "/ˈpɒlɪɡən/",
+          "meaning": "n. 多边形"
+        },
+        {
+          "id": 382,
+          "word": "symmetry",
+          "phonetic": "/ˈsɪmətri/",
+          "meaning": "n. 对称"
+        },
+        {
+          "id": 383,
+          "word": "rotation",
+          "phonetic": "/rəʊˈteɪʃn/",
+          "meaning": "n. 旋转"
+        },
+        {
+          "id": 384,
+          "word": "translation",
+          "phonetic": "/trænsˈleɪʃn/",
+          "meaning": "n. 平移；翻译"
+        },
+        {
+          "id": 385,
+          "word": "graph",
+          "phonetic": "/ɡrɑːf/",
+          "meaning": "n. 图表；图像"
+        },
+        {
+          "id": 386,
+          "word": "axis",
+          "phonetic": "/ˈæksɪs/",
+          "meaning": "n. 坐标轴"
+        },
+        {
+          "id": 387,
+          "word": "frequency",
+          "phonetic": "/ˈfriːkwənsi/",
+          "meaning": "n. 频数；频率"
+        },
+        {
+          "id": 388,
+          "word": "average",
+          "phonetic": "/ˈævərɪdʒ/",
+          "meaning": "n. 平均数"
+        },
+        {
+          "id": 389,
+          "word": "unit",
+          "phonetic": "/ˈjuːnɪt/",
+          "meaning": "n. 单位"
+        },
+        {
+          "id": 390,
+          "word": "calculate",
+          "phonetic": "/ˈkælkjuleɪt/",
+          "meaning": "v. 计算"
+        },
+        {
+          "id": 391,
+          "word": "approximately",
+          "phonetic": "/əˈprɒksɪmətli/",
+          "meaning": "adv. 大约"
+        },
+        {
+          "id": 392,
+          "word": "proportion",
+          "phonetic": "/prəˈpɔːʃn/",
+          "meaning": "n. 比例"
+        },
+        {
+          "id": 393,
+          "word": "discount",
+          "phonetic": "/ˈdɪskaʊnt/",
+          "meaning": "n. 折扣"
+        }
+      ]
+    },
+    {
+      "category": "社会研究 Social Studies",
+      "count": 54,
+      "words": [
+        {
+          "id": 394,
+          "word": "community",
+          "phonetic": "/kəˈmjuːnəti/",
+          "meaning": "n. 社区；群体"
+        },
+        {
+          "id": 395,
+          "word": "culture",
+          "phonetic": "/ˈkʌltʃə/",
+          "meaning": "n. 文化"
+        },
+        {
+          "id": 396,
+          "word": "identity",
+          "phonetic": "/aɪˈdentəti/",
+          "meaning": "n. 身份；身份认同"
+        },
+        {
+          "id": 397,
+          "word": "citizen",
+          "phonetic": "/ˈsɪtɪzn/",
+          "meaning": "n. 公民"
+        },
+        {
+          "id": 398,
+          "word": "government",
+          "phonetic": "/ˈɡʌvənmənt/",
+          "meaning": "n. 政府"
+        },
+        {
+          "id": 399,
+          "word": "democracy",
+          "phonetic": "/dɪˈmɒkrəsi/",
+          "meaning": "n. 民主"
+        },
+        {
+          "id": 400,
+          "word": "rights",
+          "phonetic": "/raɪts/",
+          "meaning": "n. 权利"
+        },
+        {
+          "id": 401,
+          "word": "responsibility",
+          "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+          "meaning": "n. 责任"
+        },
+        {
+          "id": 402,
+          "word": "treaty",
+          "phonetic": "/ˈtriːti/",
+          "meaning": "n. 条约"
+        },
+        {
+          "id": 403,
+          "word": "colonisation",
+          "phonetic": "/ˌkɒlənaɪˈzeɪʃn/",
+          "meaning": "n. 殖民"
+        },
+        {
+          "id": 404,
+          "word": "migration",
+          "phonetic": "/maɪˈɡreɪʃn/",
+          "meaning": "n. 移民；迁徙"
+        },
+        {
+          "id": 405,
+          "word": "settlement",
+          "phonetic": "/ˈsetlmənt/",
+          "meaning": "n. 定居；定居点"
+        },
+        {
+          "id": 406,
+          "word": "resource",
+          "phonetic": "/rɪˈsɔːs/",
+          "meaning": "n. 资源"
+        },
+        {
+          "id": 407,
+          "word": "sustainable",
+          "phonetic": "/səˈsteɪnəbl/",
+          "meaning": "adj. 可持续的"
+        },
+        {
+          "id": 408,
+          "word": "economy",
+          "phonetic": "/ɪˈkɒnəmi/",
+          "meaning": "n. 经济"
+        },
+        {
+          "id": 409,
+          "word": "trade",
+          "phonetic": "/treɪd/",
+          "meaning": "n./v. 贸易"
+        },
+        {
+          "id": 410,
+          "word": "primary source",
+          "phonetic": "/ˌpraɪməri ˈsɔːs/",
+          "meaning": "n. 一手资料"
+        },
+        {
+          "id": 411,
+          "word": "secondary source",
+          "phonetic": "/ˌsekəndri ˈsɔːs/",
+          "meaning": "n. 二手资料"
+        },
+        {
+          "id": 412,
+          "word": "bias",
+          "phonetic": "/ˈbaɪəs/",
+          "meaning": "n. 偏见；偏向"
+        },
+        {
+          "id": 413,
+          "word": "perspective",
+          "phonetic": "/pəˈspektɪv/",
+          "meaning": "n. 观点；视角"
+        },
+        {
+          "id": 414,
+          "word": "society",
+          "phonetic": "/səˈsaɪəti/",
+          "meaning": "n. 社会"
+        },
+        {
+          "id": 415,
+          "word": "law",
+          "phonetic": "/lɔː/",
+          "meaning": "n. 法律"
+        },
+        {
+          "id": 416,
+          "word": "election",
+          "phonetic": "/ɪˈlekʃn/",
+          "meaning": "n. 选举"
+        },
+        {
+          "id": 417,
+          "word": "vote",
+          "phonetic": "/vəʊt/",
+          "meaning": "v./n. 投票"
+        },
+        {
+          "id": 418,
+          "word": "parliament",
+          "phonetic": "/ˈpɑːləmənt/",
+          "meaning": "n. 议会"
+        },
+        {
+          "id": 419,
+          "word": "prime minister",
+          "phonetic": "/ˌpraɪm ˈmɪnɪstə/",
+          "meaning": "n. 总理"
+        },
+        {
+          "id": 420,
+          "word": "council",
+          "phonetic": "/ˈkaʊnsl/",
+          "meaning": "n. 市议会；委员会"
+        },
+        {
+          "id": 421,
+          "word": "protest",
+          "phonetic": "/ˈprəʊtest/",
+          "meaning": "n. 抗议"
+        },
+        {
+          "id": 422,
+          "word": "equality",
+          "phonetic": "/iˈkwɒləti/",
+          "meaning": "n. 平等"
+        },
+        {
+          "id": 423,
+          "word": "justice",
+          "phonetic": "/ˈdʒʌstɪs/",
+          "meaning": "n. 公正；正义"
+        },
+        {
+          "id": 424,
+          "word": "discrimination",
+          "phonetic": "/dɪˌskrɪmɪˈneɪʃn/",
+          "meaning": "n. 歧视"
+        },
+        {
+          "id": 425,
+          "word": "diversity",
+          "phonetic": "/daɪˈvɜːsəti/",
+          "meaning": "n. 多样性"
+        },
+        {
+          "id": 426,
+          "word": "heritage",
+          "phonetic": "/ˈherɪtɪdʒ/",
+          "meaning": "n. 遗产；传统"
+        },
+        {
+          "id": 427,
+          "word": "tradition",
+          "phonetic": "/trəˈdɪʃn/",
+          "meaning": "n. 传统"
+        },
+        {
+          "id": 428,
+          "word": "belief",
+          "phonetic": "/bɪˈliːf/",
+          "meaning": "n. 信仰；信念"
+        },
+        {
+          "id": 429,
+          "word": "values",
+          "phonetic": "/ˈvæljuːz/",
+          "meaning": "n. 价值观"
+        },
+        {
+          "id": 430,
+          "word": "population",
+          "phonetic": "/ˌpɒpjuˈleɪʃn/",
+          "meaning": "n. 人口"
+        },
+        {
+          "id": 431,
+          "word": "immigrant",
+          "phonetic": "/ˈɪmɪɡrənt/",
+          "meaning": "n. 移民（迁入者）"
+        },
+        {
+          "id": 432,
+          "word": "refugee",
+          "phonetic": "/ˌrefjuˈdʒiː/",
+          "meaning": "n. 难民"
+        },
+        {
+          "id": 433,
+          "word": "generation",
+          "phonetic": "/ˌdʒenəˈreɪʃn/",
+          "meaning": "n. 一代人"
+        },
+        {
+          "id": 434,
+          "word": "independence",
+          "phonetic": "/ˌɪndɪˈpendəns/",
+          "meaning": "n. 独立"
+        },
+        {
+          "id": 435,
+          "word": "globalisation",
+          "phonetic": "/ˌɡləʊbəlaɪˈzeɪʃn/",
+          "meaning": "n. 全球化"
+        },
+        {
+          "id": 436,
+          "word": "poverty",
+          "phonetic": "/ˈpɒvəti/",
+          "meaning": "n. 贫困"
+        },
+        {
+          "id": 437,
+          "word": "climate change",
+          "phonetic": "/ˈklaɪmət tʃeɪndʒ/",
+          "meaning": "n. 气候变化"
+        },
+        {
+          "id": 438,
+          "word": "pollution",
+          "phonetic": "/pəˈluːʃn/",
+          "meaning": "n. 污染"
+        },
+        {
+          "id": 439,
+          "word": "conservation",
+          "phonetic": "/ˌkɒnsəˈveɪʃn/",
+          "meaning": "n. 保护；保育"
+        },
+        {
+          "id": 440,
+          "word": "century",
+          "phonetic": "/ˈsentʃəri/",
+          "meaning": "n. 世纪"
+        },
+        {
+          "id": 441,
+          "word": "decade",
+          "phonetic": "/ˈdekeɪd/",
+          "meaning": "n. 十年"
+        },
+        {
+          "id": 442,
+          "word": "empire",
+          "phonetic": "/ˈempaɪə/",
+          "meaning": "n. 帝国"
+        },
+        {
+          "id": 443,
+          "word": "settler",
+          "phonetic": "/ˈsetlə/",
+          "meaning": "n. 定居者"
+        },
+        {
+          "id": 444,
+          "word": "ancestor",
+          "phonetic": "/ˈænsestə/",
+          "meaning": "n. 祖先"
+        },
+        {
+          "id": 445,
+          "word": "indigenous",
+          "phonetic": "/ɪnˈdɪdʒənəs/",
+          "meaning": "adj. 本土的；原住民的"
+        },
+        {
+          "id": 446,
+          "word": "timeline",
+          "phonetic": "/ˈtaɪmlaɪn/",
+          "meaning": "n. 时间线"
+        },
+        {
+          "id": 447,
+          "word": "cause",
+          "phonetic": "/kɔːz/",
+          "meaning": "n. 原因；v. 导致"
+        }
+      ]
+    },
+    {
+      "category": "健康与体育 Health & PE",
+      "count": 24,
+      "words": [
+        {
+          "id": 448,
+          "word": "health",
+          "phonetic": "/helθ/",
+          "meaning": "n. 健康"
+        },
+        {
+          "id": 449,
+          "word": "wellbeing",
+          "phonetic": "/ˈwelbiːɪŋ/",
+          "meaning": "n. 身心健康；福祉"
+        },
+        {
+          "id": 450,
+          "word": "mental health",
+          "phonetic": "/ˌmentl ˈhelθ/",
+          "meaning": "n. 心理健康"
+        },
+        {
+          "id": 451,
+          "word": "nutrition",
+          "phonetic": "/njuˈtrɪʃn/",
+          "meaning": "n. 营养"
+        },
+        {
+          "id": 452,
+          "word": "diet",
+          "phonetic": "/ˈdaɪət/",
+          "meaning": "n. 饮食"
+        },
+        {
+          "id": 453,
+          "word": "exercise",
+          "phonetic": "/ˈeksəsaɪz/",
+          "meaning": "n./v. 锻炼"
+        },
+        {
+          "id": 454,
+          "word": "fitness",
+          "phonetic": "/ˈfɪtnəs/",
+          "meaning": "n. 体能；健康"
+        },
+        {
+          "id": 455,
+          "word": "stress",
+          "phonetic": "/stres/",
+          "meaning": "n. 压力"
+        },
+        {
+          "id": 456,
+          "word": "emotion",
+          "phonetic": "/ɪˈməʊʃn/",
+          "meaning": "n. 情绪；情感"
+        },
+        {
+          "id": 457,
+          "word": "relationship",
+          "phonetic": "/rɪˈleɪʃnʃɪp/",
+          "meaning": "n. 关系"
+        },
+        {
+          "id": 458,
+          "word": "peer pressure",
+          "phonetic": "/ˈpɪə ˌpreʃə/",
+          "meaning": "n. 同伴压力"
+        },
+        {
+          "id": 459,
+          "word": "respect",
+          "phonetic": "/rɪˈspekt/",
+          "meaning": "n./v. 尊重"
+        },
+        {
+          "id": 460,
+          "word": "injury",
+          "phonetic": "/ˈɪndʒəri/",
+          "meaning": "n. 受伤"
+        },
+        {
+          "id": 461,
+          "word": "muscle",
+          "phonetic": "/ˈmʌsl/",
+          "meaning": "n. 肌肉"
+        },
+        {
+          "id": 462,
+          "word": "heart rate",
+          "phonetic": "/ˈhɑːt reɪt/",
+          "meaning": "n. 心率"
+        },
+        {
+          "id": 463,
+          "word": "oxygen",
+          "phonetic": "/ˈɒksɪdʒən/",
+          "meaning": "n. 氧气"
+        },
+        {
+          "id": 464,
+          "word": "hygiene",
+          "phonetic": "/ˈhaɪdʒiːn/",
+          "meaning": "n. 卫生"
+        },
+        {
+          "id": 465,
+          "word": "teamwork",
+          "phonetic": "/ˈtiːmwɜːk/",
+          "meaning": "n. 团队合作"
+        },
+        {
+          "id": 466,
+          "word": "coordination",
+          "phonetic": "/kəʊˌɔːdɪˈneɪʃn/",
+          "meaning": "n. 协调性"
+        },
+        {
+          "id": 467,
+          "word": "stamina",
+          "phonetic": "/ˈstæmɪnə/",
+          "meaning": "n. 耐力"
+        },
+        {
+          "id": 468,
+          "word": "flexibility",
+          "phonetic": "/ˌfleksəˈbɪləti/",
+          "meaning": "n. 柔韧性"
+        },
+        {
+          "id": 469,
+          "word": "warm-up",
+          "phonetic": "/ˈwɔːm ʌp/",
+          "meaning": "n. 热身"
+        },
+        {
+          "id": 470,
+          "word": "goal",
+          "phonetic": "/ɡəʊl/",
+          "meaning": "n. 目标；进球"
+        },
+        {
+          "id": 471,
+          "word": "consent",
+          "phonetic": "/kənˈsent/",
+          "meaning": "n. 同意；许可"
+        }
+      ]
+    },
+    {
+      "category": "技术 Technology",
+      "count": 18,
+      "words": [
+        {
+          "id": 472,
+          "word": "design",
+          "phonetic": "/dɪˈzaɪn/",
+          "meaning": "n./v. 设计"
+        },
+        {
+          "id": 473,
+          "word": "prototype",
+          "phonetic": "/ˈprəʊtətaɪp/",
+          "meaning": "n. 原型"
+        },
+        {
+          "id": 474,
+          "word": "material",
+          "phonetic": "/məˈtɪəriəl/",
+          "meaning": "n. 材料"
+        },
+        {
+          "id": 475,
+          "word": "brief",
+          "phonetic": "/briːf/",
+          "meaning": "n. 设计任务说明"
+        },
+        {
+          "id": 476,
+          "word": "specification",
+          "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
+          "meaning": "n. 规格；要求说明"
+        },
+        {
+          "id": 477,
+          "word": "sketch",
+          "phonetic": "/sketʃ/",
+          "meaning": "n. 草图；v. 画草图"
+        },
+        {
+          "id": 478,
+          "word": "stakeholder",
+          "phonetic": "/ˈsteɪkhəʊldə/",
+          "meaning": "n. 利益相关者"
+        },
+        {
+          "id": 479,
+          "word": "evaluation",
+          "phonetic": "/ɪˌvæljuˈeɪʃn/",
+          "meaning": "n. 评估"
+        },
+        {
+          "id": 480,
+          "word": "digital",
+          "phonetic": "/ˈdɪdʒɪtl/",
+          "meaning": "adj. 数字的"
+        },
+        {
+          "id": 481,
+          "word": "device",
+          "phonetic": "/dɪˈvaɪs/",
+          "meaning": "n. 设备"
+        },
+        {
+          "id": 482,
+          "word": "software",
+          "phonetic": "/ˈsɒftweə/",
+          "meaning": "n. 软件"
+        },
+        {
+          "id": 483,
+          "word": "hardware",
+          "phonetic": "/ˈhɑːdweə/",
+          "meaning": "n. 硬件"
+        },
+        {
+          "id": 484,
+          "word": "program",
+          "phonetic": "/ˈprəʊɡræm/",
+          "meaning": "n. 计算机程序；v. 编程"
+        },
+        {
+          "id": 485,
+          "word": "algorithm",
+          "phonetic": "/ˈælɡərɪðəm/",
+          "meaning": "n. 算法"
+        },
+        {
+          "id": 486,
+          "word": "code",
+          "phonetic": "/kəʊd/",
+          "meaning": "n. 代码；v. 编写代码"
+        },
+        {
+          "id": 487,
+          "word": "network",
+          "phonetic": "/ˈnetwɜːk/",
+          "meaning": "n. 网络"
+        },
+        {
+          "id": 488,
+          "word": "password",
+          "phonetic": "/ˈpɑːswɜːd/",
+          "meaning": "n. 密码"
+        },
+        {
+          "id": 489,
+          "word": "cyberbullying",
+          "phonetic": "/ˈsaɪbəbʊliɪŋ/",
+          "meaning": "n. 网络欺凌"
+        }
+      ]
+    }
+  ]
+}

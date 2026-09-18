@@ -11,7 +11,9 @@
  *
  * 只给已有详情的单词补数据，不新建文件——卡片本来就只在有例句时才出现。
  *
- * 输入：public/dicts/*.json（dictionary.ts 里 language: 'en' 的词库）
+ * 输入：public/dicts/*.json（dictionary.ts 里 language: 'en' 的词库），
+ *       以及 scripts/data/dict-annotations.json —— normalise-dict-trans.mjs 在把
+ *       【】标注块从释义里剥掉之前留存的原文，词库清理过之后标注只剩这一个来源
  * 输出：往 public/word-details/words/<词>.json 里加
  *       senses / mnemonic / synonyms / antonyms / cognates / collocations
  *
@@ -213,6 +215,15 @@ function loadEnglishDicts() {
     .filter(Boolean)
 }
 
+/** normalise-dict-trans.mjs 留存下来的标注块，词库清理过之后这里才是唯一来源 */
+function loadPreservedAnnotations() {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(ROOT, 'scripts/data/dict-annotations.json'), 'utf8'))
+  } catch {
+    return {}
+  }
+}
+
 function main() {
   if (!fs.existsSync(WORDS_DIR)) throw new Error('还没有单词详情，请先运行 gen-word-details.mjs')
 
@@ -253,6 +264,13 @@ function main() {
       const prev = best.get(name)
       if (!prev || value > prev.value) best.set(name, { senses, value })
     }
+  }
+
+  const preserved = loadPreservedAnnotations()
+  for (const [name, transList] of Object.entries(preserved)) {
+    if (!targets.has(name)) continue
+    if (!notes.has(name)) notes.set(name, { mnemonic: '', synonyms: [], antonyms: [], cognates: [], collocations: [] })
+    collectNotes(transList, notes.get(name))
   }
 
   const stat = { senses: 0, mnemonic: 0, synonyms: 0, antonyms: 0, cognates: 0, collocations: 0 }
