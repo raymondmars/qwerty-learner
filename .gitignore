@@ -38,3 +38,6 @@ public/word-details/*
 
 # Claude Code 的本地权限配置，属于个人机器设置，不入库
 .claude/settings.local.json
+
+# 部署脚本含服务器信息，属于本地配置，不入库
+Makefile
