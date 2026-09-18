@@ -7,6 +7,7 @@ import DataTag from './DataTag'
 import RowPagination from './RowPagination'
 import type { WordPronunciationIconRef } from '@/components/WordPronunciationIcon'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
+import YouglishLink from '@/components/YouglishLink'
 import Phonetic from '@/pages/Typing/components/WordPanel/components/Phonetic'
 import Letter from '@/pages/Typing/components/WordPanel/components/Word/Letter'
 import { idDictionaryMap } from '@/resources/dictionary'
@@ -90,6 +91,8 @@ const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) =
               {word ? word.trans.join('；') : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
             </span>
           </div>
+          {/* 反复拼错的词最值得绕路去看看它在真实视频里怎么用 */}
+          <YouglishLink word={currentRowDetail.word} className="mt-3" />
         </div>
         <div className="item flex flex-col gap-4">
           <div className="flex gap-6">
