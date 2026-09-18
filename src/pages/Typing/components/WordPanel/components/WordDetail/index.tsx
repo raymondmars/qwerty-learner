@@ -1,4 +1,5 @@
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
+import YouglishLink from '@/components/YouglishLink'
 import type { WordDetail, WordSense } from '@/pages/Typing/hooks/useWordDetail'
 import { currentChapterAtom, currentDictInfoAtom, phoneticConfigAtom, pronunciationIsOpenAtom, wordMistakesAtom } from '@/store'
 import type { Word } from '@/typings'
@@ -176,9 +177,13 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
             )}
           </div>
 
-          {hasPhonetic && (
-            <div className="font-mono text-[12.5px] text-gray-400 dark:text-gray-500">{`${phoneticLabel} [${phonetic}]`}</div>
-          )}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+            {hasPhonetic && (
+              <span className="font-mono text-[12.5px] text-gray-400 dark:text-gray-500">{`${phoneticLabel} [${phonetic}]`}</span>
+            )}
+            {/* 卡片只在拼完之后出现，此刻给真实语境是加深，不会挤占检索时间 */}
+            <YouglishLink word={word.name} />
+          </div>
 
           {hasMistake && (
             <div className="text-[12.5px] text-gray-400 dark:text-gray-500">
