@@ -18,10 +18,15 @@ export function initGoogleAnalytics() {
   document.head.appendChild(script)
 
   window.dataLayer = window.dataLayer || []
-  // gtag 依赖 arguments 对象，这里必须用 function 而不是箭头函数
-  function gtag(...args: unknown[]) {
-    window.dataLayer.push(args)
-  }
+  // 必须把 arguments 对象原样推进 dataLayer。gtag.js 只把 [object Arguments] 的条目
+  // 当作 gtag 命令来执行，推普通数组会被它静默跳过 —— 脚本照样加载、容器照样初始化，
+  // 但 js / config 从未生效，页面一个 page_view 都发不出去，GA 实时里完全看不到。
+  // 所以既不能用箭头函数，也不能用 rest 参数（rest 拿到的就是普通数组）。
+  const gtag = function () {
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer.push(arguments)
+  } as (...args: unknown[]) => void
+  window.gtag = gtag
   gtag('js', new Date())
   gtag('config', GA_MEASUREMENT_ID)
 }
