@@ -2,7 +2,14 @@ import { db } from '.'
 import type { IWordReviewState } from './record'
 import { getUTCUnixTimestamp } from '@/utils'
 import type { ReviewGrade } from '@/utils/spacedRepetition'
-import { dueTimestampAfter, endOfTodayTimestamp, gradeFromPerformance, initialReviewState, scheduleNext } from '@/utils/spacedRepetition'
+import {
+  dueTimestampAfter,
+  endOfTodayTimestamp,
+  gradeFromPerformance,
+  initialReviewState,
+  isLeech,
+  scheduleNext,
+} from '@/utils/spacedRepetition'
 
 /**
  * 间隔重复状态的读写。调度算法本身在 src/utils/spacedRepetition.ts，
@@ -71,11 +78,17 @@ export async function getDueWordSet(): Promise<Set<string>> {
 /**
  * 到期的单词按「最该先复习」排序：逾期越久越靠前，同样逾期时错得多的靠前。
  * 逾期久的遗忘风险最高，先救它们。
+ *
+ * 唯一的例外是顽固词，它们一律排到最后。原本「错得多的靠前」这条规则对普通词是对的，
+ * 但碰上顽固词会翻车：顽固词答错就退回 1 天，于是天天到期，又因为错得最多而天天排在
+ * 队首，先把当日额度吃掉 —— 其余到期的词被挤到明天，而它们正在衰退。用户每次打开
+ * 复习还都是从自己最挫败的那几个词开始。排到队尾之后，额度优先给真正测得出来的词，
+ * 顽固词在额度有富余时才轮到。
  */
 export async function getDueStatesSorted(): Promise<IWordReviewState[]> {
   try {
     const states = await db.wordReviewStates.where('dueTimestamp').belowOrEqual(endOfTodayTimestamp()).toArray()
-    return states.sort((a, b) => a.dueTimestamp - b.dueTimestamp || b.lapses - a.lapses)
+    return states.sort((a, b) => Number(isLeech(a)) - Number(isLeech(b)) || a.dueTimestamp - b.dueTimestamp || b.lapses - a.lapses)
   } catch (error) {
     console.error('读取到期单词失败', error)
     return []
