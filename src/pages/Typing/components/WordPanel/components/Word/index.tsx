@@ -23,6 +23,7 @@ import {
   isWordConfettiOpenAtom,
   isWordMistakenAtom,
   isWordWaitingEnterAtom,
+  isYouglishOpenAtom,
   pronunciationIsOpenAtom,
   wordDictationConfigAtom,
   wordMistakesAtom,
@@ -100,6 +101,9 @@ export default function WordComponent({
   const setIsWordMistaken = useSetAtom(isWordMistakenAtom)
   const setWordMistakes = useSetAtom(wordMistakesAtom)
   const isFirstEncounter = useIsFirstEncounter(word.name)
+  // 视频例句弹窗开着时，练习页的快捷键要让路：Enter 会把背后的单词翻过去，
+  // Tab 被 preventDefault 会让弹窗内无法键盘导航
+  const isYouglishOpen = useAtomValue(isYouglishOpenAtom)
 
   // 彩带跟着「拼写全对」走，不依赖 Enter 继续的设置，关掉该设置时也照样庆祝
   useWordConfetti(isWordConfettiOpen && wordState.isFinished && isWordAllCorrect)
@@ -218,8 +222,8 @@ export default function WordComponent({
     () => {
       handleHoverWord(true)
     },
-    { enableOnFormTags: true, preventDefault: true },
-    [],
+    { enableOnFormTags: true, preventDefault: !isYouglishOpen, enabled: !isYouglishOpen },
+    [isYouglishOpen],
   )
 
   useHotkeys(
@@ -227,8 +231,8 @@ export default function WordComponent({
     () => {
       handleHoverWord(false)
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
-    [],
+    { enableOnFormTags: true, keyup: true, preventDefault: !isYouglishOpen, enabled: !isYouglishOpen },
+    [isYouglishOpen],
   )
   useHotkeys(
     'ctrl+j',
@@ -410,12 +414,15 @@ export default function WordComponent({
     () => {
       // 暂停时 Enter 用来恢复练习，不能穿透到这里把单词翻过去
       if (!state.isTyping) return
+      // 视频例句弹窗开着时同理：Enter 是关弹窗，不是翻页
+      if (isYouglishOpen) return
+
       if (wordState.isFinished) {
         onFinish()
       }
     },
     { enableOnFormTags: true, preventDefault: true },
-    [state.isTyping, wordState.isFinished, onFinish],
+    [state.isTyping, wordState.isFinished, onFinish, isYouglishOpen],
   )
 
   return (

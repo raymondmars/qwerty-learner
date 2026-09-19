@@ -5,6 +5,7 @@ import { currentRowDetailAtom } from '../store'
 import type { groupedWordRecords } from '../type'
 import DataTag from './DataTag'
 import RowPagination from './RowPagination'
+import HotkeyHint from '@/components/HotkeyHint'
 import type { WordPronunciationIconRef } from '@/components/WordPronunciationIcon'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import YouglishLink from '@/components/YouglishLink'
@@ -79,11 +80,11 @@ const RowDetail: React.FC<RowDetailProps> = ({ currentRowDetail, allRecords }) =
           <div className="relative flex h-8 items-center">
             {word ? <Phonetic word={word} /> : <LoadingWordUI isLoading={isLoading} hasError={hasError} />}
             {word && (
-              <WordPronunciationIcon
-                word={word}
-                className="absolute -right-7 top-1/2 h-5 w-5 -translate-y-1/2 transform "
-                ref={wordPronunciationIconRef}
-              />
+              // 图标和键帽一起绝对定位，位置和原来一致 —— 内联进来会把音标的居中挤歪
+              <span className="absolute -right-7 top-1/2 flex -translate-y-1/2 transform items-center gap-1.5">
+                <WordPronunciationIcon word={word} className="h-5 w-5" ref={wordPronunciationIconRef} />
+                <HotkeyHint keys="Ctrl J" />
+              </span>
             )}
           </div>
           <div className="flex max-w-[24rem] items-center">

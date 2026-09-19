@@ -13,6 +13,7 @@ import {
   isShowPrevAndNextWordAtom,
   isWordMistakenAtom,
   isWordWaitingEnterAtom,
+  isYouglishOpenAtom,
   loopWordConfigAtom,
   phoneticConfigAtom,
   reviewModeInfoAtom,
@@ -163,13 +164,16 @@ export default function WordPanel() {
     setIsHoveringTranslation(checked)
   }, [])
 
+  // 视频例句弹窗开着时让路，否则 Tab 被 preventDefault，弹窗内无法键盘导航
+  const isYouglishOpen = useAtomValue(isYouglishOpenAtom)
+
   useHotkeys(
     'tab',
     () => {
       handleShowTranslation(true)
     },
-    { enableOnFormTags: true, preventDefault: true },
-    [],
+    { enableOnFormTags: true, preventDefault: !isYouglishOpen, enabled: !isYouglishOpen },
+    [isYouglishOpen],
   )
 
   useHotkeys(
@@ -177,8 +181,8 @@ export default function WordPanel() {
     () => {
       handleShowTranslation(false)
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
-    [],
+    { enableOnFormTags: true, keyup: true, preventDefault: !isYouglishOpen, enabled: !isYouglishOpen },
+    [isYouglishOpen],
   )
 
   // 拼错时屏幕上留着用户敲错的字母，即使这个词没有例句词组，也要靠卡片给出正确拼写

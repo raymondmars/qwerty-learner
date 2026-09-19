@@ -1,3 +1,4 @@
+import HotkeyHint from '@/components/HotkeyHint'
 import { WordPronunciationIcon } from '@/components/WordPronunciationIcon'
 import YouglishLink from '@/components/YouglishLink'
 import type { WordDetail, WordSense } from '@/pages/Typing/hooks/useWordDetail'
@@ -172,11 +173,15 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
                 : word.name}
             </span>
             {pronunciationIsOpen && (
-              <WordPronunciationIcon
-                word={word}
-                className="h-4 w-4 self-center text-gray-400 hover:text-indigo-500"
-                iconClassName="h-4 w-4"
-              />
+              <>
+                <WordPronunciationIcon
+                  word={word}
+                  className="h-4 w-4 self-center text-gray-400 hover:text-indigo-500"
+                  iconClassName="h-4 w-4"
+                />
+                {/* ctrl+j 绑在 Word 组件上，这张卡出现时它正生效 */}
+                <HotkeyHint keys="Ctrl J" className="self-center" />
+              </>
             )}
           </div>
 
