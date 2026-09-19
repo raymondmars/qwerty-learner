@@ -225,7 +225,7 @@ export default function WordPanel() {
               )}
               {/* 正常文档流，卡片出现时把下方内容一起顶下去 */}
               {visibleWordDetail && (
-                <div className="mb-16 mt-3 flex justify-center">
+                <div className="mb-8 mt-3 flex justify-center">
                   <WordDetailCard word={currentWord} detail={visibleWordDetail} />
                 </div>
               )}

@@ -5,7 +5,7 @@ import { currentChapterAtom, currentDictInfoAtom, phoneticConfigAtom, pronunciat
 import type { Word } from '@/typings'
 import { useAtomValue } from 'jotai'
 import type { ReactNode } from 'react'
-import { useMemo } from 'react'
+import { Fragment, useMemo } from 'react'
 import IconLightBulb from '~icons/heroicons/light-bulb-solid'
 
 export type WordDetailProps = {
@@ -133,6 +133,9 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
   // 拼对时没有纠正信息要保护，多给的内容纯属加餐，愿意多看就多看
   const sentences = useMemo(() => (hasMistake ? detail.sentences.slice(0, 1) : detail.sentences), [hasMistake, detail.sentences])
 
+  // 词库不带词性前缀时整列省掉，否则会留一条 0 宽的空列和一段无意义的缩进
+  const hasPos = useMemo(() => senses.some((sense) => sense.pos), [senses])
+
   const hasRelated = Boolean(detail.synonyms?.length || detail.antonyms?.length || detail.cognates?.length)
   // 没有例句、词组和相关词时右栏整个省掉，卡片收成单栏，不留一大片空白
   const hasDetailColumn = sentences.length > 0 || phrases.length > 0 || hasRelated
@@ -147,7 +150,7 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
       <div className={`grid grid-cols-1 ${hasDetailColumn ? 'md:grid-cols-[minmax(0,300px)_minmax(0,1fr)]' : ''}`}>
         {/* 左栏：单词本体信息，浅色底把它和右侧的例句区分开 */}
         <div
-          className={`flex flex-col gap-5 bg-gradient-to-b from-indigo-50/50 to-indigo-50/20 px-9 py-9 text-left dark:from-white/[0.04] dark:to-transparent ${
+          className={`flex flex-col gap-3.5 bg-gradient-to-b from-indigo-50/50 to-indigo-50/20 px-9 py-6 text-left dark:from-white/[0.04] dark:to-transparent ${
             hasDetailColumn ? 'border-b border-gray-200/70 dark:border-white/10 md:border-b-0 md:border-r' : ''
           }`}
         >
@@ -194,19 +197,23 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
           <div className="h-px bg-gray-200/80 dark:bg-white/10" />
 
           {senses.length > 0 && (
-            <ul className="flex flex-col gap-2.5">
+            // 词性单独成列而不是内联前缀：内联时 n. / vt. / adj. 宽度不同，
+            // 会把每行的中文推到不同的起点。第一列宽度设 auto，由本卡里最宽的
+            // 词性撑开（vt.&vi. 这种也放得下），其余各行的中文自然对齐。
+            // items-baseline 让小字号的词性和大字号的释义落在同一条基线上。
+            <dl className={`grid items-baseline gap-x-2.5 gap-y-2 ${hasPos ? 'grid-cols-[auto_minmax(0,1fr)]' : 'grid-cols-1'}`}>
               {senses.map((sense, index) => (
-                <li key={`${index}-${sense.pos}`} className="text-[17px] font-medium leading-[1.7] text-gray-700 dark:text-gray-200">
-                  {sense.pos && <span className="mr-2 font-mono text-[11.5px] font-normal italic text-gray-400">{sense.pos}</span>}
-                  {sense.zh}
-                </li>
+                <Fragment key={`${index}-${sense.pos}`}>
+                  {hasPos && <dt className="font-mono text-[11.5px] font-normal italic text-gray-400">{sense.pos}</dt>}
+                  <dd className="text-[15.5px] font-medium leading-[1.55] text-gray-700 dark:text-gray-200">{sense.zh}</dd>
+                </Fragment>
               ))}
-            </ul>
+            </dl>
           )}
 
           {/* 助记是全卡片最有记忆价值的内容，给底色让它从正文里跳出来 */}
           {detail.mnemonic && (
-            <div className="flex items-start gap-2 rounded-xl bg-indigo-100/50 px-3 py-2.5 dark:bg-indigo-400/10">
+            <div className="flex items-start gap-2 rounded-xl bg-indigo-100/50 px-3 py-2 dark:bg-indigo-400/10">
               <IconLightBulb className="mt-0.5 shrink-0 text-indigo-400" fontSize={15} />
               <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-300">{detail.mnemonic}</p>
             </div>
@@ -219,7 +226,7 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
 
         {/* 右栏：编号例句与点线对齐的词组 */}
         {hasDetailColumn && (
-          <div className="px-10 pb-9 pt-8 text-left">
+          <div className="px-10 pb-6 pt-6 text-left">
             {sentences.length > 0 && (
               <div>
                 <SectionLabel>例句</SectionLabel>
@@ -227,14 +234,14 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
                   {sentences.map((sentence, index) => (
                     <li
                       key={sentence.en}
-                      className="grid grid-cols-[28px_minmax(0,1fr)] gap-x-3.5 border-b border-gray-100 py-5 last:border-b-0 dark:border-white/[0.07]"
+                      className="grid grid-cols-[28px_minmax(0,1fr)] gap-x-3.5 border-b border-gray-100 py-3 last:border-b-0 dark:border-white/[0.07]"
                     >
                       <span className="pt-1 font-mono text-xs text-gray-300 dark:text-gray-600">{String(index + 1).padStart(2, '0')}</span>
-                      <div className="grid gap-1.5">
-                        <p className="text-[17.5px] leading-[1.55] text-gray-700 dark:text-gray-200">
+                      <div className="grid gap-1">
+                        <p className="text-[17.5px] leading-[1.5] text-gray-700 dark:text-gray-200">
                           {highlightWord(sentence.en, word.name)}
                         </p>
-                        <p className="text-sm leading-[1.6] text-gray-400 dark:text-gray-500">{sentence.zh}</p>
+                        <p className="text-sm leading-[1.55] text-gray-400 dark:text-gray-500">{sentence.zh}</p>
                       </div>
                     </li>
                   ))}
@@ -243,11 +250,11 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
             )}
 
             {phrases.length > 0 && (
-              <div className={sentences.length > 0 ? 'mt-6' : ''}>
+              <div className={sentences.length > 0 ? 'mt-4' : ''}>
                 <SectionLabel>词组</SectionLabel>
-                <ul className="mt-3 grid gap-0.5">
+                <ul className="mt-2 grid gap-0.5">
                   {phrases.map((phrase) => (
-                    <li key={phrase.en} className="flex items-baseline gap-3 py-2">
+                    <li key={phrase.en} className="flex items-baseline gap-3 py-1.5">
                       <span className="font-mono text-[14.5px] font-medium text-gray-700 dark:text-gray-200">{phrase.en}</span>
                       {/* 点线把长短不一的词组和译文拉到同一条基线上 */}
                       <span className="h-px flex-1 bg-gray-200/80 dark:bg-white/10" />
@@ -259,7 +266,7 @@ export default function WordDetailCard({ word, detail }: WordDetailProps) {
             )}
 
             {hasRelated && (
-              <div className="mt-6 flex flex-col gap-2 border-t border-gray-100 pt-4 dark:border-white/[0.07]">
+              <div className="mt-4 flex flex-col gap-1.5 border-t border-gray-100 pt-3 dark:border-white/[0.07]">
                 <ChipRow
                   label="同义词"
                   words={detail.synonyms}
