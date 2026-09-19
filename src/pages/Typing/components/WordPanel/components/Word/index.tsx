@@ -87,6 +87,12 @@ export default function WordComponent({
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
 
+  // 检索延迟的埋点。readyAt 是「这个词变成可输入」的时刻，不是「显示」的时刻 ——
+  // 暂停时单词还在屏幕上，恢复用的那次按键被 Typing 页吃掉不算输入，若从显示起算
+  // 会把整段暂停都算进检索延迟里。firstKeyLatency 每词只记一次，退格重敲不覆盖。
+  const readyAtRef = useRef(Date.now())
+  const firstKeyLatencyRef = useRef<number | undefined>(undefined)
+
   const isWaitingForEnter = isEnterToNextWord && wordState.isFinished
   // 以最终结果判定全对：中途输错但退格改正的，同样算全对。决定字母是否变绿、单词是否放大
   const isWordAllCorrect = wordState.isFinished && wordState.letterStates.every((letterState) => letterState === 'correct')
@@ -156,6 +162,8 @@ export default function WordComponent({
     newWordState.startTime = getUtcString()
     newWordState.randomLetterVisible = headword.split('').map(() => Math.random() > 0.4)
     setWordState(newWordState)
+    readyAtRef.current = Date.now()
+    firstKeyLatencyRef.current = undefined
   }, [word, setWordState])
 
   const updateInput = useCallback(
@@ -243,6 +251,13 @@ export default function WordComponent({
    */
   const playsAfterFinish = isEnterToNextWord && isFirstEncounter === false
 
+  // 从暂停恢复：还没敲下第一个键的话，检索延迟要从恢复的这一刻重新起算
+  useEffect(() => {
+    if (state.isTyping && firstKeyLatencyRef.current === undefined) {
+      readyAtRef.current = Date.now()
+    }
+  }, [state.isTyping])
+
   useEffect(() => {
     // 查询还没回来就先不播，否则每个练过的词都会在判定出来之前抢先响一次
     if (isFirstEncounter === undefined || playsAfterFinish) return
@@ -305,6 +320,11 @@ export default function WordComponent({
     // 退格会让 inputWord 缩短并再次触发本 effect，此时末位是已经判定过的字符，不能重复计数
     if (wordState.letterStates[inputLength - 1] !== 'normal') {
       return
+    }
+
+    // 首击延迟。对错都算 —— 要量的是「多久开始产出」，不是「多久产出正确答案」
+    if (inputLength === 1 && firstKeyLatencyRef.current === undefined) {
+      firstKeyLatencyRef.current = Date.now() - readyAtRef.current
     }
 
     const inputChar = wordState.inputWord[inputLength - 1]
@@ -374,6 +394,7 @@ export default function WordComponent({
         wrongCount: wordState.wrongCount,
         letterTimeArray: wordState.letterTimeArray,
         letterMistake: wordState.letterMistake,
+        timeToFirstKey: firstKeyLatencyRef.current,
       })
 
       // 开启 Enter 继续时，停留在当前单词，由下方的快捷键触发 onFinish
@@ -389,7 +410,6 @@ export default function WordComponent({
     () => {
       // 暂停时 Enter 用来恢复练习，不能穿透到这里把单词翻过去
       if (!state.isTyping) return
-
       if (wordState.isFinished) {
         onFinish()
       }
