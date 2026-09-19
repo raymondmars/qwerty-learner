@@ -14,6 +14,20 @@ export interface IWordRecord {
   wrongCount: number
   // 每个字母被错误输入成什么, index 为字母的索引, 数组内为错误的 e.key
   mistakes: LetterMistakes
+  /**
+   * 从「这个词变成可输入」到「敲下第一个键」的毫秒数 —— 检索延迟。
+   *
+   * 只采集，暂不参与任何判定。现有的「犹豫」判定（SRS 评级和章末重测）用的是
+   * timing 里的字母间隔，那测的是打字流畅度而不是检索延迟：字母间隔主要由双字母
+   * 组合的手型和左右手交替决定，而且 <=5 字母的词只有 <=4 个间隔，均值噪声很大。
+   * 首击延迟才是记忆强度的直接行为指标，但它自己也有噪声（默写模式下包含读中文
+   * 释义的时间，用户走神会制造假的长延迟），所以先攒真实数据，验证它确实比字母
+   * 间隔更能预测「下次会不会拼错」，再决定要不要切换判定依据。
+   *
+   * 刻意存原始值不做截断：离群值怎么处理是分析阶段的事，写入时截断会丢掉信息。
+   * 老记录没有这个字段，读取方要能容忍 undefined。
+   */
+  timeToFirstKey?: number
 }
 
 export interface LetterMistakes {
@@ -29,8 +43,17 @@ export class WordRecord implements IWordRecord {
   timing: number[]
   wrongCount: number
   mistakes: LetterMistakes
+  timeToFirstKey?: number
 
-  constructor(word: string, dict: string, chapter: number | null, timing: number[], wrongCount: number, mistakes: LetterMistakes) {
+  constructor(
+    word: string,
+    dict: string,
+    chapter: number | null,
+    timing: number[],
+    wrongCount: number,
+    mistakes: LetterMistakes,
+    timeToFirstKey?: number,
+  ) {
     this.word = word
     this.timeStamp = getUTCUnixTimestamp()
     this.dict = dict
@@ -38,6 +61,7 @@ export class WordRecord implements IWordRecord {
     this.timing = timing
     this.wrongCount = wrongCount
     this.mistakes = mistakes
+    this.timeToFirstKey = timeToFirstKey
   }
 
   get totalTime() {

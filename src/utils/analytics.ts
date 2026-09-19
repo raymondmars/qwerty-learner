@@ -30,3 +30,18 @@ export function initGoogleAnalytics() {
   gtag('js', new Date())
   gtag('config', GA_MEASUREMENT_ID)
 }
+
+/**
+ * 上报一个自定义事件。没配衡量 ID、或 gtag 还没加载完时静默跳过 ——
+ * 统计失败绝不能影响功能本身。
+ */
+export function trackEvent(name: string, params?: Record<string, unknown>) {
+  if (!GA_MEASUREMENT_ID) return
+  if (typeof window.gtag !== 'function') return
+
+  try {
+    window.gtag('event', name, params ?? {})
+  } catch (error) {
+    console.error('上报事件失败', error)
+  }
+}

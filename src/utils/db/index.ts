@@ -110,11 +110,13 @@ export function useSaveWordRecord() {
       wrongCount,
       letterTimeArray,
       letterMistake,
+      timeToFirstKey,
     }: {
       word: string
       wrongCount: number
       letterTimeArray: number[]
       letterMistake: LetterMistakes
+      timeToFirstKey?: number
     }) => {
       const timing = []
       for (let i = 1; i < letterTimeArray.length; i++) {
@@ -122,7 +124,7 @@ export function useSaveWordRecord() {
         timing.push(diff)
       }
 
-      const wordRecord = new WordRecord(word, dictID, isRevision ? -1 : currentChapter, timing, wrongCount, letterMistake)
+      const wordRecord = new WordRecord(word, dictID, isRevision ? -1 : currentChapter, timing, wrongCount, letterMistake, timeToFirstKey)
 
       let dbID = -1
       try {

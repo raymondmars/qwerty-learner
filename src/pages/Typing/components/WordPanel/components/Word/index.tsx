@@ -23,6 +23,7 @@ import {
   isWordConfettiOpenAtom,
   isWordMistakenAtom,
   isWordWaitingEnterAtom,
+  isYouglishOpenAtom,
   pronunciationIsOpenAtom,
   wordDictationConfigAtom,
   wordMistakesAtom,
@@ -87,6 +88,12 @@ export default function WordComponent({
   const [showTipAlert, setShowTipAlert] = useState(false)
   const wordPronunciationIconRef = useRef<WordPronunciationIconRef>(null)
 
+  // 检索延迟的埋点。readyAt 是「这个词变成可输入」的时刻，不是「显示」的时刻 ——
+  // 暂停时单词还在屏幕上，恢复用的那次按键被 Typing 页吃掉不算输入，若从显示起算
+  // 会把整段暂停都算进检索延迟里。firstKeyLatency 每词只记一次，退格重敲不覆盖。
+  const readyAtRef = useRef(Date.now())
+  const firstKeyLatencyRef = useRef<number | undefined>(undefined)
+
   const isWaitingForEnter = isEnterToNextWord && wordState.isFinished
   // 以最终结果判定全对：中途输错但退格改正的，同样算全对。决定字母是否变绿、单词是否放大
   const isWordAllCorrect = wordState.isFinished && wordState.letterStates.every((letterState) => letterState === 'correct')
@@ -94,6 +101,9 @@ export default function WordComponent({
   const setIsWordMistaken = useSetAtom(isWordMistakenAtom)
   const setWordMistakes = useSetAtom(wordMistakesAtom)
   const isFirstEncounter = useIsFirstEncounter(word.name)
+  // 视频例句弹窗开着时，练习页的快捷键要让路：Enter 会把背后的单词翻过去，
+  // Tab 被 preventDefault 会让弹窗内无法键盘导航
+  const isYouglishOpen = useAtomValue(isYouglishOpenAtom)
 
   // 彩带跟着「拼写全对」走，不依赖 Enter 继续的设置，关掉该设置时也照样庆祝
   useWordConfetti(isWordConfettiOpen && wordState.isFinished && isWordAllCorrect)
@@ -156,6 +166,8 @@ export default function WordComponent({
     newWordState.startTime = getUtcString()
     newWordState.randomLetterVisible = headword.split('').map(() => Math.random() > 0.4)
     setWordState(newWordState)
+    readyAtRef.current = Date.now()
+    firstKeyLatencyRef.current = undefined
   }, [word, setWordState])
 
   const updateInput = useCallback(
@@ -210,8 +222,8 @@ export default function WordComponent({
     () => {
       handleHoverWord(true)
     },
-    { enableOnFormTags: true, preventDefault: true },
-    [],
+    { enableOnFormTags: true, preventDefault: !isYouglishOpen, enabled: !isYouglishOpen },
+    [isYouglishOpen],
   )
 
   useHotkeys(
@@ -219,8 +231,8 @@ export default function WordComponent({
     () => {
       handleHoverWord(false)
     },
-    { enableOnFormTags: true, keyup: true, preventDefault: true },
-    [],
+    { enableOnFormTags: true, keyup: true, preventDefault: !isYouglishOpen, enabled: !isYouglishOpen },
+    [isYouglishOpen],
   )
   useHotkeys(
     'ctrl+j',
@@ -242,6 +254,13 @@ export default function WordComponent({
    * 下一个词的读音撞在一起，所以那种模式下维持开头播放。
    */
   const playsAfterFinish = isEnterToNextWord && isFirstEncounter === false
+
+  // 从暂停恢复：还没敲下第一个键的话，检索延迟要从恢复的这一刻重新起算
+  useEffect(() => {
+    if (state.isTyping && firstKeyLatencyRef.current === undefined) {
+      readyAtRef.current = Date.now()
+    }
+  }, [state.isTyping])
 
   useEffect(() => {
     // 查询还没回来就先不播，否则每个练过的词都会在判定出来之前抢先响一次
@@ -305,6 +324,11 @@ export default function WordComponent({
     // 退格会让 inputWord 缩短并再次触发本 effect，此时末位是已经判定过的字符，不能重复计数
     if (wordState.letterStates[inputLength - 1] !== 'normal') {
       return
+    }
+
+    // 首击延迟。对错都算 —— 要量的是「多久开始产出」，不是「多久产出正确答案」
+    if (inputLength === 1 && firstKeyLatencyRef.current === undefined) {
+      firstKeyLatencyRef.current = Date.now() - readyAtRef.current
     }
 
     const inputChar = wordState.inputWord[inputLength - 1]
@@ -374,6 +398,7 @@ export default function WordComponent({
         wrongCount: wordState.wrongCount,
         letterTimeArray: wordState.letterTimeArray,
         letterMistake: wordState.letterMistake,
+        timeToFirstKey: firstKeyLatencyRef.current,
       })
 
       // 开启 Enter 继续时，停留在当前单词，由下方的快捷键触发 onFinish
@@ -389,13 +414,15 @@ export default function WordComponent({
     () => {
       // 暂停时 Enter 用来恢复练习，不能穿透到这里把单词翻过去
       if (!state.isTyping) return
+      // 视频例句弹窗开着时同理：Enter 是关弹窗，不是翻页
+      if (isYouglishOpen) return
 
       if (wordState.isFinished) {
         onFinish()
       }
     },
     { enableOnFormTags: true, preventDefault: true },
-    [state.isTyping, wordState.isFinished, onFinish],
+    [state.isTyping, wordState.isFinished, onFinish, isYouglishOpen],
   )
 
   return (

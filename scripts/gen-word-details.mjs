@@ -357,8 +357,14 @@ const stringArray = (n) => ({ type: 'array', items: { type: 'string' }, minItems
 // 这类译文没法自动修好，只能识别出来丢弃，宁可少一条也不要错的。
 const TRANSLATION_GARBAGE = /<\|im_start\|>|<tool_call>|"zh"\s*:|\{"en"|\\"/
 
+// 模型经常把「翻译这 3 句」理解成「输出一个编号列表」，于是每条译文自带 "1. " 前缀。
+// 只有「编号后不紧跟数字」才剥，否则 "1.5 米" 会被切成 "5 米"。
+const LIST_NUMBERING = /^\s*\d{1,2}\s*[.、)]\s*(?!\d)/
+
 function cleanTranslation(zh) {
-  const text = String(zh ?? '').trim()
+  const text = String(zh ?? '')
+    .trim()
+    .replace(LIST_NUMBERING, '')
   const marker = text.search(/[：:]/)
   if (marker < 0) return text
 

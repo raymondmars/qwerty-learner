@@ -12,6 +12,7 @@ import type { Word } from '@/typings'
 import { localDateKey } from '@/utils/db'
 import { ReviewRecord } from '@/utils/db/record'
 import { backfillReviewStates, getDueStatesSorted } from '@/utils/db/review-state'
+import { isLeech } from '@/utils/spacedRepetition'
 import { wordListFetcher } from '@/utils/wordListFetcher'
 import { useAtomValue, useSetAtom } from 'jotai'
 import { useCallback, useEffect, useState } from 'react'
@@ -37,6 +38,9 @@ export function useDueReview() {
 
   const { data: wordList } = useSWR(currentDictInfo.url, wordListFetcher)
   const [dueWords, setDueWords] = useState<Word[]>([])
+  // 到期队列里有多少是顽固词。它们被排到队尾，正常情况下今天排不上，
+  // 所以要能说清「为什么这几个词不见了」，不能静默处理
+  const [leechCount, setLeechCount] = useState(0)
 
   useEffect(() => {
     if (!wordList) return
@@ -52,11 +56,15 @@ export function useDueReview() {
       // 到期状态已按「最该先复习」排好序，这里按同样的顺序从词表里取词
       const byName = new Map(wordList.map((word) => [word.name.toLowerCase(), word]))
       const words: Word[] = []
+      let leeches = 0
       for (const state of states) {
         const word = byName.get(state.word)
-        if (word) words.push(word)
+        if (!word) continue
+        words.push(word)
+        if (isLeech(state)) leeches += 1
       }
       setDueWords(words)
+      setLeechCount(leeches)
     }
 
     load()
@@ -90,5 +98,5 @@ export function useDueReview() {
     })
   }, [dueWords, reviewableCount, currentDictId, setCurrentDictId, setCurrentChapter, setReviewModeInfo])
 
-  return { dueCount: dueWords.length, reviewableCount, isDailyGoalDone, startReview }
+  return { dueCount: dueWords.length, reviewableCount, leechCount, isDailyGoalDone, startReview }
 }

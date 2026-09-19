@@ -54,6 +54,21 @@ body,
   background: transparent;
 }
 
+/*
+ * 藏掉滚动条本身，但保留滚动能力。
+ * 用在视频例句弹窗的 widget 容器上：溢出的部分是 YouGlish 自己的推广块和滚动广告，
+ * 不是用户需要看的内容，一条常驻滚动条纯属噪音；但不能直接 overflow-hidden ——
+ * 广告长高时会把字幕顶下去，那时用户还得够得着。
+ */
+.scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* 旧版 Edge */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Chrome / Safari */
+}
+
 @layer components {
   .icon {
     @apply h-5.5 w-5.5 focus:outline-none;

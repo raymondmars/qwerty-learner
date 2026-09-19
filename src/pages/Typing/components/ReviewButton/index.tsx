@@ -14,7 +14,9 @@ import IconRepeat from '~icons/tabler/repeat'
  * 没有到期单词时整个按钮消失：常驻一个 0 只会变成背景噪声，有数字时才出现反而有提示作用。
  */
 export default function ReviewButton() {
-  const { dueCount, reviewableCount, isDailyGoalDone, startReview } = useDueReview()
+  const { dueCount, reviewableCount, leechCount, isDailyGoalDone, startReview } = useDueReview()
+  // 顽固词被排到队尾，今天多半排不上。不说明的话，用户会觉得那几个词凭空消失了
+  const leechNote = leechCount > 0 ? `，其中 ${leechCount} 个反复拼错的词已排到最后` : ''
   const isReviewMode = useAtomValue(isReviewModeAtom)
 
   if (isReviewMode || dueCount === 0) return null
@@ -22,7 +24,7 @@ export default function ReviewButton() {
   // 额度用完但还有积压：给个完成态，而不是让按钮凭空消失让人以为出了 bug
   if (isDailyGoalDone) {
     return (
-      <Tooltip content={`今天的复习额度已用完，还有 ${dueCount} 个词到期，明天继续`}>
+      <Tooltip content={`今天的复习额度已用完，还有 ${dueCount} 个词到期${leechNote}，明天继续`}>
         <span className="flex cursor-default items-center gap-1.5 rounded-full bg-green-50 px-3.5 py-2 text-[13px] font-semibold text-green-700 dark:bg-green-400/10 dark:text-green-300">
           <IconCheck className="text-[15px]" />
           今日复习已完成
@@ -34,7 +36,9 @@ export default function ReviewButton() {
   return (
     <Tooltip
       content={
-        dueCount > reviewableCount ? `共 ${dueCount} 个词到期，今天先练 ${reviewableCount} 个` : '按间隔重复算法排出来的、今天该复习的单词'
+        dueCount > reviewableCount
+          ? `共 ${dueCount} 个词到期${leechNote}，今天先练 ${reviewableCount} 个`
+          : `按间隔重复算法排出来的、今天该复习的单词${leechNote}`
       }
     >
       <button

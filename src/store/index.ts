@@ -128,6 +128,15 @@ export const isOpenDarkModeAtom = atomWithStorage('isOpenDarkModeAtom', window.m
 // 用于让 StartButton 上的 Enter（开始/暂停）快捷键在此期间让位
 export const isWordWaitingEnterAtom = atom(false)
 
+/**
+ * 视频例句弹窗是否打开。
+ *
+ * 练习页的若干快捷键注册时带了 enableOnFormTags，弹窗盖在上面照样会触发 ——
+ * Enter 会把背后的单词直接翻过去，Tab 被 preventDefault 会让弹窗内无法键盘导航。
+ * 这些快捷键据此让路。
+ */
+export const isYouglishOpenAtom = atom(false)
+
 // 当前完成的单词里留有拼错的字母。默写模式下屏幕上显示的是用户敲错的字符，
 // 此时即使没有例句词组，也要把详情卡片显示出来，让用户看到正确拼写
 export const isWordMistakenAtom = atom(false)
