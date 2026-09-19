@@ -51,3 +51,6 @@
 - 新增词库后在 `src/resources/dictionary.ts` 里登记，`length` 必须和 json 的条目数一致（章节数由它算出来）。
 - 释义主体是英文的词库（`4000_Essential_English_Words`、`SATen`、`word_roots1` 等）是有意为之，任何「统一成中文」的处理都必须排除它们。
 - 部署：`make deploy`（构建后 rsync 到服务器，带 `--delete`）。拿不准先跑 `make deploy-dry`。
+- 视频例句用的是 YouGlish **官方 widget**（`YouglishDialog`）。自建索引这条路已经查证并否决：YouTube 的 `captions.download` 要求 OAuth 且必须是视频所有者，第三方公开视频一律 403；播放器用的那条非公开 timedtext 接口属 ToS 灰区，机房 IP 还会被反爬拦掉。不要再提议自建。
+  - 使用条款里对本项目有效的只有两条：页脚的 `Powered by YouGlish.com` **必须常驻可见**；商业用途和高日展示量需要先联系对方。本项目自部署、免费、无广告无订阅，不属于商业用途（接 GA 是测量不是变现）。
+  - 日展示量不用猜：widget 只在弹窗打开时加载，所以 GA 里 `youglish_open` 事件的日计数就是它，一比一。日均稳定超过 1000 次再去联系对方。
